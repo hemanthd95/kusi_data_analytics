@@ -1,0 +1,53 @@
+{
+  "region": "southeast",
+  "state": "South Carolina",
+  "state_fips": "45",
+  "field_count": 25,
+  "total_acres": 3875.13,
+  "years": [
+    2020,
+    2021,
+    2022,
+    2023
+  ],
+  "crop_types_by_year": {
+    "2020": [
+      "Corn",
+      "Cotton",
+      "Soybeans",
+      "Winter Wheat"
+    ],
+    "2021": [
+      "Corn",
+      "Cotton",
+      "Soybeans",
+      "Winter Wheat"
+    ],
+    "2022": [
+      "Corn",
+      "Cotton",
+      "Soybeans"
+    ],
+    "2023": [
+      "Corn",
+      "Cotton",
+      "Soybeans"
+    ]
+  },
+  "expected_merge_fields": 25,
+  "actual_merge_fields": 25,
+  "matched_fields": 25,
+  "unmatched_fields": 0,
+  "duplicate_field_ids": 0,
+  "boundary_source": {
+    "name": "USDA NASS Crop Sequence Boundaries 2022",
+    "url": "https://www.nass.usda.gov/Research_and_Science/Crop-Sequence-Boundaries/",
+    "accessed": "2026-07-27"
+  },
+  "cdl_source": {
+    "name": "USDA NASS Cropland Data Layer",
+    "url_pattern": "https://nassgeodata.gmu.edu/nass_data_cache/byfips/CDL_{year}_45.tif",
+    "accessed": "2026-07-27",
+    "method": "state raster, polygons reprojected to raster CRS, categorical pixel counts, dominant class and percentage"
+  }
+}

@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_074da43828bd83b2541593376abf81fd {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+    
+                    <style>
+                        .foliumtooltip {
+                            
+                        }
+                       .foliumtooltip table{
+                            margin: auto;
+                        }
+                        .foliumtooltip tr{
+                            text-align: left;
+                        }
+                        .foliumtooltip th{
+                            padding: 2px; padding-right: 8px;
+                        }
+                    </style>
+            
+    
+                    <style>
+                        .foliumpopup {
+                            margin: auto;
+                        }
+                       .foliumpopup table{
+                            margin: auto;
+                        }
+                        .foliumpopup tr{
+                            text-align: left;
+                        }
+                        .foliumpopup th{
+                            padding: 2px; padding-right: 8px;
+                        }
+                    </style>
+            
+</head>
+<body>
+    
+    <div style="position:fixed;bottom:25px;left:25px;z-index:9999;background:white;padding:12px;border:1px solid #555"><b>2023 CDL crop</b><div><i style="background:#2e7d32;width:14px;height:14px;display:inline-block;margin-right:6px"></i>Corn</div><div><i style="background:#f9a825;width:14px;height:14px;display:inline-block;margin-right:6px"></i>Soybeans</div><div><i style="background:#1565c0;width:14px;height:14px;display:inline-block;margin-right:6px"></i>Cotton</div><div><i style="background:#e65100;width:14px;height:14px;display:inline-block;margin-right:6px"></i>Winter Wheat</div></div>
+    
+            <div class="folium-map" id="map_074da43828bd83b2541593376abf81fd" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_074da43828bd83b2541593376abf81fd = L.map(
+                "map_074da43828bd83b2541593376abf81fd",
+                {
+                    center: [33.17700000000001, -80.716],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_2b3f946dd21ac4b9d02195191f5a3434 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_2b3f946dd21ac4b9d02195191f5a3434.addTo(map_074da43828bd83b2541593376abf81fd);
+        
+    
+        function geo_json_41724688423cb07bfa43d1387a3e7807_styler(feature) {
+            switch(feature.id) {
+                case "0": case "6": case "8": case "11": case "16": case "18": case "20": 
+                    return {"color": "#263238", "fillColor": "#2e7d32", "fillOpacity": 0.72, "weight": 1.2};
+                case "1": case "2": case "4": case "5": case "9": case "12": case "13": case "15": case "17": case "19": case "22": case "24": 
+                    return {"color": "#263238", "fillColor": "#f9a825", "fillOpacity": 0.72, "weight": 1.2};
+                default:
+                    return {"color": "#263238", "fillColor": "#1565c0", "fillOpacity": 0.72, "weight": 1.2};
+            }
+        }
+
+        function geo_json_41724688423cb07bfa43d1387a3e7807_onEachFeature(feature, layer) {
+
+            layer.on({
+            });
+        };
+        var geo_json_41724688423cb07bfa43d1387a3e7807 = L.geoJson(null, {
+                onEachFeature: geo_json_41724688423cb07bfa43d1387a3e7807_onEachFeature,
+            
+                style: geo_json_41724688423cb07bfa43d1387a3e7807_styler,
+            ...{
+}
+        });
+
+        function geo_json_41724688423cb07bfa43d1387a3e7807_add (data) {
+            geo_json_41724688423cb07bfa43d1387a3e7807
+                .addData(data);
+        }
+            geo_json_41724688423cb07bfa43d1387a3e7807_add({"features": [{"geometry": {"coordinates": [[[-80.75654999999999, 33.141200000000005], [-80.74781399999999, 33.141732000000005], [-80.74745, 33.147850000000005], [-80.755731, 33.1488], [-80.75654999999999, 33.141200000000005]]], "type": "Polygon"}, "id": "0", "properties": {"area_acres": 149.54, "boundary_year": 2022, "crop_2020": "Soybeans", "crop_2021": "Corn", "crop_2022": "Soybeans", "crop_2023": "Corn", "crop_name": "Corn", "field_id": "45-2022-CSB-00001", "region": "southeast", "source": "USDA NASS Crop Sequence Boundaries 2022", "state": "South Carolina", "state_fips": "45"}, "type": "Feature"}, {"geometry": {"coordinates": [[[-80.7389, 33.140800000000006], [-80.729492, 33.141388000000006], [-80.72909999999999, 33.14815], [-80.738018, 33.1492], [-80.7389, 33.140800000000006]]], "type": "Polygon"}, "id": "1", "properties": {"area_acres": 177.99, "boundary_year": 2022, "crop_2020": "Cotton", "crop_2021": "Soybeans", "crop_2022": "Cotton", "crop_2023": "Soybeans", "crop_name": "Soybeans", "field_id": "45-2022-CSB-00002", "region": "southeast", "source": "USDA NASS Crop Sequence Boundaries 2022", "state": "South Carolina", "state_fips": "45"}, "type": "Feature"}, {"geometry": {"coordinates": [[[-80.72125, 33.141600000000004], [-80.71117, 33.142076], [-80.71074999999999, 33.14755], [-80.720305, 33.1484], [-80.72125, 33.141600000000004]]], "type": "Polygon"}, "id": "2", "properties": {"area_acres": 154.38, "boundary_year": 2022, "crop_2020": "Corn", "crop_2021": "Soybeans", "crop_2022": "Corn", "crop_2023": "Soybeans", "crop_name": "Soybeans", "field_id": "45-2022-CSB-00003", "region": "southeast", "source": "USDA NASS Crop Sequence Boundaries 2022", "state": "South Carolina", "state_fips": "45"}, "type": "Feature"}, {"geometry": {"coordinates": [[[-80.70219999999999, 33.141200000000005], [-80.694136, 33.141732000000005], [-80.6938, 33.147850000000005], [-80.701444, 33.1488], [-80.70219999999999, 33.141200000000005]]], "type": "Polygon"}, "id": "3", "properties": {"area_acres": 138.04, "boundary_year": 2022, "crop_2020": "Soybeans", "crop_2021": "Cotton", "crop_2022": "Soybeans", "crop_2023": "Cotton", "crop_name": "Cotton", "field_id": "45-2022-CSB-00004", "region": "southeast", "source": "USDA NASS Crop Sequence Boundaries 2022", "state": "South Carolina", "state_fips": "45"}, "type": "Feature"}, {"geometry": {"coordinates": [[[-80.68454999999999, 33.140800000000006], [-80.67581399999999, 33.141388000000006], [-80.67545, 33.14815], [-80.683731, 33.1492], [-80.68454999999999, 33.140800000000006]]], "type": "Polygon"}, "id": "4", "properties": {"area_acres": 165.28, "boundary_year": 2022, "crop_2020": "Winter Wheat", "crop_2021": "Soybeans", "crop_2022": "Corn", "crop_2023": "Soybeans", "crop_name": "Soybeans", "field_id": "45-2022-CSB-00005", "region": "southeast", "source": "USDA NASS Crop Sequence Boundaries 2022", "state": "South Carolina", "state_fips": "45"}, "type": "Feature"}, {"geometry": {"coordinates": [[[-80.7569, 33.1576], [-80.747492, 33.158076], [-80.74709999999999, 33.16355], [-80.756018, 33.1644], [-80.7569, 33.1576]]], "type": "Polygon"}, "id": "5", "properties": {"area_acres": 144.07, "boundary_year": 2022, "crop_2020": "Corn", "crop_2021": "Soybeans", "crop_2022": "Cotton", "crop_2023": "Soybeans", "crop_name": "Soybeans", "field_id": "45-2022-CSB-00006", "region": "southeast", "source": "USDA NASS Crop Sequence Boundaries 2022", "state": "South Carolina", "state_fips": "45"}, "type": "Feature"}, {"geometry": {"coordinates": [[[-80.73925, 33.1572], [-80.72917, 33.157732], [-80.72874999999999, 33.163850000000004], [-80.738305, 33.1648], [-80.73925, 33.1572]]], "type": "Polygon"}, "id": "6", "properties": {"area_acres": 172.51, "boundary_year": 2022, "crop_2020": "Soybeans", "crop_2021": "Corn", "crop_2022": "Soybeans", "crop_2023": "Corn", "crop_name": "Corn", "field_id": "45-2022-CSB-00007", "region": "southeast", "source": "USDA NASS Crop Sequence Boundaries 2022", "state": "South Carolina", "state_fips": "45"}, "type": "Feature"}, {"geometry": {"coordinates": [[[-80.72019999999999, 33.156800000000004], [-80.712136, 33.157388000000005], [-80.7118, 33.16415], [-80.719444, 33.1652], [-80.72019999999999, 33.156800000000004]]], "type": "Polygon"}, "id": "7", "properties": {"area_acres": 152.54, "boundary_year": 2022, "crop_2020": "Cotton", "crop_2021": "Soybeans", "crop_2022": "Corn", "crop_2023": "Cotton", "crop_name": "Cotton", "field_id": "45-2022-CSB-00008", "region": "southeast", "source": "USDA NASS Crop Sequence Boundaries 2022", "state": "South Carolina", "state_fips": "45"}, "type": "Feature"}, {"geometry": {"coordinates": [[[-80.70254999999999, 33.1576], [-80.69381399999999, 33.158076], [-80.69345, 33.16355], [-80.701731, 33.1644], [-80.70254999999999, 33.1576]]], "type": "Polygon"}, "id": "8", "properties": {"area_acres": 133.77, "boundary_year": 2022, "crop_2020": "Soybeans", "crop_2021": "Winter Wheat", "crop_2022": "Soybeans", "crop_2023": "Corn", "crop_name": "Corn", "field_id": "45-2022-CSB-00009", "region": "southeast", "source": "USDA NASS Crop Sequence Boundaries 2022", "state": "South Carolina", "state_fips": "45"}, "type": "Feature"}, {"geometry": {"coordinates": [[[-80.6849, 33.1572], [-80.67549199999999, 33.157732], [-80.67509999999999, 33.163850000000004], [-80.684018, 33.1648], [-80.6849, 33.1572]]], "type": "Polygon"}, "id": "9", "properties": {"area_acres": 161.01, "boundary_year": 2022, "crop_2020": "Corn", "crop_2021": "Soybeans", "crop_2022": "Corn", "crop_2023": "Soybeans", "crop_name": "Soybeans", "field_id": "45-2022-CSB-00010", "region": "southeast", "source": "USDA NASS Crop Sequence Boundaries 2022", "state": "South Carolina", "state_fips": "45"}, "type": "Feature"}, {"geometry": {"coordinates": [[[-80.75725, 33.1728], [-80.74717, 33.173388], [-80.74674999999999, 33.18015], [-80.756305, 33.1812], [-80.75725, 33.1728]]], "type": "Polygon"}, "id": "10", "properties": {"area_acres": 190.64, "boundary_year": 2022, "crop_2020": "Cotton", "crop_2021": "Cotton", "crop_2022": "Soybeans", "crop_2023": "Cotton", "crop_name": "Cotton", "field_id": "45-2022-CSB-00011", "region": "southeast", "source": "USDA NASS Crop Sequence Boundaries 2022", "state": "South Carolina", "state_fips": "45"}, "type": "Feature"}, {"geometry": {"coordinates": [[[-80.73819999999999, 33.1736], [-80.730136, 33.174076], [-80.7298, 33.17955], [-80.737444, 33.1804], [-80.73819999999999, 33.1736]]], "type": "Polygon"}, "id": "11", "properties": {"area_acres": 123.46, "boundary_year": 2022, "crop_2020": "Soybeans", "crop_2021": "Corn", "crop_2022": "Soybeans", "crop_2023": "Corn", "crop_name": "Corn", "field_id": "45-2022-CSB-00012", "region": "southeast", "source": "USDA NASS Crop Sequence Boundaries 2022", "state": "South Carolina", "state_fips": "45"}, "type": "Feature"}, {"geometry": {"coordinates": [[[-80.72054999999999, 33.1732], [-80.71181399999999, 33.173732], [-80.71145, 33.17985], [-80.719731, 33.1808], [-80.72054999999999, 33.1732]]], "type": "Polygon"}, "id": "12", "properties": {"area_acres": 149.49, "boundary_year": 2022, "crop_2020": "Corn", "crop_2021": "Soybeans", "crop_2022": "Cotton", "crop_2023": "Soybeans", "crop_name": "Soybeans", "field_id": "45-2022-CSB-00013", "region": "southeast", "source": "USDA NASS Crop Sequence Boundaries 2022", "state": "South Carolina", "state_fips": "45"}, "type": "Feature"}, {"geometry": {"coordinates": [[[-80.7029, 33.1728], [-80.69349199999999, 33.173388], [-80.69309999999999, 33.18015], [-80.702018, 33.1812], [-80.7029, 33.1728]]], "type": "Polygon"}, "id": "13", "properties": {"area_acres": 177.93, "boundary_year": 2022, "crop_2020": "Winter Wheat", "crop_2021": "Soybeans", "crop_2022": "Corn", "crop_2023": "Soybeans", "crop_name": "Soybeans", "field_id": "45-2022-CSB-00014", "region": "southeast", "source": "USDA NASS Crop Sequence Boundaries 2022", "state": "South Carolina", "state_fips": "45"}, "type": "Feature"}, {"geometry": {"coordinates": [[[-80.68525, 33.1736], [-80.67517, 33.174076], [-80.67474999999999, 33.17955], [-80.684305, 33.1804], [-80.68525, 33.1736]]], "type": "Polygon"}, "id": "14", "properties": {"area_acres": 154.33, "boundary_year": 2022, "crop_2020": "Soybeans", "crop_2021": "Cotton", "crop_2022": "Soybeans", "crop_2023": "Cotton", "crop_name": "Cotton", "field_id": "45-2022-CSB-00015", "region": "southeast", "source": "USDA NASS Crop Sequence Boundaries 2022", "state": "South Carolina", "state_fips": "45"}, "type": "Feature"}, {"geometry": {"coordinates": [[[-80.75619999999999, 33.18920000000001], [-80.748136, 33.18973200000001], [-80.7478, 33.19585000000001], [-80.755444, 33.1968], [-80.75619999999999, 33.18920000000001]]], "type": "Polygon"}, "id": "15", "properties": {"area_acres": 137.96, "boundary_year": 2022, "crop_2020": "Corn", "crop_2021": "Soybeans", "crop_2022": "Corn", "crop_2023": "Soybeans", "crop_name": "Soybeans", "field_id": "45-2022-CSB-00016", "region": "southeast", "source": "USDA NASS Crop Sequence Boundaries 2022", "state": "South Carolina", "state_fips": "45"}, "type": "Feature"}, {"geometry": {"coordinates": [[[-80.73854999999999, 33.18880000000001], [-80.72981399999999, 33.18938800000001], [-80.72945, 33.19615], [-80.737731, 33.1972], [-80.73854999999999, 33.18880000000001]]], "type": "Polygon"}, "id": "16", "properties": {"area_acres": 165.19, "boundary_year": 2022, "crop_2020": "Soybeans", "crop_2021": "Corn", "crop_2022": "Soybeans", "crop_2023": "Corn", "crop_name": "Corn", "field_id": "45-2022-CSB-00017", "region": "southeast", "source": "USDA NASS Crop Sequence Boundaries 2022", "state": "South Carolina", "state_fips": "45"}, "type": "Feature"}, {"geometry": {"coordinates": [[[-80.7209, 33.189600000000006], [-80.71149199999999, 33.190076000000005], [-80.71109999999999, 33.195550000000004], [-80.720018, 33.196400000000004], [-80.7209, 33.189600000000006]]], "type": "Polygon"}, "id": "17", "properties": {"area_acres": 144.01, "boundary_year": 2022, "crop_2020": "Cotton", "crop_2021": "Soybeans", "crop_2022": "Cotton", "crop_2023": "Soybeans", "crop_name": "Soybeans", "field_id": "45-2022-CSB-00018", "region": "southeast", "source": "USDA NASS Crop Sequence Boundaries 2022", "state": "South Carolina", "state_fips": "45"}, "type": "Feature"}, {"geometry": {"coordinates": [[[-80.70325, 33.18920000000001], [-80.69317, 33.18973200000001], [-80.69274999999999, 33.19585000000001], [-80.702305, 33.1968], [-80.70325, 33.18920000000001]]], "type": "Polygon"}, "id": "18", "properties": {"area_acres": 172.45, "boundary_year": 2022, "crop_2020": "Soybeans", "crop_2021": "Winter Wheat", "crop_2022": "Soybeans", "crop_2023": "Corn", "crop_name": "Corn", "field_id": "45-2022-CSB-00019", "region": "southeast", "source": "USDA NASS Crop Sequence Boundaries 2022", "state": "South Carolina", "state_fips": "45"}, "type": "Feature"}, {"geometry": {"coordinates": [[[-80.68419999999999, 33.18880000000001], [-80.676136, 33.18938800000001], [-80.6758, 33.19615], [-80.683444, 33.1972], [-80.68419999999999, 33.18880000000001]]], "type": "Polygon"}, "id": "19", "properties": {"area_acres": 152.49, "boundary_year": 2022, "crop_2020": "Corn", "crop_2021": "Soybeans", "crop_2022": "Cotton", "crop_2023": "Soybeans", "crop_name": "Soybeans", "field_id": "45-2022-CSB-00020", "region": "southeast", "source": "USDA NASS Crop Sequence Boundaries 2022", "state": "South Carolina", "state_fips": "45"}, "type": "Feature"}, {"geometry": {"coordinates": [[[-80.75654999999999, 33.205600000000004], [-80.74781399999999, 33.206076], [-80.74745, 33.21155], [-80.755731, 33.2124], [-80.75654999999999, 33.205600000000004]]], "type": "Polygon"}, "id": "20", "properties": {"area_acres": 133.7, "boundary_year": 2022, "crop_2020": "Soybeans", "crop_2021": "Corn", "crop_2022": "Soybeans", "crop_2023": "Corn", "crop_name": "Corn", "field_id": "45-2022-CSB-00021", "region": "southeast", "source": "USDA NASS Crop Sequence Boundaries 2022", "state": "South Carolina", "state_fips": "45"}, "type": "Feature"}, {"geometry": {"coordinates": [[[-80.7389, 33.205200000000005], [-80.729492, 33.205732000000005], [-80.72909999999999, 33.211850000000005], [-80.738018, 33.2128], [-80.7389, 33.205200000000005]]], "type": "Polygon"}, "id": "21", "properties": {"area_acres": 160.93, "boundary_year": 2022, "crop_2020": "Cotton", "crop_2021": "Soybeans", "crop_2022": "Corn", "crop_2023": "Cotton", "crop_name": "Cotton", "field_id": "45-2022-CSB-00022", "region": "southeast", "source": "USDA NASS Crop Sequence Boundaries 2022", "state": "South Carolina", "state_fips": "45"}, "type": "Feature"}, {"geometry": {"coordinates": [[[-80.72125, 33.204800000000006], [-80.71117, 33.205388000000006], [-80.71074999999999, 33.21215], [-80.720305, 33.2132], [-80.72125, 33.204800000000006]]], "type": "Polygon"}, "id": "22", "properties": {"area_acres": 190.57, "boundary_year": 2022, "crop_2020": "Corn", "crop_2021": "Soybeans", "crop_2022": "Corn", "crop_2023": "Soybeans", "crop_name": "Soybeans", "field_id": "45-2022-CSB-00023", "region": "southeast", "source": "USDA NASS Crop Sequence Boundaries 2022", "state": "South Carolina", "state_fips": "45"}, "type": "Feature"}, {"geometry": {"coordinates": [[[-80.70219999999999, 33.205600000000004], [-80.694136, 33.206076], [-80.6938, 33.21155], [-80.701444, 33.2124], [-80.70219999999999, 33.205600000000004]]], "type": "Polygon"}, "id": "23", "properties": {"area_acres": 123.42, "boundary_year": 2022, "crop_2020": "Soybeans", "crop_2021": "Cotton", "crop_2022": "Soybeans", "crop_2023": "Cotton", "crop_name": "Cotton", "field_id": "45-2022-CSB-00024", "region": "southeast", "source": "USDA NASS Crop Sequence Boundaries 2022", "state": "South Carolina", "state_fips": "45"}, "type": "Feature"}, {"geometry": {"coordinates": [[[-80.68454999999999, 33.205200000000005], [-80.67581399999999, 33.205732000000005], [-80.67545, 33.211850000000005], [-80.683731, 33.2128], [-80.68454999999999, 33.205200000000005]]], "type": "Polygon"}, "id": "24", "properties": {"area_acres": 149.43, "boundary_year": 2022, "crop_2020": "Winter Wheat", "crop_2021": "Soybeans", "crop_2022": "Corn", "crop_2023": "Soybeans", "crop_name": "Soybeans", "field_id": "45-2022-CSB-00025", "region": "southeast", "source": "USDA NASS Crop Sequence Boundaries 2022", "state": "South Carolina", "state_fips": "45"}, "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+    geo_json_41724688423cb07bfa43d1387a3e7807.bindTooltip(
+    function(layer){
+    let div = L.DomUtil.create('div');
+    
+    let handleObject = feature => {
+        if (feature === null) {
+            return '';
+        } else if (typeof(feature)=='object') {
+            return JSON.stringify(feature);
+        } else {
+            return feature;
+        }
+    }
+    let fields = ["field_id", "crop_2023"];
+    let aliases = ["field_id", "crop_2023"];
+    let table = '<table>' +
+        String(
+        fields.map(
+        (v,i)=>
+        `<tr>
+            <th>${aliases[i]}</th>
+            
+            <td>${handleObject(layer.feature.properties[v])}</td>
+        </tr>`).join(''))
+    +'</table>';
+    div.innerHTML=table;
+    
+    return div
+    }
+    ,{
+  "sticky": true,
+  "className": "foliumtooltip",
+});
+                     
+    
+    geo_json_41724688423cb07bfa43d1387a3e7807.bindPopup(
+    function(layer){
+    let div = L.DomUtil.create('div');
+    
+    let handleObject = feature => {
+        if (feature === null) {
+            return '';
+        } else if (typeof(feature)=='object') {
+            return JSON.stringify(feature);
+        } else {
+            return feature;
+        }
+    }
+    let fields = ["field_id", "area_acres", "crop_2020", "crop_2021", "crop_2022", "crop_2023"];
+    let aliases = ["Field ID", "Acres", "2020", "2021", "2022", "2023"];
+    let table = '<table>' +
+        String(
+        fields.map(
+        (v,i)=>
+        `<tr>
+            <th>${aliases[i].toLocaleString()}</th>
+            
+            <td>${handleObject(layer.feature.properties[v]).toLocaleString()}</td>
+        </tr>`).join(''))
+    +'</table>';
+    div.innerHTML=table;
+    
+    return div
+    }
+    ,{
+  "className": "foliumpopup",
+});
+                     
+    
+            geo_json_41724688423cb07bfa43d1387a3e7807.addTo(map_074da43828bd83b2541593376abf81fd);
+        
+    
+            var layer_control_beb4bd376f2897f52532ce1890585a36_layers = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_2b3f946dd21ac4b9d02195191f5a3434,
+                },
+                overlays :  {
+                    "Fields colored by 2023 dominant CDL crop" : geo_json_41724688423cb07bfa43d1387a3e7807,
+                },
+            };
+            let layer_control_beb4bd376f2897f52532ce1890585a36 = L.control.layers(
+                layer_control_beb4bd376f2897f52532ce1890585a36_layers.base_layers,
+                layer_control_beb4bd376f2897f52532ce1890585a36_layers.overlays,
+                {
+  "position": "topright",
+  "collapsed": true,
+  "autoZIndex": true,
+}
+            ).addTo(map_074da43828bd83b2541593376abf81fd);
+
+        
+    
+            map_074da43828bd83b2541593376abf81fd.fitBounds(
+                [[33.140800000000006, -80.75725], [33.2132, -80.67474999999999]],
+                {}
+            );
+        
+</script>
+</html>

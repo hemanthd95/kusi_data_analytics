@@ -1,0 +1,5 @@
+.venv/
+rasters/
+*.tif
+*.tiff
+__pycache__/
