@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agricultural Field Dashboard</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+        #container { display: flex; height: 100vh; }
+        
+        #sidebar {
+            width: 320px;
+            background: #ffffff;
+            border-right: 1px solid #ddd;
+            display: flex;
+            flex-direction: column;
+            overflow-y: auto;
+        }
+        
+        #sidebar-header {
+            padding: 20px;
+            background: linear-gradient(135deg, #1B5E20 0%, #2E7D32 100%);
+            color: white;
+        }
+        
+        #sidebar-header h1 {
+            font-size: 1.4em;
+            margin-bottom: 5px;
+        }
+        
+        .panel {
+            padding: 15px 20px;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .panel h3 {
+            font-size: 0.9em;
+            color: #333;
+            margin-bottom: 12px;
+            text-transform: uppercase;
+        }
+        
+        .layer-item {
+            display: flex;
+            align-items: center;
+            padding: 8px 0;
+            cursor: pointer;
+        }
+        
+        .layer-color {
+            width: 20px;
+            height: 20px;
+            border-radius: 4px;
+            margin-right: 10px;
+            margin-left: 10px;
+        }
+        
+        #map { flex: 1; }
+        
+        .legend-item {
+            display: flex;
+            align-items: center;
+            margin: 6px 0;
+            font-size: 0.85em;
+        }
+        
+        .legend-color {
+            width: 20px;
+            height: 20px;
+            border-radius: 4px;
+            margin-right: 10px;
+        }
+        
+        .popup-title {
+            font-weight: bold;
+            font-size: 1.1em;
+            margin-bottom: 8px;
+            border-bottom: 2px solid #1B5E20;
+            padding-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="sidebar">
+            <div id="sidebar-header">
+                <h1>🌾 Field Dashboard</h1>
+                <p>Interactive Agricultural Data</p>
+            </div>
+            
+            <div class="panel">
+                <h3>Data Layers</h3>
+                <div class="layer-item">
+                    <input type="checkbox" id="layer-fields" checked onchange="toggleLayer('fields')">
+                    <div class="layer-color" style="background: #2E7D32;"></div>
+                    <span>Field Boundaries</span>
+                </div>
+                <div class="layer-item">
+                    <input type="checkbox" id="layer-soil" onchange="toggleLayer('soil')">
+                    <div class="layer-color" style="background: #8B4513;"></div>
+                    <span>Soil Data</span>
+                </div>
+            </div>
+            
+            <div class="panel">
+                <h3>Legend</h3>
+                <div class="legend-item">
+                    <div class="legend-color" style="background: #2E7D32;"></div>
+                    <span>Corn Fields</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color" style="background: #F9A825;"></div>
+                    <span>Soybean Fields</span>
+                </div>
+            </div>
+        </div>
+        
+        <div id="map"></div>
+    </div>
+    
+    <script>
+        // Embedded field data from USDA NASS
+        var fieldData = {"type": "FeatureCollection", "features": [{"type": "Feature", "properties": {"field_id": "271623002471299", "area_acres": 3.7, "crop_name": "Corn"}, "geometry": {"type": "Polygon", "coordinates": [[[-95.9433, 47.0641], [-95.9483, 47.0641], [-95.9483, 47.0645], [-95.9433, 47.0645], [-95.9433, 47.0641]]]}}, {"type": "Feature", "properties": {"field_id": "271623001561551", "area_acres": 6.4, "crop_name": "Corn"}, "geometry": {"type": "Polygon", "coordinates": [[[-92.8838, 44.5560], [-92.8838, 44.5554], [-92.8848, 44.5554], [-92.8848, 44.5560], [-92.8852, 44.5560], [-92.8852, 44.5550], [-92.8848, 44.5550], [-92.8848, 44.5544], [-92.8852, 44.5544], [-92.8852, 44.5548], [-92.8861, 44.5548], [-92.8861, 44.5554], [-92.8861, 44.5557], [-92.8861, 44.5564], [-92.8852, 44.5564], [-92.8848, 44.5564], [-92.8848, 44.5566], [-92.8845, 44.5566], [-92.8842, 44.5566], [-92.8838, 44.5560]]]}}]};
+        
+        var map = L.map('map').setView([45.5, -94.0], 7);
+        
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; OpenStreetMap contributors'
+        }).addTo(map);
+        
+        var layers = {};
+        
+        layers.fields = L.geoJSON(fieldData, {
+            style: {
+                color: '#1B5E20',
+                weight: 2,
+                fillOpacity: 0.6
+            },
+            onEachFeature: function(feature, layer) {
+                layer.bindPopup(
+                    '<div class="popup-title">Field ' + feature.properties.field_id + '</div>' +
+                    '<b>Area:</b> ' + feature.properties.area_acres.toFixed(1) + ' acres<br>' +
+                    '<b>Crop:</b> ' + feature.properties.crop_name
+                );
+            }
+        }).addTo(map);
+        
+        function toggleLayer(name) {
+            var checkbox = document.getElementById('layer-' + name);
+            if (checkbox.checked) {
+                map.addLayer(layers[name]);
+            } else {
+                map.removeLayer(layers[name]);
+            }
+        }
+        
+        // Fit to show all fields
+        map.fitBounds(layers.fields.getBounds().pad(0.1));
+    </script>
+</body>
+</html>

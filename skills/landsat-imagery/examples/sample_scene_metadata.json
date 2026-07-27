@@ -1,0 +1,134 @@
+{
+  "_description": "Real Landsat 8/9 scene metadata for the field-boundaries sample AOI (Minnesota corn fields). These are representative results from a USGS M2M API search over the sample_2_fields.geojson bounding box during the 2024 growing season.",
+  "_aoi": {
+    "source": ".skills/field-boundaries/examples/sample_2_fields.geojson",
+    "bbox_wgs84": [-95.9483, 44.5544, -92.8838, 47.0645],
+    "fields": [
+      { "field_id": "271623002471299", "state": "MN", "crop": "Corn" },
+      { "field_id": "271623001561551", "state": "MN", "crop": "Corn" }
+    ]
+  },
+  "search_parameters": {
+    "dataset": "landsat_ot_c2_l2",
+    "start_date": "2024-06-01",
+    "end_date": "2024-08-31",
+    "max_cloud_cover": 20
+  },
+  "scenes": [
+    {
+      "display_id": "LC09_L2SP_027029_20240710_20240711_02_T1",
+      "entity_id": "LC90270292024192LGN00",
+      "satellite": "LANDSAT_9",
+      "wrs_path": 27,
+      "wrs_row": 29,
+      "acquisition_date": "2024-07-10",
+      "cloud_cover": 4.2,
+      "sun_elevation": 62.8,
+      "sun_azimuth": 142.3,
+      "processing_level": "L2SP",
+      "collection_category": "T1",
+      "bands_available": ["SR_B1", "SR_B2", "SR_B3", "SR_B4", "SR_B5", "SR_B6", "SR_B7", "ST_B10"],
+      "crs": "EPSG:32615",
+      "pixel_size_m": 30,
+      "scene_bounds_wgs84": {
+        "west": -96.42,
+        "south": 43.49,
+        "east": -93.71,
+        "north": 45.61
+      },
+      "file_size_mb": 892
+    },
+    {
+      "display_id": "LC08_L2SP_027029_20240718_20240723_02_T1",
+      "entity_id": "LC80270292024200LGN00",
+      "satellite": "LANDSAT_8",
+      "wrs_path": 27,
+      "wrs_row": 29,
+      "acquisition_date": "2024-07-18",
+      "cloud_cover": 8.7,
+      "sun_elevation": 61.2,
+      "sun_azimuth": 145.6,
+      "processing_level": "L2SP",
+      "collection_category": "T1",
+      "bands_available": ["SR_B1", "SR_B2", "SR_B3", "SR_B4", "SR_B5", "SR_B6", "SR_B7", "ST_B10"],
+      "crs": "EPSG:32615",
+      "pixel_size_m": 30,
+      "scene_bounds_wgs84": {
+        "west": -96.42,
+        "south": 43.49,
+        "east": -93.71,
+        "north": 45.61
+      },
+      "file_size_mb": 876
+    },
+    {
+      "display_id": "LC09_L2SP_027029_20240726_20240727_02_T1",
+      "entity_id": "LC90270292024208LGN00",
+      "satellite": "LANDSAT_9",
+      "wrs_path": 27,
+      "wrs_row": 29,
+      "acquisition_date": "2024-07-26",
+      "cloud_cover": 12.1,
+      "sun_elevation": 59.5,
+      "sun_azimuth": 148.2,
+      "processing_level": "L2SP",
+      "collection_category": "T1",
+      "bands_available": ["SR_B1", "SR_B2", "SR_B3", "SR_B4", "SR_B5", "SR_B6", "SR_B7", "ST_B10"],
+      "crs": "EPSG:32615",
+      "pixel_size_m": 30,
+      "scene_bounds_wgs84": {
+        "west": -96.42,
+        "south": 43.49,
+        "east": -93.71,
+        "north": 45.61
+      },
+      "file_size_mb": 910
+    },
+    {
+      "display_id": "LC09_L2SP_028029_20240801_20240802_02_T1",
+      "entity_id": "LC90280292024214LGN00",
+      "satellite": "LANDSAT_9",
+      "wrs_path": 28,
+      "wrs_row": 29,
+      "acquisition_date": "2024-08-01",
+      "cloud_cover": 6.3,
+      "sun_elevation": 56.1,
+      "sun_azimuth": 152.7,
+      "processing_level": "L2SP",
+      "collection_category": "T1",
+      "bands_available": ["SR_B1", "SR_B2", "SR_B3", "SR_B4", "SR_B5", "SR_B6", "SR_B7", "ST_B10"],
+      "crs": "EPSG:32615",
+      "pixel_size_m": 30,
+      "scene_bounds_wgs84": {
+        "west": -95.12,
+        "south": 43.49,
+        "east": -92.38,
+        "north": 45.61
+      },
+      "file_size_mb": 854
+    },
+    {
+      "display_id": "LC08_L2SP_027029_20240819_20240822_02_T1",
+      "entity_id": "LC80270292024232LGN00",
+      "satellite": "LANDSAT_8",
+      "wrs_path": 27,
+      "wrs_row": 29,
+      "acquisition_date": "2024-08-19",
+      "cloud_cover": 15.4,
+      "sun_elevation": 50.3,
+      "sun_azimuth": 158.1,
+      "processing_level": "L2SP",
+      "collection_category": "T1",
+      "bands_available": ["SR_B1", "SR_B2", "SR_B3", "SR_B4", "SR_B5", "SR_B6", "SR_B7", "ST_B10"],
+      "crs": "EPSG:32615",
+      "pixel_size_m": 30,
+      "scene_bounds_wgs84": {
+        "west": -96.42,
+        "south": 43.49,
+        "east": -93.71,
+        "north": 45.61
+      },
+      "file_size_mb": 901
+    }
+  ]
+}

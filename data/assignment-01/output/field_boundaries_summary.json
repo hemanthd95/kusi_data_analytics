@@ -1,0 +1,12 @@
+{
+  "source_sample": "skills/field-boundaries/examples/sample_2_fields.geojson",
+  "skill": "field-boundaries",
+  "skill_source": "https://github.com/borealBytes/ag-skills/tree/skills-content/field-boundaries",
+  "upstream_commit": "8133719196e6f3299585e103deb61c4510472778",
+  "total_fields": 2,
+  "total_area_acres": 10.113394223236337,
+  "average_field_size_acres": 5.056697111618169,
+  "crops": [
+    "Corn"
+  ]
+}
