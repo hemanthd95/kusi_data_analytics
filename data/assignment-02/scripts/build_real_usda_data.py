@@ -122,22 +122,66 @@ def find_layer(extracted: Path) -> tuple[Path, str, dict]:
     return candidates[0]
 
 
-def select_fields(database: Path, layer: str) -> gpd.GeoDataFrame:
-    all_fields = gpd.read_file(database, layer=layer, engine="pyogrio")
-    lookup = {column.upper(): column for column in all_fields.columns}
+def select_fields(database: Path, layer: str, schema: dict) -> tuple[gpd.GeoDataFrame, dict]:
+    """Read only one state through OGR, then select a compact county sample."""
+    source_properties = schema["properties"]
+    lookup = {column.upper(): column for column in source_properties}
     required = ["CSBID", "STATEFIPS", *(f"CDL{year}" for year in YEARS)]
     missing = [name for name in required if name not in lookup]
     if missing:
         raise RuntimeError(f"CSB feature class is missing required attributes: {missing}")
-    state = all_fields[all_fields[lookup["STATEFIPS"]].astype(str).str.zfill(2) == "45"].copy()
-    state = state[state.geometry.notna() & ~state.geometry.is_empty]
+
+    # FileGDB attributes can expose STATEFIPS as either text or numeric. Build
+    # the OGR predicate from Fiona's schema type so filtering happens inside
+    # the driver, before GeoPandas receives any feature records.
+    state_column = lookup["STATEFIPS"]
+    field_type = str(source_properties[state_column]).lower()
+    escaped_column = state_column.replace('"', '""')
+    state_literal = "45" if field_type.startswith(("int", "float", "real")) else "'45'"
+    state_filter = f'"{escaped_column}" = {state_literal}'
+    try:
+        state = gpd.read_file(database, layer=layer, engine="pyogrio", where=state_filter)
+    except Exception as error:
+        raise RuntimeError(
+            f"OGR state-level read failed for layer {layer!r} with where={state_filter!r}; "
+            "refusing to load the national feature class"
+        ) from error
+    if state_column not in state.columns:
+        raise RuntimeError(f"Filtered OGR read did not return STATEFIPS column {state_column!r}")
+    if state.empty or not state[state_column].astype(str).str.replace(r"\.0$", "", regex=True).str.zfill(2).eq("45").all():
+        raise RuntimeError(
+            f"OGR filter {state_filter!r} returned no records or records outside STATEFIPS 45; "
+            "refusing an unfiltered national read"
+        )
+    south_carolina_count = len(state)
+    lookup = {column.upper(): column for column in state.columns}
+    county_candidates = ("COUNTYFIPS", "CNTYFIPS", "COUNTY", "COUNTYNAME")
+    county_key = next((name for name in county_candidates if name in lookup), None)
+    if county_key is None:
+        raise RuntimeError(f"CSB schema has no supported county attribute; checked {county_candidates}")
+    county_column = lookup[county_key]
+
+    state = state[state.geometry.notna() & ~state.geometry.is_empty].copy()
+    state["_csbid"] = state[lookup["CSBID"]].astype(str)
+    state = state[~state["_csbid"].duplicated(keep=False)]
     for year in YEARS:
         state[f"_valid_{year}"] = pd.to_numeric(state[lookup[f"CDL{year}"]], errors="coerce").fillna(0).gt(0)
     state["_all_valid"] = state[[f"_valid_{year}" for year in YEARS]].all(axis=1)
-    state["_sort_id"] = state[lookup["CSBID"]].astype(str)
-    state = state.sort_values(["_all_valid", "_sort_id"], ascending=[False, True], kind="stable").head(25)
-    if len(state) != 25 or not state["_all_valid"].all():
-        raise RuntimeError(f"Could not select 25 SC polygons with nonzero CDL2020-CDL2023; found {int(state['_all_valid'].sum())}")
+    eligible = state[state["_all_valid"] & state[county_column].notna()].copy()
+    eligible["_county_sort"] = eligible[county_column].astype(str).str.strip()
+    county_counts = eligible.groupby("_county_sort", sort=True).size()
+    qualifying = county_counts[county_counts >= 25]
+    if qualifying.empty:
+        raise RuntimeError(
+            f"No single South Carolina county has 25 eligible unique CSB fields using {county_column!r}; "
+            "refusing to fall back to a statewide selection"
+        )
+    selected_county = sorted(qualifying.index)[0]
+    county_eligible_count = int(qualifying.loc[selected_county])
+    state = (eligible[eligible["_county_sort"] == selected_county]
+             .sort_values("_csbid", kind="stable").head(25).copy())
+    if len(state) != 25:
+        raise RuntimeError(f"County {selected_county!r} yielded only {len(state)} eligible fields")
     output = gpd.GeoDataFrame({
         "field_id": state[lookup["CSBID"]].astype(str), "CSBID": state[lookup["CSBID"]].astype(str),
         "STATEFIPS": state[lookup["STATEFIPS"]].astype(str).str.zfill(2),
@@ -151,7 +195,19 @@ def select_fields(database: Path, layer: str) -> gpd.GeoDataFrame:
         raise RuntimeError("Selected CSBID values are not unique")
     # Reprojection is the only geometry transformation; no construction,
     # simplification, buffering, shifting, or coordinate editing occurs.
-    return output.to_crs("EPSG:4326")
+    output = output.to_crs("EPSG:4326")
+    selection = {
+        "national_feature_class": layer,
+        "state_filter": state_filter,
+        "state_filter_column": state_column,
+        "south_carolina_feature_count_read": south_carolina_count,
+        "national_feature_class_loaded_in_full": False,
+        "county_attribute": county_column,
+        "selected_county": selected_county,
+        "eligible_fields_in_selected_county": county_eligible_count,
+        "selected_field_count": len(output),
+    }
+    return output, selection
 
 
 def raster_url(response: requests.Response) -> str:
@@ -273,7 +329,11 @@ def main() -> None:
     with tempfile.TemporaryDirectory(dir=DOWNLOADS, prefix="csb_extract_") as directory:
         with zipfile.ZipFile(archive) as zipped: zipped.extractall(directory)
         database, layer, schema = find_layer(Path(directory))
-        fields = select_fields(database, layer)
+        fields, selection = select_fields(database, layer, schema)
+    request_bounds = fields.to_crs("EPSG:5070").total_bounds
+    selection["cdl_request_bbox_epsg5070"] = [round(float(value), 3) for value in request_bounds]
+    selection["cdl_request_bbox_width_m"] = round(float(request_bounds[2] - request_bounds[0]), 3)
+    selection["cdl_request_bbox_height_m"] = round(float(request_bounds[3] - request_bounds[1]), 3)
     all_rows=[]; raster_requests=[]
     for year in YEARS:
         rows, metadata = extract_cdl(s, fields, year); all_rows.extend(rows); raster_requests.append(metadata)
@@ -284,7 +344,7 @@ def main() -> None:
         geojson(fields, stage/"fields_EPSG4326.geojson"); cdl.to_csv(stage/"cdl_EPSG4326.csv",index=False)
         joined=joined_products(fields,cdl,stage); make_map(joined,stage); make_svg(joined,stage)
         disagreements=cdl.loc[~cdl.matches_csb_annual_cdl,["field_id","year","csb_annual_cdl_code","crop_code"]].to_dict("records")
-        provenance={"generated_utc":now(),"boundary_source":archive_meta,"feature_class":{"geodatabase":database.name,"layer":layer,"schema":schema},"raster_requests":raster_requests}
+        provenance={"generated_utc":now(),"boundary_source":archive_meta,"feature_class":{"geodatabase":database.name,"layer":layer,"schema":schema},"field_selection":selection,"raster_requests":raster_requests}
         summary={**provenance,"state":"South Carolina","STATEFIPS":"45","field_count":25,"years":list(YEARS),"matched_fields":25,"unmatched_fields":0,"raster_csb_disagreement_count":len(disagreements),"raster_csb_disagreements":disagreements}
         (stage/"output/assignment_02_summary.json").write_text(json.dumps(summary,indent=2)+"\n")
         env={"generated_utc":now(),"python":platform.python_version(),"platform":platform.platform(),"dependencies":{d.metadata["Name"]:d.version for d in distributions() if d.metadata["Name"]}}

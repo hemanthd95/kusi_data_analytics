@@ -81,8 +81,23 @@ need(source.get("requested_url", "").endswith("NationalCSB_2016-2023_rev23.zip")
      and re.fullmatch(r"[0-9a-f]{64}", source.get("sha256", "")),
      "summary records official source archive URL, HTTP status, bytes, and SHA-256")
 feature_class = summary.get("feature_class", {})
-need(feature_class.get("layer") and feature_class.get("schema", {}).get("properties", {}).get("CSBID") is not None,
+schema_properties = feature_class.get("schema", {}).get("properties", {})
+need(feature_class.get("layer") and "CSBID" in {name.upper() for name in schema_properties},
      "summary records actual geodatabase feature-class and schema evidence")
+selection = summary.get("field_selection", {})
+need(selection.get("national_feature_class") == feature_class.get("layer")
+     and selection.get("state_filter")
+     and selection.get("south_carolina_feature_count_read", 0) >= 25
+     and selection.get("national_feature_class_loaded_in_full") is False,
+     "summary proves the state-filtered read did not load the national feature class")
+need(selection.get("county_attribute") and selection.get("selected_county")
+     and selection.get("eligible_fields_in_selected_county", 0) >= 25
+     and selection.get("selected_field_count") == 25,
+     "summary records deterministic single-county field selection")
+need(len(selection.get("cdl_request_bbox_epsg5070", [])) == 4
+     and selection.get("cdl_request_bbox_width_m", 0) > 0
+     and selection.get("cdl_request_bbox_height_m", 0) > 0,
+     "summary records the compact CDL request bounds and metric dimensions")
 requests = summary.get("raster_requests", [])
 need(len(requests) == 4 and {int(item["year"]) for item in requests} == YEARS,
      "summary records one genuine raster request for every CDL year")

@@ -7,10 +7,13 @@ change does not download or replace any Assignment 2 data.
 
 ## Running the workflow
 
-1. Open **Actions** in GitHub and select **Build Assignment 2 Real USDA Data**.
-2. Choose **Run workflow** from `feature/assignment-02-actions-runner`.
-3. Review the download, extraction, verification, and compilation steps.
-4. Download the `assignment-02-real-usda-data` artifact if a complete snapshot
+1. Open **Actions** in GitHub.
+2. Select **Build Assignment 2 Real USDA Data**.
+3. Click **Run workflow**.
+4. Select **main**.
+5. Run the workflow.
+6. Review the download, extraction, verification, and compilation steps.
+7. Download the `assignment-02-real-usda-data` artifact if a complete snapshot
    is needed. A successful run also creates or updates
    `feature/assignment-02-real-data-fix` from the latest `main`.
 

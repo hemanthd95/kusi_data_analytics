@@ -16,23 +16,6 @@ jobs:
           ref: main
           fetch-depth: 0
 
-      # A workflow dispatched from this preparatory branch needs its new build
-      # and verification code even though the working tree deliberately starts
-      # at the latest main commit.
-      - name: Check out dispatched workflow source
-        uses: actions/checkout@v4
-        with:
-          ref: ${{ github.sha }}
-          path: .workflow-source
-
-      - name: Install preparatory processing code over latest main
-        run: |
-          cp .workflow-source/data/assignment-02/scripts/build_real_usda_data.py data/assignment-02/scripts/
-          cp .workflow-source/data/assignment-02/scripts/README_ACTIONS.md data/assignment-02/scripts/
-          cp .workflow-source/data/assignment-02/verify_assignment_02.py data/assignment-02/
-          cp .workflow-source/data/assignment-02/.gitignore data/assignment-02/
-          rm -rf .workflow-source
-
       - name: Set up Python 3.12
         uses: actions/setup-python@v5
         with:
