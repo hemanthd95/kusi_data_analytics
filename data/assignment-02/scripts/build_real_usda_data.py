@@ -18,6 +18,7 @@ import re
 import shutil
 import sys
 import tempfile
+import time
 import zipfile
 from collections import Counter
 from datetime import datetime, timezone
@@ -31,6 +32,7 @@ from folium.plugins import Fullscreen, GroupedLayerControl
 import geopandas as gpd
 import numpy as np
 import pandas as pd
+from pyproj import CRS as PyprojCRS
 import rasterio
 from rasterio.mask import mask
 import requests
@@ -41,6 +43,7 @@ DOWNLOADS = ASSIGNMENT / "source_downloads"
 RASTERS = ASSIGNMENT / "rasters"
 CSB_URL = "https://www.nass.usda.gov/Research_and_Science/Crop-Sequence-Boundaries/datasets/NationalCSB_2016-2023_rev23.zip"
 CDL_SERVICE = "https://nassgeodata.gmu.edu/axis2/services/CDLService/GetCDLFile"
+CDL_COUNTY_CACHE = "https://nassgeodata.gmu.edu/webservice/nass_data_cache/byfips/CDL_{year}_{fips}.tif"
 YEARS = (2020, 2021, 2022, 2023)
 USER_AGENT = "kusi-data-analytics-assignment-02/1.0 (GitHub Actions; USDA educational analysis)"
 
@@ -83,10 +86,6 @@ def sha256(path: Path) -> str:
 def session() -> requests.Session:
     s = requests.Session()
     s.headers.update({"User-Agent": USER_AGENT, "Accept": "*/*"})
-    adapter = requests.adapters.HTTPAdapter(max_retries=requests.adapters.Retry(
-        total=5, connect=5, read=5, backoff_factor=2,
-        status_forcelist=(429, 500, 502, 503, 504), allowed_methods=("GET",)))
-    s.mount("https://", adapter)
     return s
 
 
@@ -97,12 +96,39 @@ def download(s: requests.Session, url: str, path: Path, params=None) -> dict:
         if not response.ok:
             body = response.text[:4000]
             raise RuntimeError(f"Official download failed: GET {response.url}; HTTP {response.status_code}; response={body!r}")
-        with path.open("wb") as output:
-            for chunk in response.iter_content(1024 * 1024):
-                if chunk:
-                    output.write(chunk)
+        save_stream(response, path)
         return {"requested_url": url, "final_url": response.url, "http_status": response.status_code,
                 "byte_size": path.stat().st_size, "sha256": sha256(path), "accessed_utc": now()}
+
+
+def valid_csb_archive(path: Path) -> bool:
+    """Validate a cached archive without trusting its filename or cache key."""
+    try:
+        if not path.is_file() or path.stat().st_size == 0 or not zipfile.is_zipfile(path):
+            return False
+        with zipfile.ZipFile(path) as archive:
+            return any(".gdb/" in name.lower() or name.lower().endswith(".gdb")
+                       for name in archive.namelist())
+    except (OSError, zipfile.BadZipFile):
+        return False
+
+
+def acquire_csb_archive(s: requests.Session, path: Path) -> dict:
+    if path.exists() and valid_csb_archive(path):
+        metadata = {"requested_url": CSB_URL, "final_url": CSB_URL, "http_status": None,
+                    "cache_reused": True, "cache_validation": "valid ZIP containing .gdb",
+                    "byte_size": path.stat().st_size, "sha256": sha256(path), "accessed_utc": now()}
+        print(f"Reusing validated CSB cache: bytes={metadata['byte_size']} sha256={metadata['sha256']}")
+        return metadata
+    if path.exists():
+        print(f"Deleting invalid cached CSB archive: {path}", flush=True)
+        path.unlink()
+    metadata = download(s, CSB_URL, path)
+    if not valid_csb_archive(path):
+        path.unlink(missing_ok=True)
+        raise RuntimeError("Downloaded CSB archive is not a valid ZIP containing a .gdb")
+    metadata.update({"cache_reused": False, "cache_validation": "valid ZIP containing .gdb"})
+    return metadata
 
 
 def find_layer(extracted: Path) -> tuple[Path, str, dict]:
@@ -120,6 +146,26 @@ def find_layer(extracted: Path) -> tuple[Path, str, dict]:
     if len(candidates) != 1:
         raise RuntimeError(f"Expected one CSB feature class with CSBID/STATEFIPS, found {[(str(x[0]),x[1]) for x in candidates]}")
     return candidates[0]
+
+
+def normalize_county_fips(value, attribute_name: str) -> str:
+    """Return an official SC five-digit county FIPS without name guessing."""
+    cleaned = re.sub(r"\.0$", "", str(value).strip())
+    if not cleaned.isdigit():
+        raise RuntimeError(
+            f"Selected county attribute {attribute_name!r} value {value!r} is not a FIPS code; "
+            "county names are never guessed for raster acquisition"
+        )
+    # Numeric geodatabase fields necessarily discard leading zeroes. Restore
+    # those within the three-digit county component, but reject longer or
+    # otherwise ambiguous values.
+    if len(cleaned) <= 3:
+        normalized = "45" + cleaned.zfill(3)
+    elif len(cleaned) == 5 and cleaned.startswith("45"):
+        normalized = cleaned
+    else:
+        raise RuntimeError(f"County value {value!r} cannot be normalized to a South Carolina FIPS")
+    return normalized
 
 
 def select_fields(database: Path, layer: str, schema: dict) -> tuple[gpd.GeoDataFrame, dict]:
@@ -177,6 +223,7 @@ def select_fields(database: Path, layer: str, schema: dict) -> tuple[gpd.GeoData
             "refusing to fall back to a statewide selection"
         )
     selected_county = sorted(qualifying.index)[0]
+    selected_county_fips = normalize_county_fips(selected_county, county_column)
     county_eligible_count = int(qualifying.loc[selected_county])
     state = (eligible[eligible["_county_sort"] == selected_county]
              .sort_values("_csbid", kind="stable").head(25).copy())
@@ -186,7 +233,7 @@ def select_fields(database: Path, layer: str, schema: dict) -> tuple[gpd.GeoData
         "field_id": state[lookup["CSBID"]].astype(str), "CSBID": state[lookup["CSBID"]].astype(str),
         "STATEFIPS": state[lookup["STATEFIPS"]].astype(str).str.zfill(2),
         "CSBACRES": state[lookup["CSBACRES"]] if "CSBACRES" in lookup else np.nan,
-        "county": state[lookup.get("COUNTY", lookup.get("COUNTYNAME"))] if ("COUNTY" in lookup or "COUNTYNAME" in lookup) else "",
+        "county": state[county_column],
         "source_attribute": state[lookup["SOURCE"]] if "SOURCE" in lookup else "",
         **{f"CDL{year}": pd.to_numeric(state[lookup[f"CDL{year}"]], errors="raise").astype(int) for year in YEARS},
         "geometry": state.geometry,
@@ -204,6 +251,7 @@ def select_fields(database: Path, layer: str, schema: dict) -> tuple[gpd.GeoData
         "national_feature_class_loaded_in_full": False,
         "county_attribute": county_column,
         "selected_county": selected_county,
+        "selected_county_fips": selected_county_fips,
         "eligible_fields_in_selected_county": county_eligible_count,
         "selected_field_count": len(output),
     }
@@ -222,16 +270,152 @@ def raster_url(response: requests.Response) -> str:
     return html.unescape(match.group(1))
 
 
-def extract_cdl(s: requests.Session, fields: gpd.GeoDataFrame, year: int) -> tuple[list[dict], dict]:
-    bounds = fields.to_crs("EPSG:5070").total_bounds
-    params = {"year": year, "bbox": ",".join(f"{value:.3f}" for value in bounds)}
-    response = s.get(CDL_SERVICE, params=params, timeout=(30, 300))
-    print(f"GET {response.url} -> HTTP {response.status_code}", flush=True)
-    url = raster_url(response)
-    raster_path = RASTERS / f"CDL_{year}_selected_fields.tif"
-    raster_meta = download(s, urljoin(response.url, url), raster_path)
-    request_meta = {"year": year, "service_url": CDL_SERVICE, "request_url": response.url,
-                    "request_parameters": params, "response_status": response.status_code, **raster_meta}
+def validate_cdl_raster(path: Path) -> dict:
+    """Reject empty, HTML, malformed, CRS-less, and non-USDA-Albers files."""
+    if not path.is_file() or path.stat().st_size <= 0:
+        raise ValueError("downloaded raster is empty")
+    with path.open("rb") as stream:
+        signature = stream.read(16).lstrip().lower()
+    if signature.startswith((b"<html", b"<!doctype", b"<?xml")):
+        raise ValueError("downloaded content is HTML/XML, not a GeoTIFF")
+    with rasterio.open(path) as dataset:
+        if dataset.crs is None:
+            raise ValueError("raster has no CRS")
+        if dataset.count < 1 or dataset.width <= 0 or dataset.height <= 0:
+            raise ValueError("raster has invalid bands or dimensions")
+        raster_crs = PyprojCRS.from_user_input(dataset.crs)
+        if not raster_crs.equals(PyprojCRS.from_epsg(5070), ignore_axis_order=True):
+            raise ValueError(f"raster CRS is not equivalent to USDA Albers EPSG:5070: {dataset.crs}")
+        return {"byte_size": path.stat().st_size, "sha256": sha256(path),
+                "raster_crs": dataset.crs.to_string(), "raster_epsg": raster_crs.to_epsg(),
+                "raster_width": dataset.width, "raster_height": dataset.height,
+                "raster_band_count": dataset.count}
+
+
+def save_stream(response: requests.Response, path: Path) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    temporary = path.with_suffix(path.suffix + ".part")
+    temporary.unlink(missing_ok=True)
+    try:
+        with temporary.open("wb") as output:
+            for chunk in response.iter_content(1024 * 1024):
+                if chunk:
+                    output.write(chunk)
+        os.replace(temporary, path)
+    finally:
+        temporary.unlink(missing_ok=True)
+
+
+def attempt_record(method: str, request_method: str, url: str, parameters: dict, number: int) -> dict:
+    return {"method": method, "http_method": request_method, "request_url": url,
+            "request_parameters": parameters, "attempt_number": number,
+            "attempted_utc": now(), "success": False}
+
+
+def direct_county_cache(s: requests.Session, year: int, county_fips: str,
+                        path: Path, attempts: list[dict]) -> dict | None:
+    url = CDL_COUNTY_CACHE.format(year=year, fips=county_fips)
+    record = attempt_record("direct_county_cache", "GET", url, {}, 1)
+    attempts.append(record)
+    try:
+        with s.get(url, timeout=(30, 600), stream=True) as response:
+            final_url = response.url
+            record.update({"request_url": final_url, "http_status": response.status_code})
+            if response.status_code != 200:
+                record["error"] = f"HTTP {response.status_code}: {response.text[:1000]!r}"
+                return None
+            save_stream(response, path)
+        raster = validate_cdl_raster(path)
+        record.update({"success": True, "raster_url": final_url, **raster})
+        return {"successful_method": record["method"], "final_raster_url": final_url, **raster}
+    except Exception as error:
+        path.unlink(missing_ok=True)
+        record.update({"exception_type": type(error).__name__, "exception_message": str(error)})
+        return None
+
+
+def service_route(s: requests.Session, year: int, county_fips: str, path: Path,
+                  attempts: list[dict], method_name: str, http_method: str,
+                  parameters: dict) -> dict | None:
+    retry_statuses = {429, 500, 502, 503, 504}
+    delays = (0, 15, 30)
+    for number, delay in enumerate(delays, 1):
+        if delay:
+            print(f"{method_name} retry backoff: {delay} seconds", flush=True)
+            time.sleep(delay)
+        record = attempt_record(method_name, http_method, CDL_SERVICE, parameters, number)
+        attempts.append(record)
+        service_status = None
+        raster_status = None
+        retry = False
+        try:
+            kwargs = {"params": parameters} if http_method == "GET" else {"data": parameters}
+            headers = {"Content-Type": "application/x-www-form-urlencoded"} if http_method == "POST" else None
+            with s.request(http_method, CDL_SERVICE, headers=headers, timeout=(30, 300), **kwargs) as response:
+                service_status = response.status_code
+                record.update({"request_url": response.url, "http_status": service_status})
+                if service_status != 200:
+                    record["error"] = f"HTTP {service_status}: {response.text[:1000]!r}"
+                    retry = service_status in retry_statuses
+                else:
+                    generated_url = urljoin(response.url, raster_url(response))
+                    record["raster_url"] = generated_url
+                    with s.get(generated_url, timeout=(30, 600), stream=True) as raster_response:
+                        raster_status = raster_response.status_code
+                        record["raster_http_status"] = raster_status
+                        if raster_status != 200:
+                            record["error"] = f"Raster HTTP {raster_status}: {raster_response.text[:1000]!r}"
+                            retry = raster_status in retry_statuses
+                        else:
+                            save_stream(raster_response, path)
+                    if raster_status == 200:
+                        raster = validate_cdl_raster(path)
+                        record.update({"success": True, **raster})
+                        return {"successful_method": method_name, "final_raster_url": generated_url, **raster}
+        except (requests.ConnectionError, requests.ReadTimeout) as error:
+            retry = True
+            record.update({"exception_type": type(error).__name__, "exception_message": str(error)})
+        except Exception as error:
+            record.update({"exception_type": type(error).__name__, "exception_message": str(error)})
+            retry = False
+        path.unlink(missing_ok=True)
+        if not retry:
+            break
+    return None
+
+
+def acquire_cdl_raster(s: requests.Session, fields: gpd.GeoDataFrame, year: int,
+                       county_fips: str) -> tuple[Path, dict]:
+    path = RASTERS / f"CDL_{year}_{county_fips}.tif"
+    path.unlink(missing_ok=True)
+    attempts: list[dict] = []
+    successful = direct_county_cache(s, year, county_fips, path, attempts)
+    if successful is None:
+        successful = service_route(s, year, county_fips, path, attempts,
+                                   "county_fips_service_get", "GET",
+                                   {"year": year, "fips": county_fips})
+    if successful is None:
+        successful = service_route(s, year, county_fips, path, attempts,
+                                   "county_fips_service_post", "POST",
+                                   {"year": year, "fips": county_fips})
+    if successful is None:
+        bounds = fields.to_crs("EPSG:5070").total_bounds
+        successful = service_route(s, year, county_fips, path, attempts,
+                                   "bounding_box_service_get", "GET",
+                                   {"year": year, "bbox": ",".join(f"{value:.3f}" for value in bounds)})
+    if successful is None:
+        raise RuntimeError(
+            f"All official CDL acquisition routes failed for year={year}, county_fips={county_fips}; "
+            f"attempts={json.dumps(attempts)}; no outputs will be published"
+        )
+    metadata = {"year": year, "selected_county_fips": county_fips,
+                "attempts": attempts, **successful}
+    return path, metadata
+
+
+def extract_cdl(s: requests.Session, fields: gpd.GeoDataFrame, year: int,
+                county_fips: str) -> tuple[list[dict], dict]:
+    raster_path, request_meta = acquire_cdl_raster(s, fields, year, county_fips)
     rows = []
     with rasterio.open(raster_path) as dataset:
         projected = fields.to_crs(dataset.crs)
@@ -253,7 +437,8 @@ def extract_cdl(s: requests.Session, fields: gpd.GeoDataFrame, year: int) -> tup
                 "dominant_pixel_count": dominant, "dominant_pct": round(dominant * 100 / len(values), 6),
                 "extraction_method": "rasterio.mask; pixel-center (all_touched=False); zero/nodata excluded",
                 "csb_annual_cdl_code": csb_code, "matches_csb_annual_cdl": code == csb_code,
-                "raster_source_url": raster_meta["final_url"], "raster_sha256": raster_meta["sha256"]})
+                "raster_source_url": request_meta["final_raster_url"],
+                "raster_sha256": request_meta["sha256"]})
     return rows, request_meta
 
 
@@ -325,7 +510,7 @@ def make_svg(fields: gpd.GeoDataFrame, stage: Path) -> None:
 def main() -> None:
     DOWNLOADS.mkdir(parents=True, exist_ok=True); RASTERS.mkdir(parents=True, exist_ok=True)
     s = session(); archive = DOWNLOADS / "NationalCSB_2016-2023_rev23.zip"
-    archive_meta = download(s, CSB_URL, archive)
+    archive_meta = acquire_csb_archive(s, archive)
     with tempfile.TemporaryDirectory(dir=DOWNLOADS, prefix="csb_extract_") as directory:
         with zipfile.ZipFile(archive) as zipped: zipped.extractall(directory)
         database, layer, schema = find_layer(Path(directory))
@@ -336,7 +521,8 @@ def main() -> None:
     selection["cdl_request_bbox_height_m"] = round(float(request_bounds[3] - request_bounds[1]), 3)
     all_rows=[]; raster_requests=[]
     for year in YEARS:
-        rows, metadata = extract_cdl(s, fields, year); all_rows.extend(rows); raster_requests.append(metadata)
+        rows, metadata = extract_cdl(s, fields, year, selection["selected_county_fips"])
+        all_rows.extend(rows); raster_requests.append(metadata)
     cdl = pd.DataFrame(all_rows)
     if len(cdl) != 100: raise RuntimeError(f"Expected 100 field-year extractions, got {len(cdl)}")
     with tempfile.TemporaryDirectory(dir=ASSIGNMENT, prefix="publish_stage_") as directory:
@@ -347,10 +533,12 @@ def main() -> None:
         provenance={"generated_utc":now(),"boundary_source":archive_meta,"feature_class":{"geodatabase":database.name,"layer":layer,"schema":schema},"field_selection":selection,"raster_requests":raster_requests}
         summary={**provenance,"state":"South Carolina","STATEFIPS":"45","field_count":25,"years":list(YEARS),"matched_fields":25,"unmatched_fields":0,"raster_csb_disagreement_count":len(disagreements),"raster_csb_disagreements":disagreements}
         (stage/"output/assignment_02_summary.json").write_text(json.dumps(summary,indent=2)+"\n")
-        env={"generated_utc":now(),"python":platform.python_version(),"platform":platform.platform(),"dependencies":{d.metadata["Name"]:d.version for d in distributions() if d.metadata["Name"]}}
+        env={"generated_utc":now(),"python":platform.python_version(),"platform":platform.platform(),
+             "gdal_configuration":{"OGR_ORGANIZE_POLYGONS":os.environ.get("OGR_ORGANIZE_POLYGONS")},
+             "dependencies":{d.metadata["Name"]:d.version for d in distributions() if d.metadata["Name"]}}
         (stage/"output/environment.json").write_text(json.dumps(env,indent=2)+"\n")
         log=[f"{now()} official USDA real-data build completed",f"CSB {archive_meta['final_url']} HTTP {archive_meta['http_status']} bytes={archive_meta['byte_size']} sha256={archive_meta['sha256']}",f"feature_class={layer} schema={json.dumps(schema,sort_keys=True)}"]
-        log += [f"CDL {r['year']} request={r['request_url']} HTTP={r['response_status']} raster={r['final_url']} bytes={r['byte_size']} sha256={r['sha256']}" for r in raster_requests]
+        log += [f"CDL {r['year']} county_fips={r['selected_county_fips']} method={r['successful_method']} raster={r['final_raster_url']} bytes={r['byte_size']} sha256={r['sha256']} attempts={json.dumps(r['attempts'])}" for r in raster_requests]
         log += ["fields=25 field_year_rows=100 unmatched=0",f"raster_vs_csb_disagreements={len(disagreements)} details={json.dumps(disagreements)}"]
         (stage/"output/skill_run.log").write_text("\n".join(log)+"\n")
         terminal="<svg xmlns='http://www.w3.org/2000/svg' width='1100' height='260'><rect width='100%' height='100%' fill='#111827'/><g fill='#d1fae5' font-family='monospace' font-size='14'>"+"".join(f"<text x='20' y='{25+i*22}'>{html.escape(line[:140])}</text>" for i,line in enumerate(log[:10]))+"</g></svg>"
@@ -359,7 +547,7 @@ def main() -> None:
 
 These products contain 25 genuine South Carolina (`STATEFIPS=45`) polygons selected deterministically by `CSBID` from USDA NASS National Crop Sequence Boundaries 2016–2023 rev. 23. Geometry is retained from the source and reprojected only to EPSG:4326.
 
-The four annual classifications are dominant nonzero pixels extracted with `rasterio.mask` from official CDL service clips. The CSB annual attributes are retained for comparison. There are **{len(disagreements)}** raster/CSB code disagreements (listed in `output/assignment_02_summary.json`), **0** unmatched fields, and 100 field-year rows. Percentages depend on pixel-center inclusion at the 30 m raster resolution and small or edge fields can legitimately differ from the CSB annual attribute.
+The four annual classifications are dominant nonzero pixels extracted with `rasterio.mask` from validated official county CDL GeoTIFFs. Direct county cache files are preferred, county-FIPS GET and POST service calls are secondary, and the bounding-box service is only the final fallback. HTTP 502 and other failed attempts are logged and can never trigger synthetic substitution. The CSB annual attributes are retained only for comparison. There are **{len(disagreements)}** raster/CSB code disagreements (listed in `output/assignment_02_summary.json`), **0** unmatched fields, and 100 field-year rows. Percentages depend on pixel-center inclusion at the 30 m raster resolution and small or edge fields can legitimately differ from the CSB annual attribute.
 
 Source archive: `{archive_meta['final_url']}` ({archive_meta['byte_size']} bytes; SHA-256 `{archive_meta['sha256']}`; accessed {archive_meta['accessed_utc']}). Exact raster requests, redirects, sizes, checksums, schema, and disagreement records are in `output/assignment_02_summary.json`.
 """
@@ -368,7 +556,7 @@ Source archive: `{archive_meta['final_url']}` ({archive_meta['byte_size']} bytes
 
 - Status: real USDA build complete at {now()}.
 - Boundaries: 25 official CSBID records for STATEFIPS 45; source geometry unchanged except CRS reprojection.
-- CDL: official clipped rasters for 2020–2023; 100 raster zonal extractions.
+- CDL: validated official county rasters for 2020–2023; direct cache preferred, county-FIPS services next, bounding-box service last; 100 raster zonal extractions.
 - Join: 25 matched, 0 unmatched.
 - Raster/CSB annual-code disagreements: {len(disagreements)}; see the summary JSON for every record.
 - Limitations: 30 m pixel-center extraction can differ at boundaries; the CDL service clip covers the combined selected-field bounding box.
