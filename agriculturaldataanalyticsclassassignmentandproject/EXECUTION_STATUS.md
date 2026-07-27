@@ -8,6 +8,11 @@ image-only PDFs can also be unpacked losslessly into local page JPEGs under
 adding generated binary files to Git.
 The assignment analyses have **not** been fabricated: the repositories and real
 datasets referenced by the requirements remain unavailable.
+## Status: blocked by environment prerequisites
+
+The assignment outputs have **not** been generated. Producing them without the
+referenced repositories and required tooling would not be reproducible and
+would risk claiming rubric compliance without the required source inputs.
 
 The preflight run on 2026-07-27 found:
 
@@ -19,6 +24,11 @@ The preflight run on 2026-07-27 found:
    HTTP 403. No GitHub credentials were available in the environment.
 4. The original assignment directory contained only PDF files; the datasets and
    skill repository content referenced by those PDFs were not present locally.
+2. `pdftotext` is not installed (`command not found`, exit 127).
+3. Both requested GitHub clones failed because the HTTPS CONNECT tunnel returned
+   HTTP 403. No GitHub credentials were available in the environment.
+4. The assignment directory contains only PDF files; the datasets and skill
+   repository content referenced by those PDFs are not present locally.
 
 ## Reproduce the prerequisite audit
 
@@ -46,3 +56,7 @@ Before rerunning the assignment:
 PDF extraction can be regenerated now with `./extract_all.sh`. Once the external
 data checks report `READY`, analysis execution, output export, and rubric-by-
 rubric verification can proceed without inventing missing inputs.
+Once the preflight reports `READY`, PDF extraction, requirement-to-input
+mapping, analysis execution, output export, and rubric-by-rubric verification
+can proceed without inventing missing inputs.
+

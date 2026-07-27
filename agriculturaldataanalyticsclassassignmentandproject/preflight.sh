@@ -29,6 +29,7 @@ if command -v pdftotext >/dev/null; then
 else
   check "Dependency-free PDF extractor is available" test -x "$ROOT/tools/extract_pdfs.py"
 fi
+check "Poppler pdftotext is installed" pdftotext -v
 check "Assignment PDFs are present" bash -c \
   'compgen -G "$1/*.pdf" >/dev/null' _ "$ROOT"
 
@@ -57,3 +58,4 @@ if (( failures )); then
   exit 1
 fi
 printf 'READY: all prerequisites passed.\n'
+
