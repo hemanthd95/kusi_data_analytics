@@ -28,7 +28,15 @@ jobs:
           python -m pip install --upgrade pip
           python -m pip install geopandas pyogrio fiona shapely pandas numpy requests rasterio folium branca matplotlib pyproj
 
+      - name: Cache validated national CSB archive
+        uses: actions/cache@v4
+        with:
+          path: data/assignment-02/source_downloads/NationalCSB_2016-2023_rev23.zip
+          key: assignment-02-csb-national-2016-2023-rev23
+
       - name: Download official USDA data and build derived products
+        env:
+          OGR_ORGANIZE_POLYGONS: ONLY_CCW
         run: python data/assignment-02/scripts/build_real_usda_data.py
 
       - name: Verify real-data products
@@ -49,9 +57,11 @@ jobs:
         env:
           TARGET_BRANCH: feature/assignment-02-real-data-fix
         run: |
-          rm -rf data/assignment-02/source_downloads data/assignment-02/rasters
+          # Keep the ignored CSB ZIP through job teardown so actions/cache can
+          # save it; only transient rasters are removed before publication.
+          rm -rf data/assignment-02/rasters
           find data/assignment-02 -type d -name __pycache__ -prune -exec rm -rf {} +
-          find data/assignment-02 -type f \( -name '*.pyc' -o -name '*.pyo' -o -name '*.zip' -o -name '*.tif' -o -name '*.tiff' \) -delete
+          find data/assignment-02 -type f \( -name '*.pyc' -o -name '*.pyo' -o -name '*.tif' -o -name '*.tiff' \) -delete
           git switch -C "$TARGET_BRANCH"
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

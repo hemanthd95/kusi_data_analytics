@@ -77,9 +77,11 @@ need(all(row["raster_source_url"].startswith("http") and re.fullmatch(r"[0-9a-f]
 
 source = summary.get("boundary_source", {})
 need(source.get("requested_url", "").endswith("NationalCSB_2016-2023_rev23.zip")
-     and source.get("http_status") == 200 and source.get("byte_size", 0) > 0
+     and (source.get("http_status") == 200 or source.get("cache_reused") is True)
+     and source.get("cache_validation") == "valid ZIP containing .gdb"
+     and source.get("byte_size", 0) > 0
      and re.fullmatch(r"[0-9a-f]{64}", source.get("sha256", "")),
-     "summary records official source archive URL, HTTP status, bytes, and SHA-256")
+     "summary records a downloaded or validated cached official archive with bytes and SHA-256")
 feature_class = summary.get("feature_class", {})
 schema_properties = feature_class.get("schema", {}).get("properties", {})
 need(feature_class.get("layer") and "CSBID" in {name.upper() for name in schema_properties},
@@ -94,6 +96,9 @@ need(selection.get("county_attribute") and selection.get("selected_county")
      and selection.get("eligible_fields_in_selected_county", 0) >= 25
      and selection.get("selected_field_count") == 25,
      "summary records deterministic single-county field selection")
+county_fips = str(selection.get("selected_county_fips", ""))
+need(re.fullmatch(r"45\d{3}", county_fips) is not None,
+     "selected county FIPS is exactly five digits and begins with South Carolina FIPS 45")
 need(len(selection.get("cdl_request_bbox_epsg5070", [])) == 4
      and selection.get("cdl_request_bbox_width_m", 0) > 0
      and selection.get("cdl_request_bbox_height_m", 0) > 0,
@@ -101,10 +106,22 @@ need(len(selection.get("cdl_request_bbox_epsg5070", [])) == 4
 requests = summary.get("raster_requests", [])
 need(len(requests) == 4 and {int(item["year"]) for item in requests} == YEARS,
      "summary records one genuine raster request for every CDL year")
-need(all(item.get("response_status") == 200 and item.get("byte_size", 0) > 0
-         and item.get("request_parameters", {}).get("bbox")
-         and re.fullmatch(r"[0-9a-f]{64}", item.get("sha256", "")) for item in requests),
-     "each CDL request records parameters, success, bytes, and raster checksum")
+need(all(item.get("selected_county_fips") == county_fips and item.get("attempts")
+         and any(attempt.get("success") is True for attempt in item["attempts"])
+         and item.get("successful_method") in {"direct_county_cache", "county_fips_service_get",
+                                                "county_fips_service_post", "bounding_box_service_get"}
+         for item in requests),
+     "each CDL year records attempts and one successful official acquisition route")
+need(all(item.get("byte_size", 0) > 0 and item.get("raster_width", 0) > 0
+         and item.get("raster_height", 0) > 0 and item.get("raster_band_count", 0) > 0
+         and re.fullmatch(r"[0-9a-f]{64}", item.get("sha256", ""))
+         and (item.get("raster_epsg") == 5070 or "albers" in item.get("raster_crs", "").lower())
+         for item in requests),
+     "every successful raster records validated bytes, dimensions, bands, CRS, and SHA-256")
+need(all(attempt.get("method") and attempt.get("http_method") in {"GET", "POST"}
+         and attempt.get("request_url") and isinstance(attempt.get("request_parameters"), dict)
+         and attempt.get("attempt_number", 0) > 0 for item in requests for attempt in item["attempts"]),
+     "every acquisition attempt records method, URL, parameters, verb, and attempt number")
 need(summary.get("field_count") == summary.get("matched_fields") == 25
      and summary.get("unmatched_fields") == 0 and len(merged["features"]) == 25,
      "merge metadata records 25 matched fields and no unmatched records")
@@ -125,7 +142,12 @@ readme = (ROOT / "README.md").read_text(encoding="utf-8").lower()
 tracker = (REPO / "docs/project/assignment-02-tracker.md").read_text(encoding="utf-8").lower()
 need(all(term in readme + tracker for term in ("official", "csbid", "raster", "unmatched", "limitation")),
      "README and tracker clearly document real data, results, unmatched records, and limitations")
-need("generated polygon" not in readme + tracker and "synthetic" not in readme + tracker,
+need("generated polygon" not in readme + tracker and "synthetic field" not in readme + tracker,
      "README and tracker do not retain earlier generated-data claims")
+environment = load_json("output/environment.json")
+need(environment.get("gdal_configuration", {}).get("OGR_ORGANIZE_POLYGONS") == "ONLY_CCW",
+     "environment records safe OGR polygon organization configuration")
+need("successful = direct_county_cache" in script and "All official CDL acquisition routes failed" in script,
+     "builder permits only validated official acquisition routes and has no synthetic fallback")
 
 print("Assignment 02 real-USDA verification passed.")
