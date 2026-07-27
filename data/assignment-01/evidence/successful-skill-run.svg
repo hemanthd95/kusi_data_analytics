@@ -1,14 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="301" viewBox="0 0 1200 301">
-<rect width="1200" height="301" rx="12" fill="#132019"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="441" viewBox="0 0 1200 441">
+<rect width="1200" height="441" rx="12" fill="#132019"/>
 <rect width="1200" height="52" rx="12" fill="#263c2d"/>
 <circle cx="28" cy="26" r="7" fill="#ef6b61"/><circle cx="52" cy="26" r="7" fill="#f4bf4f"/><circle cx="76" cy="26" r="7" fill="#64c867"/>
 <text x="600" y="33" text-anchor="middle" fill="#e7f1e9" font-family="sans-serif" font-size="18">Assignment 1 — successful skill run</text>
 <style>.terminal { fill:#d9eadc; font:18px monospace; }</style>
-<text x="42" y="88" class="terminal">Assignment 1: setup and skill-run evidence</text>
-<text x="42" y="116" class="terminal">Skill: assignment-setup (skills/assignment-setup/SKILL.md)</text>
-<text x="42" y="144" class="terminal">Branch: work</text>
-<text x="42" y="172" class="terminal">Python: 3.12.13</text>
-<text x="42" y="200" class="terminal">Assignment PDFs inspected: 10</text>
-<text x="42" y="228" class="terminal">Outputs: environment.json, file_inventory.md</text>
-<text x="42" y="256" class="terminal">RESULT: PASS</text>
+<text x="42" y="88" class="terminal">Saved map to /workspace/kusi_data_analytics/data/assignment-01/evidence/field-boundaries-sample-map.svg</text>
+<text x="42" y="116" class="terminal">Assignment 1: imported agricultural skill run</text>
+<text x="42" y="144" class="terminal">Skill: field-boundaries (skills/field-boundaries/SKILL.md)</text>
+<text x="42" y="172" class="terminal">Source: https://github.com/borealBytes/ag-skills/tree/skills-content/field-boundaries</text>
+<text x="42" y="200" class="terminal">Upstream commit: 8133719196e6f3299585e103deb61c4510472778</text>
+<text x="42" y="228" class="terminal">Input: skills/field-boundaries/examples/sample_2_fields.geojson</text>
+<text x="42" y="256" class="terminal">Features loaded: 2</text>
+<text x="42" y="284" class="terminal">Total area: 10.113394 acres</text>
+<text x="42" y="312" class="terminal">Verified skills: field-boundaries, ssurgo-soil, nasa-power-weather, cdl-cropland, interactive-web-map</text>
+<text x="42" y="340" class="terminal">Outputs: output/environment.json, output/field_boundaries_summary.json</text>
+<text x="42" y="368" class="terminal">Rendered evidence: evidence/field-boundaries-sample-map.svg</text>
+<text x="42" y="396" class="terminal">RESULT: PASS</text>
 </svg>

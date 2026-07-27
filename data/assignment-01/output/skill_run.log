@@ -1,7 +1,12 @@
-Assignment 1: setup and skill-run evidence
-Skill: assignment-setup (skills/assignment-setup/SKILL.md)
-Branch: work
-Python: 3.12.13
-Assignment PDFs inspected: 10
-Outputs: environment.json, file_inventory.md
+Saved map to /workspace/kusi_data_analytics/data/assignment-01/evidence/field-boundaries-sample-map.svg
+Assignment 1: imported agricultural skill run
+Skill: field-boundaries (skills/field-boundaries/SKILL.md)
+Source: https://github.com/borealBytes/ag-skills/tree/skills-content/field-boundaries
+Upstream commit: 8133719196e6f3299585e103deb61c4510472778
+Input: skills/field-boundaries/examples/sample_2_fields.geojson
+Features loaded: 2
+Total area: 10.113394 acres
+Verified skills: field-boundaries, ssurgo-soil, nasa-power-weather, cdl-cropland, interactive-web-map
+Outputs: output/environment.json, output/field_boundaries_summary.json
+Rendered evidence: evidence/field-boundaries-sample-map.svg
 RESULT: PASS

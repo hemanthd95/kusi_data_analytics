@@ -1,0 +1,49 @@
+{
+  "product_id": "S2A_T15TUM_20240615T165031",
+  "acquisition_date": "2024-06-15",
+  "acquisition_time": "10:50:31",
+  "platform": "Sentinel-2A",
+  "product_type": "S2MSI2A",
+  "processing_level": "Level-2A",
+  "tile_id": "T15TUM",
+  "utm_zone": 15,
+  "latitude_band": "U",
+  "grid_square": "UV",
+  "cloud_cover": 12,
+  "snow_cover": 0,
+  "vegetation_percentage": 85,
+  "water_percentage": 5,
+  "not_vegetated_percentage": 10,
+  "solar_zenith_angle": 28.5,
+  "solar_azimuth_angle": 145.2,
+  "spatial_resolution": 10,
+  "crs": "EPSG:32615",
+  "bands_downloaded": ["B02", "B03", "B04", "B08"],
+  "bands_used_for_ndvi": ["B04", "B08"],
+  "ndvi_calculation": {
+    "formula": "(B08 - B04) / (B08 + B04)",
+    "red_band": "B04",
+    "nir_band": "B08",
+    "output_range": [-1.0, 1.0]
+  },
+  "fields_analyzed": [
+    {
+      "field_id": "271623002471299",
+      "crop": "Corn",
+      "mean_ndvi": 0.72,
+      "area_acres": 3.7
+    },
+    {
+      "field_id": "271623001561551",
+      "crop": "Corn",
+      "mean_ndvi": 0.68,
+      "area_acres": 6.41
+    }
+  ],
+  "download_info": {
+    "source": "Copernicus Data Space",
+    "url": "https://apihub.copernicus.eu/apihub",
+    "download_date": "2024-06-16",
+    "file_size_mb": 850
+  }
+}

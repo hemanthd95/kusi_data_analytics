@@ -1,16 +1,30 @@
 {
-  "generated_at_utc": "2026-07-27T15:32:54.134027+00:00",
+  "generated_at_utc": "2026-07-27T20:38:05.630141+00:00",
   "python": "3.12.13",
   "platform": "Linux-6.12.13-x86_64-with-glibc2.39",
+  "dependencies": {
+    "geopandas": "1.1.4",
+    "matplotlib": "3.11.1",
+    "shapely": "2.1.2"
+  },
   "repository_root": "/workspace/kusi_data_analytics",
-  "git_branch": "work",
-  "git_commit": "9655632f5d0dd63ca28bd13f8b4e73bb593ac216",
-  "skill": "assignment-setup",
+  "git_branch": "feature/assignment-01-final",
+  "git_commit_at_run": "e35cdab0b17e7ba2896a0890df17f1427d870881",
+  "skill": "field-boundaries",
+  "skill_source": "https://github.com/borealBytes/ag-skills/tree/skills-content/field-boundaries",
+  "upstream_commit": "8133719196e6f3299585e103deb61c4510472778",
   "checks": {
-    "skill_manifest_present": true,
-    "assignment_directory_present": true,
-    "pdf_count": 10,
-    "pdfs_present": true
+    "required_skill_manifests_present": {
+      "field-boundaries": true,
+      "ssurgo-soil": true,
+      "nasa-power-weather": true,
+      "cdl-cropland": true,
+      "interactive-web-map": true
+    },
+    "sample_data_present": true,
+    "sample_feature_count_is_two": true,
+    "summary_generated": true,
+    "map_generated": true
   },
   "status": "PASS"
 }

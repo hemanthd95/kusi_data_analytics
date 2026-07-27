@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680">
+<title>Two field boundaries from the imported field-boundaries sample</title>
+<desc>Reproducibly rendered from skills/field-boundaries/examples/sample_2_fields.geojson; SHA-256 6e2e8be8210e9f5101eb35eb07c3d11de8bc99f18e83646c68f64be5e2ef8ee1</desc>
+<rect width="1200" height="680" fill="#f5f8f3"/>
+<text x="600" y="55" text-anchor="middle" class="title">Imported field-boundaries skill — included sample polygons</text>
+<text x="600" y="88" text-anchor="middle" class="subtitle">Two USDA NASS sample fields; each panel is fitted independently for visibility</text>
+<style>
+.title { font: bold 26px sans-serif; fill: #183a25; }
+.subtitle, .detail { font: 16px sans-serif; fill: #4a6251; }
+.panel { fill: #fff; stroke: #b9c8bc; stroke-width: 2; }
+.field { fill: #78b76b; stroke: #245c32; stroke-width: 3; }
+.label { font: bold 17px monospace; fill: #183a25; }
+</style>
+<g id="field-271623002471299">
+  <rect x="70" y="120" width="500" height="470" rx="12" class="panel"/>
+  <polygon points="535.000,345.636 105.000,345.636 105.000,314.364 535.000,314.364 535.000,345.636" class="field"/>
+  <text x="320" y="545" text-anchor="middle" class="label">Field 271623002471299</text>
+  <text x="320" y="572" text-anchor="middle" class="detail">Corn — 3.704844 acres</text>
+</g><g id="field-271623001561551">
+  <rect x="630" y="120" width="500" height="470" rx="12" class="panel"/>
+  <polygon points="1050.000,255.200 1050.000,350.400 900.400,350.400 900.400,255.200 846.000,255.200 846.000,404.800 900.400,404.800 900.400,500.000 846.000,500.000 846.000,445.600 710.000,445.600 710.000,350.400 710.000,296.000 710.000,200.800 846.000,200.800 900.400,200.800 900.400,160.000 954.800,160.000 995.600,160.000 1050.000,255.200" class="field"/>
+  <text x="880" y="545" text-anchor="middle" class="label">Field 271623001561551</text>
+  <text x="880" y="572" text-anchor="middle" class="detail">Corn — 6.408551 acres</text>
+</g>
+<text x="600" y="640" text-anchor="middle" class="detail">Source SHA-256: 6e2e8be8210e9f5101eb35eb07c3d11de8bc99f18e83646c68f64be5e2ef8ee1</text>
+</svg>
