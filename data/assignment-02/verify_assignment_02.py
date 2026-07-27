@@ -129,7 +129,7 @@ need(summary.get("field_count") == summary.get("matched_fields") == 25
 map_html = (ROOT / "my_fields_map.html").read_text(encoding="utf-8")
 need(all(f"{year} crops" in map_html and str(year) in map_html for year in YEARS),
      "interactive HTML embeds all four actual crop-year layers")
-need("grouped_layer_control" in map_html.lower() and "exclusiveGroups" in map_html,
+need("l.control.groupedlayers" in map_html.lower() and "exclusiveGroups" in map_html,
      "interactive HTML implements exclusive GroupedLayerControl radio behavior")
 need("cartodb" in map_html.lower() and "positron" in map_html.lower(), "CartoDB Positron is present")
 need("tile.openstreetmap.org" not in map_html.lower(), "OpenStreetMap tile endpoint is absent")
