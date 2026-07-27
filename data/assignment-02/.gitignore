@@ -1,5 +1,9 @@
 .venv/
+source_downloads/
 rasters/
 *.tif
 *.tiff
+*.zip
+*.gdb/
 __pycache__/
+*.py[cod]
