@@ -1,0 +1,101 @@
+Assignments 4-5 Reference Guide
+Course:
+Agricultural Data Systems
+Instructor:
+Clayton Young
+Assignment 4 (Class 6 Focus) - Real Boundary +
+SSURGO Polygon Mapping
+Required setup links
+●
+Template branch:
+https://github.com/SuperiorByteWorks-LLC/agent-project/tree/feat/agri-skills-for-agent-proj
+ect
+●
+Skills source:
+https://github.com/borealBytes/ag-skills/tree/skills-content
+OpenCode import prompt (paste as-is)
+Import skills from
+https://github.com/borealBytes/ag-skills/tree/skills-content into this
+current project and make them available for OpenCode to use.
+Core target
+●
+Real field boundary + real SSURGO polygons
+●
+One SSURGO attribute choropleth on basemap
+●
+Nice title + legend
+●
+Buffer operation shown
+●
+Final panel image with embedded data table
+Submit
+Item
+Required?
+Notes
+Branch/repo link
+Yes
+Assignment 4 branch
+Run screenshots
+Yes
+Show successful run + map
+outputs
+Final panel image
+Yes
+3x4 (or chosen layout) with
+map content + table
+Tip: Ask for transparency on both the basemap/background and the overlay layers (around
+~60%) so maps look cleaner and less harsh.
+Assignment 5 (Class 7 Focus) - NDVI Core Workflow
+Required setup links
+●
+Template branch:
+https://github.com/SuperiorByteWorks-LLC/agent-project/tree/feat/agri-skills-for-agent-proj
+ect
+●
+Skills source:
+https://github.com/borealBytes/ag-skills/tree/skills-content
+OpenCode import prompt (paste as-is)
+Import skills from
+https://github.com/borealBytes/ag-skills/tree/skills-content into this
+current project and make them available for OpenCode to use.
+Core target
+●
+One successful imagery-read example
+●
+At least one single-band image output (for example red or NIR)
+●
+One NDVI image output
+●
+Short markdown walkthrough with inline images
+●
+Inputs + scripts + outputs captured in repo
+This is intentionally narrower because Class 7 workflow is heavier.
+Submit
+Item
+Required?
+Notes
+Branch/repo link
+Yes
+Assignment 5 branch
+Run screenshots
+Yes
+Show successful run + NDVI
+output
+Single-band image
+Yes
+Show read-step output clearly
+NDVI image artifact
+Yes
+At least one NDVI image in
+repo
+Markdown walkthrough
+Yes
+Inline single-band + NDVI
+images
+Real-Data Rule (Assignments 4 and 5)
+From here on out, use real data workflows for these assignments.
+Optional Extra Evidence
+If you add extra evidence (notes, extra outputs, provenance details), keep it in your repo and
+add a short note in Google Classroom saying where it is.
+For easier instructor review, keep assignment artifacts in root data/ and follow
+data/README.md.

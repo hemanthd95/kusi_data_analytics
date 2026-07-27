@@ -1,0 +1,120 @@
+ASSIGNMENT #03:
+EXPLORATORY DATA
+ANALYSIS OF ROW
+CROP FIELDS
+ASSIGNMENT OVERVIEW
+FIELD
+VALUE
+ASSIGNMENT NUMBER
+3
+TITLE
+Exploratory Data Analysis of Row Crop
+Fields
+GRADE VALUE
+10 points
+DUE DATE
+March 9, 2026, 11:59 PM PT
+OBJECTIVES
+After completing this assignment, you will be able to:
+●
+Conduct
+Exploratory Data Analysis (EDA)
+on your row crop field datasets.
+●
+Use Python (pandas, seaborn, or plotly) to uncover patterns in soil, yield, or weather
+data.
+●
+Identify correlations, such as how soil pH or organic matter relates to yield potential.
+●
+Translate raw data patterns into visual insights for a farm manager.
+INSTRUCTIONS
+Step 1: Create Your Feature Branch
+Open your terminal in VS Code and switch to a new branch for your analysis:
+git checkout -b feature/assignment-03-eda
+Step 2: Set Up Your Analysis Notebook
+1.
+Create a new notebook
+in your repository:
+notebooks/03_field_eda.ipynb
+.
+2.
+Load your data:
+Import the
+field_summary.csv
+you created in Assignment #2.
+3.
+Data Inspection:
+Use
+.describe()
+and
+.info()
+to
+check the statistical distributions of
+your fields.
+Step 3: Visual Exploration (The "3 Visuals" Task)
+Using
+matplotlib
+,
+seaborn
+, or
+plotly
+, create at least three visualizations that explore the
+relationships in your data.
+●
+Visual 1 (Distribution):
+Show the distribution of a key variable, such as total acreage
+or soil organic matter across your 200 fields.
+●
+Visual 2 (Relationship):
+Create a scatter plot exploring the relationship between two
+variables (e.g., Soil Type vs. Acreage).
+●
+Visual 3 (Correlation):
+Generate a heatmap to see which variables are most closely
+linked.
+Step 4: Design Your Dashboard Elements
+The goal of this course is a final dashboard. You must now "lock in" two plots for that
+final output.
+1.
+Refine two of your plots from Step 3.
+2.
+Add professional titles, axis labels, and a consistent color palette (e.g., agricultural
+greens or soil browns).
+3.
+Task:
+Save these as high-resolution images in
+output/dashboard_assets/
+.
+Step 5: Update Your Project Tracker
+Open
+docs/project/assignment-01-tracker.md
+.
+●
+Document the key takeaway from your EDA (e.g.,
+"Fields with Clay-type soils
+showed 15% higher variability in moisture"
+).
+●
+Log any "data cleaning" steps you had to repeat after seeing outliers in your plots.
+GRADING CRITERIA (10 POINTS TOTAL)
+CRITERION
+POINTS
+DESCRIPTION
+EDA QUALITY
+4
+Created at least 3 distinct visualizations
+that reveal meaningful data patterns.
+TECHNICAL
+EXECUTION
+2
+Clean Python code using standard libraries
+(Pandas/Seaborn/Plotly).
+DASHBOARD
+DESIGN
+2
+Designed 2 polished plots specifically for
+the final dashboard layout.
+INTERPRETATION
+2
+Provided a brief written summary of the
+relationships found in the data.

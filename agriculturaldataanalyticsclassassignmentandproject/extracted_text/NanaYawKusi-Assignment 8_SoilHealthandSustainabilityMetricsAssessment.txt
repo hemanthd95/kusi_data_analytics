@@ -1,0 +1,117 @@
+ASSIGNMENT #8:
+SOIL HEALTH AND
+SUSTAINABILITY METRICS
+ASSESSMENT
+ASSIGNMENT OVERVIEW
+FIELD
+VALUE
+ASSIGNMENT NUMBER
+8
+TITLE
+Soil Health and Sustainability Metrics
+Assessment
+GRADE VALUE
+12 points
+DUE DATE
+March 30, 2026, 11:59 PM PT
+OBJECTIVES
+After completing this assignment, you will be able to:
+●
+Interpret NRCS SSURGO soil data to assess the physical and chemical health of your
+fields.
+●
+Visualize soil variability (Organic Matter, pH, CEC) across a large field package.
+●
+Calculate at least two sustainability metrics (e.g., Carbon Sequestration Potential or
+Erosion Risk).
+●
+Communicate soil-based management restrictions to stakeholders using professional
+visualizations.
+INSTRUCTIONS
+Step 1: Create Your Feature Branch
+●
+Open your terminal in VS Code and switch to a new branch:
+git checkout -b feature/assignment-08-soil-health
+Step 2: Extract Soil Health Indicators
+Your data package contains detailed NRCS soil attributes.
+1.
+Create a new notebook:
+notebooks/08_soil_sustainability.ipynb.
+2.
+Task:
+Filter your soil dataset for key indicators: Organic Matter (OM), pH, and Cation
+Exchange Capacity (CEC).
+3.
+Task:
+Group these by Field ID to see which fields have the highest "Soil Health Score"
+based on these raw values.
+Mark complete:
+Step 3: Analyze Sustainability Metrics
+Sustainability in row crops often revolves around soil stability and carbon.
+1.
+Task:
+Identify fields with high Erosion Risk based on the "K-Factor" (soil erodibility) or
+slope gradients provided in the NRCS data.
+2.
+Task:
+Calculate a simple Carbon Storage Potential metric based on the depth of the
+topsoil and organic matter percentage.
+Mark complete:
+Step 4:Visualize Soil Variability
+1.
+Task:
+Create a bar chart or box plot comparing Organic Matter % across your top 10 most
+productive fields vs. your bottom 10.
+2.
+Task:
+Create a spatial plot showing the distribution of Soil Drainage Classes (e.g., Well
+Drained vs. Poorly Drained) across your field cluster.
+Mark complete:
+Step 5: Design Your Dashboard Soil Section
+1.
+Task:
+Design 1-2 visualizations focused specifically on Soil Health and Sustainability for
+your final dashboard.
+2.
+Suggestion:
+A "Sustainability Scorecard" or a "Soil Nutrients Radar Chart" works well
+here.
+3.
+Task:
+Save the final plots in
+output/dashboard_assets/soil_health_metrics.png.
+Mark complete:
+Step 6:Update Your Project Tracker
+Open
+docs/project/assignment-01-tracker.md.
+●
+Document the most common soil limitation found in your 200 fields (e.g., "70% of fields
+are limited by high clay content and poor drainage").
+●
+Log the sustainability metrics you chose to track.
+Mark complete:
+GRADING CRITERIA (12POINTS TOTAL)
+Criterion
+Points
+Description
+Soil Data Analysis
+4
+Successfully extracted and
+cleaned key soil health
+indicators (OM, pH, etc.).
+Sustainability Metrics
+3
+Correctly calculated and
+interpreted at least 2
+sustainability or risk metrics.
+Visual Analysis
+3
+Created high-quality charts
+showing variability between
+field performance and soil
+health.
+Dashboard Design
+2
+Designed a dedicated soil
+health section for the final
+dashboard layout.
