@@ -1,2 +1,5 @@
 .external/
+.generated/
+preflight.log
+__pycache__/
 preflight.log

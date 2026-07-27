@@ -24,6 +24,11 @@ printf '# Assignment environment preflight\n'
 printf 'UTC timestamp: %s\n' "$(date -u +'%Y-%m-%dT%H:%M:%SZ')"
 printf 'Repository: %s\n' "$ROOT"
 
+if command -v pdftotext >/dev/null; then
+  check "Poppler pdftotext is installed" pdftotext -v
+else
+  check "Dependency-free PDF extractor is available" test -x "$ROOT/tools/extract_pdfs.py"
+fi
 check "Poppler pdftotext is installed" pdftotext -v
 check "Assignment PDFs are present" bash -c \
   'compgen -G "$1/*.pdf" >/dev/null' _ "$ROOT"

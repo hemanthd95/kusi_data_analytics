@@ -1,0 +1,7 @@
+Assignment 1: setup and skill-run evidence
+Skill: assignment-setup (skills/assignment-setup/SKILL.md)
+Branch: work
+Python: 3.12.13
+Assignment PDFs inspected: 10
+Outputs: environment.json, file_inventory.md
+RESULT: PASS

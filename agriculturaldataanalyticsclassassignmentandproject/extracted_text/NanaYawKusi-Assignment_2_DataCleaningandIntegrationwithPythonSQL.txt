@@ -1,0 +1,298 @@
+ASSIGNMENT #02:
+DATA CLEANING AND
+INTEGRATION WITH
+PYTHON & SQL
+ASSIGNMENT #02: First Data Download &
+Exploration
+Data Integration with AI Skills
+ASSIGNMENT OVERVIEW
+FIELD
+VALUE
+ASSIGNMENT NUMBER
+2
+TITLE
+First Data Download & Exploration
+GRADE VALUE
+10 points
+DUE DATE
+March 9, 2026, 11:59 PM PT
+OBJECTIVES
+After completing this assignment, you will be able to:
+●
+Successfully use AI assistants to download real agricultural data using pre-built
+skills
+●
+Understand how field boundaries connect to crop data via
+field_id
+●
+Observe and understand how datasets are merged automatically by AI
+●
+Create your first interactive web map to explore data patterns
+●
+Gain confidence working with AI assistants for data tasks
+INSTRUCTIONS
+Step 1: Switch to Your Feature Branch
+Ensure you are working in your assignment branch. In your VS Code: terminal (Ctrl+`),
+run:
+git
+checkout feature/assignment-02-first-data
+Tip:
+You can ask OpenCode to:
+“Create and switch to a new branch called
+‘feature/assignment-02-first-data’.”
+Step 2: Prepare the Environment
+Ensure your virtual environment is active and the agri-toolkit is ready.
+1.
+Open VS Code (In Codespace or Local) from where you left off on assignment 1
+2.
+Activate OpenCode in the terminal.
+Step 3: Download Field Boundaries (AI-Powered)
+Your goal is to download field boundaries using the pre-built skill.
+You will NOT write
+code
+—the AI assistant will run the example script for you.
+Task 3.1: Choose Your Region
+Ask OpenCode:
+“Using the field-boundaries skill, download 20-30 fields from
+[YOUR_CHOSEN_REGION]. Save to data/assignment-
+02/fields_EPSG4326.geojson”
+Choose from regions:
+●
+corn_belt
+(Iowa, Illinois, Indiana)
+●
+great_plains
+(Nebraska, Kansas)
+●
+southeast
+(Georgia, Alabama)
+Watch as OpenCode:
+●
+Runs the example script from
+skills/examples/01_field_boundaries_example.py
+●
+Downloads the data
+●
+Shows you the results
+Document:
+Which region did you choose? Why?
+Step 4: Download CDL Crop Data (AI-Powered)
+Next, get crop history for your fields.
+Task 4.1: Get Crop Classifications
+Ask OpenCode:
+“Using the cdl-cropland skill, get crop data for my fields for years 2020-2023.
+Save to data/assignment-02/cdl_EPSG4326.csv”
+Watch as OpenCode:
+●
+Downloads CDL data for your field locations
+●
+Shows what crops were found
+●
+Displays the CSV file contents
+Document:
+What years did you request? What crop types were found?
+Step 5: Merge the Datasets (AI-Powered - Watch the Magic!)
+This is the key learning moment:
+Watch how the AI joins your datasets.
+Task 5.1: Join Fields with Crop Data
+Ask OpenCode:
+“Merge my field boundaries with the CDL crop data using field_id. Save the
+combined data to data/assignment-02/fields_with_crops.geojson”
+Watch as OpenCode:
+●
+Shows you the Python code it generates
+●
+Performs the merge using
+pandas.merge()
+on
+field_id
+●
+Creates the joined dataset
+Key Concept:
+The
+field_id
+column is the “key” that connects field boundaries to crop
+data. This is how different datasets talk to each other.
+Document:
+●
+How many fields have crop data?
+●
+Were there any fields without matching crops?
+●
+What does the merged data look like?
+Step 6: Create Interactive Web Map (AI-Powered)
+Visualize your data!
+Task 6.1: Generate Web Map
+Ask OpenCode:
+“Using the interactive-web-map skill, create a map showing my fields colored
+by crop type. Save to data/assignment-02/my_fields_map.html”
+Open the map:
+●
+Double-click the HTML file
+●
+Explore: Click on fields, toggle layers, zoom in/out
+●
+Take a
+screenshot
+for submission
+Document:
+●
+What patterns do you see in the crop distribution?
+●
+Any surprises or interesting findings?
+●
+What questions do you have about what you’re seeing?
+Step 7: Optional Stretch - Add Soil Data
+Optional (not required for full credit):
+If you’re curious, try adding soil data.
+Ask OpenCode:
+“Using the ssurgo-soil skill, get soil data for my fields. Save to
+data/assignment-02/soil_EPSG4326.csv. Then merge it with my fields and
+update the web map.”
+Note:
+This is bonus exploration—not required for assignment completion.
+Step 8: Update Your Project Tracker
+Open
+docs/project/assignment-02-tracker.md
+(or create it).
+Mark complete:
+●
+Downloaded field boundaries
+●
+Downloaded CDL crop data
+●
+Merged datasets using field_id
+●
+Created interactive web map
+Document any Issues Encountered:
+●
+Did any downloads fail?
+●
+Were there fields without crop matches?
+●
+What questions do you still have?
+Step 9: Commit and Push
+Ask OpenCode:
+“Stage all files in data/assignment-02/, commit with the message ‘Complete
+Assignment 4: First data download and exploration’, and push to GitHub.”
+Step 10: Create Pull Request
+Ask OpenCode:
+“Create a pull request for feature/assignment-02-first-data to main with title
+‘Assignment 4: First Data Download’ and add @borealBytes as reviewer.”
+IMPORTANT: Add Instructor as Collaborator
+If your repository is
+private
+, you must add the instructor (@borealBytes) as a
+collaborator so they can review your work:
+To Add a Collaborator:
+1.
+Go to your repository on GitHub
+2.
+Click
+Settings
+tab
+3.
+Click
+Collaborators
+(under Access section)
+4.
+Click
+Add people
+5.
+Enter:
+borealBytes
+6.
+Click
+Add
+and select
+Write
+permissions
+Note:
+Without this step, the instructor cannot see or grade your private repository.
+DELIVERABLES
+1.
+GitHub Repository Link:
+Submit the URL to your repository showing the
+downloaded data in
+data/assignment-02/
+2.
+One Screenshot:
+Show your web map with fields colored by crop type
+3.
+Updated Tracker File:
+Your markdown tracker reflecting completion of all steps
+4.
+Pull Request:
+Link to your PR with @borealBytes as reviewer
+GRADING CRITERIA (10 POINTS TOTAL)
+CRITERION
+P
+OI
+N
+T
+S
+DESCRIPTION
+Field Boundaries
+Download
+3
+Successfully downloaded field data using AI
+assistant
+CDL Data
+Download
+2
+Successfully retrieved crop classifications
+Data Merge
+Observed
+2
+Merged datasets completed, student
+documented understanding
+Web Map Created
+2
+Interactive map generated and screenshot
+provided
+Git Workflow
+1
+Proper branch, commits, and pull request
+created
+Note:
+This assignment is graded on
+completion
+, not code quality. The goal is
+successful data download and exploration using AI assistance.
+SUPPORT
+If you get stuck:
+1.
+Ask OpenCode:
+“I’m stuck on [specific step]. What should I check?”
+2.
+Check the example scripts:
+packages/agri-data-toolkit/skills/examples/
+3.
+Review the presentation slides:
+docs/classes/04-Clean-Fields-Clean-Data-
+REVISED.md
+Remember:
+The AI assistant does the coding—you just need to describe what you
+want!
+KEY LEARNING OUTCOMES
+By completing this assignment, you will have:
+●
+Downloaded
+real agricultural data
+(not sample data)
+●
+Seen how
+datasets connect
+via common keys (field_id)
+●
+Created a
+professional interactive map
+●
+Used
+AI assistants
+to handle all technical work
+●
+Built confidence for
+future data analysis
+You did not write any code. You described what you wanted, and the AI made it
+happen.
