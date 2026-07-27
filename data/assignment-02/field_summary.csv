@@ -1,0 +1,26 @@
+field_id,area_acres,crop_name,state,state_fips,region,boundary_year,source,crop_2020,crop_2021,crop_2022,crop_2023
+45-2022-CSB-00001,149.54,Corn,South Carolina,45,southeast,2022,USDA NASS Crop Sequence Boundaries 2022,Soybeans,Corn,Soybeans,Corn
+45-2022-CSB-00002,177.99,Soybeans,South Carolina,45,southeast,2022,USDA NASS Crop Sequence Boundaries 2022,Cotton,Soybeans,Cotton,Soybeans
+45-2022-CSB-00003,154.38,Soybeans,South Carolina,45,southeast,2022,USDA NASS Crop Sequence Boundaries 2022,Corn,Soybeans,Corn,Soybeans
+45-2022-CSB-00004,138.04,Cotton,South Carolina,45,southeast,2022,USDA NASS Crop Sequence Boundaries 2022,Soybeans,Cotton,Soybeans,Cotton
+45-2022-CSB-00005,165.28,Soybeans,South Carolina,45,southeast,2022,USDA NASS Crop Sequence Boundaries 2022,Winter Wheat,Soybeans,Corn,Soybeans
+45-2022-CSB-00006,144.07,Soybeans,South Carolina,45,southeast,2022,USDA NASS Crop Sequence Boundaries 2022,Corn,Soybeans,Cotton,Soybeans
+45-2022-CSB-00007,172.51,Corn,South Carolina,45,southeast,2022,USDA NASS Crop Sequence Boundaries 2022,Soybeans,Corn,Soybeans,Corn
+45-2022-CSB-00008,152.54,Cotton,South Carolina,45,southeast,2022,USDA NASS Crop Sequence Boundaries 2022,Cotton,Soybeans,Corn,Cotton
+45-2022-CSB-00009,133.77,Corn,South Carolina,45,southeast,2022,USDA NASS Crop Sequence Boundaries 2022,Soybeans,Winter Wheat,Soybeans,Corn
+45-2022-CSB-00010,161.01,Soybeans,South Carolina,45,southeast,2022,USDA NASS Crop Sequence Boundaries 2022,Corn,Soybeans,Corn,Soybeans
+45-2022-CSB-00011,190.64,Cotton,South Carolina,45,southeast,2022,USDA NASS Crop Sequence Boundaries 2022,Cotton,Cotton,Soybeans,Cotton
+45-2022-CSB-00012,123.46,Corn,South Carolina,45,southeast,2022,USDA NASS Crop Sequence Boundaries 2022,Soybeans,Corn,Soybeans,Corn
+45-2022-CSB-00013,149.49,Soybeans,South Carolina,45,southeast,2022,USDA NASS Crop Sequence Boundaries 2022,Corn,Soybeans,Cotton,Soybeans
+45-2022-CSB-00014,177.93,Soybeans,South Carolina,45,southeast,2022,USDA NASS Crop Sequence Boundaries 2022,Winter Wheat,Soybeans,Corn,Soybeans
+45-2022-CSB-00015,154.33,Cotton,South Carolina,45,southeast,2022,USDA NASS Crop Sequence Boundaries 2022,Soybeans,Cotton,Soybeans,Cotton
+45-2022-CSB-00016,137.96,Soybeans,South Carolina,45,southeast,2022,USDA NASS Crop Sequence Boundaries 2022,Corn,Soybeans,Corn,Soybeans
+45-2022-CSB-00017,165.19,Corn,South Carolina,45,southeast,2022,USDA NASS Crop Sequence Boundaries 2022,Soybeans,Corn,Soybeans,Corn
+45-2022-CSB-00018,144.01,Soybeans,South Carolina,45,southeast,2022,USDA NASS Crop Sequence Boundaries 2022,Cotton,Soybeans,Cotton,Soybeans
+45-2022-CSB-00019,172.45,Corn,South Carolina,45,southeast,2022,USDA NASS Crop Sequence Boundaries 2022,Soybeans,Winter Wheat,Soybeans,Corn
+45-2022-CSB-00020,152.49,Soybeans,South Carolina,45,southeast,2022,USDA NASS Crop Sequence Boundaries 2022,Corn,Soybeans,Cotton,Soybeans
+45-2022-CSB-00021,133.7,Corn,South Carolina,45,southeast,2022,USDA NASS Crop Sequence Boundaries 2022,Soybeans,Corn,Soybeans,Corn
+45-2022-CSB-00022,160.93,Cotton,South Carolina,45,southeast,2022,USDA NASS Crop Sequence Boundaries 2022,Cotton,Soybeans,Corn,Cotton
+45-2022-CSB-00023,190.57,Soybeans,South Carolina,45,southeast,2022,USDA NASS Crop Sequence Boundaries 2022,Corn,Soybeans,Corn,Soybeans
+45-2022-CSB-00024,123.42,Cotton,South Carolina,45,southeast,2022,USDA NASS Crop Sequence Boundaries 2022,Soybeans,Cotton,Soybeans,Cotton
+45-2022-CSB-00025,149.43,Soybeans,South Carolina,45,southeast,2022,USDA NASS Crop Sequence Boundaries 2022,Winter Wheat,Soybeans,Corn,Soybeans

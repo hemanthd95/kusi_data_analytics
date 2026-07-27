@@ -1,0 +1,5 @@
+2026-07-27 region=southeast count=25 state=SC FIPS=45
+field-boundaries: selected 25 USDA NASS CSB 2022 polygons; exported EPSG:4326
+cdl-cropland: processed state CDL 2020,2021,2022,2023; 100 field-year records
+interactive-web-map: rendered 25 polygons colored by crop_2023 with popups and legend
+merge: expected=25 actual=25 matched=25 unmatched=0 duplicates=0
