@@ -1,0 +1,15 @@
+Assignment 5 authentic Landsat NDVI run
+Generated UTC: 2026-07-28T23:12:02.791432+00:00
+Product ID: LC08_L2SP_018036_20230727_02_T1
+Field ID: 451623001001257
+Scale: 2.75e-05
+Offset: -0.2
+Field pixels: 87
+Valid NDVI pixels: 87
+Valid NDVI percent: 100.000000
+NDVI minimum: 0.59347363
+NDVI median: 0.76998452
+NDVI mean: 0.76221881
+NDVI maximum: 0.86122302
+Synthetic fallback used: no
+SUCCESS: Assignment 5 real-data NDVI workflow complete
