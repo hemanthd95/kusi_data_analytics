@@ -1,0 +1,11 @@
+{
+  "generated_utc": "2026-07-28T20:58:27.028967+00:00",
+  "python": "3.13.11",
+  "geopandas": "1.1.4",
+  "pandas": "2.3.3",
+  "numpy": "2.4.1",
+  "matplotlib": "3.10.8",
+  "folium": "0.20.0",
+  "working_crs": "EPSG:32617",
+  "geographic_crs": "EPSG:4326"
+}
