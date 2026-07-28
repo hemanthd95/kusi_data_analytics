@@ -8,3 +8,5 @@ that claim.
 ## Contents
 
 - `assignment-01/`: workspace setup and successful local skill-run evidence.
+- `assignment-02/`: verified real USDA Crop Sequence Boundary and 2020–2023 Cropland Data Layer outputs for 25 South Carolina fields.
+- `assignment-03/`: reproducible EDA of those 25 finalized fields, including an executed notebook, report, visualizations, dashboard assets, provenance, and verification.

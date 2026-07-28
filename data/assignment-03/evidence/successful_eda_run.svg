@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="610" viewBox="0 0 1200 610" role="img" aria-labelledby="title desc">
+ <title id="title">Assignment 3 successful EDA run</title><desc id="desc">Text evidence showing source, counts, generated assets, and pass status.</desc>
+ <rect width="1200" height="610" fill="#f7f5ed"/><rect x="35" y="35" width="1130" height="540" rx="18" fill="#fff" stroke="#386641" stroke-width="5"/>
+ <text x="80" y="100" font-family="sans-serif" font-size="34" font-weight="bold" fill="#386641">Assignment 3 — Successful EDA Run</text>
+ <g font-family="monospace" font-size="22" fill="#253029">
+  <text x="80" y="155">Source: data/assignment-02/field_summary.csv</text><text x="80" y="195">Source SHA-256 prefix: 5759d566cc88c064</text>
+  <text x="80" y="235">Fields loaded: 25</text><text x="80" y="275">Input shape: 25 rows × 30 columns</text>
+  <text x="80" y="315">Exploratory visualizations generated: 4 PNG + 4 SVG</text><text x="80" y="355">Dashboard assets generated: 2 PNG + 2 SVG</text>
+  <text x="80" y="395">Notebook execution: PASSED</text><text x="80" y="435">Automated verifier: PASSED</text>
+ </g><rect x="75" y="470" width="1050" height="70" rx="10" fill="#386641"/><text x="600" y="516" text-anchor="middle" font-family="sans-serif" font-size="30" font-weight="bold" fill="white">RESULT: PASS</text>
+</svg>
