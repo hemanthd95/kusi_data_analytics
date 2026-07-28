@@ -1,53 +1,247 @@
 {
-  "region": "southeast",
+  "generated_utc": "2026-07-28T15:04:25.209621+00:00",
+  "boundary_source": {
+    "requested_url": "https://www.nass.usda.gov/Research_and_Science/Crop-Sequence-Boundaries/datasets/NationalCSB_2016-2023_rev23.zip",
+    "final_url": "https://www.nass.usda.gov/Research_and_Science/Crop-Sequence-Boundaries/datasets/NationalCSB_2016-2023_rev23.zip",
+    "http_status": 200,
+    "byte_size": 3505346935,
+    "sha256": "5eff3f67d14cd8ff5e12133ad1bb808d78740134b24df1a321598bf457fd0910",
+    "accessed_utc": "2026-07-28T15:03:18.753642+00:00",
+    "cache_reused": false,
+    "cache_validation": "valid ZIP containing .gdb"
+  },
+  "feature_class": {
+    "geodatabase": "CSB1623.gdb",
+    "layer": "national1623",
+    "schema": {
+      "geometry": "MultiPolygon",
+      "properties": {
+        "CSBID": "str:15",
+        "CSBYEARS": "str:4",
+        "CSBACRES": "float",
+        "CDL2016": "int32",
+        "CDL2017": "int32",
+        "CDL2018": "int32",
+        "CDL2019": "int32",
+        "CDL2020": "int32",
+        "CDL2021": "int32",
+        "CDL2022": "int32",
+        "CDL2023": "int32",
+        "STATEFIPS": "str:2",
+        "STATEASD": "str:10",
+        "ASD": "str:2",
+        "CNTY": "str:21",
+        "CNTYFIPS": "str:3",
+        "INSIDE_X": "float",
+        "INSIDE_Y": "float",
+        "Shape_Length": "float",
+        "Shape_Area": "float"
+      },
+      "crs": "EPSG:5070"
+    }
+  },
+  "field_selection": {
+    "national_feature_class": "national1623",
+    "state_filter": "\"STATEFIPS\" = '45'",
+    "state_filter_column": "STATEFIPS",
+    "south_carolina_feature_count_read": 148221,
+    "national_feature_class_loaded_in_full": false,
+    "county_attribute": "CNTYFIPS",
+    "selected_county": "001",
+    "selected_county_fips": "45001",
+    "eligible_fields_in_selected_county": 1890,
+    "selected_field_count": 25,
+    "cdl_request_bbox_epsg5070": [
+      1223873.996,
+      1337381.563,
+      1226235.501,
+      1341013.616
+    ],
+    "cdl_request_bbox_width_m": 2361.506,
+    "cdl_request_bbox_height_m": 3632.054
+  },
+  "raster_requests": [
+    {
+      "year": 2020,
+      "selected_county_fips": "45001",
+      "attempts": [
+        {
+          "method": "direct_county_cache",
+          "http_method": "GET",
+          "request_url": "https://nassgeodata.gmu.edu/webservice/nass_data_cache/byfips/CDL_2020_45001.tif",
+          "request_parameters": {},
+          "attempt_number": 1,
+          "attempted_utc": "2026-07-28T15:04:23.568417+00:00",
+          "success": true,
+          "http_status": 200,
+          "raster_url": "https://nassgeodata.gmu.edu/webservice/nass_data_cache/byfips/CDL_2020_45001.tif",
+          "byte_size": 2856112,
+          "sha256": "a487b824d08105bd075dd00654bc3f4290296bcf68cfd9b17a670122bccf980e",
+          "raster_crs": "EPSG:5070",
+          "raster_epsg": 5070,
+          "raster_width": 1536,
+          "raster_height": 1856,
+          "raster_band_count": 1
+        }
+      ],
+      "successful_method": "direct_county_cache",
+      "final_raster_url": "https://nassgeodata.gmu.edu/webservice/nass_data_cache/byfips/CDL_2020_45001.tif",
+      "byte_size": 2856112,
+      "sha256": "a487b824d08105bd075dd00654bc3f4290296bcf68cfd9b17a670122bccf980e",
+      "raster_crs": "EPSG:5070",
+      "raster_epsg": 5070,
+      "raster_width": 1536,
+      "raster_height": 1856,
+      "raster_band_count": 1
+    },
+    {
+      "year": 2021,
+      "selected_county_fips": "45001",
+      "attempts": [
+        {
+          "method": "direct_county_cache",
+          "http_method": "GET",
+          "request_url": "https://nassgeodata.gmu.edu/webservice/nass_data_cache/byfips/CDL_2021_45001.tif",
+          "request_parameters": {},
+          "attempt_number": 1,
+          "attempted_utc": "2026-07-28T15:04:24.094304+00:00",
+          "success": true,
+          "http_status": 200,
+          "raster_url": "https://nassgeodata.gmu.edu/webservice/nass_data_cache/byfips/CDL_2021_45001.tif",
+          "byte_size": 2856112,
+          "sha256": "f44ea25d24ef88013aa2d8a421a5af2878e9b5979e15ab55e3823485b95fd533",
+          "raster_crs": "EPSG:5070",
+          "raster_epsg": 5070,
+          "raster_width": 1536,
+          "raster_height": 1856,
+          "raster_band_count": 1
+        }
+      ],
+      "successful_method": "direct_county_cache",
+      "final_raster_url": "https://nassgeodata.gmu.edu/webservice/nass_data_cache/byfips/CDL_2021_45001.tif",
+      "byte_size": 2856112,
+      "sha256": "f44ea25d24ef88013aa2d8a421a5af2878e9b5979e15ab55e3823485b95fd533",
+      "raster_crs": "EPSG:5070",
+      "raster_epsg": 5070,
+      "raster_width": 1536,
+      "raster_height": 1856,
+      "raster_band_count": 1
+    },
+    {
+      "year": 2022,
+      "selected_county_fips": "45001",
+      "attempts": [
+        {
+          "method": "direct_county_cache",
+          "http_method": "GET",
+          "request_url": "https://nassgeodata.gmu.edu/webservice/nass_data_cache/byfips/CDL_2022_45001.tif",
+          "request_parameters": {},
+          "attempt_number": 1,
+          "attempted_utc": "2026-07-28T15:04:24.378340+00:00",
+          "success": true,
+          "http_status": 200,
+          "raster_url": "https://nassgeodata.gmu.edu/webservice/nass_data_cache/byfips/CDL_2022_45001.tif",
+          "byte_size": 2856150,
+          "sha256": "fa5ac1c272510e58ef3d9689a9d922249b265ecb231adc9eaa8a639c71bbfb3c",
+          "raster_crs": "EPSG:5070",
+          "raster_epsg": 5070,
+          "raster_width": 1536,
+          "raster_height": 1856,
+          "raster_band_count": 1
+        }
+      ],
+      "successful_method": "direct_county_cache",
+      "final_raster_url": "https://nassgeodata.gmu.edu/webservice/nass_data_cache/byfips/CDL_2022_45001.tif",
+      "byte_size": 2856150,
+      "sha256": "fa5ac1c272510e58ef3d9689a9d922249b265ecb231adc9eaa8a639c71bbfb3c",
+      "raster_crs": "EPSG:5070",
+      "raster_epsg": 5070,
+      "raster_width": 1536,
+      "raster_height": 1856,
+      "raster_band_count": 1
+    },
+    {
+      "year": 2023,
+      "selected_county_fips": "45001",
+      "attempts": [
+        {
+          "method": "direct_county_cache",
+          "http_method": "GET",
+          "request_url": "https://nassgeodata.gmu.edu/webservice/nass_data_cache/byfips/CDL_2023_45001.tif",
+          "request_parameters": {},
+          "attempt_number": 1,
+          "attempted_utc": "2026-07-28T15:04:24.664441+00:00",
+          "success": true,
+          "http_status": 200,
+          "raster_url": "https://nassgeodata.gmu.edu/webservice/nass_data_cache/byfips/CDL_2023_45001.tif",
+          "byte_size": 2856150,
+          "sha256": "b6af9cd8ae8e8a1dba5b729c8ff3b85df344c04930888f2206779dc000b30cee",
+          "raster_crs": "EPSG:5070",
+          "raster_epsg": 5070,
+          "raster_width": 1536,
+          "raster_height": 1856,
+          "raster_band_count": 1
+        }
+      ],
+      "successful_method": "direct_county_cache",
+      "final_raster_url": "https://nassgeodata.gmu.edu/webservice/nass_data_cache/byfips/CDL_2023_45001.tif",
+      "byte_size": 2856150,
+      "sha256": "b6af9cd8ae8e8a1dba5b729c8ff3b85df344c04930888f2206779dc000b30cee",
+      "raster_crs": "EPSG:5070",
+      "raster_epsg": 5070,
+      "raster_width": 1536,
+      "raster_height": 1856,
+      "raster_band_count": 1
+    }
+  ],
   "state": "South Carolina",
-  "state_fips": "45",
+  "STATEFIPS": "45",
   "field_count": 25,
-  "total_acres": 3875.13,
   "years": [
     2020,
     2021,
     2022,
     2023
   ],
-  "crop_types_by_year": {
-    "2020": [
-      "Corn",
-      "Cotton",
-      "Soybeans",
-      "Winter Wheat"
-    ],
-    "2021": [
-      "Corn",
-      "Cotton",
-      "Soybeans",
-      "Winter Wheat"
-    ],
-    "2022": [
-      "Corn",
-      "Cotton",
-      "Soybeans"
-    ],
-    "2023": [
-      "Corn",
-      "Cotton",
-      "Soybeans"
-    ]
-  },
-  "expected_merge_fields": 25,
-  "actual_merge_fields": 25,
   "matched_fields": 25,
   "unmatched_fields": 0,
-  "duplicate_field_ids": 0,
-  "boundary_source": {
-    "name": "USDA NASS Crop Sequence Boundaries 2022",
-    "url": "https://www.nass.usda.gov/Research_and_Science/Crop-Sequence-Boundaries/",
-    "accessed": "2026-07-27"
-  },
-  "cdl_source": {
-    "name": "USDA NASS Cropland Data Layer",
-    "url_pattern": "https://nassgeodata.gmu.edu/nass_data_cache/byfips/CDL_{year}_45.tif",
-    "accessed": "2026-07-27",
-    "method": "state raster, polygons reprojected to raster CRS, categorical pixel counts, dominant class and percentage"
-  }
+  "raster_csb_disagreement_count": 6,
+  "raster_csb_disagreements": [
+    {
+      "field_id": "451623001001243",
+      "year": 2020,
+      "csb_annual_cdl_code": 176,
+      "crop_code": 37
+    },
+    {
+      "field_id": "451623001001262",
+      "year": 2020,
+      "csb_annual_cdl_code": 37,
+      "crop_code": 28
+    },
+    {
+      "field_id": "451623001001262",
+      "year": 2022,
+      "csb_annual_cdl_code": 176,
+      "crop_code": 37
+    },
+    {
+      "field_id": "451623001001187",
+      "year": 2023,
+      "csb_annual_cdl_code": 37,
+      "crop_code": 176
+    },
+    {
+      "field_id": "451623001001218",
+      "year": 2023,
+      "csb_annual_cdl_code": 37,
+      "crop_code": 176
+    },
+    {
+      "field_id": "451623001001281",
+      "year": 2023,
+      "csb_annual_cdl_code": 37,
+      "crop_code": 176
+    }
+  ]
 }

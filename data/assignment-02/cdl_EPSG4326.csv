@@ -1,101 +1,101 @@
-field_id,year,crop_code,crop_name,dominant_pct,total_pixels,state_fips,source_url
-45-2022-CSB-00001,2020,5,Soybeans,81.5,672,45,https://nassgeodata.gmu.edu/nass_data_cache/byfips/CDL_2020_45.tif
-45-2022-CSB-00001,2021,1,Corn,85.5,672,45,https://nassgeodata.gmu.edu/nass_data_cache/byfips/CDL_2021_45.tif
-45-2022-CSB-00001,2022,5,Soybeans,89.5,672,45,https://nassgeodata.gmu.edu/nass_data_cache/byfips/CDL_2022_45.tif
-45-2022-CSB-00001,2023,1,Corn,93.5,672,45,https://nassgeodata.gmu.edu/nass_data_cache/byfips/CDL_2023_45.tif
-45-2022-CSB-00002,2020,2,Cotton,88.5,800,45,https://nassgeodata.gmu.edu/nass_data_cache/byfips/CDL_2020_45.tif
-45-2022-CSB-00002,2021,5,Soybeans,92.5,800,45,https://nassgeodata.gmu.edu/nass_data_cache/byfips/CDL_2021_45.tif
-45-2022-CSB-00002,2022,2,Cotton,96.5,800,45,https://nassgeodata.gmu.edu/nass_data_cache/byfips/CDL_2022_45.tif
-45-2022-CSB-00002,2023,5,Soybeans,82.5,800,45,https://nassgeodata.gmu.edu/nass_data_cache/byfips/CDL_2023_45.tif
-45-2022-CSB-00003,2020,1,Corn,95.5,694,45,https://nassgeodata.gmu.edu/nass_data_cache/byfips/CDL_2020_45.tif
-45-2022-CSB-00003,2021,5,Soybeans,81.5,694,45,https://nassgeodata.gmu.edu/nass_data_cache/byfips/CDL_2021_45.tif
-45-2022-CSB-00003,2022,1,Corn,85.5,694,45,https://nassgeodata.gmu.edu/nass_data_cache/byfips/CDL_2022_45.tif
-45-2022-CSB-00003,2023,5,Soybeans,89.5,694,45,https://nassgeodata.gmu.edu/nass_data_cache/byfips/CDL_2023_45.tif
-45-2022-CSB-00004,2020,5,Soybeans,84.5,620,45,https://nassgeodata.gmu.edu/nass_data_cache/byfips/CDL_2020_45.tif
-45-2022-CSB-00004,2021,2,Cotton,88.5,620,45,https://nassgeodata.gmu.edu/nass_data_cache/byfips/CDL_2021_45.tif
-45-2022-CSB-00004,2022,5,Soybeans,92.5,620,45,https://nassgeodata.gmu.edu/nass_data_cache/byfips/CDL_2022_45.tif
-45-2022-CSB-00004,2023,2,Cotton,96.5,620,45,https://nassgeodata.gmu.edu/nass_data_cache/byfips/CDL_2023_45.tif
-45-2022-CSB-00005,2020,24,Winter Wheat,91.5,743,45,https://nassgeodata.gmu.edu/nass_data_cache/byfips/CDL_2020_45.tif
-45-2022-CSB-00005,2021,5,Soybeans,95.5,743,45,https://nassgeodata.gmu.edu/nass_data_cache/byfips/CDL_2021_45.tif
-45-2022-CSB-00005,2022,1,Corn,81.5,743,45,https://nassgeodata.gmu.edu/nass_data_cache/byfips/CDL_2022_45.tif
-45-2022-CSB-00005,2023,5,Soybeans,85.5,743,45,https://nassgeodata.gmu.edu/nass_data_cache/byfips/CDL_2023_45.tif
-45-2022-CSB-00006,2020,1,Corn,98.5,647,45,https://nassgeodata.gmu.edu/nass_data_cache/byfips/CDL_2020_45.tif
-45-2022-CSB-00006,2021,5,Soybeans,84.5,647,45,https://nassgeodata.gmu.edu/nass_data_cache/byfips/CDL_2021_45.tif
-45-2022-CSB-00006,2022,2,Cotton,88.5,647,45,https://nassgeodata.gmu.edu/nass_data_cache/byfips/CDL_2022_45.tif
-45-2022-CSB-00006,2023,5,Soybeans,92.5,647,45,https://nassgeodata.gmu.edu/nass_data_cache/byfips/CDL_2023_45.tif
-45-2022-CSB-00007,2020,5,Soybeans,87.5,775,45,https://nassgeodata.gmu.edu/nass_data_cache/byfips/CDL_2020_45.tif
-45-2022-CSB-00007,2021,1,Corn,91.5,775,45,https://nassgeodata.gmu.edu/nass_data_cache/byfips/CDL_2021_45.tif
-45-2022-CSB-00007,2022,5,Soybeans,95.5,775,45,https://nassgeodata.gmu.edu/nass_data_cache/byfips/CDL_2022_45.tif
-45-2022-CSB-00007,2023,1,Corn,81.5,775,45,https://nassgeodata.gmu.edu/nass_data_cache/byfips/CDL_2023_45.tif
-45-2022-CSB-00008,2020,2,Cotton,94.5,685,45,https://nassgeodata.gmu.edu/nass_data_cache/byfips/CDL_2020_45.tif
-45-2022-CSB-00008,2021,5,Soybeans,98.5,685,45,https://nassgeodata.gmu.edu/nass_data_cache/byfips/CDL_2021_45.tif
-45-2022-CSB-00008,2022,1,Corn,84.5,685,45,https://nassgeodata.gmu.edu/nass_data_cache/byfips/CDL_2022_45.tif
-45-2022-CSB-00008,2023,2,Cotton,88.5,685,45,https://nassgeodata.gmu.edu/nass_data_cache/byfips/CDL_2023_45.tif
-45-2022-CSB-00009,2020,5,Soybeans,83.5,601,45,https://nassgeodata.gmu.edu/nass_data_cache/byfips/CDL_2020_45.tif
-45-2022-CSB-00009,2021,24,Winter Wheat,87.5,601,45,https://nassgeodata.gmu.edu/nass_data_cache/byfips/CDL_2021_45.tif
-45-2022-CSB-00009,2022,5,Soybeans,91.5,601,45,https://nassgeodata.gmu.edu/nass_data_cache/byfips/CDL_2022_45.tif
-45-2022-CSB-00009,2023,1,Corn,95.5,601,45,https://nassgeodata.gmu.edu/nass_data_cache/byfips/CDL_2023_45.tif
-45-2022-CSB-00010,2020,1,Corn,90.5,723,45,https://nassgeodata.gmu.edu/nass_data_cache/byfips/CDL_2020_45.tif
-45-2022-CSB-00010,2021,5,Soybeans,94.5,723,45,https://nassgeodata.gmu.edu/nass_data_cache/byfips/CDL_2021_45.tif
-45-2022-CSB-00010,2022,1,Corn,98.5,723,45,https://nassgeodata.gmu.edu/nass_data_cache/byfips/CDL_2022_45.tif
-45-2022-CSB-00010,2023,5,Soybeans,84.5,723,45,https://nassgeodata.gmu.edu/nass_data_cache/byfips/CDL_2023_45.tif
-45-2022-CSB-00011,2020,2,Cotton,97.5,857,45,https://nassgeodata.gmu.edu/nass_data_cache/byfips/CDL_2020_45.tif
-45-2022-CSB-00011,2021,2,Cotton,83.5,857,45,https://nassgeodata.gmu.edu/nass_data_cache/byfips/CDL_2021_45.tif
-45-2022-CSB-00011,2022,5,Soybeans,87.5,857,45,https://nassgeodata.gmu.edu/nass_data_cache/byfips/CDL_2022_45.tif
-45-2022-CSB-00011,2023,2,Cotton,91.5,857,45,https://nassgeodata.gmu.edu/nass_data_cache/byfips/CDL_2023_45.tif
-45-2022-CSB-00012,2020,5,Soybeans,86.5,555,45,https://nassgeodata.gmu.edu/nass_data_cache/byfips/CDL_2020_45.tif
-45-2022-CSB-00012,2021,1,Corn,90.5,555,45,https://nassgeodata.gmu.edu/nass_data_cache/byfips/CDL_2021_45.tif
-45-2022-CSB-00012,2022,5,Soybeans,94.5,555,45,https://nassgeodata.gmu.edu/nass_data_cache/byfips/CDL_2022_45.tif
-45-2022-CSB-00012,2023,1,Corn,98.5,555,45,https://nassgeodata.gmu.edu/nass_data_cache/byfips/CDL_2023_45.tif
-45-2022-CSB-00013,2020,1,Corn,93.5,672,45,https://nassgeodata.gmu.edu/nass_data_cache/byfips/CDL_2020_45.tif
-45-2022-CSB-00013,2021,5,Soybeans,97.5,672,45,https://nassgeodata.gmu.edu/nass_data_cache/byfips/CDL_2021_45.tif
-45-2022-CSB-00013,2022,2,Cotton,83.5,672,45,https://nassgeodata.gmu.edu/nass_data_cache/byfips/CDL_2022_45.tif
-45-2022-CSB-00013,2023,5,Soybeans,87.5,672,45,https://nassgeodata.gmu.edu/nass_data_cache/byfips/CDL_2023_45.tif
-45-2022-CSB-00014,2020,24,Winter Wheat,82.5,800,45,https://nassgeodata.gmu.edu/nass_data_cache/byfips/CDL_2020_45.tif
-45-2022-CSB-00014,2021,5,Soybeans,86.5,800,45,https://nassgeodata.gmu.edu/nass_data_cache/byfips/CDL_2021_45.tif
-45-2022-CSB-00014,2022,1,Corn,90.5,800,45,https://nassgeodata.gmu.edu/nass_data_cache/byfips/CDL_2022_45.tif
-45-2022-CSB-00014,2023,5,Soybeans,94.5,800,45,https://nassgeodata.gmu.edu/nass_data_cache/byfips/CDL_2023_45.tif
-45-2022-CSB-00015,2020,5,Soybeans,89.5,693,45,https://nassgeodata.gmu.edu/nass_data_cache/byfips/CDL_2020_45.tif
-45-2022-CSB-00015,2021,2,Cotton,93.5,693,45,https://nassgeodata.gmu.edu/nass_data_cache/byfips/CDL_2021_45.tif
-45-2022-CSB-00015,2022,5,Soybeans,97.5,693,45,https://nassgeodata.gmu.edu/nass_data_cache/byfips/CDL_2022_45.tif
-45-2022-CSB-00015,2023,2,Cotton,83.5,693,45,https://nassgeodata.gmu.edu/nass_data_cache/byfips/CDL_2023_45.tif
-45-2022-CSB-00016,2020,1,Corn,96.5,620,45,https://nassgeodata.gmu.edu/nass_data_cache/byfips/CDL_2020_45.tif
-45-2022-CSB-00016,2021,5,Soybeans,82.5,620,45,https://nassgeodata.gmu.edu/nass_data_cache/byfips/CDL_2021_45.tif
-45-2022-CSB-00016,2022,1,Corn,86.5,620,45,https://nassgeodata.gmu.edu/nass_data_cache/byfips/CDL_2022_45.tif
-45-2022-CSB-00016,2023,5,Soybeans,90.5,620,45,https://nassgeodata.gmu.edu/nass_data_cache/byfips/CDL_2023_45.tif
-45-2022-CSB-00017,2020,5,Soybeans,85.5,742,45,https://nassgeodata.gmu.edu/nass_data_cache/byfips/CDL_2020_45.tif
-45-2022-CSB-00017,2021,1,Corn,89.5,742,45,https://nassgeodata.gmu.edu/nass_data_cache/byfips/CDL_2021_45.tif
-45-2022-CSB-00017,2022,5,Soybeans,93.5,742,45,https://nassgeodata.gmu.edu/nass_data_cache/byfips/CDL_2022_45.tif
-45-2022-CSB-00017,2023,1,Corn,97.5,742,45,https://nassgeodata.gmu.edu/nass_data_cache/byfips/CDL_2023_45.tif
-45-2022-CSB-00018,2020,2,Cotton,92.5,647,45,https://nassgeodata.gmu.edu/nass_data_cache/byfips/CDL_2020_45.tif
-45-2022-CSB-00018,2021,5,Soybeans,96.5,647,45,https://nassgeodata.gmu.edu/nass_data_cache/byfips/CDL_2021_45.tif
-45-2022-CSB-00018,2022,2,Cotton,82.5,647,45,https://nassgeodata.gmu.edu/nass_data_cache/byfips/CDL_2022_45.tif
-45-2022-CSB-00018,2023,5,Soybeans,86.5,647,45,https://nassgeodata.gmu.edu/nass_data_cache/byfips/CDL_2023_45.tif
-45-2022-CSB-00019,2020,5,Soybeans,81.5,775,45,https://nassgeodata.gmu.edu/nass_data_cache/byfips/CDL_2020_45.tif
-45-2022-CSB-00019,2021,24,Winter Wheat,85.5,775,45,https://nassgeodata.gmu.edu/nass_data_cache/byfips/CDL_2021_45.tif
-45-2022-CSB-00019,2022,5,Soybeans,89.5,775,45,https://nassgeodata.gmu.edu/nass_data_cache/byfips/CDL_2022_45.tif
-45-2022-CSB-00019,2023,1,Corn,93.5,775,45,https://nassgeodata.gmu.edu/nass_data_cache/byfips/CDL_2023_45.tif
-45-2022-CSB-00020,2020,1,Corn,88.5,685,45,https://nassgeodata.gmu.edu/nass_data_cache/byfips/CDL_2020_45.tif
-45-2022-CSB-00020,2021,5,Soybeans,92.5,685,45,https://nassgeodata.gmu.edu/nass_data_cache/byfips/CDL_2021_45.tif
-45-2022-CSB-00020,2022,2,Cotton,96.5,685,45,https://nassgeodata.gmu.edu/nass_data_cache/byfips/CDL_2022_45.tif
-45-2022-CSB-00020,2023,5,Soybeans,82.5,685,45,https://nassgeodata.gmu.edu/nass_data_cache/byfips/CDL_2023_45.tif
-45-2022-CSB-00021,2020,5,Soybeans,95.5,601,45,https://nassgeodata.gmu.edu/nass_data_cache/byfips/CDL_2020_45.tif
-45-2022-CSB-00021,2021,1,Corn,81.5,601,45,https://nassgeodata.gmu.edu/nass_data_cache/byfips/CDL_2021_45.tif
-45-2022-CSB-00021,2022,5,Soybeans,85.5,601,45,https://nassgeodata.gmu.edu/nass_data_cache/byfips/CDL_2022_45.tif
-45-2022-CSB-00021,2023,1,Corn,89.5,601,45,https://nassgeodata.gmu.edu/nass_data_cache/byfips/CDL_2023_45.tif
-45-2022-CSB-00022,2020,2,Cotton,84.5,723,45,https://nassgeodata.gmu.edu/nass_data_cache/byfips/CDL_2020_45.tif
-45-2022-CSB-00022,2021,5,Soybeans,88.5,723,45,https://nassgeodata.gmu.edu/nass_data_cache/byfips/CDL_2021_45.tif
-45-2022-CSB-00022,2022,1,Corn,92.5,723,45,https://nassgeodata.gmu.edu/nass_data_cache/byfips/CDL_2022_45.tif
-45-2022-CSB-00022,2023,2,Cotton,96.5,723,45,https://nassgeodata.gmu.edu/nass_data_cache/byfips/CDL_2023_45.tif
-45-2022-CSB-00023,2020,1,Corn,91.5,856,45,https://nassgeodata.gmu.edu/nass_data_cache/byfips/CDL_2020_45.tif
-45-2022-CSB-00023,2021,5,Soybeans,95.5,856,45,https://nassgeodata.gmu.edu/nass_data_cache/byfips/CDL_2021_45.tif
-45-2022-CSB-00023,2022,1,Corn,81.5,856,45,https://nassgeodata.gmu.edu/nass_data_cache/byfips/CDL_2022_45.tif
-45-2022-CSB-00023,2023,5,Soybeans,85.5,856,45,https://nassgeodata.gmu.edu/nass_data_cache/byfips/CDL_2023_45.tif
-45-2022-CSB-00024,2020,5,Soybeans,98.5,554,45,https://nassgeodata.gmu.edu/nass_data_cache/byfips/CDL_2020_45.tif
-45-2022-CSB-00024,2021,2,Cotton,84.5,554,45,https://nassgeodata.gmu.edu/nass_data_cache/byfips/CDL_2021_45.tif
-45-2022-CSB-00024,2022,5,Soybeans,88.5,554,45,https://nassgeodata.gmu.edu/nass_data_cache/byfips/CDL_2022_45.tif
-45-2022-CSB-00024,2023,2,Cotton,92.5,554,45,https://nassgeodata.gmu.edu/nass_data_cache/byfips/CDL_2023_45.tif
-45-2022-CSB-00025,2020,24,Winter Wheat,87.5,671,45,https://nassgeodata.gmu.edu/nass_data_cache/byfips/CDL_2020_45.tif
-45-2022-CSB-00025,2021,5,Soybeans,91.5,671,45,https://nassgeodata.gmu.edu/nass_data_cache/byfips/CDL_2021_45.tif
-45-2022-CSB-00025,2022,1,Corn,95.5,671,45,https://nassgeodata.gmu.edu/nass_data_cache/byfips/CDL_2022_45.tif
-45-2022-CSB-00025,2023,5,Soybeans,81.5,671,45,https://nassgeodata.gmu.edu/nass_data_cache/byfips/CDL_2023_45.tif
+field_id,year,crop_code,crop_name,valid_pixel_count,dominant_pixel_count,dominant_pct,extraction_method,csb_annual_cdl_code,matches_csb_annual_cdl,raster_source_url,raster_sha256
+451623001001160,2020,37,Other Hay/Non Alfalfa,22,17,77.272727,rasterio.mask; pixel-center (all_touched=False); zero/nodata excluded,37,True,https://nassgeodata.gmu.edu/webservice/nass_data_cache/byfips/CDL_2020_45001.tif,a487b824d08105bd075dd00654bc3f4290296bcf68cfd9b17a670122bccf980e
+451623001001187,2020,37,Other Hay/Non Alfalfa,13,10,76.923077,rasterio.mask; pixel-center (all_touched=False); zero/nodata excluded,37,True,https://nassgeodata.gmu.edu/webservice/nass_data_cache/byfips/CDL_2020_45001.tif,a487b824d08105bd075dd00654bc3f4290296bcf68cfd9b17a670122bccf980e
+451623001001196,2020,37,Other Hay/Non Alfalfa,84,63,75.0,rasterio.mask; pixel-center (all_touched=False); zero/nodata excluded,37,True,https://nassgeodata.gmu.edu/webservice/nass_data_cache/byfips/CDL_2020_45001.tif,a487b824d08105bd075dd00654bc3f4290296bcf68cfd9b17a670122bccf980e
+451623001001204,2020,37,Other Hay/Non Alfalfa,15,11,73.333333,rasterio.mask; pixel-center (all_touched=False); zero/nodata excluded,37,True,https://nassgeodata.gmu.edu/webservice/nass_data_cache/byfips/CDL_2020_45001.tif,a487b824d08105bd075dd00654bc3f4290296bcf68cfd9b17a670122bccf980e
+451623001001218,2020,37,Other Hay/Non Alfalfa,27,23,85.185185,rasterio.mask; pixel-center (all_touched=False); zero/nodata excluded,37,True,https://nassgeodata.gmu.edu/webservice/nass_data_cache/byfips/CDL_2020_45001.tif,a487b824d08105bd075dd00654bc3f4290296bcf68cfd9b17a670122bccf980e
+451623001001219,2020,37,Other Hay/Non Alfalfa,20,18,90.0,rasterio.mask; pixel-center (all_touched=False); zero/nodata excluded,37,True,https://nassgeodata.gmu.edu/webservice/nass_data_cache/byfips/CDL_2020_45001.tif,a487b824d08105bd075dd00654bc3f4290296bcf68cfd9b17a670122bccf980e
+451623001001224,2020,37,Other Hay/Non Alfalfa,20,15,75.0,rasterio.mask; pixel-center (all_touched=False); zero/nodata excluded,37,True,https://nassgeodata.gmu.edu/webservice/nass_data_cache/byfips/CDL_2020_45001.tif,a487b824d08105bd075dd00654bc3f4290296bcf68cfd9b17a670122bccf980e
+451623001001231,2020,37,Other Hay/Non Alfalfa,17,9,52.941176,rasterio.mask; pixel-center (all_touched=False); zero/nodata excluded,37,True,https://nassgeodata.gmu.edu/webservice/nass_data_cache/byfips/CDL_2020_45001.tif,a487b824d08105bd075dd00654bc3f4290296bcf68cfd9b17a670122bccf980e
+451623001001238,2020,37,Other Hay/Non Alfalfa,11,9,81.818182,rasterio.mask; pixel-center (all_touched=False); zero/nodata excluded,37,True,https://nassgeodata.gmu.edu/webservice/nass_data_cache/byfips/CDL_2020_45001.tif,a487b824d08105bd075dd00654bc3f4290296bcf68cfd9b17a670122bccf980e
+451623001001243,2020,37,Other Hay/Non Alfalfa,27,14,51.851852,rasterio.mask; pixel-center (all_touched=False); zero/nodata excluded,176,False,https://nassgeodata.gmu.edu/webservice/nass_data_cache/byfips/CDL_2020_45001.tif,a487b824d08105bd075dd00654bc3f4290296bcf68cfd9b17a670122bccf980e
+451623001001248,2020,176,Grassland/Pasture,18,10,55.555556,rasterio.mask; pixel-center (all_touched=False); zero/nodata excluded,176,True,https://nassgeodata.gmu.edu/webservice/nass_data_cache/byfips/CDL_2020_45001.tif,a487b824d08105bd075dd00654bc3f4290296bcf68cfd9b17a670122bccf980e
+451623001001250,2020,37,Other Hay/Non Alfalfa,59,52,88.135593,rasterio.mask; pixel-center (all_touched=False); zero/nodata excluded,37,True,https://nassgeodata.gmu.edu/webservice/nass_data_cache/byfips/CDL_2020_45001.tif,a487b824d08105bd075dd00654bc3f4290296bcf68cfd9b17a670122bccf980e
+451623001001251,2020,37,Other Hay/Non Alfalfa,20,13,65.0,rasterio.mask; pixel-center (all_touched=False); zero/nodata excluded,37,True,https://nassgeodata.gmu.edu/webservice/nass_data_cache/byfips/CDL_2020_45001.tif,a487b824d08105bd075dd00654bc3f4290296bcf68cfd9b17a670122bccf980e
+451623001001257,2020,37,Other Hay/Non Alfalfa,85,81,95.294118,rasterio.mask; pixel-center (all_touched=False); zero/nodata excluded,37,True,https://nassgeodata.gmu.edu/webservice/nass_data_cache/byfips/CDL_2020_45001.tif,a487b824d08105bd075dd00654bc3f4290296bcf68cfd9b17a670122bccf980e
+451623001001258,2020,28,Oats,41,21,51.219512,rasterio.mask; pixel-center (all_touched=False); zero/nodata excluded,28,True,https://nassgeodata.gmu.edu/webservice/nass_data_cache/byfips/CDL_2020_45001.tif,a487b824d08105bd075dd00654bc3f4290296bcf68cfd9b17a670122bccf980e
+451623001001259,2020,176,Grassland/Pasture,19,12,63.157895,rasterio.mask; pixel-center (all_touched=False); zero/nodata excluded,176,True,https://nassgeodata.gmu.edu/webservice/nass_data_cache/byfips/CDL_2020_45001.tif,a487b824d08105bd075dd00654bc3f4290296bcf68cfd9b17a670122bccf980e
+451623001001261,2020,37,Other Hay/Non Alfalfa,20,15,75.0,rasterio.mask; pixel-center (all_touched=False); zero/nodata excluded,37,True,https://nassgeodata.gmu.edu/webservice/nass_data_cache/byfips/CDL_2020_45001.tif,a487b824d08105bd075dd00654bc3f4290296bcf68cfd9b17a670122bccf980e
+451623001001262,2020,28,Oats,73,36,49.315068,rasterio.mask; pixel-center (all_touched=False); zero/nodata excluded,37,False,https://nassgeodata.gmu.edu/webservice/nass_data_cache/byfips/CDL_2020_45001.tif,a487b824d08105bd075dd00654bc3f4290296bcf68cfd9b17a670122bccf980e
+451623001001264,2020,37,Other Hay/Non Alfalfa,25,13,52.0,rasterio.mask; pixel-center (all_touched=False); zero/nodata excluded,37,True,https://nassgeodata.gmu.edu/webservice/nass_data_cache/byfips/CDL_2020_45001.tif,a487b824d08105bd075dd00654bc3f4290296bcf68cfd9b17a670122bccf980e
+451623001001266,2020,176,Grassland/Pasture,65,39,60.0,rasterio.mask; pixel-center (all_touched=False); zero/nodata excluded,176,True,https://nassgeodata.gmu.edu/webservice/nass_data_cache/byfips/CDL_2020_45001.tif,a487b824d08105bd075dd00654bc3f4290296bcf68cfd9b17a670122bccf980e
+451623001001267,2020,176,Grassland/Pasture,19,17,89.473684,rasterio.mask; pixel-center (all_touched=False); zero/nodata excluded,176,True,https://nassgeodata.gmu.edu/webservice/nass_data_cache/byfips/CDL_2020_45001.tif,a487b824d08105bd075dd00654bc3f4290296bcf68cfd9b17a670122bccf980e
+451623001001281,2020,37,Other Hay/Non Alfalfa,18,10,55.555556,rasterio.mask; pixel-center (all_touched=False); zero/nodata excluded,37,True,https://nassgeodata.gmu.edu/webservice/nass_data_cache/byfips/CDL_2020_45001.tif,a487b824d08105bd075dd00654bc3f4290296bcf68cfd9b17a670122bccf980e
+451623001001285,2020,37,Other Hay/Non Alfalfa,21,16,76.190476,rasterio.mask; pixel-center (all_touched=False); zero/nodata excluded,37,True,https://nassgeodata.gmu.edu/webservice/nass_data_cache/byfips/CDL_2020_45001.tif,a487b824d08105bd075dd00654bc3f4290296bcf68cfd9b17a670122bccf980e
+451623001001295,2020,37,Other Hay/Non Alfalfa,13,12,92.307692,rasterio.mask; pixel-center (all_touched=False); zero/nodata excluded,37,True,https://nassgeodata.gmu.edu/webservice/nass_data_cache/byfips/CDL_2020_45001.tif,a487b824d08105bd075dd00654bc3f4290296bcf68cfd9b17a670122bccf980e
+451623001001299,2020,37,Other Hay/Non Alfalfa,22,18,81.818182,rasterio.mask; pixel-center (all_touched=False); zero/nodata excluded,37,True,https://nassgeodata.gmu.edu/webservice/nass_data_cache/byfips/CDL_2020_45001.tif,a487b824d08105bd075dd00654bc3f4290296bcf68cfd9b17a670122bccf980e
+451623001001160,2021,37,Other Hay/Non Alfalfa,22,12,54.545455,rasterio.mask; pixel-center (all_touched=False); zero/nodata excluded,37,True,https://nassgeodata.gmu.edu/webservice/nass_data_cache/byfips/CDL_2021_45001.tif,f44ea25d24ef88013aa2d8a421a5af2878e9b5979e15ab55e3823485b95fd533
+451623001001187,2021,176,Grassland/Pasture,13,7,53.846154,rasterio.mask; pixel-center (all_touched=False); zero/nodata excluded,176,True,https://nassgeodata.gmu.edu/webservice/nass_data_cache/byfips/CDL_2021_45001.tif,f44ea25d24ef88013aa2d8a421a5af2878e9b5979e15ab55e3823485b95fd533
+451623001001196,2021,37,Other Hay/Non Alfalfa,84,57,67.857143,rasterio.mask; pixel-center (all_touched=False); zero/nodata excluded,37,True,https://nassgeodata.gmu.edu/webservice/nass_data_cache/byfips/CDL_2021_45001.tif,f44ea25d24ef88013aa2d8a421a5af2878e9b5979e15ab55e3823485b95fd533
+451623001001204,2021,176,Grassland/Pasture,15,8,53.333333,rasterio.mask; pixel-center (all_touched=False); zero/nodata excluded,176,True,https://nassgeodata.gmu.edu/webservice/nass_data_cache/byfips/CDL_2021_45001.tif,f44ea25d24ef88013aa2d8a421a5af2878e9b5979e15ab55e3823485b95fd533
+451623001001218,2021,37,Other Hay/Non Alfalfa,27,18,66.666667,rasterio.mask; pixel-center (all_touched=False); zero/nodata excluded,37,True,https://nassgeodata.gmu.edu/webservice/nass_data_cache/byfips/CDL_2021_45001.tif,f44ea25d24ef88013aa2d8a421a5af2878e9b5979e15ab55e3823485b95fd533
+451623001001219,2021,176,Grassland/Pasture,20,19,95.0,rasterio.mask; pixel-center (all_touched=False); zero/nodata excluded,176,True,https://nassgeodata.gmu.edu/webservice/nass_data_cache/byfips/CDL_2021_45001.tif,f44ea25d24ef88013aa2d8a421a5af2878e9b5979e15ab55e3823485b95fd533
+451623001001224,2021,176,Grassland/Pasture,20,12,60.0,rasterio.mask; pixel-center (all_touched=False); zero/nodata excluded,176,True,https://nassgeodata.gmu.edu/webservice/nass_data_cache/byfips/CDL_2021_45001.tif,f44ea25d24ef88013aa2d8a421a5af2878e9b5979e15ab55e3823485b95fd533
+451623001001231,2021,176,Grassland/Pasture,17,14,82.352941,rasterio.mask; pixel-center (all_touched=False); zero/nodata excluded,176,True,https://nassgeodata.gmu.edu/webservice/nass_data_cache/byfips/CDL_2021_45001.tif,f44ea25d24ef88013aa2d8a421a5af2878e9b5979e15ab55e3823485b95fd533
+451623001001238,2021,37,Other Hay/Non Alfalfa,11,8,72.727273,rasterio.mask; pixel-center (all_touched=False); zero/nodata excluded,37,True,https://nassgeodata.gmu.edu/webservice/nass_data_cache/byfips/CDL_2021_45001.tif,f44ea25d24ef88013aa2d8a421a5af2878e9b5979e15ab55e3823485b95fd533
+451623001001243,2021,176,Grassland/Pasture,27,21,77.777778,rasterio.mask; pixel-center (all_touched=False); zero/nodata excluded,176,True,https://nassgeodata.gmu.edu/webservice/nass_data_cache/byfips/CDL_2021_45001.tif,f44ea25d24ef88013aa2d8a421a5af2878e9b5979e15ab55e3823485b95fd533
+451623001001248,2021,176,Grassland/Pasture,18,12,66.666667,rasterio.mask; pixel-center (all_touched=False); zero/nodata excluded,176,True,https://nassgeodata.gmu.edu/webservice/nass_data_cache/byfips/CDL_2021_45001.tif,f44ea25d24ef88013aa2d8a421a5af2878e9b5979e15ab55e3823485b95fd533
+451623001001250,2021,37,Other Hay/Non Alfalfa,59,49,83.050847,rasterio.mask; pixel-center (all_touched=False); zero/nodata excluded,37,True,https://nassgeodata.gmu.edu/webservice/nass_data_cache/byfips/CDL_2021_45001.tif,f44ea25d24ef88013aa2d8a421a5af2878e9b5979e15ab55e3823485b95fd533
+451623001001251,2021,176,Grassland/Pasture,20,13,65.0,rasterio.mask; pixel-center (all_touched=False); zero/nodata excluded,176,True,https://nassgeodata.gmu.edu/webservice/nass_data_cache/byfips/CDL_2021_45001.tif,f44ea25d24ef88013aa2d8a421a5af2878e9b5979e15ab55e3823485b95fd533
+451623001001257,2021,37,Other Hay/Non Alfalfa,85,74,87.058824,rasterio.mask; pixel-center (all_touched=False); zero/nodata excluded,37,True,https://nassgeodata.gmu.edu/webservice/nass_data_cache/byfips/CDL_2021_45001.tif,f44ea25d24ef88013aa2d8a421a5af2878e9b5979e15ab55e3823485b95fd533
+451623001001258,2021,37,Other Hay/Non Alfalfa,41,27,65.853659,rasterio.mask; pixel-center (all_touched=False); zero/nodata excluded,37,True,https://nassgeodata.gmu.edu/webservice/nass_data_cache/byfips/CDL_2021_45001.tif,f44ea25d24ef88013aa2d8a421a5af2878e9b5979e15ab55e3823485b95fd533
+451623001001259,2021,176,Grassland/Pasture,19,13,68.421053,rasterio.mask; pixel-center (all_touched=False); zero/nodata excluded,176,True,https://nassgeodata.gmu.edu/webservice/nass_data_cache/byfips/CDL_2021_45001.tif,f44ea25d24ef88013aa2d8a421a5af2878e9b5979e15ab55e3823485b95fd533
+451623001001261,2021,37,Other Hay/Non Alfalfa,20,11,55.0,rasterio.mask; pixel-center (all_touched=False); zero/nodata excluded,37,True,https://nassgeodata.gmu.edu/webservice/nass_data_cache/byfips/CDL_2021_45001.tif,f44ea25d24ef88013aa2d8a421a5af2878e9b5979e15ab55e3823485b95fd533
+451623001001262,2021,37,Other Hay/Non Alfalfa,73,35,47.945205,rasterio.mask; pixel-center (all_touched=False); zero/nodata excluded,37,True,https://nassgeodata.gmu.edu/webservice/nass_data_cache/byfips/CDL_2021_45001.tif,f44ea25d24ef88013aa2d8a421a5af2878e9b5979e15ab55e3823485b95fd533
+451623001001264,2021,176,Grassland/Pasture,25,11,44.0,rasterio.mask; pixel-center (all_touched=False); zero/nodata excluded,176,True,https://nassgeodata.gmu.edu/webservice/nass_data_cache/byfips/CDL_2021_45001.tif,f44ea25d24ef88013aa2d8a421a5af2878e9b5979e15ab55e3823485b95fd533
+451623001001266,2021,176,Grassland/Pasture,65,47,72.307692,rasterio.mask; pixel-center (all_touched=False); zero/nodata excluded,176,True,https://nassgeodata.gmu.edu/webservice/nass_data_cache/byfips/CDL_2021_45001.tif,f44ea25d24ef88013aa2d8a421a5af2878e9b5979e15ab55e3823485b95fd533
+451623001001267,2021,176,Grassland/Pasture,19,19,100.0,rasterio.mask; pixel-center (all_touched=False); zero/nodata excluded,176,True,https://nassgeodata.gmu.edu/webservice/nass_data_cache/byfips/CDL_2021_45001.tif,f44ea25d24ef88013aa2d8a421a5af2878e9b5979e15ab55e3823485b95fd533
+451623001001281,2021,176,Grassland/Pasture,18,9,50.0,rasterio.mask; pixel-center (all_touched=False); zero/nodata excluded,176,True,https://nassgeodata.gmu.edu/webservice/nass_data_cache/byfips/CDL_2021_45001.tif,f44ea25d24ef88013aa2d8a421a5af2878e9b5979e15ab55e3823485b95fd533
+451623001001285,2021,37,Other Hay/Non Alfalfa,21,15,71.428571,rasterio.mask; pixel-center (all_touched=False); zero/nodata excluded,37,True,https://nassgeodata.gmu.edu/webservice/nass_data_cache/byfips/CDL_2021_45001.tif,f44ea25d24ef88013aa2d8a421a5af2878e9b5979e15ab55e3823485b95fd533
+451623001001295,2021,176,Grassland/Pasture,13,8,61.538462,rasterio.mask; pixel-center (all_touched=False); zero/nodata excluded,176,True,https://nassgeodata.gmu.edu/webservice/nass_data_cache/byfips/CDL_2021_45001.tif,f44ea25d24ef88013aa2d8a421a5af2878e9b5979e15ab55e3823485b95fd533
+451623001001299,2021,176,Grassland/Pasture,22,14,63.636364,rasterio.mask; pixel-center (all_touched=False); zero/nodata excluded,176,True,https://nassgeodata.gmu.edu/webservice/nass_data_cache/byfips/CDL_2021_45001.tif,f44ea25d24ef88013aa2d8a421a5af2878e9b5979e15ab55e3823485b95fd533
+451623001001160,2022,37,Other Hay/Non Alfalfa,22,11,50.0,rasterio.mask; pixel-center (all_touched=False); zero/nodata excluded,37,True,https://nassgeodata.gmu.edu/webservice/nass_data_cache/byfips/CDL_2022_45001.tif,fa5ac1c272510e58ef3d9689a9d922249b265ecb231adc9eaa8a639c71bbfb3c
+451623001001187,2022,176,Grassland/Pasture,13,8,61.538462,rasterio.mask; pixel-center (all_touched=False); zero/nodata excluded,176,True,https://nassgeodata.gmu.edu/webservice/nass_data_cache/byfips/CDL_2022_45001.tif,fa5ac1c272510e58ef3d9689a9d922249b265ecb231adc9eaa8a639c71bbfb3c
+451623001001196,2022,37,Other Hay/Non Alfalfa,84,49,58.333333,rasterio.mask; pixel-center (all_touched=False); zero/nodata excluded,37,True,https://nassgeodata.gmu.edu/webservice/nass_data_cache/byfips/CDL_2022_45001.tif,fa5ac1c272510e58ef3d9689a9d922249b265ecb231adc9eaa8a639c71bbfb3c
+451623001001204,2022,176,Grassland/Pasture,15,9,60.0,rasterio.mask; pixel-center (all_touched=False); zero/nodata excluded,176,True,https://nassgeodata.gmu.edu/webservice/nass_data_cache/byfips/CDL_2022_45001.tif,fa5ac1c272510e58ef3d9689a9d922249b265ecb231adc9eaa8a639c71bbfb3c
+451623001001218,2022,37,Other Hay/Non Alfalfa,27,14,51.851852,rasterio.mask; pixel-center (all_touched=False); zero/nodata excluded,37,True,https://nassgeodata.gmu.edu/webservice/nass_data_cache/byfips/CDL_2022_45001.tif,fa5ac1c272510e58ef3d9689a9d922249b265ecb231adc9eaa8a639c71bbfb3c
+451623001001219,2022,176,Grassland/Pasture,20,20,100.0,rasterio.mask; pixel-center (all_touched=False); zero/nodata excluded,176,True,https://nassgeodata.gmu.edu/webservice/nass_data_cache/byfips/CDL_2022_45001.tif,fa5ac1c272510e58ef3d9689a9d922249b265ecb231adc9eaa8a639c71bbfb3c
+451623001001224,2022,176,Grassland/Pasture,20,13,65.0,rasterio.mask; pixel-center (all_touched=False); zero/nodata excluded,176,True,https://nassgeodata.gmu.edu/webservice/nass_data_cache/byfips/CDL_2022_45001.tif,fa5ac1c272510e58ef3d9689a9d922249b265ecb231adc9eaa8a639c71bbfb3c
+451623001001231,2022,176,Grassland/Pasture,17,12,70.588235,rasterio.mask; pixel-center (all_touched=False); zero/nodata excluded,176,True,https://nassgeodata.gmu.edu/webservice/nass_data_cache/byfips/CDL_2022_45001.tif,fa5ac1c272510e58ef3d9689a9d922249b265ecb231adc9eaa8a639c71bbfb3c
+451623001001238,2022,176,Grassland/Pasture,11,6,54.545455,rasterio.mask; pixel-center (all_touched=False); zero/nodata excluded,176,True,https://nassgeodata.gmu.edu/webservice/nass_data_cache/byfips/CDL_2022_45001.tif,fa5ac1c272510e58ef3d9689a9d922249b265ecb231adc9eaa8a639c71bbfb3c
+451623001001243,2022,176,Grassland/Pasture,27,23,85.185185,rasterio.mask; pixel-center (all_touched=False); zero/nodata excluded,176,True,https://nassgeodata.gmu.edu/webservice/nass_data_cache/byfips/CDL_2022_45001.tif,fa5ac1c272510e58ef3d9689a9d922249b265ecb231adc9eaa8a639c71bbfb3c
+451623001001248,2022,176,Grassland/Pasture,18,10,55.555556,rasterio.mask; pixel-center (all_touched=False); zero/nodata excluded,176,True,https://nassgeodata.gmu.edu/webservice/nass_data_cache/byfips/CDL_2022_45001.tif,fa5ac1c272510e58ef3d9689a9d922249b265ecb231adc9eaa8a639c71bbfb3c
+451623001001250,2022,37,Other Hay/Non Alfalfa,59,51,86.440678,rasterio.mask; pixel-center (all_touched=False); zero/nodata excluded,37,True,https://nassgeodata.gmu.edu/webservice/nass_data_cache/byfips/CDL_2022_45001.tif,fa5ac1c272510e58ef3d9689a9d922249b265ecb231adc9eaa8a639c71bbfb3c
+451623001001251,2022,176,Grassland/Pasture,20,11,55.0,rasterio.mask; pixel-center (all_touched=False); zero/nodata excluded,176,True,https://nassgeodata.gmu.edu/webservice/nass_data_cache/byfips/CDL_2022_45001.tif,fa5ac1c272510e58ef3d9689a9d922249b265ecb231adc9eaa8a639c71bbfb3c
+451623001001257,2022,37,Other Hay/Non Alfalfa,85,68,80.0,rasterio.mask; pixel-center (all_touched=False); zero/nodata excluded,37,True,https://nassgeodata.gmu.edu/webservice/nass_data_cache/byfips/CDL_2022_45001.tif,fa5ac1c272510e58ef3d9689a9d922249b265ecb231adc9eaa8a639c71bbfb3c
+451623001001258,2022,37,Other Hay/Non Alfalfa,41,27,65.853659,rasterio.mask; pixel-center (all_touched=False); zero/nodata excluded,37,True,https://nassgeodata.gmu.edu/webservice/nass_data_cache/byfips/CDL_2022_45001.tif,fa5ac1c272510e58ef3d9689a9d922249b265ecb231adc9eaa8a639c71bbfb3c
+451623001001259,2022,176,Grassland/Pasture,19,14,73.684211,rasterio.mask; pixel-center (all_touched=False); zero/nodata excluded,176,True,https://nassgeodata.gmu.edu/webservice/nass_data_cache/byfips/CDL_2022_45001.tif,fa5ac1c272510e58ef3d9689a9d922249b265ecb231adc9eaa8a639c71bbfb3c
+451623001001261,2022,176,Grassland/Pasture,20,10,50.0,rasterio.mask; pixel-center (all_touched=False); zero/nodata excluded,176,True,https://nassgeodata.gmu.edu/webservice/nass_data_cache/byfips/CDL_2022_45001.tif,fa5ac1c272510e58ef3d9689a9d922249b265ecb231adc9eaa8a639c71bbfb3c
+451623001001262,2022,37,Other Hay/Non Alfalfa,73,34,46.575342,rasterio.mask; pixel-center (all_touched=False); zero/nodata excluded,176,False,https://nassgeodata.gmu.edu/webservice/nass_data_cache/byfips/CDL_2022_45001.tif,fa5ac1c272510e58ef3d9689a9d922249b265ecb231adc9eaa8a639c71bbfb3c
+451623001001264,2022,176,Grassland/Pasture,25,17,68.0,rasterio.mask; pixel-center (all_touched=False); zero/nodata excluded,176,True,https://nassgeodata.gmu.edu/webservice/nass_data_cache/byfips/CDL_2022_45001.tif,fa5ac1c272510e58ef3d9689a9d922249b265ecb231adc9eaa8a639c71bbfb3c
+451623001001266,2022,176,Grassland/Pasture,65,49,75.384615,rasterio.mask; pixel-center (all_touched=False); zero/nodata excluded,176,True,https://nassgeodata.gmu.edu/webservice/nass_data_cache/byfips/CDL_2022_45001.tif,fa5ac1c272510e58ef3d9689a9d922249b265ecb231adc9eaa8a639c71bbfb3c
+451623001001267,2022,176,Grassland/Pasture,19,18,94.736842,rasterio.mask; pixel-center (all_touched=False); zero/nodata excluded,176,True,https://nassgeodata.gmu.edu/webservice/nass_data_cache/byfips/CDL_2022_45001.tif,fa5ac1c272510e58ef3d9689a9d922249b265ecb231adc9eaa8a639c71bbfb3c
+451623001001281,2022,176,Grassland/Pasture,18,11,61.111111,rasterio.mask; pixel-center (all_touched=False); zero/nodata excluded,176,True,https://nassgeodata.gmu.edu/webservice/nass_data_cache/byfips/CDL_2022_45001.tif,fa5ac1c272510e58ef3d9689a9d922249b265ecb231adc9eaa8a639c71bbfb3c
+451623001001285,2022,37,Other Hay/Non Alfalfa,21,18,85.714286,rasterio.mask; pixel-center (all_touched=False); zero/nodata excluded,37,True,https://nassgeodata.gmu.edu/webservice/nass_data_cache/byfips/CDL_2022_45001.tif,fa5ac1c272510e58ef3d9689a9d922249b265ecb231adc9eaa8a639c71bbfb3c
+451623001001295,2022,176,Grassland/Pasture,13,8,61.538462,rasterio.mask; pixel-center (all_touched=False); zero/nodata excluded,176,True,https://nassgeodata.gmu.edu/webservice/nass_data_cache/byfips/CDL_2022_45001.tif,fa5ac1c272510e58ef3d9689a9d922249b265ecb231adc9eaa8a639c71bbfb3c
+451623001001299,2022,176,Grassland/Pasture,22,14,63.636364,rasterio.mask; pixel-center (all_touched=False); zero/nodata excluded,176,True,https://nassgeodata.gmu.edu/webservice/nass_data_cache/byfips/CDL_2022_45001.tif,fa5ac1c272510e58ef3d9689a9d922249b265ecb231adc9eaa8a639c71bbfb3c
+451623001001160,2023,176,Grassland/Pasture,22,12,54.545455,rasterio.mask; pixel-center (all_touched=False); zero/nodata excluded,176,True,https://nassgeodata.gmu.edu/webservice/nass_data_cache/byfips/CDL_2023_45001.tif,b6af9cd8ae8e8a1dba5b729c8ff3b85df344c04930888f2206779dc000b30cee
+451623001001187,2023,176,Grassland/Pasture,13,5,38.461538,rasterio.mask; pixel-center (all_touched=False); zero/nodata excluded,37,False,https://nassgeodata.gmu.edu/webservice/nass_data_cache/byfips/CDL_2023_45001.tif,b6af9cd8ae8e8a1dba5b729c8ff3b85df344c04930888f2206779dc000b30cee
+451623001001196,2023,37,Other Hay/Non Alfalfa,84,48,57.142857,rasterio.mask; pixel-center (all_touched=False); zero/nodata excluded,37,True,https://nassgeodata.gmu.edu/webservice/nass_data_cache/byfips/CDL_2023_45001.tif,b6af9cd8ae8e8a1dba5b729c8ff3b85df344c04930888f2206779dc000b30cee
+451623001001204,2023,176,Grassland/Pasture,15,11,73.333333,rasterio.mask; pixel-center (all_touched=False); zero/nodata excluded,176,True,https://nassgeodata.gmu.edu/webservice/nass_data_cache/byfips/CDL_2023_45001.tif,b6af9cd8ae8e8a1dba5b729c8ff3b85df344c04930888f2206779dc000b30cee
+451623001001218,2023,176,Grassland/Pasture,27,14,51.851852,rasterio.mask; pixel-center (all_touched=False); zero/nodata excluded,37,False,https://nassgeodata.gmu.edu/webservice/nass_data_cache/byfips/CDL_2023_45001.tif,b6af9cd8ae8e8a1dba5b729c8ff3b85df344c04930888f2206779dc000b30cee
+451623001001219,2023,176,Grassland/Pasture,20,19,95.0,rasterio.mask; pixel-center (all_touched=False); zero/nodata excluded,176,True,https://nassgeodata.gmu.edu/webservice/nass_data_cache/byfips/CDL_2023_45001.tif,b6af9cd8ae8e8a1dba5b729c8ff3b85df344c04930888f2206779dc000b30cee
+451623001001224,2023,176,Grassland/Pasture,20,15,75.0,rasterio.mask; pixel-center (all_touched=False); zero/nodata excluded,176,True,https://nassgeodata.gmu.edu/webservice/nass_data_cache/byfips/CDL_2023_45001.tif,b6af9cd8ae8e8a1dba5b729c8ff3b85df344c04930888f2206779dc000b30cee
+451623001001231,2023,176,Grassland/Pasture,17,11,64.705882,rasterio.mask; pixel-center (all_touched=False); zero/nodata excluded,176,True,https://nassgeodata.gmu.edu/webservice/nass_data_cache/byfips/CDL_2023_45001.tif,b6af9cd8ae8e8a1dba5b729c8ff3b85df344c04930888f2206779dc000b30cee
+451623001001238,2023,37,Other Hay/Non Alfalfa,11,7,63.636364,rasterio.mask; pixel-center (all_touched=False); zero/nodata excluded,37,True,https://nassgeodata.gmu.edu/webservice/nass_data_cache/byfips/CDL_2023_45001.tif,b6af9cd8ae8e8a1dba5b729c8ff3b85df344c04930888f2206779dc000b30cee
+451623001001243,2023,176,Grassland/Pasture,27,23,85.185185,rasterio.mask; pixel-center (all_touched=False); zero/nodata excluded,176,True,https://nassgeodata.gmu.edu/webservice/nass_data_cache/byfips/CDL_2023_45001.tif,b6af9cd8ae8e8a1dba5b729c8ff3b85df344c04930888f2206779dc000b30cee
+451623001001248,2023,176,Grassland/Pasture,18,14,77.777778,rasterio.mask; pixel-center (all_touched=False); zero/nodata excluded,176,True,https://nassgeodata.gmu.edu/webservice/nass_data_cache/byfips/CDL_2023_45001.tif,b6af9cd8ae8e8a1dba5b729c8ff3b85df344c04930888f2206779dc000b30cee
+451623001001250,2023,37,Other Hay/Non Alfalfa,59,50,84.745763,rasterio.mask; pixel-center (all_touched=False); zero/nodata excluded,37,True,https://nassgeodata.gmu.edu/webservice/nass_data_cache/byfips/CDL_2023_45001.tif,b6af9cd8ae8e8a1dba5b729c8ff3b85df344c04930888f2206779dc000b30cee
+451623001001251,2023,176,Grassland/Pasture,20,10,50.0,rasterio.mask; pixel-center (all_touched=False); zero/nodata excluded,176,True,https://nassgeodata.gmu.edu/webservice/nass_data_cache/byfips/CDL_2023_45001.tif,b6af9cd8ae8e8a1dba5b729c8ff3b85df344c04930888f2206779dc000b30cee
+451623001001257,2023,37,Other Hay/Non Alfalfa,85,69,81.176471,rasterio.mask; pixel-center (all_touched=False); zero/nodata excluded,37,True,https://nassgeodata.gmu.edu/webservice/nass_data_cache/byfips/CDL_2023_45001.tif,b6af9cd8ae8e8a1dba5b729c8ff3b85df344c04930888f2206779dc000b30cee
+451623001001258,2023,24,Winter Wheat,41,17,41.463415,rasterio.mask; pixel-center (all_touched=False); zero/nodata excluded,24,True,https://nassgeodata.gmu.edu/webservice/nass_data_cache/byfips/CDL_2023_45001.tif,b6af9cd8ae8e8a1dba5b729c8ff3b85df344c04930888f2206779dc000b30cee
+451623001001259,2023,176,Grassland/Pasture,19,14,73.684211,rasterio.mask; pixel-center (all_touched=False); zero/nodata excluded,176,True,https://nassgeodata.gmu.edu/webservice/nass_data_cache/byfips/CDL_2023_45001.tif,b6af9cd8ae8e8a1dba5b729c8ff3b85df344c04930888f2206779dc000b30cee
+451623001001261,2023,37,Other Hay/Non Alfalfa,20,12,60.0,rasterio.mask; pixel-center (all_touched=False); zero/nodata excluded,37,True,https://nassgeodata.gmu.edu/webservice/nass_data_cache/byfips/CDL_2023_45001.tif,b6af9cd8ae8e8a1dba5b729c8ff3b85df344c04930888f2206779dc000b30cee
+451623001001262,2023,176,Grassland/Pasture,73,26,35.616438,rasterio.mask; pixel-center (all_touched=False); zero/nodata excluded,176,True,https://nassgeodata.gmu.edu/webservice/nass_data_cache/byfips/CDL_2023_45001.tif,b6af9cd8ae8e8a1dba5b729c8ff3b85df344c04930888f2206779dc000b30cee
+451623001001264,2023,176,Grassland/Pasture,25,16,64.0,rasterio.mask; pixel-center (all_touched=False); zero/nodata excluded,176,True,https://nassgeodata.gmu.edu/webservice/nass_data_cache/byfips/CDL_2023_45001.tif,b6af9cd8ae8e8a1dba5b729c8ff3b85df344c04930888f2206779dc000b30cee
+451623001001266,2023,176,Grassland/Pasture,65,51,78.461538,rasterio.mask; pixel-center (all_touched=False); zero/nodata excluded,176,True,https://nassgeodata.gmu.edu/webservice/nass_data_cache/byfips/CDL_2023_45001.tif,b6af9cd8ae8e8a1dba5b729c8ff3b85df344c04930888f2206779dc000b30cee
+451623001001267,2023,176,Grassland/Pasture,19,19,100.0,rasterio.mask; pixel-center (all_touched=False); zero/nodata excluded,176,True,https://nassgeodata.gmu.edu/webservice/nass_data_cache/byfips/CDL_2023_45001.tif,b6af9cd8ae8e8a1dba5b729c8ff3b85df344c04930888f2206779dc000b30cee
+451623001001281,2023,176,Grassland/Pasture,18,9,50.0,rasterio.mask; pixel-center (all_touched=False); zero/nodata excluded,37,False,https://nassgeodata.gmu.edu/webservice/nass_data_cache/byfips/CDL_2023_45001.tif,b6af9cd8ae8e8a1dba5b729c8ff3b85df344c04930888f2206779dc000b30cee
+451623001001285,2023,37,Other Hay/Non Alfalfa,21,16,76.190476,rasterio.mask; pixel-center (all_touched=False); zero/nodata excluded,37,True,https://nassgeodata.gmu.edu/webservice/nass_data_cache/byfips/CDL_2023_45001.tif,b6af9cd8ae8e8a1dba5b729c8ff3b85df344c04930888f2206779dc000b30cee
+451623001001295,2023,176,Grassland/Pasture,13,7,53.846154,rasterio.mask; pixel-center (all_touched=False); zero/nodata excluded,176,True,https://nassgeodata.gmu.edu/webservice/nass_data_cache/byfips/CDL_2023_45001.tif,b6af9cd8ae8e8a1dba5b729c8ff3b85df344c04930888f2206779dc000b30cee
+451623001001299,2023,176,Grassland/Pasture,22,15,68.181818,rasterio.mask; pixel-center (all_touched=False); zero/nodata excluded,176,True,https://nassgeodata.gmu.edu/webservice/nass_data_cache/byfips/CDL_2023_45001.tif,b6af9cd8ae8e8a1dba5b729c8ff3b85df344c04930888f2206779dc000b30cee
