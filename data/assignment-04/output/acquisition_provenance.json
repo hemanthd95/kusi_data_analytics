@@ -1,0 +1,84 @@
+{
+  "generated_utc": "2026-07-28T20:58:27.028602+00:00",
+  "mode": "offline",
+  "network_requests": 0,
+  "official_endpoint": "https://SDMDataAccess.sc.egov.usda.gov/Spatial/SDMWGS84Geographic.wfs",
+  "typename": "MapunitPolyExtended",
+  "source_files": {
+    "data/assignment-04/source/ssurgo_mapunit_response.gml": {
+      "sha256": "f7b9e32fb7f575f814739a7cefffc7fb0695b829e56f518a56f93bfddd46ab5c",
+      "byte_size": 794318
+    },
+    "data/assignment-04/source/ssurgo_request_metadata.json": {
+      "sha256": "b361a28525bd10d4e4c1c65551b954ebf0a29de0f274af47d6de6610106960e8",
+      "byte_size": 2566
+    },
+    "data/assignment-04/source/field_buffer_500m_external.geojson": {
+      "sha256": "3ed7c3487e1714fc71ac641f59748557a1078a57b09e3a31eb031ddf1dc71e9f",
+      "byte_size": 15496
+    }
+  },
+  "metadata": {
+    "generated_utc": "2026-07-28T18:42:53.541087+00:00",
+    "success": true,
+    "field_source": "data/assignment-02/fields_EPSG4326.geojson",
+    "field_source_sha256": "06d1e8fa8f0099be4f7fddf193c549f3c3dcd98a7f0b1491e555fc2c41c7ae62",
+    "field_count": 25,
+    "field_geometry_repairs": 3,
+    "buffer_meters": 500.0,
+    "working_crs": "EPSG:32617",
+    "request_crs": "EPSG:4326",
+    "bbox_epsg4326": [
+      -82.55633891207847,
+      34.31338069186968,
+      -82.51645395661775,
+      34.35293963489265
+    ],
+    "endpoint": "https://SDMDataAccess.sc.egov.usda.gov/Spatial/SDMWGS84Geographic.wfs",
+    "parameters": {
+      "SERVICE": "WFS",
+      "VERSION": "1.1.0",
+      "REQUEST": "GetFeature",
+      "TYPENAME": "MapunitPolyExtended",
+      "SRSNAME": "EPSG:4326",
+      "OUTPUTFORMAT": "GML3",
+      "MAXFEATURES": "250000",
+      "FILTER": "<Filter><BBOX><PropertyName>Geometry</PropertyName><Box srsName='EPSG:4326'><coordinates>-82.5563389121,34.3133806919 -82.5164539566,34.3529396349</coordinates></Box></BBOX></Filter>"
+    },
+    "http_status": 200,
+    "final_url": "https://sdmdataaccess.sc.egov.usda.gov/Spatial/SDMWGS84Geographic.wfs?SERVICE=WFS&VERSION=1.1.0&REQUEST=GetFeature&TYPENAME=MapunitPolyExtended&SRSNAME=EPSG%3A4326&OUTPUTFORMAT=GML3&MAXFEATURES=250000&FILTER=%3CFilter%3E%3CBBOX%3E%3CPropertyName%3EGeometry%3C%2FPropertyName%3E%3CBox+srsName%3D%27EPSG%3A4326%27%3E%3Ccoordinates%3E-82.5563389121%2C34.3133806919+-82.5164539566%2C34.3529396349%3C%2Fcoordinates%3E%3C%2FBox%3E%3C%2FBBOX%3E%3C%2FFilter%3E",
+    "content_type": "text/xml; subtype=gml/3.1.1; charset=UTF-8",
+    "response_byte_size": 794318,
+    "response_sha256": "f7b9e32fb7f575f814739a7cefffc7fb0695b829e56f518a56f93bfddd46ab5c",
+    "attempts": [
+      {
+        "attempt_number": 1,
+        "attempted_utc": "2026-07-28T18:42:52.725589+00:00",
+        "status_code": 200,
+        "final_url": "https://sdmdataaccess.sc.egov.usda.gov/Spatial/SDMWGS84Geographic.wfs?SERVICE=WFS&VERSION=1.1.0&REQUEST=GetFeature&TYPENAME=MapunitPolyExtended&SRSNAME=EPSG%3A4326&OUTPUTFORMAT=GML3&MAXFEATURES=250000&FILTER=%3CFilter%3E%3CBBOX%3E%3CPropertyName%3EGeometry%3C%2FPropertyName%3E%3CBox+srsName%3D%27EPSG%3A4326%27%3E%3Ccoordinates%3E-82.5563389121%2C34.3133806919+-82.5164539566%2C34.3529396349%3C%2Fcoordinates%3E%3C%2FBox%3E%3C%2FBBOX%3E%3C%2FFilter%3E",
+        "content_type": "text/xml; subtype=gml/3.1.1; charset=UTF-8",
+        "byte_size": 794318,
+        "success": true
+      }
+    ],
+    "outputs": {
+      "gml": "ssurgo_mapunit_response.gml",
+      "metadata": "ssurgo_request_metadata.json",
+      "buffer": "field_buffer_500m.geojson"
+    }
+  },
+  "validation": {
+    "success": true,
+    "http_status": true,
+    "response_byte_size": true,
+    "response_sha256": true,
+    "field_count": true,
+    "field_repairs": true,
+    "buffer": true,
+    "working_crs": true,
+    "request_crs": true,
+    "endpoint": true,
+    "typename": true
+  },
+  "provenance_note": "The official USDA-NRCS response was acquired on the user's workstation, preserved, and checksum-validated before offline analysis. No synthetic fallback was used."
+}

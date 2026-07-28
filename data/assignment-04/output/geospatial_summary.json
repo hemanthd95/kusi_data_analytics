@@ -1,0 +1,119 @@
+{
+  "generated_utc": "2026-07-28T20:58:27.027853+00:00",
+  "offline": true,
+  "network_requests": 0,
+  "source_checksums": {
+    "ssurgo_mapunit_response.gml": "f7b9e32fb7f575f814739a7cefffc7fb0695b829e56f518a56f93bfddd46ab5c",
+    "ssurgo_request_metadata.json": "b361a28525bd10d4e4c1c65551b954ebf0a29de0f274af47d6de6610106960e8",
+    "field_buffer_500m_external.geojson": "3ed7c3487e1714fc71ac641f59748557a1078a57b09e3a31eb031ddf1dc71e9f"
+  },
+  "source_byte_size": 794318,
+  "metadata_validation": {
+    "success": true,
+    "http_status": true,
+    "response_byte_size": true,
+    "response_sha256": true,
+    "field_count": true,
+    "field_repairs": true,
+    "buffer": true,
+    "working_crs": true,
+    "request_crs": true,
+    "endpoint": true,
+    "typename": true
+  },
+  "field_source": "data/assignment-02/fields_EPSG4326.geojson",
+  "field_count": 25,
+  "field_geometry_repairs": 3,
+  "parsed_polygon_features": 145,
+  "clipped_polygon_features": 92,
+  "unique_mapunits": 22,
+  "soil_geometry_repairs": 0,
+  "wfs_axis_order_swapped": true,
+  "attribute": "aws025wta",
+  "definition": "Available water storage from 0–25 cm, weighted average of map-unit components",
+  "units": "centimeters of water",
+  "source_attribute_missing_count": 11,
+  "source_attribute_missing_percent": 11.956521739130435,
+  "source_attribute_observed_count": 81,
+  "source_attribute_stats": {
+    "count": 81,
+    "mean": 3.123456790123457,
+    "std": 0.2821531520904345,
+    "min": 2.0,
+    "median": 2.99,
+    "max": 3.63
+  },
+  "field_weighted_stats": {
+    "count": 25,
+    "mean": 3.1141407290381165,
+    "std": 0.3156152737739321,
+    "min": 2.0437086373285567,
+    "median": 3.055397267125356,
+    "max": 3.5
+  },
+  "fields_multiple_units": 21,
+  "highest_field": {
+    "field_id": "451623001001187",
+    "area_weighted_aws025wta": 3.5
+  },
+  "lowest_field": {
+    "field_id": "451623001001160",
+    "area_weighted_aws025wta": 2.0437086373285567
+  },
+  "average_field_coverage_percent": 99.99999999999586,
+  "minimum_field_coverage_percent": 99.99999999996369,
+  "buffer_symmetric_difference_m2": 0.0,
+  "intersection_feature_count": 59,
+  "mapunit_summary_rows": 8,
+  "visual_outputs": {
+    "01_field_boundaries_and_ssurgo_context": {
+      "png": "data/assignment-04/output/maps/01_field_boundaries_and_ssurgo_context.png",
+      "svg": "data/assignment-04/output/maps/01_field_boundaries_and_ssurgo_context.svg",
+      "width": 1345,
+      "height": 1629
+    },
+    "02_ssurgo_attribute_choropleth": {
+      "png": "data/assignment-04/output/maps/02_ssurgo_attribute_choropleth.png",
+      "svg": "data/assignment-04/output/maps/02_ssurgo_attribute_choropleth.svg",
+      "width": 1521,
+      "height": 1629
+    },
+    "03_buffer_operation": {
+      "png": "data/assignment-04/output/maps/03_buffer_operation.png",
+      "svg": "data/assignment-04/output/maps/03_buffer_operation.svg",
+      "width": 1345,
+      "height": 1629
+    },
+    "04_final_assignment_panel": {
+      "png": "data/assignment-04/output/maps/04_final_assignment_panel.png",
+      "svg": "data/assignment-04/output/maps/04_final_assignment_panel.svg",
+      "width": 3207,
+      "height": 1973
+    },
+    "dashboard_ssurgo_field_variability_map": {
+      "png": "data/assignment-04/output/dashboard_assets/dashboard_ssurgo_field_variability_map.png",
+      "svg": "data/assignment-04/output/dashboard_assets/dashboard_ssurgo_field_variability_map.svg",
+      "width": 2200,
+      "height": 2403
+    }
+  },
+  "interactive_map": "data/assignment-04/output/interactive/assignment_04_interactive_map.html",
+  "environment": {
+    "python": "3.13.11",
+    "geopandas": "1.1.4",
+    "pandas": "2.3.3",
+    "numpy": "2.4.1",
+    "matplotlib": "3.10.8",
+    "folium": "0.20.0"
+  },
+  "unique_map_units": 22,
+  "parsed_feature_count": 145,
+  "clipped_feature_count": 92,
+  "field_repairs": 3,
+  "selected_attribute": "aws025wta",
+  "attribute_units": "centimeters of water",
+  "average_coverage_percent": 99.99999999999586,
+  "minimum_coverage_percent": 99.99999999996369,
+  "attribute_missing_count": 11,
+  "attribute_missing_percent": 11.956521739130435
+}

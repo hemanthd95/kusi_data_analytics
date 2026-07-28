@@ -1,0 +1,10001 @@
+<?xml version='1.0' encoding="UTF-8" ?>
+<wfs:FeatureCollection
+   xmlns:ms="http://mapserver.gis.umn.edu/mapserver"
+   xmlns:gml="http://www.opengis.net/gml"
+   xmlns:wfs="http://www.opengis.net/wfs"
+   xmlns:ogc="http://www.opengis.net/ogc"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://mapserver.gis.umn.edu/mapserver https://SDMDataAccess.sc.egov.usda.gov/Spatial/SDMWGS84GEOGRAPHIC.wfs?SERVICE=WFS&amp;VERSION=1.1.0&amp;REQUEST=DescribeFeatureType&amp;TYPENAME=mapunitpolyextended&amp;OUTPUTFORMAT=SFE_XMLSCHEMA  http://www.opengis.net/wfs http://schemas.opengis.net/wfs/1.1.0/wfs.xsd">
+      <gml:boundedBy>
+      	<gml:Envelope srsName="EPSG:4326">
+      		<gml:lowerCorner>34.292991 -82.572029</gml:lowerCorner>
+      		<gml:upperCorner>34.383377 -82.504063</gml:upperCorner>
+      	</gml:Envelope>
+      </gml:boundedBy>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.1154986">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.340285 -82.528707</gml:lowerCorner>
+        		<gml:upperCorner>34.342510 -82.525061</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.341813 -82.525061 34.341610 -82.525524 34.341533 -82.526042 34.341487 -82.526159 34.341395 -82.526241 34.341261 -82.526249 34.341013 -82.526010 34.340884 -82.525947 34.340647 -82.525939 34.340510 -82.526043 34.340440 -82.526195 34.340410 -82.526483 34.340432 -82.526629 34.340473 -82.526770 34.340475 -82.527035 34.340326 -82.527464 34.340285 -82.527680 34.340297 -82.527861 34.340380 -82.528056 34.340382 -82.528467 34.340489 -82.528707 34.340574 -82.528621 34.340729 -82.528528 34.341056 -82.528423 34.341205 -82.528316 34.341328 -82.528100 34.341421 -82.527694 34.341555 -82.527491 34.341600 -82.527453 34.341725 -82.527396 34.342209 -82.527385 34.342360 -82.527278 34.342393 -82.527230 34.342453 -82.527021 34.342510 -82.526536 34.342454 -82.526128 34.342339 -82.525860 34.341813 -82.525061 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC001</ms:areasymbol>
+        <ms:musym>ApC</ms:musym>
+        <ms:nationalmusym>2vwrg</ms:nationalmusym>
+        <ms:mukey>1154986</ms:mukey>
+        <ms:spatialversion>7</ms:spatialversion>
+        <ms:muname>Appling sandy loam, 6 to 10 percent slopes</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp>8</ms:slopegraddcp>
+        <ms:slopegradwta>8</ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin></ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta>3.47</ms:aws025wta>
+        <ms:aws050wta>6.94</ms:aws050wta>
+        <ms:aws0100wta>13.7</ms:aws0100wta>
+        <ms:aws0150wta>22.02</ms:aws0150wta>
+        <ms:drclassdcd>Well drained</ms:drclassdcd>
+        <ms:drclasswettest>Well drained</ms:drclasswettest>
+        <ms:hydgrpdcd>B</ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>3</ms:niccdcd>
+        <ms:niccdcdpct>88</ms:niccdcdpct>
+        <ms:engdwobdcd>Not limited</ms:engdwobdcd>
+        <ms:engdwbdcd>Not limited</ms:engdwbdcd>
+        <ms:engdwbll>Not limited</ms:engdwbll>
+        <ms:engdwbml>Somewhat limited</ms:engdwbml>
+        <ms:engstafdcd>Somewhat limited</ms:engstafdcd>
+        <ms:engstafll>Somewhat limited</ms:engstafll>
+        <ms:engstafml>Very limited</ms:engstafml>
+        <ms:engsldcd>Very limited</ms:engsldcd>
+        <ms:engsldcp>Very limited</ms:engsldcp>
+        <ms:englrsdcd>Very limited</ms:englrsdcd>
+        <ms:engcmssdcd>Poor</ms:engcmssdcd>
+        <ms:engcmssmp>Poor</ms:engcmssmp>
+        <ms:urbrecptdcd>Somewhat limited</ms:urbrecptdcd>
+        <ms:urbrecptwta>0.045</ms:urbrecptwta>
+        <ms:forpehrtdcp>Erosion hazard moderate</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta>0.127</ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386724531</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.1154992">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.336066 -82.536606</gml:lowerCorner>
+        		<gml:upperCorner>34.339893 -82.530076</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.336712 -82.536156 34.336815 -82.536156 34.336919 -82.536158 34.336970 -82.536176 34.336990 -82.536212 34.336989 -82.536280 34.336977 -82.536384 34.337080 -82.536471 34.337465 -82.536598 34.337632 -82.536606 34.337759 -82.536554 34.337906 -82.536413 34.338084 -82.536100 34.338244 -82.535711 34.338435 -82.534989 34.338651 -82.534544 34.338684 -82.534409 34.338703 -82.533622 34.338723 -82.533490 34.338773 -82.533330 34.338953 -82.533042 34.339360 -82.532699 34.339483 -82.532564 34.339685 -82.532139 34.339893 -82.531431 34.339880 -82.531249 34.339824 -82.531122 34.339457 -82.531282 34.339332 -82.531281 34.339145 -82.531239 34.338788 -82.531042 34.338576 -82.530796 34.338439 -82.530395 34.338176 -82.530090 34.338074 -82.530076 34.337850 -82.530193 34.337785 -82.530324 34.337741 -82.530572 34.337713 -82.530640 34.337649 -82.530681 34.337507 -82.530729 34.337429 -82.530816 34.337330 -82.531084 34.337302 -82.531387 34.337342 -82.531447 34.337379 -82.531552 34.337498 -82.531720 34.337820 -82.531953 34.338144 -82.532157 34.338386 -82.532390 34.338418 -82.532445 34.338453 -82.532616 34.338435 -82.532836 34.338360 -82.533082 34.338120 -82.533408 34.337884 -82.533943 34.337820 -82.534112 34.337717 -82.534590 34.337576 -82.534906 34.337568 -82.534956 34.337459 -82.535157 34.337285 -82.535331 34.337245 -82.535350 34.336929 -82.535364 34.336360 -82.535288 34.336136 -82.535362 34.336066 -82.535409 34.336114 -82.535455 34.336241 -82.535642 34.336712 -82.536156 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC001</ms:areasymbol>
+        <ms:musym>CcC</ms:musym>
+        <ms:nationalmusym>2q7j8</ms:nationalmusym>
+        <ms:mukey>1154992</ms:mukey>
+        <ms:spatialversion>7</ms:spatialversion>
+        <ms:muname>Cecil sandy loam, 6 to 10 percent slopes</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp>8</ms:slopegraddcp>
+        <ms:slopegradwta>8</ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin></ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta>2.99</ms:aws025wta>
+        <ms:aws050wta>5.5</ms:aws050wta>
+        <ms:aws0100wta>10.48</ms:aws0100wta>
+        <ms:aws0150wta>16.87</ms:aws0150wta>
+        <ms:drclassdcd>Well drained</ms:drclassdcd>
+        <ms:drclasswettest>Well drained</ms:drclasswettest>
+        <ms:hydgrpdcd>B</ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>3</ms:niccdcd>
+        <ms:niccdcdpct>98</ms:niccdcdpct>
+        <ms:engdwobdcd>Not limited</ms:engdwobdcd>
+        <ms:engdwbdcd>Not limited</ms:engdwbdcd>
+        <ms:engdwbll>Not limited</ms:engdwbll>
+        <ms:engdwbml>Somewhat limited</ms:engdwbml>
+        <ms:engstafdcd>Somewhat limited</ms:engstafdcd>
+        <ms:engstafll>Somewhat limited</ms:engstafll>
+        <ms:engstafml>Very limited</ms:engstafml>
+        <ms:engsldcd>Very limited</ms:engsldcd>
+        <ms:engsldcp>Very limited</ms:engsldcp>
+        <ms:englrsdcd>Very limited</ms:englrsdcd>
+        <ms:engcmssdcd>Poor</ms:engcmssdcd>
+        <ms:engcmssmp>Poor</ms:engcmssmp>
+        <ms:urbrecptdcd>Somewhat limited</ms:urbrecptdcd>
+        <ms:urbrecptwta>0.05</ms:urbrecptwta>
+        <ms:forpehrtdcp>Erosion hazard moderate</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta>0.542</ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386724554</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.1155004">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.328699 -82.532532</gml:lowerCorner>
+        		<gml:upperCorner>34.333770 -82.526873</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.330138 -82.528161 34.329993 -82.528088 34.329669 -82.527786 34.329507 -82.527464 34.329475 -82.527354 34.329239 -82.527024 34.329096 -82.526889 34.329043 -82.526873 34.328926 -82.526877 34.328801 -82.526968 34.328773 -82.527019 34.328743 -82.527216 34.328699 -82.527726 34.328761 -82.527959 34.328948 -82.528198 34.329194 -82.528379 34.329557 -82.528750 34.329775 -82.529231 34.329843 -82.529613 34.330420 -82.530207 34.330437 -82.530240 34.330550 -82.530198 34.330737 -82.530197 34.330887 -82.530252 34.331156 -82.530393 34.331286 -82.530480 34.331469 -82.530647 34.331741 -82.530826 34.332184 -82.531253 34.332333 -82.531419 34.332440 -82.531502 34.332761 -82.531823 34.333046 -82.532018 34.333380 -82.532320 34.333725 -82.532532 34.333770 -82.532298 34.333765 -82.532049 34.333716 -82.531921 34.333581 -82.531732 34.333459 -82.531452 34.333246 -82.530236 34.333118 -82.529917 34.333086 -82.529887 34.333044 -82.529883 34.332995 -82.529915 34.332910 -82.530286 34.332823 -82.530508 34.332655 -82.530655 34.332483 -82.530703 34.332213 -82.530589 34.331793 -82.530290 34.331382 -82.529895 34.331257 -82.529801 34.331015 -82.529677 34.330666 -82.529590 34.330544 -82.529517 34.330364 -82.529201 34.330284 -82.528945 34.330199 -82.528371 34.330138 -82.528161 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC001</ms:areasymbol>
+        <ms:musym>HeB</ms:musym>
+        <ms:nationalmusym>17rw6</ms:nationalmusym>
+        <ms:mukey>1155004</ms:mukey>
+        <ms:spatialversion>7</ms:spatialversion>
+        <ms:muname>Helena sandy loam, 2 to 6 percent slopes</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp>4</ms:slopegraddcp>
+        <ms:slopegradwta>4</ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin>61</ms:wtdepannmin>
+        <ms:wtdepaprjunmin>61</ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta>3.05</ms:aws025wta>
+        <ms:aws050wta>6.55</ms:aws050wta>
+        <ms:aws0100wta>13.55</ms:aws0100wta>
+        <ms:aws0150wta>20.55</ms:aws0150wta>
+        <ms:drclassdcd>Moderately well drained</ms:drclassdcd>
+        <ms:drclasswettest>Moderately well drained</ms:drclasswettest>
+        <ms:hydgrpdcd>D</ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>90</ms:iccdcdpct>
+        <ms:niccdcd>2</ms:niccdcd>
+        <ms:niccdcdpct>90</ms:niccdcdpct>
+        <ms:engdwobdcd>Very limited</ms:engdwobdcd>
+        <ms:engdwbdcd>Very limited</ms:engdwbdcd>
+        <ms:engdwbll>Very limited</ms:engdwbll>
+        <ms:engdwbml>Very limited</ms:engdwbml>
+        <ms:engstafdcd>Very limited</ms:engstafdcd>
+        <ms:engstafll>Very limited</ms:engstafll>
+        <ms:engstafml>Very limited</ms:engstafml>
+        <ms:engsldcd>Somewhat limited</ms:engsldcd>
+        <ms:engsldcp>Somewhat limited</ms:engsldcp>
+        <ms:englrsdcd>Very limited</ms:englrsdcd>
+        <ms:engcmssdcd>Fair</ms:engcmssdcd>
+        <ms:engcmssmp>Fair</ms:engcmssmp>
+        <ms:urbrecptdcd>Somewhat limited</ms:urbrecptdcd>
+        <ms:urbrecptwta>0.245</ms:urbrecptwta>
+        <ms:forpehrtdcp>Erosion hazard moderate</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta>1</ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386724556</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.1154985">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.309344 -82.559368</gml:lowerCorner>
+        		<gml:upperCorner>34.318977 -82.542993</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.318977 -82.550797 34.318963 -82.550490 34.318973 -82.550411 34.318693 -82.550342 34.318407 -82.550422 34.318118 -82.550406 34.318073 -82.550417 34.317756 -82.550541 34.317479 -82.550533 34.317366 -82.550452 34.317225 -82.550283 34.317122 -82.550003 34.316854 -82.549797 34.316768 -82.549683 34.316773 -82.549551 34.316807 -82.549413 34.317143 -82.549070 34.317332 -82.548783 34.317378 -82.548614 34.317240 -82.548507 34.316917 -82.548507 34.316530 -82.548582 34.316034 -82.548920 34.315775 -82.549065 34.315195 -82.549291 34.314731 -82.549324 34.314632 -82.549303 34.314554 -82.549226 34.314543 -82.549083 34.314622 -82.548914 34.314840 -82.548673 34.314971 -82.548664 34.315219 -82.548792 34.315348 -82.548766 34.315691 -82.548648 34.315781 -82.548602 34.316068 -82.548387 34.316384 -82.548018 34.316596 -82.547654 34.316590 -82.547621 34.316564 -82.547514 34.316566 -82.547016 34.316465 -82.546784 34.316434 -82.546528 34.316588 -82.546285 34.316590 -82.546134 34.316677 -82.545989 34.317122 -82.545487 34.317162 -82.545331 34.317143 -82.545213 34.316919 -82.545064 34.316628 -82.544915 34.315598 -82.544648 34.315344 -82.544513 34.315281 -82.544431 34.315265 -82.544375 34.315225 -82.544050 34.315145 -82.543897 34.314963 -82.543639 34.314828 -82.543515 34.314661 -82.543455 34.314213 -82.543213 34.313902 -82.543158 34.313540 -82.543063 34.313059 -82.542993 34.312312 -82.543122 34.311918 -82.543306 34.311602 -82.543237 34.311326 -82.543136 34.310991 -82.543126 34.310989 -82.543481 34.311166 -82.544157 34.311176 -82.544312 34.311159 -82.544551 34.311134 -82.544684 34.310927 -82.545110 34.310590 -82.545725 34.310473 -82.546149 34.310467 -82.546314 34.310491 -82.546524 34.310582 -82.546751 34.310831 -82.547043 34.310949 -82.547326 34.310985 -82.547804 34.310940 -82.548251 34.310830 -82.548485 34.310715 -82.548675 34.310604 -82.548904 34.310602 -82.548942 34.310600 -82.549023 34.310689 -82.549288 34.310719 -82.549978 34.310649 -82.550168 34.310642 -82.550179 34.310426 -82.550700 34.310205 -82.551101 34.310160 -82.551378 34.310151 -82.551529 34.310153 -82.553048 34.310052 -82.553567 34.309748 -82.554342 34.309683 -82.554555 34.309661 -82.554580 34.309638 -82.555532 34.309592 -82.555890 34.309394 -82.556837 34.309344 -82.557319 34.309503 -82.557659 34.309625 -82.558703 34.309697 -82.559017 34.309782 -82.559154 34.310007 -82.559368 34.310236 -82.559337 34.310528 -82.559196 34.310681 -82.559212 34.310803 -82.559063 34.310826 -82.558999 34.310896 -82.558580 34.310907 -82.557981 34.310898 -82.557759 34.310804 -82.557243 34.310832 -82.556738 34.310889 -82.556466 34.311005 -82.556188 34.311150 -82.555958 34.311193 -82.555836 34.311655 -82.554904 34.311838 -82.554410 34.312023 -82.554290 34.312289 -82.553826 34.312404 -82.553432 34.312481 -82.552677 34.312712 -82.551389 34.312685 -82.550712 34.312411 -82.549431 34.312410 -82.549245 34.312453 -82.549128 34.312543 -82.549037 34.312618 -82.549007 34.312780 -82.549015 34.312892 -82.549057 34.313116 -82.549321 34.313439 -82.550171 34.313572 -82.550326 34.313614 -82.550352 34.313921 -82.550380 34.314003 -82.550413 34.314052 -82.550461 34.314068 -82.550610 34.314061 -82.550848 34.313991 -82.551023 34.313874 -82.551146 34.313808 -82.551263 34.313499 -82.551697 34.313304 -82.552211 34.313209 -82.552372 34.313130 -82.552640 34.313022 -82.553890 34.313001 -82.554301 34.313029 -82.554338 34.313231 -82.554431 34.313298 -82.554434 34.313521 -82.554406 34.313633 -82.554348 34.314003 -82.553959 34.314102 -82.553781 34.314129 -82.553527 34.314090 -82.553083 34.314034 -82.552825 34.314011 -82.552769 34.313986 -82.552259 34.314072 -82.551913 34.314180 -82.551583 34.314382 -82.551264 34.314554 -82.551105 34.314693 -82.551071 34.314846 -82.551066 34.315009 -82.551091 34.315306 -82.550644 34.315671 -82.550248 34.315907 -82.550187 34.316032 -82.550245 34.316153 -82.550360 34.316370 -82.550745 34.316479 -82.550877 34.316667 -82.551001 34.316878 -82.551065 34.316987 -82.551147 34.317255 -82.551128 34.317889 -82.551203 34.318306 -82.551162 34.318608 -82.551223 34.318743 -82.551332 34.318883 -82.551089 34.318977 -82.550797 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC001</ms:areasymbol>
+        <ms:musym>ApB</ms:musym>
+        <ms:nationalmusym>2th0j</ms:nationalmusym>
+        <ms:mukey>1154985</ms:mukey>
+        <ms:spatialversion>7</ms:spatialversion>
+        <ms:muname>Appling sandy loam, 2 to 6 percent slopes</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp>4</ms:slopegraddcp>
+        <ms:slopegradwta>4</ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin></ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta>3.5</ms:aws025wta>
+        <ms:aws050wta>6.93</ms:aws050wta>
+        <ms:aws0100wta>13.74</ms:aws0100wta>
+        <ms:aws0150wta>22.21</ms:aws0150wta>
+        <ms:drclassdcd>Well drained</ms:drclassdcd>
+        <ms:drclasswettest>Well drained</ms:drclasswettest>
+        <ms:hydgrpdcd>B</ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>2</ms:niccdcd>
+        <ms:niccdcdpct>100</ms:niccdcdpct>
+        <ms:engdwobdcd>Not limited</ms:engdwobdcd>
+        <ms:engdwbdcd>Not limited</ms:engdwbdcd>
+        <ms:engdwbll>Not limited</ms:engdwbll>
+        <ms:engdwbml>Very limited</ms:engdwbml>
+        <ms:engstafdcd>Somewhat limited</ms:engstafdcd>
+        <ms:engstafll>Somewhat limited</ms:engstafll>
+        <ms:engstafml>Very limited</ms:engstafml>
+        <ms:engsldcd>Somewhat limited</ms:engsldcd>
+        <ms:engsldcp>Somewhat limited</ms:engsldcp>
+        <ms:englrsdcd>Very limited</ms:englrsdcd>
+        <ms:engcmssdcd>Poor</ms:engcmssdcd>
+        <ms:engcmssmp>Poor</ms:engcmssmp>
+        <ms:urbrecptdcd>Somewhat limited</ms:urbrecptdcd>
+        <ms:urbrecptwta>0.048</ms:urbrecptwta>
+        <ms:forpehrtdcp>Erosion hazard moderate</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta>0.107</ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386724582</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.1154988">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.315184 -82.517960</gml:lowerCorner>
+        		<gml:upperCorner>34.321719 -82.513756</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.319836 -82.515597 34.319720 -82.515827 34.319693 -82.515849 34.319678 -82.515920 34.319524 -82.516053 34.319239 -82.516038 34.319021 -82.515972 34.318725 -82.515629 34.318711 -82.515581 34.318553 -82.515297 34.318200 -82.514906 34.317664 -82.514516 34.317571 -82.514400 34.317537 -82.514244 34.317301 -82.514230 34.316753 -82.513881 34.316441 -82.513759 34.316336 -82.513756 34.315985 -82.513831 34.315795 -82.513899 34.315424 -82.513946 34.315184 -82.514018 34.315277 -82.514419 34.315588 -82.514625 34.316055 -82.514664 34.316255 -82.514835 34.316287 -82.514890 34.316559 -82.515198 34.316759 -82.515313 34.316845 -82.515341 34.317140 -82.515311 34.317362 -82.515184 34.317568 -82.515216 34.317688 -82.515343 34.317745 -82.515494 34.317829 -82.515591 34.318021 -82.515647 34.318084 -82.515696 34.318176 -82.515831 34.318267 -82.516162 34.318456 -82.516139 34.318523 -82.516153 34.318567 -82.516208 34.318690 -82.516470 34.318781 -82.516897 34.318809 -82.516965 34.319015 -82.517162 34.319287 -82.517282 34.319428 -82.517323 34.320126 -82.517395 34.320598 -82.517588 34.320765 -82.517730 34.320896 -82.517960 34.321102 -82.517633 34.321301 -82.517453 34.321347 -82.517429 34.321666 -82.517401 34.321654 -82.517230 34.321719 -82.517097 34.321709 -82.517068 34.321579 -82.516926 34.321543 -82.516902 34.321261 -82.516849 34.321096 -82.516799 34.320852 -82.516643 34.320472 -82.516234 34.320368 -82.516144 34.319836 -82.515597 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC001</ms:areasymbol>
+        <ms:musym>CaB</ms:musym>
+        <ms:nationalmusym>2th01</ms:nationalmusym>
+        <ms:mukey>1154988</ms:mukey>
+        <ms:spatialversion>7</ms:spatialversion>
+        <ms:muname>Cataula sandy loam, 2 to 6 percent slopes</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp>4</ms:slopegraddcp>
+        <ms:slopegradwta>4</ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin>64</ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta>3.35</ms:aws025wta>
+        <ms:aws050wta>6.87</ms:aws050wta>
+        <ms:aws0100wta>9.9</ms:aws0100wta>
+        <ms:aws0150wta>16.99</ms:aws0150wta>
+        <ms:drclassdcd>Moderately well drained</ms:drclassdcd>
+        <ms:drclasswettest>Moderately well drained</ms:drclasswettest>
+        <ms:hydgrpdcd>C</ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>3</ms:niccdcd>
+        <ms:niccdcdpct>95</ms:niccdcdpct>
+        <ms:engdwobdcd>Very limited</ms:engdwobdcd>
+        <ms:engdwbdcd>Very limited</ms:engdwbdcd>
+        <ms:engdwbll>Not limited</ms:engdwbll>
+        <ms:engdwbml>Very limited</ms:engdwbml>
+        <ms:engstafdcd>Very limited</ms:engstafdcd>
+        <ms:engstafll>Somewhat limited</ms:engstafll>
+        <ms:engstafml>Very limited</ms:engstafml>
+        <ms:engsldcd>Somewhat limited</ms:engsldcd>
+        <ms:engsldcp>Somewhat limited</ms:engsldcp>
+        <ms:englrsdcd>Very limited</ms:englrsdcd>
+        <ms:engcmssdcd>Poor</ms:engcmssdcd>
+        <ms:engcmssmp>Poor</ms:engcmssmp>
+        <ms:urbrecptdcd>Somewhat limited</ms:urbrecptdcd>
+        <ms:urbrecptwta>0.049</ms:urbrecptwta>
+        <ms:forpehrtdcp>Erosion hazard moderate</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta>0.971</ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386724847</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.1154991">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.309539 -82.572029</gml:lowerCorner>
+        		<gml:upperCorner>34.324084 -82.551066</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.323939 -82.560078 34.323665 -82.560069 34.323289 -82.560307 34.322829 -82.560484 34.322389 -82.560491 34.321872 -82.560305 34.321716 -82.560228 34.321488 -82.560021 34.321102 -82.559456 34.320854 -82.559219 34.320675 -82.559126 34.320576 -82.559033 34.320516 -82.558918 34.320516 -82.558851 34.320617 -82.558670 34.320720 -82.558616 34.321128 -82.558591 34.321282 -82.558484 34.321500 -82.558371 34.321683 -82.558372 34.321808 -82.558327 34.321941 -82.558267 34.322036 -82.557995 34.322056 -82.557565 34.321990 -82.557331 34.321987 -82.557237 34.321806 -82.557218 34.321411 -82.557067 34.320961 -82.557092 34.320828 -82.557162 34.320554 -82.557263 34.320426 -82.557386 34.320048 -82.557806 34.319897 -82.557878 34.319693 -82.557910 34.319332 -82.558228 34.319134 -82.558265 34.318850 -82.558278 34.318681 -82.558204 34.318629 -82.558160 34.318475 -82.557938 34.318388 -82.557420 34.318365 -82.556995 34.318404 -82.556789 34.318516 -82.556585 34.318560 -82.556541 34.318677 -82.556467 34.319108 -82.556342 34.319354 -82.556220 34.319451 -82.556112 34.319467 -82.556078 34.319467 -82.555997 34.319451 -82.555952 34.319298 -82.555812 34.319076 -82.555737 34.318594 -82.555735 34.318098 -82.555862 34.317947 -82.555944 34.317784 -82.556140 34.317472 -82.556804 34.317261 -82.556943 34.317179 -82.556977 34.316798 -82.557009 34.316542 -82.556886 34.316334 -82.556700 34.316229 -82.556576 34.316128 -82.556313 34.316119 -82.555713 34.315993 -82.555170 34.315790 -82.554904 34.315612 -82.554750 34.315513 -82.554537 34.315459 -82.554285 34.315432 -82.553979 34.315437 -82.553494 34.315531 -82.553207 34.315788 -82.552706 34.315844 -82.552420 34.315804 -82.552195 34.315711 -82.552062 34.315534 -82.551983 34.315290 -82.551943 34.315068 -82.551836 34.315017 -82.551788 34.314953 -82.551678 34.314909 -82.551478 34.314937 -82.551275 34.315009 -82.551091 34.314846 -82.551066 34.314693 -82.551071 34.314554 -82.551105 34.314382 -82.551264 34.314180 -82.551583 34.314072 -82.551913 34.313986 -82.552259 34.314011 -82.552769 34.314034 -82.552825 34.314090 -82.553083 34.314129 -82.553527 34.314102 -82.553781 34.314003 -82.553959 34.313633 -82.554348 34.313521 -82.554406 34.313298 -82.554434 34.313236 -82.554751 34.313210 -82.554799 34.313102 -82.554898 34.312822 -82.555030 34.312576 -82.555226 34.312461 -82.555362 34.312269 -82.555735 34.312234 -82.555799 34.312233 -82.555949 34.312211 -82.556124 34.312174 -82.556859 34.312109 -82.557360 34.311933 -82.557966 34.311969 -82.558232 34.312050 -82.558290 34.312166 -82.558291 34.312210 -82.558265 34.312324 -82.558117 34.312479 -82.557759 34.312691 -82.556945 34.312768 -82.556743 34.312810 -82.556662 34.312995 -82.556458 34.313061 -82.556408 34.313199 -82.556403 34.313322 -82.556479 34.313411 -82.556634 34.313443 -82.556837 34.313418 -82.557294 34.313315 -82.557969 34.313316 -82.558031 34.313376 -82.558410 34.313532 -82.558763 34.313576 -82.558900 34.313588 -82.559007 34.313576 -82.559106 34.313532 -82.559213 34.313318 -82.559447 34.313189 -82.559543 34.312844 -82.559727 34.312735 -82.559830 34.312613 -82.560065 34.312479 -82.560525 34.312276 -82.560825 34.312231 -82.560918 34.312142 -82.561215 34.312144 -82.561372 34.312203 -82.561594 34.312409 -82.562022 34.312423 -82.562094 34.312409 -82.562150 34.312352 -82.562252 34.312247 -82.562275 34.312159 -82.562267 34.311979 -82.562208 34.311671 -82.562183 34.311592 -82.562214 34.311346 -82.562228 34.311278 -82.562252 34.311135 -82.562506 34.311098 -82.562656 34.311088 -82.562775 34.311130 -82.562932 34.311256 -82.563043 34.311459 -82.563081 34.311626 -82.563243 34.311654 -82.563304 34.311651 -82.563448 34.311609 -82.563551 34.311239 -82.563914 34.311179 -82.564010 34.311128 -82.564180 34.311149 -82.564427 34.311189 -82.564489 34.311282 -82.564585 34.311612 -82.564598 34.311669 -82.564665 34.311832 -82.564676 34.311927 -82.564634 34.312165 -82.564407 34.312306 -82.564104 34.312592 -82.563642 34.312766 -82.563441 34.312935 -82.563319 34.312990 -82.563317 34.313066 -82.563392 34.313011 -82.563734 34.313024 -82.563809 34.313126 -82.563834 34.313302 -82.563773 34.313352 -82.563773 34.313441 -82.563869 34.313463 -82.564106 34.313393 -82.564838 34.313340 -82.564952 34.313235 -82.565106 34.313131 -82.565174 34.312841 -82.565251 34.312503 -82.565261 34.312369 -82.565327 34.312267 -82.565430 34.312113 -82.565774 34.311982 -82.566176 34.311739 -82.566514 34.311522 -82.566674 34.311179 -82.567482 34.311046 -82.567706 34.310969 -82.567755 34.310868 -82.567779 34.310772 -82.567744 34.310703 -82.567601 34.310767 -82.567107 34.310857 -82.566674 34.310891 -82.566172 34.310862 -82.566037 34.310697 -82.565797 34.310587 -82.565720 34.310488 -82.565737 34.310264 -82.565815 34.310010 -82.565985 34.309679 -82.566170 34.309634 -82.566211 34.309539 -82.566351 34.309582 -82.566566 34.309729 -82.566828 34.309748 -82.566895 34.309754 -82.567745 34.309843 -82.568069 34.309937 -82.568291 34.309977 -82.568595 34.309993 -82.568625 34.309946 -82.569214 34.309887 -82.569517 34.309877 -82.569653 34.309871 -82.569850 34.309915 -82.570138 34.310084 -82.570449 34.310197 -82.570515 34.310256 -82.570496 34.310328 -82.570446 34.310453 -82.570276 34.310606 -82.569801 34.310661 -82.569690 34.310814 -82.569505 34.311017 -82.569397 34.311166 -82.569418 34.311273 -82.569531 34.311351 -82.569688 34.311371 -82.569833 34.311532 -82.570111 34.311580 -82.570148 34.311648 -82.570161 34.311877 -82.570095 34.312016 -82.570075 34.312142 -82.570091 34.312177 -82.570155 34.312181 -82.570228 34.312118 -82.570383 34.311808 -82.570782 34.311695 -82.571244 34.311681 -82.571547 34.311739 -82.571872 34.311818 -82.572018 34.312015 -82.572029 34.312173 -82.571924 34.312248 -82.571849 34.312357 -82.571511 34.312452 -82.570751 34.312492 -82.569664 34.312560 -82.568862 34.312609 -82.568648 34.312681 -82.568515 34.312779 -82.568458 34.312887 -82.568468 34.312941 -82.568497 34.313030 -82.568634 34.313058 -82.568854 34.313033 -82.569516 34.313066 -82.569757 34.313099 -82.569865 34.313185 -82.569978 34.313326 -82.570053 34.313403 -82.570075 34.313673 -82.570051 34.313879 -82.569938 34.314054 -82.569709 34.314105 -82.569511 34.314110 -82.569137 34.314014 -82.568619 34.314006 -82.568311 34.314040 -82.568109 34.314175 -82.567769 34.314213 -82.567569 34.314265 -82.567127 34.314310 -82.566962 34.314365 -82.566634 34.314363 -82.566081 34.314389 -82.565983 34.314413 -82.565946 34.314467 -82.565900 34.314673 -82.565884 34.314839 -82.566010 34.314919 -82.566119 34.314953 -82.566201 34.315066 -82.566766 34.315002 -82.567141 34.315036 -82.567305 34.315120 -82.567420 34.315183 -82.567455 34.315342 -82.567495 34.315689 -82.567321 34.316171 -82.567148 34.316308 -82.567042 34.316516 -82.566780 34.316612 -82.566490 34.316683 -82.565888 34.316689 -82.565537 34.316767 -82.565225 34.316862 -82.565097 34.317080 -82.565051 34.317181 -82.564979 34.317195 -82.564918 34.317183 -82.564741 34.317127 -82.564620 34.316903 -82.564426 34.316816 -82.564415 34.316608 -82.564428 34.316415 -82.564563 34.316223 -82.564631 34.316102 -82.564636 34.315961 -82.564582 34.315772 -82.564428 34.315721 -82.564217 34.315471 -82.564155 34.315395 -82.564053 34.315393 -82.563971 34.315443 -82.563825 34.315514 -82.563646 34.315658 -82.563450 34.315713 -82.563313 34.315726 -82.563217 34.315709 -82.562821 34.315626 -82.562462 34.315608 -82.562102 34.315507 -82.561857 34.315491 -82.561733 34.315443 -82.561644 34.315445 -82.561438 34.315330 -82.561295 34.315259 -82.561090 34.315215 -82.560817 34.315213 -82.560432 34.315231 -82.560331 34.315550 -82.559235 34.315650 -82.558612 34.315766 -82.558346 34.315870 -82.558277 34.316010 -82.558319 34.316090 -82.558410 34.316166 -82.558566 34.316279 -82.558931 34.316369 -82.559600 34.316344 -82.560039 34.316298 -82.560458 34.316281 -82.560882 34.316306 -82.561047 34.316391 -82.561196 34.316584 -82.561315 34.316725 -82.561307 34.316864 -82.561265 34.317099 -82.561095 34.317268 -82.560866 34.317382 -82.560516 34.317664 -82.560212 34.317703 -82.560152 34.317786 -82.559839 34.317804 -82.559502 34.317862 -82.559309 34.318122 -82.559105 34.318300 -82.559138 34.318395 -82.559194 34.318447 -82.559236 34.318616 -82.559443 34.318727 -82.559689 34.318772 -82.559996 34.318915 -82.560154 34.318965 -82.560317 34.319014 -82.560561 34.319052 -82.560953 34.319153 -82.561228 34.319514 -82.561739 34.319797 -82.562085 34.319958 -82.562226 34.320251 -82.562588 34.320480 -82.562822 34.320562 -82.562865 34.320599 -82.562866 34.320679 -82.562832 34.320749 -82.562737 34.320748 -82.562609 34.320608 -82.562217 34.320407 -82.562021 34.320280 -82.561839 34.320082 -82.561430 34.319848 -82.561117 34.319596 -82.560694 34.319610 -82.560563 34.319689 -82.560460 34.320064 -82.560447 34.320129 -82.560430 34.320328 -82.560287 34.320538 -82.560289 34.320715 -82.560428 34.321028 -82.560775 34.321125 -82.560863 34.321352 -82.561009 34.321648 -82.561142 34.321810 -82.561176 34.322243 -82.561204 34.322292 -82.561194 34.322631 -82.561110 34.323096 -82.561307 34.323543 -82.561434 34.323685 -82.561510 34.323739 -82.561519 34.323893 -82.561466 34.324005 -82.561329 34.324018 -82.561198 34.323945 -82.561088 34.323818 -82.561001 34.323766 -82.560931 34.323755 -82.560781 34.323848 -82.560654 34.323979 -82.560572 34.324068 -82.560436 34.324084 -82.560370 34.324076 -82.560219 34.323939 -82.560078 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC001</ms:areasymbol>
+        <ms:musym>CcB</ms:musym>
+        <ms:nationalmusym>2q7j7</ms:nationalmusym>
+        <ms:mukey>1154991</ms:mukey>
+        <ms:spatialversion>7</ms:spatialversion>
+        <ms:muname>Cecil sandy loam, 2 to 6 percent slopes</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp>4</ms:slopegraddcp>
+        <ms:slopegradwta>4</ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin></ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta>2.95</ms:aws025wta>
+        <ms:aws050wta>5.45</ms:aws050wta>
+        <ms:aws0100wta>10.4</ms:aws0100wta>
+        <ms:aws0150wta>17.35</ms:aws0150wta>
+        <ms:drclassdcd>Well drained</ms:drclassdcd>
+        <ms:drclasswettest>Well drained</ms:drclasswettest>
+        <ms:hydgrpdcd>B</ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>2</ms:niccdcd>
+        <ms:niccdcdpct>95</ms:niccdcdpct>
+        <ms:engdwobdcd>Not limited</ms:engdwobdcd>
+        <ms:engdwbdcd>Not limited</ms:engdwbdcd>
+        <ms:engdwbll>Not limited</ms:engdwbll>
+        <ms:engdwbml>Somewhat limited</ms:engdwbml>
+        <ms:engstafdcd>Somewhat limited</ms:engstafdcd>
+        <ms:engstafll>Somewhat limited</ms:engstafll>
+        <ms:engstafml>Very limited</ms:engstafml>
+        <ms:engsldcd>Somewhat limited</ms:engsldcd>
+        <ms:engsldcp>Somewhat limited</ms:engsldcp>
+        <ms:englrsdcd>Very limited</ms:englrsdcd>
+        <ms:engcmssdcd>Poor</ms:engcmssdcd>
+        <ms:engcmssmp>Poor</ms:engcmssmp>
+        <ms:urbrecptdcd>Somewhat limited</ms:urbrecptdcd>
+        <ms:urbrecptwta>0.052</ms:urbrecptwta>
+        <ms:forpehrtdcp>Erosion hazard moderate</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta>0.506</ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386724848</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.1154985">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.322620 -82.545755</gml:lowerCorner>
+        		<gml:upperCorner>34.330106 -82.537685</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.329727 -82.538592 34.329564 -82.538771 34.329386 -82.538824 34.329241 -82.538786 34.329082 -82.538689 34.328899 -82.538469 34.328780 -82.538286 34.328689 -82.538070 34.328666 -82.537814 34.328304 -82.538038 34.328074 -82.538107 34.327781 -82.538105 34.327331 -82.537845 34.327150 -82.537699 34.326943 -82.537685 34.326922 -82.537701 34.326820 -82.537824 34.326702 -82.538139 34.326435 -82.539531 34.326348 -82.539691 34.326195 -82.539830 34.326034 -82.539864 34.325876 -82.539844 34.325792 -82.539759 34.325681 -82.539596 34.325649 -82.539516 34.325475 -82.539213 34.325122 -82.539087 34.325068 -82.538961 34.324800 -82.539092 34.324586 -82.539245 34.324203 -82.539750 34.324114 -82.539827 34.323638 -82.540481 34.323574 -82.540632 34.323546 -82.540826 34.323570 -82.540939 34.323651 -82.541088 34.323939 -82.541263 34.324126 -82.541485 34.324221 -82.541762 34.324209 -82.541965 34.324148 -82.542139 34.324050 -82.542252 34.323927 -82.542360 34.323785 -82.542434 34.323488 -82.542504 34.322854 -82.542939 34.322749 -82.543095 34.322658 -82.543362 34.322620 -82.543811 34.322656 -82.544368 34.322727 -82.545052 34.322776 -82.545272 34.322897 -82.545559 34.323020 -82.545699 34.323118 -82.545755 34.323368 -82.545727 34.323427 -82.545688 34.323812 -82.545276 34.323907 -82.544735 34.324026 -82.544494 34.324233 -82.544300 34.324424 -82.544290 34.324527 -82.544352 34.324570 -82.544432 34.324600 -82.544588 34.324615 -82.544804 34.324701 -82.544911 34.324874 -82.544915 34.325310 -82.544797 34.325326 -82.544531 34.325457 -82.544098 34.325570 -82.543872 34.325757 -82.543564 34.325963 -82.543285 34.326126 -82.543110 34.326241 -82.543070 34.326299 -82.543075 34.326410 -82.543274 34.326459 -82.543509 34.326556 -82.543661 34.326631 -82.543713 34.326735 -82.543683 34.326901 -82.543525 34.327170 -82.543665 34.327394 -82.543713 34.327626 -82.543610 34.327549 -82.543427 34.327239 -82.543009 34.327139 -82.542776 34.327147 -82.542550 34.327248 -82.542330 34.327302 -82.542243 34.327455 -82.542119 34.327610 -82.542128 34.327633 -82.542146 34.327812 -82.542469 34.327979 -82.543008 34.328072 -82.543166 34.328167 -82.543200 34.328225 -82.543190 34.328358 -82.542913 34.328420 -82.542256 34.328386 -82.541850 34.328126 -82.541462 34.328043 -82.541252 34.328036 -82.541152 34.328078 -82.540977 34.328249 -82.540711 34.328336 -82.540621 34.328580 -82.540564 34.328689 -82.540580 34.328979 -82.540663 34.329199 -82.540813 34.329267 -82.540886 34.329423 -82.540995 34.329527 -82.541119 34.329586 -82.541123 34.329650 -82.541056 34.329778 -82.540602 34.329957 -82.540213 34.330102 -82.539642 34.330106 -82.539443 34.330014 -82.539154 34.329814 -82.538790 34.329727 -82.538592 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC001</ms:areasymbol>
+        <ms:musym>ApB</ms:musym>
+        <ms:nationalmusym>2th0j</ms:nationalmusym>
+        <ms:mukey>1154985</ms:mukey>
+        <ms:spatialversion>7</ms:spatialversion>
+        <ms:muname>Appling sandy loam, 2 to 6 percent slopes</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp>4</ms:slopegraddcp>
+        <ms:slopegradwta>4</ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin></ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta>3.5</ms:aws025wta>
+        <ms:aws050wta>6.93</ms:aws050wta>
+        <ms:aws0100wta>13.74</ms:aws0100wta>
+        <ms:aws0150wta>22.21</ms:aws0150wta>
+        <ms:drclassdcd>Well drained</ms:drclassdcd>
+        <ms:drclasswettest>Well drained</ms:drclasswettest>
+        <ms:hydgrpdcd>B</ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>2</ms:niccdcd>
+        <ms:niccdcdpct>100</ms:niccdcdpct>
+        <ms:engdwobdcd>Not limited</ms:engdwobdcd>
+        <ms:engdwbdcd>Not limited</ms:engdwbdcd>
+        <ms:engdwbll>Not limited</ms:engdwbll>
+        <ms:engdwbml>Very limited</ms:engdwbml>
+        <ms:engstafdcd>Somewhat limited</ms:engstafdcd>
+        <ms:engstafll>Somewhat limited</ms:engstafll>
+        <ms:engstafml>Very limited</ms:engstafml>
+        <ms:engsldcd>Somewhat limited</ms:engsldcd>
+        <ms:engsldcp>Somewhat limited</ms:engsldcp>
+        <ms:englrsdcd>Very limited</ms:englrsdcd>
+        <ms:engcmssdcd>Poor</ms:engcmssdcd>
+        <ms:engcmssmp>Poor</ms:engcmssmp>
+        <ms:urbrecptdcd>Somewhat limited</ms:urbrecptdcd>
+        <ms:urbrecptwta>0.048</ms:urbrecptwta>
+        <ms:forpehrtdcp>Erosion hazard moderate</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta>0.107</ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386725061</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.1154991">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.324669 -82.539864</gml:lowerCorner>
+        		<gml:upperCorner>34.329517 -82.534018</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.328126 -82.534459 34.328086 -82.534314 34.327953 -82.534193 34.327330 -82.534034 34.327227 -82.534018 34.326999 -82.534043 34.326622 -82.534199 34.326040 -82.534564 34.325481 -82.535167 34.325302 -82.535373 34.325099 -82.535671 34.324751 -82.536008 34.324711 -82.536124 34.324669 -82.536320 34.324723 -82.537179 34.324707 -82.537583 34.324731 -82.537771 34.324808 -82.537943 34.325042 -82.538171 34.325134 -82.538379 34.325141 -82.538651 34.325068 -82.538961 34.325122 -82.539087 34.325475 -82.539213 34.325649 -82.539516 34.325681 -82.539596 34.325792 -82.539759 34.325876 -82.539844 34.326034 -82.539864 34.326195 -82.539830 34.326348 -82.539691 34.326435 -82.539531 34.326702 -82.538139 34.326820 -82.537824 34.326922 -82.537701 34.326943 -82.537685 34.327150 -82.537699 34.327331 -82.537845 34.327781 -82.538105 34.328074 -82.538107 34.328304 -82.538038 34.328666 -82.537814 34.328660 -82.537745 34.328685 -82.537655 34.328779 -82.537459 34.328822 -82.537173 34.328749 -82.536635 34.328773 -82.536298 34.328890 -82.536132 34.329090 -82.536005 34.329379 -82.535764 34.329477 -82.535635 34.329506 -82.535568 34.329517 -82.535434 34.329411 -82.535254 34.328608 -82.535213 34.328391 -82.535163 34.328038 -82.535040 34.328005 -82.534941 34.328005 -82.534878 34.328090 -82.534509 34.328126 -82.534459 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC001</ms:areasymbol>
+        <ms:musym>CcB</ms:musym>
+        <ms:nationalmusym>2q7j7</ms:nationalmusym>
+        <ms:mukey>1154991</ms:mukey>
+        <ms:spatialversion>7</ms:spatialversion>
+        <ms:muname>Cecil sandy loam, 2 to 6 percent slopes</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp>4</ms:slopegraddcp>
+        <ms:slopegradwta>4</ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin></ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta>2.95</ms:aws025wta>
+        <ms:aws050wta>5.45</ms:aws050wta>
+        <ms:aws0100wta>10.4</ms:aws0100wta>
+        <ms:aws0150wta>17.35</ms:aws0150wta>
+        <ms:drclassdcd>Well drained</ms:drclassdcd>
+        <ms:drclasswettest>Well drained</ms:drclasswettest>
+        <ms:hydgrpdcd>B</ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>2</ms:niccdcd>
+        <ms:niccdcdpct>95</ms:niccdcdpct>
+        <ms:engdwobdcd>Not limited</ms:engdwobdcd>
+        <ms:engdwbdcd>Not limited</ms:engdwbdcd>
+        <ms:engdwbll>Not limited</ms:engdwbll>
+        <ms:engdwbml>Somewhat limited</ms:engdwbml>
+        <ms:engstafdcd>Somewhat limited</ms:engstafdcd>
+        <ms:engstafll>Somewhat limited</ms:engstafll>
+        <ms:engstafml>Very limited</ms:engstafml>
+        <ms:engsldcd>Somewhat limited</ms:engsldcd>
+        <ms:engsldcp>Somewhat limited</ms:engsldcp>
+        <ms:englrsdcd>Very limited</ms:englrsdcd>
+        <ms:engcmssdcd>Poor</ms:engcmssdcd>
+        <ms:engcmssmp>Poor</ms:engcmssmp>
+        <ms:urbrecptdcd>Somewhat limited</ms:urbrecptdcd>
+        <ms:urbrecptwta>0.052</ms:urbrecptwta>
+        <ms:forpehrtdcp>Erosion hazard moderate</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta>0.506</ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386725066</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.1154991">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.312513 -82.517800</gml:lowerCorner>
+        		<gml:upperCorner>34.313975 -82.515494</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.313638 -82.515984 34.313455 -82.515833 34.313146 -82.515654 34.312996 -82.515533 34.312823 -82.515494 34.312710 -82.515584 34.312615 -82.515706 34.312549 -82.515850 34.312513 -82.516008 34.312515 -82.516270 34.312533 -82.516428 34.312696 -82.516757 34.312824 -82.516915 34.312936 -82.516994 34.313237 -82.517079 34.313330 -82.517123 34.313466 -82.517333 34.313517 -82.517536 34.313606 -82.517714 34.313705 -82.517790 34.313843 -82.517800 34.313953 -82.517679 34.313975 -82.517628 34.313953 -82.516532 34.313878 -82.516267 34.313787 -82.516123 34.313638 -82.515984 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC001</ms:areasymbol>
+        <ms:musym>CcB</ms:musym>
+        <ms:nationalmusym>2q7j7</ms:nationalmusym>
+        <ms:mukey>1154991</ms:mukey>
+        <ms:spatialversion>7</ms:spatialversion>
+        <ms:muname>Cecil sandy loam, 2 to 6 percent slopes</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp>4</ms:slopegraddcp>
+        <ms:slopegradwta>4</ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin></ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta>2.95</ms:aws025wta>
+        <ms:aws050wta>5.45</ms:aws050wta>
+        <ms:aws0100wta>10.4</ms:aws0100wta>
+        <ms:aws0150wta>17.35</ms:aws0150wta>
+        <ms:drclassdcd>Well drained</ms:drclassdcd>
+        <ms:drclasswettest>Well drained</ms:drclasswettest>
+        <ms:hydgrpdcd>B</ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>2</ms:niccdcd>
+        <ms:niccdcdpct>95</ms:niccdcdpct>
+        <ms:engdwobdcd>Not limited</ms:engdwobdcd>
+        <ms:engdwbdcd>Not limited</ms:engdwbdcd>
+        <ms:engdwbll>Not limited</ms:engdwbll>
+        <ms:engdwbml>Somewhat limited</ms:engdwbml>
+        <ms:engstafdcd>Somewhat limited</ms:engstafdcd>
+        <ms:engstafll>Somewhat limited</ms:engstafll>
+        <ms:engstafml>Very limited</ms:engstafml>
+        <ms:engsldcd>Somewhat limited</ms:engsldcd>
+        <ms:engsldcp>Somewhat limited</ms:engsldcp>
+        <ms:englrsdcd>Very limited</ms:englrsdcd>
+        <ms:engcmssdcd>Poor</ms:engcmssdcd>
+        <ms:engcmssmp>Poor</ms:engcmssmp>
+        <ms:urbrecptdcd>Somewhat limited</ms:urbrecptdcd>
+        <ms:urbrecptwta>0.052</ms:urbrecptwta>
+        <ms:forpehrtdcp>Erosion hazard moderate</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta>0.506</ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386725091</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.1154992">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.327074 -82.551352</gml:lowerCorner>
+        		<gml:upperCorner>34.328953 -82.542119</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.328225 -82.543190 34.328167 -82.543200 34.328072 -82.543166 34.327979 -82.543008 34.327812 -82.542469 34.327633 -82.542146 34.327610 -82.542128 34.327455 -82.542119 34.327302 -82.542243 34.327248 -82.542330 34.327147 -82.542550 34.327139 -82.542776 34.327239 -82.543009 34.327549 -82.543427 34.327626 -82.543610 34.327826 -82.543770 34.328025 -82.544040 34.328052 -82.544104 34.327994 -82.544338 34.327969 -82.544386 34.327854 -82.544434 34.327721 -82.544445 34.327475 -82.544338 34.327148 -82.544320 34.327086 -82.544405 34.327075 -82.544454 34.327074 -82.544689 34.327092 -82.544832 34.327142 -82.545037 34.327243 -82.545245 34.327538 -82.545753 34.327646 -82.546009 34.327660 -82.546081 34.327659 -82.546223 34.327645 -82.546291 34.327594 -82.546400 34.327296 -82.546616 34.327231 -82.546765 34.327222 -82.547114 34.327237 -82.547247 34.327268 -82.547368 34.327350 -82.547594 34.327536 -82.547807 34.327703 -82.547947 34.327833 -82.547993 34.327937 -82.548071 34.328052 -82.548259 34.328106 -82.548450 34.328098 -82.548733 34.328038 -82.549102 34.327967 -82.549203 34.327891 -82.549222 34.327741 -82.549156 34.327647 -82.549162 34.327623 -82.549178 34.327645 -82.549474 34.327777 -82.549810 34.327810 -82.549952 34.327748 -82.550134 34.327547 -82.550451 34.327510 -82.550635 34.327518 -82.550713 34.327616 -82.550951 34.327810 -82.551237 34.328000 -82.551352 34.328148 -82.551329 34.328219 -82.551201 34.328324 -82.550858 34.328153 -82.550646 34.328092 -82.550516 34.328115 -82.550221 34.328226 -82.550003 34.328359 -82.549912 34.328675 -82.549751 34.328760 -82.549652 34.328850 -82.549509 34.328880 -82.549431 34.328943 -82.549148 34.328953 -82.548882 34.328899 -82.548455 34.328921 -82.548096 34.328872 -82.547843 34.328794 -82.547664 34.328602 -82.547300 34.328556 -82.547144 34.328324 -82.546646 34.328129 -82.546073 34.327995 -82.545499 34.327995 -82.545118 34.328036 -82.544830 34.328215 -82.544447 34.328369 -82.543928 34.328390 -82.543818 34.328382 -82.543598 34.328264 -82.543243 34.328225 -82.543190 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC001</ms:areasymbol>
+        <ms:musym>CcC</ms:musym>
+        <ms:nationalmusym>2q7j8</ms:nationalmusym>
+        <ms:mukey>1154992</ms:mukey>
+        <ms:spatialversion>7</ms:spatialversion>
+        <ms:muname>Cecil sandy loam, 6 to 10 percent slopes</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp>8</ms:slopegraddcp>
+        <ms:slopegradwta>8</ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin></ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta>2.99</ms:aws025wta>
+        <ms:aws050wta>5.5</ms:aws050wta>
+        <ms:aws0100wta>10.48</ms:aws0100wta>
+        <ms:aws0150wta>16.87</ms:aws0150wta>
+        <ms:drclassdcd>Well drained</ms:drclassdcd>
+        <ms:drclasswettest>Well drained</ms:drclasswettest>
+        <ms:hydgrpdcd>B</ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>3</ms:niccdcd>
+        <ms:niccdcdpct>98</ms:niccdcdpct>
+        <ms:engdwobdcd>Not limited</ms:engdwobdcd>
+        <ms:engdwbdcd>Not limited</ms:engdwbdcd>
+        <ms:engdwbll>Not limited</ms:engdwbll>
+        <ms:engdwbml>Somewhat limited</ms:engdwbml>
+        <ms:engstafdcd>Somewhat limited</ms:engstafdcd>
+        <ms:engstafll>Somewhat limited</ms:engstafll>
+        <ms:engstafml>Very limited</ms:engstafml>
+        <ms:engsldcd>Very limited</ms:engsldcd>
+        <ms:engsldcp>Very limited</ms:engsldcp>
+        <ms:englrsdcd>Very limited</ms:englrsdcd>
+        <ms:engcmssdcd>Poor</ms:engcmssdcd>
+        <ms:engcmssmp>Poor</ms:engcmssmp>
+        <ms:urbrecptdcd>Somewhat limited</ms:urbrecptdcd>
+        <ms:urbrecptwta>0.05</ms:urbrecptwta>
+        <ms:forpehrtdcp>Erosion hazard moderate</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta>0.542</ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386725107</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.1154986">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.309945 -82.537217</gml:lowerCorner>
+        		<gml:upperCorner>34.314370 -82.528534</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.309945 -82.528849 34.309993 -82.528853 34.310025 -82.528928 34.310033 -82.529012 34.310054 -82.529192 34.310082 -82.529357 34.310117 -82.529438 34.310190 -82.529529 34.310204 -82.529608 34.310196 -82.529748 34.310327 -82.529905 34.310479 -82.530234 34.310572 -82.530359 34.310614 -82.530397 34.310755 -82.530456 34.310839 -82.530554 34.310874 -82.530776 34.310766 -82.531127 34.310735 -82.531377 34.310749 -82.531496 34.310804 -82.531732 34.310800 -82.531945 34.310582 -82.532792 34.310519 -82.533238 34.310433 -82.533440 34.310507 -82.533464 34.310667 -82.533456 34.310776 -82.533539 34.310784 -82.533630 34.310744 -82.533751 34.310685 -82.533934 34.310596 -82.534185 34.310557 -82.534621 34.310545 -82.534817 34.310478 -82.534844 34.310407 -82.534825 34.310349 -82.534767 34.310195 -82.533896 34.310039 -82.534187 34.309999 -82.534324 34.309977 -82.534490 34.309954 -82.534549 34.310059 -82.534808 34.310411 -82.535205 34.310640 -82.535238 34.310672 -82.535262 34.310692 -82.535555 34.310511 -82.536091 34.310511 -82.536425 34.310616 -82.536794 34.310739 -82.537025 34.310862 -82.537161 34.311059 -82.537217 34.311185 -82.537126 34.311276 -82.536993 34.311336 -82.536584 34.311376 -82.535567 34.311410 -82.535146 34.311380 -82.534927 34.311324 -82.534727 34.311311 -82.534215 34.311354 -82.534008 34.311443 -82.533881 34.311580 -82.533827 34.311795 -82.533827 34.312299 -82.534060 34.312539 -82.534224 34.312870 -82.534608 34.313108 -82.534713 34.313138 -82.534717 34.313268 -82.534647 34.313324 -82.534389 34.313350 -82.534311 34.313380 -82.534290 34.313449 -82.534300 34.313542 -82.534395 34.313594 -82.534510 34.313711 -82.534649 34.313898 -82.534826 34.313947 -82.534844 34.313995 -82.534887 34.314146 -82.534884 34.314308 -82.534772 34.314370 -82.534678 34.314368 -82.534564 34.314264 -82.534210 34.313894 -82.533621 34.313483 -82.533239 34.313241 -82.532877 34.312774 -82.532409 34.312531 -82.532258 34.312419 -82.531829 34.312382 -82.531149 34.312335 -82.531093 34.312294 -82.531165 34.312259 -82.531387 34.312156 -82.531508 34.311946 -82.531530 34.311918 -82.531512 34.311542 -82.531125 34.311308 -82.530605 34.311132 -82.530439 34.310672 -82.529805 34.310600 -82.529613 34.310606 -82.529403 34.310759 -82.529171 34.311386 -82.528915 34.311428 -82.528824 34.311437 -82.528688 34.311344 -82.528534 34.311231 -82.528549 34.310429 -82.528786 34.310259 -82.528792 34.309985 -82.528758 34.309945 -82.528849 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC001</ms:areasymbol>
+        <ms:musym>ApC</ms:musym>
+        <ms:nationalmusym>2vwrg</ms:nationalmusym>
+        <ms:mukey>1154986</ms:mukey>
+        <ms:spatialversion>7</ms:spatialversion>
+        <ms:muname>Appling sandy loam, 6 to 10 percent slopes</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp>8</ms:slopegraddcp>
+        <ms:slopegradwta>8</ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin></ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta>3.47</ms:aws025wta>
+        <ms:aws050wta>6.94</ms:aws050wta>
+        <ms:aws0100wta>13.7</ms:aws0100wta>
+        <ms:aws0150wta>22.02</ms:aws0150wta>
+        <ms:drclassdcd>Well drained</ms:drclassdcd>
+        <ms:drclasswettest>Well drained</ms:drclasswettest>
+        <ms:hydgrpdcd>B</ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>3</ms:niccdcd>
+        <ms:niccdcdpct>88</ms:niccdcdpct>
+        <ms:engdwobdcd>Not limited</ms:engdwobdcd>
+        <ms:engdwbdcd>Not limited</ms:engdwbdcd>
+        <ms:engdwbll>Not limited</ms:engdwbll>
+        <ms:engdwbml>Somewhat limited</ms:engdwbml>
+        <ms:engstafdcd>Somewhat limited</ms:engstafdcd>
+        <ms:engstafll>Somewhat limited</ms:engstafll>
+        <ms:engstafml>Very limited</ms:engstafml>
+        <ms:engsldcd>Very limited</ms:engsldcd>
+        <ms:engsldcp>Very limited</ms:engsldcp>
+        <ms:englrsdcd>Very limited</ms:englrsdcd>
+        <ms:engcmssdcd>Poor</ms:engcmssdcd>
+        <ms:engcmssmp>Poor</ms:engcmssmp>
+        <ms:urbrecptdcd>Somewhat limited</ms:urbrecptdcd>
+        <ms:urbrecptwta>0.045</ms:urbrecptwta>
+        <ms:forpehrtdcp>Erosion hazard moderate</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta>0.127</ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386725217</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.1154992">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.326003 -82.557759</gml:lowerCorner>
+        		<gml:upperCorner>34.327691 -82.555031</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.327048 -82.555050 34.326993 -82.555170 34.326812 -82.555305 34.326593 -82.555257 34.326483 -82.555213 34.326271 -82.555224 34.326135 -82.555303 34.326009 -82.555553 34.326003 -82.555670 34.326022 -82.556057 34.326056 -82.556386 34.326189 -82.556816 34.326566 -82.557501 34.326671 -82.557759 34.327691 -82.556235 34.327596 -82.555927 34.327339 -82.555325 34.327139 -82.555031 34.327048 -82.555050 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC001</ms:areasymbol>
+        <ms:musym>CcC</ms:musym>
+        <ms:nationalmusym>2q7j8</ms:nationalmusym>
+        <ms:mukey>1154992</ms:mukey>
+        <ms:spatialversion>7</ms:spatialversion>
+        <ms:muname>Cecil sandy loam, 6 to 10 percent slopes</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp>8</ms:slopegraddcp>
+        <ms:slopegradwta>8</ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin></ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta>2.99</ms:aws025wta>
+        <ms:aws050wta>5.5</ms:aws050wta>
+        <ms:aws0100wta>10.48</ms:aws0100wta>
+        <ms:aws0150wta>16.87</ms:aws0150wta>
+        <ms:drclassdcd>Well drained</ms:drclassdcd>
+        <ms:drclasswettest>Well drained</ms:drclasswettest>
+        <ms:hydgrpdcd>B</ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>3</ms:niccdcd>
+        <ms:niccdcdpct>98</ms:niccdcdpct>
+        <ms:engdwobdcd>Not limited</ms:engdwobdcd>
+        <ms:engdwbdcd>Not limited</ms:engdwbdcd>
+        <ms:engdwbll>Not limited</ms:engdwbll>
+        <ms:engdwbml>Somewhat limited</ms:engdwbml>
+        <ms:engstafdcd>Somewhat limited</ms:engstafdcd>
+        <ms:engstafll>Somewhat limited</ms:engstafll>
+        <ms:engstafml>Very limited</ms:engstafml>
+        <ms:engsldcd>Very limited</ms:engsldcd>
+        <ms:engsldcp>Very limited</ms:engsldcp>
+        <ms:englrsdcd>Very limited</ms:englrsdcd>
+        <ms:engcmssdcd>Poor</ms:engcmssdcd>
+        <ms:engcmssmp>Poor</ms:engcmssmp>
+        <ms:urbrecptdcd>Somewhat limited</ms:urbrecptdcd>
+        <ms:urbrecptwta>0.05</ms:urbrecptwta>
+        <ms:forpehrtdcp>Erosion hazard moderate</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta>0.542</ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386725222</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.1154991">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.319674 -82.519780</gml:lowerCorner>
+        		<gml:upperCorner>34.328285 -82.508624</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.326371 -82.514884 34.325997 -82.514714 34.325799 -82.514486 34.325676 -82.514264 34.325457 -82.514079 34.325196 -82.514116 34.324864 -82.514334 34.324742 -82.514335 34.324682 -82.514287 34.324471 -82.514047 34.324376 -82.514014 34.324224 -82.514023 34.323658 -82.514379 34.323547 -82.514377 34.323441 -82.514266 34.323424 -82.514232 34.323424 -82.514131 34.323517 -82.513891 34.323604 -82.513724 34.323860 -82.513125 34.323997 -82.512677 34.324007 -82.512393 34.323912 -82.512020 34.323854 -82.511943 34.323555 -82.511786 34.323439 -82.511623 34.323374 -82.511481 34.323181 -82.511496 34.323084 -82.511400 34.323039 -82.511311 34.322989 -82.511155 34.322989 -82.511015 34.323039 -82.510898 34.323301 -82.510654 34.323822 -82.510385 34.323904 -82.510331 34.324121 -82.510137 34.324281 -82.509917 34.324382 -82.509439 34.324380 -82.509395 34.324265 -82.509303 34.324182 -82.509176 34.324130 -82.508847 34.324098 -82.508752 34.323985 -82.508626 34.323777 -82.508624 34.323501 -82.508728 34.323354 -82.508873 34.323102 -82.509460 34.323013 -82.509581 34.322486 -82.510117 34.322344 -82.510220 34.321918 -82.510593 34.321870 -82.510605 34.321862 -82.510711 34.321816 -82.510801 34.321743 -82.510896 34.321646 -82.511202 34.321622 -82.511776 34.321563 -82.512105 34.321503 -82.512233 34.321132 -82.512902 34.321077 -82.512978 34.320804 -82.513208 34.320709 -82.513252 34.320357 -82.513482 34.320335 -82.513657 34.320152 -82.514180 34.319958 -82.514554 34.319868 -82.514679 34.319704 -82.515009 34.319678 -82.515119 34.319674 -82.515333 34.319797 -82.515554 34.319836 -82.515597 34.320368 -82.516144 34.320472 -82.516234 34.320852 -82.516643 34.321096 -82.516799 34.321261 -82.516849 34.321543 -82.516902 34.321579 -82.516926 34.321709 -82.517068 34.321719 -82.517097 34.321654 -82.517230 34.321666 -82.517401 34.321703 -82.517472 34.321763 -82.517532 34.321991 -82.517572 34.322183 -82.517554 34.322396 -82.517510 34.322731 -82.517317 34.323031 -82.516956 34.323205 -82.516887 34.323335 -82.516952 34.323414 -82.517500 34.323442 -82.517567 34.323527 -82.517676 34.323626 -82.517714 34.323817 -82.517708 34.324229 -82.517508 34.324307 -82.517485 34.324423 -82.517508 34.324493 -82.517573 34.324563 -82.517799 34.324559 -82.518242 34.324407 -82.518418 34.324231 -82.518478 34.324136 -82.518590 34.324066 -82.518692 34.323892 -82.519047 34.323771 -82.519419 34.323791 -82.519671 34.323914 -82.519780 34.324053 -82.519768 34.324191 -82.519708 34.324318 -82.519545 34.324445 -82.519270 34.324573 -82.519099 34.325289 -82.518467 34.325642 -82.518083 34.325765 -82.517976 34.325880 -82.517966 34.325912 -82.517984 34.325977 -82.518165 34.325986 -82.518246 34.325953 -82.518479 34.325928 -82.518562 34.325776 -82.518799 34.325674 -82.519113 34.325688 -82.519296 34.325767 -82.519381 34.325803 -82.519399 34.326049 -82.519344 34.326152 -82.519298 34.326356 -82.519135 34.326582 -82.518490 34.326606 -82.518356 34.326761 -82.518028 34.326924 -82.517838 34.327029 -82.517742 34.327215 -82.517647 34.327279 -82.517635 34.327588 -82.517693 34.327628 -82.517740 34.327649 -82.517684 34.327713 -82.517627 34.327811 -82.517418 34.328033 -82.517125 34.328136 -82.516951 34.328103 -82.516767 34.328110 -82.516452 34.328285 -82.515964 34.328084 -82.515936 34.327870 -82.516026 34.327690 -82.516234 34.327362 -82.516486 34.327138 -82.516796 34.326787 -82.517069 34.326503 -82.517354 34.326447 -82.517369 34.326410 -82.517319 34.326352 -82.517164 34.326289 -82.517091 34.326057 -82.517006 34.325929 -82.516865 34.325916 -82.516826 34.325845 -82.515242 34.325932 -82.515120 34.326191 -82.515092 34.326284 -82.515022 34.326371 -82.514884 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC001</ms:areasymbol>
+        <ms:musym>CcB</ms:musym>
+        <ms:nationalmusym>2q7j7</ms:nationalmusym>
+        <ms:mukey>1154991</ms:mukey>
+        <ms:spatialversion>7</ms:spatialversion>
+        <ms:muname>Cecil sandy loam, 2 to 6 percent slopes</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp>4</ms:slopegraddcp>
+        <ms:slopegradwta>4</ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin></ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta>2.95</ms:aws025wta>
+        <ms:aws050wta>5.45</ms:aws050wta>
+        <ms:aws0100wta>10.4</ms:aws0100wta>
+        <ms:aws0150wta>17.35</ms:aws0150wta>
+        <ms:drclassdcd>Well drained</ms:drclassdcd>
+        <ms:drclasswettest>Well drained</ms:drclasswettest>
+        <ms:hydgrpdcd>B</ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>2</ms:niccdcd>
+        <ms:niccdcdpct>95</ms:niccdcdpct>
+        <ms:engdwobdcd>Not limited</ms:engdwobdcd>
+        <ms:engdwbdcd>Not limited</ms:engdwbdcd>
+        <ms:engdwbll>Not limited</ms:engdwbll>
+        <ms:engdwbml>Somewhat limited</ms:engdwbml>
+        <ms:engstafdcd>Somewhat limited</ms:engstafdcd>
+        <ms:engstafll>Somewhat limited</ms:engstafll>
+        <ms:engstafml>Very limited</ms:engstafml>
+        <ms:engsldcd>Somewhat limited</ms:engsldcd>
+        <ms:engsldcp>Somewhat limited</ms:engsldcp>
+        <ms:englrsdcd>Very limited</ms:englrsdcd>
+        <ms:engcmssdcd>Poor</ms:engcmssdcd>
+        <ms:engcmssmp>Poor</ms:engcmssmp>
+        <ms:urbrecptdcd>Somewhat limited</ms:urbrecptdcd>
+        <ms:urbrecptwta>0.052</ms:urbrecptwta>
+        <ms:forpehrtdcp>Erosion hazard moderate</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta>0.506</ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386725235</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.1154992">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.331092 -82.550953</gml:lowerCorner>
+        		<gml:upperCorner>34.332592 -82.547644</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.331092 -82.550953 34.332592 -82.548591 34.332560 -82.548469 34.332521 -82.548179 34.332418 -82.547915 34.332322 -82.547775 34.332193 -82.547650 34.332146 -82.547644 34.332015 -82.547676 34.331893 -82.547850 34.331615 -82.548622 34.331423 -82.549104 34.331157 -82.550235 34.331092 -82.550953 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC001</ms:areasymbol>
+        <ms:musym>CcC</ms:musym>
+        <ms:nationalmusym>2q7j8</ms:nationalmusym>
+        <ms:mukey>1154992</ms:mukey>
+        <ms:spatialversion>7</ms:spatialversion>
+        <ms:muname>Cecil sandy loam, 6 to 10 percent slopes</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp>8</ms:slopegraddcp>
+        <ms:slopegradwta>8</ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin></ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta>2.99</ms:aws025wta>
+        <ms:aws050wta>5.5</ms:aws050wta>
+        <ms:aws0100wta>10.48</ms:aws0100wta>
+        <ms:aws0150wta>16.87</ms:aws0150wta>
+        <ms:drclassdcd>Well drained</ms:drclassdcd>
+        <ms:drclasswettest>Well drained</ms:drclasswettest>
+        <ms:hydgrpdcd>B</ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>3</ms:niccdcd>
+        <ms:niccdcdpct>98</ms:niccdcdpct>
+        <ms:engdwobdcd>Not limited</ms:engdwobdcd>
+        <ms:engdwbdcd>Not limited</ms:engdwbdcd>
+        <ms:engdwbll>Not limited</ms:engdwbll>
+        <ms:engdwbml>Somewhat limited</ms:engdwbml>
+        <ms:engstafdcd>Somewhat limited</ms:engstafdcd>
+        <ms:engstafll>Somewhat limited</ms:engstafll>
+        <ms:engstafml>Very limited</ms:engstafml>
+        <ms:engsldcd>Very limited</ms:engsldcd>
+        <ms:engsldcp>Very limited</ms:engsldcp>
+        <ms:englrsdcd>Very limited</ms:englrsdcd>
+        <ms:engcmssdcd>Poor</ms:engcmssdcd>
+        <ms:engcmssmp>Poor</ms:engcmssmp>
+        <ms:urbrecptdcd>Somewhat limited</ms:urbrecptdcd>
+        <ms:urbrecptwta>0.05</ms:urbrecptwta>
+        <ms:forpehrtdcp>Erosion hazard moderate</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta>0.542</ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386725278</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.1154986">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.332660 -82.516560</gml:lowerCorner>
+        		<gml:upperCorner>34.336292 -82.514131</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.332799 -82.514200 34.332968 -82.514540 34.332973 -82.514694 34.332844 -82.514832 34.332660 -82.514976 34.333156 -82.515246 34.333507 -82.515298 34.333723 -82.515389 34.334433 -82.515960 34.334924 -82.516301 34.334993 -82.516381 34.335325 -82.516197 34.335386 -82.516180 34.335561 -82.516229 34.336164 -82.516560 34.336237 -82.516547 34.336289 -82.516468 34.336292 -82.516330 34.336152 -82.516167 34.336055 -82.515921 34.335900 -82.515744 34.335463 -82.515422 34.334465 -82.514605 34.334113 -82.514395 34.333817 -82.514285 34.333222 -82.514131 34.332978 -82.514147 34.332799 -82.514200 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC001</ms:areasymbol>
+        <ms:musym>ApC</ms:musym>
+        <ms:nationalmusym>2vwrg</ms:nationalmusym>
+        <ms:mukey>1154986</ms:mukey>
+        <ms:spatialversion>7</ms:spatialversion>
+        <ms:muname>Appling sandy loam, 6 to 10 percent slopes</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp>8</ms:slopegraddcp>
+        <ms:slopegradwta>8</ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin></ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta>3.47</ms:aws025wta>
+        <ms:aws050wta>6.94</ms:aws050wta>
+        <ms:aws0100wta>13.7</ms:aws0100wta>
+        <ms:aws0150wta>22.02</ms:aws0150wta>
+        <ms:drclassdcd>Well drained</ms:drclassdcd>
+        <ms:drclasswettest>Well drained</ms:drclasswettest>
+        <ms:hydgrpdcd>B</ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>3</ms:niccdcd>
+        <ms:niccdcdpct>88</ms:niccdcdpct>
+        <ms:engdwobdcd>Not limited</ms:engdwobdcd>
+        <ms:engdwbdcd>Not limited</ms:engdwbdcd>
+        <ms:engdwbll>Not limited</ms:engdwbll>
+        <ms:engdwbml>Somewhat limited</ms:engdwbml>
+        <ms:engstafdcd>Somewhat limited</ms:engstafdcd>
+        <ms:engstafll>Somewhat limited</ms:engstafll>
+        <ms:engstafml>Very limited</ms:engstafml>
+        <ms:engsldcd>Very limited</ms:engsldcd>
+        <ms:engsldcp>Very limited</ms:engsldcp>
+        <ms:englrsdcd>Very limited</ms:englrsdcd>
+        <ms:engcmssdcd>Poor</ms:engcmssdcd>
+        <ms:engcmssmp>Poor</ms:engcmssmp>
+        <ms:urbrecptdcd>Somewhat limited</ms:urbrecptdcd>
+        <ms:urbrecptwta>0.045</ms:urbrecptwta>
+        <ms:forpehrtdcp>Erosion hazard moderate</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta>0.127</ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386725294</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.1155022">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.316282 -82.527869</gml:lowerCorner>
+        		<gml:upperCorner>34.317098 -82.526115</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.316282 -82.527570 34.316310 -82.527824 34.316348 -82.527869 34.316412 -82.527841 34.316458 -82.527788 34.316588 -82.527526 34.316719 -82.527163 34.316753 -82.527008 34.316801 -82.526873 34.317082 -82.526419 34.317098 -82.526385 34.317093 -82.526343 34.317048 -82.526320 34.317035 -82.526292 34.316717 -82.526115 34.316644 -82.526119 34.316622 -82.526141 34.316519 -82.526399 34.316282 -82.527570 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC001</ms:areasymbol>
+        <ms:musym>W</ms:musym>
+        <ms:nationalmusym>17rws</ms:nationalmusym>
+        <ms:mukey>1155022</ms:mukey>
+        <ms:spatialversion>7</ms:spatialversion>
+        <ms:muname>Water</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp></ms:slopegraddcp>
+        <ms:slopegradwta></ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin></ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta></ms:aws025wta>
+        <ms:aws050wta></ms:aws050wta>
+        <ms:aws0100wta></ms:aws0100wta>
+        <ms:aws0150wta></ms:aws0150wta>
+        <ms:drclassdcd></ms:drclassdcd>
+        <ms:drclasswettest></ms:drclasswettest>
+        <ms:hydgrpdcd></ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>8</ms:niccdcd>
+        <ms:niccdcdpct>100</ms:niccdcdpct>
+        <ms:engdwobdcd>Not rated</ms:engdwobdcd>
+        <ms:engdwbdcd>Not rated</ms:engdwbdcd>
+        <ms:engdwbll>Not rated</ms:engdwbll>
+        <ms:engdwbml>Not rated</ms:engdwbml>
+        <ms:engstafdcd>Not rated</ms:engstafdcd>
+        <ms:engstafll>Not rated</ms:engstafll>
+        <ms:engstafml>Not rated</ms:engstafml>
+        <ms:engsldcd>Not rated</ms:engsldcd>
+        <ms:engsldcp>Not rated</ms:engsldcp>
+        <ms:englrsdcd>Not rated</ms:englrsdcd>
+        <ms:engcmssdcd>Not rated</ms:engcmssdcd>
+        <ms:engcmssmp>Not rated</ms:engcmssmp>
+        <ms:urbrecptdcd>Not rated</ms:urbrecptdcd>
+        <ms:urbrecptwta></ms:urbrecptwta>
+        <ms:forpehrtdcp>Not rated</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta></ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386725781</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.1154985">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.292991 -82.560007</gml:lowerCorner>
+        		<gml:upperCorner>34.331183 -82.525550</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.324136 -82.530169 34.324154 -82.530318 34.324145 -82.530421 34.324063 -82.530564 34.323888 -82.530738 34.323626 -82.530747 34.323491 -82.530608 34.323289 -82.530318 34.323164 -82.530234 34.322977 -82.530243 34.322880 -82.530326 34.322608 -82.530831 34.322509 -82.530965 34.322421 -82.531025 34.322155 -82.530983 34.322156 -82.531080 34.322074 -82.531402 34.322079 -82.531688 34.322120 -82.531776 34.322223 -82.531915 34.322418 -82.532032 34.322546 -82.532168 34.322680 -82.532350 34.322706 -82.532410 34.322741 -82.532687 34.322866 -82.532794 34.323037 -82.532840 34.323138 -82.532844 34.323318 -82.532773 34.323525 -82.532790 34.323725 -82.532833 34.323987 -82.532935 34.324161 -82.533093 34.324178 -82.533139 34.324169 -82.533207 34.324084 -82.533320 34.324038 -82.533511 34.323947 -82.533584 34.323645 -82.533689 34.323548 -82.533770 34.323552 -82.533883 34.323532 -82.534054 34.323382 -82.534320 34.323267 -82.534474 34.323167 -82.534566 34.322877 -82.534760 34.322840 -82.534762 34.322674 -82.534850 34.322576 -82.534881 34.322425 -82.534844 34.322346 -82.534777 34.322318 -82.534699 34.322336 -82.534171 34.322278 -82.533954 34.322243 -82.533868 34.322086 -82.533699 34.322080 -82.533669 34.322043 -82.533629 34.321993 -82.533624 34.321858 -82.533512 34.321751 -82.533467 34.321209 -82.533306 34.321013 -82.533302 34.320886 -82.533381 34.320761 -82.533523 34.320500 -82.534118 34.320400 -82.534718 34.320155 -82.535367 34.320134 -82.535620 34.320251 -82.536030 34.320289 -82.536451 34.320281 -82.536537 34.320201 -82.536687 34.320013 -82.536848 34.319693 -82.536828 34.319505 -82.536699 34.319410 -82.536580 34.319203 -82.535970 34.319131 -82.535798 34.319066 -82.535711 34.318489 -82.535191 34.318307 -82.535171 34.318179 -82.535219 34.318063 -82.535390 34.318072 -82.535657 34.318448 -82.535434 34.318519 -82.535457 34.318517 -82.535613 34.318574 -82.535766 34.318528 -82.536051 34.318378 -82.536061 34.318247 -82.536022 34.318066 -82.535839 34.318025 -82.535930 34.317934 -82.536437 34.317820 -82.536639 34.317564 -82.536830 34.317340 -82.537070 34.317135 -82.537495 34.317145 -82.537767 34.317209 -82.537991 34.317473 -82.538397 34.317641 -82.538783 34.317614 -82.538979 34.317550 -82.539242 34.317543 -82.539377 34.317558 -82.539443 34.317653 -82.539638 34.317651 -82.539885 34.317578 -82.540120 34.317475 -82.540223 34.317443 -82.540237 34.317342 -82.540217 34.317202 -82.540072 34.316999 -82.539959 34.316651 -82.539957 34.316536 -82.539985 34.316338 -82.539990 34.316132 -82.539816 34.316084 -82.539586 34.316096 -82.539216 34.316158 -82.538954 34.316229 -82.538736 34.316336 -82.538528 34.316358 -82.538390 34.316330 -82.538288 34.316288 -82.538220 34.316289 -82.538191 34.316124 -82.537806 34.316096 -82.537334 34.316132 -82.537124 34.316317 -82.536641 34.316332 -82.536328 34.316305 -82.536197 34.316275 -82.536151 34.316217 -82.536074 34.316023 -82.535901 34.315958 -82.535723 34.315951 -82.535457 34.316030 -82.535199 34.316067 -82.535161 34.316237 -82.534858 34.316299 -82.534802 34.316528 -82.534518 34.316555 -82.534286 34.316499 -82.534078 34.316487 -82.533838 34.316567 -82.533489 34.316690 -82.533375 34.316908 -82.533347 34.317070 -82.533199 34.317159 -82.533080 34.317368 -82.532667 34.317442 -82.532368 34.317443 -82.532260 34.317423 -82.532205 34.317254 -82.532127 34.317237 -82.532105 34.317030 -82.531669 34.316999 -82.531554 34.316893 -82.531440 34.316845 -82.531417 34.316572 -82.531280 34.316388 -82.531065 34.316320 -82.530854 34.316289 -82.530386 34.316223 -82.530078 34.316055 -82.529764 34.316003 -82.529695 34.315813 -82.529554 34.315759 -82.529461 34.315677 -82.529240 34.315665 -82.529151 34.315567 -82.528825 34.315435 -82.528761 34.315342 -82.528754 34.315219 -82.528911 34.315077 -82.529270 34.315037 -82.529324 34.314967 -82.529371 34.314586 -82.529529 34.314034 -82.529669 34.313938 -82.529925 34.313719 -82.530129 34.313491 -82.530114 34.313449 -82.530075 34.313243 -82.529970 34.312684 -82.529919 34.312592 -82.529941 34.312342 -82.530065 34.312249 -82.530185 34.312171 -82.530407 34.312179 -82.530677 34.312273 -82.530949 34.312303 -82.530975 34.312332 -82.531051 34.312335 -82.531093 34.312382 -82.531149 34.312419 -82.531829 34.312531 -82.532258 34.312774 -82.532409 34.313241 -82.532877 34.313483 -82.533239 34.313894 -82.533621 34.314264 -82.534210 34.314368 -82.534564 34.314370 -82.534678 34.314308 -82.534772 34.314146 -82.534884 34.313995 -82.534887 34.313947 -82.534844 34.313898 -82.534826 34.313711 -82.534649 34.313594 -82.534510 34.313542 -82.534395 34.313449 -82.534300 34.313380 -82.534290 34.313350 -82.534311 34.313324 -82.534389 34.313268 -82.534647 34.313138 -82.534717 34.313108 -82.534713 34.312870 -82.534608 34.312539 -82.534224 34.312299 -82.534060 34.311795 -82.533827 34.311580 -82.533827 34.311443 -82.533881 34.311354 -82.534008 34.311311 -82.534215 34.311324 -82.534727 34.311380 -82.534927 34.311410 -82.535146 34.311376 -82.535567 34.311336 -82.536584 34.311276 -82.536993 34.311185 -82.537126 34.311059 -82.537217 34.310862 -82.537161 34.310739 -82.537025 34.310616 -82.536794 34.310511 -82.536425 34.310511 -82.536091 34.310692 -82.535555 34.310672 -82.535262 34.310640 -82.535238 34.310411 -82.535205 34.310059 -82.534808 34.309954 -82.534549 34.309906 -82.534552 34.309600 -82.534471 34.309465 -82.534364 34.309161 -82.534201 34.309106 -82.534111 34.309104 -82.533884 34.309132 -82.533724 34.309223 -82.533517 34.309249 -82.533423 34.309271 -82.533399 34.309310 -82.533254 34.309457 -82.532978 34.309507 -82.532701 34.309491 -82.532548 34.309434 -82.532429 34.309213 -82.532192 34.309106 -82.532181 34.308807 -82.532207 34.308461 -82.532344 34.308394 -82.532393 34.308064 -82.532750 34.307800 -82.532887 34.307745 -82.532901 34.307668 -82.533317 34.307578 -82.533530 34.307378 -82.533858 34.307235 -82.534022 34.307118 -82.534110 34.306729 -82.534254 34.306124 -82.534383 34.305618 -82.534528 34.305608 -82.534699 34.305622 -82.534746 34.305682 -82.534820 34.305757 -82.534887 34.306144 -82.534970 34.306207 -82.535004 34.306420 -82.535206 34.306600 -82.535514 34.306689 -82.535634 34.306908 -82.535843 34.307060 -82.535957 34.307697 -82.536137 34.307768 -82.536173 34.307810 -82.536173 34.308013 -82.536296 34.308247 -82.536506 34.308324 -82.536643 34.308387 -82.536879 34.308396 -82.537098 34.308376 -82.537332 34.308323 -82.537441 34.308096 -82.537689 34.307881 -82.537786 34.307600 -82.537822 34.307243 -82.537830 34.306912 -82.537768 34.306800 -82.537727 34.306660 -82.537645 34.306317 -82.537407 34.306082 -82.537218 34.305749 -82.536835 34.305435 -82.536606 34.305249 -82.536538 34.305124 -82.536546 34.305064 -82.536600 34.305043 -82.536646 34.304977 -82.536909 34.304979 -82.537013 34.305023 -82.537321 34.305108 -82.537629 34.305108 -82.537693 34.305065 -82.537846 34.305015 -82.537846 34.304745 -82.537455 34.304580 -82.537100 34.304550 -82.537005 34.304522 -82.536974 34.304326 -82.536599 34.304304 -82.536286 34.304254 -82.536248 34.304050 -82.535993 34.303741 -82.535673 34.303114 -82.535193 34.303001 -82.535145 34.302277 -82.535036 34.302088 -82.535056 34.301690 -82.535218 34.301559 -82.535220 34.301178 -82.535070 34.301142 -82.535030 34.300911 -82.534900 34.300786 -82.534849 34.300698 -82.534785 34.300234 -82.534633 34.299906 -82.534597 34.299471 -82.534609 34.299227 -82.534657 34.299146 -82.534720 34.299045 -82.534859 34.298952 -82.535030 34.298945 -82.535238 34.298983 -82.535346 34.299145 -82.535514 34.299251 -82.535562 34.299614 -82.535635 34.300284 -82.535675 34.300541 -82.535766 34.300675 -82.535873 34.300822 -82.536090 34.300977 -82.536576 34.301059 -82.536784 34.301358 -82.537318 34.301499 -82.537501 34.301561 -82.537702 34.301729 -82.538121 34.301811 -82.538250 34.301890 -82.538349 34.302191 -82.538508 34.302368 -82.538770 34.302447 -82.539004 34.302561 -82.539151 34.302642 -82.539202 34.302942 -82.539288 34.304405 -82.539341 34.304576 -82.539396 34.304660 -82.539465 34.304701 -82.539542 34.304919 -82.539451 34.304991 -82.539445 34.305088 -82.539464 34.305151 -82.539479 34.305366 -82.539427 34.305737 -82.539486 34.306003 -82.539673 34.306163 -82.539907 34.306221 -82.540060 34.306229 -82.540378 34.306092 -82.540574 34.305944 -82.540673 34.305830 -82.540691 34.305392 -82.540681 34.304654 -82.540558 34.303973 -82.540466 34.303535 -82.540346 34.303415 -82.540276 34.303134 -82.540153 34.303055 -82.540096 34.302856 -82.540020 34.302443 -82.539933 34.302212 -82.539931 34.301926 -82.539852 34.301785 -82.539735 34.301717 -82.539372 34.301586 -82.539163 34.301499 -82.539080 34.301191 -82.538915 34.301037 -82.538743 34.300979 -82.538706 34.300917 -82.538562 34.300872 -82.538224 34.300690 -82.537888 34.300654 -82.537687 34.300503 -82.537570 34.300080 -82.537046 34.299439 -82.536515 34.299306 -82.536423 34.299158 -82.536266 34.298871 -82.536691 34.298626 -82.536790 34.298160 -82.536834 34.298025 -82.536978 34.297999 -82.537098 34.298069 -82.537284 34.298277 -82.537506 34.298315 -82.537520 34.298539 -82.537697 34.298737 -82.537963 34.298757 -82.538106 34.298745 -82.538585 34.298773 -82.538684 34.298819 -82.539108 34.298801 -82.539397 34.298727 -82.539552 34.298499 -82.539697 34.298130 -82.539794 34.297701 -82.539786 34.297450 -82.539826 34.297495 -82.539927 34.297489 -82.540062 34.297408 -82.540134 34.297310 -82.540179 34.296785 -82.540175 34.296691 -82.540189 34.296384 -82.540265 34.296281 -82.540312 34.296125 -82.540450 34.295997 -82.540498 34.296052 -82.540876 34.296164 -82.541354 34.296541 -82.541300 34.296780 -82.541193 34.297082 -82.540990 34.297243 -82.541011 34.297340 -82.541066 34.297414 -82.541133 34.297532 -82.541304 34.297634 -82.541608 34.297735 -82.541986 34.297773 -82.542056 34.298223 -82.542451 34.298239 -82.542604 34.298182 -82.542759 34.298183 -82.542868 34.298308 -82.543049 34.298292 -82.543191 34.298203 -82.543300 34.297738 -82.543578 34.297542 -82.543649 34.297368 -82.543634 34.297227 -82.543480 34.297140 -82.543274 34.297023 -82.543151 34.296955 -82.543022 34.296715 -82.542842 34.296505 -82.542810 34.296340 -82.543043 34.296309 -82.543110 34.296029 -82.543381 34.295425 -82.544033 34.295306 -82.544292 34.295315 -82.544521 34.295546 -82.544731 34.295901 -82.544810 34.296485 -82.544792 34.296662 -82.544845 34.296866 -82.544945 34.297159 -82.545201 34.297324 -82.545318 34.297449 -82.545369 34.297517 -82.545374 34.297798 -82.545094 34.297989 -82.544838 34.298181 -82.544818 34.298306 -82.544917 34.298358 -82.545013 34.298429 -82.545018 34.298662 -82.544834 34.298811 -82.544655 34.298934 -82.544477 34.299005 -82.544310 34.299432 -82.543741 34.299636 -82.543360 34.299672 -82.543187 34.299675 -82.543095 34.299616 -82.542856 34.299584 -82.542814 34.299461 -82.542534 34.299374 -82.542185 34.299360 -82.541905 34.299366 -82.541695 34.299408 -82.541552 34.299596 -82.541332 34.299626 -82.541258 34.299636 -82.541092 34.299622 -82.540998 34.299620 -82.540763 34.299696 -82.540586 34.299735 -82.540533 34.299876 -82.540439 34.299942 -82.540294 34.299916 -82.539992 34.299687 -82.539326 34.299602 -82.538935 34.299598 -82.538758 34.299630 -82.538594 34.299691 -82.538501 34.299779 -82.538470 34.299890 -82.538510 34.300034 -82.538669 34.300475 -82.539455 34.300614 -82.539651 34.300969 -82.539939 34.301126 -82.540175 34.301295 -82.540701 34.301342 -82.540804 34.301681 -82.541257 34.302043 -82.542029 34.302118 -82.542340 34.302136 -82.542360 34.302124 -82.542624 34.302088 -82.542898 34.302027 -82.543060 34.301890 -82.543189 34.301652 -82.543308 34.301183 -82.543450 34.300785 -82.543652 34.300122 -82.544025 34.299874 -82.544241 34.299842 -82.544330 34.299719 -82.544919 34.299676 -82.545550 34.299616 -82.545874 34.299471 -82.546320 34.299408 -82.546471 34.299271 -82.546719 34.299344 -82.546790 34.299434 -82.546925 34.299511 -82.547078 34.299533 -82.547155 34.299499 -82.547263 34.299427 -82.547324 34.299298 -82.547330 34.298668 -82.547090 34.298432 -82.546923 34.298132 -82.546830 34.297864 -82.546703 34.297467 -82.546679 34.297258 -82.546725 34.297134 -82.546842 34.297088 -82.546963 34.297060 -82.547248 34.297041 -82.547836 34.297004 -82.548020 34.296963 -82.548088 34.296816 -82.548213 34.296487 -82.548181 34.296253 -82.548179 34.296118 -82.548304 34.296132 -82.548448 34.296338 -82.548776 34.296420 -82.549044 34.296422 -82.549123 34.296410 -82.549153 34.296378 -82.549199 34.296269 -82.549276 34.296062 -82.549247 34.295858 -82.549148 34.295705 -82.549126 34.295538 -82.549171 34.295342 -82.549261 34.295288 -82.549259 34.295241 -82.549201 34.295213 -82.549115 34.295184 -82.548515 34.295114 -82.548302 34.295015 -82.548213 34.294969 -82.548197 34.294802 -82.548210 34.294657 -82.548302 34.294602 -82.548364 34.294552 -82.548491 34.294523 -82.548660 34.294531 -82.548874 34.294564 -82.549040 34.294804 -82.549678 34.294893 -82.549832 34.295100 -82.550264 34.295084 -82.550622 34.295064 -82.550672 34.295090 -82.550729 34.295346 -82.551096 34.295393 -82.551372 34.295380 -82.551549 34.295287 -82.551689 34.295150 -82.551757 34.294746 -82.551822 34.294264 -82.551811 34.293342 -82.551575 34.293041 -82.551382 34.292991 -82.551766 34.293018 -82.551818 34.293298 -82.551870 34.293582 -82.551895 34.293675 -82.551926 34.293735 -82.552007 34.293743 -82.552144 34.293700 -82.552243 34.293782 -82.552486 34.293898 -82.552618 34.294035 -82.552669 34.294221 -82.552687 34.294514 -82.552614 34.294739 -82.552651 34.294780 -82.552703 34.294800 -82.552790 34.294792 -82.552952 34.294754 -82.553179 34.294725 -82.553229 34.294590 -82.553618 34.294585 -82.553676 34.294624 -82.553718 34.294929 -82.553810 34.295205 -82.553971 34.295323 -82.554000 34.295440 -82.554004 34.295570 -82.553882 34.295834 -82.553211 34.295862 -82.553170 34.295872 -82.552689 34.295949 -82.552522 34.295979 -82.552493 34.296096 -82.552469 34.296171 -82.552529 34.296227 -82.552717 34.296259 -82.553032 34.296318 -82.553124 34.296410 -82.553112 34.296534 -82.552979 34.296608 -82.552771 34.296707 -82.552671 34.296791 -82.552672 34.296885 -82.552787 34.296915 -82.552865 34.296914 -82.552993 34.296888 -82.553126 34.296828 -82.553272 34.296525 -82.553727 34.296358 -82.553944 34.295981 -82.554362 34.295836 -82.554657 34.295661 -82.555150 34.295492 -82.555414 34.295604 -82.555570 34.295715 -82.555783 34.295773 -82.556122 34.295832 -82.556212 34.295933 -82.556229 34.296010 -82.556192 34.296241 -82.555953 34.296314 -82.555832 34.296473 -82.555366 34.296644 -82.555076 34.296665 -82.555057 34.296725 -82.555064 34.296840 -82.555188 34.296887 -82.556059 34.296935 -82.556300 34.297041 -82.556428 34.297124 -82.556438 34.297281 -82.556551 34.297314 -82.556593 34.297340 -82.556674 34.297340 -82.556729 34.297251 -82.556922 34.297425 -82.556983 34.297701 -82.557237 34.297856 -82.557495 34.297868 -82.557688 34.297802 -82.557882 34.297749 -82.557940 34.297639 -82.558007 34.297413 -82.557985 34.297503 -82.558677 34.297463 -82.559784 34.297517 -82.559758 34.298112 -82.559698 34.298350 -82.559757 34.298576 -82.559900 34.298932 -82.560007 34.298998 -82.559035 34.299078 -82.558651 34.299283 -82.558170 34.299592 -82.557577 34.299628 -82.557362 34.299628 -82.557307 34.299570 -82.557138 34.299391 -82.556939 34.299106 -82.556797 34.298794 -82.556722 34.298660 -82.556577 34.298588 -82.556431 34.298554 -82.556199 34.298556 -82.555904 34.298574 -82.555747 34.298632 -82.555479 34.298741 -82.555197 34.298923 -82.555097 34.298999 -82.555082 34.299236 -82.555086 34.299352 -82.555124 34.299568 -82.555368 34.299721 -82.555725 34.299964 -82.556064 34.300020 -82.556094 34.300173 -82.556119 34.300469 -82.556062 34.300532 -82.556105 34.300717 -82.556292 34.300768 -82.556366 34.300927 -82.556681 34.301104 -82.557279 34.301120 -82.557453 34.301203 -82.557590 34.301276 -82.557640 34.301439 -82.557706 34.301767 -82.557702 34.301836 -82.557773 34.301854 -82.557922 34.301846 -82.557969 34.301654 -82.558152 34.301647 -82.558189 34.301642 -82.558404 34.301731 -82.558556 34.301852 -82.558633 34.302051 -82.558620 34.302405 -82.558497 34.302510 -82.558446 34.302798 -82.558406 34.302926 -82.558358 34.303122 -82.558390 34.303274 -82.558505 34.303382 -82.558693 34.303483 -82.559174 34.303580 -82.559087 34.303842 -82.558791 34.303937 -82.558564 34.303979 -82.558507 34.303923 -82.558178 34.303887 -82.557725 34.303328 -82.556623 34.303159 -82.556415 34.302994 -82.556309 34.302657 -82.556300 34.302504 -82.556261 34.302127 -82.556071 34.301719 -82.555713 34.301421 -82.555370 34.300871 -82.554844 34.300631 -82.554745 34.300496 -82.554602 34.300394 -82.554333 34.300374 -82.553714 34.300314 -82.553373 34.300229 -82.553166 34.300011 -82.552790 34.299765 -82.552461 34.299536 -82.552088 34.299412 -82.551834 34.299379 -82.551588 34.299380 -82.551550 34.299455 -82.551391 34.299493 -82.551350 34.299552 -82.551324 34.299729 -82.551346 34.299943 -82.551518 34.300374 -82.551983 34.300628 -82.552177 34.300751 -82.552340 34.300871 -82.552693 34.300955 -82.553128 34.301126 -82.553608 34.301188 -82.553756 34.301417 -82.554124 34.301782 -82.554451 34.301901 -82.554487 34.302102 -82.554640 34.302423 -82.554928 34.302560 -82.555086 34.302752 -82.555176 34.302850 -82.555185 34.302922 -82.555102 34.302929 -82.555068 34.302919 -82.554866 34.302887 -82.554713 34.302423 -82.553429 34.302316 -82.552854 34.302307 -82.552511 34.302479 -82.552257 34.302493 -82.552132 34.302481 -82.552114 34.302441 -82.552116 34.302100 -82.552157 34.301991 -82.552058 34.301979 -82.551991 34.302019 -82.551822 34.302040 -82.551784 34.302088 -82.551742 34.302288 -82.551648 34.302418 -82.551493 34.302463 -82.551374 34.302483 -82.551231 34.302560 -82.550899 34.302673 -82.550695 34.302754 -82.550064 34.302804 -82.549918 34.302915 -82.549783 34.302850 -82.549348 34.302719 -82.548898 34.302227 -82.547943 34.301914 -82.547429 34.301404 -82.546903 34.301354 -82.546820 34.301302 -82.546651 34.301305 -82.546542 34.301384 -82.546384 34.301474 -82.546286 34.301465 -82.546194 34.301468 -82.546119 34.301478 -82.546067 34.301504 -82.546031 34.301622 -82.545996 34.301717 -82.546006 34.301906 -82.546018 34.302005 -82.546057 34.302042 -82.546178 34.302094 -82.546177 34.302273 -82.546111 34.302348 -82.546001 34.302477 -82.545526 34.302556 -82.545360 34.302979 -82.544768 34.303580 -82.544066 34.303630 -82.544027 34.303728 -82.543856 34.303948 -82.543342 34.304032 -82.543034 34.304074 -82.542820 34.304201 -82.542459 34.304378 -82.542209 34.304550 -82.542122 34.304693 -82.542141 34.304858 -82.542331 34.304937 -82.542584 34.304931 -82.543068 34.304700 -82.543963 34.304481 -82.544570 34.304421 -82.544892 34.304394 -82.544967 34.304394 -82.545193 34.304322 -82.545653 34.304100 -82.546322 34.304064 -82.546622 34.304090 -82.547100 34.304187 -82.547360 34.304276 -82.547483 34.304715 -82.547721 34.304911 -82.547209 34.305072 -82.546854 34.305453 -82.546209 34.305574 -82.546129 34.305679 -82.546137 34.305721 -82.546185 34.305748 -82.546337 34.305681 -82.546846 34.305510 -82.547410 34.305487 -82.547675 34.305497 -82.547986 34.305618 -82.548356 34.305633 -82.548569 34.305624 -82.548602 34.305372 -82.548896 34.304993 -82.549176 34.304064 -82.550112 34.303848 -82.550467 34.303747 -82.550858 34.303771 -82.551078 34.303856 -82.551193 34.304144 -82.551280 34.304411 -82.551255 34.304640 -82.551289 34.304775 -82.551406 34.304846 -82.551533 34.304872 -82.551715 34.304868 -82.551909 34.304750 -82.552525 34.305076 -82.552824 34.305526 -82.552941 34.305628 -82.553016 34.305691 -82.553186 34.305721 -82.553574 34.305792 -82.553969 34.305934 -82.554292 34.306003 -82.554400 34.306191 -82.554606 34.306398 -82.554702 34.306491 -82.554725 34.306911 -82.554644 34.307318 -82.554729 34.307191 -82.554294 34.306977 -82.553711 34.306652 -82.552263 34.306586 -82.552069 34.306475 -82.551469 34.306425 -82.551346 34.306435 -82.551092 34.306467 -82.550991 34.306691 -82.550776 34.306997 -82.550731 34.307177 -82.550761 34.307403 -82.550952 34.307429 -82.550955 34.307608 -82.551116 34.307810 -82.551241 34.308148 -82.551316 34.308338 -82.551303 34.308452 -82.551233 34.308735 -82.550820 34.308825 -82.550735 34.308989 -82.550491 34.309054 -82.550255 34.309140 -82.549658 34.309090 -82.549640 34.309050 -82.549592 34.308875 -82.549481 34.308754 -82.549425 34.307808 -82.549181 34.307348 -82.549182 34.307068 -82.549238 34.306918 -82.549249 34.306799 -82.549219 34.306713 -82.549113 34.306727 -82.548836 34.306806 -82.548556 34.306975 -82.548315 34.307177 -82.548150 34.307334 -82.548156 34.307507 -82.548323 34.307598 -82.548354 34.307751 -82.548483 34.307939 -82.548552 34.308614 -82.548592 34.308881 -82.548755 34.309147 -82.548836 34.309195 -82.548824 34.309268 -82.548741 34.309296 -82.548657 34.309300 -82.548521 34.309362 -82.548059 34.309446 -82.547549 34.309461 -82.547293 34.309427 -82.547043 34.309288 -82.546354 34.309241 -82.546211 34.309110 -82.545989 34.309046 -82.545934 34.308758 -82.545883 34.308473 -82.545965 34.308207 -82.545901 34.308034 -82.545717 34.307947 -82.545263 34.307878 -82.545136 34.307721 -82.545015 34.307318 -82.544969 34.307239 -82.544873 34.307256 -82.544621 34.307368 -82.544380 34.307467 -82.544320 34.307661 -82.544320 34.308116 -82.544452 34.308415 -82.544463 34.308600 -82.544431 34.308828 -82.544334 34.308959 -82.544205 34.309021 -82.544001 34.309011 -82.543687 34.308941 -82.543394 34.308816 -82.543021 34.308776 -82.542622 34.308725 -82.542322 34.308727 -82.542247 34.308771 -82.542062 34.308961 -82.541752 34.309052 -82.541709 34.309233 -82.541711 34.309574 -82.542068 34.309832 -82.542121 34.309930 -82.542036 34.310015 -82.541731 34.310114 -82.541600 34.310219 -82.541493 34.310286 -82.541469 34.310410 -82.541475 34.310572 -82.541548 34.310858 -82.541534 34.311067 -82.541644 34.311529 -82.542252 34.311528 -82.542274 34.311570 -82.542288 34.311665 -82.542283 34.311895 -82.542260 34.312155 -82.542288 34.312614 -82.542291 34.313281 -82.542386 34.314217 -82.542439 34.314344 -82.542396 34.314400 -82.542399 34.314372 -82.541743 34.314396 -82.541380 34.314552 -82.540875 34.314575 -82.540851 34.314665 -82.540870 34.314807 -82.540997 34.315045 -82.541483 34.315275 -82.542092 34.315378 -82.542191 34.315529 -82.542243 34.315616 -82.542239 34.315751 -82.542114 34.315780 -82.542050 34.315937 -82.541498 34.316005 -82.541209 34.316043 -82.541151 34.316094 -82.541119 34.316179 -82.541145 34.316381 -82.541370 34.316435 -82.542046 34.316453 -82.542126 34.316546 -82.542297 34.316570 -82.542298 34.316656 -82.542207 34.316755 -82.541977 34.316811 -82.541611 34.316883 -82.541265 34.316983 -82.541072 34.317094 -82.541062 34.317173 -82.541110 34.317219 -82.541165 34.317299 -82.541318 34.317306 -82.541395 34.317406 -82.541773 34.317566 -82.541987 34.317576 -82.542199 34.317567 -82.542447 34.317465 -82.542632 34.317423 -82.542862 34.317489 -82.543210 34.317636 -82.543422 34.317735 -82.543485 34.317977 -82.543503 34.318090 -82.543491 34.318197 -82.543445 34.318291 -82.543372 34.318443 -82.543197 34.318536 -82.542959 34.318609 -82.542169 34.318686 -82.541753 34.318705 -82.541716 34.318925 -82.541542 34.318949 -82.541387 34.318927 -82.541276 34.318749 -82.541101 34.318648 -82.540899 34.318614 -82.540769 34.318606 -82.540215 34.318562 -82.539885 34.318419 -82.539372 34.318360 -82.539257 34.318318 -82.539092 34.318195 -82.538743 34.318162 -82.538465 34.318153 -82.538222 34.318189 -82.537917 34.318292 -82.537661 34.318392 -82.537275 34.318506 -82.537010 34.318600 -82.536911 34.318820 -82.536828 34.318937 -82.536832 34.318993 -82.536880 34.319041 -82.537006 34.319064 -82.537538 34.319130 -82.538076 34.319221 -82.538348 34.319235 -82.538905 34.319267 -82.538975 34.319299 -82.538995 34.319414 -82.539007 34.319459 -82.538984 34.319598 -82.538858 34.319758 -82.538536 34.319846 -82.537959 34.319923 -82.537778 34.320098 -82.537586 34.320276 -82.537514 34.320392 -82.537419 34.320600 -82.536824 34.320669 -82.536754 34.320866 -82.536621 34.321034 -82.536643 34.321295 -82.536784 34.321348 -82.536703 34.321358 -82.536434 34.321160 -82.536055 34.321165 -82.535814 34.321235 -82.535604 34.321479 -82.535337 34.321548 -82.535287 34.321731 -82.535227 34.321901 -82.535230 34.322090 -82.535290 34.322175 -82.535380 34.322233 -82.535517 34.322265 -82.535729 34.322227 -82.536314 34.322308 -82.536413 34.322437 -82.536403 34.322578 -82.536342 34.322711 -82.536211 34.322826 -82.536130 34.323188 -82.536066 34.323390 -82.536008 34.323459 -82.535861 34.323604 -82.535330 34.323654 -82.534830 34.323751 -82.534725 34.323813 -82.534706 34.323939 -82.534724 34.324424 -82.534711 34.324602 -82.534627 34.324745 -82.534533 34.324842 -82.534509 34.325330 -82.534539 34.325380 -82.534554 34.325439 -82.534634 34.325477 -82.534907 34.325481 -82.535167 34.326040 -82.534564 34.326622 -82.534199 34.326999 -82.534043 34.327227 -82.534018 34.327330 -82.534034 34.327249 -82.533810 34.327127 -82.533652 34.326573 -82.533278 34.326098 -82.533161 34.325630 -82.533159 34.325417 -82.533062 34.325287 -82.532899 34.325258 -82.532608 34.325281 -82.532498 34.325410 -82.532358 34.325592 -82.532344 34.325699 -82.532302 34.325926 -82.532324 34.326209 -82.532447 34.326410 -82.532476 34.326653 -82.532411 34.327118 -82.532413 34.327330 -82.532528 34.327610 -82.532762 34.327838 -82.532626 34.327995 -82.532475 34.328219 -82.532143 34.328304 -82.531912 34.328301 -82.531726 34.328247 -82.531572 34.328033 -82.531302 34.327692 -82.531074 34.327608 -82.530987 34.327497 -82.530778 34.327501 -82.530632 34.327602 -82.530477 34.327686 -82.530401 34.327972 -82.530312 34.328684 -82.529933 34.328838 -82.529792 34.329126 -82.529475 34.329281 -82.529461 34.329587 -82.529571 34.329843 -82.529613 34.329775 -82.529231 34.329557 -82.528750 34.329194 -82.528379 34.328948 -82.528198 34.328761 -82.527959 34.328699 -82.527726 34.328743 -82.527216 34.328773 -82.527019 34.328801 -82.526968 34.328926 -82.526877 34.329043 -82.526873 34.329096 -82.526889 34.329239 -82.527024 34.329475 -82.527354 34.329507 -82.527464 34.329669 -82.527786 34.329993 -82.528088 34.330138 -82.528161 34.330191 -82.528141 34.330366 -82.527685 34.330533 -82.527453 34.330729 -82.527282 34.330914 -82.527174 34.331162 -82.526901 34.331177 -82.526847 34.331183 -82.526712 34.331140 -82.526597 34.331065 -82.526524 34.330866 -82.526507 34.330769 -82.526514 34.330537 -82.526642 34.330402 -82.526685 34.330170 -82.526675 34.329970 -82.526617 34.329781 -82.526496 34.329598 -82.526308 34.329215 -82.525702 34.329134 -82.525611 34.329042 -82.525568 34.328915 -82.525550 34.328644 -82.525594 34.328283 -82.525805 34.327969 -82.526126 34.327878 -82.526313 34.327812 -82.526558 34.327779 -82.527002 34.327828 -82.527355 34.327914 -82.527616 34.327921 -82.527780 34.327868 -82.527969 34.327741 -82.528153 34.327709 -82.528222 34.327521 -82.528427 34.327454 -82.528480 34.327233 -82.528565 34.327104 -82.528566 34.326925 -82.528536 34.326616 -82.528409 34.326134 -82.528309 34.325737 -82.528351 34.325680 -82.528383 34.325550 -82.528538 34.325332 -82.529052 34.325084 -82.529476 34.324894 -82.529651 34.324769 -82.529697 34.324453 -82.529865 34.324167 -82.530083 34.324136 -82.530169 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+                <gml:interior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.313032 -82.539318 34.313064 -82.539292 34.313101 -82.539291 34.313150 -82.539313 34.313276 -82.539370 34.313409 -82.539372 34.313516 -82.539372 34.313542 -82.539377 34.313643 -82.539391 34.313751 -82.539469 34.313880 -82.539531 34.313971 -82.539562 34.314054 -82.539561 34.314150 -82.539550 34.314229 -82.539532 34.314297 -82.539553 34.314314 -82.539581 34.314332 -82.539647 34.314334 -82.539862 34.314331 -82.539945 34.314302 -82.540043 34.314199 -82.540222 34.314091 -82.540365 34.313899 -82.540620 34.313876 -82.540644 34.313832 -82.540647 34.313784 -82.540599 34.313727 -82.540393 34.313694 -82.540235 34.313656 -82.540160 34.313560 -82.540036 34.313447 -82.539931 34.313339 -82.539843 34.313291 -82.539763 34.313263 -82.539715 34.313174 -82.539629 34.313041 -82.539421 34.313021 -82.539367 34.313020 -82.539353 34.313032 -82.539318 </gml:posList>
+                  </gml:LinearRing>
+                </gml:interior>
+                <gml:interior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.311120 -82.538037 34.311265 -82.537757 34.311439 -82.537561 34.311911 -82.537245 34.312036 -82.537070 34.312082 -82.536913 34.312122 -82.536287 34.312156 -82.535987 34.312295 -82.535739 34.312362 -82.535653 34.312428 -82.535605 34.312527 -82.535573 34.312703 -82.535623 34.312753 -82.535647 34.312870 -82.535832 34.313043 -82.535977 34.313332 -82.536030 34.313405 -82.536088 34.313481 -82.536340 34.313465 -82.536492 34.313435 -82.536584 34.313277 -82.536854 34.313079 -82.537076 34.312410 -82.537491 34.312388 -82.537519 34.312348 -82.537653 34.312314 -82.538104 34.312292 -82.538191 34.312237 -82.538261 34.312195 -82.538288 34.311983 -82.538329 34.311542 -82.538622 34.311251 -82.538680 34.311198 -82.538673 34.311108 -82.538602 34.311084 -82.538562 34.311054 -82.538420 34.311120 -82.538037 </gml:posList>
+                  </gml:LinearRing>
+                </gml:interior>
+                <gml:interior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.308050 -82.539437 34.308253 -82.539217 34.308407 -82.539120 34.308479 -82.539099 34.308743 -82.539090 34.309015 -82.539235 34.309062 -82.539308 34.309058 -82.539433 34.308941 -82.539618 34.308146 -82.540219 34.307906 -82.540510 34.307882 -82.540572 34.307849 -82.540762 34.307939 -82.540864 34.308134 -82.540859 34.308463 -82.540592 34.308602 -82.540538 34.308765 -82.540563 34.308924 -82.540715 34.308985 -82.540822 34.308991 -82.541033 34.308926 -82.541127 34.308832 -82.541211 34.308744 -82.541255 34.308481 -82.541294 34.308225 -82.541360 34.308168 -82.541408 34.308048 -82.541647 34.308037 -82.541959 34.307995 -82.542038 34.307947 -82.542028 34.307864 -82.541953 34.307760 -82.541812 34.307618 -82.541285 34.307376 -82.540861 34.307312 -82.540786 34.307239 -82.540755 34.307039 -82.540558 34.306992 -82.540362 34.307037 -82.540207 34.307160 -82.540036 34.307522 -82.539870 34.308050 -82.539437 </gml:posList>
+                  </gml:LinearRing>
+                </gml:interior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC001</ms:areasymbol>
+        <ms:musym>ApB</ms:musym>
+        <ms:nationalmusym>2th0j</ms:nationalmusym>
+        <ms:mukey>1154985</ms:mukey>
+        <ms:spatialversion>7</ms:spatialversion>
+        <ms:muname>Appling sandy loam, 2 to 6 percent slopes</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp>4</ms:slopegraddcp>
+        <ms:slopegradwta>4</ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin></ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta>3.5</ms:aws025wta>
+        <ms:aws050wta>6.93</ms:aws050wta>
+        <ms:aws0100wta>13.74</ms:aws0100wta>
+        <ms:aws0150wta>22.21</ms:aws0150wta>
+        <ms:drclassdcd>Well drained</ms:drclassdcd>
+        <ms:drclasswettest>Well drained</ms:drclasswettest>
+        <ms:hydgrpdcd>B</ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>2</ms:niccdcd>
+        <ms:niccdcdpct>100</ms:niccdcdpct>
+        <ms:engdwobdcd>Not limited</ms:engdwobdcd>
+        <ms:engdwbdcd>Not limited</ms:engdwbdcd>
+        <ms:engdwbll>Not limited</ms:engdwbll>
+        <ms:engdwbml>Very limited</ms:engdwbml>
+        <ms:engstafdcd>Somewhat limited</ms:engstafdcd>
+        <ms:engstafll>Somewhat limited</ms:engstafll>
+        <ms:engstafml>Very limited</ms:engstafml>
+        <ms:engsldcd>Somewhat limited</ms:engsldcd>
+        <ms:engsldcp>Somewhat limited</ms:engsldcp>
+        <ms:englrsdcd>Very limited</ms:englrsdcd>
+        <ms:engcmssdcd>Poor</ms:engcmssdcd>
+        <ms:engcmssmp>Poor</ms:engcmssmp>
+        <ms:urbrecptdcd>Somewhat limited</ms:urbrecptdcd>
+        <ms:urbrecptwta>0.048</ms:urbrecptwta>
+        <ms:forpehrtdcp>Erosion hazard moderate</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta>0.107</ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386725826</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.1154993">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.340052 -82.529742</gml:lowerCorner>
+        		<gml:upperCorner>34.343025 -82.524274</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.342263 -82.524685 34.342207 -82.524689 34.341831 -82.524393 34.341679 -82.524352 34.341566 -82.524274 34.341572 -82.524502 34.341638 -82.524770 34.341813 -82.525061 34.342339 -82.525860 34.342454 -82.526128 34.342510 -82.526536 34.342453 -82.527021 34.342393 -82.527230 34.342360 -82.527278 34.342209 -82.527385 34.341725 -82.527396 34.341600 -82.527453 34.341555 -82.527491 34.341421 -82.527694 34.341328 -82.528100 34.341205 -82.528316 34.341056 -82.528423 34.340729 -82.528528 34.340574 -82.528621 34.340489 -82.528707 34.340447 -82.528747 34.340372 -82.528917 34.340310 -82.529108 34.340225 -82.529250 34.340052 -82.529463 34.340100 -82.529609 34.340124 -82.529742 34.340181 -82.529675 34.340340 -82.529584 34.340594 -82.529506 34.340731 -82.529419 34.341002 -82.529147 34.341200 -82.528980 34.341354 -82.528879 34.341739 -82.528701 34.341925 -82.528570 34.342068 -82.528376 34.342144 -82.528149 34.342282 -82.527906 34.342800 -82.527434 34.342971 -82.527232 34.343015 -82.527129 34.343023 -82.527048 34.343025 -82.526808 34.343005 -82.526608 34.343017 -82.526363 34.343021 -82.526324 34.342924 -82.526012 34.342715 -82.525659 34.342594 -82.525504 34.342345 -82.524927 34.342263 -82.524685 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC001</ms:areasymbol>
+        <ms:musym>CcD</ms:musym>
+        <ms:nationalmusym>2zzyy</ms:nationalmusym>
+        <ms:mukey>1154993</ms:mukey>
+        <ms:spatialversion>7</ms:spatialversion>
+        <ms:muname>Cecil-Cataula complex, 10 to 15 percent slopes, moderately eroded</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp>13</ms:slopegraddcp>
+        <ms:slopegradwta>13</ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin>84</ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta>3.35</ms:aws025wta>
+        <ms:aws050wta>6.44</ms:aws050wta>
+        <ms:aws0100wta>12.63</ms:aws0100wta>
+        <ms:aws0150wta>19.5</ms:aws0150wta>
+        <ms:drclassdcd>Well drained</ms:drclassdcd>
+        <ms:drclasswettest>Moderately well drained</ms:drclasswettest>
+        <ms:hydgrpdcd>B</ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>4</ms:niccdcd>
+        <ms:niccdcdpct>75</ms:niccdcdpct>
+        <ms:engdwobdcd>Somewhat limited</ms:engdwobdcd>
+        <ms:engdwbdcd>Somewhat limited</ms:engdwbdcd>
+        <ms:engdwbll>Somewhat limited</ms:engdwbll>
+        <ms:engdwbml>Somewhat limited</ms:engdwbml>
+        <ms:engstafdcd>Somewhat limited</ms:engstafdcd>
+        <ms:engstafll>Somewhat limited</ms:engstafll>
+        <ms:engstafml>Very limited</ms:engstafml>
+        <ms:engsldcd>Very limited</ms:engsldcd>
+        <ms:engsldcp>Very limited</ms:engsldcp>
+        <ms:englrsdcd>Very limited</ms:englrsdcd>
+        <ms:engcmssdcd>Poor</ms:engcmssdcd>
+        <ms:engcmssmp>Poor</ms:engcmssmp>
+        <ms:urbrecptdcd>Somewhat limited</ms:urbrecptdcd>
+        <ms:urbrecptwta>0.064</ms:urbrecptwta>
+        <ms:forpehrtdcp>Erosion hazard moderate</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta>0.894</ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386725882</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.1154991">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.315951 -82.540237</gml:lowerCorner>
+        		<gml:upperCorner>34.324178 -82.528246</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.322155 -82.530983 34.322116 -82.530313 34.322033 -82.530147 34.321705 -82.530056 34.321485 -82.529767 34.321185 -82.529596 34.320826 -82.529960 34.320800 -82.530092 34.320829 -82.530234 34.320793 -82.530408 34.320711 -82.530476 34.320616 -82.530487 34.320523 -82.530440 34.320350 -82.530213 34.320197 -82.529818 34.320023 -82.529550 34.319878 -82.529395 34.319574 -82.529334 34.319417 -82.529242 34.319267 -82.528998 34.319100 -82.528524 34.318975 -82.528366 34.318866 -82.528279 34.318821 -82.528248 34.318698 -82.528246 34.318577 -82.528349 34.318478 -82.528475 34.318450 -82.528546 34.318426 -82.528718 34.318447 -82.529327 34.318571 -82.530629 34.318541 -82.531080 34.318483 -82.531247 34.318378 -82.531429 34.318263 -82.531585 34.318103 -82.531675 34.317856 -82.531663 34.317842 -82.531730 34.317780 -82.531850 34.317598 -82.532080 34.317423 -82.532205 34.317443 -82.532260 34.317442 -82.532368 34.317368 -82.532667 34.317159 -82.533080 34.317070 -82.533199 34.316908 -82.533347 34.316690 -82.533375 34.316567 -82.533489 34.316487 -82.533838 34.316499 -82.534078 34.316555 -82.534286 34.316528 -82.534518 34.316299 -82.534802 34.316237 -82.534858 34.316067 -82.535161 34.316030 -82.535199 34.315951 -82.535457 34.315958 -82.535723 34.316023 -82.535901 34.316217 -82.536074 34.316275 -82.536151 34.316305 -82.536197 34.316332 -82.536328 34.316317 -82.536641 34.316132 -82.537124 34.316096 -82.537334 34.316124 -82.537806 34.316289 -82.538191 34.316288 -82.538220 34.316330 -82.538288 34.316358 -82.538390 34.316336 -82.538528 34.316229 -82.538736 34.316158 -82.538954 34.316096 -82.539216 34.316084 -82.539586 34.316132 -82.539816 34.316338 -82.539990 34.316536 -82.539985 34.316651 -82.539957 34.316999 -82.539959 34.317202 -82.540072 34.317342 -82.540217 34.317443 -82.540237 34.317475 -82.540223 34.317578 -82.540120 34.317651 -82.539885 34.317653 -82.539638 34.317558 -82.539443 34.317543 -82.539377 34.317550 -82.539242 34.317614 -82.538979 34.317641 -82.538783 34.317473 -82.538397 34.317209 -82.537991 34.317145 -82.537767 34.317135 -82.537495 34.317340 -82.537070 34.317564 -82.536830 34.317820 -82.536639 34.317934 -82.536437 34.318025 -82.535930 34.318066 -82.535839 34.318053 -82.535737 34.318072 -82.535657 34.318063 -82.535390 34.318179 -82.535219 34.318307 -82.535171 34.318489 -82.535191 34.319066 -82.535711 34.319131 -82.535798 34.319203 -82.535970 34.319410 -82.536580 34.319505 -82.536699 34.319693 -82.536828 34.320013 -82.536848 34.320201 -82.536687 34.320281 -82.536537 34.320289 -82.536451 34.320251 -82.536030 34.320134 -82.535620 34.320155 -82.535367 34.320400 -82.534718 34.320500 -82.534118 34.320761 -82.533523 34.320886 -82.533381 34.321013 -82.533302 34.321209 -82.533306 34.321751 -82.533467 34.321858 -82.533512 34.321993 -82.533624 34.322043 -82.533629 34.322080 -82.533669 34.322086 -82.533699 34.322243 -82.533868 34.322278 -82.533954 34.322336 -82.534171 34.322318 -82.534699 34.322346 -82.534777 34.322425 -82.534844 34.322576 -82.534881 34.322674 -82.534850 34.322840 -82.534762 34.322877 -82.534760 34.323167 -82.534566 34.323267 -82.534474 34.323382 -82.534320 34.323532 -82.534054 34.323552 -82.533883 34.323548 -82.533770 34.323645 -82.533689 34.323947 -82.533584 34.324038 -82.533511 34.324084 -82.533320 34.324169 -82.533207 34.324178 -82.533139 34.324161 -82.533093 34.323987 -82.532935 34.323725 -82.532833 34.323525 -82.532790 34.323318 -82.532773 34.323138 -82.532844 34.323037 -82.532840 34.322866 -82.532794 34.322741 -82.532687 34.322706 -82.532410 34.322680 -82.532350 34.322546 -82.532168 34.322418 -82.532032 34.322223 -82.531915 34.322120 -82.531776 34.322079 -82.531688 34.322074 -82.531402 34.322156 -82.531080 34.322155 -82.530983 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC001</ms:areasymbol>
+        <ms:musym>CcB</ms:musym>
+        <ms:nationalmusym>2q7j7</ms:nationalmusym>
+        <ms:mukey>1154991</ms:mukey>
+        <ms:spatialversion>7</ms:spatialversion>
+        <ms:muname>Cecil sandy loam, 2 to 6 percent slopes</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp>4</ms:slopegraddcp>
+        <ms:slopegradwta>4</ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin></ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta>2.95</ms:aws025wta>
+        <ms:aws050wta>5.45</ms:aws050wta>
+        <ms:aws0100wta>10.4</ms:aws0100wta>
+        <ms:aws0150wta>17.35</ms:aws0150wta>
+        <ms:drclassdcd>Well drained</ms:drclassdcd>
+        <ms:drclasswettest>Well drained</ms:drclasswettest>
+        <ms:hydgrpdcd>B</ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>2</ms:niccdcd>
+        <ms:niccdcdpct>95</ms:niccdcdpct>
+        <ms:engdwobdcd>Not limited</ms:engdwobdcd>
+        <ms:engdwbdcd>Not limited</ms:engdwbdcd>
+        <ms:engdwbll>Not limited</ms:engdwbll>
+        <ms:engdwbml>Somewhat limited</ms:engdwbml>
+        <ms:engstafdcd>Somewhat limited</ms:engstafdcd>
+        <ms:engstafll>Somewhat limited</ms:engstafll>
+        <ms:engstafml>Very limited</ms:engstafml>
+        <ms:engsldcd>Somewhat limited</ms:engsldcd>
+        <ms:engsldcp>Somewhat limited</ms:engsldcp>
+        <ms:englrsdcd>Very limited</ms:englrsdcd>
+        <ms:engcmssdcd>Poor</ms:engcmssdcd>
+        <ms:engcmssmp>Poor</ms:engcmssmp>
+        <ms:urbrecptdcd>Somewhat limited</ms:urbrecptdcd>
+        <ms:urbrecptwta>0.052</ms:urbrecptwta>
+        <ms:forpehrtdcp>Erosion hazard moderate</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta>0.506</ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386725944</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.1154986">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.325258 -82.534459</gml:lowerCorner>
+        		<gml:upperCorner>34.329338 -82.532302</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.328285 -82.533447 34.328078 -82.533350 34.327728 -82.533125 34.327647 -82.533010 34.327602 -82.532812 34.327610 -82.532762 34.327330 -82.532528 34.327118 -82.532413 34.326653 -82.532411 34.326410 -82.532476 34.326209 -82.532447 34.325926 -82.532324 34.325699 -82.532302 34.325592 -82.532344 34.325410 -82.532358 34.325281 -82.532498 34.325258 -82.532608 34.325287 -82.532899 34.325417 -82.533062 34.325630 -82.533159 34.326098 -82.533161 34.326573 -82.533278 34.327127 -82.533652 34.327249 -82.533810 34.327330 -82.534034 34.327953 -82.534193 34.328086 -82.534314 34.328126 -82.534459 34.328866 -82.534457 34.329063 -82.534426 34.329114 -82.534401 34.329338 -82.534211 34.329285 -82.533883 34.329054 -82.533632 34.328576 -82.533536 34.328285 -82.533447 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC001</ms:areasymbol>
+        <ms:musym>ApC</ms:musym>
+        <ms:nationalmusym>2vwrg</ms:nationalmusym>
+        <ms:mukey>1154986</ms:mukey>
+        <ms:spatialversion>7</ms:spatialversion>
+        <ms:muname>Appling sandy loam, 6 to 10 percent slopes</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp>8</ms:slopegraddcp>
+        <ms:slopegradwta>8</ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin></ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta>3.47</ms:aws025wta>
+        <ms:aws050wta>6.94</ms:aws050wta>
+        <ms:aws0100wta>13.7</ms:aws0100wta>
+        <ms:aws0150wta>22.02</ms:aws0150wta>
+        <ms:drclassdcd>Well drained</ms:drclassdcd>
+        <ms:drclasswettest>Well drained</ms:drclasswettest>
+        <ms:hydgrpdcd>B</ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>3</ms:niccdcd>
+        <ms:niccdcdpct>88</ms:niccdcdpct>
+        <ms:engdwobdcd>Not limited</ms:engdwobdcd>
+        <ms:engdwbdcd>Not limited</ms:engdwbdcd>
+        <ms:engdwbll>Not limited</ms:engdwbll>
+        <ms:engdwbml>Somewhat limited</ms:engdwbml>
+        <ms:engstafdcd>Somewhat limited</ms:engstafdcd>
+        <ms:engstafll>Somewhat limited</ms:engstafll>
+        <ms:engstafml>Very limited</ms:engstafml>
+        <ms:engsldcd>Very limited</ms:engsldcd>
+        <ms:engsldcp>Very limited</ms:engsldcp>
+        <ms:englrsdcd>Very limited</ms:englrsdcd>
+        <ms:engcmssdcd>Poor</ms:engcmssdcd>
+        <ms:engcmssmp>Poor</ms:engcmssmp>
+        <ms:urbrecptdcd>Somewhat limited</ms:urbrecptdcd>
+        <ms:urbrecptwta>0.045</ms:urbrecptwta>
+        <ms:forpehrtdcp>Erosion hazard moderate</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta>0.127</ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386725954</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.1155022">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.316661 -82.554495</gml:lowerCorner>
+        		<gml:upperCorner>34.317322 -82.554092</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.316683 -82.554158 34.316661 -82.554257 34.316703 -82.554318 34.316774 -82.554337 34.317000 -82.554448 34.317166 -82.554495 34.317322 -82.554223 34.317322 -82.554164 34.317301 -82.554124 34.317189 -82.554096 34.316995 -82.554092 34.316729 -82.554116 34.316683 -82.554158 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC001</ms:areasymbol>
+        <ms:musym>W</ms:musym>
+        <ms:nationalmusym>17rws</ms:nationalmusym>
+        <ms:mukey>1155022</ms:mukey>
+        <ms:spatialversion>7</ms:spatialversion>
+        <ms:muname>Water</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp></ms:slopegraddcp>
+        <ms:slopegradwta></ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin></ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta></ms:aws025wta>
+        <ms:aws050wta></ms:aws050wta>
+        <ms:aws0100wta></ms:aws0100wta>
+        <ms:aws0150wta></ms:aws0150wta>
+        <ms:drclassdcd></ms:drclassdcd>
+        <ms:drclasswettest></ms:drclasswettest>
+        <ms:hydgrpdcd></ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>8</ms:niccdcd>
+        <ms:niccdcdpct>100</ms:niccdcdpct>
+        <ms:engdwobdcd>Not rated</ms:engdwobdcd>
+        <ms:engdwbdcd>Not rated</ms:engdwbdcd>
+        <ms:engdwbll>Not rated</ms:engdwbll>
+        <ms:engdwbml>Not rated</ms:engdwbml>
+        <ms:engstafdcd>Not rated</ms:engstafdcd>
+        <ms:engstafll>Not rated</ms:engstafll>
+        <ms:engstafml>Not rated</ms:engstafml>
+        <ms:engsldcd>Not rated</ms:engsldcd>
+        <ms:engsldcp>Not rated</ms:engsldcp>
+        <ms:englrsdcd>Not rated</ms:englrsdcd>
+        <ms:engcmssdcd>Not rated</ms:engcmssdcd>
+        <ms:engcmssmp>Not rated</ms:engcmssmp>
+        <ms:urbrecptdcd>Not rated</ms:urbrecptdcd>
+        <ms:urbrecptwta></ms:urbrecptwta>
+        <ms:forpehrtdcp>Not rated</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta></ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386725956</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.1154993">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.326977 -82.522290</gml:lowerCorner>
+        		<gml:upperCorner>34.334582 -82.508472</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.333031 -82.516924 34.331968 -82.516859 34.331680 -82.516786 34.331398 -82.516647 34.331307 -82.516546 34.330858 -82.515488 34.330424 -82.514654 34.330370 -82.514504 34.330128 -82.514111 34.330021 -82.513853 34.329950 -82.513518 34.329954 -82.513159 34.330015 -82.513015 34.330082 -82.512982 34.330172 -82.512991 34.330200 -82.513010 34.330424 -82.513304 34.330586 -82.513707 34.330743 -82.513950 34.331202 -82.514404 34.331602 -82.514653 34.331955 -82.514786 34.332184 -82.514903 34.332406 -82.514950 34.332660 -82.514976 34.332844 -82.514832 34.332973 -82.514694 34.332968 -82.514540 34.332799 -82.514200 34.332753 -82.514214 34.332610 -82.514187 34.331773 -82.513847 34.331684 -82.513790 34.331470 -82.513675 34.331237 -82.513477 34.331051 -82.513198 34.330894 -82.512744 34.330872 -82.512712 34.330807 -82.512459 34.330749 -82.512457 34.330481 -82.511980 34.330327 -82.511507 34.330301 -82.511353 34.330187 -82.510954 34.330096 -82.510837 34.329965 -82.510706 34.329852 -82.510539 34.329806 -82.510462 34.329755 -82.510132 34.329715 -82.510000 34.329446 -82.509679 34.329164 -82.509491 34.329029 -82.509381 34.328860 -82.509208 34.328804 -82.509123 34.328767 -82.508960 34.328640 -82.508956 34.328517 -82.508912 34.328052 -82.508547 34.327916 -82.508472 34.327900 -82.508753 34.327964 -82.509218 34.327932 -82.509761 34.327773 -82.510031 34.327670 -82.510157 34.327673 -82.510216 34.327866 -82.510496 34.328291 -82.510779 34.328400 -82.510906 34.328523 -82.511194 34.328523 -82.511466 34.328509 -82.511515 34.328382 -82.511698 34.328110 -82.511823 34.327951 -82.512026 34.327879 -82.512236 34.327759 -82.512879 34.327614 -82.513210 34.327186 -82.513774 34.327063 -82.514028 34.326977 -82.514131 34.326983 -82.514351 34.327041 -82.514474 34.327084 -82.514519 34.327229 -82.514555 34.327471 -82.514569 34.327541 -82.514603 34.328060 -82.514754 34.328257 -82.514926 34.328457 -82.515208 34.328630 -82.515321 34.328799 -82.515317 34.329129 -82.515113 34.329371 -82.515097 34.329469 -82.515121 34.329541 -82.515224 34.329551 -82.515292 34.329519 -82.515510 34.329444 -82.515664 34.329144 -82.516062 34.328832 -82.516684 34.328694 -82.516821 34.328473 -82.516906 34.328136 -82.516951 34.328033 -82.517125 34.327811 -82.517418 34.327713 -82.517627 34.327649 -82.517684 34.327628 -82.517740 34.327642 -82.517844 34.327683 -82.517927 34.327831 -82.518014 34.327947 -82.518139 34.327959 -82.518341 34.327761 -82.518750 34.327386 -82.519176 34.327310 -82.519494 34.327247 -82.519563 34.327254 -82.519568 34.327306 -82.519637 34.327422 -82.519783 34.327498 -82.519922 34.327522 -82.519978 34.327539 -82.520007 34.327549 -82.520063 34.327620 -82.520048 34.327809 -82.519964 34.328251 -82.519308 34.328955 -82.518718 34.329005 -82.518658 34.329035 -82.518534 34.329160 -82.517782 34.329261 -82.517584 34.329572 -82.517291 34.329767 -82.517187 34.329972 -82.517159 34.330144 -82.517190 34.330235 -82.517234 34.330378 -82.517397 34.330515 -82.517847 34.330489 -82.518317 34.330269 -82.519756 34.330251 -82.520126 34.330255 -82.520439 34.330304 -82.520670 34.330433 -82.520960 34.330525 -82.521038 34.330626 -82.521040 34.330807 -82.520959 34.330955 -82.520968 34.330995 -82.520978 34.331152 -82.521113 34.331309 -82.521411 34.331425 -82.521713 34.331574 -82.522246 34.331598 -82.522290 34.331697 -82.522240 34.331917 -82.522231 34.332088 -82.522106 34.332350 -82.521852 34.332218 -82.521497 34.332061 -82.520897 34.331831 -82.519605 34.331737 -82.518846 34.331730 -82.518435 34.331745 -82.518357 34.331779 -82.518275 34.331851 -82.518215 34.332006 -82.518211 34.332125 -82.518209 34.332313 -82.518202 34.332471 -82.518223 34.332596 -82.518236 34.332760 -82.518210 34.332979 -82.518135 34.333292 -82.518083 34.333540 -82.518151 34.333924 -82.518142 34.334382 -82.518078 34.334551 -82.517956 34.334582 -82.517881 34.334526 -82.517665 34.334340 -82.517332 34.334227 -82.517234 34.334015 -82.517137 34.333031 -82.516924 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+                <gml:interior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.331824 -82.517733 34.331875 -82.517475 34.331908 -82.517433 34.331963 -82.517427 34.332081 -82.517519 34.332240 -82.517615 34.332365 -82.517693 34.332483 -82.517702 34.332689 -82.517738 34.332779 -82.517740 34.332832 -82.517751 34.332907 -82.517781 34.332959 -82.517814 34.332974 -82.517829 34.332969 -82.517872 34.332922 -82.517893 34.332642 -82.517945 34.332364 -82.517951 34.332150 -82.517961 34.331887 -82.517947 34.331822 -82.517901 34.331805 -82.517848 34.331824 -82.517733 </gml:posList>
+                  </gml:LinearRing>
+                </gml:interior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC001</ms:areasymbol>
+        <ms:musym>CcD</ms:musym>
+        <ms:nationalmusym>2zzyy</ms:nationalmusym>
+        <ms:mukey>1154993</ms:mukey>
+        <ms:spatialversion>7</ms:spatialversion>
+        <ms:muname>Cecil-Cataula complex, 10 to 15 percent slopes, moderately eroded</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp>13</ms:slopegraddcp>
+        <ms:slopegradwta>13</ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin>84</ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta>3.35</ms:aws025wta>
+        <ms:aws050wta>6.44</ms:aws050wta>
+        <ms:aws0100wta>12.63</ms:aws0100wta>
+        <ms:aws0150wta>19.5</ms:aws0150wta>
+        <ms:drclassdcd>Well drained</ms:drclassdcd>
+        <ms:drclasswettest>Moderately well drained</ms:drclasswettest>
+        <ms:hydgrpdcd>B</ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>4</ms:niccdcd>
+        <ms:niccdcdpct>75</ms:niccdcdpct>
+        <ms:engdwobdcd>Somewhat limited</ms:engdwobdcd>
+        <ms:engdwbdcd>Somewhat limited</ms:engdwbdcd>
+        <ms:engdwbll>Somewhat limited</ms:engdwbll>
+        <ms:engdwbml>Somewhat limited</ms:engdwbml>
+        <ms:engstafdcd>Somewhat limited</ms:engstafdcd>
+        <ms:engstafll>Somewhat limited</ms:engstafll>
+        <ms:engstafml>Very limited</ms:engstafml>
+        <ms:engsldcd>Very limited</ms:engsldcd>
+        <ms:engsldcp>Very limited</ms:engsldcp>
+        <ms:englrsdcd>Very limited</ms:englrsdcd>
+        <ms:engcmssdcd>Poor</ms:engcmssdcd>
+        <ms:engcmssmp>Poor</ms:engcmssmp>
+        <ms:urbrecptdcd>Somewhat limited</ms:urbrecptdcd>
+        <ms:urbrecptwta>0.064</ms:urbrecptwta>
+        <ms:forpehrtdcp>Erosion hazard moderate</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta>0.894</ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386726216</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.1154992">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.328005 -82.538824</gml:lowerCorner>
+        		<gml:upperCorner>34.331324 -82.533681</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.329338 -82.534211 34.329114 -82.534401 34.329063 -82.534426 34.328866 -82.534457 34.328126 -82.534459 34.328090 -82.534509 34.328005 -82.534878 34.328005 -82.534941 34.328038 -82.535040 34.328391 -82.535163 34.328608 -82.535213 34.329411 -82.535254 34.329517 -82.535434 34.329506 -82.535568 34.329477 -82.535635 34.329379 -82.535764 34.329090 -82.536005 34.328890 -82.536132 34.328773 -82.536298 34.328749 -82.536635 34.328822 -82.537173 34.328779 -82.537459 34.328685 -82.537655 34.328660 -82.537745 34.328666 -82.537814 34.328689 -82.538070 34.328780 -82.538286 34.328899 -82.538469 34.329082 -82.538689 34.329241 -82.538786 34.329386 -82.538824 34.329564 -82.538771 34.329727 -82.538592 34.330152 -82.537954 34.330297 -82.537846 34.330574 -82.537762 34.330761 -82.537764 34.331060 -82.537871 34.331253 -82.537855 34.331324 -82.537802 34.331316 -82.537594 34.331284 -82.537475 34.331132 -82.537143 34.331120 -82.536907 34.331026 -82.536904 34.330814 -82.536830 34.330768 -82.536798 34.330612 -82.536627 34.330487 -82.536405 34.330440 -82.536211 34.330463 -82.535933 34.330495 -82.535814 34.330612 -82.535547 34.330906 -82.535079 34.330935 -82.534995 34.331013 -82.534436 34.330963 -82.534425 34.330783 -82.534279 34.330671 -82.534234 34.330273 -82.533830 34.330029 -82.533693 34.329809 -82.533681 34.329658 -82.533764 34.329338 -82.534211 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC001</ms:areasymbol>
+        <ms:musym>CcC</ms:musym>
+        <ms:nationalmusym>2q7j8</ms:nationalmusym>
+        <ms:mukey>1154992</ms:mukey>
+        <ms:spatialversion>7</ms:spatialversion>
+        <ms:muname>Cecil sandy loam, 6 to 10 percent slopes</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp>8</ms:slopegraddcp>
+        <ms:slopegradwta>8</ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin></ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta>2.99</ms:aws025wta>
+        <ms:aws050wta>5.5</ms:aws050wta>
+        <ms:aws0100wta>10.48</ms:aws0100wta>
+        <ms:aws0150wta>16.87</ms:aws0150wta>
+        <ms:drclassdcd>Well drained</ms:drclassdcd>
+        <ms:drclasswettest>Well drained</ms:drclasswettest>
+        <ms:hydgrpdcd>B</ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>3</ms:niccdcd>
+        <ms:niccdcdpct>98</ms:niccdcdpct>
+        <ms:engdwobdcd>Not limited</ms:engdwobdcd>
+        <ms:engdwbdcd>Not limited</ms:engdwbdcd>
+        <ms:engdwbll>Not limited</ms:engdwbll>
+        <ms:engdwbml>Somewhat limited</ms:engdwbml>
+        <ms:engstafdcd>Somewhat limited</ms:engstafdcd>
+        <ms:engstafll>Somewhat limited</ms:engstafll>
+        <ms:engstafml>Very limited</ms:engstafml>
+        <ms:engsldcd>Very limited</ms:engsldcd>
+        <ms:engsldcp>Very limited</ms:engsldcp>
+        <ms:englrsdcd>Very limited</ms:englrsdcd>
+        <ms:engcmssdcd>Poor</ms:engcmssdcd>
+        <ms:engcmssmp>Poor</ms:engcmssmp>
+        <ms:urbrecptdcd>Somewhat limited</ms:urbrecptdcd>
+        <ms:urbrecptwta>0.05</ms:urbrecptwta>
+        <ms:forpehrtdcp>Erosion hazard moderate</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta>0.542</ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386726461</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.1154993">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.315860 -82.532205</gml:lowerCorner>
+        		<gml:upperCorner>34.317922 -82.525192</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.317457 -82.526611 34.317414 -82.526500 34.317398 -82.526306 34.317337 -82.526018 34.317219 -82.525740 34.317084 -82.525473 34.317017 -82.525409 34.316820 -82.525278 34.316545 -82.525192 34.316519 -82.525594 34.316257 -82.526230 34.316112 -82.526692 34.316070 -82.526911 34.316056 -82.527212 34.316001 -82.527541 34.315878 -82.527639 34.315860 -82.527724 34.315880 -82.528091 34.315940 -82.528597 34.316099 -82.528899 34.316356 -82.528950 34.316529 -82.529026 34.316656 -82.529129 34.316709 -82.529465 34.316652 -82.529796 34.316678 -82.530061 34.316815 -82.530324 34.317054 -82.530594 34.317095 -82.530778 34.317080 -82.530851 34.316947 -82.531042 34.316845 -82.531417 34.316893 -82.531440 34.316999 -82.531554 34.317030 -82.531669 34.317237 -82.532105 34.317254 -82.532127 34.317423 -82.532205 34.317598 -82.532080 34.317780 -82.531850 34.317842 -82.531730 34.317856 -82.531663 34.317890 -82.531542 34.317922 -82.530427 34.317860 -82.529953 34.317856 -82.529645 34.317832 -82.529585 34.317737 -82.529139 34.317564 -82.528786 34.317106 -82.528282 34.317019 -82.528136 34.316959 -82.527937 34.316956 -82.527649 34.317059 -82.527145 34.317144 -82.526969 34.317457 -82.526611 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+                <gml:interior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.316282 -82.527570 34.316519 -82.526399 34.316622 -82.526141 34.316644 -82.526119 34.316717 -82.526115 34.317035 -82.526292 34.317048 -82.526320 34.317093 -82.526343 34.317098 -82.526385 34.317082 -82.526419 34.316801 -82.526873 34.316753 -82.527008 34.316719 -82.527163 34.316588 -82.527526 34.316458 -82.527788 34.316412 -82.527841 34.316348 -82.527869 34.316310 -82.527824 34.316282 -82.527570 </gml:posList>
+                  </gml:LinearRing>
+                </gml:interior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC001</ms:areasymbol>
+        <ms:musym>CcD</ms:musym>
+        <ms:nationalmusym>2zzyy</ms:nationalmusym>
+        <ms:mukey>1154993</ms:mukey>
+        <ms:spatialversion>7</ms:spatialversion>
+        <ms:muname>Cecil-Cataula complex, 10 to 15 percent slopes, moderately eroded</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp>13</ms:slopegraddcp>
+        <ms:slopegradwta>13</ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin>84</ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta>3.35</ms:aws025wta>
+        <ms:aws050wta>6.44</ms:aws050wta>
+        <ms:aws0100wta>12.63</ms:aws0100wta>
+        <ms:aws0150wta>19.5</ms:aws0150wta>
+        <ms:drclassdcd>Well drained</ms:drclassdcd>
+        <ms:drclasswettest>Moderately well drained</ms:drclasswettest>
+        <ms:hydgrpdcd>B</ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>4</ms:niccdcd>
+        <ms:niccdcdpct>75</ms:niccdcdpct>
+        <ms:engdwobdcd>Somewhat limited</ms:engdwobdcd>
+        <ms:engdwbdcd>Somewhat limited</ms:engdwbdcd>
+        <ms:engdwbll>Somewhat limited</ms:engdwbll>
+        <ms:engdwbml>Somewhat limited</ms:engdwbml>
+        <ms:engstafdcd>Somewhat limited</ms:engstafdcd>
+        <ms:engstafll>Somewhat limited</ms:engstafll>
+        <ms:engstafml>Very limited</ms:engstafml>
+        <ms:engsldcd>Very limited</ms:engsldcd>
+        <ms:engsldcp>Very limited</ms:engsldcp>
+        <ms:englrsdcd>Very limited</ms:englrsdcd>
+        <ms:engcmssdcd>Poor</ms:engcmssdcd>
+        <ms:engcmssmp>Poor</ms:engcmssmp>
+        <ms:urbrecptdcd>Somewhat limited</ms:urbrecptdcd>
+        <ms:urbrecptwta>0.064</ms:urbrecptwta>
+        <ms:forpehrtdcp>Erosion hazard moderate</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta>0.894</ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386726761</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.1154992">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.332318 -82.545535</gml:lowerCorner>
+        		<gml:upperCorner>34.334989 -82.543235</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.333009 -82.543235 34.332929 -82.543317 34.332675 -82.543435 34.332548 -82.543547 34.332382 -82.543930 34.332318 -82.544209 34.332378 -82.544600 34.332499 -82.544424 34.332669 -82.544404 34.333023 -82.544546 34.333295 -82.544769 34.333544 -82.545045 34.333905 -82.545318 34.334161 -82.545487 34.334546 -82.545535 34.334989 -82.544842 34.334588 -82.544554 34.334322 -82.544414 34.333741 -82.544057 34.333382 -82.543696 34.333084 -82.543255 34.333009 -82.543235 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC001</ms:areasymbol>
+        <ms:musym>CcC</ms:musym>
+        <ms:nationalmusym>2q7j8</ms:nationalmusym>
+        <ms:mukey>1154992</ms:mukey>
+        <ms:spatialversion>7</ms:spatialversion>
+        <ms:muname>Cecil sandy loam, 6 to 10 percent slopes</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp>8</ms:slopegraddcp>
+        <ms:slopegradwta>8</ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin></ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta>2.99</ms:aws025wta>
+        <ms:aws050wta>5.5</ms:aws050wta>
+        <ms:aws0100wta>10.48</ms:aws0100wta>
+        <ms:aws0150wta>16.87</ms:aws0150wta>
+        <ms:drclassdcd>Well drained</ms:drclassdcd>
+        <ms:drclasswettest>Well drained</ms:drclasswettest>
+        <ms:hydgrpdcd>B</ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>3</ms:niccdcd>
+        <ms:niccdcdpct>98</ms:niccdcdpct>
+        <ms:engdwobdcd>Not limited</ms:engdwobdcd>
+        <ms:engdwbdcd>Not limited</ms:engdwbdcd>
+        <ms:engdwbll>Not limited</ms:engdwbll>
+        <ms:engdwbml>Somewhat limited</ms:engdwbml>
+        <ms:engstafdcd>Somewhat limited</ms:engstafdcd>
+        <ms:engstafll>Somewhat limited</ms:engstafll>
+        <ms:engstafml>Very limited</ms:engstafml>
+        <ms:engsldcd>Very limited</ms:engsldcd>
+        <ms:engsldcp>Very limited</ms:engsldcp>
+        <ms:englrsdcd>Very limited</ms:englrsdcd>
+        <ms:engcmssdcd>Poor</ms:engcmssdcd>
+        <ms:engcmssmp>Poor</ms:engcmssmp>
+        <ms:urbrecptdcd>Somewhat limited</ms:urbrecptdcd>
+        <ms:urbrecptwta>0.05</ms:urbrecptwta>
+        <ms:forpehrtdcp>Erosion hazard moderate</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta>0.542</ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386726849</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.1155022">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.313020 -82.540647</gml:lowerCorner>
+        		<gml:upperCorner>34.314334 -82.539291</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.313032 -82.539318 34.313020 -82.539353 34.313021 -82.539367 34.313041 -82.539421 34.313174 -82.539629 34.313263 -82.539715 34.313291 -82.539763 34.313339 -82.539843 34.313447 -82.539931 34.313560 -82.540036 34.313656 -82.540160 34.313694 -82.540235 34.313727 -82.540393 34.313784 -82.540599 34.313832 -82.540647 34.313876 -82.540644 34.313899 -82.540620 34.314091 -82.540365 34.314199 -82.540222 34.314302 -82.540043 34.314331 -82.539945 34.314334 -82.539862 34.314332 -82.539647 34.314314 -82.539581 34.314297 -82.539553 34.314229 -82.539532 34.314150 -82.539550 34.314054 -82.539561 34.313971 -82.539562 34.313880 -82.539531 34.313751 -82.539469 34.313643 -82.539391 34.313542 -82.539377 34.313516 -82.539372 34.313409 -82.539372 34.313276 -82.539370 34.313150 -82.539313 34.313101 -82.539291 34.313064 -82.539292 34.313032 -82.539318 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC001</ms:areasymbol>
+        <ms:musym>W</ms:musym>
+        <ms:nationalmusym>17rws</ms:nationalmusym>
+        <ms:mukey>1155022</ms:mukey>
+        <ms:spatialversion>7</ms:spatialversion>
+        <ms:muname>Water</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp></ms:slopegraddcp>
+        <ms:slopegradwta></ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin></ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta></ms:aws025wta>
+        <ms:aws050wta></ms:aws050wta>
+        <ms:aws0100wta></ms:aws0100wta>
+        <ms:aws0150wta></ms:aws0150wta>
+        <ms:drclassdcd></ms:drclassdcd>
+        <ms:drclasswettest></ms:drclasswettest>
+        <ms:hydgrpdcd></ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>8</ms:niccdcd>
+        <ms:niccdcdpct>100</ms:niccdcdpct>
+        <ms:engdwobdcd>Not rated</ms:engdwobdcd>
+        <ms:engdwbdcd>Not rated</ms:engdwbdcd>
+        <ms:engdwbll>Not rated</ms:engdwbll>
+        <ms:engdwbml>Not rated</ms:engdwbml>
+        <ms:engstafdcd>Not rated</ms:engstafdcd>
+        <ms:engstafll>Not rated</ms:engstafll>
+        <ms:engstafml>Not rated</ms:engstafml>
+        <ms:engsldcd>Not rated</ms:engsldcd>
+        <ms:engsldcp>Not rated</ms:engsldcp>
+        <ms:englrsdcd>Not rated</ms:englrsdcd>
+        <ms:engcmssdcd>Not rated</ms:engcmssdcd>
+        <ms:engcmssmp>Not rated</ms:engcmssmp>
+        <ms:urbrecptdcd>Not rated</ms:urbrecptdcd>
+        <ms:urbrecptwta></ms:urbrecptwta>
+        <ms:forpehrtdcp>Not rated</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta></ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386727023</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.1154991">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.339068 -82.537572</gml:lowerCorner>
+        		<gml:upperCorner>34.341439 -82.533888</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.340279 -82.533888 34.340164 -82.534011 34.340163 -82.534213 34.340322 -82.534512 34.340387 -82.534726 34.340407 -82.534968 34.340400 -82.535021 34.340318 -82.535131 34.340108 -82.535264 34.339916 -82.535455 34.339892 -82.535550 34.339806 -82.535678 34.339283 -82.536350 34.339088 -82.536693 34.339068 -82.536775 34.339072 -82.536888 34.339100 -82.537052 34.339503 -82.537376 34.339592 -82.537463 34.339649 -82.537572 34.341439 -82.534761 34.341278 -82.534727 34.341102 -82.534548 34.340859 -82.534187 34.340445 -82.534017 34.340279 -82.533888 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC001</ms:areasymbol>
+        <ms:musym>CcB</ms:musym>
+        <ms:nationalmusym>2q7j7</ms:nationalmusym>
+        <ms:mukey>1154991</ms:mukey>
+        <ms:spatialversion>7</ms:spatialversion>
+        <ms:muname>Cecil sandy loam, 2 to 6 percent slopes</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp>4</ms:slopegraddcp>
+        <ms:slopegradwta>4</ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin></ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta>2.95</ms:aws025wta>
+        <ms:aws050wta>5.45</ms:aws050wta>
+        <ms:aws0100wta>10.4</ms:aws0100wta>
+        <ms:aws0150wta>17.35</ms:aws0150wta>
+        <ms:drclassdcd>Well drained</ms:drclassdcd>
+        <ms:drclasswettest>Well drained</ms:drclasswettest>
+        <ms:hydgrpdcd>B</ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>2</ms:niccdcd>
+        <ms:niccdcdpct>95</ms:niccdcdpct>
+        <ms:engdwobdcd>Not limited</ms:engdwobdcd>
+        <ms:engdwbdcd>Not limited</ms:engdwbdcd>
+        <ms:engdwbll>Not limited</ms:engdwbll>
+        <ms:engdwbml>Somewhat limited</ms:engdwbml>
+        <ms:engstafdcd>Somewhat limited</ms:engstafdcd>
+        <ms:engstafll>Somewhat limited</ms:engstafll>
+        <ms:engstafml>Very limited</ms:engstafml>
+        <ms:engsldcd>Somewhat limited</ms:engsldcd>
+        <ms:engsldcp>Somewhat limited</ms:engsldcp>
+        <ms:englrsdcd>Very limited</ms:englrsdcd>
+        <ms:engcmssdcd>Poor</ms:engcmssdcd>
+        <ms:engcmssmp>Poor</ms:engcmssmp>
+        <ms:urbrecptdcd>Somewhat limited</ms:urbrecptdcd>
+        <ms:urbrecptwta>0.052</ms:urbrecptwta>
+        <ms:forpehrtdcp>Erosion hazard moderate</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta>0.506</ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386727180</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.1154992">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.314909 -82.558278</gml:lowerCorner>
+        		<gml:upperCorner>34.322005 -82.550187</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.316760 -82.553310 34.316961 -82.553177 34.317060 -82.553070 34.317098 -82.552894 34.317068 -82.552745 34.316964 -82.552548 34.316798 -82.552348 34.316658 -82.552257 34.316555 -82.552031 34.316562 -82.551816 34.316650 -82.551497 34.316718 -82.551358 34.316885 -82.551207 34.316987 -82.551147 34.316878 -82.551065 34.316667 -82.551001 34.316479 -82.550877 34.316370 -82.550745 34.316153 -82.550360 34.316032 -82.550245 34.315907 -82.550187 34.315671 -82.550248 34.315306 -82.550644 34.315009 -82.551091 34.314937 -82.551275 34.314909 -82.551478 34.314953 -82.551678 34.315017 -82.551788 34.315068 -82.551836 34.315290 -82.551943 34.315534 -82.551983 34.315711 -82.552062 34.315804 -82.552195 34.315844 -82.552420 34.315788 -82.552706 34.315531 -82.553207 34.315437 -82.553494 34.315432 -82.553979 34.315459 -82.554285 34.315513 -82.554537 34.315612 -82.554750 34.315790 -82.554904 34.315993 -82.555170 34.316119 -82.555713 34.316128 -82.556313 34.316229 -82.556576 34.316334 -82.556700 34.316542 -82.556886 34.316798 -82.557009 34.317179 -82.556977 34.317261 -82.556943 34.317472 -82.556804 34.317784 -82.556140 34.317947 -82.555944 34.318098 -82.555862 34.318594 -82.555735 34.319076 -82.555737 34.319298 -82.555812 34.319451 -82.555952 34.319467 -82.555997 34.319467 -82.556078 34.319451 -82.556112 34.319354 -82.556220 34.319108 -82.556342 34.318677 -82.556467 34.318560 -82.556541 34.318516 -82.556585 34.318404 -82.556789 34.318365 -82.556995 34.318388 -82.557420 34.318475 -82.557938 34.318629 -82.558160 34.318681 -82.558204 34.318850 -82.558278 34.319134 -82.558265 34.319332 -82.558228 34.319693 -82.557910 34.319897 -82.557878 34.320048 -82.557806 34.320426 -82.557386 34.320554 -82.557263 34.320828 -82.557162 34.320961 -82.557092 34.321411 -82.557067 34.321806 -82.557218 34.321987 -82.557237 34.322005 -82.556858 34.321970 -82.556686 34.321937 -82.556622 34.321855 -82.556535 34.321828 -82.556531 34.321713 -82.556398 34.321695 -82.556300 34.321735 -82.556081 34.321727 -82.556005 34.321647 -82.555919 34.321524 -82.555916 34.321180 -82.556063 34.320875 -82.556398 34.320260 -82.556477 34.320083 -82.556697 34.319941 -82.557029 34.319737 -82.557219 34.319650 -82.557218 34.319543 -82.557073 34.319540 -82.556856 34.319663 -82.556510 34.319697 -82.556457 34.319749 -82.556004 34.319780 -82.555902 34.319933 -82.555674 34.319919 -82.555455 34.319877 -82.555229 34.319751 -82.555096 34.319510 -82.555009 34.318738 -82.554960 34.318255 -82.554831 34.318044 -82.554809 34.317766 -82.554864 34.317721 -82.554898 34.317257 -82.555079 34.316933 -82.555067 34.316761 -82.554960 34.316489 -82.554592 34.316247 -82.554402 34.316161 -82.554354 34.316123 -82.554303 34.316080 -82.554142 34.316088 -82.554040 34.316135 -82.553947 34.316318 -82.553677 34.316592 -82.553412 34.316690 -82.553338 34.316760 -82.553310 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC001</ms:areasymbol>
+        <ms:musym>CcC</ms:musym>
+        <ms:nationalmusym>2q7j8</ms:nationalmusym>
+        <ms:mukey>1154992</ms:mukey>
+        <ms:spatialversion>7</ms:spatialversion>
+        <ms:muname>Cecil sandy loam, 6 to 10 percent slopes</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp>8</ms:slopegraddcp>
+        <ms:slopegradwta>8</ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin></ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta>2.99</ms:aws025wta>
+        <ms:aws050wta>5.5</ms:aws050wta>
+        <ms:aws0100wta>10.48</ms:aws0100wta>
+        <ms:aws0150wta>16.87</ms:aws0150wta>
+        <ms:drclassdcd>Well drained</ms:drclassdcd>
+        <ms:drclasswettest>Well drained</ms:drclasswettest>
+        <ms:hydgrpdcd>B</ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>3</ms:niccdcd>
+        <ms:niccdcdpct>98</ms:niccdcdpct>
+        <ms:engdwobdcd>Not limited</ms:engdwobdcd>
+        <ms:engdwbdcd>Not limited</ms:engdwbdcd>
+        <ms:engdwbll>Not limited</ms:engdwbll>
+        <ms:engdwbml>Somewhat limited</ms:engdwbml>
+        <ms:engstafdcd>Somewhat limited</ms:engstafdcd>
+        <ms:engstafll>Somewhat limited</ms:engstafll>
+        <ms:engstafml>Very limited</ms:engstafml>
+        <ms:engsldcd>Very limited</ms:engsldcd>
+        <ms:engsldcp>Very limited</ms:engsldcp>
+        <ms:englrsdcd>Very limited</ms:englrsdcd>
+        <ms:engcmssdcd>Poor</ms:engcmssdcd>
+        <ms:engcmssmp>Poor</ms:engcmssmp>
+        <ms:urbrecptdcd>Somewhat limited</ms:urbrecptdcd>
+        <ms:urbrecptwta>0.05</ms:urbrecptwta>
+        <ms:forpehrtdcp>Erosion hazard moderate</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta>0.542</ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386727276</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.1154991">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.319840 -82.543207</gml:lowerCorner>
+        		<gml:upperCorner>34.323614 -82.535227</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.323390 -82.536008 34.323188 -82.536066 34.322826 -82.536130 34.322711 -82.536211 34.322578 -82.536342 34.322437 -82.536403 34.322308 -82.536413 34.322227 -82.536314 34.322265 -82.535729 34.322233 -82.535517 34.322175 -82.535380 34.322090 -82.535290 34.321901 -82.535230 34.321731 -82.535227 34.321548 -82.535287 34.321479 -82.535337 34.321235 -82.535604 34.321165 -82.535814 34.321160 -82.536055 34.321358 -82.536434 34.321348 -82.536703 34.321295 -82.536784 34.321272 -82.536820 34.321223 -82.537102 34.320940 -82.537576 34.320919 -82.537691 34.320923 -82.537754 34.320963 -82.537802 34.321080 -82.537810 34.321269 -82.537752 34.321477 -82.537663 34.321689 -82.537667 34.321765 -82.537717 34.321804 -82.537838 34.321796 -82.537911 34.321785 -82.537959 34.321697 -82.538090 34.321415 -82.538404 34.321255 -82.538546 34.320622 -82.538952 34.320368 -82.539223 34.320328 -82.539399 34.320187 -82.541078 34.319991 -82.542128 34.319981 -82.542412 34.319865 -82.542728 34.319840 -82.542856 34.319844 -82.543084 34.319948 -82.543178 34.320170 -82.543207 34.320447 -82.543141 34.320807 -82.542866 34.321175 -82.542493 34.321975 -82.541563 34.322050 -82.541225 34.322100 -82.541124 34.322137 -82.540965 34.322084 -82.540086 34.322104 -82.539852 34.322162 -82.539578 34.322200 -82.539489 34.322334 -82.539279 34.322895 -82.538645 34.323048 -82.538334 34.323069 -82.538232 34.323060 -82.538161 34.322989 -82.537876 34.322983 -82.537717 34.323015 -82.537616 34.323098 -82.537495 34.323223 -82.537435 34.323438 -82.537242 34.323614 -82.536982 34.323580 -82.536719 34.323501 -82.536509 34.323420 -82.536056 34.323390 -82.536008 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC001</ms:areasymbol>
+        <ms:musym>CcB</ms:musym>
+        <ms:nationalmusym>2q7j7</ms:nationalmusym>
+        <ms:mukey>1154991</ms:mukey>
+        <ms:spatialversion>7</ms:spatialversion>
+        <ms:muname>Cecil sandy loam, 2 to 6 percent slopes</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp>4</ms:slopegraddcp>
+        <ms:slopegradwta>4</ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin></ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta>2.95</ms:aws025wta>
+        <ms:aws050wta>5.45</ms:aws050wta>
+        <ms:aws0100wta>10.4</ms:aws0100wta>
+        <ms:aws0150wta>17.35</ms:aws0150wta>
+        <ms:drclassdcd>Well drained</ms:drclassdcd>
+        <ms:drclasswettest>Well drained</ms:drclasswettest>
+        <ms:hydgrpdcd>B</ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>2</ms:niccdcd>
+        <ms:niccdcdpct>95</ms:niccdcdpct>
+        <ms:engdwobdcd>Not limited</ms:engdwobdcd>
+        <ms:engdwbdcd>Not limited</ms:engdwbdcd>
+        <ms:engdwbll>Not limited</ms:engdwbll>
+        <ms:engdwbml>Somewhat limited</ms:engdwbml>
+        <ms:engstafdcd>Somewhat limited</ms:engstafdcd>
+        <ms:engstafll>Somewhat limited</ms:engstafll>
+        <ms:engstafml>Very limited</ms:engstafml>
+        <ms:engsldcd>Somewhat limited</ms:engsldcd>
+        <ms:engsldcp>Somewhat limited</ms:engsldcp>
+        <ms:englrsdcd>Very limited</ms:englrsdcd>
+        <ms:engcmssdcd>Poor</ms:engcmssdcd>
+        <ms:engcmssmp>Poor</ms:engcmssmp>
+        <ms:urbrecptdcd>Somewhat limited</ms:urbrecptdcd>
+        <ms:urbrecptwta>0.052</ms:urbrecptwta>
+        <ms:forpehrtdcp>Erosion hazard moderate</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta>0.506</ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386727277</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.1154995">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.340279 -82.534761</gml:lowerCorner>
+        		<gml:upperCorner>34.341886 -82.533038</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.341471 -82.533038 34.341382 -82.533070 34.341275 -82.533137 34.340813 -82.533211 34.340652 -82.533263 34.340409 -82.533636 34.340366 -82.533673 34.340310 -82.533846 34.340279 -82.533888 34.340445 -82.534017 34.340859 -82.534187 34.341102 -82.534548 34.341278 -82.534727 34.341439 -82.534761 34.341886 -82.534080 34.341872 -82.533942 34.341830 -82.533813 34.341785 -82.533443 34.341703 -82.533223 34.341471 -82.533038 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC001</ms:areasymbol>
+        <ms:musym>CeC2</ms:musym>
+        <ms:nationalmusym>2tqlf</ms:nationalmusym>
+        <ms:mukey>1154995</ms:mukey>
+        <ms:spatialversion>7</ms:spatialversion>
+        <ms:muname>Cecil sandy clay loam, 6 to 10 percent slopes, moderately eroded</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp>8</ms:slopegraddcp>
+        <ms:slopegradwta>8</ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin></ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta>3.26</ms:aws025wta>
+        <ms:aws050wta>6.46</ms:aws050wta>
+        <ms:aws0100wta>12.82</ms:aws0100wta>
+        <ms:aws0150wta>20.45</ms:aws0150wta>
+        <ms:drclassdcd>Well drained</ms:drclassdcd>
+        <ms:drclasswettest>Well drained</ms:drclasswettest>
+        <ms:hydgrpdcd>B</ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>4</ms:niccdcd>
+        <ms:niccdcdpct>100</ms:niccdcdpct>
+        <ms:engdwobdcd>Not limited</ms:engdwobdcd>
+        <ms:engdwbdcd>Not limited</ms:engdwbdcd>
+        <ms:engdwbll>Not limited</ms:engdwbll>
+        <ms:engdwbml>Somewhat limited</ms:engdwbml>
+        <ms:engstafdcd>Somewhat limited</ms:engstafdcd>
+        <ms:engstafll>Somewhat limited</ms:engstafll>
+        <ms:engstafml>Very limited</ms:engstafml>
+        <ms:engsldcd>Very limited</ms:engsldcd>
+        <ms:engsldcp>Very limited</ms:engsldcp>
+        <ms:englrsdcd>Very limited</ms:englrsdcd>
+        <ms:engcmssdcd>Poor</ms:engcmssdcd>
+        <ms:engcmssmp>Poor</ms:engcmssmp>
+        <ms:urbrecptdcd>Somewhat limited</ms:urbrecptdcd>
+        <ms:urbrecptwta>0.059</ms:urbrecptwta>
+        <ms:forpehrtdcp>Erosion hazard moderate</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta>0.588</ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386727311</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.1154992">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.333266 -82.537944</gml:lowerCorner>
+        		<gml:upperCorner>34.335676 -82.535691</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.333685 -82.535917 34.333695 -82.535978 34.333681 -82.536263 34.333635 -82.536514 34.333399 -82.536868 34.333308 -82.537066 34.333266 -82.537249 34.333270 -82.537469 34.333287 -82.537576 34.333346 -82.537774 34.333469 -82.537903 34.333617 -82.537944 34.333820 -82.537941 34.333955 -82.537903 34.334130 -82.537819 34.334392 -82.537570 34.334503 -82.537367 34.334578 -82.537054 34.334681 -82.536836 34.334758 -82.536763 34.334896 -82.536679 34.334967 -82.536671 34.335001 -82.536699 34.335027 -82.536757 34.335059 -82.537308 34.335164 -82.537552 34.335217 -82.537578 34.335302 -82.537560 34.335485 -82.537439 34.335646 -82.537205 34.335676 -82.536858 34.335479 -82.535989 34.335354 -82.535828 34.335271 -82.535824 34.335128 -82.535855 34.334921 -82.536056 34.334764 -82.536046 34.334707 -82.536018 34.334503 -82.535826 34.334358 -82.535716 34.334110 -82.535691 34.333963 -82.535709 34.333685 -82.535917 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC001</ms:areasymbol>
+        <ms:musym>CcC</ms:musym>
+        <ms:nationalmusym>2q7j8</ms:nationalmusym>
+        <ms:mukey>1154992</ms:mukey>
+        <ms:spatialversion>7</ms:spatialversion>
+        <ms:muname>Cecil sandy loam, 6 to 10 percent slopes</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp>8</ms:slopegraddcp>
+        <ms:slopegradwta>8</ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin></ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta>2.99</ms:aws025wta>
+        <ms:aws050wta>5.5</ms:aws050wta>
+        <ms:aws0100wta>10.48</ms:aws0100wta>
+        <ms:aws0150wta>16.87</ms:aws0150wta>
+        <ms:drclassdcd>Well drained</ms:drclassdcd>
+        <ms:drclasswettest>Well drained</ms:drclasswettest>
+        <ms:hydgrpdcd>B</ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>3</ms:niccdcd>
+        <ms:niccdcdpct>98</ms:niccdcdpct>
+        <ms:engdwobdcd>Not limited</ms:engdwobdcd>
+        <ms:engdwbdcd>Not limited</ms:engdwbdcd>
+        <ms:engdwbll>Not limited</ms:engdwbll>
+        <ms:engdwbml>Somewhat limited</ms:engdwbml>
+        <ms:engstafdcd>Somewhat limited</ms:engstafdcd>
+        <ms:engstafll>Somewhat limited</ms:engstafll>
+        <ms:engstafml>Very limited</ms:engstafml>
+        <ms:engsldcd>Very limited</ms:engsldcd>
+        <ms:engsldcp>Very limited</ms:engsldcp>
+        <ms:englrsdcd>Very limited</ms:englrsdcd>
+        <ms:engcmssdcd>Poor</ms:engcmssdcd>
+        <ms:engcmssmp>Poor</ms:engcmssmp>
+        <ms:urbrecptdcd>Somewhat limited</ms:urbrecptdcd>
+        <ms:urbrecptwta>0.05</ms:urbrecptwta>
+        <ms:forpehrtdcp>Erosion hazard moderate</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta>0.542</ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386727411</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.1154993">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.315715 -82.520353</gml:lowerCorner>
+        		<gml:upperCorner>34.321940 -82.515574</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.321913 -82.519733 34.321896 -82.519641 34.321674 -82.519141 34.321589 -82.519007 34.321465 -82.518857 34.321182 -82.518611 34.321035 -82.518388 34.320896 -82.517960 34.320765 -82.517730 34.320598 -82.517588 34.320126 -82.517395 34.319428 -82.517323 34.319287 -82.517282 34.319015 -82.517162 34.318809 -82.516965 34.318781 -82.516897 34.318690 -82.516470 34.318567 -82.516208 34.318523 -82.516153 34.318456 -82.516139 34.318267 -82.516162 34.318130 -82.516254 34.317959 -82.516313 34.317779 -82.516357 34.317501 -82.516349 34.317352 -82.516268 34.317213 -82.516113 34.316953 -82.515653 34.316800 -82.515574 34.316384 -82.515589 34.316144 -82.515656 34.315940 -82.515740 34.315777 -82.515749 34.315736 -82.515770 34.315715 -82.515845 34.315727 -82.516023 34.315795 -82.516397 34.316066 -82.516381 34.316400 -82.516474 34.316944 -82.516889 34.317082 -82.516918 34.317834 -82.516968 34.318088 -82.517053 34.318303 -82.517200 34.318443 -82.517380 34.318507 -82.517639 34.318619 -82.517915 34.318622 -82.518018 34.318640 -82.518077 34.318928 -82.518139 34.319337 -82.518339 34.319542 -82.518343 34.319888 -82.518204 34.320136 -82.518258 34.320287 -82.518403 34.320350 -82.518528 34.320380 -82.518631 34.320424 -82.519117 34.320449 -82.519219 34.320543 -82.519369 34.320975 -82.519738 34.321396 -82.520258 34.321567 -82.520353 34.321699 -82.520351 34.321822 -82.520252 34.321930 -82.520027 34.321940 -82.519883 34.321913 -82.519733 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC001</ms:areasymbol>
+        <ms:musym>CcD</ms:musym>
+        <ms:nationalmusym>2zzyy</ms:nationalmusym>
+        <ms:mukey>1154993</ms:mukey>
+        <ms:spatialversion>7</ms:spatialversion>
+        <ms:muname>Cecil-Cataula complex, 10 to 15 percent slopes, moderately eroded</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp>13</ms:slopegraddcp>
+        <ms:slopegradwta>13</ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin>84</ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta>3.35</ms:aws025wta>
+        <ms:aws050wta>6.44</ms:aws050wta>
+        <ms:aws0100wta>12.63</ms:aws0100wta>
+        <ms:aws0150wta>19.5</ms:aws0150wta>
+        <ms:drclassdcd>Well drained</ms:drclassdcd>
+        <ms:drclasswettest>Moderately well drained</ms:drclasswettest>
+        <ms:hydgrpdcd>B</ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>4</ms:niccdcd>
+        <ms:niccdcdpct>75</ms:niccdcdpct>
+        <ms:engdwobdcd>Somewhat limited</ms:engdwobdcd>
+        <ms:engdwbdcd>Somewhat limited</ms:engdwbdcd>
+        <ms:engdwbll>Somewhat limited</ms:engdwbll>
+        <ms:engdwbml>Somewhat limited</ms:engdwbml>
+        <ms:engstafdcd>Somewhat limited</ms:engstafdcd>
+        <ms:engstafll>Somewhat limited</ms:engstafll>
+        <ms:engstafml>Very limited</ms:engstafml>
+        <ms:engsldcd>Very limited</ms:engsldcd>
+        <ms:engsldcp>Very limited</ms:engsldcp>
+        <ms:englrsdcd>Very limited</ms:englrsdcd>
+        <ms:engcmssdcd>Poor</ms:engcmssdcd>
+        <ms:engcmssmp>Poor</ms:engcmssmp>
+        <ms:urbrecptdcd>Somewhat limited</ms:urbrecptdcd>
+        <ms:urbrecptwta>0.064</ms:urbrecptwta>
+        <ms:forpehrtdcp>Erosion hazard moderate</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta>0.894</ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386727517</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.1154991">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.341088 -82.524758</gml:lowerCorner>
+        		<gml:upperCorner>34.343304 -82.520155</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.342906 -82.520290 34.342666 -82.520163 34.342509 -82.520155 34.342446 -82.520185 34.342368 -82.520311 34.342339 -82.520435 34.342335 -82.520534 34.342403 -82.520827 34.342403 -82.521092 34.342354 -82.521244 34.342247 -82.521371 34.342128 -82.521411 34.341700 -82.521466 34.341537 -82.521508 34.341273 -82.521707 34.341201 -82.521848 34.341093 -82.522201 34.341088 -82.522603 34.341179 -82.522929 34.341176 -82.523131 34.341136 -82.523264 34.341178 -82.523640 34.341334 -82.523954 34.341537 -82.524252 34.341566 -82.524274 34.341679 -82.524352 34.341831 -82.524393 34.342207 -82.524689 34.342263 -82.524685 34.342304 -82.524681 34.342350 -82.524598 34.342483 -82.524608 34.342700 -82.524758 34.342910 -82.524740 34.343009 -82.524570 34.343176 -82.523957 34.343304 -82.523713 34.343269 -82.523671 34.343209 -82.523510 34.343193 -82.523342 34.343184 -82.523090 34.343237 -82.522196 34.343201 -82.521719 34.343142 -82.521551 34.343104 -82.521311 34.343017 -82.521140 34.342897 -82.521012 34.342790 -82.520761 34.342775 -82.520610 34.342806 -82.520478 34.342906 -82.520290 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC001</ms:areasymbol>
+        <ms:musym>CcB</ms:musym>
+        <ms:nationalmusym>2q7j7</ms:nationalmusym>
+        <ms:mukey>1154991</ms:mukey>
+        <ms:spatialversion>7</ms:spatialversion>
+        <ms:muname>Cecil sandy loam, 2 to 6 percent slopes</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp>4</ms:slopegraddcp>
+        <ms:slopegradwta>4</ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin></ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta>2.95</ms:aws025wta>
+        <ms:aws050wta>5.45</ms:aws050wta>
+        <ms:aws0100wta>10.4</ms:aws0100wta>
+        <ms:aws0150wta>17.35</ms:aws0150wta>
+        <ms:drclassdcd>Well drained</ms:drclassdcd>
+        <ms:drclasswettest>Well drained</ms:drclasswettest>
+        <ms:hydgrpdcd>B</ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>2</ms:niccdcd>
+        <ms:niccdcdpct>95</ms:niccdcdpct>
+        <ms:engdwobdcd>Not limited</ms:engdwobdcd>
+        <ms:engdwbdcd>Not limited</ms:engdwbdcd>
+        <ms:engdwbll>Not limited</ms:engdwbll>
+        <ms:engdwbml>Somewhat limited</ms:engdwbml>
+        <ms:engstafdcd>Somewhat limited</ms:engstafdcd>
+        <ms:engstafll>Somewhat limited</ms:engstafll>
+        <ms:engstafml>Very limited</ms:engstafml>
+        <ms:engsldcd>Somewhat limited</ms:engsldcd>
+        <ms:engsldcp>Somewhat limited</ms:engsldcp>
+        <ms:englrsdcd>Very limited</ms:englrsdcd>
+        <ms:engcmssdcd>Poor</ms:engcmssdcd>
+        <ms:engcmssmp>Poor</ms:engcmssmp>
+        <ms:urbrecptdcd>Somewhat limited</ms:urbrecptdcd>
+        <ms:urbrecptwta>0.052</ms:urbrecptwta>
+        <ms:forpehrtdcp>Erosion hazard moderate</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta>0.506</ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386727655</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.1154991">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.323443 -82.535409</gml:lowerCorner>
+        		<gml:upperCorner>34.338453 -82.517159</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.327549 -82.520063 34.327541 -82.520114 34.327528 -82.520142 34.327501 -82.520155 34.327454 -82.520154 34.327414 -82.520164 34.327350 -82.520221 34.327291 -82.520268 34.327334 -82.520732 34.327271 -82.521216 34.327249 -82.521790 34.327255 -82.521967 34.327431 -82.522981 34.327578 -82.523417 34.327816 -82.523739 34.328166 -82.524163 34.328178 -82.524222 34.328164 -82.524711 34.328173 -82.524826 34.328130 -82.524955 34.328037 -82.525060 34.327841 -82.525141 34.327513 -82.525101 34.327200 -82.525411 34.327142 -82.525486 34.327039 -82.525721 34.327022 -82.526743 34.326925 -82.526886 34.326837 -82.526954 34.326564 -82.526973 34.326411 -82.526925 34.326370 -82.526907 34.326122 -82.526671 34.325858 -82.526510 34.325658 -82.526452 34.325475 -82.526454 34.325261 -82.526538 34.325053 -82.526733 34.324800 -82.527040 34.324574 -82.527217 34.323815 -82.527623 34.323731 -82.527693 34.323536 -82.527917 34.323447 -82.528189 34.323443 -82.528492 34.323507 -82.529031 34.323499 -82.529272 34.323652 -82.529395 34.323904 -82.529867 34.324136 -82.530169 34.324167 -82.530083 34.324453 -82.529865 34.324769 -82.529697 34.324894 -82.529651 34.325084 -82.529476 34.325332 -82.529052 34.325550 -82.528538 34.325680 -82.528383 34.325737 -82.528351 34.326134 -82.528309 34.326616 -82.528409 34.326925 -82.528536 34.327104 -82.528566 34.327233 -82.528565 34.327454 -82.528480 34.327521 -82.528427 34.327709 -82.528222 34.327741 -82.528153 34.327868 -82.527969 34.327921 -82.527780 34.327914 -82.527616 34.327828 -82.527355 34.327779 -82.527002 34.327812 -82.526558 34.327878 -82.526313 34.327969 -82.526126 34.328283 -82.525805 34.328644 -82.525594 34.328915 -82.525550 34.329042 -82.525568 34.329134 -82.525611 34.329215 -82.525702 34.329598 -82.526308 34.329781 -82.526496 34.329970 -82.526617 34.330170 -82.526675 34.330402 -82.526685 34.330537 -82.526642 34.330769 -82.526514 34.330866 -82.526507 34.331065 -82.526524 34.331140 -82.526597 34.331183 -82.526712 34.331177 -82.526847 34.331162 -82.526901 34.330914 -82.527174 34.330729 -82.527282 34.330533 -82.527453 34.330366 -82.527685 34.330191 -82.528141 34.330138 -82.528161 34.330199 -82.528371 34.330284 -82.528945 34.330364 -82.529201 34.330544 -82.529517 34.330666 -82.529590 34.331015 -82.529677 34.331257 -82.529801 34.331382 -82.529895 34.331793 -82.530290 34.332213 -82.530589 34.332483 -82.530703 34.332655 -82.530655 34.332823 -82.530508 34.332910 -82.530286 34.332995 -82.529915 34.333044 -82.529883 34.333086 -82.529887 34.333118 -82.529917 34.333246 -82.530236 34.333459 -82.531452 34.333581 -82.531732 34.333716 -82.531921 34.333765 -82.532049 34.333770 -82.532298 34.333725 -82.532532 34.333749 -82.532548 34.333902 -82.532823 34.334185 -82.533679 34.334266 -82.534439 34.334314 -82.534563 34.334348 -82.534605 34.334495 -82.534671 34.334808 -82.534675 34.334959 -82.534739 34.335120 -82.534903 34.335233 -82.535098 34.335439 -82.535254 34.335574 -82.535281 34.335891 -82.535288 34.336066 -82.535409 34.336136 -82.535362 34.336360 -82.535288 34.336929 -82.535364 34.337245 -82.535350 34.337285 -82.535331 34.337459 -82.535157 34.337568 -82.534956 34.337576 -82.534906 34.337717 -82.534590 34.337820 -82.534112 34.337884 -82.533943 34.338120 -82.533408 34.338360 -82.533082 34.338435 -82.532836 34.338453 -82.532616 34.338418 -82.532445 34.338386 -82.532390 34.338144 -82.532157 34.337820 -82.531953 34.337498 -82.531720 34.337379 -82.531552 34.337342 -82.531447 34.337302 -82.531387 34.337257 -82.531400 34.336935 -82.531367 34.336208 -82.531489 34.336040 -82.531503 34.335904 -82.531433 34.335850 -82.531385 34.335799 -82.531274 34.335721 -82.530961 34.335725 -82.530695 34.335749 -82.530485 34.335803 -82.530401 34.335844 -82.530220 34.335852 -82.529967 34.335770 -82.529784 34.335520 -82.529522 34.335485 -82.529467 34.335479 -82.529183 34.335521 -82.529078 34.335557 -82.529028 34.335848 -82.528828 34.335896 -82.528707 34.335902 -82.528599 34.335665 -82.528139 34.335453 -82.527889 34.335429 -82.527823 34.335425 -82.527659 34.335469 -82.527502 34.335592 -82.527423 34.335735 -82.527430 34.335827 -82.527461 34.335991 -82.527481 34.336051 -82.527477 34.336102 -82.527421 34.336137 -82.527275 34.336092 -82.526814 34.336100 -82.526603 34.336239 -82.526352 34.336213 -82.525911 34.336327 -82.525650 34.336344 -82.525528 34.336364 -82.525167 34.336269 -82.524595 34.336282 -82.524217 34.336311 -82.524165 34.336179 -82.523945 34.336029 -82.523557 34.335973 -82.523492 34.335874 -82.523433 34.335727 -82.523411 34.335604 -82.523460 34.335551 -82.523518 34.335382 -82.523875 34.335337 -82.524148 34.335340 -82.524609 34.335267 -82.524675 34.335217 -82.524665 34.335047 -82.524476 34.334874 -82.524203 34.334604 -82.523885 34.334424 -82.523711 34.334060 -82.523461 34.333920 -82.523310 34.333715 -82.523010 34.333600 -82.522919 34.333475 -82.522993 34.333501 -82.523171 34.333628 -82.523575 34.334015 -82.524512 34.334062 -82.524904 34.334055 -82.525203 34.333876 -82.525457 34.333394 -82.525848 34.332886 -82.526046 34.332692 -82.526044 34.332543 -82.525968 34.332368 -82.525792 34.332201 -82.525430 34.332191 -82.525189 34.332243 -82.524935 34.332124 -82.524815 34.331761 -82.524323 34.331612 -82.524000 34.331559 -82.523928 34.331388 -82.523726 34.331251 -82.523695 34.331140 -82.523696 34.331023 -82.523754 34.330777 -82.523987 34.330773 -82.524020 34.330650 -82.524270 34.330505 -82.524692 34.330389 -82.524825 34.330336 -82.524867 34.330196 -82.524869 34.330073 -82.524775 34.329989 -82.524696 34.329943 -82.524608 34.329834 -82.524292 34.329799 -82.524115 34.329759 -82.523684 34.329777 -82.523254 34.329769 -82.522845 34.329670 -82.522673 34.329632 -82.522639 34.329477 -82.522611 34.329394 -82.522641 34.329257 -82.522768 34.328713 -82.523417 34.328585 -82.523502 34.328552 -82.523498 34.328418 -82.523381 34.328370 -82.523199 34.328372 -82.522865 34.328531 -82.522163 34.328600 -82.521949 34.328791 -82.521548 34.329077 -82.521135 34.329601 -82.520764 34.330251 -82.520126 34.330269 -82.519756 34.330489 -82.518317 34.330515 -82.517847 34.330378 -82.517397 34.330235 -82.517234 34.330144 -82.517190 34.329972 -82.517159 34.329767 -82.517187 34.329572 -82.517291 34.329261 -82.517584 34.329160 -82.517782 34.329035 -82.518534 34.329005 -82.518658 34.328955 -82.518718 34.328251 -82.519308 34.327809 -82.519964 34.327620 -82.520048 34.327549 -82.520063 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC001</ms:areasymbol>
+        <ms:musym>CcB</ms:musym>
+        <ms:nationalmusym>2q7j7</ms:nationalmusym>
+        <ms:mukey>1154991</ms:mukey>
+        <ms:spatialversion>7</ms:spatialversion>
+        <ms:muname>Cecil sandy loam, 2 to 6 percent slopes</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp>4</ms:slopegraddcp>
+        <ms:slopegradwta>4</ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin></ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta>2.95</ms:aws025wta>
+        <ms:aws050wta>5.45</ms:aws050wta>
+        <ms:aws0100wta>10.4</ms:aws0100wta>
+        <ms:aws0150wta>17.35</ms:aws0150wta>
+        <ms:drclassdcd>Well drained</ms:drclassdcd>
+        <ms:drclasswettest>Well drained</ms:drclasswettest>
+        <ms:hydgrpdcd>B</ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>2</ms:niccdcd>
+        <ms:niccdcdpct>95</ms:niccdcdpct>
+        <ms:engdwobdcd>Not limited</ms:engdwobdcd>
+        <ms:engdwbdcd>Not limited</ms:engdwbdcd>
+        <ms:engdwbll>Not limited</ms:engdwbll>
+        <ms:engdwbml>Somewhat limited</ms:engdwbml>
+        <ms:engstafdcd>Somewhat limited</ms:engstafdcd>
+        <ms:engstafll>Somewhat limited</ms:engstafll>
+        <ms:engstafml>Very limited</ms:engstafml>
+        <ms:engsldcd>Somewhat limited</ms:engsldcd>
+        <ms:engsldcp>Somewhat limited</ms:engsldcp>
+        <ms:englrsdcd>Very limited</ms:englrsdcd>
+        <ms:engcmssdcd>Poor</ms:engcmssdcd>
+        <ms:engcmssmp>Poor</ms:engcmssmp>
+        <ms:urbrecptdcd>Somewhat limited</ms:urbrecptdcd>
+        <ms:urbrecptwta>0.052</ms:urbrecptwta>
+        <ms:forpehrtdcp>Erosion hazard moderate</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta>0.506</ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386727749</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.1155022">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.318053 -82.536061</gml:lowerCorner>
+        		<gml:upperCorner>34.318574 -82.535434</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.318072 -82.535657 34.318053 -82.535737 34.318066 -82.535839 34.318247 -82.536022 34.318378 -82.536061 34.318528 -82.536051 34.318574 -82.535766 34.318517 -82.535613 34.318519 -82.535457 34.318448 -82.535434 34.318072 -82.535657 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC001</ms:areasymbol>
+        <ms:musym>W</ms:musym>
+        <ms:nationalmusym>17rws</ms:nationalmusym>
+        <ms:mukey>1155022</ms:mukey>
+        <ms:spatialversion>7</ms:spatialversion>
+        <ms:muname>Water</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp></ms:slopegraddcp>
+        <ms:slopegradwta></ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin></ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta></ms:aws025wta>
+        <ms:aws050wta></ms:aws050wta>
+        <ms:aws0100wta></ms:aws0100wta>
+        <ms:aws0150wta></ms:aws0150wta>
+        <ms:drclassdcd></ms:drclassdcd>
+        <ms:drclasswettest></ms:drclasswettest>
+        <ms:hydgrpdcd></ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>8</ms:niccdcd>
+        <ms:niccdcdpct>100</ms:niccdcdpct>
+        <ms:engdwobdcd>Not rated</ms:engdwobdcd>
+        <ms:engdwbdcd>Not rated</ms:engdwbdcd>
+        <ms:engdwbll>Not rated</ms:engdwbll>
+        <ms:engdwbml>Not rated</ms:engdwbml>
+        <ms:engstafdcd>Not rated</ms:engstafdcd>
+        <ms:engstafll>Not rated</ms:engstafll>
+        <ms:engstafml>Not rated</ms:engstafml>
+        <ms:engsldcd>Not rated</ms:engsldcd>
+        <ms:engsldcp>Not rated</ms:engsldcp>
+        <ms:englrsdcd>Not rated</ms:englrsdcd>
+        <ms:engcmssdcd>Not rated</ms:engcmssdcd>
+        <ms:engcmssmp>Not rated</ms:engcmssmp>
+        <ms:urbrecptdcd>Not rated</ms:urbrecptdcd>
+        <ms:urbrecptwta></ms:urbrecptwta>
+        <ms:forpehrtdcp>Not rated</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta></ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386727831</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.1154985">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.317632 -82.529272</gml:lowerCorner>
+        		<gml:upperCorner>34.327959 -82.516887</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.326701 -82.520315 34.326701 -82.520268 34.326711 -82.520230 34.326723 -82.520187 34.326758 -82.520082 34.326784 -82.520038 34.326806 -82.519999 34.326864 -82.519907 34.326989 -82.519756 34.327091 -82.519623 34.327199 -82.519556 34.327230 -82.519554 34.327247 -82.519563 34.327310 -82.519494 34.327386 -82.519176 34.327761 -82.518750 34.327959 -82.518341 34.327947 -82.518139 34.327831 -82.518014 34.327683 -82.517927 34.327642 -82.517844 34.327628 -82.517740 34.327588 -82.517693 34.327279 -82.517635 34.327215 -82.517647 34.327029 -82.517742 34.326924 -82.517838 34.326761 -82.518028 34.326606 -82.518356 34.326582 -82.518490 34.326356 -82.519135 34.326152 -82.519298 34.326049 -82.519344 34.325803 -82.519399 34.325767 -82.519381 34.325688 -82.519296 34.325674 -82.519113 34.325776 -82.518799 34.325928 -82.518562 34.325953 -82.518479 34.325986 -82.518246 34.325977 -82.518165 34.325912 -82.517984 34.325880 -82.517966 34.325765 -82.517976 34.325642 -82.518083 34.325289 -82.518467 34.324573 -82.519099 34.324445 -82.519270 34.324318 -82.519545 34.324191 -82.519708 34.324053 -82.519768 34.323914 -82.519780 34.323791 -82.519671 34.323771 -82.519419 34.323892 -82.519047 34.324066 -82.518692 34.324136 -82.518590 34.324231 -82.518478 34.324407 -82.518418 34.324559 -82.518242 34.324563 -82.517799 34.324493 -82.517573 34.324423 -82.517508 34.324307 -82.517485 34.324229 -82.517508 34.323817 -82.517708 34.323626 -82.517714 34.323527 -82.517676 34.323442 -82.517567 34.323414 -82.517500 34.323335 -82.516952 34.323205 -82.516887 34.323031 -82.516956 34.322731 -82.517317 34.322396 -82.517510 34.322183 -82.517554 34.321991 -82.517572 34.321763 -82.517532 34.321703 -82.517472 34.321666 -82.517401 34.321347 -82.517429 34.321301 -82.517453 34.321102 -82.517633 34.320896 -82.517960 34.321035 -82.518388 34.321182 -82.518611 34.321465 -82.518857 34.321589 -82.519007 34.321674 -82.519141 34.321896 -82.519641 34.321913 -82.519733 34.322108 -82.519566 34.322166 -82.519556 34.322346 -82.519657 34.322963 -82.519794 34.323197 -82.519893 34.323608 -82.520246 34.323763 -82.520445 34.323938 -82.520758 34.323981 -82.520916 34.323965 -82.521198 34.323751 -82.521575 34.323618 -82.521625 34.323355 -82.521591 34.323311 -82.521566 34.323189 -82.521439 34.323088 -82.521239 34.322909 -82.521067 34.322735 -82.520994 34.322427 -82.520938 34.322348 -82.520952 34.322358 -82.521014 34.322337 -82.521070 34.322394 -82.521113 34.322474 -82.521190 34.322510 -82.521220 34.322532 -82.521272 34.322567 -82.521332 34.322590 -82.521379 34.322631 -82.521430 34.322684 -82.521475 34.322709 -82.521523 34.322710 -82.521551 34.322698 -82.521569 34.322670 -82.521588 34.322635 -82.521600 34.322570 -82.521588 34.322534 -82.521584 34.322487 -82.521547 34.322405 -82.521483 34.322341 -82.521443 34.322055 -82.521306 34.321975 -82.521283 34.321934 -82.521329 34.321475 -82.521381 34.321436 -82.521409 34.321410 -82.521512 34.321241 -82.521742 34.321160 -82.521996 34.320910 -82.522587 34.320868 -82.522641 34.320692 -82.522784 34.320578 -82.522816 34.320376 -82.522798 34.320164 -82.522682 34.319864 -82.522611 34.319658 -82.522526 34.319352 -82.522508 34.319035 -82.522558 34.317846 -82.523160 34.317821 -82.523244 34.317698 -82.523383 34.317632 -82.524077 34.317638 -82.524161 34.317680 -82.524320 34.317959 -82.524615 34.318195 -82.524749 34.318469 -82.524966 34.318662 -82.525218 34.318763 -82.525467 34.318945 -82.525743 34.319076 -82.526099 34.319257 -82.526370 34.319420 -82.526443 34.319596 -82.526461 34.319791 -82.526415 34.320090 -82.526311 34.320709 -82.526221 34.320939 -82.526145 34.321130 -82.526130 34.321246 -82.526177 34.321325 -82.526321 34.321366 -82.526472 34.321380 -82.526559 34.321350 -82.526728 34.321297 -82.526887 34.321118 -82.527100 34.320745 -82.527292 34.320717 -82.527323 34.320733 -82.527494 34.320822 -82.527667 34.321461 -82.528304 34.321950 -82.528667 34.322273 -82.528829 34.322638 -82.528915 34.322856 -82.528984 34.323330 -82.529179 34.323499 -82.529272 34.323507 -82.529031 34.323443 -82.528492 34.323447 -82.528189 34.323536 -82.527917 34.323731 -82.527693 34.323815 -82.527623 34.324574 -82.527217 34.324800 -82.527040 34.325053 -82.526733 34.325261 -82.526538 34.325475 -82.526454 34.325658 -82.526452 34.325858 -82.526510 34.326122 -82.526671 34.326370 -82.526907 34.326411 -82.526925 34.326564 -82.526973 34.326837 -82.526954 34.326925 -82.526886 34.327022 -82.526743 34.327039 -82.525721 34.327142 -82.525486 34.327200 -82.525411 34.327513 -82.525101 34.327495 -82.525044 34.327346 -82.524784 34.327130 -82.524294 34.326753 -82.523302 34.326658 -82.522746 34.326529 -82.522347 34.326437 -82.521521 34.326453 -82.521079 34.326541 -82.520603 34.326701 -82.520315 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC001</ms:areasymbol>
+        <ms:musym>ApB</ms:musym>
+        <ms:nationalmusym>2th0j</ms:nationalmusym>
+        <ms:mukey>1154985</ms:mukey>
+        <ms:spatialversion>7</ms:spatialversion>
+        <ms:muname>Appling sandy loam, 2 to 6 percent slopes</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp>4</ms:slopegraddcp>
+        <ms:slopegradwta>4</ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin></ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta>3.5</ms:aws025wta>
+        <ms:aws050wta>6.93</ms:aws050wta>
+        <ms:aws0100wta>13.74</ms:aws0100wta>
+        <ms:aws0150wta>22.21</ms:aws0150wta>
+        <ms:drclassdcd>Well drained</ms:drclassdcd>
+        <ms:drclasswettest>Well drained</ms:drclasswettest>
+        <ms:hydgrpdcd>B</ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>2</ms:niccdcd>
+        <ms:niccdcdpct>100</ms:niccdcdpct>
+        <ms:engdwobdcd>Not limited</ms:engdwobdcd>
+        <ms:engdwbdcd>Not limited</ms:engdwbdcd>
+        <ms:engdwbll>Not limited</ms:engdwbll>
+        <ms:engdwbml>Very limited</ms:engdwbml>
+        <ms:engstafdcd>Somewhat limited</ms:engstafdcd>
+        <ms:engstafll>Somewhat limited</ms:engstafll>
+        <ms:engstafml>Very limited</ms:engstafml>
+        <ms:engsldcd>Somewhat limited</ms:engsldcd>
+        <ms:engsldcp>Somewhat limited</ms:engsldcp>
+        <ms:englrsdcd>Very limited</ms:englrsdcd>
+        <ms:engcmssdcd>Poor</ms:engcmssdcd>
+        <ms:engcmssmp>Poor</ms:engcmssmp>
+        <ms:urbrecptdcd>Somewhat limited</ms:urbrecptdcd>
+        <ms:urbrecptwta>0.048</ms:urbrecptwta>
+        <ms:forpehrtdcp>Erosion hazard moderate</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta>0.107</ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386727832</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.1155022">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.348657 -82.522162</gml:lowerCorner>
+        		<gml:upperCorner>34.349257 -82.521099</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.349077 -82.521099 34.349048 -82.521114 34.349007 -82.521174 34.348961 -82.521233 34.348899 -82.521247 34.348823 -82.521287 34.348776 -82.521365 34.348733 -82.521449 34.348698 -82.521651 34.348657 -82.521849 34.348682 -82.522003 34.348718 -82.522109 34.348726 -82.522118 34.348762 -82.522156 34.348865 -82.522162 34.349037 -82.522140 34.349063 -82.522138 34.349124 -82.522092 34.349133 -82.522045 34.349127 -82.522020 34.349093 -82.521950 34.349058 -82.521846 34.349049 -82.521743 34.349046 -82.521715 34.349057 -82.521671 34.349076 -82.521629 34.349112 -82.521602 34.349142 -82.521579 34.349228 -82.521494 34.349246 -82.521421 34.349257 -82.521334 34.349242 -82.521244 34.349198 -82.521141 34.349145 -82.521102 34.349077 -82.521099 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC001</ms:areasymbol>
+        <ms:musym>W</ms:musym>
+        <ms:nationalmusym>17rws</ms:nationalmusym>
+        <ms:mukey>1155022</ms:mukey>
+        <ms:spatialversion>7</ms:spatialversion>
+        <ms:muname>Water</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp></ms:slopegraddcp>
+        <ms:slopegradwta></ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin></ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta></ms:aws025wta>
+        <ms:aws050wta></ms:aws050wta>
+        <ms:aws0100wta></ms:aws0100wta>
+        <ms:aws0150wta></ms:aws0150wta>
+        <ms:drclassdcd></ms:drclassdcd>
+        <ms:drclasswettest></ms:drclasswettest>
+        <ms:hydgrpdcd></ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>8</ms:niccdcd>
+        <ms:niccdcdpct>100</ms:niccdcdpct>
+        <ms:engdwobdcd>Not rated</ms:engdwobdcd>
+        <ms:engdwbdcd>Not rated</ms:engdwbdcd>
+        <ms:engdwbll>Not rated</ms:engdwbll>
+        <ms:engdwbml>Not rated</ms:engdwbml>
+        <ms:engstafdcd>Not rated</ms:engstafdcd>
+        <ms:engstafll>Not rated</ms:engstafll>
+        <ms:engstafml>Not rated</ms:engstafml>
+        <ms:engsldcd>Not rated</ms:engsldcd>
+        <ms:engsldcp>Not rated</ms:engsldcp>
+        <ms:englrsdcd>Not rated</ms:englrsdcd>
+        <ms:engcmssdcd>Not rated</ms:engcmssdcd>
+        <ms:engcmssmp>Not rated</ms:engcmssmp>
+        <ms:urbrecptdcd>Not rated</ms:urbrecptdcd>
+        <ms:urbrecptwta></ms:urbrecptwta>
+        <ms:forpehrtdcp>Not rated</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta></ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386727834</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.1154991">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.329950 -82.520381</gml:lowerCorner>
+        		<gml:upperCorner>34.338874 -82.512982</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.334993 -82.516381 34.334924 -82.516301 34.334433 -82.515960 34.333723 -82.515389 34.333507 -82.515298 34.333156 -82.515246 34.332660 -82.514976 34.332406 -82.514950 34.332184 -82.514903 34.331955 -82.514786 34.331602 -82.514653 34.331202 -82.514404 34.330743 -82.513950 34.330586 -82.513707 34.330424 -82.513304 34.330200 -82.513010 34.330172 -82.512991 34.330082 -82.512982 34.330015 -82.513015 34.329954 -82.513159 34.329950 -82.513518 34.330021 -82.513853 34.330128 -82.514111 34.330370 -82.514504 34.330424 -82.514654 34.330858 -82.515488 34.331307 -82.516546 34.331398 -82.516647 34.331680 -82.516786 34.331968 -82.516859 34.333031 -82.516924 34.334015 -82.517137 34.334227 -82.517234 34.334340 -82.517332 34.334526 -82.517665 34.334582 -82.517881 34.335301 -82.518192 34.335729 -82.518253 34.335848 -82.518284 34.336667 -82.518327 34.336950 -82.518508 34.337017 -82.518579 34.337029 -82.518765 34.336838 -82.518903 34.336797 -82.518952 34.336669 -82.519167 34.336624 -82.519322 34.336626 -82.519615 34.336701 -82.519913 34.336690 -82.519947 34.336965 -82.519935 34.337017 -82.519970 34.337069 -82.520227 34.337142 -82.520348 34.337191 -82.520381 34.337303 -82.520375 34.337409 -82.520212 34.337447 -82.520121 34.337533 -82.519435 34.337588 -82.519304 34.337749 -82.519133 34.337951 -82.519050 34.338046 -82.519028 34.338420 -82.519000 34.338660 -82.518937 34.338767 -82.518873 34.338864 -82.518685 34.338874 -82.518540 34.338797 -82.518389 34.338549 -82.518299 34.338215 -82.518230 34.337717 -82.517970 34.337646 -82.517839 34.337636 -82.517554 34.337589 -82.517480 34.337531 -82.517456 34.337388 -82.517505 34.337118 -82.517764 34.336935 -82.517913 34.336796 -82.517994 34.336529 -82.518006 34.336291 -82.517913 34.335936 -82.517611 34.335870 -82.517522 34.335292 -82.516957 34.335095 -82.516742 34.334985 -82.516546 34.334993 -82.516381 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC001</ms:areasymbol>
+        <ms:musym>CcB</ms:musym>
+        <ms:nationalmusym>2q7j7</ms:nationalmusym>
+        <ms:mukey>1154991</ms:mukey>
+        <ms:spatialversion>7</ms:spatialversion>
+        <ms:muname>Cecil sandy loam, 2 to 6 percent slopes</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp>4</ms:slopegraddcp>
+        <ms:slopegradwta>4</ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin></ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta>2.95</ms:aws025wta>
+        <ms:aws050wta>5.45</ms:aws050wta>
+        <ms:aws0100wta>10.4</ms:aws0100wta>
+        <ms:aws0150wta>17.35</ms:aws0150wta>
+        <ms:drclassdcd>Well drained</ms:drclassdcd>
+        <ms:drclasswettest>Well drained</ms:drclasswettest>
+        <ms:hydgrpdcd>B</ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>2</ms:niccdcd>
+        <ms:niccdcdpct>95</ms:niccdcdpct>
+        <ms:engdwobdcd>Not limited</ms:engdwobdcd>
+        <ms:engdwbdcd>Not limited</ms:engdwbdcd>
+        <ms:engdwbll>Not limited</ms:engdwbll>
+        <ms:engdwbml>Somewhat limited</ms:engdwbml>
+        <ms:engstafdcd>Somewhat limited</ms:engstafdcd>
+        <ms:engstafll>Somewhat limited</ms:engstafll>
+        <ms:engstafml>Very limited</ms:engstafml>
+        <ms:engsldcd>Somewhat limited</ms:engsldcd>
+        <ms:engsldcp>Somewhat limited</ms:engsldcp>
+        <ms:englrsdcd>Very limited</ms:englrsdcd>
+        <ms:engcmssdcd>Poor</ms:engcmssdcd>
+        <ms:engcmssmp>Poor</ms:engcmssmp>
+        <ms:urbrecptdcd>Somewhat limited</ms:urbrecptdcd>
+        <ms:urbrecptwta>0.052</ms:urbrecptwta>
+        <ms:forpehrtdcp>Erosion hazard moderate</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta>0.506</ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386727836</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.1154992">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.317404 -82.521519</gml:lowerCorner>
+        		<gml:upperCorner>34.322358 -82.518077</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.321822 -82.520252 34.321699 -82.520351 34.321567 -82.520353 34.321396 -82.520258 34.320975 -82.519738 34.320543 -82.519369 34.320449 -82.519219 34.320424 -82.519117 34.320380 -82.518631 34.320350 -82.518528 34.320287 -82.518403 34.320136 -82.518258 34.319888 -82.518204 34.319542 -82.518343 34.319337 -82.518339 34.318928 -82.518139 34.318640 -82.518077 34.318517 -82.518238 34.317964 -82.518490 34.317851 -82.518574 34.317737 -82.518698 34.317612 -82.518881 34.317560 -82.519196 34.317557 -82.519863 34.317455 -82.520367 34.317443 -82.520659 34.317404 -82.520899 34.317410 -82.520970 34.317491 -82.521272 34.317666 -82.521519 34.317866 -82.521093 34.318188 -82.520680 34.318400 -82.520329 34.318675 -82.519748 34.318783 -82.519663 34.318852 -82.519676 34.319072 -82.519789 34.319213 -82.519968 34.319463 -82.520151 34.319560 -82.520171 34.319845 -82.520184 34.320243 -82.520069 34.320446 -82.520068 34.320650 -82.520175 34.320866 -82.520402 34.320977 -82.520629 34.321219 -82.520970 34.321357 -82.521194 34.321420 -82.521333 34.321436 -82.521409 34.321475 -82.521381 34.321934 -82.521329 34.321975 -82.521283 34.321959 -82.521278 34.321835 -82.521264 34.321817 -82.521252 34.321787 -82.521217 34.321766 -82.521157 34.321760 -82.521101 34.321856 -82.520867 34.321928 -82.520822 34.321980 -82.520825 34.322007 -82.520841 34.322041 -82.520876 34.322084 -82.520930 34.322160 -82.520998 34.322246 -82.521046 34.322309 -82.521056 34.322337 -82.521070 34.322358 -82.521014 34.322348 -82.520952 34.322257 -82.520903 34.322172 -82.520784 34.322017 -82.520210 34.321977 -82.520101 34.321930 -82.520027 34.321822 -82.520252 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC001</ms:areasymbol>
+        <ms:musym>CcC</ms:musym>
+        <ms:nationalmusym>2q7j8</ms:nationalmusym>
+        <ms:mukey>1154992</ms:mukey>
+        <ms:spatialversion>7</ms:spatialversion>
+        <ms:muname>Cecil sandy loam, 6 to 10 percent slopes</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp>8</ms:slopegraddcp>
+        <ms:slopegradwta>8</ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin></ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta>2.99</ms:aws025wta>
+        <ms:aws050wta>5.5</ms:aws050wta>
+        <ms:aws0100wta>10.48</ms:aws0100wta>
+        <ms:aws0150wta>16.87</ms:aws0150wta>
+        <ms:drclassdcd>Well drained</ms:drclassdcd>
+        <ms:drclasswettest>Well drained</ms:drclasswettest>
+        <ms:hydgrpdcd>B</ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>3</ms:niccdcd>
+        <ms:niccdcdpct>98</ms:niccdcdpct>
+        <ms:engdwobdcd>Not limited</ms:engdwobdcd>
+        <ms:engdwbdcd>Not limited</ms:engdwbdcd>
+        <ms:engdwbll>Not limited</ms:engdwbll>
+        <ms:engdwbml>Somewhat limited</ms:engdwbml>
+        <ms:engstafdcd>Somewhat limited</ms:engstafdcd>
+        <ms:engstafll>Somewhat limited</ms:engstafll>
+        <ms:engstafml>Very limited</ms:engstafml>
+        <ms:engsldcd>Very limited</ms:engsldcd>
+        <ms:engsldcp>Very limited</ms:engsldcp>
+        <ms:englrsdcd>Very limited</ms:englrsdcd>
+        <ms:engcmssdcd>Poor</ms:engcmssdcd>
+        <ms:engcmssmp>Poor</ms:engcmssmp>
+        <ms:urbrecptdcd>Somewhat limited</ms:urbrecptdcd>
+        <ms:urbrecptwta>0.05</ms:urbrecptwta>
+        <ms:forpehrtdcp>Erosion hazard moderate</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta>0.542</ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386727884</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.1154992">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.314543 -82.550541</gml:lowerCorner>
+        		<gml:upperCorner>34.320281 -82.545819</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.318469 -82.546143 34.318840 -82.546425 34.318995 -82.546636 34.319063 -82.546751 34.319110 -82.546876 34.319114 -82.547042 34.319078 -82.547215 34.318973 -82.547416 34.318852 -82.547540 34.318685 -82.547606 34.318484 -82.547652 34.318249 -82.547632 34.317933 -82.547525 34.317590 -82.547465 34.317282 -82.547479 34.316866 -82.547533 34.316590 -82.547621 34.316596 -82.547654 34.316384 -82.548018 34.316068 -82.548387 34.315781 -82.548602 34.315691 -82.548648 34.315348 -82.548766 34.315219 -82.548792 34.314971 -82.548664 34.314840 -82.548673 34.314622 -82.548914 34.314543 -82.549083 34.314554 -82.549226 34.314632 -82.549303 34.314731 -82.549324 34.315195 -82.549291 34.315775 -82.549065 34.316034 -82.548920 34.316530 -82.548582 34.316917 -82.548507 34.317240 -82.548507 34.317378 -82.548614 34.317332 -82.548783 34.317143 -82.549070 34.316807 -82.549413 34.316773 -82.549551 34.316768 -82.549683 34.316854 -82.549797 34.317122 -82.550003 34.317225 -82.550283 34.317366 -82.550452 34.317479 -82.550533 34.317756 -82.550541 34.318073 -82.550417 34.317923 -82.550195 34.317727 -82.549778 34.317709 -82.549695 34.317701 -82.549500 34.317737 -82.549241 34.317860 -82.548953 34.317914 -82.548864 34.317973 -82.548798 34.318122 -82.548775 34.318437 -82.548805 34.318541 -82.548789 34.318754 -82.548707 34.318921 -82.548592 34.319098 -82.548422 34.319183 -82.548276 34.319270 -82.547924 34.319344 -82.547788 34.319377 -82.547757 34.319469 -82.547715 34.319566 -82.547735 34.319951 -82.548025 34.320084 -82.548026 34.320163 -82.547973 34.320221 -82.547780 34.320281 -82.547701 34.320279 -82.547596 34.320254 -82.547536 34.320215 -82.547312 34.320209 -82.546981 34.320167 -82.546866 34.320030 -82.546590 34.319826 -82.546330 34.319679 -82.546048 34.319561 -82.545945 34.319369 -82.545848 34.319036 -82.545819 34.318899 -82.545860 34.318543 -82.546082 34.318469 -82.546143 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC001</ms:areasymbol>
+        <ms:musym>CcC</ms:musym>
+        <ms:nationalmusym>2q7j8</ms:nationalmusym>
+        <ms:mukey>1154992</ms:mukey>
+        <ms:spatialversion>7</ms:spatialversion>
+        <ms:muname>Cecil sandy loam, 6 to 10 percent slopes</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp>8</ms:slopegraddcp>
+        <ms:slopegradwta>8</ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin></ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta>2.99</ms:aws025wta>
+        <ms:aws050wta>5.5</ms:aws050wta>
+        <ms:aws0100wta>10.48</ms:aws0100wta>
+        <ms:aws0150wta>16.87</ms:aws0150wta>
+        <ms:drclassdcd>Well drained</ms:drclassdcd>
+        <ms:drclasswettest>Well drained</ms:drclasswettest>
+        <ms:hydgrpdcd>B</ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>3</ms:niccdcd>
+        <ms:niccdcdpct>98</ms:niccdcdpct>
+        <ms:engdwobdcd>Not limited</ms:engdwobdcd>
+        <ms:engdwbdcd>Not limited</ms:engdwbdcd>
+        <ms:engdwbll>Not limited</ms:engdwbll>
+        <ms:engdwbml>Somewhat limited</ms:engdwbml>
+        <ms:engstafdcd>Somewhat limited</ms:engstafdcd>
+        <ms:engstafll>Somewhat limited</ms:engstafll>
+        <ms:engstafml>Very limited</ms:engstafml>
+        <ms:engsldcd>Very limited</ms:engsldcd>
+        <ms:engsldcp>Very limited</ms:engsldcp>
+        <ms:englrsdcd>Very limited</ms:englrsdcd>
+        <ms:engcmssdcd>Poor</ms:engcmssdcd>
+        <ms:engcmssmp>Poor</ms:engcmssmp>
+        <ms:urbrecptdcd>Somewhat limited</ms:urbrecptdcd>
+        <ms:urbrecptwta>0.05</ms:urbrecptwta>
+        <ms:forpehrtdcp>Erosion hazard moderate</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta>0.542</ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386727885</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.1154992">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.338673 -82.536888</gml:lowerCorner>
+        		<gml:upperCorner>34.343184 -82.528627</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.338673 -82.536669 34.338880 -82.536844 34.339072 -82.536888 34.339068 -82.536775 34.339088 -82.536693 34.339283 -82.536350 34.339806 -82.535678 34.339892 -82.535550 34.339916 -82.535455 34.340108 -82.535264 34.340318 -82.535131 34.340400 -82.535021 34.340407 -82.534968 34.340387 -82.534726 34.340322 -82.534512 34.340163 -82.534213 34.340164 -82.534011 34.340279 -82.533888 34.340310 -82.533846 34.340366 -82.533673 34.340409 -82.533636 34.340652 -82.533263 34.340813 -82.533211 34.341275 -82.533137 34.341382 -82.533070 34.341471 -82.533038 34.341207 -82.532861 34.341160 -82.532778 34.341187 -82.532469 34.341240 -82.532308 34.341307 -82.532232 34.341870 -82.531310 34.342124 -82.530988 34.342394 -82.530747 34.342473 -82.530708 34.342691 -82.530679 34.342850 -82.530597 34.343005 -82.530470 34.343153 -82.530223 34.343184 -82.530042 34.343146 -82.529562 34.343041 -82.528627 34.342864 -82.528937 34.342659 -82.529614 34.342507 -82.529784 34.342291 -82.529852 34.342179 -82.529976 34.341983 -82.530518 34.341802 -82.530795 34.341251 -82.531429 34.340719 -82.531858 34.340514 -82.532040 34.340483 -82.532086 34.340437 -82.532112 34.340245 -82.532316 34.340082 -82.532523 34.340017 -82.532703 34.339965 -82.533219 34.339941 -82.533339 34.339737 -82.533750 34.339723 -82.533862 34.339537 -82.534481 34.339435 -82.534879 34.339183 -82.535396 34.338987 -82.535902 34.338770 -82.536372 34.338673 -82.536669 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC001</ms:areasymbol>
+        <ms:musym>CcC</ms:musym>
+        <ms:nationalmusym>2q7j8</ms:nationalmusym>
+        <ms:mukey>1154992</ms:mukey>
+        <ms:spatialversion>7</ms:spatialversion>
+        <ms:muname>Cecil sandy loam, 6 to 10 percent slopes</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp>8</ms:slopegraddcp>
+        <ms:slopegradwta>8</ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin></ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta>2.99</ms:aws025wta>
+        <ms:aws050wta>5.5</ms:aws050wta>
+        <ms:aws0100wta>10.48</ms:aws0100wta>
+        <ms:aws0150wta>16.87</ms:aws0150wta>
+        <ms:drclassdcd>Well drained</ms:drclassdcd>
+        <ms:drclasswettest>Well drained</ms:drclasswettest>
+        <ms:hydgrpdcd>B</ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>3</ms:niccdcd>
+        <ms:niccdcdpct>98</ms:niccdcdpct>
+        <ms:engdwobdcd>Not limited</ms:engdwobdcd>
+        <ms:engdwbdcd>Not limited</ms:engdwbdcd>
+        <ms:engdwbll>Not limited</ms:engdwbll>
+        <ms:engdwbml>Somewhat limited</ms:engdwbml>
+        <ms:engstafdcd>Somewhat limited</ms:engstafdcd>
+        <ms:engstafll>Somewhat limited</ms:engstafll>
+        <ms:engstafml>Very limited</ms:engstafml>
+        <ms:engsldcd>Very limited</ms:engsldcd>
+        <ms:engsldcp>Very limited</ms:engsldcp>
+        <ms:englrsdcd>Very limited</ms:englrsdcd>
+        <ms:engcmssdcd>Poor</ms:engcmssdcd>
+        <ms:engcmssmp>Poor</ms:engcmssmp>
+        <ms:urbrecptdcd>Somewhat limited</ms:urbrecptdcd>
+        <ms:urbrecptwta>0.05</ms:urbrecptwta>
+        <ms:forpehrtdcp>Erosion hazard moderate</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta>0.542</ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386727923</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.1154986">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.316513 -82.531025</gml:lowerCorner>
+        		<gml:upperCorner>34.324154 -82.523383</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.324136 -82.530169 34.323904 -82.529867 34.323652 -82.529395 34.323499 -82.529272 34.323330 -82.529179 34.322856 -82.528984 34.322638 -82.528915 34.322273 -82.528829 34.321950 -82.528667 34.321461 -82.528304 34.320822 -82.527667 34.320733 -82.527494 34.320717 -82.527323 34.320745 -82.527292 34.321118 -82.527100 34.321297 -82.526887 34.321350 -82.526728 34.321380 -82.526559 34.321366 -82.526472 34.321325 -82.526321 34.321246 -82.526177 34.321130 -82.526130 34.320939 -82.526145 34.320709 -82.526221 34.320090 -82.526311 34.319791 -82.526415 34.319596 -82.526461 34.319420 -82.526443 34.319257 -82.526370 34.319076 -82.526099 34.318945 -82.525743 34.318763 -82.525467 34.318662 -82.525218 34.318469 -82.524966 34.318195 -82.524749 34.317959 -82.524615 34.317680 -82.524320 34.317638 -82.524161 34.317632 -82.524077 34.317698 -82.523383 34.317536 -82.523417 34.317444 -82.523546 34.317416 -82.523643 34.317353 -82.524072 34.317321 -82.524155 34.317130 -82.524415 34.316513 -82.524786 34.316545 -82.525192 34.316820 -82.525278 34.317017 -82.525409 34.317084 -82.525473 34.317219 -82.525740 34.317337 -82.526018 34.317398 -82.526306 34.317414 -82.526500 34.317457 -82.526611 34.317590 -82.526635 34.317993 -82.526932 34.318213 -82.527182 34.318393 -82.527310 34.318493 -82.527351 34.318998 -82.527657 34.319413 -82.528078 34.319636 -82.528490 34.320051 -82.529002 34.320309 -82.529122 34.320800 -82.529255 34.320979 -82.529355 34.321185 -82.529596 34.321485 -82.529767 34.321705 -82.530056 34.322033 -82.530147 34.322116 -82.530313 34.322155 -82.530983 34.322421 -82.531025 34.322509 -82.530965 34.322608 -82.530831 34.322880 -82.530326 34.322977 -82.530243 34.323164 -82.530234 34.323289 -82.530318 34.323491 -82.530608 34.323626 -82.530747 34.323888 -82.530738 34.324063 -82.530564 34.324145 -82.530421 34.324154 -82.530318 34.324136 -82.530169 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC001</ms:areasymbol>
+        <ms:musym>ApC</ms:musym>
+        <ms:nationalmusym>2vwrg</ms:nationalmusym>
+        <ms:mukey>1154986</ms:mukey>
+        <ms:spatialversion>7</ms:spatialversion>
+        <ms:muname>Appling sandy loam, 6 to 10 percent slopes</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp>8</ms:slopegraddcp>
+        <ms:slopegradwta>8</ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin></ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta>3.47</ms:aws025wta>
+        <ms:aws050wta>6.94</ms:aws050wta>
+        <ms:aws0100wta>13.7</ms:aws0100wta>
+        <ms:aws0150wta>22.02</ms:aws0150wta>
+        <ms:drclassdcd>Well drained</ms:drclassdcd>
+        <ms:drclasswettest>Well drained</ms:drclasswettest>
+        <ms:hydgrpdcd>B</ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>3</ms:niccdcd>
+        <ms:niccdcdpct>88</ms:niccdcdpct>
+        <ms:engdwobdcd>Not limited</ms:engdwobdcd>
+        <ms:engdwbdcd>Not limited</ms:engdwbdcd>
+        <ms:engdwbll>Not limited</ms:engdwbll>
+        <ms:engdwbml>Somewhat limited</ms:engdwbml>
+        <ms:engstafdcd>Somewhat limited</ms:engstafdcd>
+        <ms:engstafll>Somewhat limited</ms:engstafll>
+        <ms:engstafml>Very limited</ms:engstafml>
+        <ms:engsldcd>Very limited</ms:engsldcd>
+        <ms:engsldcp>Very limited</ms:engsldcp>
+        <ms:englrsdcd>Very limited</ms:englrsdcd>
+        <ms:engcmssdcd>Poor</ms:engcmssdcd>
+        <ms:engcmssmp>Poor</ms:engcmssmp>
+        <ms:urbrecptdcd>Somewhat limited</ms:urbrecptdcd>
+        <ms:urbrecptwta>0.045</ms:urbrecptwta>
+        <ms:forpehrtdcp>Erosion hazard moderate</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta>0.127</ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386728022</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.1154985">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.325845 -82.517369</gml:lowerCorner>
+        		<gml:upperCorner>34.328322 -82.514884</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.326371 -82.514884 34.326284 -82.515022 34.326191 -82.515092 34.325932 -82.515120 34.325845 -82.515242 34.325916 -82.516826 34.325929 -82.516865 34.326057 -82.517006 34.326289 -82.517091 34.326352 -82.517164 34.326410 -82.517319 34.326447 -82.517369 34.326503 -82.517354 34.326787 -82.517069 34.327138 -82.516796 34.327362 -82.516486 34.327690 -82.516234 34.327870 -82.516026 34.328084 -82.515936 34.328285 -82.515964 34.328322 -82.515883 34.328297 -82.515720 34.328205 -82.515561 34.328146 -82.515512 34.327926 -82.515444 34.327597 -82.515506 34.327215 -82.515442 34.326956 -82.515278 34.326803 -82.515158 34.326727 -82.515123 34.326503 -82.514939 34.326371 -82.514884 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC001</ms:areasymbol>
+        <ms:musym>ApB</ms:musym>
+        <ms:nationalmusym>2th0j</ms:nationalmusym>
+        <ms:mukey>1154985</ms:mukey>
+        <ms:spatialversion>7</ms:spatialversion>
+        <ms:muname>Appling sandy loam, 2 to 6 percent slopes</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp>4</ms:slopegraddcp>
+        <ms:slopegradwta>4</ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin></ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta>3.5</ms:aws025wta>
+        <ms:aws050wta>6.93</ms:aws050wta>
+        <ms:aws0100wta>13.74</ms:aws0100wta>
+        <ms:aws0150wta>22.21</ms:aws0150wta>
+        <ms:drclassdcd>Well drained</ms:drclassdcd>
+        <ms:drclasswettest>Well drained</ms:drclasswettest>
+        <ms:hydgrpdcd>B</ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>2</ms:niccdcd>
+        <ms:niccdcdpct>100</ms:niccdcdpct>
+        <ms:engdwobdcd>Not limited</ms:engdwobdcd>
+        <ms:engdwbdcd>Not limited</ms:engdwbdcd>
+        <ms:engdwbll>Not limited</ms:engdwbll>
+        <ms:engdwbml>Very limited</ms:engdwbml>
+        <ms:engstafdcd>Somewhat limited</ms:engstafdcd>
+        <ms:engstafll>Somewhat limited</ms:engstafll>
+        <ms:engstafml>Very limited</ms:engstafml>
+        <ms:engsldcd>Somewhat limited</ms:engsldcd>
+        <ms:engsldcp>Somewhat limited</ms:engsldcp>
+        <ms:englrsdcd>Very limited</ms:englrsdcd>
+        <ms:engcmssdcd>Poor</ms:engcmssdcd>
+        <ms:engcmssmp>Poor</ms:engcmssmp>
+        <ms:urbrecptdcd>Somewhat limited</ms:urbrecptdcd>
+        <ms:urbrecptwta>0.048</ms:urbrecptwta>
+        <ms:forpehrtdcp>Erosion hazard moderate</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta>0.107</ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386728024</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.1155019">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.316080 -82.564111</gml:lowerCorner>
+        		<gml:upperCorner>34.327536 -82.550801</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.326822 -82.550801 34.326753 -82.550826 34.326504 -82.551004 34.326435 -82.551079 34.326127 -82.551483 34.325945 -82.551822 34.325935 -82.551866 34.325733 -82.552736 34.325612 -82.553459 34.325425 -82.554338 34.325342 -82.554942 34.325195 -82.555488 34.325169 -82.555806 34.325152 -82.556368 34.325203 -82.556902 34.325201 -82.557091 34.325173 -82.557160 34.325053 -82.557311 34.324951 -82.557367 34.324885 -82.557372 34.324713 -82.557307 34.324321 -82.556898 34.324017 -82.556715 34.323935 -82.556684 34.323802 -82.556477 34.323806 -82.556243 34.323939 -82.555988 34.324043 -82.555627 34.324046 -82.555323 34.324016 -82.555222 34.323986 -82.555190 34.323840 -82.555194 34.323603 -82.555307 34.323461 -82.555281 34.323422 -82.555235 34.323439 -82.555003 34.323473 -82.554831 34.323647 -82.554605 34.323727 -82.554476 34.323846 -82.554337 34.323988 -82.554121 34.324312 -82.553466 34.324411 -82.553219 34.324455 -82.553140 34.324536 -82.553048 34.324297 -82.552832 34.324100 -82.552763 34.323701 -82.552767 34.323532 -82.552713 34.323417 -82.552589 34.323238 -82.552285 34.323171 -82.552029 34.323143 -82.551989 34.323102 -82.551926 34.322923 -82.551761 34.322886 -82.551763 34.322701 -82.551841 34.322354 -82.552180 34.322149 -82.552669 34.322074 -82.553026 34.322044 -82.553585 34.322020 -82.553697 34.321846 -82.553898 34.321729 -82.553965 34.321521 -82.553979 34.321372 -82.553925 34.321159 -82.553717 34.320947 -82.553543 34.320530 -82.553580 34.320193 -82.553495 34.319905 -82.553308 34.319588 -82.553033 34.319340 -82.552936 34.319239 -82.552938 34.318979 -82.552989 34.318832 -82.552944 34.318679 -82.552719 34.318594 -82.552537 34.318463 -82.552130 34.318351 -82.551959 34.318215 -82.551842 34.317753 -82.551713 34.317531 -82.551737 34.317388 -82.551886 34.317358 -82.551961 34.317338 -82.552190 34.317524 -82.552614 34.317840 -82.552940 34.317959 -82.553035 34.318044 -82.553140 34.318074 -82.553305 34.318052 -82.553368 34.317864 -82.553493 34.317836 -82.553493 34.317381 -82.553461 34.316760 -82.553310 34.316690 -82.553338 34.316592 -82.553412 34.316318 -82.553677 34.316135 -82.553947 34.316088 -82.554040 34.316080 -82.554142 34.316123 -82.554303 34.316161 -82.554354 34.316247 -82.554402 34.316489 -82.554592 34.316761 -82.554960 34.316933 -82.555067 34.317257 -82.555079 34.317721 -82.554898 34.317766 -82.554864 34.318044 -82.554809 34.318255 -82.554831 34.318738 -82.554960 34.319510 -82.555009 34.319751 -82.555096 34.319877 -82.555229 34.319919 -82.555455 34.319933 -82.555674 34.319780 -82.555902 34.319749 -82.556004 34.319697 -82.556457 34.319663 -82.556510 34.319540 -82.556856 34.319543 -82.557073 34.319650 -82.557218 34.319737 -82.557219 34.319941 -82.557029 34.320083 -82.556697 34.320260 -82.556477 34.320875 -82.556398 34.321180 -82.556063 34.321524 -82.555916 34.321647 -82.555919 34.321727 -82.556005 34.321735 -82.556081 34.321695 -82.556300 34.321713 -82.556398 34.321828 -82.556531 34.321855 -82.556535 34.321937 -82.556622 34.321970 -82.556686 34.322005 -82.556858 34.321987 -82.557237 34.321990 -82.557331 34.322056 -82.557565 34.322036 -82.557995 34.321941 -82.558267 34.321808 -82.558327 34.321742 -82.558773 34.321763 -82.559055 34.321903 -82.559348 34.322197 -82.559602 34.322596 -82.559682 34.323016 -82.559658 34.323244 -82.559554 34.323701 -82.559222 34.323959 -82.559156 34.324220 -82.559166 34.324254 -82.559141 34.324345 -82.558882 34.324401 -82.558843 34.324576 -82.558774 34.324742 -82.558767 34.324899 -82.558924 34.324949 -82.559043 34.325013 -82.559408 34.325082 -82.559575 34.325014 -82.559698 34.324860 -82.559769 34.324547 -82.560379 34.324215 -82.561320 34.324099 -82.561540 34.323897 -82.561746 34.323675 -82.561842 34.323387 -82.561877 34.323183 -82.561781 34.322929 -82.561816 34.322621 -82.561794 34.322467 -82.561637 34.322320 -82.561433 34.322292 -82.561194 34.322243 -82.561204 34.321810 -82.561176 34.321648 -82.561142 34.321352 -82.561009 34.321125 -82.560863 34.321028 -82.560775 34.320715 -82.560428 34.320538 -82.560289 34.320328 -82.560287 34.320129 -82.560430 34.320064 -82.560447 34.319689 -82.560460 34.319610 -82.560563 34.319596 -82.560694 34.319848 -82.561117 34.320082 -82.561430 34.320280 -82.561839 34.320407 -82.562021 34.320608 -82.562217 34.320743 -82.562287 34.320997 -82.562486 34.321260 -82.562558 34.321776 -82.562785 34.321852 -82.562809 34.322139 -82.563029 34.322334 -82.563302 34.322419 -82.563469 34.322531 -82.563772 34.322590 -82.564111 34.326671 -82.557759 34.326566 -82.557501 34.326189 -82.556816 34.326056 -82.556386 34.326022 -82.556057 34.326003 -82.555670 34.326009 -82.555553 34.326135 -82.555303 34.326271 -82.555224 34.326483 -82.555213 34.326593 -82.555257 34.326812 -82.555305 34.326993 -82.555170 34.327048 -82.555050 34.327017 -82.554950 34.326999 -82.554797 34.326804 -82.554231 34.326761 -82.554046 34.326747 -82.553649 34.326832 -82.553375 34.326951 -82.553142 34.326975 -82.553126 34.327179 -82.552737 34.327363 -82.552463 34.327502 -82.552196 34.327536 -82.552047 34.327528 -82.551791 34.327459 -82.551478 34.327261 -82.551043 34.327110 -82.550845 34.326995 -82.550811 34.326822 -82.550801 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+                <gml:interior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.325967 -82.552408 34.326063 -82.552353 34.326168 -82.552293 34.326225 -82.552266 34.326309 -82.552202 34.326346 -82.552142 34.326403 -82.552079 34.326430 -82.552075 34.326480 -82.552116 34.326486 -82.552152 34.326413 -82.552262 34.326373 -82.552341 34.326371 -82.552463 34.326358 -82.552603 34.326332 -82.552754 34.326305 -82.552828 34.326280 -82.552849 34.326200 -82.552851 34.326058 -82.552787 34.325943 -82.552620 34.325908 -82.552545 34.325903 -82.552479 34.325967 -82.552408 </gml:posList>
+                  </gml:LinearRing>
+                </gml:interior>
+                <gml:interior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.316703 -82.554318 34.316661 -82.554257 34.316683 -82.554158 34.316729 -82.554116 34.316995 -82.554092 34.317189 -82.554096 34.317301 -82.554124 34.317322 -82.554164 34.317322 -82.554223 34.317166 -82.554495 34.317000 -82.554448 34.316774 -82.554337 34.316703 -82.554318 </gml:posList>
+                  </gml:LinearRing>
+                </gml:interior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC001</ms:areasymbol>
+        <ms:musym>PaF</ms:musym>
+        <ms:nationalmusym>2wdwm</ms:nationalmusym>
+        <ms:mukey>1155019</ms:mukey>
+        <ms:spatialversion>7</ms:spatialversion>
+        <ms:muname>Pacolet sandy loam, 15 to 40 percent slopes</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp>28</ms:slopegraddcp>
+        <ms:slopegradwta>27.4</ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin></ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta>2.99</ms:aws025wta>
+        <ms:aws050wta>6.43</ms:aws050wta>
+        <ms:aws0100wta>12.38</ms:aws0100wta>
+        <ms:aws0150wta>18.09</ms:aws0150wta>
+        <ms:drclassdcd>Well drained</ms:drclassdcd>
+        <ms:drclasswettest>Well drained</ms:drclasswettest>
+        <ms:hydgrpdcd>B</ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>7</ms:niccdcd>
+        <ms:niccdcdpct>100</ms:niccdcdpct>
+        <ms:engdwobdcd>Very limited</ms:engdwobdcd>
+        <ms:engdwbdcd>Very limited</ms:engdwbdcd>
+        <ms:engdwbll>Very limited</ms:engdwbll>
+        <ms:engdwbml>Very limited</ms:engdwbml>
+        <ms:engstafdcd>Very limited</ms:engstafdcd>
+        <ms:engstafll>Very limited</ms:engstafll>
+        <ms:engstafml>Very limited</ms:engstafml>
+        <ms:engsldcd>Very limited</ms:engsldcd>
+        <ms:engsldcp>Very limited</ms:engsldcp>
+        <ms:englrsdcd>Very limited</ms:englrsdcd>
+        <ms:engcmssdcd>Poor</ms:engcmssdcd>
+        <ms:engcmssmp>Fair</ms:engcmssmp>
+        <ms:urbrecptdcd>Very limited</ms:urbrecptdcd>
+        <ms:urbrecptwta>0.96</ms:urbrecptwta>
+        <ms:forpehrtdcp>Erosion hazard moderate</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta>1</ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386728105</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.1154999">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.344936 -82.526390</gml:lowerCorner>
+        		<gml:upperCorner>34.350318 -82.517548</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.349324 -82.517802 34.349287 -82.517699 34.349189 -82.517571 34.349096 -82.517548 34.349001 -82.517572 34.348735 -82.517931 34.348564 -82.518101 34.348410 -82.518155 34.348227 -82.518123 34.348046 -82.517960 34.347957 -82.517917 34.347434 -82.517867 34.347381 -82.517875 34.347262 -82.517970 34.347180 -82.517990 34.346971 -82.518083 34.346858 -82.518100 34.346482 -82.518099 34.346334 -82.518022 34.346212 -82.517870 34.345890 -82.517647 34.345759 -82.517596 34.345523 -82.517574 34.345358 -82.517642 34.345182 -82.517770 34.344988 -82.518002 34.344945 -82.518111 34.344936 -82.518179 34.344951 -82.518366 34.345183 -82.518651 34.345533 -82.518756 34.345684 -82.518897 34.345763 -82.519068 34.345763 -82.519196 34.345699 -82.519782 34.345695 -82.519956 34.345731 -82.520347 34.345762 -82.521230 34.345676 -82.522400 34.345673 -82.522619 34.345682 -82.522808 34.345882 -82.523155 34.346045 -82.523000 34.346154 -82.522942 34.346287 -82.522962 34.346348 -82.523030 34.346396 -82.523736 34.346721 -82.524417 34.346735 -82.524723 34.346654 -82.525016 34.346619 -82.525079 34.346403 -82.525350 34.346362 -82.525489 34.346360 -82.525560 34.346394 -82.525769 34.346543 -82.525938 34.346544 -82.526048 34.346438 -82.526310 34.346676 -82.526375 34.346835 -82.526390 34.349388 -82.522344 34.349436 -82.521746 34.349499 -82.520503 34.349557 -82.520074 34.349672 -82.519756 34.349825 -82.519566 34.350017 -82.519429 34.350203 -82.519177 34.350299 -82.518858 34.350318 -82.518640 34.350306 -82.518490 34.350187 -82.518211 34.350092 -82.518089 34.349927 -82.518020 34.349556 -82.518000 34.349479 -82.517964 34.349324 -82.517802 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+                <gml:interior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.349142 -82.521579 34.349112 -82.521602 34.349076 -82.521629 34.349057 -82.521671 34.349046 -82.521715 34.349049 -82.521743 34.349058 -82.521846 34.349093 -82.521950 34.349127 -82.522020 34.349133 -82.522045 34.349124 -82.522092 34.349063 -82.522138 34.349037 -82.522140 34.348865 -82.522162 34.348762 -82.522156 34.348726 -82.522118 34.348718 -82.522109 34.348682 -82.522003 34.348657 -82.521849 34.348698 -82.521651 34.348733 -82.521449 34.348776 -82.521365 34.348823 -82.521287 34.348899 -82.521247 34.348961 -82.521233 34.349007 -82.521174 34.349048 -82.521114 34.349077 -82.521099 34.349145 -82.521102 34.349198 -82.521141 34.349242 -82.521244 34.349257 -82.521334 34.349246 -82.521421 34.349228 -82.521494 34.349142 -82.521579 </gml:posList>
+                  </gml:LinearRing>
+                </gml:interior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC001</ms:areasymbol>
+        <ms:musym>DuB</ms:musym>
+        <ms:nationalmusym>17rw1</ms:nationalmusym>
+        <ms:mukey>1154999</ms:mukey>
+        <ms:spatialversion>7</ms:spatialversion>
+        <ms:muname>Durham loamy sand, 2 to 6 percent slopes</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp>4</ms:slopegraddcp>
+        <ms:slopegradwta>4</ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin></ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta>2</ms:aws025wta>
+        <ms:aws050wta>4.24</ms:aws050wta>
+        <ms:aws0100wta>11.24</ms:aws0100wta>
+        <ms:aws0150wta>17.76</ms:aws0150wta>
+        <ms:drclassdcd>Well drained</ms:drclassdcd>
+        <ms:drclasswettest>Well drained</ms:drclasswettest>
+        <ms:hydgrpdcd>B</ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>90</ms:iccdcdpct>
+        <ms:niccdcd>2</ms:niccdcd>
+        <ms:niccdcdpct>90</ms:niccdcdpct>
+        <ms:engdwobdcd>Not limited</ms:engdwobdcd>
+        <ms:engdwbdcd>Not limited</ms:engdwbdcd>
+        <ms:engdwbll>Not limited</ms:engdwbll>
+        <ms:engdwbml>Not limited</ms:engdwbml>
+        <ms:engstafdcd>Somewhat limited</ms:engstafdcd>
+        <ms:engstafll>Somewhat limited</ms:engstafll>
+        <ms:engstafml>Somewhat limited</ms:engstafml>
+        <ms:engsldcd>Very limited</ms:engsldcd>
+        <ms:engsldcp>Very limited</ms:engsldcp>
+        <ms:englrsdcd>Not limited</ms:englrsdcd>
+        <ms:engcmssdcd>Fair</ms:engcmssdcd>
+        <ms:engcmssmp>Fair</ms:engcmssmp>
+        <ms:urbrecptdcd>Somewhat limited</ms:urbrecptdcd>
+        <ms:urbrecptwta>0.82</ms:urbrecptwta>
+        <ms:forpehrtdcp>Erosion hazard moderate</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta>0.317</ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386728187</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.1154992">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.328036 -82.546909</gml:lowerCorner>
+        		<gml:upperCorner>34.330479 -82.540564</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.330372 -82.546156 34.330330 -82.545515 34.330342 -82.544808 34.330312 -82.544630 34.330239 -82.544473 34.330065 -82.544380 34.329900 -82.544322 34.329858 -82.544348 34.329612 -82.544386 34.329454 -82.544378 34.329352 -82.544233 34.329322 -82.544106 34.329361 -82.543664 34.329320 -82.543350 34.329264 -82.543178 34.329268 -82.542904 34.329301 -82.542708 34.329489 -82.542299 34.329576 -82.541932 34.329618 -82.541691 34.329586 -82.541123 34.329527 -82.541119 34.329423 -82.540995 34.329267 -82.540886 34.329199 -82.540813 34.328979 -82.540663 34.328689 -82.540580 34.328580 -82.540564 34.328336 -82.540621 34.328249 -82.540711 34.328078 -82.540977 34.328036 -82.541152 34.328043 -82.541252 34.328126 -82.541462 34.328386 -82.541850 34.328420 -82.542256 34.328358 -82.542913 34.328453 -82.542890 34.328508 -82.542824 34.328566 -82.542652 34.328604 -82.542620 34.328703 -82.542634 34.328781 -82.542733 34.328800 -82.543124 34.328813 -82.543171 34.328824 -82.543171 34.328905 -82.543604 34.328919 -82.543786 34.328929 -82.544167 34.328888 -82.544592 34.328895 -82.545218 34.328961 -82.546392 34.328971 -82.546388 34.329001 -82.546464 34.329102 -82.546567 34.329340 -82.546573 34.329453 -82.546634 34.329671 -82.546823 34.329801 -82.546909 34.330022 -82.546897 34.330128 -82.546842 34.330324 -82.546642 34.330443 -82.546481 34.330479 -82.546370 34.330451 -82.546285 34.330372 -82.546156 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+                <gml:interior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.328496 -82.540933 34.328537 -82.540883 34.328606 -82.540840 34.328684 -82.540828 34.328844 -82.540861 34.329055 -82.540952 34.329138 -82.541029 34.329228 -82.541197 34.329372 -82.541551 34.329363 -82.541593 34.329343 -82.541647 34.329300 -82.541656 34.328987 -82.541634 34.328498 -82.541545 34.328479 -82.541355 34.328468 -82.541027 34.328496 -82.540933 </gml:posList>
+                  </gml:LinearRing>
+                </gml:interior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC001</ms:areasymbol>
+        <ms:musym>CcC</ms:musym>
+        <ms:nationalmusym>2q7j8</ms:nationalmusym>
+        <ms:mukey>1154992</ms:mukey>
+        <ms:spatialversion>7</ms:spatialversion>
+        <ms:muname>Cecil sandy loam, 6 to 10 percent slopes</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp>8</ms:slopegraddcp>
+        <ms:slopegradwta>8</ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin></ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta>2.99</ms:aws025wta>
+        <ms:aws050wta>5.5</ms:aws050wta>
+        <ms:aws0100wta>10.48</ms:aws0100wta>
+        <ms:aws0150wta>16.87</ms:aws0150wta>
+        <ms:drclassdcd>Well drained</ms:drclassdcd>
+        <ms:drclasswettest>Well drained</ms:drclasswettest>
+        <ms:hydgrpdcd>B</ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>3</ms:niccdcd>
+        <ms:niccdcdpct>98</ms:niccdcdpct>
+        <ms:engdwobdcd>Not limited</ms:engdwobdcd>
+        <ms:engdwbdcd>Not limited</ms:engdwbdcd>
+        <ms:engdwbll>Not limited</ms:engdwbll>
+        <ms:engdwbml>Somewhat limited</ms:engdwbml>
+        <ms:engstafdcd>Somewhat limited</ms:engstafdcd>
+        <ms:engstafll>Somewhat limited</ms:engstafll>
+        <ms:engstafml>Very limited</ms:engstafml>
+        <ms:engsldcd>Very limited</ms:engsldcd>
+        <ms:engsldcp>Very limited</ms:engsldcp>
+        <ms:englrsdcd>Very limited</ms:englrsdcd>
+        <ms:engcmssdcd>Poor</ms:engcmssdcd>
+        <ms:engcmssmp>Poor</ms:engcmssmp>
+        <ms:urbrecptdcd>Somewhat limited</ms:urbrecptdcd>
+        <ms:urbrecptwta>0.05</ms:urbrecptwta>
+        <ms:forpehrtdcp>Erosion hazard moderate</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta>0.542</ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386728189</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.1154992">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.316956 -82.531675</gml:lowerCorner>
+        		<gml:upperCorner>34.321185 -82.526611</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.317457 -82.526611 34.317144 -82.526969 34.317059 -82.527145 34.316956 -82.527649 34.316959 -82.527937 34.317019 -82.528136 34.317106 -82.528282 34.317564 -82.528786 34.317737 -82.529139 34.317832 -82.529585 34.317856 -82.529645 34.317860 -82.529953 34.317922 -82.530427 34.317890 -82.531542 34.317856 -82.531663 34.318103 -82.531675 34.318263 -82.531585 34.318378 -82.531429 34.318483 -82.531247 34.318541 -82.531080 34.318571 -82.530629 34.318447 -82.529327 34.318426 -82.528718 34.318450 -82.528546 34.318478 -82.528475 34.318577 -82.528349 34.318698 -82.528246 34.318821 -82.528248 34.318866 -82.528279 34.318975 -82.528366 34.319100 -82.528524 34.319267 -82.528998 34.319417 -82.529242 34.319574 -82.529334 34.319878 -82.529395 34.320023 -82.529550 34.320197 -82.529818 34.320350 -82.530213 34.320523 -82.530440 34.320616 -82.530487 34.320711 -82.530476 34.320793 -82.530408 34.320829 -82.530234 34.320800 -82.530092 34.320826 -82.529960 34.321185 -82.529596 34.320979 -82.529355 34.320800 -82.529255 34.320309 -82.529122 34.320051 -82.529002 34.319636 -82.528490 34.319413 -82.528078 34.318998 -82.527657 34.318493 -82.527351 34.318393 -82.527310 34.318213 -82.527182 34.317993 -82.526932 34.317590 -82.526635 34.317457 -82.526611 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC001</ms:areasymbol>
+        <ms:musym>CcC</ms:musym>
+        <ms:nationalmusym>2q7j8</ms:nationalmusym>
+        <ms:mukey>1154992</ms:mukey>
+        <ms:spatialversion>7</ms:spatialversion>
+        <ms:muname>Cecil sandy loam, 6 to 10 percent slopes</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp>8</ms:slopegraddcp>
+        <ms:slopegradwta>8</ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin></ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta>2.99</ms:aws025wta>
+        <ms:aws050wta>5.5</ms:aws050wta>
+        <ms:aws0100wta>10.48</ms:aws0100wta>
+        <ms:aws0150wta>16.87</ms:aws0150wta>
+        <ms:drclassdcd>Well drained</ms:drclassdcd>
+        <ms:drclasswettest>Well drained</ms:drclasswettest>
+        <ms:hydgrpdcd>B</ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>3</ms:niccdcd>
+        <ms:niccdcdpct>98</ms:niccdcdpct>
+        <ms:engdwobdcd>Not limited</ms:engdwobdcd>
+        <ms:engdwbdcd>Not limited</ms:engdwbdcd>
+        <ms:engdwbll>Not limited</ms:engdwbll>
+        <ms:engdwbml>Somewhat limited</ms:engdwbml>
+        <ms:engstafdcd>Somewhat limited</ms:engstafdcd>
+        <ms:engstafll>Somewhat limited</ms:engstafll>
+        <ms:engstafml>Very limited</ms:engstafml>
+        <ms:engsldcd>Very limited</ms:engsldcd>
+        <ms:engsldcp>Very limited</ms:engsldcp>
+        <ms:englrsdcd>Very limited</ms:englrsdcd>
+        <ms:engcmssdcd>Poor</ms:engcmssdcd>
+        <ms:engcmssmp>Poor</ms:engcmssmp>
+        <ms:urbrecptdcd>Somewhat limited</ms:urbrecptdcd>
+        <ms:urbrecptwta>0.05</ms:urbrecptwta>
+        <ms:forpehrtdcp>Erosion hazard moderate</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta>0.542</ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386728342</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.1154993">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.332375 -82.547140</gml:lowerCorner>
+        		<gml:upperCorner>34.334546 -82.544404</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.332378 -82.544600 34.332375 -82.544836 34.332520 -82.545376 34.332677 -82.545775 34.332929 -82.546233 34.333282 -82.546719 34.333508 -82.547140 34.334546 -82.545535 34.334161 -82.545487 34.333905 -82.545318 34.333544 -82.545045 34.333295 -82.544769 34.333023 -82.544546 34.332669 -82.544404 34.332499 -82.544424 34.332378 -82.544600 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC001</ms:areasymbol>
+        <ms:musym>CcD</ms:musym>
+        <ms:nationalmusym>2zzyy</ms:nationalmusym>
+        <ms:mukey>1154993</ms:mukey>
+        <ms:spatialversion>7</ms:spatialversion>
+        <ms:muname>Cecil-Cataula complex, 10 to 15 percent slopes, moderately eroded</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp>13</ms:slopegraddcp>
+        <ms:slopegradwta>13</ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin>84</ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta>3.35</ms:aws025wta>
+        <ms:aws050wta>6.44</ms:aws050wta>
+        <ms:aws0100wta>12.63</ms:aws0100wta>
+        <ms:aws0150wta>19.5</ms:aws0150wta>
+        <ms:drclassdcd>Well drained</ms:drclassdcd>
+        <ms:drclasswettest>Moderately well drained</ms:drclasswettest>
+        <ms:hydgrpdcd>B</ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>4</ms:niccdcd>
+        <ms:niccdcdpct>75</ms:niccdcdpct>
+        <ms:engdwobdcd>Somewhat limited</ms:engdwobdcd>
+        <ms:engdwbdcd>Somewhat limited</ms:engdwbdcd>
+        <ms:engdwbll>Somewhat limited</ms:engdwbll>
+        <ms:engdwbml>Somewhat limited</ms:engdwbml>
+        <ms:engstafdcd>Somewhat limited</ms:engstafdcd>
+        <ms:engstafll>Somewhat limited</ms:engstafll>
+        <ms:engstafml>Very limited</ms:engstafml>
+        <ms:engsldcd>Very limited</ms:engsldcd>
+        <ms:engsldcp>Very limited</ms:engsldcp>
+        <ms:englrsdcd>Very limited</ms:englrsdcd>
+        <ms:engcmssdcd>Poor</ms:engcmssdcd>
+        <ms:engcmssmp>Poor</ms:engcmssmp>
+        <ms:urbrecptdcd>Somewhat limited</ms:urbrecptdcd>
+        <ms:urbrecptwta>0.064</ms:urbrecptwta>
+        <ms:forpehrtdcp>Erosion hazard moderate</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta>0.894</ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386728531</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.1154992">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.332397 -82.542168</gml:lowerCorner>
+        		<gml:upperCorner>34.336096 -82.540004</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.336015 -82.541600 34.335820 -82.541743 34.335677 -82.541737 34.335447 -82.541668 34.335130 -82.541456 34.334979 -82.541441 34.334656 -82.541521 34.334461 -82.541489 34.334222 -82.541409 34.334175 -82.541370 34.334043 -82.541185 34.334036 -82.540795 34.334004 -82.540654 34.333894 -82.540563 34.333523 -82.540568 34.333451 -82.540553 34.333197 -82.540183 34.333015 -82.540028 34.332969 -82.540007 34.332877 -82.540004 34.332754 -82.540045 34.332536 -82.540233 34.332453 -82.540504 34.332397 -82.541338 34.332493 -82.541328 34.332791 -82.541372 34.332981 -82.541459 34.333144 -82.541495 34.333885 -82.541872 34.334844 -82.542141 34.335052 -82.542166 34.335237 -82.542168 34.335969 -82.542114 34.336090 -82.542000 34.336096 -82.541904 34.336058 -82.541657 34.336015 -82.541600 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC001</ms:areasymbol>
+        <ms:musym>CcC</ms:musym>
+        <ms:nationalmusym>2q7j8</ms:nationalmusym>
+        <ms:mukey>1154992</ms:mukey>
+        <ms:spatialversion>7</ms:spatialversion>
+        <ms:muname>Cecil sandy loam, 6 to 10 percent slopes</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp>8</ms:slopegraddcp>
+        <ms:slopegradwta>8</ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin></ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta>2.99</ms:aws025wta>
+        <ms:aws050wta>5.5</ms:aws050wta>
+        <ms:aws0100wta>10.48</ms:aws0100wta>
+        <ms:aws0150wta>16.87</ms:aws0150wta>
+        <ms:drclassdcd>Well drained</ms:drclassdcd>
+        <ms:drclasswettest>Well drained</ms:drclasswettest>
+        <ms:hydgrpdcd>B</ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>3</ms:niccdcd>
+        <ms:niccdcdpct>98</ms:niccdcdpct>
+        <ms:engdwobdcd>Not limited</ms:engdwobdcd>
+        <ms:engdwbdcd>Not limited</ms:engdwbdcd>
+        <ms:engdwbll>Not limited</ms:engdwbll>
+        <ms:engdwbml>Somewhat limited</ms:engdwbml>
+        <ms:engstafdcd>Somewhat limited</ms:engstafdcd>
+        <ms:engstafll>Somewhat limited</ms:engstafll>
+        <ms:engstafml>Very limited</ms:engstafml>
+        <ms:engsldcd>Very limited</ms:engsldcd>
+        <ms:engsldcp>Very limited</ms:engsldcp>
+        <ms:englrsdcd>Very limited</ms:englrsdcd>
+        <ms:engcmssdcd>Poor</ms:engcmssdcd>
+        <ms:engcmssmp>Poor</ms:engcmssmp>
+        <ms:urbrecptdcd>Somewhat limited</ms:urbrecptdcd>
+        <ms:urbrecptwta>0.05</ms:urbrecptwta>
+        <ms:forpehrtdcp>Erosion hazard moderate</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta>0.542</ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386728600</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.1154988">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.310806 -82.527139</gml:lowerCorner>
+        		<gml:upperCorner>34.313435 -82.522338</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.313009 -82.522826 34.312963 -82.522806 34.312828 -82.522643 34.312636 -82.522758 34.312450 -82.522752 34.311987 -82.522420 34.311700 -82.522338 34.311517 -82.522343 34.311201 -82.522645 34.311050 -82.522930 34.311023 -82.523023 34.310836 -82.523309 34.310806 -82.523566 34.310838 -82.523676 34.311084 -82.523871 34.311471 -82.523973 34.311616 -82.523994 34.311829 -82.524065 34.311904 -82.524122 34.311987 -82.524262 34.312017 -82.524383 34.312025 -82.524849 34.311910 -82.525276 34.311890 -82.525558 34.312112 -82.525525 34.312305 -82.525521 34.312432 -82.525641 34.312457 -82.525703 34.312478 -82.526198 34.312473 -82.526567 34.312517 -82.526835 34.312555 -82.526922 34.312747 -82.527126 34.312784 -82.527139 34.312860 -82.527129 34.313009 -82.526952 34.313027 -82.526903 34.313021 -82.526256 34.313064 -82.526086 34.313091 -82.526016 34.313378 -82.525714 34.313435 -82.525575 34.313428 -82.525466 34.313303 -82.525292 34.313093 -82.525210 34.312913 -82.525060 34.312836 -82.524779 34.312852 -82.524472 34.312948 -82.524178 34.313180 -82.523768 34.313249 -82.523538 34.313269 -82.523238 34.313033 -82.523019 34.313009 -82.522826 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC001</ms:areasymbol>
+        <ms:musym>CaB</ms:musym>
+        <ms:nationalmusym>2th01</ms:nationalmusym>
+        <ms:mukey>1154988</ms:mukey>
+        <ms:spatialversion>7</ms:spatialversion>
+        <ms:muname>Cataula sandy loam, 2 to 6 percent slopes</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp>4</ms:slopegraddcp>
+        <ms:slopegradwta>4</ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin>64</ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta>3.35</ms:aws025wta>
+        <ms:aws050wta>6.87</ms:aws050wta>
+        <ms:aws0100wta>9.9</ms:aws0100wta>
+        <ms:aws0150wta>16.99</ms:aws0150wta>
+        <ms:drclassdcd>Moderately well drained</ms:drclassdcd>
+        <ms:drclasswettest>Moderately well drained</ms:drclasswettest>
+        <ms:hydgrpdcd>C</ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>3</ms:niccdcd>
+        <ms:niccdcdpct>95</ms:niccdcdpct>
+        <ms:engdwobdcd>Very limited</ms:engdwobdcd>
+        <ms:engdwbdcd>Very limited</ms:engdwbdcd>
+        <ms:engdwbll>Not limited</ms:engdwbll>
+        <ms:engdwbml>Very limited</ms:engdwbml>
+        <ms:engstafdcd>Very limited</ms:engstafdcd>
+        <ms:engstafll>Somewhat limited</ms:engstafll>
+        <ms:engstafml>Very limited</ms:engstafml>
+        <ms:engsldcd>Somewhat limited</ms:engsldcd>
+        <ms:engsldcp>Somewhat limited</ms:engsldcp>
+        <ms:englrsdcd>Very limited</ms:englrsdcd>
+        <ms:engcmssdcd>Poor</ms:engcmssdcd>
+        <ms:engcmssmp>Poor</ms:engcmssmp>
+        <ms:urbrecptdcd>Somewhat limited</ms:urbrecptdcd>
+        <ms:urbrecptwta>0.049</ms:urbrecptwta>
+        <ms:forpehrtdcp>Erosion hazard moderate</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta>0.971</ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386728629</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.1155004">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.311150 -82.555958</gml:lowerCorner>
+        		<gml:upperCorner>34.314068 -82.549007</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.311150 -82.555958 34.311387 -82.555857 34.311552 -82.555674 34.311739 -82.555354 34.311832 -82.555290 34.311897 -82.555309 34.312078 -82.555440 34.312124 -82.555492 34.312269 -82.555735 34.312461 -82.555362 34.312576 -82.555226 34.312822 -82.555030 34.313102 -82.554898 34.313210 -82.554799 34.313236 -82.554751 34.313298 -82.554434 34.313231 -82.554431 34.313029 -82.554338 34.313001 -82.554301 34.313022 -82.553890 34.313130 -82.552640 34.313209 -82.552372 34.313304 -82.552211 34.313499 -82.551697 34.313808 -82.551263 34.313874 -82.551146 34.313991 -82.551023 34.314061 -82.550848 34.314068 -82.550610 34.314052 -82.550461 34.314003 -82.550413 34.313921 -82.550380 34.313614 -82.550352 34.313572 -82.550326 34.313439 -82.550171 34.313116 -82.549321 34.312892 -82.549057 34.312780 -82.549015 34.312618 -82.549007 34.312543 -82.549037 34.312453 -82.549128 34.312410 -82.549245 34.312411 -82.549431 34.312685 -82.550712 34.312712 -82.551389 34.312481 -82.552677 34.312404 -82.553432 34.312289 -82.553826 34.312023 -82.554290 34.311838 -82.554410 34.311655 -82.554904 34.311193 -82.555836 34.311150 -82.555958 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC001</ms:areasymbol>
+        <ms:musym>HeB</ms:musym>
+        <ms:nationalmusym>17rw6</ms:nationalmusym>
+        <ms:mukey>1155004</ms:mukey>
+        <ms:spatialversion>7</ms:spatialversion>
+        <ms:muname>Helena sandy loam, 2 to 6 percent slopes</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp>4</ms:slopegraddcp>
+        <ms:slopegradwta>4</ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin>61</ms:wtdepannmin>
+        <ms:wtdepaprjunmin>61</ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta>3.05</ms:aws025wta>
+        <ms:aws050wta>6.55</ms:aws050wta>
+        <ms:aws0100wta>13.55</ms:aws0100wta>
+        <ms:aws0150wta>20.55</ms:aws0150wta>
+        <ms:drclassdcd>Moderately well drained</ms:drclassdcd>
+        <ms:drclasswettest>Moderately well drained</ms:drclasswettest>
+        <ms:hydgrpdcd>D</ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>90</ms:iccdcdpct>
+        <ms:niccdcd>2</ms:niccdcd>
+        <ms:niccdcdpct>90</ms:niccdcdpct>
+        <ms:engdwobdcd>Very limited</ms:engdwobdcd>
+        <ms:engdwbdcd>Very limited</ms:engdwbdcd>
+        <ms:engdwbll>Very limited</ms:engdwbll>
+        <ms:engdwbml>Very limited</ms:engdwbml>
+        <ms:engstafdcd>Very limited</ms:engstafdcd>
+        <ms:engstafll>Very limited</ms:engstafll>
+        <ms:engstafml>Very limited</ms:engstafml>
+        <ms:engsldcd>Somewhat limited</ms:engsldcd>
+        <ms:engsldcp>Somewhat limited</ms:engsldcp>
+        <ms:englrsdcd>Very limited</ms:englrsdcd>
+        <ms:engcmssdcd>Fair</ms:engcmssdcd>
+        <ms:engcmssmp>Fair</ms:engcmssmp>
+        <ms:urbrecptdcd>Somewhat limited</ms:urbrecptdcd>
+        <ms:urbrecptwta>0.245</ms:urbrecptwta>
+        <ms:forpehrtdcp>Erosion hazard moderate</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta>1</ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386728630</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.1154991">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.309983 -82.531417</gml:lowerCorner>
+        		<gml:upperCorner>34.317095 -82.523054</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.315878 -82.527639 34.315771 -82.527651 34.315648 -82.527543 34.315545 -82.527405 34.315482 -82.527280 34.315460 -82.527000 34.315495 -82.526893 34.315682 -82.526627 34.315905 -82.526453 34.315984 -82.526340 34.316056 -82.526010 34.316075 -82.525742 34.316027 -82.525466 34.315957 -82.525318 34.315797 -82.525157 34.315630 -82.525193 34.315310 -82.525417 34.315204 -82.525464 34.315003 -82.525455 34.314886 -82.525319 34.314870 -82.525121 34.314876 -82.524605 34.314767 -82.524314 34.314759 -82.524254 34.314791 -82.523540 34.314703 -82.523349 34.314523 -82.523155 34.314432 -82.523107 34.314051 -82.523054 34.313652 -82.523122 34.313313 -82.523208 34.313269 -82.523238 34.313249 -82.523538 34.313180 -82.523768 34.312948 -82.524178 34.312852 -82.524472 34.312836 -82.524779 34.312913 -82.525060 34.313093 -82.525210 34.313303 -82.525292 34.313428 -82.525466 34.313435 -82.525575 34.313378 -82.525714 34.313091 -82.526016 34.313064 -82.526086 34.313021 -82.526256 34.313027 -82.526903 34.313009 -82.526952 34.312860 -82.527129 34.312784 -82.527139 34.312747 -82.527126 34.312555 -82.526922 34.312517 -82.526835 34.312473 -82.526567 34.312478 -82.526198 34.312457 -82.525703 34.312432 -82.525641 34.312305 -82.525521 34.312112 -82.525525 34.311890 -82.525558 34.311765 -82.526153 34.311709 -82.526270 34.311330 -82.526655 34.311144 -82.526974 34.310974 -82.527153 34.310819 -82.527258 34.310755 -82.527280 34.310543 -82.527286 34.310430 -82.527339 34.310267 -82.527460 34.310144 -82.527609 34.310077 -82.527730 34.310005 -82.527929 34.309983 -82.528034 34.309985 -82.528758 34.310259 -82.528792 34.310429 -82.528786 34.311231 -82.528549 34.311344 -82.528534 34.311461 -82.528500 34.311695 -82.528468 34.312118 -82.528472 34.312314 -82.528526 34.312481 -82.528598 34.312516 -82.528631 34.312555 -82.529059 34.312583 -82.529168 34.312606 -82.529216 34.312729 -82.529332 34.313144 -82.529501 34.313537 -82.529526 34.314034 -82.529669 34.314586 -82.529529 34.314967 -82.529371 34.315037 -82.529324 34.315077 -82.529270 34.315219 -82.528911 34.315342 -82.528754 34.315435 -82.528761 34.315567 -82.528825 34.315665 -82.529151 34.315677 -82.529240 34.315759 -82.529461 34.315813 -82.529554 34.316003 -82.529695 34.316055 -82.529764 34.316223 -82.530078 34.316289 -82.530386 34.316320 -82.530854 34.316388 -82.531065 34.316572 -82.531280 34.316845 -82.531417 34.316947 -82.531042 34.317080 -82.530851 34.317095 -82.530778 34.317054 -82.530594 34.316815 -82.530324 34.316678 -82.530061 34.316652 -82.529796 34.316709 -82.529465 34.316656 -82.529129 34.316529 -82.529026 34.316356 -82.528950 34.316099 -82.528899 34.315940 -82.528597 34.315880 -82.528091 34.315860 -82.527724 34.315878 -82.527639 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC001</ms:areasymbol>
+        <ms:musym>CcB</ms:musym>
+        <ms:nationalmusym>2q7j7</ms:nationalmusym>
+        <ms:mukey>1154991</ms:mukey>
+        <ms:spatialversion>7</ms:spatialversion>
+        <ms:muname>Cecil sandy loam, 2 to 6 percent slopes</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp>4</ms:slopegraddcp>
+        <ms:slopegradwta>4</ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin></ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta>2.95</ms:aws025wta>
+        <ms:aws050wta>5.45</ms:aws050wta>
+        <ms:aws0100wta>10.4</ms:aws0100wta>
+        <ms:aws0150wta>17.35</ms:aws0150wta>
+        <ms:drclassdcd>Well drained</ms:drclassdcd>
+        <ms:drclasswettest>Well drained</ms:drclasswettest>
+        <ms:hydgrpdcd>B</ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>2</ms:niccdcd>
+        <ms:niccdcdpct>95</ms:niccdcdpct>
+        <ms:engdwobdcd>Not limited</ms:engdwobdcd>
+        <ms:engdwbdcd>Not limited</ms:engdwbdcd>
+        <ms:engdwbll>Not limited</ms:engdwbll>
+        <ms:engdwbml>Somewhat limited</ms:engdwbml>
+        <ms:engstafdcd>Somewhat limited</ms:engstafdcd>
+        <ms:engstafll>Somewhat limited</ms:engstafll>
+        <ms:engstafml>Very limited</ms:engstafml>
+        <ms:engsldcd>Somewhat limited</ms:engsldcd>
+        <ms:engsldcp>Somewhat limited</ms:engsldcp>
+        <ms:englrsdcd>Very limited</ms:englrsdcd>
+        <ms:engcmssdcd>Poor</ms:engcmssdcd>
+        <ms:engcmssmp>Poor</ms:engcmssmp>
+        <ms:urbrecptdcd>Somewhat limited</ms:urbrecptdcd>
+        <ms:urbrecptwta>0.052</ms:urbrecptwta>
+        <ms:forpehrtdcp>Erosion hazard moderate</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta>0.506</ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386728933</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.1155021">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.336221 -82.538292</gml:lowerCorner>
+        		<gml:upperCorner>34.346835 -82.525179</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.336977 -82.536384 34.336949 -82.536639 34.336906 -82.536751 34.336867 -82.536774 34.336807 -82.536759 34.336707 -82.536675 34.336601 -82.536600 34.336452 -82.536555 34.336320 -82.536589 34.336221 -82.536598 34.336251 -82.536671 34.336416 -82.536774 34.336598 -82.536951 34.336791 -82.537106 34.337122 -82.537328 34.337781 -82.537881 34.337983 -82.538071 34.338333 -82.538253 34.338540 -82.538292 34.338665 -82.538239 34.338695 -82.538211 34.338727 -82.538140 34.338735 -82.537874 34.338719 -82.537641 34.338584 -82.537181 34.338558 -82.537062 34.338550 -82.536915 34.338673 -82.536669 34.338770 -82.536372 34.338987 -82.535902 34.339183 -82.535396 34.339435 -82.534879 34.339537 -82.534481 34.339723 -82.533862 34.339737 -82.533750 34.339941 -82.533339 34.339965 -82.533219 34.340017 -82.532703 34.340082 -82.532523 34.340245 -82.532316 34.340437 -82.532112 34.340483 -82.532086 34.340514 -82.532040 34.340719 -82.531858 34.341251 -82.531429 34.341802 -82.530795 34.341983 -82.530518 34.342179 -82.529976 34.342291 -82.529852 34.342507 -82.529784 34.342659 -82.529614 34.342864 -82.528937 34.343041 -82.528627 34.343205 -82.528402 34.344164 -82.527691 34.344521 -82.527507 34.344927 -82.527397 34.345394 -82.527362 34.345878 -82.527153 34.345997 -82.527141 34.346211 -82.527164 34.346281 -82.527210 34.346835 -82.526390 34.346676 -82.526375 34.346438 -82.526310 34.346078 -82.526288 34.345884 -82.526304 34.345291 -82.526430 34.345126 -82.526428 34.345044 -82.526402 34.344840 -82.526263 34.344769 -82.526141 34.344739 -82.525935 34.344626 -82.525842 34.344537 -82.525729 34.344354 -82.525427 34.344259 -82.525314 34.344112 -82.525209 34.343884 -82.525179 34.343843 -82.525261 34.343828 -82.525375 34.343836 -82.525499 34.343892 -82.525709 34.344146 -82.526072 34.344183 -82.526229 34.344184 -82.526582 34.344162 -82.526659 34.344062 -82.526802 34.343832 -82.526889 34.343495 -82.526812 34.343368 -82.526705 34.343277 -82.526510 34.343243 -82.526471 34.343185 -82.526419 34.343017 -82.526363 34.343005 -82.526608 34.343025 -82.526808 34.343023 -82.527048 34.343015 -82.527129 34.342971 -82.527232 34.342800 -82.527434 34.342282 -82.527906 34.342144 -82.528149 34.342068 -82.528376 34.341925 -82.528570 34.341739 -82.528701 34.341354 -82.528879 34.341200 -82.528980 34.341002 -82.529147 34.340731 -82.529419 34.340594 -82.529506 34.340340 -82.529584 34.340181 -82.529675 34.340124 -82.529742 34.339856 -82.530096 34.339767 -82.530331 34.339739 -82.530495 34.339751 -82.530802 34.339768 -82.530933 34.339824 -82.531122 34.339880 -82.531249 34.339893 -82.531431 34.339685 -82.532139 34.339483 -82.532564 34.339360 -82.532699 34.338953 -82.533042 34.338773 -82.533330 34.338723 -82.533490 34.338703 -82.533622 34.338684 -82.534409 34.338651 -82.534544 34.338435 -82.534989 34.338244 -82.535711 34.338084 -82.536100 34.337906 -82.536413 34.337759 -82.536554 34.337632 -82.536606 34.337465 -82.536598 34.337080 -82.536471 34.336977 -82.536384 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC001</ms:areasymbol>
+        <ms:musym>Tc</ms:musym>
+        <ms:nationalmusym>17rwr</ms:nationalmusym>
+        <ms:mukey>1155021</ms:mukey>
+        <ms:spatialversion>7</ms:spatialversion>
+        <ms:muname>Toccoa sandy loam</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp>1</ms:slopegraddcp>
+        <ms:slopegradwta>1</ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin>114</ms:wtdepannmin>
+        <ms:wtdepaprjunmin>114</ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>Occasional</ms:flodfreqdcd>
+        <ms:flodfreqmax>Occasional</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta>2.75</ms:aws025wta>
+        <ms:aws050wta>5.5</ms:aws050wta>
+        <ms:aws0100wta>11</ms:aws0100wta>
+        <ms:aws0150wta>16.5</ms:aws0150wta>
+        <ms:drclassdcd>Moderately well drained</ms:drclassdcd>
+        <ms:drclasswettest>Moderately well drained</ms:drclasswettest>
+        <ms:hydgrpdcd>A</ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>89</ms:iccdcdpct>
+        <ms:niccdcd>2</ms:niccdcd>
+        <ms:niccdcdpct>85</ms:niccdcdpct>
+        <ms:engdwobdcd>Very limited</ms:engdwobdcd>
+        <ms:engdwbdcd>Very limited</ms:engdwbdcd>
+        <ms:engdwbll>Not rated</ms:engdwbll>
+        <ms:engdwbml>Very limited</ms:engdwbml>
+        <ms:engstafdcd>Very limited</ms:engstafdcd>
+        <ms:engstafll>Not rated</ms:engstafll>
+        <ms:engstafml>Very limited</ms:engstafml>
+        <ms:engsldcd>Very limited</ms:engsldcd>
+        <ms:engsldcp>Very limited</ms:engsldcp>
+        <ms:englrsdcd>Very limited</ms:englrsdcd>
+        <ms:engcmssdcd>Fair</ms:engcmssdcd>
+        <ms:engcmssmp>Not rated</ms:engcmssmp>
+        <ms:urbrecptdcd>Somewhat limited</ms:urbrecptdcd>
+        <ms:urbrecptwta>0.006</ms:urbrecptwta>
+        <ms:forpehrtdcp>Erosion hazard slight</ms:forpehrtdcp>
+        <ms:hydclprs>4</ms:hydclprs>
+        <ms:awmmfpwwta>0.6</ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386728972</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.1154991">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.312759 -82.522826</gml:lowerCorner>
+        		<gml:upperCorner>34.314588 -82.520335</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.313451 -82.520562 34.313309 -82.521146 34.313114 -82.521532 34.313061 -82.521561 34.312805 -82.521815 34.312781 -82.521879 34.312759 -82.522153 34.312785 -82.522504 34.312828 -82.522643 34.312963 -82.522806 34.313009 -82.522826 34.313045 -82.522786 34.313245 -82.522365 34.313378 -82.522168 34.313560 -82.521968 34.313739 -82.521841 34.313781 -82.521792 34.313874 -82.521603 34.313950 -82.521488 34.314030 -82.521438 34.314215 -82.521254 34.314279 -82.521005 34.314311 -82.520704 34.314588 -82.520462 34.314515 -82.520379 34.314281 -82.520335 34.314118 -82.520336 34.313569 -82.520541 34.313451 -82.520562 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC001</ms:areasymbol>
+        <ms:musym>CcB</ms:musym>
+        <ms:nationalmusym>2q7j7</ms:nationalmusym>
+        <ms:mukey>1154991</ms:mukey>
+        <ms:spatialversion>7</ms:spatialversion>
+        <ms:muname>Cecil sandy loam, 2 to 6 percent slopes</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp>4</ms:slopegraddcp>
+        <ms:slopegradwta>4</ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin></ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta>2.95</ms:aws025wta>
+        <ms:aws050wta>5.45</ms:aws050wta>
+        <ms:aws0100wta>10.4</ms:aws0100wta>
+        <ms:aws0150wta>17.35</ms:aws0150wta>
+        <ms:drclassdcd>Well drained</ms:drclassdcd>
+        <ms:drclasswettest>Well drained</ms:drclasswettest>
+        <ms:hydgrpdcd>B</ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>2</ms:niccdcd>
+        <ms:niccdcdpct>95</ms:niccdcdpct>
+        <ms:engdwobdcd>Not limited</ms:engdwobdcd>
+        <ms:engdwbdcd>Not limited</ms:engdwbdcd>
+        <ms:engdwbll>Not limited</ms:engdwbll>
+        <ms:engdwbml>Somewhat limited</ms:engdwbml>
+        <ms:engstafdcd>Somewhat limited</ms:engstafdcd>
+        <ms:engstafll>Somewhat limited</ms:engstafll>
+        <ms:engstafml>Very limited</ms:engstafml>
+        <ms:engsldcd>Somewhat limited</ms:engsldcd>
+        <ms:engsldcp>Somewhat limited</ms:engsldcp>
+        <ms:englrsdcd>Very limited</ms:englrsdcd>
+        <ms:engcmssdcd>Poor</ms:engcmssdcd>
+        <ms:engcmssmp>Poor</ms:engcmssmp>
+        <ms:urbrecptdcd>Somewhat limited</ms:urbrecptdcd>
+        <ms:urbrecptwta>0.052</ms:urbrecptwta>
+        <ms:forpehrtdcp>Erosion hazard moderate</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta>0.506</ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386729088</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.1154986">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.342263 -82.526889</gml:lowerCorner>
+        		<gml:upperCorner>34.344184 -82.523707</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.343884 -82.525179 34.343862 -82.525096 34.343772 -82.524976 34.343723 -82.524808 34.343588 -82.524534 34.343556 -82.524050 34.343509 -82.523832 34.343408 -82.523707 34.343304 -82.523713 34.343176 -82.523957 34.343009 -82.524570 34.342910 -82.524740 34.342700 -82.524758 34.342483 -82.524608 34.342350 -82.524598 34.342304 -82.524681 34.342263 -82.524685 34.342345 -82.524927 34.342594 -82.525504 34.342715 -82.525659 34.342924 -82.526012 34.343021 -82.526324 34.343017 -82.526363 34.343185 -82.526419 34.343243 -82.526471 34.343277 -82.526510 34.343368 -82.526705 34.343495 -82.526812 34.343832 -82.526889 34.344062 -82.526802 34.344162 -82.526659 34.344184 -82.526582 34.344183 -82.526229 34.344146 -82.526072 34.343892 -82.525709 34.343836 -82.525499 34.343828 -82.525375 34.343843 -82.525261 34.343884 -82.525179 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC001</ms:areasymbol>
+        <ms:musym>ApC</ms:musym>
+        <ms:nationalmusym>2vwrg</ms:nationalmusym>
+        <ms:mukey>1154986</ms:mukey>
+        <ms:spatialversion>7</ms:spatialversion>
+        <ms:muname>Appling sandy loam, 6 to 10 percent slopes</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp>8</ms:slopegraddcp>
+        <ms:slopegradwta>8</ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin></ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta>3.47</ms:aws025wta>
+        <ms:aws050wta>6.94</ms:aws050wta>
+        <ms:aws0100wta>13.7</ms:aws0100wta>
+        <ms:aws0150wta>22.02</ms:aws0150wta>
+        <ms:drclassdcd>Well drained</ms:drclassdcd>
+        <ms:drclasswettest>Well drained</ms:drclasswettest>
+        <ms:hydgrpdcd>B</ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>3</ms:niccdcd>
+        <ms:niccdcdpct>88</ms:niccdcdpct>
+        <ms:engdwobdcd>Not limited</ms:engdwobdcd>
+        <ms:engdwbdcd>Not limited</ms:engdwbdcd>
+        <ms:engdwbll>Not limited</ms:engdwbll>
+        <ms:engdwbml>Somewhat limited</ms:engdwbml>
+        <ms:engstafdcd>Somewhat limited</ms:engstafdcd>
+        <ms:engstafll>Somewhat limited</ms:engstafll>
+        <ms:engstafml>Very limited</ms:engstafml>
+        <ms:engsldcd>Very limited</ms:engsldcd>
+        <ms:engsldcp>Very limited</ms:engsldcp>
+        <ms:englrsdcd>Very limited</ms:englrsdcd>
+        <ms:engcmssdcd>Poor</ms:engcmssdcd>
+        <ms:engcmssmp>Poor</ms:engcmssmp>
+        <ms:urbrecptdcd>Somewhat limited</ms:urbrecptdcd>
+        <ms:urbrecptwta>0.045</ms:urbrecptwta>
+        <ms:forpehrtdcp>Erosion hazard moderate</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta>0.127</ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386729223</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.1154992">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.331730 -82.522993</gml:lowerCorner>
+        		<gml:upperCorner>34.337029 -82.517881</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.336667 -82.518327 34.335848 -82.518284 34.335729 -82.518253 34.335301 -82.518192 34.334582 -82.517881 34.334551 -82.517956 34.334382 -82.518078 34.333924 -82.518142 34.333540 -82.518151 34.333292 -82.518083 34.332979 -82.518135 34.332760 -82.518210 34.332596 -82.518236 34.332471 -82.518223 34.332313 -82.518202 34.332125 -82.518209 34.332006 -82.518211 34.331851 -82.518215 34.331779 -82.518275 34.331745 -82.518357 34.331730 -82.518435 34.331737 -82.518846 34.331831 -82.519605 34.332061 -82.520897 34.332218 -82.521497 34.332350 -82.521852 34.332376 -82.521922 34.332777 -82.522536 34.333055 -82.522849 34.333225 -82.522949 34.333475 -82.522993 34.333600 -82.522919 34.333624 -82.522764 34.333620 -82.522647 34.333593 -82.522549 34.333354 -82.522246 34.333001 -82.521945 34.332876 -82.521722 34.332797 -82.521460 34.332826 -82.520818 34.332809 -82.520668 34.332592 -82.520054 34.332546 -82.519861 34.332491 -82.519478 34.332495 -82.519097 34.332650 -82.518796 34.332711 -82.518726 34.332923 -82.518577 34.333236 -82.518481 34.333846 -82.518447 34.334324 -82.518518 34.334426 -82.518568 34.334606 -82.518697 34.335068 -82.519175 34.335122 -82.519213 34.335251 -82.519423 34.335564 -82.520204 34.335602 -82.520264 34.335757 -82.520345 34.336021 -82.520377 34.336204 -82.520587 34.336382 -82.520873 34.336465 -82.520885 34.336558 -82.520839 34.336602 -82.520772 34.336630 -82.520648 34.336618 -82.520298 34.336690 -82.519947 34.336701 -82.519913 34.336626 -82.519615 34.336624 -82.519322 34.336669 -82.519167 34.336797 -82.518952 34.336838 -82.518903 34.337029 -82.518765 34.337017 -82.518579 34.336950 -82.518508 34.336667 -82.518327 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC001</ms:areasymbol>
+        <ms:musym>CcC</ms:musym>
+        <ms:nationalmusym>2q7j8</ms:nationalmusym>
+        <ms:mukey>1154992</ms:mukey>
+        <ms:spatialversion>7</ms:spatialversion>
+        <ms:muname>Cecil sandy loam, 6 to 10 percent slopes</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp>8</ms:slopegraddcp>
+        <ms:slopegradwta>8</ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin></ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta>2.99</ms:aws025wta>
+        <ms:aws050wta>5.5</ms:aws050wta>
+        <ms:aws0100wta>10.48</ms:aws0100wta>
+        <ms:aws0150wta>16.87</ms:aws0150wta>
+        <ms:drclassdcd>Well drained</ms:drclassdcd>
+        <ms:drclasswettest>Well drained</ms:drclasswettest>
+        <ms:hydgrpdcd>B</ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>3</ms:niccdcd>
+        <ms:niccdcdpct>98</ms:niccdcdpct>
+        <ms:engdwobdcd>Not limited</ms:engdwobdcd>
+        <ms:engdwbdcd>Not limited</ms:engdwbdcd>
+        <ms:engdwbll>Not limited</ms:engdwbll>
+        <ms:engdwbml>Somewhat limited</ms:engdwbml>
+        <ms:engstafdcd>Somewhat limited</ms:engstafdcd>
+        <ms:engstafll>Somewhat limited</ms:engstafll>
+        <ms:engstafml>Very limited</ms:engstafml>
+        <ms:engsldcd>Very limited</ms:engsldcd>
+        <ms:engsldcp>Very limited</ms:engsldcp>
+        <ms:englrsdcd>Very limited</ms:englrsdcd>
+        <ms:engcmssdcd>Poor</ms:engcmssdcd>
+        <ms:engcmssmp>Poor</ms:engcmssmp>
+        <ms:urbrecptdcd>Somewhat limited</ms:urbrecptdcd>
+        <ms:urbrecptwta>0.05</ms:urbrecptwta>
+        <ms:forpehrtdcp>Erosion hazard moderate</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta>0.542</ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386729285</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.1154992">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.334251 -82.541326</gml:lowerCorner>
+        		<gml:upperCorner>34.335981 -82.538808</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.335945 -82.541326 34.335943 -82.541237 34.335981 -82.541082 34.335965 -82.540929 34.335866 -82.540650 34.335789 -82.540133 34.335794 -82.539854 34.335793 -82.539779 34.335846 -82.539463 34.335834 -82.539197 34.335818 -82.539158 34.335688 -82.539009 34.335590 -82.538936 34.335286 -82.538836 34.334857 -82.538808 34.334433 -82.538855 34.334366 -82.538896 34.334257 -82.539044 34.334251 -82.539209 34.334265 -82.539328 34.334348 -82.539491 34.334376 -82.539525 34.334517 -82.539582 34.334638 -82.539682 34.334672 -82.539733 34.334703 -82.539906 34.334832 -82.540088 34.334860 -82.540108 34.335153 -82.540164 34.335189 -82.540212 34.335223 -82.540341 34.335181 -82.540727 34.335207 -82.540902 34.335356 -82.541051 34.335649 -82.541156 34.335945 -82.541326 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC001</ms:areasymbol>
+        <ms:musym>CcC</ms:musym>
+        <ms:nationalmusym>2q7j8</ms:nationalmusym>
+        <ms:mukey>1154992</ms:mukey>
+        <ms:spatialversion>7</ms:spatialversion>
+        <ms:muname>Cecil sandy loam, 6 to 10 percent slopes</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp>8</ms:slopegraddcp>
+        <ms:slopegradwta>8</ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin></ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta>2.99</ms:aws025wta>
+        <ms:aws050wta>5.5</ms:aws050wta>
+        <ms:aws0100wta>10.48</ms:aws0100wta>
+        <ms:aws0150wta>16.87</ms:aws0150wta>
+        <ms:drclassdcd>Well drained</ms:drclassdcd>
+        <ms:drclasswettest>Well drained</ms:drclasswettest>
+        <ms:hydgrpdcd>B</ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>3</ms:niccdcd>
+        <ms:niccdcdpct>98</ms:niccdcdpct>
+        <ms:engdwobdcd>Not limited</ms:engdwobdcd>
+        <ms:engdwbdcd>Not limited</ms:engdwbdcd>
+        <ms:engdwbll>Not limited</ms:engdwbll>
+        <ms:engdwbml>Somewhat limited</ms:engdwbml>
+        <ms:engstafdcd>Somewhat limited</ms:engstafdcd>
+        <ms:engstafll>Somewhat limited</ms:engstafll>
+        <ms:engstafml>Very limited</ms:engstafml>
+        <ms:engsldcd>Very limited</ms:engsldcd>
+        <ms:engsldcp>Very limited</ms:engsldcp>
+        <ms:englrsdcd>Very limited</ms:englrsdcd>
+        <ms:engcmssdcd>Poor</ms:engcmssdcd>
+        <ms:engcmssmp>Poor</ms:engcmssmp>
+        <ms:urbrecptdcd>Somewhat limited</ms:urbrecptdcd>
+        <ms:urbrecptwta>0.05</ms:urbrecptwta>
+        <ms:forpehrtdcp>Erosion hazard moderate</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta>0.542</ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386729313</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.1155019">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.327995 -82.553263</gml:lowerCorner>
+        		<gml:upperCorner>34.332078 -82.542620</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.330479 -82.546370 34.330443 -82.546481 34.330324 -82.546642 34.330128 -82.546842 34.330022 -82.546897 34.329801 -82.546909 34.329671 -82.546823 34.329453 -82.546634 34.329340 -82.546573 34.329102 -82.546567 34.329001 -82.546464 34.328971 -82.546388 34.328961 -82.546392 34.328895 -82.545218 34.328888 -82.544592 34.328929 -82.544167 34.328919 -82.543786 34.328905 -82.543604 34.328824 -82.543171 34.328813 -82.543171 34.328800 -82.543124 34.328781 -82.542733 34.328703 -82.542634 34.328604 -82.542620 34.328566 -82.542652 34.328508 -82.542824 34.328453 -82.542890 34.328358 -82.542913 34.328225 -82.543190 34.328264 -82.543243 34.328382 -82.543598 34.328390 -82.543818 34.328369 -82.543928 34.328215 -82.544447 34.328036 -82.544830 34.327995 -82.545118 34.327995 -82.545499 34.328129 -82.546073 34.328324 -82.546646 34.328556 -82.547144 34.328602 -82.547300 34.328794 -82.547664 34.328872 -82.547843 34.328921 -82.548096 34.328899 -82.548455 34.328953 -82.548882 34.328943 -82.549148 34.328880 -82.549431 34.328850 -82.549509 34.328760 -82.549652 34.328675 -82.549751 34.328359 -82.549912 34.328226 -82.550003 34.328115 -82.550221 34.328092 -82.550516 34.328153 -82.550646 34.328324 -82.550858 34.328384 -82.550843 34.328635 -82.550884 34.328733 -82.550916 34.328897 -82.551055 34.329008 -82.551265 34.329042 -82.551507 34.329005 -82.551591 34.328886 -82.551735 34.328667 -82.551898 34.328592 -82.552114 34.328584 -82.552245 34.328595 -82.552290 34.328670 -82.552368 34.328883 -82.552386 34.329080 -82.552591 34.329082 -82.552680 34.329050 -82.552851 34.329032 -82.553148 34.329041 -82.553212 34.329070 -82.553263 34.329161 -82.553253 34.329272 -82.553208 34.329369 -82.553095 34.329445 -82.552885 34.329562 -82.552692 34.329659 -82.552331 34.329794 -82.552189 34.329892 -82.551884 34.329829 -82.551575 34.329885 -82.551263 34.329884 -82.550914 34.329947 -82.550715 34.330078 -82.550162 34.330268 -82.549717 34.330511 -82.548725 34.330759 -82.548156 34.330828 -82.547886 34.331050 -82.547291 34.331211 -82.547086 34.331369 -82.546968 34.331808 -82.546862 34.331955 -82.546792 34.332053 -82.546634 34.332078 -82.546334 34.332051 -82.546229 34.331900 -82.545981 34.331688 -82.545757 34.331556 -82.545650 34.331499 -82.545636 34.331276 -82.545654 34.331162 -82.545757 34.331009 -82.546096 34.330879 -82.546279 34.330715 -82.546374 34.330526 -82.546383 34.330479 -82.546370 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC001</ms:areasymbol>
+        <ms:musym>PaF</ms:musym>
+        <ms:nationalmusym>2wdwm</ms:nationalmusym>
+        <ms:mukey>1155019</ms:mukey>
+        <ms:spatialversion>7</ms:spatialversion>
+        <ms:muname>Pacolet sandy loam, 15 to 40 percent slopes</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp>28</ms:slopegraddcp>
+        <ms:slopegradwta>27.4</ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin></ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta>2.99</ms:aws025wta>
+        <ms:aws050wta>6.43</ms:aws050wta>
+        <ms:aws0100wta>12.38</ms:aws0100wta>
+        <ms:aws0150wta>18.09</ms:aws0150wta>
+        <ms:drclassdcd>Well drained</ms:drclassdcd>
+        <ms:drclasswettest>Well drained</ms:drclasswettest>
+        <ms:hydgrpdcd>B</ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>7</ms:niccdcd>
+        <ms:niccdcdpct>100</ms:niccdcdpct>
+        <ms:engdwobdcd>Very limited</ms:engdwobdcd>
+        <ms:engdwbdcd>Very limited</ms:engdwbdcd>
+        <ms:engdwbll>Very limited</ms:engdwbll>
+        <ms:engdwbml>Very limited</ms:engdwbml>
+        <ms:engstafdcd>Very limited</ms:engstafdcd>
+        <ms:engstafll>Very limited</ms:engstafll>
+        <ms:engstafml>Very limited</ms:engstafml>
+        <ms:engsldcd>Very limited</ms:engsldcd>
+        <ms:engsldcp>Very limited</ms:engsldcp>
+        <ms:englrsdcd>Very limited</ms:englrsdcd>
+        <ms:engcmssdcd>Poor</ms:engcmssdcd>
+        <ms:engcmssmp>Fair</ms:engcmssmp>
+        <ms:urbrecptdcd>Very limited</ms:urbrecptdcd>
+        <ms:urbrecptwta>0.96</ms:urbrecptwta>
+        <ms:forpehrtdcp>Erosion hazard moderate</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta>1</ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386729319</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.1154986">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.319919 -82.548456</gml:lowerCorner>
+        		<gml:upperCorner>34.324221 -82.536960</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.323614 -82.536982 34.323438 -82.537242 34.323223 -82.537435 34.323098 -82.537495 34.323015 -82.537616 34.322983 -82.537717 34.322989 -82.537876 34.323060 -82.538161 34.323069 -82.538232 34.323048 -82.538334 34.322895 -82.538645 34.322334 -82.539279 34.322200 -82.539489 34.322162 -82.539578 34.322104 -82.539852 34.322084 -82.540086 34.322137 -82.540965 34.322100 -82.541124 34.322050 -82.541225 34.321975 -82.541563 34.322278 -82.541298 34.322419 -82.541276 34.322494 -82.541308 34.322526 -82.541348 34.322581 -82.541566 34.322514 -82.541959 34.322451 -82.542076 34.322330 -82.542449 34.322014 -82.542941 34.321636 -82.543312 34.321411 -82.543458 34.321310 -82.543473 34.320862 -82.543612 34.320322 -82.543890 34.320195 -82.543940 34.320015 -82.544122 34.319939 -82.544254 34.319919 -82.544564 34.320022 -82.544906 34.320111 -82.545098 34.320262 -82.545306 34.320534 -82.545456 34.320725 -82.545523 34.320892 -82.545530 34.321185 -82.545444 34.321366 -82.545328 34.321623 -82.545225 34.321731 -82.545262 34.321856 -82.545400 34.321860 -82.545618 34.321834 -82.545783 34.321765 -82.545871 34.321582 -82.545991 34.321359 -82.546249 34.321338 -82.546294 34.321336 -82.546479 34.321433 -82.546574 34.321612 -82.546591 34.321790 -82.546564 34.321939 -82.546499 34.322163 -82.546481 34.322205 -82.546503 34.322316 -82.546650 34.322322 -82.546822 34.322261 -82.546920 34.321993 -82.547198 34.321754 -82.547337 34.321693 -82.547398 34.321673 -82.547491 34.321630 -82.547586 34.321391 -82.547935 34.321343 -82.548114 34.321358 -82.548253 34.321523 -82.548421 34.321605 -82.548456 34.321812 -82.548439 34.322039 -82.548342 34.322619 -82.547938 34.323052 -82.547518 34.323215 -82.547281 34.323334 -82.547184 34.323517 -82.546945 34.323521 -82.546903 34.323642 -82.546745 34.323755 -82.546376 34.323812 -82.545276 34.323427 -82.545688 34.323368 -82.545727 34.323118 -82.545755 34.323020 -82.545699 34.322897 -82.545559 34.322776 -82.545272 34.322727 -82.545052 34.322656 -82.544368 34.322620 -82.543811 34.322658 -82.543362 34.322749 -82.543095 34.322854 -82.542939 34.323488 -82.542504 34.323785 -82.542434 34.323927 -82.542360 34.324050 -82.542252 34.324148 -82.542139 34.324209 -82.541965 34.324221 -82.541762 34.324126 -82.541485 34.323939 -82.541263 34.323651 -82.541088 34.323570 -82.540939 34.323546 -82.540826 34.323574 -82.540632 34.323638 -82.540481 34.324114 -82.539827 34.324108 -82.539282 34.324090 -82.539189 34.323993 -82.539067 34.323824 -82.538977 34.323703 -82.538832 34.323660 -82.538729 34.323643 -82.538620 34.323668 -82.538433 34.323709 -82.538357 34.324031 -82.537449 34.324056 -82.537215 34.324018 -82.537086 34.323930 -82.536960 34.323614 -82.536982 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC001</ms:areasymbol>
+        <ms:musym>ApC</ms:musym>
+        <ms:nationalmusym>2vwrg</ms:nationalmusym>
+        <ms:mukey>1154986</ms:mukey>
+        <ms:spatialversion>7</ms:spatialversion>
+        <ms:muname>Appling sandy loam, 6 to 10 percent slopes</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp>8</ms:slopegraddcp>
+        <ms:slopegradwta>8</ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin></ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta>3.47</ms:aws025wta>
+        <ms:aws050wta>6.94</ms:aws050wta>
+        <ms:aws0100wta>13.7</ms:aws0100wta>
+        <ms:aws0150wta>22.02</ms:aws0150wta>
+        <ms:drclassdcd>Well drained</ms:drclassdcd>
+        <ms:drclasswettest>Well drained</ms:drclasswettest>
+        <ms:hydgrpdcd>B</ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>3</ms:niccdcd>
+        <ms:niccdcdpct>88</ms:niccdcdpct>
+        <ms:engdwobdcd>Not limited</ms:engdwobdcd>
+        <ms:engdwbdcd>Not limited</ms:engdwbdcd>
+        <ms:engdwbll>Not limited</ms:engdwbll>
+        <ms:engdwbml>Somewhat limited</ms:engdwbml>
+        <ms:engstafdcd>Somewhat limited</ms:engstafdcd>
+        <ms:engstafll>Somewhat limited</ms:engstafll>
+        <ms:engstafml>Very limited</ms:engstafml>
+        <ms:engsldcd>Very limited</ms:engsldcd>
+        <ms:engsldcp>Very limited</ms:engsldcp>
+        <ms:englrsdcd>Very limited</ms:englrsdcd>
+        <ms:engcmssdcd>Poor</ms:engcmssdcd>
+        <ms:engcmssmp>Poor</ms:engcmssmp>
+        <ms:urbrecptdcd>Somewhat limited</ms:urbrecptdcd>
+        <ms:urbrecptwta>0.045</ms:urbrecptwta>
+        <ms:forpehrtdcp>Erosion hazard moderate</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta>0.127</ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386729410</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.1154985">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.331684 -82.530129</gml:lowerCorner>
+        		<gml:upperCorner>34.352271 -82.504063</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.350477 -82.516839 34.350189 -82.516302 34.349991 -82.516022 34.349852 -82.515882 34.349592 -82.515690 34.349277 -82.515651 34.349023 -82.515774 34.348898 -82.515949 34.348856 -82.516098 34.348761 -82.516339 34.348647 -82.516474 34.348491 -82.516546 34.348458 -82.516544 34.348272 -82.516474 34.348195 -82.516361 34.348142 -82.516163 34.348138 -82.516070 34.348174 -82.515855 34.348372 -82.515374 34.348402 -82.515264 34.348640 -82.514906 34.348733 -82.514801 34.348838 -82.514754 34.349082 -82.514774 34.349231 -82.514861 34.349372 -82.515024 34.349477 -82.515220 34.349535 -82.515276 34.349781 -82.515365 34.349973 -82.515347 34.350026 -82.515313 34.350033 -82.515107 34.350106 -82.514526 34.350241 -82.514067 34.350283 -82.513232 34.350303 -82.513059 34.350395 -82.512677 34.350473 -82.512539 34.350545 -82.512371 34.350612 -82.512069 34.350615 -82.512022 34.350563 -82.511786 34.350443 -82.511695 34.350203 -82.511687 34.350164 -82.511665 34.350045 -82.511498 34.350032 -82.511454 34.350040 -82.511206 34.350084 -82.510948 34.350291 -82.510284 34.350321 -82.510232 34.350273 -82.510183 34.350177 -82.510008 34.350176 -82.509764 34.350198 -82.509675 34.350497 -82.509536 34.350596 -82.509465 34.350896 -82.509184 34.350973 -82.509010 34.351015 -82.508538 34.350969 -82.508287 34.350868 -82.508179 34.350731 -82.508220 34.350428 -82.508468 34.350307 -82.508508 34.350081 -82.508460 34.349921 -82.508335 34.349912 -82.508256 34.349924 -82.507964 34.349969 -82.507907 34.349987 -82.507809 34.350092 -82.507493 34.350118 -82.507250 34.350031 -82.506829 34.349862 -82.506498 34.349812 -82.506310 34.349779 -82.505968 34.349826 -82.505593 34.349823 -82.505277 34.349803 -82.505175 34.349771 -82.505128 34.349685 -82.505067 34.349490 -82.505069 34.349388 -82.505131 34.349166 -82.505335 34.349075 -82.505454 34.348932 -82.505748 34.348888 -82.506003 34.348800 -82.506177 34.348493 -82.506525 34.348339 -82.506618 34.348162 -82.506645 34.348003 -82.506641 34.347804 -82.506537 34.347775 -82.506474 34.347747 -82.506315 34.347771 -82.506073 34.347971 -82.505647 34.347995 -82.505569 34.348305 -82.505042 34.347916 -82.504450 34.347738 -82.504264 34.347441 -82.504106 34.347150 -82.504063 34.347037 -82.504085 34.346894 -82.504157 34.346748 -82.504327 34.346571 -82.504690 34.346537 -82.505097 34.346503 -82.506016 34.346551 -82.506620 34.346613 -82.507009 34.346692 -82.507349 34.346944 -82.507984 34.346995 -82.508186 34.347196 -82.508314 34.347420 -82.508393 34.347642 -82.508550 34.347955 -82.508884 34.348126 -82.509133 34.348229 -82.509413 34.348300 -82.509898 34.348392 -82.510147 34.348543 -82.510490 34.348660 -82.511397 34.348710 -82.511574 34.348684 -82.511937 34.348588 -82.512058 34.348353 -82.512155 34.348032 -82.512149 34.347544 -82.511974 34.347159 -82.511846 34.347025 -82.511670 34.346983 -82.511555 34.346922 -82.511312 34.346910 -82.511044 34.347019 -82.510706 34.347011 -82.510293 34.347116 -82.509797 34.347100 -82.509607 34.346993 -82.509123 34.346966 -82.508875 34.346779 -82.508990 34.346648 -82.509009 34.346499 -82.508970 34.346377 -82.508889 34.346151 -82.508555 34.345892 -82.507904 34.345706 -82.507695 34.345505 -82.507698 34.345055 -82.507840 34.344918 -82.507845 34.344852 -82.507773 34.344791 -82.507611 34.344816 -82.507087 34.344906 -82.506768 34.345057 -82.506538 34.345122 -82.506500 34.344997 -82.506237 34.344822 -82.506146 34.344679 -82.506145 34.344392 -82.506248 34.344195 -82.506419 34.344152 -82.506519 34.344146 -82.506641 34.344180 -82.506873 34.344335 -82.507210 34.344348 -82.507434 34.344291 -82.507577 34.344104 -82.507726 34.343963 -82.507760 34.343858 -82.507703 34.343363 -82.507744 34.342972 -82.507584 34.342866 -82.507571 34.342711 -82.507635 34.342594 -82.507741 34.342596 -82.508015 34.342620 -82.508073 34.342830 -82.508339 34.342927 -82.508535 34.342997 -82.508601 34.343642 -82.508625 34.343870 -82.508764 34.343999 -82.508871 34.344064 -82.508988 34.344055 -82.509401 34.344074 -82.509490 34.344136 -82.509601 34.344273 -82.509658 34.344577 -82.509633 34.344683 -82.509646 34.344753 -82.509683 34.344842 -82.509808 34.344900 -82.509998 34.344943 -82.510218 34.344951 -82.510588 34.344975 -82.510764 34.345071 -82.510893 34.345130 -82.510933 34.345297 -82.510956 34.345416 -82.510995 34.345455 -82.511026 34.345475 -82.511074 34.345475 -82.511161 34.345414 -82.511318 34.345192 -82.511579 34.345096 -82.511767 34.345058 -82.512000 34.345754 -82.512094 34.346087 -82.512157 34.346289 -82.512160 34.346503 -82.512236 34.346711 -82.512327 34.346848 -82.512400 34.347290 -82.512747 34.347456 -82.512872 34.347696 -82.513178 34.347832 -82.513339 34.347872 -82.513461 34.347870 -82.513620 34.347821 -82.513698 34.347767 -82.513740 34.347565 -82.513751 34.347083 -82.513670 34.346281 -82.513347 34.345134 -82.513008 34.344844 -82.513008 34.344561 -82.513194 34.344418 -82.513381 34.344452 -82.513673 34.344690 -82.513929 34.345366 -82.514381 34.345953 -82.514732 34.346365 -82.515012 34.346505 -82.515129 34.346713 -82.515367 34.346934 -82.515740 34.346965 -82.515873 34.346979 -82.516103 34.346973 -82.516158 34.346952 -82.516196 34.346729 -82.516247 34.346585 -82.516181 34.346314 -82.515821 34.345937 -82.515484 34.345918 -82.515450 34.345548 -82.515165 34.345511 -82.515155 34.345293 -82.515009 34.344783 -82.514798 34.344219 -82.514643 34.344047 -82.514559 34.343892 -82.514347 34.343763 -82.514020 34.343660 -82.513823 34.343402 -82.513552 34.343078 -82.513377 34.342983 -82.513348 34.342732 -82.513315 34.342594 -82.513387 34.342503 -82.513498 34.342441 -82.513810 34.342414 -82.514831 34.342347 -82.514956 34.342283 -82.515022 34.342099 -82.515024 34.342015 -82.514942 34.341999 -82.514899 34.341987 -82.514561 34.341853 -82.514000 34.341852 -82.513740 34.341706 -82.513623 34.341551 -82.513434 34.341414 -82.513393 34.341292 -82.513472 34.341221 -82.513605 34.341213 -82.514103 34.341333 -82.514459 34.341514 -82.514810 34.341563 -82.515048 34.341556 -82.515099 34.341477 -82.515270 34.341408 -82.515337 34.341261 -82.515300 34.341132 -82.515184 34.340965 -82.514988 34.340711 -82.514623 34.340412 -82.514340 34.340303 -82.514329 34.340153 -82.514520 34.340112 -82.514679 34.340088 -82.514859 34.340077 -82.515181 34.340082 -82.515566 34.340001 -82.515770 34.339915 -82.515895 34.339963 -82.516226 34.339956 -82.516877 34.340083 -82.517175 34.340144 -82.517365 34.340132 -82.518831 34.340142 -82.519109 34.340094 -82.519502 34.340094 -82.519822 34.340029 -82.520252 34.340007 -82.520298 34.339902 -82.520418 34.339858 -82.520438 34.339763 -82.520435 34.339572 -82.520358 34.339495 -82.520221 34.339438 -82.519878 34.339455 -82.519673 34.339451 -82.519320 34.339275 -82.518794 34.339174 -82.518091 34.339047 -82.517629 34.338763 -82.517002 34.338229 -82.516264 34.337787 -82.515276 34.337666 -82.515278 34.337289 -82.515206 34.337178 -82.515167 34.336840 -82.514992 34.336602 -82.514797 34.336528 -82.514713 34.336319 -82.514373 34.336249 -82.514193 34.336092 -82.514026 34.335985 -82.513968 34.335703 -82.513873 34.335495 -82.513699 34.335334 -82.513474 34.335292 -82.513194 34.335146 -82.512796 34.335132 -82.512724 34.335063 -82.512595 34.334938 -82.512476 34.334896 -82.512455 34.334658 -82.512387 34.334477 -82.512311 34.334386 -82.512196 34.334320 -82.511980 34.334227 -82.511837 34.334009 -82.511656 34.333846 -82.511650 34.333676 -82.511754 34.333288 -82.511676 34.332962 -82.511988 34.332765 -82.512002 34.332562 -82.511990 34.332435 -82.512038 34.332241 -82.512162 34.332108 -82.512341 34.332033 -82.512530 34.331999 -82.512633 34.331986 -82.512853 34.332025 -82.513003 34.332082 -82.513125 34.332277 -82.513323 34.332289 -82.513441 34.332279 -82.513478 34.332158 -82.513588 34.331775 -82.513734 34.331684 -82.513790 34.331773 -82.513847 34.332610 -82.514187 34.332753 -82.514214 34.332799 -82.514200 34.332978 -82.514147 34.333222 -82.514131 34.333817 -82.514285 34.334113 -82.514395 34.334465 -82.514605 34.335463 -82.515422 34.335900 -82.515744 34.336055 -82.515921 34.336152 -82.516167 34.336292 -82.516330 34.336289 -82.516468 34.336237 -82.516547 34.336164 -82.516560 34.335561 -82.516229 34.335386 -82.516180 34.335325 -82.516197 34.334993 -82.516381 34.334985 -82.516546 34.335095 -82.516742 34.335292 -82.516957 34.335870 -82.517522 34.335936 -82.517611 34.336291 -82.517913 34.336529 -82.518006 34.336796 -82.517994 34.336935 -82.517913 34.337118 -82.517764 34.337388 -82.517505 34.337531 -82.517456 34.337589 -82.517480 34.337636 -82.517554 34.337646 -82.517839 34.337717 -82.517970 34.338215 -82.518230 34.338549 -82.518299 34.338797 -82.518389 34.338874 -82.518540 34.338864 -82.518685 34.338767 -82.518873 34.338660 -82.518937 34.338420 -82.519000 34.338046 -82.519028 34.337951 -82.519050 34.337749 -82.519133 34.337588 -82.519304 34.337533 -82.519435 34.337447 -82.520121 34.337409 -82.520212 34.337303 -82.520375 34.337191 -82.520381 34.337142 -82.520348 34.337069 -82.520227 34.337017 -82.519970 34.336965 -82.519935 34.336690 -82.519947 34.336618 -82.520298 34.336630 -82.520648 34.336602 -82.520772 34.336558 -82.520839 34.336465 -82.520885 34.336382 -82.520873 34.336204 -82.520587 34.336021 -82.520377 34.335757 -82.520345 34.335602 -82.520264 34.335564 -82.520204 34.335251 -82.519423 34.335122 -82.519213 34.335068 -82.519175 34.334606 -82.518697 34.334426 -82.518568 34.334324 -82.518518 34.333846 -82.518447 34.333236 -82.518481 34.332923 -82.518577 34.332711 -82.518726 34.332650 -82.518796 34.332495 -82.519097 34.332491 -82.519478 34.332546 -82.519861 34.332592 -82.520054 34.332809 -82.520668 34.332826 -82.520818 34.332797 -82.521460 34.332876 -82.521722 34.333001 -82.521945 34.333354 -82.522246 34.333593 -82.522549 34.333620 -82.522647 34.333624 -82.522764 34.333600 -82.522919 34.333715 -82.523010 34.333920 -82.523310 34.334060 -82.523461 34.334424 -82.523711 34.334604 -82.523885 34.334874 -82.524203 34.335047 -82.524476 34.335217 -82.524665 34.335267 -82.524675 34.335340 -82.524609 34.335337 -82.524148 34.335382 -82.523875 34.335551 -82.523518 34.335604 -82.523460 34.335727 -82.523411 34.335874 -82.523433 34.335973 -82.523492 34.336029 -82.523557 34.336179 -82.523945 34.336311 -82.524165 34.336622 -82.523400 34.336642 -82.523304 34.336735 -82.523055 34.336831 -82.522891 34.336886 -82.522881 34.336965 -82.522937 34.337061 -82.524653 34.337235 -82.525542 34.337338 -82.525911 34.337368 -82.525966 34.337516 -82.526138 34.337761 -82.526171 34.337872 -82.526150 34.338005 -82.526058 34.338174 -82.525792 34.338201 -82.525556 34.338180 -82.525403 34.338076 -82.525181 34.338019 -82.524758 34.338033 -82.524586 34.338096 -82.524423 34.338164 -82.524314 34.338229 -82.524268 34.338362 -82.524266 34.338485 -82.524375 34.338553 -82.524465 34.338584 -82.524726 34.338642 -82.524950 34.338729 -82.525143 34.338942 -82.525365 34.339051 -82.525564 34.339066 -82.525901 34.339033 -82.526512 34.339164 -82.526945 34.339166 -82.527139 34.339102 -82.527264 34.339027 -82.527306 34.338769 -82.527272 34.338576 -82.527153 34.338495 -82.527125 34.338237 -82.527131 34.338019 -82.527240 34.337826 -82.527445 34.337691 -82.527683 34.337644 -82.527898 34.337660 -82.528245 34.337759 -82.528963 34.337816 -82.529126 34.337866 -82.529473 34.337927 -82.529600 34.337999 -82.529664 34.338132 -82.529646 34.338257 -82.529475 34.338270 -82.529358 34.338271 -82.529004 34.338239 -82.528709 34.338108 -82.528395 34.338070 -82.528130 34.338084 -82.527961 34.338112 -82.527933 34.338233 -82.527915 34.338270 -82.527931 34.338469 -82.528217 34.338683 -82.528678 34.338729 -82.528937 34.338801 -82.529219 34.338856 -82.529628 34.338910 -82.529820 34.339015 -82.530000 34.339195 -82.530129 34.339392 -82.530099 34.339580 -82.529931 34.339678 -82.529766 34.339758 -82.529536 34.339838 -82.529445 34.339955 -82.529407 34.340052 -82.529463 34.340225 -82.529250 34.340310 -82.529108 34.340372 -82.528917 34.340447 -82.528747 34.340489 -82.528707 34.340382 -82.528467 34.340380 -82.528056 34.340297 -82.527861 34.340285 -82.527680 34.340326 -82.527464 34.340475 -82.527035 34.340473 -82.526770 34.340432 -82.526629 34.340410 -82.526483 34.340440 -82.526195 34.340510 -82.526043 34.340647 -82.525939 34.340884 -82.525947 34.341013 -82.526010 34.341261 -82.526249 34.341395 -82.526241 34.341487 -82.526159 34.341533 -82.526042 34.341610 -82.525524 34.341813 -82.525061 34.341638 -82.524770 34.341572 -82.524502 34.341566 -82.524274 34.341537 -82.524252 34.341334 -82.523954 34.341178 -82.523640 34.341136 -82.523264 34.341176 -82.523131 34.341179 -82.522929 34.341088 -82.522603 34.341093 -82.522201 34.341201 -82.521848 34.341273 -82.521707 34.341537 -82.521508 34.341700 -82.521466 34.342128 -82.521411 34.342247 -82.521371 34.342354 -82.521244 34.342403 -82.521092 34.342403 -82.520827 34.342335 -82.520534 34.342339 -82.520435 34.342368 -82.520311 34.342446 -82.520185 34.342509 -82.520155 34.342666 -82.520163 34.342906 -82.520290 34.343057 -82.520203 34.343263 -82.520212 34.343495 -82.520343 34.343628 -82.520361 34.343798 -82.520286 34.344088 -82.519990 34.344120 -82.519985 34.344261 -82.519873 34.344438 -82.519865 34.344507 -82.519919 34.344675 -82.520111 34.344766 -82.520383 34.344811 -82.520740 34.344802 -82.520962 34.344483 -82.521388 34.344075 -82.521671 34.343944 -82.521834 34.343878 -82.522050 34.343862 -82.522242 34.343995 -82.523004 34.344118 -82.523324 34.344282 -82.523499 34.344407 -82.523550 34.344547 -82.523544 34.344646 -82.523508 34.345017 -82.523433 34.345274 -82.523329 34.345391 -82.523326 34.345499 -82.523378 34.345658 -82.523562 34.345745 -82.523379 34.345882 -82.523155 34.345682 -82.522808 34.345673 -82.522619 34.345676 -82.522400 34.345762 -82.521230 34.345731 -82.520347 34.345695 -82.519956 34.345699 -82.519782 34.345763 -82.519196 34.345763 -82.519068 34.345684 -82.518897 34.345533 -82.518756 34.345183 -82.518651 34.344951 -82.518366 34.344936 -82.518179 34.344945 -82.518111 34.344988 -82.518002 34.345182 -82.517770 34.345358 -82.517642 34.345523 -82.517574 34.345759 -82.517596 34.345890 -82.517647 34.346212 -82.517870 34.346334 -82.518022 34.346482 -82.518099 34.346858 -82.518100 34.346971 -82.518083 34.347180 -82.517990 34.347262 -82.517970 34.347381 -82.517875 34.347434 -82.517867 34.347957 -82.517917 34.348046 -82.517960 34.348227 -82.518123 34.348410 -82.518155 34.348564 -82.518101 34.348735 -82.517931 34.349001 -82.517572 34.349096 -82.517548 34.349189 -82.517571 34.349287 -82.517699 34.349324 -82.517802 34.349479 -82.517964 34.349556 -82.518000 34.349927 -82.518020 34.350092 -82.518089 34.350187 -82.518211 34.350306 -82.518490 34.350318 -82.518640 34.350299 -82.518858 34.350203 -82.519177 34.350017 -82.519429 34.349825 -82.519566 34.349672 -82.519756 34.349557 -82.520074 34.349499 -82.520503 34.349436 -82.521746 34.349388 -82.522344 34.352271 -82.517848 34.352134 -82.517720 34.351930 -82.517653 34.351842 -82.517582 34.351672 -82.517409 34.351580 -82.517235 34.351382 -82.516991 34.351106 -82.516782 34.350908 -82.516738 34.350676 -82.516968 34.350628 -82.516969 34.350477 -82.516839 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC001</ms:areasymbol>
+        <ms:musym>ApB</ms:musym>
+        <ms:nationalmusym>2th0j</ms:nationalmusym>
+        <ms:mukey>1154985</ms:mukey>
+        <ms:spatialversion>7</ms:spatialversion>
+        <ms:muname>Appling sandy loam, 2 to 6 percent slopes</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp>4</ms:slopegraddcp>
+        <ms:slopegradwta>4</ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin></ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta>3.5</ms:aws025wta>
+        <ms:aws050wta>6.93</ms:aws050wta>
+        <ms:aws0100wta>13.74</ms:aws0100wta>
+        <ms:aws0150wta>22.21</ms:aws0150wta>
+        <ms:drclassdcd>Well drained</ms:drclassdcd>
+        <ms:drclasswettest>Well drained</ms:drclasswettest>
+        <ms:hydgrpdcd>B</ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>2</ms:niccdcd>
+        <ms:niccdcdpct>100</ms:niccdcdpct>
+        <ms:engdwobdcd>Not limited</ms:engdwobdcd>
+        <ms:engdwbdcd>Not limited</ms:engdwbdcd>
+        <ms:engdwbll>Not limited</ms:engdwbll>
+        <ms:engdwbml>Very limited</ms:engdwbml>
+        <ms:engstafdcd>Somewhat limited</ms:engstafdcd>
+        <ms:engstafll>Somewhat limited</ms:engstafll>
+        <ms:engstafml>Very limited</ms:engstafml>
+        <ms:engsldcd>Somewhat limited</ms:engsldcd>
+        <ms:engsldcp>Somewhat limited</ms:engsldcp>
+        <ms:englrsdcd>Very limited</ms:englrsdcd>
+        <ms:engcmssdcd>Poor</ms:engcmssdcd>
+        <ms:engcmssmp>Poor</ms:engcmssmp>
+        <ms:urbrecptdcd>Somewhat limited</ms:urbrecptdcd>
+        <ms:urbrecptwta>0.048</ms:urbrecptwta>
+        <ms:forpehrtdcp>Erosion hazard moderate</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta>0.107</ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386729741</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.1154993">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.328285 -82.544842</gml:lowerCorner>
+        		<gml:upperCorner>34.339649 -82.530197</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.338880 -82.536844 34.338673 -82.536669 34.338550 -82.536915 34.338558 -82.537062 34.338584 -82.537181 34.338719 -82.537641 34.338735 -82.537874 34.338727 -82.538140 34.338695 -82.538211 34.338665 -82.538239 34.338540 -82.538292 34.338333 -82.538253 34.337983 -82.538071 34.337781 -82.537881 34.337122 -82.537328 34.336791 -82.537106 34.336598 -82.536951 34.336416 -82.536774 34.336251 -82.536671 34.336221 -82.536598 34.336192 -82.536601 34.336117 -82.536563 34.336041 -82.536505 34.335912 -82.536334 34.335791 -82.536198 34.335727 -82.536121 34.335751 -82.536078 34.335820 -82.536059 34.335891 -82.536074 34.336004 -82.536126 34.336209 -82.536159 34.336712 -82.536156 34.336241 -82.535642 34.336114 -82.535455 34.336066 -82.535409 34.335891 -82.535288 34.335574 -82.535281 34.335439 -82.535254 34.335233 -82.535098 34.335120 -82.534903 34.334959 -82.534739 34.334808 -82.534675 34.334495 -82.534671 34.334348 -82.534605 34.334314 -82.534563 34.334266 -82.534439 34.334185 -82.533679 34.333902 -82.532823 34.333749 -82.532548 34.333725 -82.532532 34.333380 -82.532320 34.333046 -82.532018 34.332761 -82.531823 34.332440 -82.531502 34.332333 -82.531419 34.332184 -82.531253 34.331741 -82.530826 34.331469 -82.530647 34.331286 -82.530480 34.331156 -82.530393 34.330887 -82.530252 34.330737 -82.530197 34.330550 -82.530198 34.330437 -82.530240 34.330523 -82.530393 34.330626 -82.530526 34.331019 -82.530878 34.331423 -82.531175 34.331834 -82.531546 34.332055 -82.531802 34.332205 -82.532017 34.332271 -82.532183 34.332324 -82.532618 34.332475 -82.532824 34.332590 -82.532931 34.332824 -82.533070 34.332975 -82.533137 34.333142 -82.533177 34.333407 -82.533293 34.333390 -82.533443 34.333269 -82.533562 34.332927 -82.533648 34.332739 -82.533818 34.332713 -82.533824 34.332563 -82.533806 34.332269 -82.533703 34.331764 -82.533637 34.331413 -82.533500 34.331191 -82.533316 34.331040 -82.533115 34.331013 -82.532973 34.330993 -82.532703 34.330971 -82.532627 34.330906 -82.532566 34.330799 -82.532538 34.330709 -82.532560 34.330528 -82.532737 34.330394 -82.532796 34.330287 -82.532804 34.330154 -82.532719 34.329902 -82.532394 34.329763 -82.532078 34.329445 -82.531522 34.329311 -82.531385 34.329157 -82.531338 34.329043 -82.531356 34.328939 -82.531457 34.328916 -82.531521 34.328893 -82.531703 34.328966 -82.531941 34.329022 -82.532026 34.329188 -82.532203 34.329243 -82.532517 34.329227 -82.532668 34.328989 -82.532905 34.328957 -82.532959 34.328940 -82.533114 34.328874 -82.533201 34.328610 -82.533212 34.328422 -82.533261 34.328334 -82.533338 34.328285 -82.533447 34.328576 -82.533536 34.329054 -82.533632 34.329285 -82.533883 34.329338 -82.534211 34.329658 -82.533764 34.329809 -82.533681 34.330029 -82.533693 34.330273 -82.533830 34.330671 -82.534234 34.330783 -82.534279 34.330963 -82.534425 34.331013 -82.534436 34.331138 -82.534462 34.331308 -82.534562 34.331471 -82.534628 34.331858 -82.534625 34.331922 -82.534663 34.331973 -82.534762 34.331944 -82.534859 34.331785 -82.534941 34.331596 -82.534981 34.331217 -82.535121 34.331096 -82.535225 34.331039 -82.535304 34.330999 -82.535491 34.330997 -82.535651 34.331148 -82.535844 34.331223 -82.535870 34.331370 -82.535853 34.331629 -82.535784 34.331787 -82.535701 34.331993 -82.535559 34.332179 -82.535503 34.332499 -82.535498 34.332753 -82.535568 34.332796 -82.535633 34.332775 -82.535965 34.332650 -82.536360 34.332527 -82.536614 34.332253 -82.537084 34.332148 -82.537374 34.332114 -82.537662 34.332088 -82.537930 34.331967 -82.538441 34.331965 -82.538674 34.331987 -82.538721 34.332078 -82.538810 34.332130 -82.538816 34.332288 -82.538786 34.332535 -82.538552 34.332653 -82.537897 34.332743 -82.536907 34.332784 -82.536755 34.332873 -82.536520 34.332937 -82.536400 34.333175 -82.536078 34.333245 -82.536008 34.333435 -82.535908 34.333631 -82.535883 34.333685 -82.535917 34.333963 -82.535709 34.334110 -82.535691 34.334358 -82.535716 34.334503 -82.535826 34.334707 -82.536018 34.334764 -82.536046 34.334921 -82.536056 34.335128 -82.535855 34.335271 -82.535824 34.335354 -82.535828 34.335479 -82.535989 34.335676 -82.536858 34.335646 -82.537205 34.335485 -82.537439 34.335302 -82.537560 34.335217 -82.537578 34.335181 -82.537622 34.335110 -82.537802 34.335132 -82.537969 34.335195 -82.538029 34.335360 -82.538046 34.335405 -82.538036 34.335461 -82.537994 34.336112 -82.537219 34.336233 -82.537194 34.336322 -82.537237 34.336350 -82.537408 34.336346 -82.537479 34.336296 -82.537634 34.336130 -82.537940 34.336104 -82.538023 34.336108 -82.538164 34.336203 -82.538291 34.336286 -82.538344 34.337006 -82.538300 34.337572 -82.538294 34.337658 -82.538307 34.337753 -82.538358 34.337777 -82.538506 34.337735 -82.538644 34.337669 -82.538748 34.337441 -82.538935 34.337012 -82.539098 34.336498 -82.539197 34.336372 -82.539270 34.336330 -82.539319 34.336328 -82.539437 34.336429 -82.539575 34.336707 -82.539689 34.336804 -82.539762 34.336931 -82.539935 34.337038 -82.540249 34.337056 -82.540420 34.337070 -82.540435 34.337064 -82.540525 34.336933 -82.540801 34.336796 -82.540941 34.336548 -82.540961 34.336391 -82.540848 34.336191 -82.540570 34.335885 -82.539985 34.335794 -82.539854 34.335789 -82.540133 34.335866 -82.540650 34.335965 -82.540929 34.335981 -82.541082 34.335943 -82.541237 34.335945 -82.541326 34.335985 -82.541553 34.336015 -82.541600 34.336058 -82.541657 34.336096 -82.541904 34.336090 -82.542000 34.335969 -82.542114 34.335237 -82.542168 34.335052 -82.542166 34.334844 -82.542141 34.333885 -82.541872 34.333144 -82.541495 34.332981 -82.541459 34.332791 -82.541372 34.332493 -82.541328 34.332397 -82.541338 34.332119 -82.541364 34.331874 -82.541488 34.331788 -82.541614 34.331758 -82.541731 34.331785 -82.542011 34.331912 -82.542171 34.332024 -82.542261 34.332173 -82.542330 34.332378 -82.542344 34.332649 -82.542174 34.332810 -82.542178 34.333019 -82.542329 34.333080 -82.542461 34.333092 -82.542652 34.333010 -82.543134 34.333009 -82.543235 34.333084 -82.543255 34.333382 -82.543696 34.333741 -82.544057 34.334322 -82.544414 34.334588 -82.544554 34.334989 -82.544842 34.339649 -82.537572 34.339592 -82.537463 34.339503 -82.537376 34.339100 -82.537052 34.339072 -82.536888 34.338880 -82.536844 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+                <gml:interior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.332318 -82.534376 34.332392 -82.534377 34.332494 -82.534442 34.332565 -82.534484 34.332631 -82.534474 34.332732 -82.534424 34.332819 -82.534402 34.332898 -82.534395 34.332971 -82.534411 34.333055 -82.534392 34.333110 -82.534370 34.333161 -82.534314 34.333190 -82.534291 34.333213 -82.534303 34.333249 -82.534320 34.333256 -82.534330 34.333278 -82.534457 34.333288 -82.534692 34.333264 -82.534835 34.333216 -82.534904 34.333153 -82.534911 34.333035 -82.534846 34.332986 -82.534799 34.332702 -82.534746 34.332583 -82.534682 34.332473 -82.534591 34.332423 -82.534591 34.332309 -82.534531 34.332286 -82.534441 34.332318 -82.534376 </gml:posList>
+                  </gml:LinearRing>
+                </gml:interior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC001</ms:areasymbol>
+        <ms:musym>CcD</ms:musym>
+        <ms:nationalmusym>2zzyy</ms:nationalmusym>
+        <ms:mukey>1154993</ms:mukey>
+        <ms:spatialversion>7</ms:spatialversion>
+        <ms:muname>Cecil-Cataula complex, 10 to 15 percent slopes, moderately eroded</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp>13</ms:slopegraddcp>
+        <ms:slopegradwta>13</ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin>84</ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta>3.35</ms:aws025wta>
+        <ms:aws050wta>6.44</ms:aws050wta>
+        <ms:aws0100wta>12.63</ms:aws0100wta>
+        <ms:aws0150wta>19.5</ms:aws0150wta>
+        <ms:drclassdcd>Well drained</ms:drclassdcd>
+        <ms:drclasswettest>Moderately well drained</ms:drclasswettest>
+        <ms:hydgrpdcd>B</ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>4</ms:niccdcd>
+        <ms:niccdcdpct>75</ms:niccdcdpct>
+        <ms:engdwobdcd>Somewhat limited</ms:engdwobdcd>
+        <ms:engdwbdcd>Somewhat limited</ms:engdwbdcd>
+        <ms:engdwbll>Somewhat limited</ms:engdwbll>
+        <ms:engdwbml>Somewhat limited</ms:engdwbml>
+        <ms:engstafdcd>Somewhat limited</ms:engstafdcd>
+        <ms:engstafll>Somewhat limited</ms:engstafll>
+        <ms:engstafml>Very limited</ms:engstafml>
+        <ms:engsldcd>Very limited</ms:engsldcd>
+        <ms:engsldcp>Very limited</ms:engsldcp>
+        <ms:englrsdcd>Very limited</ms:englrsdcd>
+        <ms:engcmssdcd>Poor</ms:engcmssdcd>
+        <ms:engcmssmp>Poor</ms:engcmssmp>
+        <ms:urbrecptdcd>Somewhat limited</ms:urbrecptdcd>
+        <ms:urbrecptwta>0.064</ms:urbrecptwta>
+        <ms:forpehrtdcp>Erosion hazard moderate</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta>0.894</ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386729818</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.1154991">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.311054 -82.538680</gml:lowerCorner>
+        		<gml:upperCorner>34.313481 -82.535573</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.311120 -82.538037 34.311054 -82.538420 34.311084 -82.538562 34.311108 -82.538602 34.311198 -82.538673 34.311251 -82.538680 34.311542 -82.538622 34.311983 -82.538329 34.312195 -82.538288 34.312237 -82.538261 34.312292 -82.538191 34.312314 -82.538104 34.312348 -82.537653 34.312388 -82.537519 34.312410 -82.537491 34.313079 -82.537076 34.313277 -82.536854 34.313435 -82.536584 34.313465 -82.536492 34.313481 -82.536340 34.313405 -82.536088 34.313332 -82.536030 34.313043 -82.535977 34.312870 -82.535832 34.312753 -82.535647 34.312703 -82.535623 34.312527 -82.535573 34.312428 -82.535605 34.312362 -82.535653 34.312295 -82.535739 34.312156 -82.535987 34.312122 -82.536287 34.312082 -82.536913 34.312036 -82.537070 34.311911 -82.537245 34.311439 -82.537561 34.311265 -82.537757 34.311120 -82.538037 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC001</ms:areasymbol>
+        <ms:musym>CcB</ms:musym>
+        <ms:nationalmusym>2q7j7</ms:nationalmusym>
+        <ms:mukey>1154991</ms:mukey>
+        <ms:spatialversion>7</ms:spatialversion>
+        <ms:muname>Cecil sandy loam, 2 to 6 percent slopes</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp>4</ms:slopegraddcp>
+        <ms:slopegradwta>4</ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin></ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta>2.95</ms:aws025wta>
+        <ms:aws050wta>5.45</ms:aws050wta>
+        <ms:aws0100wta>10.4</ms:aws0100wta>
+        <ms:aws0150wta>17.35</ms:aws0150wta>
+        <ms:drclassdcd>Well drained</ms:drclassdcd>
+        <ms:drclasswettest>Well drained</ms:drclasswettest>
+        <ms:hydgrpdcd>B</ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>2</ms:niccdcd>
+        <ms:niccdcdpct>95</ms:niccdcdpct>
+        <ms:engdwobdcd>Not limited</ms:engdwobdcd>
+        <ms:engdwbdcd>Not limited</ms:engdwbdcd>
+        <ms:engdwbll>Not limited</ms:engdwbll>
+        <ms:engdwbml>Somewhat limited</ms:engdwbml>
+        <ms:engstafdcd>Somewhat limited</ms:engstafdcd>
+        <ms:engstafll>Somewhat limited</ms:engstafll>
+        <ms:engstafml>Very limited</ms:engstafml>
+        <ms:engsldcd>Somewhat limited</ms:engsldcd>
+        <ms:engsldcp>Somewhat limited</ms:engsldcp>
+        <ms:englrsdcd>Very limited</ms:englrsdcd>
+        <ms:engcmssdcd>Poor</ms:engcmssdcd>
+        <ms:engcmssmp>Poor</ms:engcmssmp>
+        <ms:urbrecptdcd>Somewhat limited</ms:urbrecptdcd>
+        <ms:urbrecptwta>0.052</ms:urbrecptwta>
+        <ms:forpehrtdcp>Erosion hazard moderate</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta>0.506</ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386729901</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.1154991">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.327497 -82.533824</gml:lowerCorner>
+        		<gml:upperCorner>34.333407 -82.529461</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.330437 -82.530240 34.330420 -82.530207 34.329843 -82.529613 34.329587 -82.529571 34.329281 -82.529461 34.329126 -82.529475 34.328838 -82.529792 34.328684 -82.529933 34.327972 -82.530312 34.327686 -82.530401 34.327602 -82.530477 34.327501 -82.530632 34.327497 -82.530778 34.327608 -82.530987 34.327692 -82.531074 34.328033 -82.531302 34.328247 -82.531572 34.328301 -82.531726 34.328304 -82.531912 34.328219 -82.532143 34.327995 -82.532475 34.327838 -82.532626 34.327610 -82.532762 34.327602 -82.532812 34.327647 -82.533010 34.327728 -82.533125 34.328078 -82.533350 34.328285 -82.533447 34.328334 -82.533338 34.328422 -82.533261 34.328610 -82.533212 34.328874 -82.533201 34.328940 -82.533114 34.328957 -82.532959 34.328989 -82.532905 34.329227 -82.532668 34.329243 -82.532517 34.329188 -82.532203 34.329022 -82.532026 34.328966 -82.531941 34.328893 -82.531703 34.328916 -82.531521 34.328939 -82.531457 34.329043 -82.531356 34.329157 -82.531338 34.329311 -82.531385 34.329445 -82.531522 34.329763 -82.532078 34.329902 -82.532394 34.330154 -82.532719 34.330287 -82.532804 34.330394 -82.532796 34.330528 -82.532737 34.330709 -82.532560 34.330799 -82.532538 34.330906 -82.532566 34.330971 -82.532627 34.330993 -82.532703 34.331013 -82.532973 34.331040 -82.533115 34.331191 -82.533316 34.331413 -82.533500 34.331764 -82.533637 34.332269 -82.533703 34.332563 -82.533806 34.332713 -82.533824 34.332739 -82.533818 34.332927 -82.533648 34.333269 -82.533562 34.333390 -82.533443 34.333407 -82.533293 34.333142 -82.533177 34.332975 -82.533137 34.332824 -82.533070 34.332590 -82.532931 34.332475 -82.532824 34.332324 -82.532618 34.332271 -82.532183 34.332205 -82.532017 34.332055 -82.531802 34.331834 -82.531546 34.331423 -82.531175 34.331019 -82.530878 34.330626 -82.530526 34.330523 -82.530393 34.330437 -82.530240 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC001</ms:areasymbol>
+        <ms:musym>CcB</ms:musym>
+        <ms:nationalmusym>2q7j7</ms:nationalmusym>
+        <ms:mukey>1154991</ms:mukey>
+        <ms:spatialversion>7</ms:spatialversion>
+        <ms:muname>Cecil sandy loam, 2 to 6 percent slopes</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp>4</ms:slopegraddcp>
+        <ms:slopegradwta>4</ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin></ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta>2.95</ms:aws025wta>
+        <ms:aws050wta>5.45</ms:aws050wta>
+        <ms:aws0100wta>10.4</ms:aws0100wta>
+        <ms:aws0150wta>17.35</ms:aws0150wta>
+        <ms:drclassdcd>Well drained</ms:drclassdcd>
+        <ms:drclasswettest>Well drained</ms:drclasswettest>
+        <ms:hydgrpdcd>B</ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>2</ms:niccdcd>
+        <ms:niccdcdpct>95</ms:niccdcdpct>
+        <ms:engdwobdcd>Not limited</ms:engdwobdcd>
+        <ms:engdwbdcd>Not limited</ms:engdwbdcd>
+        <ms:engdwbll>Not limited</ms:engdwbll>
+        <ms:engdwbml>Somewhat limited</ms:engdwbml>
+        <ms:engstafdcd>Somewhat limited</ms:engstafdcd>
+        <ms:engstafll>Somewhat limited</ms:engstafll>
+        <ms:engstafml>Very limited</ms:engstafml>
+        <ms:engsldcd>Somewhat limited</ms:engsldcd>
+        <ms:engsldcp>Somewhat limited</ms:engsldcp>
+        <ms:englrsdcd>Very limited</ms:englrsdcd>
+        <ms:engcmssdcd>Poor</ms:engcmssdcd>
+        <ms:engcmssmp>Poor</ms:engcmssmp>
+        <ms:urbrecptdcd>Somewhat limited</ms:urbrecptdcd>
+        <ms:urbrecptwta>0.052</ms:urbrecptwta>
+        <ms:forpehrtdcp>Erosion hazard moderate</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta>0.506</ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386729911</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.1155004">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.337450 -82.520438</gml:lowerCorner>
+        		<gml:upperCorner>34.340144 -82.513820</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.340144 -82.517365 34.340083 -82.517175 34.339956 -82.516877 34.339963 -82.516226 34.339915 -82.515895 34.339904 -82.515895 34.339534 -82.515440 34.339339 -82.515308 34.339215 -82.515248 34.338990 -82.515119 34.338730 -82.514912 34.338526 -82.514714 34.338380 -82.514493 34.338263 -82.514314 34.338192 -82.514168 34.338174 -82.514055 34.337946 -82.514158 34.337724 -82.514155 34.337623 -82.514078 34.337452 -82.513820 34.337450 -82.513989 34.337500 -82.514641 34.337593 -82.514927 34.337787 -82.515276 34.338229 -82.516264 34.338763 -82.517002 34.339047 -82.517629 34.339174 -82.518091 34.339275 -82.518794 34.339451 -82.519320 34.339455 -82.519673 34.339438 -82.519878 34.339495 -82.520221 34.339572 -82.520358 34.339763 -82.520435 34.339858 -82.520438 34.339902 -82.520418 34.340007 -82.520298 34.340029 -82.520252 34.340094 -82.519822 34.340094 -82.519502 34.340142 -82.519109 34.340132 -82.518831 34.340144 -82.517365 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+                <gml:interior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.338770 -82.515772 34.339091 -82.515599 34.339124 -82.515588 34.339198 -82.515643 34.339260 -82.515702 34.339312 -82.515818 34.339358 -82.515988 34.339501 -82.516235 34.339581 -82.516488 34.339594 -82.516614 34.339579 -82.516725 34.339536 -82.516775 34.339515 -82.516774 34.339494 -82.516709 34.339490 -82.516619 34.339468 -82.516457 34.339395 -82.516344 34.339315 -82.516300 34.339193 -82.516236 34.339078 -82.516199 34.338777 -82.515898 34.338739 -82.515811 34.338770 -82.515772 </gml:posList>
+                  </gml:LinearRing>
+                </gml:interior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC001</ms:areasymbol>
+        <ms:musym>HeB</ms:musym>
+        <ms:nationalmusym>17rw6</ms:nationalmusym>
+        <ms:mukey>1155004</ms:mukey>
+        <ms:spatialversion>7</ms:spatialversion>
+        <ms:muname>Helena sandy loam, 2 to 6 percent slopes</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp>4</ms:slopegraddcp>
+        <ms:slopegradwta>4</ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin>61</ms:wtdepannmin>
+        <ms:wtdepaprjunmin>61</ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta>3.05</ms:aws025wta>
+        <ms:aws050wta>6.55</ms:aws050wta>
+        <ms:aws0100wta>13.55</ms:aws0100wta>
+        <ms:aws0150wta>20.55</ms:aws0150wta>
+        <ms:drclassdcd>Moderately well drained</ms:drclassdcd>
+        <ms:drclasswettest>Moderately well drained</ms:drclasswettest>
+        <ms:hydgrpdcd>D</ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>90</ms:iccdcdpct>
+        <ms:niccdcd>2</ms:niccdcd>
+        <ms:niccdcdpct>90</ms:niccdcdpct>
+        <ms:engdwobdcd>Very limited</ms:engdwobdcd>
+        <ms:engdwbdcd>Very limited</ms:engdwbdcd>
+        <ms:engdwbll>Very limited</ms:engdwbll>
+        <ms:engdwbml>Very limited</ms:engdwbml>
+        <ms:engstafdcd>Very limited</ms:engstafdcd>
+        <ms:engstafll>Very limited</ms:engstafll>
+        <ms:engstafml>Very limited</ms:engstafml>
+        <ms:engsldcd>Somewhat limited</ms:engsldcd>
+        <ms:engsldcp>Somewhat limited</ms:engsldcp>
+        <ms:englrsdcd>Very limited</ms:englrsdcd>
+        <ms:engcmssdcd>Fair</ms:engcmssdcd>
+        <ms:engcmssmp>Fair</ms:engcmssmp>
+        <ms:urbrecptdcd>Somewhat limited</ms:urbrecptdcd>
+        <ms:urbrecptwta>0.245</ms:urbrecptwta>
+        <ms:forpehrtdcp>Erosion hazard moderate</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta>1</ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386729986</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.1154992">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.323374 -82.516951</gml:lowerCorner>
+        		<gml:upperCorner>34.329551 -82.510157</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.327670 -82.510157 34.327360 -82.510212 34.326948 -82.510232 34.326572 -82.510319 34.326277 -82.510462 34.325567 -82.511319 34.325265 -82.511598 34.325152 -82.511680 34.324975 -82.511738 34.324830 -82.511718 34.324620 -82.511458 34.324491 -82.511416 34.324273 -82.511440 34.324064 -82.511412 34.324003 -82.511384 34.323816 -82.511385 34.323493 -82.511441 34.323374 -82.511481 34.323439 -82.511623 34.323555 -82.511786 34.323854 -82.511943 34.323912 -82.512020 34.324007 -82.512393 34.323997 -82.512677 34.323860 -82.513125 34.323604 -82.513724 34.323517 -82.513891 34.323424 -82.514131 34.323424 -82.514232 34.323441 -82.514266 34.323547 -82.514377 34.323658 -82.514379 34.324224 -82.514023 34.324376 -82.514014 34.324471 -82.514047 34.324682 -82.514287 34.324742 -82.514335 34.324864 -82.514334 34.325196 -82.514116 34.325457 -82.514079 34.325676 -82.514264 34.325799 -82.514486 34.325997 -82.514714 34.326371 -82.514884 34.326503 -82.514939 34.326727 -82.515123 34.326803 -82.515158 34.326956 -82.515278 34.327215 -82.515442 34.327597 -82.515506 34.327926 -82.515444 34.328146 -82.515512 34.328205 -82.515561 34.328297 -82.515720 34.328322 -82.515883 34.328285 -82.515964 34.328110 -82.516452 34.328103 -82.516767 34.328136 -82.516951 34.328473 -82.516906 34.328694 -82.516821 34.328832 -82.516684 34.329144 -82.516062 34.329444 -82.515664 34.329519 -82.515510 34.329551 -82.515292 34.329541 -82.515224 34.329469 -82.515121 34.329371 -82.515097 34.329129 -82.515113 34.328799 -82.515317 34.328630 -82.515321 34.328457 -82.515208 34.328257 -82.514926 34.328060 -82.514754 34.327541 -82.514603 34.327471 -82.514569 34.327229 -82.514555 34.327084 -82.514519 34.327041 -82.514474 34.326983 -82.514351 34.326977 -82.514131 34.327063 -82.514028 34.327186 -82.513774 34.327614 -82.513210 34.327759 -82.512879 34.327879 -82.512236 34.327951 -82.512026 34.328110 -82.511823 34.328382 -82.511698 34.328509 -82.511515 34.328523 -82.511466 34.328523 -82.511194 34.328400 -82.510906 34.328291 -82.510779 34.327866 -82.510496 34.327673 -82.510216 34.327670 -82.510157 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC001</ms:areasymbol>
+        <ms:musym>CcC</ms:musym>
+        <ms:nationalmusym>2q7j8</ms:nationalmusym>
+        <ms:mukey>1154992</ms:mukey>
+        <ms:spatialversion>7</ms:spatialversion>
+        <ms:muname>Cecil sandy loam, 6 to 10 percent slopes</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp>8</ms:slopegraddcp>
+        <ms:slopegradwta>8</ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin></ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta>2.99</ms:aws025wta>
+        <ms:aws050wta>5.5</ms:aws050wta>
+        <ms:aws0100wta>10.48</ms:aws0100wta>
+        <ms:aws0150wta>16.87</ms:aws0150wta>
+        <ms:drclassdcd>Well drained</ms:drclassdcd>
+        <ms:drclasswettest>Well drained</ms:drclasswettest>
+        <ms:hydgrpdcd>B</ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>3</ms:niccdcd>
+        <ms:niccdcdpct>98</ms:niccdcdpct>
+        <ms:engdwobdcd>Not limited</ms:engdwobdcd>
+        <ms:engdwbdcd>Not limited</ms:engdwbdcd>
+        <ms:engdwbll>Not limited</ms:engdwbll>
+        <ms:engdwbml>Somewhat limited</ms:engdwbml>
+        <ms:engstafdcd>Somewhat limited</ms:engstafdcd>
+        <ms:engstafll>Somewhat limited</ms:engstafll>
+        <ms:engstafml>Very limited</ms:engstafml>
+        <ms:engsldcd>Very limited</ms:engsldcd>
+        <ms:engsldcp>Very limited</ms:engsldcp>
+        <ms:englrsdcd>Very limited</ms:englrsdcd>
+        <ms:engcmssdcd>Poor</ms:engcmssdcd>
+        <ms:engcmssmp>Poor</ms:engcmssmp>
+        <ms:urbrecptdcd>Somewhat limited</ms:urbrecptdcd>
+        <ms:urbrecptwta>0.05</ms:urbrecptwta>
+        <ms:forpehrtdcp>Erosion hazard moderate</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta>0.542</ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386730064</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.1154991">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.318743 -82.552634</gml:lowerCorner>
+        		<gml:upperCorner>34.321521 -82.550160</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.318973 -82.550411 34.318963 -82.550490 34.318977 -82.550797 34.318883 -82.551089 34.318743 -82.551332 34.319048 -82.551691 34.319219 -82.551987 34.319326 -82.552352 34.319422 -82.552507 34.319515 -82.552592 34.319794 -82.552634 34.320052 -82.552438 34.320141 -82.552402 34.320235 -82.552394 34.320528 -82.552497 34.320701 -82.552582 34.320798 -82.552581 34.320850 -82.552529 34.320845 -82.552235 34.320856 -82.552178 34.320900 -82.552119 34.320965 -82.552086 34.321148 -82.552114 34.321290 -82.552112 34.321465 -82.551979 34.321521 -82.551882 34.321512 -82.551612 34.321431 -82.551491 34.321385 -82.551462 34.321223 -82.551436 34.321119 -82.551499 34.321000 -82.551501 34.320858 -82.551330 34.320602 -82.551184 34.320538 -82.551157 34.320272 -82.551138 34.320223 -82.551106 34.320054 -82.550852 34.319872 -82.550329 34.319758 -82.550207 34.319644 -82.550167 34.319338 -82.550160 34.319159 -82.550205 34.318973 -82.550411 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC001</ms:areasymbol>
+        <ms:musym>CcB</ms:musym>
+        <ms:nationalmusym>2q7j7</ms:nationalmusym>
+        <ms:mukey>1154991</ms:mukey>
+        <ms:spatialversion>7</ms:spatialversion>
+        <ms:muname>Cecil sandy loam, 2 to 6 percent slopes</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp>4</ms:slopegraddcp>
+        <ms:slopegradwta>4</ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin></ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta>2.95</ms:aws025wta>
+        <ms:aws050wta>5.45</ms:aws050wta>
+        <ms:aws0100wta>10.4</ms:aws0100wta>
+        <ms:aws0150wta>17.35</ms:aws0150wta>
+        <ms:drclassdcd>Well drained</ms:drclassdcd>
+        <ms:drclasswettest>Well drained</ms:drclasswettest>
+        <ms:hydgrpdcd>B</ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>2</ms:niccdcd>
+        <ms:niccdcdpct>95</ms:niccdcdpct>
+        <ms:engdwobdcd>Not limited</ms:engdwobdcd>
+        <ms:engdwbdcd>Not limited</ms:engdwbdcd>
+        <ms:engdwbll>Not limited</ms:engdwbll>
+        <ms:engdwbml>Somewhat limited</ms:engdwbml>
+        <ms:engstafdcd>Somewhat limited</ms:engstafdcd>
+        <ms:engstafll>Somewhat limited</ms:engstafll>
+        <ms:engstafml>Very limited</ms:engstafml>
+        <ms:engsldcd>Somewhat limited</ms:engsldcd>
+        <ms:engsldcp>Somewhat limited</ms:engsldcp>
+        <ms:englrsdcd>Very limited</ms:englrsdcd>
+        <ms:engcmssdcd>Poor</ms:engcmssdcd>
+        <ms:engcmssmp>Poor</ms:engcmssmp>
+        <ms:urbrecptdcd>Somewhat limited</ms:urbrecptdcd>
+        <ms:urbrecptwta>0.052</ms:urbrecptwta>
+        <ms:forpehrtdcp>Erosion hazard moderate</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta>0.506</ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386730181</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.1154992">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.323143 -82.553048</gml:lowerCorner>
+        		<gml:upperCorner>34.325935 -82.551045</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.324909 -82.551053 34.324574 -82.551045 34.323880 -82.551146 34.323576 -82.551291 34.323409 -82.551417 34.323258 -82.551634 34.323143 -82.551989 34.323171 -82.552029 34.323238 -82.552285 34.323417 -82.552589 34.323532 -82.552713 34.323701 -82.552767 34.324100 -82.552763 34.324297 -82.552832 34.324536 -82.553048 34.324685 -82.552908 34.325021 -82.552751 34.325201 -82.552716 34.325733 -82.552736 34.325935 -82.551866 34.325542 -82.551868 34.324959 -82.552156 34.324822 -82.552194 34.324701 -82.552178 34.324586 -82.552041 34.324590 -82.551876 34.324613 -82.551704 34.324826 -82.551431 34.324899 -82.551281 34.324909 -82.551053 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC001</ms:areasymbol>
+        <ms:musym>CcC</ms:musym>
+        <ms:nationalmusym>2q7j8</ms:nationalmusym>
+        <ms:mukey>1154992</ms:mukey>
+        <ms:spatialversion>7</ms:spatialversion>
+        <ms:muname>Cecil sandy loam, 6 to 10 percent slopes</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp>8</ms:slopegraddcp>
+        <ms:slopegradwta>8</ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin></ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta>2.99</ms:aws025wta>
+        <ms:aws050wta>5.5</ms:aws050wta>
+        <ms:aws0100wta>10.48</ms:aws0100wta>
+        <ms:aws0150wta>16.87</ms:aws0150wta>
+        <ms:drclassdcd>Well drained</ms:drclassdcd>
+        <ms:drclasswettest>Well drained</ms:drclasswettest>
+        <ms:hydgrpdcd>B</ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>3</ms:niccdcd>
+        <ms:niccdcdpct>98</ms:niccdcdpct>
+        <ms:engdwobdcd>Not limited</ms:engdwobdcd>
+        <ms:engdwbdcd>Not limited</ms:engdwbdcd>
+        <ms:engdwbll>Not limited</ms:engdwbll>
+        <ms:engdwbml>Somewhat limited</ms:engdwbml>
+        <ms:engstafdcd>Somewhat limited</ms:engstafdcd>
+        <ms:engstafll>Somewhat limited</ms:engstafll>
+        <ms:engstafml>Very limited</ms:engstafml>
+        <ms:engsldcd>Very limited</ms:engsldcd>
+        <ms:engsldcp>Very limited</ms:engsldcp>
+        <ms:englrsdcd>Very limited</ms:englrsdcd>
+        <ms:engcmssdcd>Poor</ms:engcmssdcd>
+        <ms:engcmssmp>Poor</ms:engcmssmp>
+        <ms:urbrecptdcd>Somewhat limited</ms:urbrecptdcd>
+        <ms:urbrecptwta>0.05</ms:urbrecptwta>
+        <ms:forpehrtdcp>Erosion hazard moderate</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta>0.542</ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386730184</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.1154991">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.316434 -82.547652</gml:lowerCorner>
+        		<gml:upperCorner>34.319114 -82.546143</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.318469 -82.546143 34.318074 -82.546157 34.317533 -82.546260 34.317211 -82.546367 34.316951 -82.546394 34.316770 -82.546392 34.316588 -82.546285 34.316434 -82.546528 34.316465 -82.546784 34.316566 -82.547016 34.316564 -82.547514 34.316590 -82.547621 34.316866 -82.547533 34.317282 -82.547479 34.317590 -82.547465 34.317933 -82.547525 34.318249 -82.547632 34.318484 -82.547652 34.318685 -82.547606 34.318852 -82.547540 34.318973 -82.547416 34.319078 -82.547215 34.319114 -82.547042 34.319110 -82.546876 34.319063 -82.546751 34.318995 -82.546636 34.318840 -82.546425 34.318469 -82.546143 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC001</ms:areasymbol>
+        <ms:musym>CcB</ms:musym>
+        <ms:nationalmusym>2q7j7</ms:nationalmusym>
+        <ms:mukey>1154991</ms:mukey>
+        <ms:spatialversion>7</ms:spatialversion>
+        <ms:muname>Cecil sandy loam, 2 to 6 percent slopes</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp>4</ms:slopegraddcp>
+        <ms:slopegradwta>4</ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin></ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta>2.95</ms:aws025wta>
+        <ms:aws050wta>5.45</ms:aws050wta>
+        <ms:aws0100wta>10.4</ms:aws0100wta>
+        <ms:aws0150wta>17.35</ms:aws0150wta>
+        <ms:drclassdcd>Well drained</ms:drclassdcd>
+        <ms:drclasswettest>Well drained</ms:drclasswettest>
+        <ms:hydgrpdcd>B</ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>2</ms:niccdcd>
+        <ms:niccdcdpct>95</ms:niccdcdpct>
+        <ms:engdwobdcd>Not limited</ms:engdwobdcd>
+        <ms:engdwbdcd>Not limited</ms:engdwbdcd>
+        <ms:engdwbll>Not limited</ms:engdwbll>
+        <ms:engdwbml>Somewhat limited</ms:engdwbml>
+        <ms:engstafdcd>Somewhat limited</ms:engstafdcd>
+        <ms:engstafll>Somewhat limited</ms:engstafll>
+        <ms:engstafml>Very limited</ms:engstafml>
+        <ms:engsldcd>Somewhat limited</ms:engsldcd>
+        <ms:engsldcp>Somewhat limited</ms:engsldcp>
+        <ms:englrsdcd>Very limited</ms:englrsdcd>
+        <ms:engcmssdcd>Poor</ms:engcmssdcd>
+        <ms:engcmssmp>Poor</ms:engcmssmp>
+        <ms:urbrecptdcd>Somewhat limited</ms:urbrecptdcd>
+        <ms:urbrecptwta>0.052</ms:urbrecptwta>
+        <ms:forpehrtdcp>Erosion hazard moderate</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta>0.506</ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386730232</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.1155004">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.326437 -82.525141</gml:lowerCorner>
+        		<gml:upperCorner>34.328178 -82.520268</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.327291 -82.520268 34.327257 -82.520295 34.327194 -82.520349 34.327173 -82.520360 34.327129 -82.520367 34.327098 -82.520406 34.327049 -82.520479 34.326962 -82.520604 34.326917 -82.520637 34.326884 -82.520663 34.326864 -82.520661 34.326821 -82.520639 34.326805 -82.520589 34.326803 -82.520548 34.326809 -82.520506 34.326809 -82.520446 34.326790 -82.520390 34.326770 -82.520354 34.326749 -82.520350 34.326723 -82.520347 34.326701 -82.520315 34.326541 -82.520603 34.326453 -82.521079 34.326437 -82.521521 34.326529 -82.522347 34.326658 -82.522746 34.326753 -82.523302 34.327130 -82.524294 34.327346 -82.524784 34.327495 -82.525044 34.327513 -82.525101 34.327841 -82.525141 34.328037 -82.525060 34.328130 -82.524955 34.328173 -82.524826 34.328164 -82.524711 34.328178 -82.524222 34.328166 -82.524163 34.327816 -82.523739 34.327578 -82.523417 34.327431 -82.522981 34.327255 -82.521967 34.327249 -82.521790 34.327271 -82.521216 34.327334 -82.520732 34.327291 -82.520268 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+                <gml:interior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.327684 -82.524088 34.327688 -82.524138 34.327682 -82.524155 34.327631 -82.524192 34.327558 -82.524217 34.327508 -82.524205 34.327417 -82.524122 34.327300 -82.524032 34.327253 -82.523972 34.327229 -82.523936 34.327132 -82.523848 34.327093 -82.523757 34.327094 -82.523676 34.327143 -82.523595 34.327211 -82.523573 34.327252 -82.523583 34.327299 -82.523600 34.327338 -82.523627 34.327424 -82.523736 34.327561 -82.523903 34.327667 -82.524044 34.327684 -82.524088 </gml:posList>
+                  </gml:LinearRing>
+                </gml:interior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC001</ms:areasymbol>
+        <ms:musym>HeB</ms:musym>
+        <ms:nationalmusym>17rw6</ms:nationalmusym>
+        <ms:mukey>1155004</ms:mukey>
+        <ms:spatialversion>7</ms:spatialversion>
+        <ms:muname>Helena sandy loam, 2 to 6 percent slopes</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp>4</ms:slopegraddcp>
+        <ms:slopegradwta>4</ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin>61</ms:wtdepannmin>
+        <ms:wtdepaprjunmin>61</ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta>3.05</ms:aws025wta>
+        <ms:aws050wta>6.55</ms:aws050wta>
+        <ms:aws0100wta>13.55</ms:aws0100wta>
+        <ms:aws0150wta>20.55</ms:aws0150wta>
+        <ms:drclassdcd>Moderately well drained</ms:drclassdcd>
+        <ms:drclasswettest>Moderately well drained</ms:drclasswettest>
+        <ms:hydgrpdcd>D</ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>90</ms:iccdcdpct>
+        <ms:niccdcd>2</ms:niccdcd>
+        <ms:niccdcdpct>90</ms:niccdcdpct>
+        <ms:engdwobdcd>Very limited</ms:engdwobdcd>
+        <ms:engdwbdcd>Very limited</ms:engdwbdcd>
+        <ms:engdwbll>Very limited</ms:engdwbll>
+        <ms:engdwbml>Very limited</ms:engdwbml>
+        <ms:engstafdcd>Very limited</ms:engstafdcd>
+        <ms:engstafll>Very limited</ms:engstafll>
+        <ms:engstafml>Very limited</ms:engstafml>
+        <ms:engsldcd>Somewhat limited</ms:engsldcd>
+        <ms:engsldcp>Somewhat limited</ms:engsldcp>
+        <ms:englrsdcd>Very limited</ms:englrsdcd>
+        <ms:engcmssdcd>Fair</ms:engcmssdcd>
+        <ms:engcmssmp>Fair</ms:engcmssmp>
+        <ms:urbrecptdcd>Somewhat limited</ms:urbrecptdcd>
+        <ms:urbrecptwta>0.245</ms:urbrecptwta>
+        <ms:forpehrtdcp>Erosion hazard moderate</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta>1</ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386730244</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.1154986">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.344739 -82.526430</gml:lowerCorner>
+        		<gml:upperCorner>34.346735 -82.522942</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.345882 -82.523155 34.345745 -82.523379 34.345658 -82.523562 34.345561 -82.523794 34.345473 -82.524249 34.345335 -82.524659 34.345098 -82.525161 34.344856 -82.525449 34.344779 -82.525675 34.344739 -82.525935 34.344769 -82.526141 34.344840 -82.526263 34.345044 -82.526402 34.345126 -82.526428 34.345291 -82.526430 34.345884 -82.526304 34.346078 -82.526288 34.346438 -82.526310 34.346544 -82.526048 34.346543 -82.525938 34.346394 -82.525769 34.346360 -82.525560 34.346362 -82.525489 34.346403 -82.525350 34.346619 -82.525079 34.346654 -82.525016 34.346735 -82.524723 34.346721 -82.524417 34.346396 -82.523736 34.346348 -82.523030 34.346287 -82.522962 34.346154 -82.522942 34.346045 -82.523000 34.345882 -82.523155 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC001</ms:areasymbol>
+        <ms:musym>ApC</ms:musym>
+        <ms:nationalmusym>2vwrg</ms:nationalmusym>
+        <ms:mukey>1154986</ms:mukey>
+        <ms:spatialversion>7</ms:spatialversion>
+        <ms:muname>Appling sandy loam, 6 to 10 percent slopes</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp>8</ms:slopegraddcp>
+        <ms:slopegradwta>8</ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin></ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta>3.47</ms:aws025wta>
+        <ms:aws050wta>6.94</ms:aws050wta>
+        <ms:aws0100wta>13.7</ms:aws0100wta>
+        <ms:aws0150wta>22.02</ms:aws0150wta>
+        <ms:drclassdcd>Well drained</ms:drclassdcd>
+        <ms:drclasswettest>Well drained</ms:drclasswettest>
+        <ms:hydgrpdcd>B</ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>3</ms:niccdcd>
+        <ms:niccdcdpct>88</ms:niccdcdpct>
+        <ms:engdwobdcd>Not limited</ms:engdwobdcd>
+        <ms:engdwbdcd>Not limited</ms:engdwbdcd>
+        <ms:engdwbll>Not limited</ms:engdwbll>
+        <ms:engdwbml>Somewhat limited</ms:engdwbml>
+        <ms:engstafdcd>Somewhat limited</ms:engstafdcd>
+        <ms:engstafll>Somewhat limited</ms:engstafll>
+        <ms:engstafml>Very limited</ms:engstafml>
+        <ms:engsldcd>Very limited</ms:engsldcd>
+        <ms:engsldcp>Very limited</ms:engsldcp>
+        <ms:englrsdcd>Very limited</ms:englrsdcd>
+        <ms:engcmssdcd>Poor</ms:engcmssdcd>
+        <ms:engcmssmp>Poor</ms:engcmssmp>
+        <ms:urbrecptdcd>Somewhat limited</ms:urbrecptdcd>
+        <ms:urbrecptwta>0.045</ms:urbrecptwta>
+        <ms:forpehrtdcp>Erosion hazard moderate</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta>0.127</ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386730744</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.1154991">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.341160 -82.534080</gml:lowerCorner>
+        		<gml:upperCorner>34.346281 -82.527141</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.343041 -82.528627 34.343146 -82.529562 34.343184 -82.530042 34.343153 -82.530223 34.343005 -82.530470 34.342850 -82.530597 34.342691 -82.530679 34.342473 -82.530708 34.342394 -82.530747 34.342124 -82.530988 34.341870 -82.531310 34.341307 -82.532232 34.341240 -82.532308 34.341187 -82.532469 34.341160 -82.532778 34.341207 -82.532861 34.341471 -82.533038 34.341703 -82.533223 34.341785 -82.533443 34.341830 -82.533813 34.341872 -82.533942 34.341886 -82.534080 34.346281 -82.527210 34.346211 -82.527164 34.345997 -82.527141 34.345878 -82.527153 34.345394 -82.527362 34.344927 -82.527397 34.344521 -82.527507 34.344164 -82.527691 34.343205 -82.528402 34.343041 -82.528627 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC001</ms:areasymbol>
+        <ms:musym>CcB</ms:musym>
+        <ms:nationalmusym>2q7j7</ms:nationalmusym>
+        <ms:mukey>1154991</ms:mukey>
+        <ms:spatialversion>7</ms:spatialversion>
+        <ms:muname>Cecil sandy loam, 2 to 6 percent slopes</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp>4</ms:slopegraddcp>
+        <ms:slopegradwta>4</ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin></ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta>2.95</ms:aws025wta>
+        <ms:aws050wta>5.45</ms:aws050wta>
+        <ms:aws0100wta>10.4</ms:aws0100wta>
+        <ms:aws0150wta>17.35</ms:aws0150wta>
+        <ms:drclassdcd>Well drained</ms:drclassdcd>
+        <ms:drclasswettest>Well drained</ms:drclasswettest>
+        <ms:hydgrpdcd>B</ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>2</ms:niccdcd>
+        <ms:niccdcdpct>95</ms:niccdcdpct>
+        <ms:engdwobdcd>Not limited</ms:engdwobdcd>
+        <ms:engdwbdcd>Not limited</ms:engdwbdcd>
+        <ms:engdwbll>Not limited</ms:engdwbll>
+        <ms:engdwbml>Somewhat limited</ms:engdwbml>
+        <ms:engstafdcd>Somewhat limited</ms:engstafdcd>
+        <ms:engstafll>Somewhat limited</ms:engstafll>
+        <ms:engstafml>Very limited</ms:engstafml>
+        <ms:engsldcd>Somewhat limited</ms:engsldcd>
+        <ms:engsldcp>Somewhat limited</ms:engsldcp>
+        <ms:englrsdcd>Very limited</ms:englrsdcd>
+        <ms:engcmssdcd>Poor</ms:engcmssdcd>
+        <ms:engcmssmp>Poor</ms:engcmssmp>
+        <ms:urbrecptdcd>Somewhat limited</ms:urbrecptdcd>
+        <ms:urbrecptwta>0.052</ms:urbrecptwta>
+        <ms:forpehrtdcp>Erosion hazard moderate</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta>0.506</ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386730745</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.1154991">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.321763 -82.556235</gml:lowerCorner>
+        		<gml:upperCorner>34.337777 -82.535883</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.335217 -82.537578 34.335164 -82.537552 34.335059 -82.537308 34.335027 -82.536757 34.335001 -82.536699 34.334967 -82.536671 34.334896 -82.536679 34.334758 -82.536763 34.334681 -82.536836 34.334578 -82.537054 34.334503 -82.537367 34.334392 -82.537570 34.334130 -82.537819 34.333955 -82.537903 34.333820 -82.537941 34.333617 -82.537944 34.333469 -82.537903 34.333346 -82.537774 34.333287 -82.537576 34.333270 -82.537469 34.333266 -82.537249 34.333308 -82.537066 34.333399 -82.536868 34.333635 -82.536514 34.333681 -82.536263 34.333695 -82.535978 34.333685 -82.535917 34.333631 -82.535883 34.333435 -82.535908 34.333245 -82.536008 34.333175 -82.536078 34.332937 -82.536400 34.332873 -82.536520 34.332784 -82.536755 34.332743 -82.536907 34.332653 -82.537897 34.332535 -82.538552 34.332288 -82.538786 34.332130 -82.538816 34.332078 -82.538810 34.331987 -82.538721 34.331965 -82.538674 34.331967 -82.538441 34.332088 -82.537930 34.332114 -82.537662 34.331957 -82.537564 34.331899 -82.537449 34.331923 -82.536970 34.331904 -82.536828 34.331820 -82.536763 34.331688 -82.536756 34.331410 -82.536898 34.331120 -82.536907 34.331132 -82.537143 34.331284 -82.537475 34.331316 -82.537594 34.331324 -82.537802 34.331253 -82.537855 34.331060 -82.537871 34.330761 -82.537764 34.330574 -82.537762 34.330297 -82.537846 34.330152 -82.537954 34.329727 -82.538592 34.329814 -82.538790 34.330014 -82.539154 34.330106 -82.539443 34.330102 -82.539642 34.329957 -82.540213 34.329778 -82.540602 34.329650 -82.541056 34.329586 -82.541123 34.329618 -82.541691 34.329576 -82.541932 34.329489 -82.542299 34.329301 -82.542708 34.329268 -82.542904 34.329264 -82.543178 34.329320 -82.543350 34.329361 -82.543664 34.329322 -82.544106 34.329352 -82.544233 34.329454 -82.544378 34.329612 -82.544386 34.329858 -82.544348 34.329900 -82.544322 34.330065 -82.544380 34.330239 -82.544473 34.330312 -82.544630 34.330342 -82.544808 34.330330 -82.545515 34.330372 -82.546156 34.330451 -82.546285 34.330479 -82.546370 34.330526 -82.546383 34.330715 -82.546374 34.330879 -82.546279 34.331009 -82.546096 34.331162 -82.545757 34.331276 -82.545654 34.331499 -82.545636 34.331556 -82.545650 34.331688 -82.545757 34.331900 -82.545981 34.332051 -82.546229 34.332078 -82.546334 34.332053 -82.546634 34.331955 -82.546792 34.331808 -82.546862 34.331369 -82.546968 34.331211 -82.547086 34.331050 -82.547291 34.330828 -82.547886 34.330759 -82.548156 34.330511 -82.548725 34.330268 -82.549717 34.330078 -82.550162 34.329947 -82.550715 34.329884 -82.550914 34.329885 -82.551263 34.329829 -82.551575 34.329892 -82.551884 34.329794 -82.552189 34.329659 -82.552331 34.329562 -82.552692 34.329445 -82.552885 34.329369 -82.553095 34.329272 -82.553208 34.329161 -82.553253 34.329070 -82.553263 34.329041 -82.553212 34.329032 -82.553148 34.329050 -82.552851 34.329082 -82.552680 34.329080 -82.552591 34.328883 -82.552386 34.328670 -82.552368 34.328595 -82.552290 34.328584 -82.552245 34.328592 -82.552114 34.328667 -82.551898 34.328886 -82.551735 34.329005 -82.551591 34.329042 -82.551507 34.329008 -82.551265 34.328897 -82.551055 34.328733 -82.550916 34.328635 -82.550884 34.328384 -82.550843 34.328324 -82.550858 34.328219 -82.551201 34.328148 -82.551329 34.328000 -82.551352 34.327810 -82.551237 34.327616 -82.550951 34.327518 -82.550713 34.327510 -82.550635 34.327547 -82.550451 34.327748 -82.550134 34.327810 -82.549952 34.327777 -82.549810 34.327645 -82.549474 34.327623 -82.549178 34.327647 -82.549162 34.327741 -82.549156 34.327891 -82.549222 34.327967 -82.549203 34.328038 -82.549102 34.328098 -82.548733 34.328106 -82.548450 34.328052 -82.548259 34.327937 -82.548071 34.327833 -82.547993 34.327703 -82.547947 34.327536 -82.547807 34.327350 -82.547594 34.327268 -82.547368 34.327237 -82.547247 34.327222 -82.547114 34.327231 -82.546765 34.327296 -82.546616 34.327594 -82.546400 34.327645 -82.546291 34.327659 -82.546223 34.327660 -82.546081 34.327646 -82.546009 34.327538 -82.545753 34.327243 -82.545245 34.327142 -82.545037 34.327092 -82.544832 34.327074 -82.544689 34.327075 -82.544454 34.327086 -82.544405 34.327148 -82.544320 34.327475 -82.544338 34.327721 -82.544445 34.327854 -82.544434 34.327969 -82.544386 34.327994 -82.544338 34.328052 -82.544104 34.328025 -82.544040 34.327826 -82.543770 34.327626 -82.543610 34.327394 -82.543713 34.327170 -82.543665 34.326901 -82.543525 34.326735 -82.543683 34.326631 -82.543713 34.326556 -82.543661 34.326459 -82.543509 34.326410 -82.543274 34.326299 -82.543075 34.326241 -82.543070 34.326126 -82.543110 34.325963 -82.543285 34.325757 -82.543564 34.325570 -82.543872 34.325457 -82.544098 34.325326 -82.544531 34.325310 -82.544797 34.325372 -82.544776 34.325477 -82.544799 34.325532 -82.544864 34.325564 -82.545077 34.325500 -82.545475 34.325251 -82.545776 34.324758 -82.546210 34.324506 -82.546515 34.324290 -82.546677 34.323769 -82.547180 34.323576 -82.547436 34.323298 -82.547977 34.323029 -82.548380 34.322933 -82.548493 34.322757 -82.548628 34.322648 -82.548672 34.322487 -82.548771 34.321995 -82.549202 34.321858 -82.549389 34.321822 -82.549485 34.321763 -82.549744 34.321796 -82.550065 34.322086 -82.550418 34.322271 -82.550516 34.322608 -82.550608 34.322826 -82.550588 34.323044 -82.550495 34.323143 -82.550420 34.323234 -82.550318 34.323330 -82.550156 34.323492 -82.549695 34.323568 -82.549527 34.323626 -82.549291 34.323892 -82.548755 34.324098 -82.548471 34.324106 -82.548437 34.324572 -82.547687 34.325032 -82.547110 34.325122 -82.546934 34.325342 -82.546695 34.325516 -82.546544 34.325768 -82.546396 34.326519 -82.546368 34.326618 -82.546489 34.326658 -82.546632 34.326634 -82.547007 34.326490 -82.547398 34.326249 -82.547731 34.326207 -82.547860 34.326232 -82.548102 34.326175 -82.548366 34.325967 -82.548751 34.325874 -82.549088 34.325786 -82.549195 34.325538 -82.549308 34.325334 -82.549253 34.325231 -82.549158 34.325011 -82.549071 34.324745 -82.549073 34.324606 -82.549132 34.324425 -82.549294 34.324265 -82.549530 34.324175 -82.549731 34.324157 -82.549959 34.324191 -82.550138 34.324329 -82.550327 34.324620 -82.550422 34.324959 -82.550398 34.325167 -82.550404 34.325294 -82.550551 34.325293 -82.550769 34.325231 -82.550937 34.325177 -82.550983 34.324959 -82.551059 34.324909 -82.551053 34.324899 -82.551281 34.324826 -82.551431 34.324613 -82.551704 34.324590 -82.551876 34.324586 -82.552041 34.324701 -82.552178 34.324822 -82.552194 34.324959 -82.552156 34.325542 -82.551868 34.325935 -82.551866 34.325945 -82.551822 34.326127 -82.551483 34.326435 -82.551079 34.326504 -82.551004 34.326753 -82.550826 34.326822 -82.550801 34.326995 -82.550811 34.327110 -82.550845 34.327261 -82.551043 34.327459 -82.551478 34.327528 -82.551791 34.327536 -82.552047 34.327502 -82.552196 34.327363 -82.552463 34.327179 -82.552737 34.326975 -82.553126 34.326951 -82.553142 34.326832 -82.553375 34.326747 -82.553649 34.326761 -82.554046 34.326804 -82.554231 34.326999 -82.554797 34.327017 -82.554950 34.327048 -82.555050 34.327139 -82.555031 34.327339 -82.555325 34.327596 -82.555927 34.327691 -82.556235 34.328199 -82.555390 34.328125 -82.554983 34.328002 -82.554454 34.327832 -82.554082 34.327785 -82.553940 34.327761 -82.553772 34.327766 -82.553642 34.327806 -82.553461 34.327909 -82.553350 34.327997 -82.553344 34.328046 -82.553370 34.328213 -82.553559 34.328290 -82.553681 34.328467 -82.554111 34.328635 -82.554727 34.331092 -82.550953 34.331157 -82.550235 34.331423 -82.549104 34.331615 -82.548622 34.331893 -82.547850 34.332015 -82.547676 34.332146 -82.547644 34.332193 -82.547650 34.332322 -82.547775 34.332418 -82.547915 34.332521 -82.548179 34.332560 -82.548469 34.332592 -82.548591 34.333508 -82.547140 34.333282 -82.546719 34.332929 -82.546233 34.332677 -82.545775 34.332520 -82.545376 34.332375 -82.544836 34.332378 -82.544600 34.332318 -82.544209 34.332382 -82.543930 34.332548 -82.543547 34.332675 -82.543435 34.332929 -82.543317 34.333009 -82.543235 34.333010 -82.543134 34.333092 -82.542652 34.333080 -82.542461 34.333019 -82.542329 34.332810 -82.542178 34.332649 -82.542174 34.332378 -82.542344 34.332173 -82.542330 34.332024 -82.542261 34.331912 -82.542171 34.331785 -82.542011 34.331758 -82.541731 34.331788 -82.541614 34.331874 -82.541488 34.332119 -82.541364 34.332397 -82.541338 34.332453 -82.540504 34.332536 -82.540233 34.332754 -82.540045 34.332877 -82.540004 34.332969 -82.540007 34.333015 -82.540028 34.333197 -82.540183 34.333451 -82.540553 34.333523 -82.540568 34.333894 -82.540563 34.334004 -82.540654 34.334036 -82.540795 34.334043 -82.541185 34.334175 -82.541370 34.334222 -82.541409 34.334461 -82.541489 34.334656 -82.541521 34.334979 -82.541441 34.335130 -82.541456 34.335447 -82.541668 34.335677 -82.541737 34.335820 -82.541743 34.336015 -82.541600 34.335985 -82.541553 34.335945 -82.541326 34.335649 -82.541156 34.335356 -82.541051 34.335207 -82.540902 34.335181 -82.540727 34.335223 -82.540341 34.335189 -82.540212 34.335153 -82.540164 34.334860 -82.540108 34.334832 -82.540088 34.334703 -82.539906 34.334672 -82.539733 34.334638 -82.539682 34.334517 -82.539582 34.334376 -82.539525 34.334348 -82.539491 34.334265 -82.539328 34.334251 -82.539209 34.334257 -82.539044 34.334366 -82.538896 34.334433 -82.538855 34.334857 -82.538808 34.335286 -82.538836 34.335590 -82.538936 34.335688 -82.539009 34.335818 -82.539158 34.335834 -82.539197 34.335846 -82.539463 34.335793 -82.539779 34.335794 -82.539854 34.335885 -82.539985 34.336191 -82.540570 34.336391 -82.540848 34.336548 -82.540961 34.336796 -82.540941 34.336933 -82.540801 34.337064 -82.540525 34.337070 -82.540435 34.337056 -82.540420 34.337038 -82.540249 34.336931 -82.539935 34.336804 -82.539762 34.336707 -82.539689 34.336429 -82.539575 34.336328 -82.539437 34.336330 -82.539319 34.336372 -82.539270 34.336498 -82.539197 34.337012 -82.539098 34.337441 -82.538935 34.337669 -82.538748 34.337735 -82.538644 34.337777 -82.538506 34.337753 -82.538358 34.337658 -82.538307 34.337572 -82.538294 34.337006 -82.538300 34.336286 -82.538344 34.336203 -82.538291 34.336108 -82.538164 34.336104 -82.538023 34.336130 -82.537940 34.336296 -82.537634 34.336346 -82.537479 34.336350 -82.537408 34.336322 -82.537237 34.336233 -82.537194 34.336112 -82.537219 34.335461 -82.537994 34.335405 -82.538036 34.335360 -82.538046 34.335195 -82.538029 34.335132 -82.537969 34.335110 -82.537802 34.335181 -82.537622 34.335217 -82.537578 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC001</ms:areasymbol>
+        <ms:musym>CcB</ms:musym>
+        <ms:nationalmusym>2q7j7</ms:nationalmusym>
+        <ms:mukey>1154991</ms:mukey>
+        <ms:spatialversion>7</ms:spatialversion>
+        <ms:muname>Cecil sandy loam, 2 to 6 percent slopes</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp>4</ms:slopegraddcp>
+        <ms:slopegradwta>4</ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin></ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta>2.95</ms:aws025wta>
+        <ms:aws050wta>5.45</ms:aws050wta>
+        <ms:aws0100wta>10.4</ms:aws0100wta>
+        <ms:aws0150wta>17.35</ms:aws0150wta>
+        <ms:drclassdcd>Well drained</ms:drclassdcd>
+        <ms:drclasswettest>Well drained</ms:drclasswettest>
+        <ms:hydgrpdcd>B</ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>2</ms:niccdcd>
+        <ms:niccdcdpct>95</ms:niccdcdpct>
+        <ms:engdwobdcd>Not limited</ms:engdwobdcd>
+        <ms:engdwbdcd>Not limited</ms:engdwbdcd>
+        <ms:engdwbll>Not limited</ms:engdwbll>
+        <ms:engdwbml>Somewhat limited</ms:engdwbml>
+        <ms:engstafdcd>Somewhat limited</ms:engstafdcd>
+        <ms:engstafll>Somewhat limited</ms:engstafll>
+        <ms:engstafml>Very limited</ms:engstafml>
+        <ms:engsldcd>Somewhat limited</ms:engsldcd>
+        <ms:engsldcp>Somewhat limited</ms:engsldcp>
+        <ms:englrsdcd>Very limited</ms:englrsdcd>
+        <ms:engcmssdcd>Poor</ms:engcmssdcd>
+        <ms:engcmssmp>Poor</ms:engcmssmp>
+        <ms:urbrecptdcd>Somewhat limited</ms:urbrecptdcd>
+        <ms:urbrecptwta>0.052</ms:urbrecptwta>
+        <ms:forpehrtdcp>Erosion hazard moderate</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta>0.506</ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386731174</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.1154986">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.335425 -82.531503</gml:lowerCorner>
+        		<gml:upperCorner>34.340124 -82.522881</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.340052 -82.529463 34.339955 -82.529407 34.339838 -82.529445 34.339758 -82.529536 34.339678 -82.529766 34.339580 -82.529931 34.339392 -82.530099 34.339195 -82.530129 34.339015 -82.530000 34.338910 -82.529820 34.338856 -82.529628 34.338801 -82.529219 34.338729 -82.528937 34.338683 -82.528678 34.338469 -82.528217 34.338270 -82.527931 34.338233 -82.527915 34.338112 -82.527933 34.338084 -82.527961 34.338070 -82.528130 34.338108 -82.528395 34.338239 -82.528709 34.338271 -82.529004 34.338270 -82.529358 34.338257 -82.529475 34.338132 -82.529646 34.337999 -82.529664 34.337927 -82.529600 34.337866 -82.529473 34.337816 -82.529126 34.337759 -82.528963 34.337660 -82.528245 34.337644 -82.527898 34.337691 -82.527683 34.337826 -82.527445 34.338019 -82.527240 34.338237 -82.527131 34.338495 -82.527125 34.338576 -82.527153 34.338769 -82.527272 34.339027 -82.527306 34.339102 -82.527264 34.339166 -82.527139 34.339164 -82.526945 34.339033 -82.526512 34.339066 -82.525901 34.339051 -82.525564 34.338942 -82.525365 34.338729 -82.525143 34.338642 -82.524950 34.338584 -82.524726 34.338553 -82.524465 34.338485 -82.524375 34.338362 -82.524266 34.338229 -82.524268 34.338164 -82.524314 34.338096 -82.524423 34.338033 -82.524586 34.338019 -82.524758 34.338076 -82.525181 34.338180 -82.525403 34.338201 -82.525556 34.338174 -82.525792 34.338005 -82.526058 34.337872 -82.526150 34.337761 -82.526171 34.337516 -82.526138 34.337368 -82.525966 34.337338 -82.525911 34.337235 -82.525542 34.337061 -82.524653 34.336965 -82.522937 34.336886 -82.522881 34.336831 -82.522891 34.336735 -82.523055 34.336642 -82.523304 34.336622 -82.523400 34.336311 -82.524165 34.336282 -82.524217 34.336269 -82.524595 34.336364 -82.525167 34.336344 -82.525528 34.336327 -82.525650 34.336213 -82.525911 34.336239 -82.526352 34.336100 -82.526603 34.336092 -82.526814 34.336137 -82.527275 34.336102 -82.527421 34.336051 -82.527477 34.335991 -82.527481 34.335827 -82.527461 34.335735 -82.527430 34.335592 -82.527423 34.335469 -82.527502 34.335425 -82.527659 34.335429 -82.527823 34.335453 -82.527889 34.335665 -82.528139 34.335902 -82.528599 34.335896 -82.528707 34.335848 -82.528828 34.335557 -82.529028 34.335521 -82.529078 34.335479 -82.529183 34.335485 -82.529467 34.335520 -82.529522 34.335770 -82.529784 34.335852 -82.529967 34.335844 -82.530220 34.335803 -82.530401 34.335749 -82.530485 34.335725 -82.530695 34.335721 -82.530961 34.335799 -82.531274 34.335850 -82.531385 34.335904 -82.531433 34.336040 -82.531503 34.336208 -82.531489 34.336935 -82.531367 34.337257 -82.531400 34.337302 -82.531387 34.337330 -82.531084 34.337429 -82.530816 34.337507 -82.530729 34.337649 -82.530681 34.337713 -82.530640 34.337741 -82.530572 34.337785 -82.530324 34.337850 -82.530193 34.338074 -82.530076 34.338176 -82.530090 34.338439 -82.530395 34.338576 -82.530796 34.338788 -82.531042 34.339145 -82.531239 34.339332 -82.531281 34.339457 -82.531282 34.339824 -82.531122 34.339768 -82.530933 34.339751 -82.530802 34.339739 -82.530495 34.339767 -82.530331 34.339856 -82.530096 34.340124 -82.529742 34.340100 -82.529609 34.340052 -82.529463 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC001</ms:areasymbol>
+        <ms:musym>ApC</ms:musym>
+        <ms:nationalmusym>2vwrg</ms:nationalmusym>
+        <ms:mukey>1154986</ms:mukey>
+        <ms:spatialversion>7</ms:spatialversion>
+        <ms:muname>Appling sandy loam, 6 to 10 percent slopes</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp>8</ms:slopegraddcp>
+        <ms:slopegradwta>8</ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin></ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta>3.47</ms:aws025wta>
+        <ms:aws050wta>6.94</ms:aws050wta>
+        <ms:aws0100wta>13.7</ms:aws0100wta>
+        <ms:aws0150wta>22.02</ms:aws0150wta>
+        <ms:drclassdcd>Well drained</ms:drclassdcd>
+        <ms:drclasswettest>Well drained</ms:drclasswettest>
+        <ms:hydgrpdcd>B</ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>3</ms:niccdcd>
+        <ms:niccdcdpct>88</ms:niccdcdpct>
+        <ms:engdwobdcd>Not limited</ms:engdwobdcd>
+        <ms:engdwbdcd>Not limited</ms:engdwbdcd>
+        <ms:engdwbll>Not limited</ms:engdwbll>
+        <ms:engdwbml>Somewhat limited</ms:engdwbml>
+        <ms:engstafdcd>Somewhat limited</ms:engstafdcd>
+        <ms:engstafll>Somewhat limited</ms:engstafll>
+        <ms:engstafml>Very limited</ms:engstafml>
+        <ms:engsldcd>Very limited</ms:engsldcd>
+        <ms:engsldcp>Very limited</ms:engsldcp>
+        <ms:englrsdcd>Very limited</ms:englrsdcd>
+        <ms:engcmssdcd>Poor</ms:engcmssdcd>
+        <ms:engcmssmp>Poor</ms:engcmssmp>
+        <ms:urbrecptdcd>Somewhat limited</ms:urbrecptdcd>
+        <ms:urbrecptwta>0.045</ms:urbrecptwta>
+        <ms:forpehrtdcp>Erosion hazard moderate</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta>0.127</ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386731255</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.1155019">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.312712 -82.524786</gml:lowerCorner>
+        		<gml:upperCorner>34.318613 -82.514184</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.317666 -82.521519 34.317491 -82.521272 34.317410 -82.520970 34.317404 -82.520899 34.317205 -82.520988 34.317017 -82.520953 34.316807 -82.520756 34.316336 -82.520407 34.316114 -82.520210 34.315997 -82.520061 34.315708 -82.519111 34.315487 -82.518683 34.315466 -82.518444 34.315485 -82.518234 34.315583 -82.517990 34.315602 -82.517857 34.315638 -82.516808 34.315693 -82.516577 34.315795 -82.516397 34.315727 -82.516023 34.315715 -82.515845 34.315736 -82.515770 34.315715 -82.515714 34.315601 -82.515597 34.315573 -82.515537 34.315539 -82.515233 34.315423 -82.515008 34.315015 -82.514607 34.314882 -82.514455 34.314741 -82.514184 34.314601 -82.514244 34.314309 -82.514369 34.313926 -82.514896 34.313668 -82.515071 34.313608 -82.515091 34.313315 -82.515077 34.313023 -82.514984 34.312712 -82.514950 34.312752 -82.515302 34.312809 -82.515419 34.312823 -82.515494 34.312996 -82.515533 34.313146 -82.515654 34.313455 -82.515833 34.313638 -82.515984 34.314111 -82.515875 34.314349 -82.515948 34.314700 -82.516240 34.314815 -82.516436 34.314861 -82.516603 34.314928 -82.517007 34.314937 -82.517145 34.314928 -82.517601 34.314876 -82.518089 34.314775 -82.518395 34.314279 -82.519246 34.313336 -82.520352 34.313325 -82.520486 34.313346 -82.520521 34.313451 -82.520562 34.313569 -82.520541 34.314118 -82.520336 34.314281 -82.520335 34.314515 -82.520379 34.314588 -82.520462 34.314735 -82.520770 34.314825 -82.520802 34.314876 -82.520756 34.314941 -82.520593 34.314922 -82.520115 34.314977 -82.519934 34.315051 -82.519859 34.315134 -82.519855 34.315299 -82.519974 34.315552 -82.520552 34.315704 -82.520679 34.315723 -82.520680 34.315814 -82.520798 34.315844 -82.520968 34.315823 -82.521055 34.315733 -82.521158 34.315370 -82.521429 34.315116 -82.521836 34.314983 -82.522201 34.314934 -82.522601 34.315011 -82.522801 34.315218 -82.523127 34.315229 -82.523211 34.315148 -82.523559 34.315164 -82.523822 34.315232 -82.523975 34.315376 -82.524076 34.315473 -82.524185 34.315503 -82.524566 34.315552 -82.524665 34.315596 -82.524694 34.316053 -82.524656 34.316243 -82.524683 34.316513 -82.524786 34.317130 -82.524415 34.317321 -82.524155 34.317353 -82.524072 34.317416 -82.523643 34.317444 -82.523546 34.317536 -82.523417 34.317698 -82.523383 34.317821 -82.523244 34.317846 -82.523160 34.317825 -82.523038 34.317840 -82.522907 34.317938 -82.522776 34.318066 -82.522700 34.318343 -82.522667 34.318523 -82.522558 34.318613 -82.522417 34.318610 -82.522296 34.318583 -82.522246 34.318251 -82.521905 34.318106 -82.521830 34.317666 -82.521519 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC001</ms:areasymbol>
+        <ms:musym>PaF</ms:musym>
+        <ms:nationalmusym>2wdwm</ms:nationalmusym>
+        <ms:mukey>1155019</ms:mukey>
+        <ms:spatialversion>7</ms:spatialversion>
+        <ms:muname>Pacolet sandy loam, 15 to 40 percent slopes</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp>28</ms:slopegraddcp>
+        <ms:slopegradwta>27.4</ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin></ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta>2.99</ms:aws025wta>
+        <ms:aws050wta>6.43</ms:aws050wta>
+        <ms:aws0100wta>12.38</ms:aws0100wta>
+        <ms:aws0150wta>18.09</ms:aws0150wta>
+        <ms:drclassdcd>Well drained</ms:drclassdcd>
+        <ms:drclasswettest>Well drained</ms:drclasswettest>
+        <ms:hydgrpdcd>B</ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>7</ms:niccdcd>
+        <ms:niccdcdpct>100</ms:niccdcdpct>
+        <ms:engdwobdcd>Very limited</ms:engdwobdcd>
+        <ms:engdwbdcd>Very limited</ms:engdwbdcd>
+        <ms:engdwbll>Very limited</ms:engdwbll>
+        <ms:engdwbml>Very limited</ms:engdwbml>
+        <ms:engstafdcd>Very limited</ms:engstafdcd>
+        <ms:engstafll>Very limited</ms:engstafll>
+        <ms:engstafml>Very limited</ms:engstafml>
+        <ms:engsldcd>Very limited</ms:engsldcd>
+        <ms:engsldcp>Very limited</ms:engsldcp>
+        <ms:englrsdcd>Very limited</ms:englrsdcd>
+        <ms:engcmssdcd>Poor</ms:engcmssdcd>
+        <ms:engcmssmp>Fair</ms:engcmssmp>
+        <ms:urbrecptdcd>Very limited</ms:urbrecptdcd>
+        <ms:urbrecptwta>0.96</ms:urbrecptwta>
+        <ms:forpehrtdcp>Erosion hazard moderate</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta>1</ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386731277</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.1155004">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.342775 -82.525935</gml:lowerCorner>
+        		<gml:upperCorner>34.345658 -82.519865</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.342906 -82.520290 34.342806 -82.520478 34.342775 -82.520610 34.342790 -82.520761 34.342897 -82.521012 34.343017 -82.521140 34.343104 -82.521311 34.343142 -82.521551 34.343201 -82.521719 34.343237 -82.522196 34.343184 -82.523090 34.343193 -82.523342 34.343209 -82.523510 34.343269 -82.523671 34.343304 -82.523713 34.343408 -82.523707 34.343509 -82.523832 34.343556 -82.524050 34.343588 -82.524534 34.343723 -82.524808 34.343772 -82.524976 34.343862 -82.525096 34.343884 -82.525179 34.344112 -82.525209 34.344259 -82.525314 34.344354 -82.525427 34.344537 -82.525729 34.344626 -82.525842 34.344739 -82.525935 34.344779 -82.525675 34.344856 -82.525449 34.345098 -82.525161 34.345335 -82.524659 34.345473 -82.524249 34.345561 -82.523794 34.345658 -82.523562 34.345499 -82.523378 34.345391 -82.523326 34.345274 -82.523329 34.345017 -82.523433 34.344646 -82.523508 34.344547 -82.523544 34.344407 -82.523550 34.344282 -82.523499 34.344118 -82.523324 34.343995 -82.523004 34.343862 -82.522242 34.343878 -82.522050 34.343944 -82.521834 34.344075 -82.521671 34.344483 -82.521388 34.344802 -82.520962 34.344811 -82.520740 34.344766 -82.520383 34.344675 -82.520111 34.344507 -82.519919 34.344438 -82.519865 34.344261 -82.519873 34.344120 -82.519985 34.344088 -82.519990 34.343798 -82.520286 34.343628 -82.520361 34.343495 -82.520343 34.343263 -82.520212 34.343057 -82.520203 34.342906 -82.520290 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC001</ms:areasymbol>
+        <ms:musym>HeB</ms:musym>
+        <ms:nationalmusym>17rw6</ms:nationalmusym>
+        <ms:mukey>1155004</ms:mukey>
+        <ms:spatialversion>7</ms:spatialversion>
+        <ms:muname>Helena sandy loam, 2 to 6 percent slopes</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp>4</ms:slopegraddcp>
+        <ms:slopegradwta>4</ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin>61</ms:wtdepannmin>
+        <ms:wtdepaprjunmin>61</ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta>3.05</ms:aws025wta>
+        <ms:aws050wta>6.55</ms:aws050wta>
+        <ms:aws0100wta>13.55</ms:aws0100wta>
+        <ms:aws0150wta>20.55</ms:aws0150wta>
+        <ms:drclassdcd>Moderately well drained</ms:drclassdcd>
+        <ms:drclasswettest>Moderately well drained</ms:drclasswettest>
+        <ms:hydgrpdcd>D</ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>90</ms:iccdcdpct>
+        <ms:niccdcd>2</ms:niccdcd>
+        <ms:niccdcdpct>90</ms:niccdcdpct>
+        <ms:engdwobdcd>Very limited</ms:engdwobdcd>
+        <ms:engdwbdcd>Very limited</ms:engdwbdcd>
+        <ms:engdwbll>Very limited</ms:engdwbll>
+        <ms:engdwbml>Very limited</ms:engdwbml>
+        <ms:engstafdcd>Very limited</ms:engstafdcd>
+        <ms:engstafll>Very limited</ms:engstafll>
+        <ms:engstafml>Very limited</ms:engstafml>
+        <ms:engsldcd>Somewhat limited</ms:engsldcd>
+        <ms:engsldcp>Somewhat limited</ms:engsldcp>
+        <ms:englrsdcd>Very limited</ms:englrsdcd>
+        <ms:engcmssdcd>Fair</ms:engcmssdcd>
+        <ms:engcmssmp>Fair</ms:engcmssmp>
+        <ms:urbrecptdcd>Somewhat limited</ms:urbrecptdcd>
+        <ms:urbrecptwta>0.245</ms:urbrecptwta>
+        <ms:forpehrtdcp>Erosion hazard moderate</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta>1</ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386731309</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.1154985">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.315466 -82.520988</gml:lowerCorner>
+        		<gml:upperCorner>34.318640 -82.516381</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.315795 -82.516397 34.315693 -82.516577 34.315638 -82.516808 34.315602 -82.517857 34.315583 -82.517990 34.315485 -82.518234 34.315466 -82.518444 34.315487 -82.518683 34.315708 -82.519111 34.315997 -82.520061 34.316114 -82.520210 34.316336 -82.520407 34.316807 -82.520756 34.317017 -82.520953 34.317205 -82.520988 34.317404 -82.520899 34.317443 -82.520659 34.317455 -82.520367 34.317557 -82.519863 34.317560 -82.519196 34.317612 -82.518881 34.317737 -82.518698 34.317851 -82.518574 34.317964 -82.518490 34.318517 -82.518238 34.318640 -82.518077 34.318622 -82.518018 34.318619 -82.517915 34.318507 -82.517639 34.318443 -82.517380 34.318303 -82.517200 34.318088 -82.517053 34.317834 -82.516968 34.317082 -82.516918 34.316944 -82.516889 34.316400 -82.516474 34.316066 -82.516381 34.315795 -82.516397 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC001</ms:areasymbol>
+        <ms:musym>ApB</ms:musym>
+        <ms:nationalmusym>2th0j</ms:nationalmusym>
+        <ms:mukey>1154985</ms:mukey>
+        <ms:spatialversion>7</ms:spatialversion>
+        <ms:muname>Appling sandy loam, 2 to 6 percent slopes</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp>4</ms:slopegraddcp>
+        <ms:slopegradwta>4</ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin></ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta>3.5</ms:aws025wta>
+        <ms:aws050wta>6.93</ms:aws050wta>
+        <ms:aws0100wta>13.74</ms:aws0100wta>
+        <ms:aws0150wta>22.21</ms:aws0150wta>
+        <ms:drclassdcd>Well drained</ms:drclassdcd>
+        <ms:drclasswettest>Well drained</ms:drclasswettest>
+        <ms:hydgrpdcd>B</ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>2</ms:niccdcd>
+        <ms:niccdcdpct>100</ms:niccdcdpct>
+        <ms:engdwobdcd>Not limited</ms:engdwobdcd>
+        <ms:engdwbdcd>Not limited</ms:engdwbdcd>
+        <ms:engdwbll>Not limited</ms:engdwbll>
+        <ms:engdwbml>Very limited</ms:engdwbml>
+        <ms:engstafdcd>Somewhat limited</ms:engstafdcd>
+        <ms:engstafll>Somewhat limited</ms:engstafll>
+        <ms:engstafml>Very limited</ms:engstafml>
+        <ms:engsldcd>Somewhat limited</ms:engsldcd>
+        <ms:engsldcp>Somewhat limited</ms:engsldcp>
+        <ms:englrsdcd>Very limited</ms:englrsdcd>
+        <ms:engcmssdcd>Poor</ms:engcmssdcd>
+        <ms:engcmssmp>Poor</ms:engcmssmp>
+        <ms:urbrecptdcd>Somewhat limited</ms:urbrecptdcd>
+        <ms:urbrecptwta>0.048</ms:urbrecptwta>
+        <ms:forpehrtdcp>Erosion hazard moderate</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta>0.107</ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386731434</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.1155022">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.325903 -82.552851</gml:lowerCorner>
+        		<gml:upperCorner>34.326486 -82.552075</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.325967 -82.552408 34.325903 -82.552479 34.325908 -82.552545 34.325943 -82.552620 34.326058 -82.552787 34.326200 -82.552851 34.326280 -82.552849 34.326305 -82.552828 34.326332 -82.552754 34.326358 -82.552603 34.326371 -82.552463 34.326373 -82.552341 34.326413 -82.552262 34.326486 -82.552152 34.326480 -82.552116 34.326430 -82.552075 34.326403 -82.552079 34.326346 -82.552142 34.326309 -82.552202 34.326225 -82.552266 34.326168 -82.552293 34.326063 -82.552353 34.325967 -82.552408 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC001</ms:areasymbol>
+        <ms:musym>W</ms:musym>
+        <ms:nationalmusym>17rws</ms:nationalmusym>
+        <ms:mukey>1155022</ms:mukey>
+        <ms:spatialversion>7</ms:spatialversion>
+        <ms:muname>Water</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp></ms:slopegraddcp>
+        <ms:slopegradwta></ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin></ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta></ms:aws025wta>
+        <ms:aws050wta></ms:aws050wta>
+        <ms:aws0100wta></ms:aws0100wta>
+        <ms:aws0150wta></ms:aws0150wta>
+        <ms:drclassdcd></ms:drclassdcd>
+        <ms:drclasswettest></ms:drclasswettest>
+        <ms:hydgrpdcd></ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>8</ms:niccdcd>
+        <ms:niccdcdpct>100</ms:niccdcdpct>
+        <ms:engdwobdcd>Not rated</ms:engdwobdcd>
+        <ms:engdwbdcd>Not rated</ms:engdwbdcd>
+        <ms:engdwbll>Not rated</ms:engdwbll>
+        <ms:engdwbml>Not rated</ms:engdwbml>
+        <ms:engstafdcd>Not rated</ms:engstafdcd>
+        <ms:engstafll>Not rated</ms:engstafll>
+        <ms:engstafml>Not rated</ms:engstafml>
+        <ms:engsldcd>Not rated</ms:engsldcd>
+        <ms:engsldcp>Not rated</ms:engsldcp>
+        <ms:englrsdcd>Not rated</ms:englrsdcd>
+        <ms:engcmssdcd>Not rated</ms:engcmssdcd>
+        <ms:engcmssmp>Not rated</ms:engcmssmp>
+        <ms:urbrecptdcd>Not rated</ms:urbrecptdcd>
+        <ms:urbrecptwta></ms:urbrecptwta>
+        <ms:forpehrtdcp>Not rated</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta></ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386731559</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.1155022">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.319033 -82.540905</gml:lowerCorner>
+        		<gml:upperCorner>34.319990 -82.539367</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.319914 -82.540298 34.319910 -82.540237 34.319911 -82.540156 34.319886 -82.540059 34.319913 -82.539958 34.319921 -82.539869 34.319916 -82.539768 34.319897 -82.539711 34.319866 -82.539650 34.319839 -82.539595 34.319799 -82.539542 34.319734 -82.539426 34.319718 -82.539388 34.319703 -82.539371 34.319680 -82.539367 34.319658 -82.539393 34.319647 -82.539459 34.319644 -82.539531 34.319676 -82.539647 34.319706 -82.539742 34.319722 -82.539814 34.319691 -82.539957 34.319645 -82.540060 34.319564 -82.540205 34.319518 -82.540245 34.319482 -82.540247 34.319407 -82.540208 34.319356 -82.540181 34.319348 -82.540155 34.319346 -82.540112 34.319337 -82.540069 34.319304 -82.540028 34.319259 -82.539993 34.319231 -82.539943 34.319206 -82.539836 34.319217 -82.539721 34.319192 -82.539609 34.319157 -82.539608 34.319097 -82.539642 34.319081 -82.539713 34.319034 -82.539868 34.319033 -82.539991 34.319067 -82.540084 34.319111 -82.540197 34.319152 -82.540304 34.319168 -82.540385 34.319152 -82.540594 34.319185 -82.540730 34.319203 -82.540834 34.319227 -82.540881 34.319310 -82.540905 34.319761 -82.540859 34.319922 -82.540784 34.319952 -82.540755 34.319958 -82.540724 34.319971 -82.540676 34.319989 -82.540590 34.319990 -82.540529 34.319976 -82.540486 34.319950 -82.540436 34.319914 -82.540298 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC001</ms:areasymbol>
+        <ms:musym>W</ms:musym>
+        <ms:nationalmusym>17rws</ms:nationalmusym>
+        <ms:mukey>1155022</ms:mukey>
+        <ms:spatialversion>7</ms:spatialversion>
+        <ms:muname>Water</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp></ms:slopegraddcp>
+        <ms:slopegradwta></ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin></ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta></ms:aws025wta>
+        <ms:aws050wta></ms:aws050wta>
+        <ms:aws0100wta></ms:aws0100wta>
+        <ms:aws0150wta></ms:aws0150wta>
+        <ms:drclassdcd></ms:drclassdcd>
+        <ms:drclasswettest></ms:drclasswettest>
+        <ms:hydgrpdcd></ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>8</ms:niccdcd>
+        <ms:niccdcdpct>100</ms:niccdcdpct>
+        <ms:engdwobdcd>Not rated</ms:engdwobdcd>
+        <ms:engdwbdcd>Not rated</ms:engdwbdcd>
+        <ms:engdwbll>Not rated</ms:engdwbll>
+        <ms:engdwbml>Not rated</ms:engdwbml>
+        <ms:engstafdcd>Not rated</ms:engstafdcd>
+        <ms:engstafll>Not rated</ms:engstafll>
+        <ms:engstafml>Not rated</ms:engstafml>
+        <ms:engsldcd>Not rated</ms:engsldcd>
+        <ms:engsldcp>Not rated</ms:engsldcp>
+        <ms:englrsdcd>Not rated</ms:englrsdcd>
+        <ms:engcmssdcd>Not rated</ms:engcmssdcd>
+        <ms:engcmssmp>Not rated</ms:engcmssmp>
+        <ms:urbrecptdcd>Not rated</ms:urbrecptdcd>
+        <ms:urbrecptwta></ms:urbrecptwta>
+        <ms:forpehrtdcp>Not rated</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta></ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386731560</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.1155022">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.321760 -82.521600</gml:lowerCorner>
+        		<gml:upperCorner>34.322710 -82.520822</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.321856 -82.520867 34.321760 -82.521101 34.321766 -82.521157 34.321787 -82.521217 34.321817 -82.521252 34.321835 -82.521264 34.321959 -82.521278 34.321975 -82.521283 34.322055 -82.521306 34.322341 -82.521443 34.322405 -82.521483 34.322487 -82.521547 34.322534 -82.521584 34.322570 -82.521588 34.322635 -82.521600 34.322670 -82.521588 34.322698 -82.521569 34.322710 -82.521551 34.322709 -82.521523 34.322684 -82.521475 34.322631 -82.521430 34.322590 -82.521379 34.322567 -82.521332 34.322532 -82.521272 34.322510 -82.521220 34.322474 -82.521190 34.322394 -82.521113 34.322337 -82.521070 34.322309 -82.521056 34.322246 -82.521046 34.322160 -82.520998 34.322084 -82.520930 34.322041 -82.520876 34.322007 -82.520841 34.321980 -82.520825 34.321928 -82.520822 34.321856 -82.520867 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC001</ms:areasymbol>
+        <ms:musym>W</ms:musym>
+        <ms:nationalmusym>17rws</ms:nationalmusym>
+        <ms:mukey>1155022</ms:mukey>
+        <ms:spatialversion>7</ms:spatialversion>
+        <ms:muname>Water</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp></ms:slopegraddcp>
+        <ms:slopegradwta></ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin></ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta></ms:aws025wta>
+        <ms:aws050wta></ms:aws050wta>
+        <ms:aws0100wta></ms:aws0100wta>
+        <ms:aws0150wta></ms:aws0150wta>
+        <ms:drclassdcd></ms:drclassdcd>
+        <ms:drclasswettest></ms:drclasswettest>
+        <ms:hydgrpdcd></ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>8</ms:niccdcd>
+        <ms:niccdcdpct>100</ms:niccdcdpct>
+        <ms:engdwobdcd>Not rated</ms:engdwobdcd>
+        <ms:engdwbdcd>Not rated</ms:engdwbdcd>
+        <ms:engdwbll>Not rated</ms:engdwbll>
+        <ms:engdwbml>Not rated</ms:engdwbml>
+        <ms:engstafdcd>Not rated</ms:engstafdcd>
+        <ms:engstafll>Not rated</ms:engstafll>
+        <ms:engstafml>Not rated</ms:engstafml>
+        <ms:engsldcd>Not rated</ms:engsldcd>
+        <ms:engsldcp>Not rated</ms:engsldcp>
+        <ms:englrsdcd>Not rated</ms:englrsdcd>
+        <ms:engcmssdcd>Not rated</ms:engcmssdcd>
+        <ms:engcmssmp>Not rated</ms:engcmssmp>
+        <ms:urbrecptdcd>Not rated</ms:urbrecptdcd>
+        <ms:urbrecptwta></ms:urbrecptwta>
+        <ms:forpehrtdcp>Not rated</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta></ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386731561</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.1155022">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.327093 -82.524217</gml:lowerCorner>
+        		<gml:upperCorner>34.327688 -82.523573</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.327094 -82.523676 34.327093 -82.523757 34.327132 -82.523848 34.327229 -82.523936 34.327253 -82.523972 34.327300 -82.524032 34.327417 -82.524122 34.327508 -82.524205 34.327558 -82.524217 34.327631 -82.524192 34.327682 -82.524155 34.327688 -82.524138 34.327684 -82.524088 34.327667 -82.524044 34.327561 -82.523903 34.327424 -82.523736 34.327338 -82.523627 34.327299 -82.523600 34.327252 -82.523583 34.327211 -82.523573 34.327143 -82.523595 34.327094 -82.523676 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC001</ms:areasymbol>
+        <ms:musym>W</ms:musym>
+        <ms:nationalmusym>17rws</ms:nationalmusym>
+        <ms:mukey>1155022</ms:mukey>
+        <ms:spatialversion>7</ms:spatialversion>
+        <ms:muname>Water</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp></ms:slopegraddcp>
+        <ms:slopegradwta></ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin></ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta></ms:aws025wta>
+        <ms:aws050wta></ms:aws050wta>
+        <ms:aws0100wta></ms:aws0100wta>
+        <ms:aws0150wta></ms:aws0150wta>
+        <ms:drclassdcd></ms:drclassdcd>
+        <ms:drclasswettest></ms:drclasswettest>
+        <ms:hydgrpdcd></ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>8</ms:niccdcd>
+        <ms:niccdcdpct>100</ms:niccdcdpct>
+        <ms:engdwobdcd>Not rated</ms:engdwobdcd>
+        <ms:engdwbdcd>Not rated</ms:engdwbdcd>
+        <ms:engdwbll>Not rated</ms:engdwbll>
+        <ms:engdwbml>Not rated</ms:engdwbml>
+        <ms:engstafdcd>Not rated</ms:engstafdcd>
+        <ms:engstafll>Not rated</ms:engstafll>
+        <ms:engstafml>Not rated</ms:engstafml>
+        <ms:engsldcd>Not rated</ms:engsldcd>
+        <ms:engsldcp>Not rated</ms:engsldcp>
+        <ms:englrsdcd>Not rated</ms:englrsdcd>
+        <ms:engcmssdcd>Not rated</ms:engcmssdcd>
+        <ms:engcmssmp>Not rated</ms:engcmssmp>
+        <ms:urbrecptdcd>Not rated</ms:urbrecptdcd>
+        <ms:urbrecptwta></ms:urbrecptwta>
+        <ms:forpehrtdcp>Not rated</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta></ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386731562</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.1155022">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.326701 -82.520663</gml:lowerCorner>
+        		<gml:upperCorner>34.327549 -82.519554</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.327247 -82.519563 34.327230 -82.519554 34.327199 -82.519556 34.327091 -82.519623 34.326989 -82.519756 34.326864 -82.519907 34.326806 -82.519999 34.326784 -82.520038 34.326758 -82.520082 34.326723 -82.520187 34.326711 -82.520230 34.326701 -82.520268 34.326701 -82.520315 34.326723 -82.520347 34.326749 -82.520350 34.326770 -82.520354 34.326790 -82.520390 34.326809 -82.520446 34.326809 -82.520506 34.326803 -82.520548 34.326805 -82.520589 34.326821 -82.520639 34.326864 -82.520661 34.326884 -82.520663 34.326917 -82.520637 34.326962 -82.520604 34.327049 -82.520479 34.327098 -82.520406 34.327129 -82.520367 34.327173 -82.520360 34.327194 -82.520349 34.327257 -82.520295 34.327291 -82.520268 34.327350 -82.520221 34.327414 -82.520164 34.327454 -82.520154 34.327501 -82.520155 34.327528 -82.520142 34.327541 -82.520114 34.327549 -82.520063 34.327539 -82.520007 34.327522 -82.519978 34.327498 -82.519922 34.327422 -82.519783 34.327306 -82.519637 34.327254 -82.519568 34.327247 -82.519563 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC001</ms:areasymbol>
+        <ms:musym>W</ms:musym>
+        <ms:nationalmusym>17rws</ms:nationalmusym>
+        <ms:mukey>1155022</ms:mukey>
+        <ms:spatialversion>7</ms:spatialversion>
+        <ms:muname>Water</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp></ms:slopegraddcp>
+        <ms:slopegradwta></ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin></ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta></ms:aws025wta>
+        <ms:aws050wta></ms:aws050wta>
+        <ms:aws0100wta></ms:aws0100wta>
+        <ms:aws0150wta></ms:aws0150wta>
+        <ms:drclassdcd></ms:drclassdcd>
+        <ms:drclasswettest></ms:drclasswettest>
+        <ms:hydgrpdcd></ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>8</ms:niccdcd>
+        <ms:niccdcdpct>100</ms:niccdcdpct>
+        <ms:engdwobdcd>Not rated</ms:engdwobdcd>
+        <ms:engdwbdcd>Not rated</ms:engdwbdcd>
+        <ms:engdwbll>Not rated</ms:engdwbll>
+        <ms:engdwbml>Not rated</ms:engdwbml>
+        <ms:engstafdcd>Not rated</ms:engstafdcd>
+        <ms:engstafll>Not rated</ms:engstafll>
+        <ms:engstafml>Not rated</ms:engstafml>
+        <ms:engsldcd>Not rated</ms:engsldcd>
+        <ms:engsldcp>Not rated</ms:engsldcp>
+        <ms:englrsdcd>Not rated</ms:englrsdcd>
+        <ms:engcmssdcd>Not rated</ms:engcmssdcd>
+        <ms:engcmssmp>Not rated</ms:engcmssmp>
+        <ms:urbrecptdcd>Not rated</ms:urbrecptdcd>
+        <ms:urbrecptwta></ms:urbrecptwta>
+        <ms:forpehrtdcp>Not rated</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta></ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386731563</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.1155022">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.331805 -82.517961</gml:lowerCorner>
+        		<gml:upperCorner>34.332974 -82.517427</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.331824 -82.517733 34.331805 -82.517848 34.331822 -82.517901 34.331887 -82.517947 34.332150 -82.517961 34.332364 -82.517951 34.332642 -82.517945 34.332922 -82.517893 34.332969 -82.517872 34.332974 -82.517829 34.332959 -82.517814 34.332907 -82.517781 34.332832 -82.517751 34.332779 -82.517740 34.332689 -82.517738 34.332483 -82.517702 34.332365 -82.517693 34.332240 -82.517615 34.332081 -82.517519 34.331963 -82.517427 34.331908 -82.517433 34.331875 -82.517475 34.331824 -82.517733 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC001</ms:areasymbol>
+        <ms:musym>W</ms:musym>
+        <ms:nationalmusym>17rws</ms:nationalmusym>
+        <ms:mukey>1155022</ms:mukey>
+        <ms:spatialversion>7</ms:spatialversion>
+        <ms:muname>Water</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp></ms:slopegraddcp>
+        <ms:slopegradwta></ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin></ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta></ms:aws025wta>
+        <ms:aws050wta></ms:aws050wta>
+        <ms:aws0100wta></ms:aws0100wta>
+        <ms:aws0150wta></ms:aws0150wta>
+        <ms:drclassdcd></ms:drclassdcd>
+        <ms:drclasswettest></ms:drclasswettest>
+        <ms:hydgrpdcd></ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>8</ms:niccdcd>
+        <ms:niccdcdpct>100</ms:niccdcdpct>
+        <ms:engdwobdcd>Not rated</ms:engdwobdcd>
+        <ms:engdwbdcd>Not rated</ms:engdwbdcd>
+        <ms:engdwbll>Not rated</ms:engdwbll>
+        <ms:engdwbml>Not rated</ms:engdwbml>
+        <ms:engstafdcd>Not rated</ms:engstafdcd>
+        <ms:engstafll>Not rated</ms:engstafll>
+        <ms:engstafml>Not rated</ms:engstafml>
+        <ms:engsldcd>Not rated</ms:engsldcd>
+        <ms:engsldcp>Not rated</ms:engsldcp>
+        <ms:englrsdcd>Not rated</ms:englrsdcd>
+        <ms:engcmssdcd>Not rated</ms:engcmssdcd>
+        <ms:engcmssmp>Not rated</ms:engcmssmp>
+        <ms:urbrecptdcd>Not rated</ms:urbrecptdcd>
+        <ms:urbrecptwta></ms:urbrecptwta>
+        <ms:forpehrtdcp>Not rated</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta></ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386731564</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.1155022">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.338739 -82.516775</gml:lowerCorner>
+        		<gml:upperCorner>34.339594 -82.515588</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.338770 -82.515772 34.338739 -82.515811 34.338777 -82.515898 34.339078 -82.516199 34.339193 -82.516236 34.339315 -82.516300 34.339395 -82.516344 34.339468 -82.516457 34.339490 -82.516619 34.339494 -82.516709 34.339515 -82.516774 34.339536 -82.516775 34.339579 -82.516725 34.339594 -82.516614 34.339581 -82.516488 34.339501 -82.516235 34.339358 -82.515988 34.339312 -82.515818 34.339260 -82.515702 34.339198 -82.515643 34.339124 -82.515588 34.339091 -82.515599 34.338770 -82.515772 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC001</ms:areasymbol>
+        <ms:musym>W</ms:musym>
+        <ms:nationalmusym>17rws</ms:nationalmusym>
+        <ms:mukey>1155022</ms:mukey>
+        <ms:spatialversion>7</ms:spatialversion>
+        <ms:muname>Water</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp></ms:slopegraddcp>
+        <ms:slopegradwta></ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin></ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta></ms:aws025wta>
+        <ms:aws050wta></ms:aws050wta>
+        <ms:aws0100wta></ms:aws0100wta>
+        <ms:aws0150wta></ms:aws0150wta>
+        <ms:drclassdcd></ms:drclassdcd>
+        <ms:drclasswettest></ms:drclasswettest>
+        <ms:hydgrpdcd></ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>8</ms:niccdcd>
+        <ms:niccdcdpct>100</ms:niccdcdpct>
+        <ms:engdwobdcd>Not rated</ms:engdwobdcd>
+        <ms:engdwbdcd>Not rated</ms:engdwbdcd>
+        <ms:engdwbll>Not rated</ms:engdwbll>
+        <ms:engdwbml>Not rated</ms:engdwbml>
+        <ms:engstafdcd>Not rated</ms:engstafdcd>
+        <ms:engstafll>Not rated</ms:engstafll>
+        <ms:engstafml>Not rated</ms:engstafml>
+        <ms:engsldcd>Not rated</ms:engsldcd>
+        <ms:engsldcp>Not rated</ms:engsldcp>
+        <ms:englrsdcd>Not rated</ms:englrsdcd>
+        <ms:engcmssdcd>Not rated</ms:engcmssdcd>
+        <ms:engcmssmp>Not rated</ms:engcmssmp>
+        <ms:urbrecptdcd>Not rated</ms:urbrecptdcd>
+        <ms:urbrecptwta></ms:urbrecptwta>
+        <ms:forpehrtdcp>Not rated</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta></ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386731565</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.1155022">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.335727 -82.536774</gml:lowerCorner>
+        		<gml:upperCorner>34.336990 -82.536059</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.335751 -82.536078 34.335727 -82.536121 34.335791 -82.536198 34.335912 -82.536334 34.336041 -82.536505 34.336117 -82.536563 34.336192 -82.536601 34.336221 -82.536598 34.336320 -82.536589 34.336452 -82.536555 34.336601 -82.536600 34.336707 -82.536675 34.336807 -82.536759 34.336867 -82.536774 34.336906 -82.536751 34.336949 -82.536639 34.336977 -82.536384 34.336989 -82.536280 34.336990 -82.536212 34.336970 -82.536176 34.336919 -82.536158 34.336815 -82.536156 34.336712 -82.536156 34.336209 -82.536159 34.336004 -82.536126 34.335891 -82.536074 34.335820 -82.536059 34.335751 -82.536078 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC001</ms:areasymbol>
+        <ms:musym>W</ms:musym>
+        <ms:nationalmusym>17rws</ms:nationalmusym>
+        <ms:mukey>1155022</ms:mukey>
+        <ms:spatialversion>7</ms:spatialversion>
+        <ms:muname>Water</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp></ms:slopegraddcp>
+        <ms:slopegradwta></ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin></ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta></ms:aws025wta>
+        <ms:aws050wta></ms:aws050wta>
+        <ms:aws0100wta></ms:aws0100wta>
+        <ms:aws0150wta></ms:aws0150wta>
+        <ms:drclassdcd></ms:drclassdcd>
+        <ms:drclasswettest></ms:drclasswettest>
+        <ms:hydgrpdcd></ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>8</ms:niccdcd>
+        <ms:niccdcdpct>100</ms:niccdcdpct>
+        <ms:engdwobdcd>Not rated</ms:engdwobdcd>
+        <ms:engdwbdcd>Not rated</ms:engdwbdcd>
+        <ms:engdwbll>Not rated</ms:engdwbll>
+        <ms:engdwbml>Not rated</ms:engdwbml>
+        <ms:engstafdcd>Not rated</ms:engstafdcd>
+        <ms:engstafll>Not rated</ms:engstafll>
+        <ms:engstafml>Not rated</ms:engstafml>
+        <ms:engsldcd>Not rated</ms:engsldcd>
+        <ms:engsldcp>Not rated</ms:engsldcp>
+        <ms:englrsdcd>Not rated</ms:englrsdcd>
+        <ms:engcmssdcd>Not rated</ms:engcmssdcd>
+        <ms:engcmssmp>Not rated</ms:engcmssmp>
+        <ms:urbrecptdcd>Not rated</ms:urbrecptdcd>
+        <ms:urbrecptwta></ms:urbrecptwta>
+        <ms:forpehrtdcp>Not rated</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta></ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386731642</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.1155022">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.332286 -82.534911</gml:lowerCorner>
+        		<gml:upperCorner>34.333288 -82.534291</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.332318 -82.534376 34.332286 -82.534441 34.332309 -82.534531 34.332423 -82.534591 34.332473 -82.534591 34.332583 -82.534682 34.332702 -82.534746 34.332986 -82.534799 34.333035 -82.534846 34.333153 -82.534911 34.333216 -82.534904 34.333264 -82.534835 34.333288 -82.534692 34.333278 -82.534457 34.333256 -82.534330 34.333249 -82.534320 34.333213 -82.534303 34.333190 -82.534291 34.333161 -82.534314 34.333110 -82.534370 34.333055 -82.534392 34.332971 -82.534411 34.332898 -82.534395 34.332819 -82.534402 34.332732 -82.534424 34.332631 -82.534474 34.332565 -82.534484 34.332494 -82.534442 34.332392 -82.534377 34.332318 -82.534376 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC001</ms:areasymbol>
+        <ms:musym>W</ms:musym>
+        <ms:nationalmusym>17rws</ms:nationalmusym>
+        <ms:mukey>1155022</ms:mukey>
+        <ms:spatialversion>7</ms:spatialversion>
+        <ms:muname>Water</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp></ms:slopegraddcp>
+        <ms:slopegradwta></ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin></ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta></ms:aws025wta>
+        <ms:aws050wta></ms:aws050wta>
+        <ms:aws0100wta></ms:aws0100wta>
+        <ms:aws0150wta></ms:aws0150wta>
+        <ms:drclassdcd></ms:drclassdcd>
+        <ms:drclasswettest></ms:drclasswettest>
+        <ms:hydgrpdcd></ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>8</ms:niccdcd>
+        <ms:niccdcdpct>100</ms:niccdcdpct>
+        <ms:engdwobdcd>Not rated</ms:engdwobdcd>
+        <ms:engdwbdcd>Not rated</ms:engdwbdcd>
+        <ms:engdwbll>Not rated</ms:engdwbll>
+        <ms:engdwbml>Not rated</ms:engdwbml>
+        <ms:engstafdcd>Not rated</ms:engstafdcd>
+        <ms:engstafll>Not rated</ms:engstafll>
+        <ms:engstafml>Not rated</ms:engstafml>
+        <ms:engsldcd>Not rated</ms:engsldcd>
+        <ms:engsldcp>Not rated</ms:engsldcp>
+        <ms:englrsdcd>Not rated</ms:englrsdcd>
+        <ms:engcmssdcd>Not rated</ms:engcmssdcd>
+        <ms:engcmssmp>Not rated</ms:engcmssmp>
+        <ms:urbrecptdcd>Not rated</ms:urbrecptdcd>
+        <ms:urbrecptwta></ms:urbrecptwta>
+        <ms:forpehrtdcp>Not rated</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta></ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386731643</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.1155022">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.328468 -82.541656</gml:lowerCorner>
+        		<gml:upperCorner>34.329372 -82.540828</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.328496 -82.540933 34.328468 -82.541027 34.328479 -82.541355 34.328498 -82.541545 34.328987 -82.541634 34.329300 -82.541656 34.329343 -82.541647 34.329363 -82.541593 34.329372 -82.541551 34.329228 -82.541197 34.329138 -82.541029 34.329055 -82.540952 34.328844 -82.540861 34.328684 -82.540828 34.328606 -82.540840 34.328537 -82.540883 34.328496 -82.540933 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC001</ms:areasymbol>
+        <ms:musym>W</ms:musym>
+        <ms:nationalmusym>17rws</ms:nationalmusym>
+        <ms:mukey>1155022</ms:mukey>
+        <ms:spatialversion>7</ms:spatialversion>
+        <ms:muname>Water</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp></ms:slopegraddcp>
+        <ms:slopegradwta></ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin></ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta></ms:aws025wta>
+        <ms:aws050wta></ms:aws050wta>
+        <ms:aws0100wta></ms:aws0100wta>
+        <ms:aws0150wta></ms:aws0150wta>
+        <ms:drclassdcd></ms:drclassdcd>
+        <ms:drclasswettest></ms:drclasswettest>
+        <ms:hydgrpdcd></ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>8</ms:niccdcd>
+        <ms:niccdcdpct>100</ms:niccdcdpct>
+        <ms:engdwobdcd>Not rated</ms:engdwobdcd>
+        <ms:engdwbdcd>Not rated</ms:engdwbdcd>
+        <ms:engdwbll>Not rated</ms:engdwbll>
+        <ms:engdwbml>Not rated</ms:engdwbml>
+        <ms:engstafdcd>Not rated</ms:engstafdcd>
+        <ms:engstafll>Not rated</ms:engstafll>
+        <ms:engstafml>Not rated</ms:engstafml>
+        <ms:engsldcd>Not rated</ms:engsldcd>
+        <ms:engsldcp>Not rated</ms:engsldcp>
+        <ms:englrsdcd>Not rated</ms:englrsdcd>
+        <ms:engcmssdcd>Not rated</ms:engcmssdcd>
+        <ms:engcmssmp>Not rated</ms:engcmssmp>
+        <ms:urbrecptdcd>Not rated</ms:urbrecptdcd>
+        <ms:urbrecptwta></ms:urbrecptwta>
+        <ms:forpehrtdcp>Not rated</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta></ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386731644</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.1154992">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.309414 -82.528902</gml:lowerCorner>
+        		<gml:upperCorner>34.314937 -82.514748</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.309806 -82.528902 34.309861 -82.528872 34.309912 -82.528847 34.309945 -82.528849 34.309985 -82.528758 34.309983 -82.528034 34.310005 -82.527929 34.310077 -82.527730 34.310144 -82.527609 34.310267 -82.527460 34.310430 -82.527339 34.310543 -82.527286 34.310755 -82.527280 34.310819 -82.527258 34.310974 -82.527153 34.311144 -82.526974 34.311330 -82.526655 34.311709 -82.526270 34.311765 -82.526153 34.311890 -82.525558 34.311910 -82.525276 34.312025 -82.524849 34.312017 -82.524383 34.311987 -82.524262 34.311904 -82.524122 34.311829 -82.524065 34.311616 -82.523994 34.311471 -82.523973 34.311084 -82.523871 34.310838 -82.523676 34.310806 -82.523566 34.310836 -82.523309 34.311023 -82.523023 34.311050 -82.522930 34.311201 -82.522645 34.311517 -82.522343 34.311700 -82.522338 34.311987 -82.522420 34.312450 -82.522752 34.312636 -82.522758 34.312828 -82.522643 34.312785 -82.522504 34.312759 -82.522153 34.312781 -82.521879 34.312805 -82.521815 34.313061 -82.521561 34.313114 -82.521532 34.313309 -82.521146 34.313451 -82.520562 34.313346 -82.520521 34.313325 -82.520486 34.313336 -82.520352 34.314279 -82.519246 34.314775 -82.518395 34.314876 -82.518089 34.314928 -82.517601 34.314937 -82.517145 34.314928 -82.517007 34.314861 -82.516603 34.314815 -82.516436 34.314700 -82.516240 34.314349 -82.515948 34.314111 -82.515875 34.313638 -82.515984 34.313787 -82.516123 34.313878 -82.516267 34.313953 -82.516532 34.313975 -82.517628 34.313953 -82.517679 34.313843 -82.517800 34.313705 -82.517790 34.313606 -82.517714 34.313517 -82.517536 34.313466 -82.517333 34.313330 -82.517123 34.313237 -82.517079 34.312936 -82.516994 34.312824 -82.516915 34.312696 -82.516757 34.312533 -82.516428 34.312515 -82.516270 34.312513 -82.516008 34.312549 -82.515850 34.312615 -82.515706 34.312710 -82.515584 34.312823 -82.515494 34.312809 -82.515419 34.312752 -82.515302 34.312712 -82.514950 34.312430 -82.514904 34.312185 -82.514801 34.311847 -82.514748 34.311685 -82.514797 34.311609 -82.514930 34.311573 -82.515103 34.311590 -82.515297 34.311620 -82.515385 34.311862 -82.515779 34.311950 -82.515988 34.312410 -82.516736 34.312695 -82.517242 34.312698 -82.517280 34.312918 -82.517849 34.312939 -82.518188 34.312926 -82.518353 34.312844 -82.518657 34.312710 -82.519008 34.312751 -82.519238 34.312775 -82.519875 34.312722 -82.520341 34.312593 -82.520893 34.312470 -82.521242 34.312312 -82.521587 34.312106 -82.521773 34.311993 -82.521805 34.311841 -82.521781 34.311616 -82.521617 34.311464 -82.521355 34.311188 -82.521808 34.310953 -82.522290 34.310800 -82.522693 34.310656 -82.522964 34.310493 -82.523244 34.310217 -82.523588 34.310013 -82.523931 34.309819 -82.524326 34.309733 -82.524534 34.309644 -82.524823 34.309590 -82.525214 34.309535 -82.526012 34.309414 -82.526972 34.309415 -82.527482 34.309450 -82.527885 34.309523 -82.528461 34.309610 -82.528731 34.309689 -82.528830 34.309772 -82.528863 34.309806 -82.528902 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+                <gml:interior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.311530 -82.524747 34.311576 -82.524847 34.311575 -82.524916 34.311520 -82.524932 34.311333 -82.524847 34.311277 -82.524687 34.311318 -82.524549 34.311391 -82.524505 34.311468 -82.524582 34.311530 -82.524747 </gml:posList>
+                  </gml:LinearRing>
+                </gml:interior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC001</ms:areasymbol>
+        <ms:musym>CcC</ms:musym>
+        <ms:nationalmusym>2q7j8</ms:nationalmusym>
+        <ms:mukey>1154992</ms:mukey>
+        <ms:spatialversion>7</ms:spatialversion>
+        <ms:muname>Cecil sandy loam, 6 to 10 percent slopes</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp>8</ms:slopegraddcp>
+        <ms:slopegradwta>8</ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin></ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta>2.99</ms:aws025wta>
+        <ms:aws050wta>5.5</ms:aws050wta>
+        <ms:aws0100wta>10.48</ms:aws0100wta>
+        <ms:aws0150wta>16.87</ms:aws0150wta>
+        <ms:drclassdcd>Well drained</ms:drclassdcd>
+        <ms:drclasswettest>Well drained</ms:drclasswettest>
+        <ms:hydgrpdcd>B</ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>3</ms:niccdcd>
+        <ms:niccdcdpct>98</ms:niccdcdpct>
+        <ms:engdwobdcd>Not limited</ms:engdwobdcd>
+        <ms:engdwbdcd>Not limited</ms:engdwbdcd>
+        <ms:engdwbll>Not limited</ms:engdwbll>
+        <ms:engdwbml>Somewhat limited</ms:engdwbml>
+        <ms:engstafdcd>Somewhat limited</ms:engstafdcd>
+        <ms:engstafll>Somewhat limited</ms:engstafll>
+        <ms:engstafml>Very limited</ms:engstafml>
+        <ms:engsldcd>Very limited</ms:engsldcd>
+        <ms:engsldcp>Very limited</ms:engsldcp>
+        <ms:englrsdcd>Very limited</ms:englrsdcd>
+        <ms:engcmssdcd>Poor</ms:engcmssdcd>
+        <ms:engcmssmp>Poor</ms:engcmssmp>
+        <ms:urbrecptdcd>Somewhat limited</ms:urbrecptdcd>
+        <ms:urbrecptwta>0.05</ms:urbrecptwta>
+        <ms:forpehrtdcp>Erosion hazard moderate</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta>0.542</ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386732004</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.1154992">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.310600 -82.531530</gml:lowerCorner>
+        		<gml:upperCorner>34.314034 -82.528468</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.311344 -82.528534 34.311437 -82.528688 34.311428 -82.528824 34.311386 -82.528915 34.310759 -82.529171 34.310606 -82.529403 34.310600 -82.529613 34.310672 -82.529805 34.311132 -82.530439 34.311308 -82.530605 34.311542 -82.531125 34.311918 -82.531512 34.311946 -82.531530 34.312156 -82.531508 34.312259 -82.531387 34.312294 -82.531165 34.312335 -82.531093 34.312332 -82.531051 34.312303 -82.530975 34.312273 -82.530949 34.312179 -82.530677 34.312171 -82.530407 34.312249 -82.530185 34.312342 -82.530065 34.312592 -82.529941 34.312684 -82.529919 34.313243 -82.529970 34.313449 -82.530075 34.313491 -82.530114 34.313719 -82.530129 34.313938 -82.529925 34.314034 -82.529669 34.313537 -82.529526 34.313144 -82.529501 34.312729 -82.529332 34.312606 -82.529216 34.312583 -82.529168 34.312555 -82.529059 34.312516 -82.528631 34.312481 -82.528598 34.312314 -82.528526 34.312118 -82.528472 34.311695 -82.528468 34.311461 -82.528500 34.311344 -82.528534 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC001</ms:areasymbol>
+        <ms:musym>CcC</ms:musym>
+        <ms:nationalmusym>2q7j8</ms:nationalmusym>
+        <ms:mukey>1154992</ms:mukey>
+        <ms:spatialversion>7</ms:spatialversion>
+        <ms:muname>Cecil sandy loam, 6 to 10 percent slopes</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp>8</ms:slopegraddcp>
+        <ms:slopegradwta>8</ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin></ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta>2.99</ms:aws025wta>
+        <ms:aws050wta>5.5</ms:aws050wta>
+        <ms:aws0100wta>10.48</ms:aws0100wta>
+        <ms:aws0150wta>16.87</ms:aws0150wta>
+        <ms:drclassdcd>Well drained</ms:drclassdcd>
+        <ms:drclasswettest>Well drained</ms:drclasswettest>
+        <ms:hydgrpdcd>B</ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>3</ms:niccdcd>
+        <ms:niccdcdpct>98</ms:niccdcdpct>
+        <ms:engdwobdcd>Not limited</ms:engdwobdcd>
+        <ms:engdwbdcd>Not limited</ms:engdwbdcd>
+        <ms:engdwbll>Not limited</ms:engdwbll>
+        <ms:engdwbml>Somewhat limited</ms:engdwbml>
+        <ms:engstafdcd>Somewhat limited</ms:engstafdcd>
+        <ms:engstafll>Somewhat limited</ms:engstafll>
+        <ms:engstafml>Very limited</ms:engstafml>
+        <ms:engsldcd>Very limited</ms:engsldcd>
+        <ms:engsldcp>Very limited</ms:engsldcp>
+        <ms:englrsdcd>Very limited</ms:englrsdcd>
+        <ms:engcmssdcd>Poor</ms:engcmssdcd>
+        <ms:engcmssmp>Poor</ms:engcmssmp>
+        <ms:urbrecptdcd>Somewhat limited</ms:urbrecptdcd>
+        <ms:urbrecptwta>0.05</ms:urbrecptwta>
+        <ms:forpehrtdcp>Erosion hazard moderate</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta>0.542</ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386732146</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.1154986">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.314372 -82.544126</gml:lowerCorner>
+        		<gml:upperCorner>34.321804 -82.536621</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.320923 -82.537754 34.320919 -82.537691 34.320940 -82.537576 34.321223 -82.537102 34.321272 -82.536820 34.321295 -82.536784 34.321034 -82.536643 34.320866 -82.536621 34.320669 -82.536754 34.320600 -82.536824 34.320392 -82.537419 34.320276 -82.537514 34.320098 -82.537586 34.319923 -82.537778 34.319846 -82.537959 34.319758 -82.538536 34.319598 -82.538858 34.319459 -82.538984 34.319414 -82.539007 34.319299 -82.538995 34.319267 -82.538975 34.319235 -82.538905 34.319221 -82.538348 34.319130 -82.538076 34.319064 -82.537538 34.319041 -82.537006 34.318993 -82.536880 34.318937 -82.536832 34.318820 -82.536828 34.318600 -82.536911 34.318506 -82.537010 34.318392 -82.537275 34.318292 -82.537661 34.318189 -82.537917 34.318153 -82.538222 34.318162 -82.538465 34.318195 -82.538743 34.318318 -82.539092 34.318360 -82.539257 34.318419 -82.539372 34.318562 -82.539885 34.318606 -82.540215 34.318614 -82.540769 34.318648 -82.540899 34.318749 -82.541101 34.318927 -82.541276 34.318949 -82.541387 34.318925 -82.541542 34.318705 -82.541716 34.318686 -82.541753 34.318609 -82.542169 34.318536 -82.542959 34.318443 -82.543197 34.318291 -82.543372 34.318197 -82.543445 34.318090 -82.543491 34.317977 -82.543503 34.317735 -82.543485 34.317636 -82.543422 34.317489 -82.543210 34.317423 -82.542862 34.317465 -82.542632 34.317567 -82.542447 34.317576 -82.542199 34.317566 -82.541987 34.317406 -82.541773 34.317306 -82.541395 34.317299 -82.541318 34.317219 -82.541165 34.317173 -82.541110 34.317094 -82.541062 34.316983 -82.541072 34.316883 -82.541265 34.316811 -82.541611 34.316755 -82.541977 34.316656 -82.542207 34.316570 -82.542298 34.316546 -82.542297 34.316453 -82.542126 34.316435 -82.542046 34.316381 -82.541370 34.316179 -82.541145 34.316094 -82.541119 34.316043 -82.541151 34.316005 -82.541209 34.315937 -82.541498 34.315780 -82.542050 34.315751 -82.542114 34.315616 -82.542239 34.315529 -82.542243 34.315378 -82.542191 34.315275 -82.542092 34.315045 -82.541483 34.314807 -82.540997 34.314665 -82.540870 34.314575 -82.540851 34.314552 -82.540875 34.314396 -82.541380 34.314372 -82.541743 34.314400 -82.542399 34.314558 -82.542404 34.314753 -82.542268 34.314871 -82.542275 34.315119 -82.542363 34.315449 -82.542635 34.315831 -82.542769 34.316987 -82.542858 34.317251 -82.543127 34.317445 -82.543655 34.317594 -82.543832 34.317872 -82.544022 34.318086 -82.544105 34.318445 -82.544126 34.318586 -82.544090 34.318691 -82.544021 34.318846 -82.543787 34.318897 -82.543455 34.318983 -82.543076 34.319175 -82.542691 34.319191 -82.542421 34.319137 -82.542133 34.319133 -82.541889 34.319162 -82.541793 34.319291 -82.541588 34.319413 -82.541513 34.319572 -82.541484 34.319614 -82.541500 34.319701 -82.541608 34.319773 -82.541834 34.319828 -82.542078 34.319981 -82.542412 34.319991 -82.542128 34.320187 -82.541078 34.320328 -82.539399 34.320368 -82.539223 34.320622 -82.538952 34.321255 -82.538546 34.321415 -82.538404 34.321697 -82.538090 34.321785 -82.537959 34.321796 -82.537911 34.321804 -82.537838 34.321765 -82.537717 34.321689 -82.537667 34.321477 -82.537663 34.321269 -82.537752 34.321080 -82.537810 34.320963 -82.537802 34.320923 -82.537754 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+                <gml:interior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.319914 -82.540298 34.319950 -82.540436 34.319976 -82.540486 34.319990 -82.540529 34.319989 -82.540590 34.319971 -82.540676 34.319958 -82.540724 34.319952 -82.540755 34.319922 -82.540784 34.319761 -82.540859 34.319310 -82.540905 34.319227 -82.540881 34.319203 -82.540834 34.319185 -82.540730 34.319152 -82.540594 34.319168 -82.540385 34.319152 -82.540304 34.319111 -82.540197 34.319067 -82.540084 34.319033 -82.539991 34.319034 -82.539868 34.319081 -82.539713 34.319097 -82.539642 34.319157 -82.539608 34.319192 -82.539609 34.319217 -82.539721 34.319206 -82.539836 34.319231 -82.539943 34.319259 -82.539993 34.319304 -82.540028 34.319337 -82.540069 34.319346 -82.540112 34.319348 -82.540155 34.319356 -82.540181 34.319407 -82.540208 34.319482 -82.540247 34.319518 -82.540245 34.319564 -82.540205 34.319645 -82.540060 34.319691 -82.539957 34.319722 -82.539814 34.319706 -82.539742 34.319676 -82.539647 34.319644 -82.539531 34.319647 -82.539459 34.319658 -82.539393 34.319680 -82.539367 34.319703 -82.539371 34.319718 -82.539388 34.319734 -82.539426 34.319799 -82.539542 34.319839 -82.539595 34.319866 -82.539650 34.319897 -82.539711 34.319916 -82.539768 34.319921 -82.539869 34.319913 -82.539958 34.319886 -82.540059 34.319911 -82.540156 34.319910 -82.540237 34.319914 -82.540298 </gml:posList>
+                  </gml:LinearRing>
+                </gml:interior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC001</ms:areasymbol>
+        <ms:musym>ApC</ms:musym>
+        <ms:nationalmusym>2vwrg</ms:nationalmusym>
+        <ms:mukey>1154986</ms:mukey>
+        <ms:spatialversion>7</ms:spatialversion>
+        <ms:muname>Appling sandy loam, 6 to 10 percent slopes</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp>8</ms:slopegraddcp>
+        <ms:slopegradwta>8</ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin></ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta>3.47</ms:aws025wta>
+        <ms:aws050wta>6.94</ms:aws050wta>
+        <ms:aws0100wta>13.7</ms:aws0100wta>
+        <ms:aws0150wta>22.02</ms:aws0150wta>
+        <ms:drclassdcd>Well drained</ms:drclassdcd>
+        <ms:drclasswettest>Well drained</ms:drclasswettest>
+        <ms:hydgrpdcd>B</ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>3</ms:niccdcd>
+        <ms:niccdcdpct>88</ms:niccdcdpct>
+        <ms:engdwobdcd>Not limited</ms:engdwobdcd>
+        <ms:engdwbdcd>Not limited</ms:engdwbdcd>
+        <ms:engdwbll>Not limited</ms:engdwbll>
+        <ms:engdwbml>Somewhat limited</ms:engdwbml>
+        <ms:engstafdcd>Somewhat limited</ms:engstafdcd>
+        <ms:engstafll>Somewhat limited</ms:engstafll>
+        <ms:engstafml>Very limited</ms:engstafml>
+        <ms:engsldcd>Very limited</ms:engsldcd>
+        <ms:engsldcp>Very limited</ms:engsldcp>
+        <ms:englrsdcd>Very limited</ms:englrsdcd>
+        <ms:engcmssdcd>Poor</ms:engcmssdcd>
+        <ms:engcmssmp>Poor</ms:engcmssmp>
+        <ms:urbrecptdcd>Somewhat limited</ms:urbrecptdcd>
+        <ms:urbrecptwta>0.045</ms:urbrecptwta>
+        <ms:forpehrtdcp>Erosion hazard moderate</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta>0.127</ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386732395</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.1154985">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.330440 -82.537662</gml:lowerCorner>
+        		<gml:upperCorner>34.332796 -82.534436</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.331993 -82.535559 34.331787 -82.535701 34.331629 -82.535784 34.331370 -82.535853 34.331223 -82.535870 34.331148 -82.535844 34.330997 -82.535651 34.330999 -82.535491 34.331039 -82.535304 34.331096 -82.535225 34.331217 -82.535121 34.331596 -82.534981 34.331785 -82.534941 34.331944 -82.534859 34.331973 -82.534762 34.331922 -82.534663 34.331858 -82.534625 34.331471 -82.534628 34.331308 -82.534562 34.331138 -82.534462 34.331013 -82.534436 34.330935 -82.534995 34.330906 -82.535079 34.330612 -82.535547 34.330495 -82.535814 34.330463 -82.535933 34.330440 -82.536211 34.330487 -82.536405 34.330612 -82.536627 34.330768 -82.536798 34.330814 -82.536830 34.331026 -82.536904 34.331120 -82.536907 34.331410 -82.536898 34.331688 -82.536756 34.331820 -82.536763 34.331904 -82.536828 34.331923 -82.536970 34.331899 -82.537449 34.331957 -82.537564 34.332114 -82.537662 34.332148 -82.537374 34.332253 -82.537084 34.332527 -82.536614 34.332650 -82.536360 34.332775 -82.535965 34.332796 -82.535633 34.332753 -82.535568 34.332499 -82.535498 34.332179 -82.535503 34.331993 -82.535559 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC001</ms:areasymbol>
+        <ms:musym>ApB</ms:musym>
+        <ms:nationalmusym>2th0j</ms:nationalmusym>
+        <ms:mukey>1154985</ms:mukey>
+        <ms:spatialversion>7</ms:spatialversion>
+        <ms:muname>Appling sandy loam, 2 to 6 percent slopes</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp>4</ms:slopegraddcp>
+        <ms:slopegradwta>4</ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin></ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta>3.5</ms:aws025wta>
+        <ms:aws050wta>6.93</ms:aws050wta>
+        <ms:aws0100wta>13.74</ms:aws0100wta>
+        <ms:aws0150wta>22.21</ms:aws0150wta>
+        <ms:drclassdcd>Well drained</ms:drclassdcd>
+        <ms:drclasswettest>Well drained</ms:drclasswettest>
+        <ms:hydgrpdcd>B</ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>2</ms:niccdcd>
+        <ms:niccdcdpct>100</ms:niccdcdpct>
+        <ms:engdwobdcd>Not limited</ms:engdwobdcd>
+        <ms:engdwbdcd>Not limited</ms:engdwbdcd>
+        <ms:engdwbll>Not limited</ms:engdwbll>
+        <ms:engdwbml>Very limited</ms:engdwbml>
+        <ms:engstafdcd>Somewhat limited</ms:engstafdcd>
+        <ms:engstafll>Somewhat limited</ms:engstafll>
+        <ms:engstafml>Very limited</ms:engstafml>
+        <ms:engsldcd>Somewhat limited</ms:engsldcd>
+        <ms:engsldcp>Somewhat limited</ms:engsldcp>
+        <ms:englrsdcd>Very limited</ms:englrsdcd>
+        <ms:engcmssdcd>Poor</ms:engcmssdcd>
+        <ms:engcmssmp>Poor</ms:engcmssmp>
+        <ms:urbrecptdcd>Somewhat limited</ms:urbrecptdcd>
+        <ms:urbrecptwta>0.048</ms:urbrecptwta>
+        <ms:forpehrtdcp>Erosion hazard moderate</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta>0.107</ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386732459</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.1154991">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.348138 -82.517848</gml:lowerCorner>
+        		<gml:upperCorner>34.354356 -82.513759</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.354175 -82.514547 34.353955 -82.514922 34.353707 -82.515228 34.353657 -82.515268 34.353449 -82.515278 34.353404 -82.515245 34.353340 -82.515140 34.353283 -82.514943 34.353283 -82.514718 34.353309 -82.514462 34.353377 -82.514129 34.353378 -82.513982 34.353325 -82.513825 34.353164 -82.513759 34.352999 -82.513776 34.352872 -82.513827 34.352727 -82.513986 34.352656 -82.514137 34.352454 -82.515093 34.352386 -82.515272 34.352328 -82.515350 34.352247 -82.515405 34.352082 -82.515427 34.351848 -82.515333 34.351802 -82.515281 34.351598 -82.515127 34.351459 -82.515058 34.351259 -82.515043 34.351142 -82.515119 34.351102 -82.515202 34.351106 -82.515524 34.351225 -82.515970 34.351215 -82.516189 34.351152 -82.516299 34.350997 -82.516360 34.350849 -82.516284 34.350807 -82.516240 34.350467 -82.515684 34.350225 -82.515440 34.350132 -82.515409 34.350026 -82.515313 34.349973 -82.515347 34.349781 -82.515365 34.349535 -82.515276 34.349477 -82.515220 34.349372 -82.515024 34.349231 -82.514861 34.349082 -82.514774 34.348838 -82.514754 34.348733 -82.514801 34.348640 -82.514906 34.348402 -82.515264 34.348372 -82.515374 34.348174 -82.515855 34.348138 -82.516070 34.348142 -82.516163 34.348195 -82.516361 34.348272 -82.516474 34.348458 -82.516544 34.348491 -82.516546 34.348647 -82.516474 34.348761 -82.516339 34.348856 -82.516098 34.348898 -82.515949 34.349023 -82.515774 34.349277 -82.515651 34.349592 -82.515690 34.349852 -82.515882 34.349991 -82.516022 34.350189 -82.516302 34.350477 -82.516839 34.350628 -82.516969 34.350676 -82.516968 34.350908 -82.516738 34.351106 -82.516782 34.351382 -82.516991 34.351580 -82.517235 34.351672 -82.517409 34.351842 -82.517582 34.351930 -82.517653 34.352134 -82.517720 34.352271 -82.517848 34.354356 -82.514605 34.354175 -82.514547 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC001</ms:areasymbol>
+        <ms:musym>CcB</ms:musym>
+        <ms:nationalmusym>2q7j7</ms:nationalmusym>
+        <ms:mukey>1154991</ms:mukey>
+        <ms:spatialversion>7</ms:spatialversion>
+        <ms:muname>Cecil sandy loam, 2 to 6 percent slopes</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp>4</ms:slopegraddcp>
+        <ms:slopegradwta>4</ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin></ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta>2.95</ms:aws025wta>
+        <ms:aws050wta>5.45</ms:aws050wta>
+        <ms:aws0100wta>10.4</ms:aws0100wta>
+        <ms:aws0150wta>17.35</ms:aws0150wta>
+        <ms:drclassdcd>Well drained</ms:drclassdcd>
+        <ms:drclasswettest>Well drained</ms:drclasswettest>
+        <ms:hydgrpdcd>B</ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>2</ms:niccdcd>
+        <ms:niccdcdpct>95</ms:niccdcdpct>
+        <ms:engdwobdcd>Not limited</ms:engdwobdcd>
+        <ms:engdwbdcd>Not limited</ms:engdwbdcd>
+        <ms:engdwbll>Not limited</ms:engdwbll>
+        <ms:engdwbml>Somewhat limited</ms:engdwbml>
+        <ms:engstafdcd>Somewhat limited</ms:engstafdcd>
+        <ms:engstafll>Somewhat limited</ms:engstafll>
+        <ms:engstafml>Very limited</ms:engstafml>
+        <ms:engsldcd>Somewhat limited</ms:engsldcd>
+        <ms:engsldcp>Somewhat limited</ms:engsldcp>
+        <ms:englrsdcd>Very limited</ms:englrsdcd>
+        <ms:engcmssdcd>Poor</ms:engcmssdcd>
+        <ms:engcmssmp>Poor</ms:engcmssmp>
+        <ms:urbrecptdcd>Somewhat limited</ms:urbrecptdcd>
+        <ms:urbrecptwta>0.052</ms:urbrecptwta>
+        <ms:forpehrtdcp>Erosion hazard moderate</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta>0.506</ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386732754</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.1154993">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.310991 -82.553979</gml:lowerCorner>
+        		<gml:upperCorner>34.326658 -82.541276</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.326519 -82.546368 34.325768 -82.546396 34.325516 -82.546544 34.325342 -82.546695 34.325122 -82.546934 34.325032 -82.547110 34.324572 -82.547687 34.324106 -82.548437 34.324098 -82.548471 34.323892 -82.548755 34.323626 -82.549291 34.323568 -82.549527 34.323492 -82.549695 34.323330 -82.550156 34.323234 -82.550318 34.323143 -82.550420 34.323044 -82.550495 34.322826 -82.550588 34.322608 -82.550608 34.322271 -82.550516 34.322086 -82.550418 34.321796 -82.550065 34.321763 -82.549744 34.321822 -82.549485 34.321858 -82.549389 34.321995 -82.549202 34.322487 -82.548771 34.322648 -82.548672 34.322757 -82.548628 34.322933 -82.548493 34.323029 -82.548380 34.323298 -82.547977 34.323576 -82.547436 34.323769 -82.547180 34.324290 -82.546677 34.324506 -82.546515 34.324758 -82.546210 34.325251 -82.545776 34.325500 -82.545475 34.325564 -82.545077 34.325532 -82.544864 34.325477 -82.544799 34.325372 -82.544776 34.325310 -82.544797 34.324874 -82.544915 34.324701 -82.544911 34.324615 -82.544804 34.324600 -82.544588 34.324570 -82.544432 34.324527 -82.544352 34.324424 -82.544290 34.324233 -82.544300 34.324026 -82.544494 34.323907 -82.544735 34.323812 -82.545276 34.323755 -82.546376 34.323642 -82.546745 34.323521 -82.546903 34.323517 -82.546945 34.323334 -82.547184 34.323215 -82.547281 34.323052 -82.547518 34.322619 -82.547938 34.322039 -82.548342 34.321812 -82.548439 34.321605 -82.548456 34.321523 -82.548421 34.321358 -82.548253 34.321343 -82.548114 34.321391 -82.547935 34.321630 -82.547586 34.321673 -82.547491 34.321693 -82.547398 34.321754 -82.547337 34.321993 -82.547198 34.322261 -82.546920 34.322322 -82.546822 34.322316 -82.546650 34.322205 -82.546503 34.322163 -82.546481 34.321939 -82.546499 34.321790 -82.546564 34.321612 -82.546591 34.321433 -82.546574 34.321336 -82.546479 34.321338 -82.546294 34.321359 -82.546249 34.321582 -82.545991 34.321765 -82.545871 34.321834 -82.545783 34.321860 -82.545618 34.321856 -82.545400 34.321731 -82.545262 34.321623 -82.545225 34.321366 -82.545328 34.321185 -82.545444 34.320892 -82.545530 34.320725 -82.545523 34.320534 -82.545456 34.320262 -82.545306 34.320111 -82.545098 34.320022 -82.544906 34.319919 -82.544564 34.319939 -82.544254 34.320015 -82.544122 34.320195 -82.543940 34.320322 -82.543890 34.320862 -82.543612 34.321310 -82.543473 34.321411 -82.543458 34.321636 -82.543312 34.322014 -82.542941 34.322330 -82.542449 34.322451 -82.542076 34.322514 -82.541959 34.322581 -82.541566 34.322526 -82.541348 34.322494 -82.541308 34.322419 -82.541276 34.322278 -82.541298 34.321975 -82.541563 34.321175 -82.542493 34.320807 -82.542866 34.320447 -82.543141 34.320170 -82.543207 34.319948 -82.543178 34.319844 -82.543084 34.319840 -82.542856 34.319865 -82.542728 34.319981 -82.542412 34.319828 -82.542078 34.319773 -82.541834 34.319701 -82.541608 34.319614 -82.541500 34.319572 -82.541484 34.319413 -82.541513 34.319291 -82.541588 34.319162 -82.541793 34.319133 -82.541889 34.319137 -82.542133 34.319191 -82.542421 34.319175 -82.542691 34.318983 -82.543076 34.318897 -82.543455 34.318846 -82.543787 34.318691 -82.544021 34.318586 -82.544090 34.318445 -82.544126 34.318086 -82.544105 34.317872 -82.544022 34.317594 -82.543832 34.317445 -82.543655 34.317251 -82.543127 34.316987 -82.542858 34.315831 -82.542769 34.315449 -82.542635 34.315119 -82.542363 34.314871 -82.542275 34.314753 -82.542268 34.314558 -82.542404 34.314400 -82.542399 34.314344 -82.542396 34.314217 -82.542439 34.313281 -82.542386 34.312614 -82.542291 34.312155 -82.542288 34.311895 -82.542260 34.311665 -82.542283 34.311570 -82.542288 34.311584 -82.542312 34.311605 -82.542524 34.311594 -82.542798 34.311554 -82.542840 34.311205 -82.542855 34.311033 -82.542867 34.310991 -82.543126 34.311326 -82.543136 34.311602 -82.543237 34.311918 -82.543306 34.312312 -82.543122 34.313059 -82.542993 34.313540 -82.543063 34.313902 -82.543158 34.314213 -82.543213 34.314661 -82.543455 34.314828 -82.543515 34.314963 -82.543639 34.315145 -82.543897 34.315225 -82.544050 34.315265 -82.544375 34.315281 -82.544431 34.315344 -82.544513 34.315598 -82.544648 34.316628 -82.544915 34.316919 -82.545064 34.317143 -82.545213 34.317162 -82.545331 34.317122 -82.545487 34.316677 -82.545989 34.316590 -82.546134 34.316588 -82.546285 34.316770 -82.546392 34.316951 -82.546394 34.317211 -82.546367 34.317533 -82.546260 34.318074 -82.546157 34.318469 -82.546143 34.318543 -82.546082 34.318899 -82.545860 34.319036 -82.545819 34.319369 -82.545848 34.319561 -82.545945 34.319679 -82.546048 34.319826 -82.546330 34.320030 -82.546590 34.320167 -82.546866 34.320209 -82.546981 34.320215 -82.547312 34.320254 -82.547536 34.320279 -82.547596 34.320281 -82.547701 34.320221 -82.547780 34.320163 -82.547973 34.320084 -82.548026 34.319951 -82.548025 34.319566 -82.547735 34.319469 -82.547715 34.319377 -82.547757 34.319344 -82.547788 34.319270 -82.547924 34.319183 -82.548276 34.319098 -82.548422 34.318921 -82.548592 34.318754 -82.548707 34.318541 -82.548789 34.318437 -82.548805 34.318122 -82.548775 34.317973 -82.548798 34.317914 -82.548864 34.317860 -82.548953 34.317737 -82.549241 34.317701 -82.549500 34.317709 -82.549695 34.317727 -82.549778 34.317923 -82.550195 34.318073 -82.550417 34.318118 -82.550406 34.318407 -82.550422 34.318693 -82.550342 34.318973 -82.550411 34.319159 -82.550205 34.319338 -82.550160 34.319644 -82.550167 34.319758 -82.550207 34.319872 -82.550329 34.320054 -82.550852 34.320223 -82.551106 34.320272 -82.551138 34.320538 -82.551157 34.320602 -82.551184 34.320858 -82.551330 34.321000 -82.551501 34.321119 -82.551499 34.321223 -82.551436 34.321385 -82.551462 34.321431 -82.551491 34.321512 -82.551612 34.321521 -82.551882 34.321465 -82.551979 34.321290 -82.552112 34.321148 -82.552114 34.320965 -82.552086 34.320900 -82.552119 34.320856 -82.552178 34.320845 -82.552235 34.320850 -82.552529 34.320798 -82.552581 34.320701 -82.552582 34.320528 -82.552497 34.320235 -82.552394 34.320141 -82.552402 34.320052 -82.552438 34.319794 -82.552634 34.319515 -82.552592 34.319422 -82.552507 34.319326 -82.552352 34.319219 -82.551987 34.319048 -82.551691 34.318743 -82.551332 34.318608 -82.551223 34.318306 -82.551162 34.317889 -82.551203 34.317255 -82.551128 34.316987 -82.551147 34.316885 -82.551207 34.316718 -82.551358 34.316650 -82.551497 34.316562 -82.551816 34.316555 -82.552031 34.316658 -82.552257 34.316798 -82.552348 34.316964 -82.552548 34.317068 -82.552745 34.317098 -82.552894 34.317060 -82.553070 34.316961 -82.553177 34.316760 -82.553310 34.317381 -82.553461 34.317836 -82.553493 34.317864 -82.553493 34.318052 -82.553368 34.318074 -82.553305 34.318044 -82.553140 34.317959 -82.553035 34.317840 -82.552940 34.317524 -82.552614 34.317338 -82.552190 34.317358 -82.551961 34.317388 -82.551886 34.317531 -82.551737 34.317753 -82.551713 34.318215 -82.551842 34.318351 -82.551959 34.318463 -82.552130 34.318594 -82.552537 34.318679 -82.552719 34.318832 -82.552944 34.318979 -82.552989 34.319239 -82.552938 34.319340 -82.552936 34.319588 -82.553033 34.319905 -82.553308 34.320193 -82.553495 34.320530 -82.553580 34.320947 -82.553543 34.321159 -82.553717 34.321372 -82.553925 34.321521 -82.553979 34.321729 -82.553965 34.321846 -82.553898 34.322020 -82.553697 34.322044 -82.553585 34.322074 -82.553026 34.322149 -82.552669 34.322354 -82.552180 34.322701 -82.551841 34.322886 -82.551763 34.322923 -82.551761 34.323102 -82.551926 34.323143 -82.551989 34.323258 -82.551634 34.323409 -82.551417 34.323576 -82.551291 34.323880 -82.551146 34.324574 -82.551045 34.324909 -82.551053 34.324959 -82.551059 34.325177 -82.550983 34.325231 -82.550937 34.325293 -82.550769 34.325294 -82.550551 34.325167 -82.550404 34.324959 -82.550398 34.324620 -82.550422 34.324329 -82.550327 34.324191 -82.550138 34.324157 -82.549959 34.324175 -82.549731 34.324265 -82.549530 34.324425 -82.549294 34.324606 -82.549132 34.324745 -82.549073 34.325011 -82.549071 34.325231 -82.549158 34.325334 -82.549253 34.325538 -82.549308 34.325786 -82.549195 34.325874 -82.549088 34.325967 -82.548751 34.326175 -82.548366 34.326232 -82.548102 34.326207 -82.547860 34.326249 -82.547731 34.326490 -82.547398 34.326634 -82.547007 34.326658 -82.546632 34.326618 -82.546489 34.326519 -82.546368 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC001</ms:areasymbol>
+        <ms:musym>CcD</ms:musym>
+        <ms:nationalmusym>2zzyy</ms:nationalmusym>
+        <ms:mukey>1154993</ms:mukey>
+        <ms:spatialversion>7</ms:spatialversion>
+        <ms:muname>Cecil-Cataula complex, 10 to 15 percent slopes, moderately eroded</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp>13</ms:slopegraddcp>
+        <ms:slopegradwta>13</ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin>84</ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta>3.35</ms:aws025wta>
+        <ms:aws050wta>6.44</ms:aws050wta>
+        <ms:aws0100wta>12.63</ms:aws0100wta>
+        <ms:aws0150wta>19.5</ms:aws0150wta>
+        <ms:drclassdcd>Well drained</ms:drclassdcd>
+        <ms:drclasswettest>Moderately well drained</ms:drclasswettest>
+        <ms:hydgrpdcd>B</ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>4</ms:niccdcd>
+        <ms:niccdcdpct>75</ms:niccdcdpct>
+        <ms:engdwobdcd>Somewhat limited</ms:engdwobdcd>
+        <ms:engdwbdcd>Somewhat limited</ms:engdwbdcd>
+        <ms:engdwbll>Somewhat limited</ms:engdwbll>
+        <ms:engdwbml>Somewhat limited</ms:engdwbml>
+        <ms:engstafdcd>Somewhat limited</ms:engstafdcd>
+        <ms:engstafll>Somewhat limited</ms:engstafll>
+        <ms:engstafml>Very limited</ms:engstafml>
+        <ms:engsldcd>Very limited</ms:engsldcd>
+        <ms:engsldcp>Very limited</ms:engsldcp>
+        <ms:englrsdcd>Very limited</ms:englrsdcd>
+        <ms:engcmssdcd>Poor</ms:engcmssdcd>
+        <ms:engcmssmp>Poor</ms:engcmssmp>
+        <ms:urbrecptdcd>Somewhat limited</ms:urbrecptdcd>
+        <ms:urbrecptwta>0.064</ms:urbrecptwta>
+        <ms:forpehrtdcp>Erosion hazard moderate</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta>0.894</ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386732849</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.1154991">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.321913 -82.521625</gml:lowerCorner>
+        		<gml:upperCorner>34.323981 -82.519556</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.321913 -82.519733 34.321940 -82.519883 34.321930 -82.520027 34.321977 -82.520101 34.322017 -82.520210 34.322172 -82.520784 34.322257 -82.520903 34.322348 -82.520952 34.322427 -82.520938 34.322735 -82.520994 34.322909 -82.521067 34.323088 -82.521239 34.323189 -82.521439 34.323311 -82.521566 34.323355 -82.521591 34.323618 -82.521625 34.323751 -82.521575 34.323965 -82.521198 34.323981 -82.520916 34.323938 -82.520758 34.323763 -82.520445 34.323608 -82.520246 34.323197 -82.519893 34.322963 -82.519794 34.322346 -82.519657 34.322166 -82.519556 34.322108 -82.519566 34.321913 -82.519733 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC001</ms:areasymbol>
+        <ms:musym>CcB</ms:musym>
+        <ms:nationalmusym>2q7j7</ms:nationalmusym>
+        <ms:mukey>1154991</ms:mukey>
+        <ms:spatialversion>7</ms:spatialversion>
+        <ms:muname>Cecil sandy loam, 2 to 6 percent slopes</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp>4</ms:slopegraddcp>
+        <ms:slopegradwta>4</ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin></ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta>2.95</ms:aws025wta>
+        <ms:aws050wta>5.45</ms:aws050wta>
+        <ms:aws0100wta>10.4</ms:aws0100wta>
+        <ms:aws0150wta>17.35</ms:aws0150wta>
+        <ms:drclassdcd>Well drained</ms:drclassdcd>
+        <ms:drclasswettest>Well drained</ms:drclasswettest>
+        <ms:hydgrpdcd>B</ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>2</ms:niccdcd>
+        <ms:niccdcdpct>95</ms:niccdcdpct>
+        <ms:engdwobdcd>Not limited</ms:engdwobdcd>
+        <ms:engdwbdcd>Not limited</ms:engdwbdcd>
+        <ms:engdwbll>Not limited</ms:engdwbll>
+        <ms:engdwbml>Somewhat limited</ms:engdwbml>
+        <ms:engstafdcd>Somewhat limited</ms:engstafdcd>
+        <ms:engstafll>Somewhat limited</ms:engstafll>
+        <ms:engstafml>Very limited</ms:engstafml>
+        <ms:engsldcd>Somewhat limited</ms:engsldcd>
+        <ms:engsldcp>Somewhat limited</ms:engsldcp>
+        <ms:englrsdcd>Very limited</ms:englrsdcd>
+        <ms:engcmssdcd>Poor</ms:engcmssdcd>
+        <ms:engcmssmp>Poor</ms:engcmssmp>
+        <ms:urbrecptdcd>Somewhat limited</ms:urbrecptdcd>
+        <ms:urbrecptwta>0.052</ms:urbrecptwta>
+        <ms:forpehrtdcp>Erosion hazard moderate</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta>0.506</ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386732853</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.1154991">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.317666 -82.523160</gml:lowerCorner>
+        		<gml:upperCorner>34.321436 -82.519663</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.317666 -82.521519 34.318106 -82.521830 34.318251 -82.521905 34.318583 -82.522246 34.318610 -82.522296 34.318613 -82.522417 34.318523 -82.522558 34.318343 -82.522667 34.318066 -82.522700 34.317938 -82.522776 34.317840 -82.522907 34.317825 -82.523038 34.317846 -82.523160 34.319035 -82.522558 34.319352 -82.522508 34.319658 -82.522526 34.319864 -82.522611 34.320164 -82.522682 34.320376 -82.522798 34.320578 -82.522816 34.320692 -82.522784 34.320868 -82.522641 34.320910 -82.522587 34.321160 -82.521996 34.321241 -82.521742 34.321410 -82.521512 34.321436 -82.521409 34.321420 -82.521333 34.321357 -82.521194 34.321219 -82.520970 34.320977 -82.520629 34.320866 -82.520402 34.320650 -82.520175 34.320446 -82.520068 34.320243 -82.520069 34.319845 -82.520184 34.319560 -82.520171 34.319463 -82.520151 34.319213 -82.519968 34.319072 -82.519789 34.318852 -82.519676 34.318783 -82.519663 34.318675 -82.519748 34.318400 -82.520329 34.318188 -82.520680 34.317866 -82.521093 34.317666 -82.521519 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC001</ms:areasymbol>
+        <ms:musym>CcB</ms:musym>
+        <ms:nationalmusym>2q7j7</ms:nationalmusym>
+        <ms:mukey>1154991</ms:mukey>
+        <ms:spatialversion>7</ms:spatialversion>
+        <ms:muname>Cecil sandy loam, 2 to 6 percent slopes</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp>4</ms:slopegraddcp>
+        <ms:slopegradwta>4</ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin></ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta>2.95</ms:aws025wta>
+        <ms:aws050wta>5.45</ms:aws050wta>
+        <ms:aws0100wta>10.4</ms:aws0100wta>
+        <ms:aws0150wta>17.35</ms:aws0150wta>
+        <ms:drclassdcd>Well drained</ms:drclassdcd>
+        <ms:drclasswettest>Well drained</ms:drclasswettest>
+        <ms:hydgrpdcd>B</ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>2</ms:niccdcd>
+        <ms:niccdcdpct>95</ms:niccdcdpct>
+        <ms:engdwobdcd>Not limited</ms:engdwobdcd>
+        <ms:engdwbdcd>Not limited</ms:engdwbdcd>
+        <ms:engdwbll>Not limited</ms:engdwbll>
+        <ms:engdwbml>Somewhat limited</ms:engdwbml>
+        <ms:engstafdcd>Somewhat limited</ms:engstafdcd>
+        <ms:engstafll>Somewhat limited</ms:engstafll>
+        <ms:engstafml>Very limited</ms:engstafml>
+        <ms:engsldcd>Somewhat limited</ms:engsldcd>
+        <ms:engsldcp>Somewhat limited</ms:engsldcp>
+        <ms:englrsdcd>Very limited</ms:englrsdcd>
+        <ms:engcmssdcd>Poor</ms:engcmssdcd>
+        <ms:engcmssmp>Poor</ms:engcmssmp>
+        <ms:urbrecptdcd>Somewhat limited</ms:urbrecptdcd>
+        <ms:urbrecptwta>0.052</ms:urbrecptwta>
+        <ms:forpehrtdcp>Erosion hazard moderate</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta>0.506</ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386732898</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.1154992">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.327761 -82.555390</gml:lowerCorner>
+        		<gml:upperCorner>34.328635 -82.553344</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.328199 -82.555390 34.328635 -82.554727 34.328467 -82.554111 34.328290 -82.553681 34.328213 -82.553559 34.328046 -82.553370 34.327997 -82.553344 34.327909 -82.553350 34.327806 -82.553461 34.327766 -82.553642 34.327761 -82.553772 34.327785 -82.553940 34.327832 -82.554082 34.328002 -82.554454 34.328125 -82.554983 34.328199 -82.555390 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC001</ms:areasymbol>
+        <ms:musym>CcC</ms:musym>
+        <ms:nationalmusym>2q7j8</ms:nationalmusym>
+        <ms:mukey>1154992</ms:mukey>
+        <ms:spatialversion>7</ms:spatialversion>
+        <ms:muname>Cecil sandy loam, 6 to 10 percent slopes</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp>8</ms:slopegraddcp>
+        <ms:slopegradwta>8</ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin></ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta>2.99</ms:aws025wta>
+        <ms:aws050wta>5.5</ms:aws050wta>
+        <ms:aws0100wta>10.48</ms:aws0100wta>
+        <ms:aws0150wta>16.87</ms:aws0150wta>
+        <ms:drclassdcd>Well drained</ms:drclassdcd>
+        <ms:drclasswettest>Well drained</ms:drclasswettest>
+        <ms:hydgrpdcd>B</ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>3</ms:niccdcd>
+        <ms:niccdcdpct>98</ms:niccdcdpct>
+        <ms:engdwobdcd>Not limited</ms:engdwobdcd>
+        <ms:engdwbdcd>Not limited</ms:engdwbdcd>
+        <ms:engdwbll>Not limited</ms:engdwbll>
+        <ms:engdwbml>Somewhat limited</ms:engdwbml>
+        <ms:engstafdcd>Somewhat limited</ms:engstafdcd>
+        <ms:engstafll>Somewhat limited</ms:engstafll>
+        <ms:engstafml>Very limited</ms:engstafml>
+        <ms:engsldcd>Very limited</ms:engsldcd>
+        <ms:engsldcp>Very limited</ms:engsldcp>
+        <ms:englrsdcd>Very limited</ms:englrsdcd>
+        <ms:engcmssdcd>Poor</ms:engcmssdcd>
+        <ms:engcmssmp>Poor</ms:engcmssmp>
+        <ms:urbrecptdcd>Somewhat limited</ms:urbrecptdcd>
+        <ms:urbrecptwta>0.05</ms:urbrecptwta>
+        <ms:forpehrtdcp>Erosion hazard moderate</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta>0.542</ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386732913</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.1155004">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.331598 -82.526046</gml:lowerCorner>
+        		<gml:upperCorner>34.334062 -82.521852</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.333475 -82.522993 34.333225 -82.522949 34.333055 -82.522849 34.332777 -82.522536 34.332376 -82.521922 34.332350 -82.521852 34.332088 -82.522106 34.331917 -82.522231 34.331697 -82.522240 34.331598 -82.522290 34.331630 -82.522347 34.331644 -82.522474 34.331676 -82.522589 34.331791 -82.522886 34.332146 -82.523541 34.332344 -82.524148 34.332360 -82.524433 34.332324 -82.524744 34.332243 -82.524935 34.332191 -82.525189 34.332201 -82.525430 34.332368 -82.525792 34.332543 -82.525968 34.332692 -82.526044 34.332886 -82.526046 34.333394 -82.525848 34.333876 -82.525457 34.334055 -82.525203 34.334062 -82.524904 34.334015 -82.524512 34.333628 -82.523575 34.333501 -82.523171 34.333475 -82.522993 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC001</ms:areasymbol>
+        <ms:musym>HeB</ms:musym>
+        <ms:nationalmusym>17rw6</ms:nationalmusym>
+        <ms:mukey>1155004</ms:mukey>
+        <ms:spatialversion>7</ms:spatialversion>
+        <ms:muname>Helena sandy loam, 2 to 6 percent slopes</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp>4</ms:slopegraddcp>
+        <ms:slopegradwta>4</ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin>61</ms:wtdepannmin>
+        <ms:wtdepaprjunmin>61</ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta>3.05</ms:aws025wta>
+        <ms:aws050wta>6.55</ms:aws050wta>
+        <ms:aws0100wta>13.55</ms:aws0100wta>
+        <ms:aws0150wta>20.55</ms:aws0150wta>
+        <ms:drclassdcd>Moderately well drained</ms:drclassdcd>
+        <ms:drclasswettest>Moderately well drained</ms:drclasswettest>
+        <ms:hydgrpdcd>D</ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>90</ms:iccdcdpct>
+        <ms:niccdcd>2</ms:niccdcd>
+        <ms:niccdcdpct>90</ms:niccdcdpct>
+        <ms:engdwobdcd>Very limited</ms:engdwobdcd>
+        <ms:engdwbdcd>Very limited</ms:engdwbdcd>
+        <ms:engdwbll>Very limited</ms:engdwbll>
+        <ms:engdwbml>Very limited</ms:engdwbml>
+        <ms:engstafdcd>Very limited</ms:engstafdcd>
+        <ms:engstafll>Very limited</ms:engstafll>
+        <ms:engstafml>Very limited</ms:engstafml>
+        <ms:engsldcd>Somewhat limited</ms:engsldcd>
+        <ms:engsldcp>Somewhat limited</ms:engsldcp>
+        <ms:englrsdcd>Very limited</ms:englrsdcd>
+        <ms:engcmssdcd>Fair</ms:engcmssdcd>
+        <ms:engcmssmp>Fair</ms:engcmssmp>
+        <ms:urbrecptdcd>Somewhat limited</ms:urbrecptdcd>
+        <ms:urbrecptwta>0.245</ms:urbrecptwta>
+        <ms:forpehrtdcp>Erosion hazard moderate</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta>1</ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386733276</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.1154992">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.328370 -82.524935</gml:lowerCorner>
+        		<gml:upperCorner>34.332360 -82.520126</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.331598 -82.522290 34.331574 -82.522246 34.331425 -82.521713 34.331309 -82.521411 34.331152 -82.521113 34.330995 -82.520978 34.330955 -82.520968 34.330807 -82.520959 34.330626 -82.521040 34.330525 -82.521038 34.330433 -82.520960 34.330304 -82.520670 34.330255 -82.520439 34.330251 -82.520126 34.329601 -82.520764 34.329077 -82.521135 34.328791 -82.521548 34.328600 -82.521949 34.328531 -82.522163 34.328372 -82.522865 34.328370 -82.523199 34.328418 -82.523381 34.328552 -82.523498 34.328585 -82.523502 34.328713 -82.523417 34.329257 -82.522768 34.329394 -82.522641 34.329477 -82.522611 34.329632 -82.522639 34.329670 -82.522673 34.329769 -82.522845 34.329777 -82.523254 34.329759 -82.523684 34.329799 -82.524115 34.329834 -82.524292 34.329943 -82.524608 34.329989 -82.524696 34.330073 -82.524775 34.330196 -82.524869 34.330336 -82.524867 34.330389 -82.524825 34.330505 -82.524692 34.330650 -82.524270 34.330773 -82.524020 34.330777 -82.523987 34.331023 -82.523754 34.331140 -82.523696 34.331251 -82.523695 34.331388 -82.523726 34.331559 -82.523928 34.331612 -82.524000 34.331761 -82.524323 34.332124 -82.524815 34.332243 -82.524935 34.332324 -82.524744 34.332360 -82.524433 34.332344 -82.524148 34.332146 -82.523541 34.331791 -82.522886 34.331676 -82.522589 34.331644 -82.522474 34.331630 -82.522347 34.331598 -82.522290 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC001</ms:areasymbol>
+        <ms:musym>CcC</ms:musym>
+        <ms:nationalmusym>2q7j8</ms:nationalmusym>
+        <ms:mukey>1154992</ms:mukey>
+        <ms:spatialversion>7</ms:spatialversion>
+        <ms:muname>Cecil sandy loam, 6 to 10 percent slopes</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp>8</ms:slopegraddcp>
+        <ms:slopegradwta>8</ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin></ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta>2.99</ms:aws025wta>
+        <ms:aws050wta>5.5</ms:aws050wta>
+        <ms:aws0100wta>10.48</ms:aws0100wta>
+        <ms:aws0150wta>16.87</ms:aws0150wta>
+        <ms:drclassdcd>Well drained</ms:drclassdcd>
+        <ms:drclasswettest>Well drained</ms:drclasswettest>
+        <ms:hydgrpdcd>B</ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>3</ms:niccdcd>
+        <ms:niccdcdpct>98</ms:niccdcdpct>
+        <ms:engdwobdcd>Not limited</ms:engdwobdcd>
+        <ms:engdwbdcd>Not limited</ms:engdwbdcd>
+        <ms:engdwbll>Not limited</ms:engdwbll>
+        <ms:engdwbml>Somewhat limited</ms:engdwbml>
+        <ms:engstafdcd>Somewhat limited</ms:engstafdcd>
+        <ms:engstafll>Somewhat limited</ms:engstafll>
+        <ms:engstafml>Very limited</ms:engstafml>
+        <ms:engsldcd>Very limited</ms:engsldcd>
+        <ms:engsldcp>Very limited</ms:engsldcp>
+        <ms:englrsdcd>Very limited</ms:englrsdcd>
+        <ms:engcmssdcd>Poor</ms:engcmssdcd>
+        <ms:engcmssmp>Poor</ms:engcmssmp>
+        <ms:urbrecptdcd>Somewhat limited</ms:urbrecptdcd>
+        <ms:urbrecptwta>0.05</ms:urbrecptwta>
+        <ms:forpehrtdcp>Erosion hazard moderate</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta>0.542</ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386733439</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.1154991">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.323422 -82.557372</gml:lowerCorner>
+        		<gml:upperCorner>34.325733 -82.552716</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.324536 -82.553048 34.324455 -82.553140 34.324411 -82.553219 34.324312 -82.553466 34.323988 -82.554121 34.323846 -82.554337 34.323727 -82.554476 34.323647 -82.554605 34.323473 -82.554831 34.323439 -82.555003 34.323422 -82.555235 34.323461 -82.555281 34.323603 -82.555307 34.323840 -82.555194 34.323986 -82.555190 34.324016 -82.555222 34.324046 -82.555323 34.324043 -82.555627 34.323939 -82.555988 34.323806 -82.556243 34.323802 -82.556477 34.323935 -82.556684 34.324017 -82.556715 34.324321 -82.556898 34.324713 -82.557307 34.324885 -82.557372 34.324951 -82.557367 34.325053 -82.557311 34.325173 -82.557160 34.325201 -82.557091 34.325203 -82.556902 34.325152 -82.556368 34.325169 -82.555806 34.325195 -82.555488 34.325342 -82.554942 34.325425 -82.554338 34.325612 -82.553459 34.325733 -82.552736 34.325201 -82.552716 34.325021 -82.552751 34.324685 -82.552908 34.324536 -82.553048 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC001</ms:areasymbol>
+        <ms:musym>CcB</ms:musym>
+        <ms:nationalmusym>2q7j7</ms:nationalmusym>
+        <ms:mukey>1154991</ms:mukey>
+        <ms:spatialversion>7</ms:spatialversion>
+        <ms:muname>Cecil sandy loam, 2 to 6 percent slopes</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp>4</ms:slopegraddcp>
+        <ms:slopegradwta>4</ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin></ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta>2.95</ms:aws025wta>
+        <ms:aws050wta>5.45</ms:aws050wta>
+        <ms:aws0100wta>10.4</ms:aws0100wta>
+        <ms:aws0150wta>17.35</ms:aws0150wta>
+        <ms:drclassdcd>Well drained</ms:drclassdcd>
+        <ms:drclasswettest>Well drained</ms:drclasswettest>
+        <ms:hydgrpdcd>B</ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>2</ms:niccdcd>
+        <ms:niccdcdpct>95</ms:niccdcdpct>
+        <ms:engdwobdcd>Not limited</ms:engdwobdcd>
+        <ms:engdwbdcd>Not limited</ms:engdwbdcd>
+        <ms:engdwbll>Not limited</ms:engdwbll>
+        <ms:engdwbml>Somewhat limited</ms:engdwbml>
+        <ms:engstafdcd>Somewhat limited</ms:engstafdcd>
+        <ms:engstafll>Somewhat limited</ms:engstafll>
+        <ms:engstafml>Very limited</ms:engstafml>
+        <ms:engsldcd>Somewhat limited</ms:engsldcd>
+        <ms:engsldcp>Somewhat limited</ms:engsldcp>
+        <ms:englrsdcd>Very limited</ms:englrsdcd>
+        <ms:engcmssdcd>Poor</ms:engcmssdcd>
+        <ms:engcmssmp>Poor</ms:engcmssmp>
+        <ms:urbrecptdcd>Somewhat limited</ms:urbrecptdcd>
+        <ms:urbrecptwta>0.052</ms:urbrecptwta>
+        <ms:forpehrtdcp>Erosion hazard moderate</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta>0.506</ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386733456</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.1154988">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.323390 -82.539827</gml:lowerCorner>
+        		<gml:upperCorner>34.325481 -82.534509</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.323390 -82.536008 34.323420 -82.536056 34.323501 -82.536509 34.323580 -82.536719 34.323614 -82.536982 34.323930 -82.536960 34.324018 -82.537086 34.324056 -82.537215 34.324031 -82.537449 34.323709 -82.538357 34.323668 -82.538433 34.323643 -82.538620 34.323660 -82.538729 34.323703 -82.538832 34.323824 -82.538977 34.323993 -82.539067 34.324090 -82.539189 34.324108 -82.539282 34.324114 -82.539827 34.324203 -82.539750 34.324586 -82.539245 34.324800 -82.539092 34.325068 -82.538961 34.325141 -82.538651 34.325134 -82.538379 34.325042 -82.538171 34.324808 -82.537943 34.324731 -82.537771 34.324707 -82.537583 34.324723 -82.537179 34.324669 -82.536320 34.324711 -82.536124 34.324751 -82.536008 34.325099 -82.535671 34.325302 -82.535373 34.325481 -82.535167 34.325477 -82.534907 34.325439 -82.534634 34.325380 -82.534554 34.325330 -82.534539 34.324842 -82.534509 34.324745 -82.534533 34.324602 -82.534627 34.324424 -82.534711 34.323939 -82.534724 34.323813 -82.534706 34.323751 -82.534725 34.323654 -82.534830 34.323604 -82.535330 34.323459 -82.535861 34.323390 -82.536008 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC001</ms:areasymbol>
+        <ms:musym>CaB</ms:musym>
+        <ms:nationalmusym>2th01</ms:nationalmusym>
+        <ms:mukey>1154988</ms:mukey>
+        <ms:spatialversion>7</ms:spatialversion>
+        <ms:muname>Cataula sandy loam, 2 to 6 percent slopes</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp>4</ms:slopegraddcp>
+        <ms:slopegradwta>4</ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin>64</ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta>3.35</ms:aws025wta>
+        <ms:aws050wta>6.87</ms:aws050wta>
+        <ms:aws0100wta>9.9</ms:aws0100wta>
+        <ms:aws0150wta>16.99</ms:aws0150wta>
+        <ms:drclassdcd>Moderately well drained</ms:drclassdcd>
+        <ms:drclasswettest>Moderately well drained</ms:drclasswettest>
+        <ms:hydgrpdcd>C</ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>3</ms:niccdcd>
+        <ms:niccdcdpct>95</ms:niccdcdpct>
+        <ms:engdwobdcd>Very limited</ms:engdwobdcd>
+        <ms:engdwbdcd>Very limited</ms:engdwbdcd>
+        <ms:engdwbll>Not limited</ms:engdwbll>
+        <ms:engdwbml>Very limited</ms:engdwbml>
+        <ms:engstafdcd>Very limited</ms:engstafdcd>
+        <ms:engstafll>Somewhat limited</ms:engstafll>
+        <ms:engstafml>Very limited</ms:engstafml>
+        <ms:engsldcd>Somewhat limited</ms:engsldcd>
+        <ms:engsldcp>Somewhat limited</ms:engsldcp>
+        <ms:englrsdcd>Very limited</ms:englrsdcd>
+        <ms:engcmssdcd>Poor</ms:engcmssdcd>
+        <ms:engcmssmp>Poor</ms:engcmssmp>
+        <ms:urbrecptdcd>Somewhat limited</ms:urbrecptdcd>
+        <ms:urbrecptwta>0.049</ms:urbrecptwta>
+        <ms:forpehrtdcp>Erosion hazard moderate</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta>0.971</ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386733514</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.1154992">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.313009 -82.527651</gml:lowerCorner>
+        		<gml:upperCorner>34.316545 -82.519855</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.314588 -82.520462 34.314311 -82.520704 34.314279 -82.521005 34.314215 -82.521254 34.314030 -82.521438 34.313950 -82.521488 34.313874 -82.521603 34.313781 -82.521792 34.313739 -82.521841 34.313560 -82.521968 34.313378 -82.522168 34.313245 -82.522365 34.313045 -82.522786 34.313009 -82.522826 34.313033 -82.523019 34.313269 -82.523238 34.313313 -82.523208 34.313652 -82.523122 34.314051 -82.523054 34.314432 -82.523107 34.314523 -82.523155 34.314703 -82.523349 34.314791 -82.523540 34.314759 -82.524254 34.314767 -82.524314 34.314876 -82.524605 34.314870 -82.525121 34.314886 -82.525319 34.315003 -82.525455 34.315204 -82.525464 34.315310 -82.525417 34.315630 -82.525193 34.315797 -82.525157 34.315957 -82.525318 34.316027 -82.525466 34.316075 -82.525742 34.316056 -82.526010 34.315984 -82.526340 34.315905 -82.526453 34.315682 -82.526627 34.315495 -82.526893 34.315460 -82.527000 34.315482 -82.527280 34.315545 -82.527405 34.315648 -82.527543 34.315771 -82.527651 34.315878 -82.527639 34.316001 -82.527541 34.316056 -82.527212 34.316070 -82.526911 34.316112 -82.526692 34.316257 -82.526230 34.316519 -82.525594 34.316545 -82.525192 34.316513 -82.524786 34.316243 -82.524683 34.316053 -82.524656 34.315596 -82.524694 34.315552 -82.524665 34.315503 -82.524566 34.315473 -82.524185 34.315376 -82.524076 34.315232 -82.523975 34.315164 -82.523822 34.315148 -82.523559 34.315229 -82.523211 34.315218 -82.523127 34.315011 -82.522801 34.314934 -82.522601 34.314983 -82.522201 34.315116 -82.521836 34.315370 -82.521429 34.315733 -82.521158 34.315823 -82.521055 34.315844 -82.520968 34.315814 -82.520798 34.315723 -82.520680 34.315704 -82.520679 34.315552 -82.520552 34.315299 -82.519974 34.315134 -82.519855 34.315051 -82.519859 34.314977 -82.519934 34.314922 -82.520115 34.314941 -82.520593 34.314876 -82.520756 34.314825 -82.520802 34.314735 -82.520770 34.314588 -82.520462 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC001</ms:areasymbol>
+        <ms:musym>CcC</ms:musym>
+        <ms:nationalmusym>2q7j8</ms:nationalmusym>
+        <ms:mukey>1154992</ms:mukey>
+        <ms:spatialversion>7</ms:spatialversion>
+        <ms:muname>Cecil sandy loam, 6 to 10 percent slopes</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp>8</ms:slopegraddcp>
+        <ms:slopegradwta>8</ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin></ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta>2.99</ms:aws025wta>
+        <ms:aws050wta>5.5</ms:aws050wta>
+        <ms:aws0100wta>10.48</ms:aws0100wta>
+        <ms:aws0150wta>16.87</ms:aws0150wta>
+        <ms:drclassdcd>Well drained</ms:drclassdcd>
+        <ms:drclasswettest>Well drained</ms:drclasswettest>
+        <ms:hydgrpdcd>B</ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>3</ms:niccdcd>
+        <ms:niccdcdpct>98</ms:niccdcdpct>
+        <ms:engdwobdcd>Not limited</ms:engdwobdcd>
+        <ms:engdwbdcd>Not limited</ms:engdwbdcd>
+        <ms:engdwbll>Not limited</ms:engdwbll>
+        <ms:engdwbml>Somewhat limited</ms:engdwbml>
+        <ms:engstafdcd>Somewhat limited</ms:engstafdcd>
+        <ms:engstafll>Somewhat limited</ms:engstafll>
+        <ms:engstafml>Very limited</ms:engstafml>
+        <ms:engsldcd>Very limited</ms:engsldcd>
+        <ms:engsldcp>Very limited</ms:engsldcp>
+        <ms:englrsdcd>Very limited</ms:englrsdcd>
+        <ms:engcmssdcd>Poor</ms:engcmssdcd>
+        <ms:engcmssmp>Poor</ms:engcmssmp>
+        <ms:urbrecptdcd>Somewhat limited</ms:urbrecptdcd>
+        <ms:urbrecptwta>0.05</ms:urbrecptwta>
+        <ms:forpehrtdcp>Erosion hazard moderate</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta>0.542</ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386733516</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.131790">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.346574 -82.544533</gml:lowerCorner>
+        		<gml:upperCorner>34.350604 -82.537637</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.349580 -82.539511 34.349522 -82.539126 34.349551 -82.538437 34.349527 -82.537928 34.349469 -82.537955 34.349201 -82.538019 34.348939 -82.538003 34.348822 -82.537965 34.348508 -82.537709 34.348314 -82.537637 34.348141 -82.537637 34.347989 -82.537662 34.347608 -82.537768 34.347509 -82.537818 34.347326 -82.538314 34.347213 -82.538465 34.347029 -82.538877 34.346763 -82.539758 34.346754 -82.539826 34.346574 -82.540260 34.346622 -82.540294 34.346656 -82.540345 34.346730 -82.540303 34.346862 -82.540191 34.346945 -82.540176 34.347114 -82.540179 34.347271 -82.540263 34.347391 -82.540493 34.347558 -82.541078 34.347647 -82.541312 34.347888 -82.541600 34.347895 -82.541632 34.347929 -82.541652 34.348249 -82.542046 34.348465 -82.542497 34.348590 -82.542951 34.348665 -82.543388 34.348691 -82.543664 34.348671 -82.543845 34.348524 -82.544001 34.348509 -82.544049 34.348512 -82.544303 34.348546 -82.544385 34.348770 -82.544361 34.348965 -82.544507 34.349084 -82.544533 34.349248 -82.544476 34.349209 -82.544425 34.349125 -82.544329 34.349063 -82.544232 34.349046 -82.544193 34.349055 -82.544084 34.349082 -82.544019 34.349118 -82.543985 34.349134 -82.543980 34.349181 -82.543933 34.349218 -82.543872 34.349347 -82.543584 34.349490 -82.543356 34.349655 -82.543115 34.349667 -82.543102 34.349853 -82.542953 34.349965 -82.542829 34.350063 -82.542629 34.350167 -82.542397 34.350214 -82.542241 34.350224 -82.542133 34.350232 -82.542087 34.350269 -82.542002 34.350334 -82.541922 34.350479 -82.541742 34.350543 -82.541656 34.350604 -82.541561 34.350538 -82.541474 34.350371 -82.540995 34.350308 -82.540457 34.350280 -82.540288 34.350245 -82.540211 34.350038 -82.539987 34.349705 -82.539767 34.349580 -82.539511 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC007</ms:areasymbol>
+        <ms:musym>CbB</ms:musym>
+        <ms:nationalmusym>2th01</ms:nationalmusym>
+        <ms:mukey>131790</ms:mukey>
+        <ms:spatialversion>8</ms:spatialversion>
+        <ms:muname>Cataula sandy loam, 2 to 6 percent slopes</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp>4</ms:slopegraddcp>
+        <ms:slopegradwta>4</ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin>64</ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta>3.35</ms:aws025wta>
+        <ms:aws050wta>6.87</ms:aws050wta>
+        <ms:aws0100wta>9.9</ms:aws0100wta>
+        <ms:aws0150wta>16.99</ms:aws0150wta>
+        <ms:drclassdcd>Moderately well drained</ms:drclassdcd>
+        <ms:drclasswettest>Moderately well drained</ms:drclasswettest>
+        <ms:hydgrpdcd>C</ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>3</ms:niccdcd>
+        <ms:niccdcdpct>95</ms:niccdcdpct>
+        <ms:engdwobdcd>Very limited</ms:engdwobdcd>
+        <ms:engdwbdcd>Very limited</ms:engdwbdcd>
+        <ms:engdwbll>Not limited</ms:engdwbll>
+        <ms:engdwbml>Very limited</ms:engdwbml>
+        <ms:engstafdcd>Very limited</ms:engstafdcd>
+        <ms:engstafll>Somewhat limited</ms:engstafll>
+        <ms:engstafml>Very limited</ms:engstafml>
+        <ms:engsldcd>Somewhat limited</ms:engsldcd>
+        <ms:engsldcp>Somewhat limited</ms:engsldcp>
+        <ms:englrsdcd>Very limited</ms:englrsdcd>
+        <ms:engcmssdcd>Poor</ms:engcmssdcd>
+        <ms:engcmssmp>Poor</ms:engcmssmp>
+        <ms:urbrecptdcd>Somewhat limited</ms:urbrecptdcd>
+        <ms:urbrecptwta>0.049</ms:urbrecptwta>
+        <ms:forpehrtdcp>Erosion hazard moderate</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta>0.971</ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386739939</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.131795">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.333508 -82.547749</gml:lowerCorner>
+        		<gml:upperCorner>34.334949 -82.545535</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.334546 -82.545535 34.333508 -82.547140 34.333798 -82.547413 34.333933 -82.547503 34.334051 -82.547546 34.334320 -82.547749 34.334344 -82.547557 34.334316 -82.547113 34.334364 -82.546886 34.334628 -82.546396 34.334874 -82.546011 34.334939 -82.545866 34.334949 -82.545733 34.334899 -82.545633 34.334844 -82.545587 34.334772 -82.545535 34.334546 -82.545535 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC007</ms:areasymbol>
+        <ms:musym>CdD</ms:musym>
+        <ms:nationalmusym>2zzyy</ms:nationalmusym>
+        <ms:mukey>131795</ms:mukey>
+        <ms:spatialversion>8</ms:spatialversion>
+        <ms:muname>Cecil-Cataula complex, 10 to 15 percent slopes, moderately eroded</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp>13</ms:slopegraddcp>
+        <ms:slopegradwta>13</ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin>84</ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta>3.35</ms:aws025wta>
+        <ms:aws050wta>6.44</ms:aws050wta>
+        <ms:aws0100wta>12.63</ms:aws0100wta>
+        <ms:aws0150wta>19.5</ms:aws0150wta>
+        <ms:drclassdcd>Well drained</ms:drclassdcd>
+        <ms:drclasswettest>Moderately well drained</ms:drclasswettest>
+        <ms:hydgrpdcd>B</ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>4</ms:niccdcd>
+        <ms:niccdcdpct>75</ms:niccdcdpct>
+        <ms:engdwobdcd>Somewhat limited</ms:engdwobdcd>
+        <ms:engdwbdcd>Somewhat limited</ms:engdwbdcd>
+        <ms:engdwbll>Somewhat limited</ms:engdwbll>
+        <ms:engdwbml>Somewhat limited</ms:engdwbml>
+        <ms:engstafdcd>Somewhat limited</ms:engstafdcd>
+        <ms:engstafll>Somewhat limited</ms:engstafll>
+        <ms:engstafml>Very limited</ms:engstafml>
+        <ms:engsldcd>Very limited</ms:engsldcd>
+        <ms:engsldcp>Very limited</ms:engsldcp>
+        <ms:englrsdcd>Very limited</ms:englrsdcd>
+        <ms:engcmssdcd>Poor</ms:engcmssdcd>
+        <ms:engcmssmp>Poor</ms:engcmssmp>
+        <ms:urbrecptdcd>Somewhat limited</ms:urbrecptdcd>
+        <ms:urbrecptwta>0.064</ms:urbrecptwta>
+        <ms:forpehrtdcp>Erosion hazard moderate</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta>0.894</ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386741433</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.131793">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.340451 -82.550724</gml:lowerCorner>
+        		<gml:upperCorner>34.347518 -82.540260</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.340451 -82.547102 34.340663 -82.547656 34.340824 -82.547953 34.341013 -82.548231 34.341491 -82.548692 34.341878 -82.549011 34.341992 -82.549134 34.342322 -82.549607 34.342418 -82.549940 34.342413 -82.550104 34.342368 -82.550215 34.342326 -82.550386 34.342343 -82.550535 34.342410 -82.550584 34.342459 -82.550591 34.342645 -82.550422 34.342691 -82.550418 34.342778 -82.550515 34.342790 -82.550563 34.342902 -82.550713 34.342967 -82.550724 34.343010 -82.550707 34.343114 -82.550604 34.343232 -82.550449 34.343308 -82.550197 34.343307 -82.550156 34.343056 -82.549606 34.342957 -82.549432 34.342896 -82.549227 34.342624 -82.548668 34.342560 -82.548488 34.342493 -82.548009 34.342551 -82.547642 34.342584 -82.547566 34.342755 -82.547316 34.343090 -82.546963 34.343209 -82.546889 34.343437 -82.546864 34.343614 -82.546771 34.343861 -82.546507 34.344004 -82.546215 34.344129 -82.545813 34.344211 -82.545729 34.344306 -82.545698 34.344476 -82.545706 34.344560 -82.545791 34.344608 -82.545936 34.344620 -82.546122 34.344525 -82.547106 34.344499 -82.547708 34.344445 -82.548003 34.344449 -82.548509 34.344501 -82.549051 34.344580 -82.549279 34.344693 -82.549430 34.344729 -82.549451 34.344848 -82.549464 34.344980 -82.549400 34.345013 -82.549369 34.345064 -82.549204 34.345148 -82.548337 34.345276 -82.547804 34.345457 -82.546492 34.345475 -82.546088 34.345457 -82.545892 34.345425 -82.545731 34.345265 -82.545415 34.345238 -82.545267 34.345255 -82.545103 34.345373 -82.544919 34.345455 -82.544877 34.345608 -82.544919 34.345792 -82.545312 34.345965 -82.545501 34.346179 -82.545495 34.346407 -82.545344 34.346492 -82.545336 34.346596 -82.545430 34.346668 -82.545569 34.346683 -82.545876 34.346659 -82.546033 34.346590 -82.546255 34.346574 -82.546554 34.346624 -82.546644 34.346725 -82.546692 34.346761 -82.546813 34.346785 -82.547382 34.346776 -82.547475 34.346818 -82.547749 34.346919 -82.547912 34.347026 -82.547966 34.347090 -82.547942 34.347342 -82.547741 34.347439 -82.547606 34.347518 -82.547350 34.347482 -82.546749 34.347433 -82.546433 34.347413 -82.546148 34.347433 -82.545983 34.347484 -82.544343 34.347427 -82.544011 34.347389 -82.543892 34.347146 -82.543281 34.346780 -82.542477 34.346586 -82.541779 34.346540 -82.541407 34.346538 -82.541057 34.346630 -82.540651 34.346656 -82.540345 34.346622 -82.540294 34.346574 -82.540260 34.346479 -82.540263 34.346268 -82.540314 34.346123 -82.540473 34.345633 -82.540929 34.345314 -82.541251 34.344969 -82.541850 34.344904 -82.542011 34.344871 -82.542245 34.344848 -82.542312 34.344707 -82.542518 34.344509 -82.542707 34.344090 -82.542852 34.343811 -82.543074 34.343681 -82.543321 34.343641 -82.543436 34.343572 -82.543842 34.343503 -82.544024 34.343406 -82.544207 34.343233 -82.544386 34.342496 -82.544747 34.342142 -82.544852 34.342024 -82.544874 34.341955 -82.544858 34.341884 -82.545003 34.341312 -82.545364 34.341157 -82.545495 34.340951 -82.545634 34.340705 -82.545999 34.340536 -82.546410 34.340477 -82.546806 34.340472 -82.547066 34.340451 -82.547102 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC007</ms:areasymbol>
+        <ms:musym>CdB</ms:musym>
+        <ms:nationalmusym>2q7j7</ms:nationalmusym>
+        <ms:mukey>131793</ms:mukey>
+        <ms:spatialversion>8</ms:spatialversion>
+        <ms:muname>Cecil sandy loam, 2 to 6 percent slopes</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp>4</ms:slopegraddcp>
+        <ms:slopegradwta>4</ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin></ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta>2.95</ms:aws025wta>
+        <ms:aws050wta>5.45</ms:aws050wta>
+        <ms:aws0100wta>10.4</ms:aws0100wta>
+        <ms:aws0150wta>17.35</ms:aws0150wta>
+        <ms:drclassdcd>Well drained</ms:drclassdcd>
+        <ms:drclasswettest>Well drained</ms:drclasswettest>
+        <ms:hydgrpdcd>B</ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>2</ms:niccdcd>
+        <ms:niccdcdpct>95</ms:niccdcdpct>
+        <ms:engdwobdcd>Not limited</ms:engdwobdcd>
+        <ms:engdwbdcd>Not limited</ms:engdwbdcd>
+        <ms:engdwbll>Not limited</ms:engdwbll>
+        <ms:engdwbml>Somewhat limited</ms:engdwbml>
+        <ms:engstafdcd>Somewhat limited</ms:engstafdcd>
+        <ms:engstafll>Somewhat limited</ms:engstafll>
+        <ms:engstafml>Very limited</ms:engstafml>
+        <ms:engsldcd>Somewhat limited</ms:engsldcd>
+        <ms:engsldcp>Somewhat limited</ms:engsldcp>
+        <ms:englrsdcd>Very limited</ms:englrsdcd>
+        <ms:engcmssdcd>Poor</ms:engcmssdcd>
+        <ms:engcmssmp>Poor</ms:engcmssmp>
+        <ms:urbrecptdcd>Somewhat limited</ms:urbrecptdcd>
+        <ms:urbrecptwta>0.052</ms:urbrecptwta>
+        <ms:forpehrtdcp>Erosion hazard moderate</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta>0.506</ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386741545</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.131793">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.341886 -82.534373</gml:lowerCorner>
+        		<gml:upperCorner>34.348088 -82.526786</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.347912 -82.527593 34.347842 -82.527453 34.347850 -82.527258 34.347900 -82.527145 34.347930 -82.526948 34.347929 -82.526893 34.347912 -82.526860 34.347658 -82.526786 34.347412 -82.526855 34.347295 -82.526921 34.346854 -82.527140 34.346415 -82.527219 34.346281 -82.527210 34.341886 -82.534080 34.341999 -82.534175 34.342203 -82.534261 34.342461 -82.534259 34.342628 -82.534229 34.342812 -82.534241 34.343030 -82.534278 34.343155 -82.534373 34.343303 -82.533979 34.343261 -82.533653 34.343128 -82.533113 34.343094 -82.532852 34.343116 -82.532671 34.343227 -82.532371 34.343348 -82.532169 34.343674 -82.531782 34.343785 -82.531496 34.343924 -82.531276 34.344028 -82.531011 34.344225 -82.530741 34.344393 -82.530584 34.344616 -82.530449 34.344792 -82.530411 34.345181 -82.530429 34.345443 -82.530500 34.345840 -82.530516 34.345992 -82.530539 34.346005 -82.530293 34.346004 -82.529999 34.346006 -82.529970 34.346013 -82.529941 34.346030 -82.529940 34.346071 -82.529955 34.346140 -82.530010 34.346370 -82.530178 34.346562 -82.530148 34.346775 -82.530056 34.347074 -82.529767 34.347148 -82.529661 34.347286 -82.529342 34.347330 -82.528829 34.347356 -82.528734 34.347417 -82.528647 34.347427 -82.528593 34.347527 -82.528461 34.347971 -82.528260 34.348002 -82.528225 34.348088 -82.528038 34.348085 -82.527852 34.348070 -82.527800 34.347912 -82.527593 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC007</ms:areasymbol>
+        <ms:musym>CdB</ms:musym>
+        <ms:nationalmusym>2q7j7</ms:nationalmusym>
+        <ms:mukey>131793</ms:mukey>
+        <ms:spatialversion>8</ms:spatialversion>
+        <ms:muname>Cecil sandy loam, 2 to 6 percent slopes</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp>4</ms:slopegraddcp>
+        <ms:slopegradwta>4</ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin></ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta>2.95</ms:aws025wta>
+        <ms:aws050wta>5.45</ms:aws050wta>
+        <ms:aws0100wta>10.4</ms:aws0100wta>
+        <ms:aws0150wta>17.35</ms:aws0150wta>
+        <ms:drclassdcd>Well drained</ms:drclassdcd>
+        <ms:drclasswettest>Well drained</ms:drclasswettest>
+        <ms:hydgrpdcd>B</ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>2</ms:niccdcd>
+        <ms:niccdcdpct>95</ms:niccdcdpct>
+        <ms:engdwobdcd>Not limited</ms:engdwobdcd>
+        <ms:engdwbdcd>Not limited</ms:engdwbdcd>
+        <ms:engdwbll>Not limited</ms:engdwbll>
+        <ms:engdwbml>Somewhat limited</ms:engdwbml>
+        <ms:engstafdcd>Somewhat limited</ms:engstafdcd>
+        <ms:engstafll>Somewhat limited</ms:engstafll>
+        <ms:engstafml>Very limited</ms:engstafml>
+        <ms:engsldcd>Somewhat limited</ms:engsldcd>
+        <ms:engsldcp>Somewhat limited</ms:engsldcp>
+        <ms:englrsdcd>Very limited</ms:englrsdcd>
+        <ms:engcmssdcd>Poor</ms:engcmssdcd>
+        <ms:engcmssmp>Poor</ms:engcmssmp>
+        <ms:urbrecptdcd>Somewhat limited</ms:urbrecptdcd>
+        <ms:urbrecptwta>0.052</ms:urbrecptwta>
+        <ms:forpehrtdcp>Erosion hazard moderate</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta>0.506</ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386741964</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.131795">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.342163 -82.555952</gml:lowerCorner>
+        		<gml:upperCorner>34.347913 -82.552144</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.347338 -82.552632 34.347139 -82.552730 34.346645 -82.552916 34.345872 -82.552932 34.345469 -82.553142 34.344358 -82.553410 34.343302 -82.553518 34.343251 -82.553543 34.343081 -82.553992 34.342788 -82.554439 34.342662 -82.554545 34.342163 -82.554833 34.342293 -82.555271 34.342468 -82.555658 34.342715 -82.555926 34.342888 -82.555952 34.343034 -82.555910 34.343092 -82.555859 34.343249 -82.555630 34.343322 -82.555346 34.343272 -82.554880 34.343296 -82.554466 34.343345 -82.554359 34.343516 -82.554158 34.343685 -82.554073 34.343875 -82.554057 34.344227 -82.554104 34.344411 -82.554214 34.344598 -82.554400 34.344667 -82.554434 34.344764 -82.554448 34.345036 -82.554443 34.345324 -82.554369 34.345620 -82.554192 34.345695 -82.554123 34.346352 -82.553681 34.346661 -82.553601 34.346745 -82.553594 34.347042 -82.553626 34.347284 -82.553638 34.347305 -82.553621 34.347263 -82.553599 34.347219 -82.553569 34.347183 -82.553519 34.347169 -82.553454 34.347171 -82.553394 34.347177 -82.553354 34.347187 -82.553335 34.347216 -82.553308 34.347250 -82.553301 34.347277 -82.553299 34.347294 -82.553306 34.347327 -82.553318 34.347355 -82.553337 34.347407 -82.553377 34.347463 -82.553443 34.347511 -82.553515 34.347555 -82.553556 34.347568 -82.553570 34.347583 -82.553595 34.347610 -82.553567 34.347717 -82.553383 34.347828 -82.552956 34.347891 -82.552537 34.347913 -82.552144 34.347830 -82.552198 34.347338 -82.552632 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC007</ms:areasymbol>
+        <ms:musym>CdD</ms:musym>
+        <ms:nationalmusym>2zzyy</ms:nationalmusym>
+        <ms:mukey>131795</ms:mukey>
+        <ms:spatialversion>8</ms:spatialversion>
+        <ms:muname>Cecil-Cataula complex, 10 to 15 percent slopes, moderately eroded</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp>13</ms:slopegraddcp>
+        <ms:slopegradwta>13</ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin>84</ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta>3.35</ms:aws025wta>
+        <ms:aws050wta>6.44</ms:aws050wta>
+        <ms:aws0100wta>12.63</ms:aws0100wta>
+        <ms:aws0150wta>19.5</ms:aws0150wta>
+        <ms:drclassdcd>Well drained</ms:drclassdcd>
+        <ms:drclasswettest>Moderately well drained</ms:drclasswettest>
+        <ms:hydgrpdcd>B</ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>4</ms:niccdcd>
+        <ms:niccdcdpct>75</ms:niccdcdpct>
+        <ms:engdwobdcd>Somewhat limited</ms:engdwobdcd>
+        <ms:engdwbdcd>Somewhat limited</ms:engdwbdcd>
+        <ms:engdwbll>Somewhat limited</ms:engdwbll>
+        <ms:engdwbml>Somewhat limited</ms:engdwbml>
+        <ms:engstafdcd>Somewhat limited</ms:engstafdcd>
+        <ms:engstafll>Somewhat limited</ms:engstafll>
+        <ms:engstafml>Very limited</ms:engstafml>
+        <ms:engsldcd>Very limited</ms:engsldcd>
+        <ms:engsldcp>Very limited</ms:engsldcp>
+        <ms:englrsdcd>Very limited</ms:englrsdcd>
+        <ms:engcmssdcd>Poor</ms:engcmssdcd>
+        <ms:engcmssmp>Poor</ms:engcmssmp>
+        <ms:urbrecptdcd>Somewhat limited</ms:urbrecptdcd>
+        <ms:urbrecptwta>0.064</ms:urbrecptwta>
+        <ms:forpehrtdcp>Erosion hazard moderate</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta>0.894</ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386742027</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.131794">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.350606 -82.525992</gml:lowerCorner>
+        		<gml:upperCorner>34.356592 -82.520430</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.356586 -82.525163 34.356509 -82.524907 34.356321 -82.524542 34.356160 -82.524340 34.355872 -82.524090 34.355694 -82.524001 34.355354 -82.523911 34.355326 -82.523930 34.355362 -82.523962 34.355394 -82.524047 34.355403 -82.524084 34.355415 -82.524164 34.355415 -82.524217 34.355401 -82.524245 34.355372 -82.524240 34.355336 -82.524220 34.355315 -82.524181 34.355299 -82.524130 34.355285 -82.524086 34.355252 -82.524027 34.355197 -82.523984 34.355185 -82.523982 34.355072 -82.523990 34.355016 -82.524014 34.354968 -82.524076 34.354938 -82.524146 34.354893 -82.524207 34.354826 -82.524250 34.354740 -82.524259 34.354646 -82.524270 34.354595 -82.524271 34.354559 -82.524263 34.354533 -82.524235 34.354528 -82.523967 34.354570 -82.523799 34.354525 -82.523798 34.354332 -82.523741 34.354169 -82.523586 34.354146 -82.523522 34.354148 -82.523302 34.354221 -82.523122 34.354487 -82.522747 34.354630 -82.522487 34.354664 -82.522394 34.354765 -82.521751 34.354837 -82.521592 34.355005 -82.521378 34.355104 -82.521111 34.355124 -82.520913 34.355114 -82.520520 34.355031 -82.520430 34.354880 -82.520469 34.354580 -82.520770 34.354469 -82.520922 34.354344 -82.521056 34.353753 -82.522146 34.353400 -82.522619 34.353279 -82.522759 34.353120 -82.522822 34.353069 -82.522817 34.352957 -82.522618 34.352920 -82.522503 34.352838 -82.522113 34.352799 -82.522046 34.352775 -82.522022 34.352521 -82.522032 34.352427 -82.522097 34.352386 -82.522207 34.352437 -82.522454 34.352448 -82.522938 34.352295 -82.523163 34.351987 -82.523325 34.351429 -82.523488 34.351199 -82.523607 34.351134 -82.523587 34.351067 -82.523804 34.350690 -82.524290 34.350606 -82.524431 34.350645 -82.524514 34.350661 -82.524774 34.350842 -82.525004 34.351267 -82.524635 34.351711 -82.524419 34.351948 -82.524369 34.352106 -82.524401 34.352253 -82.524511 34.352346 -82.524665 34.352842 -82.524207 34.353025 -82.524056 34.353092 -82.524030 34.353305 -82.524046 34.353497 -82.524092 34.353664 -82.524193 34.353703 -82.524223 34.354059 -82.524661 34.354221 -82.524798 34.354505 -82.524904 34.354743 -82.524907 34.355057 -82.524611 34.355249 -82.524592 34.355350 -82.524623 34.355594 -82.524791 34.355775 -82.524983 34.355832 -82.525105 34.355921 -82.525698 34.356024 -82.525969 34.356078 -82.525986 34.356247 -82.525992 34.356392 -82.525927 34.356544 -82.525779 34.356590 -82.525663 34.356592 -82.525606 34.356586 -82.525163 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+                <gml:interior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.356276 -82.525275 34.356276 -82.525261 34.356277 -82.525214 34.356261 -82.525139 34.356213 -82.525040 34.356198 -82.524969 34.356195 -82.524898 34.356206 -82.524840 34.356219 -82.524817 34.356260 -82.524784 34.356290 -82.524771 34.356326 -82.524762 34.356364 -82.524770 34.356409 -82.524793 34.356439 -82.524860 34.356517 -82.525174 34.356535 -82.525230 34.356526 -82.525255 34.356513 -82.525265 34.356505 -82.525264 34.356475 -82.525259 34.356453 -82.525267 34.356434 -82.525289 34.356394 -82.525333 34.356357 -82.525340 34.356312 -82.525331 34.356295 -82.525320 34.356281 -82.525296 34.356276 -82.525275 </gml:posList>
+                  </gml:LinearRing>
+                </gml:interior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC007</ms:areasymbol>
+        <ms:musym>CdC</ms:musym>
+        <ms:nationalmusym>2q7j8</ms:nationalmusym>
+        <ms:mukey>131794</ms:mukey>
+        <ms:spatialversion>8</ms:spatialversion>
+        <ms:muname>Cecil sandy loam, 6 to 10 percent slopes</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp>8</ms:slopegraddcp>
+        <ms:slopegradwta>8</ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin></ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta>2.99</ms:aws025wta>
+        <ms:aws050wta>5.5</ms:aws050wta>
+        <ms:aws0100wta>10.48</ms:aws0100wta>
+        <ms:aws0150wta>16.87</ms:aws0150wta>
+        <ms:drclassdcd>Well drained</ms:drclassdcd>
+        <ms:drclasswettest>Well drained</ms:drclasswettest>
+        <ms:hydgrpdcd>B</ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>3</ms:niccdcd>
+        <ms:niccdcdpct>98</ms:niccdcdpct>
+        <ms:engdwobdcd>Not limited</ms:engdwobdcd>
+        <ms:engdwbdcd>Not limited</ms:engdwbdcd>
+        <ms:engdwbll>Not limited</ms:engdwbll>
+        <ms:engdwbml>Somewhat limited</ms:engdwbml>
+        <ms:engstafdcd>Somewhat limited</ms:engstafdcd>
+        <ms:engstafll>Somewhat limited</ms:engstafll>
+        <ms:engstafml>Very limited</ms:engstafml>
+        <ms:engsldcd>Very limited</ms:engsldcd>
+        <ms:engsldcp>Very limited</ms:engsldcp>
+        <ms:englrsdcd>Very limited</ms:englrsdcd>
+        <ms:engcmssdcd>Poor</ms:engcmssdcd>
+        <ms:engcmssmp>Poor</ms:engcmssmp>
+        <ms:urbrecptdcd>Somewhat limited</ms:urbrecptdcd>
+        <ms:urbrecptwta>0.05</ms:urbrecptwta>
+        <ms:forpehrtdcp>Erosion hazard moderate</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta>0.542</ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386742030</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.131803">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.331975 -82.569353</gml:lowerCorner>
+        		<gml:upperCorner>34.348032 -82.555866</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.344139 -82.566069 34.344219 -82.566058 34.344359 -82.566141 34.344451 -82.566169 34.344798 -82.566208 34.344859 -82.566232 34.345104 -82.566454 34.345387 -82.566857 34.345575 -82.566990 34.345752 -82.566962 34.345992 -82.566805 34.346102 -82.566762 34.346184 -82.566765 34.346337 -82.566869 34.346431 -82.567133 34.346470 -82.567672 34.346468 -82.567918 34.346346 -82.568745 34.346377 -82.569188 34.346495 -82.569343 34.346536 -82.569353 34.346724 -82.569311 34.346829 -82.569220 34.346863 -82.569154 34.347032 -82.568652 34.347153 -82.568496 34.347282 -82.568511 34.347334 -82.568585 34.347372 -82.568704 34.347499 -82.568855 34.347526 -82.568860 34.347717 -82.568803 34.347788 -82.568734 34.347861 -82.568603 34.347877 -82.568516 34.347871 -82.568236 34.347749 -82.567601 34.347518 -82.566882 34.347373 -82.566498 34.347105 -82.565883 34.347034 -82.565599 34.347032 -82.565468 34.347040 -82.565409 34.347097 -82.565309 34.347251 -82.565204 34.347504 -82.565239 34.347619 -82.565319 34.347844 -82.565293 34.347942 -82.565179 34.348032 -82.564931 34.348032 -82.564756 34.348002 -82.564575 34.347816 -82.564043 34.347594 -82.563705 34.347338 -82.563438 34.347102 -82.563261 34.346915 -82.563273 34.346786 -82.563351 34.346459 -82.563742 34.346342 -82.563759 34.346250 -82.563722 34.346030 -82.563444 34.345717 -82.563450 34.345591 -82.563373 34.345536 -82.563270 34.345413 -82.562866 34.345369 -82.562463 34.345332 -82.562307 34.345298 -82.562209 34.344885 -82.561371 34.344826 -82.561207 34.344745 -82.560869 34.344700 -82.560378 34.344770 -82.559920 34.344780 -82.559354 34.344733 -82.559070 34.344597 -82.558738 34.344554 -82.558515 34.344623 -82.557152 34.344616 -82.556759 34.344523 -82.556269 34.344406 -82.556049 34.344252 -82.555902 34.344135 -82.555866 34.344013 -82.555924 34.343879 -82.556072 34.343812 -82.556180 34.343675 -82.556483 34.343609 -82.556761 34.343421 -82.557098 34.343245 -82.557290 34.343110 -82.557373 34.343000 -82.557379 34.342637 -82.557342 34.342472 -82.557410 34.342324 -82.557528 34.342292 -82.557565 34.342189 -82.557861 34.342040 -82.558353 34.341896 -82.558680 34.341599 -82.559117 34.341413 -82.559300 34.341212 -82.559400 34.340348 -82.559517 34.340113 -82.559590 34.339538 -82.559819 34.339370 -82.559845 34.339098 -82.559801 34.338748 -82.559593 34.338496 -82.559612 34.338133 -82.559863 34.337858 -82.559926 34.337818 -82.559914 34.337550 -82.559617 34.337435 -82.559608 34.336411 -82.559684 34.335864 -82.559870 34.335808 -82.559874 34.335699 -82.559936 34.335588 -82.560025 34.335294 -82.560319 34.335070 -82.560475 34.334919 -82.560559 34.334659 -82.560585 34.334512 -82.560562 34.334330 -82.560479 34.334157 -82.560487 34.333953 -82.560597 34.333747 -82.560781 34.333538 -82.560932 34.333389 -82.560967 34.333095 -82.560973 34.332866 -82.560839 34.332765 -82.560740 34.332603 -82.560619 34.332373 -82.560607 34.332183 -82.560723 34.331985 -82.560995 34.331975 -82.561275 34.332151 -82.561416 34.332413 -82.561864 34.332620 -82.562091 34.332764 -82.562221 34.332821 -82.562317 34.332878 -82.562489 34.332923 -82.562799 34.333115 -82.563059 34.333203 -82.563315 34.333212 -82.564079 34.333274 -82.564266 34.333312 -82.564305 34.333567 -82.564327 34.333669 -82.564285 34.333871 -82.564033 34.333899 -82.563936 34.333949 -82.563591 34.333983 -82.563486 34.334028 -82.563431 34.334246 -82.563397 34.334349 -82.563282 34.334357 -82.563164 34.334193 -82.562589 34.334169 -82.562448 34.334199 -82.562253 34.334263 -82.562141 34.334386 -82.562041 34.334591 -82.562037 34.334936 -82.562138 34.335505 -82.562264 34.335574 -82.562311 34.335758 -82.562526 34.335827 -82.562629 34.336155 -82.563361 34.336425 -82.563389 34.336469 -82.563369 34.336728 -82.563089 34.336832 -82.562509 34.336841 -82.562483 34.336960 -82.562388 34.337018 -82.562263 34.337032 -82.562110 34.337030 -82.561684 34.337071 -82.561525 34.337149 -82.561408 34.337283 -82.561353 34.337463 -82.561347 34.337661 -82.561477 34.337935 -82.561912 34.338016 -82.562067 34.338211 -82.562585 34.338298 -82.562924 34.338474 -82.563359 34.338574 -82.563468 34.338744 -82.563526 34.338802 -82.563506 34.338959 -82.563401 34.339103 -82.563180 34.339197 -82.562763 34.339260 -82.561879 34.339137 -82.561338 34.339219 -82.561184 34.339417 -82.561090 34.339659 -82.561102 34.339720 -82.561130 34.339921 -82.561351 34.340050 -82.561355 34.340129 -82.561282 34.340159 -82.561220 34.340272 -82.560713 34.340365 -82.560606 34.340572 -82.560580 34.340856 -82.560663 34.341079 -82.560705 34.341381 -82.560643 34.341473 -82.560605 34.341562 -82.560650 34.341580 -82.560688 34.341594 -82.561174 34.341635 -82.561251 34.341688 -82.561258 34.341715 -82.561250 34.341978 -82.560944 34.342127 -82.560875 34.342259 -82.560855 34.342542 -82.560911 34.342691 -82.560853 34.342774 -82.560727 34.342782 -82.560391 34.342800 -82.560335 34.342903 -82.560206 34.342951 -82.560182 34.343064 -82.560175 34.343114 -82.560188 34.343185 -82.560253 34.343241 -82.560343 34.343405 -82.560706 34.343548 -82.561196 34.343596 -82.561579 34.343663 -82.562678 34.343651 -82.563057 34.343595 -82.563735 34.343532 -82.564047 34.343536 -82.564293 34.343576 -82.564578 34.343623 -82.564637 34.343756 -82.564888 34.343814 -82.565428 34.343971 -82.565791 34.344139 -82.566069 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC007</ms:areasymbol>
+        <ms:musym>HaB</ms:musym>
+        <ms:nationalmusym>4f4q</ms:nationalmusym>
+        <ms:mukey>131803</ms:mukey>
+        <ms:spatialversion>8</ms:spatialversion>
+        <ms:muname>Hiwassee sandy loam, 2 to 6 percent slopes</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp>4</ms:slopegraddcp>
+        <ms:slopegradwta>4</ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin></ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta>3.24</ms:aws025wta>
+        <ms:aws050wta>6.74</ms:aws050wta>
+        <ms:aws0100wta>13.74</ms:aws0100wta>
+        <ms:aws0150wta>20.74</ms:aws0150wta>
+        <ms:drclassdcd>Well drained</ms:drclassdcd>
+        <ms:drclasswettest>Well drained</ms:drclasswettest>
+        <ms:hydgrpdcd>B</ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>2</ms:niccdcd>
+        <ms:niccdcdpct>100</ms:niccdcdpct>
+        <ms:engdwobdcd>Not limited</ms:engdwobdcd>
+        <ms:engdwbdcd>Not limited</ms:engdwbdcd>
+        <ms:engdwbll>Not limited</ms:engdwbll>
+        <ms:engdwbml>Not limited</ms:engdwbml>
+        <ms:engstafdcd>Somewhat limited</ms:engstafdcd>
+        <ms:engstafll>Somewhat limited</ms:engstafll>
+        <ms:engstafml>Somewhat limited</ms:engstafml>
+        <ms:engsldcd>Somewhat limited</ms:engsldcd>
+        <ms:engsldcp>Somewhat limited</ms:engsldcp>
+        <ms:englrsdcd>Very limited</ms:englrsdcd>
+        <ms:engcmssdcd>Poor</ms:engcmssdcd>
+        <ms:engcmssmp>Poor</ms:engcmssmp>
+        <ms:urbrecptdcd>Somewhat limited</ms:urbrecptdcd>
+        <ms:urbrecptwta>0.045</ms:urbrecptwta>
+        <ms:forpehrtdcp>Erosion hazard moderate</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta>0.107</ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386742235</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.131789">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.346281 -82.527219</gml:lowerCorner>
+        		<gml:upperCorner>34.350842 -82.524163</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.347295 -82.526921 34.347346 -82.526778 34.347519 -82.526542 34.348003 -82.526298 34.348054 -82.526256 34.348449 -82.525894 34.348723 -82.525703 34.349017 -82.525554 34.349255 -82.525493 34.349657 -82.525455 34.350166 -82.525437 34.350318 -82.525411 34.350578 -82.525268 34.350842 -82.525004 34.350661 -82.524774 34.350645 -82.524514 34.350606 -82.524431 34.350430 -82.524406 34.350308 -82.524419 34.350027 -82.524532 34.349721 -82.524746 34.349219 -82.524965 34.349082 -82.525002 34.348828 -82.524992 34.348794 -82.524973 34.348794 -82.524927 34.348800 -82.524738 34.348862 -82.524476 34.348844 -82.524312 34.348715 -82.524163 34.348568 -82.524194 34.348406 -82.524381 34.348270 -82.524717 34.347987 -82.525066 34.347805 -82.525374 34.347749 -82.525506 34.347644 -82.525667 34.347475 -82.526060 34.347229 -82.526274 34.346961 -82.526377 34.346835 -82.526390 34.346281 -82.527210 34.346415 -82.527219 34.346854 -82.527140 34.347295 -82.526921 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC007</ms:areasymbol>
+        <ms:musym>Ca</ms:musym>
+        <ms:nationalmusym>4f48</ms:nationalmusym>
+        <ms:mukey>131789</ms:mukey>
+        <ms:spatialversion>8</ms:spatialversion>
+        <ms:muname>Cartecay-Chewacla complex</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp>1</ms:slopegraddcp>
+        <ms:slopegradwta>1</ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin>31</ms:wtdepannmin>
+        <ms:wtdepaprjunmin>31</ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>Occasional</ms:flodfreqdcd>
+        <ms:flodfreqmax>Occasional</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta>3.38</ms:aws025wta>
+        <ms:aws050wta>6.91</ms:aws050wta>
+        <ms:aws0100wta>13.91</ms:aws0100wta>
+        <ms:aws0150wta>20.01</ms:aws0150wta>
+        <ms:drclassdcd>Somewhat poorly drained</ms:drclassdcd>
+        <ms:drclasswettest>Somewhat poorly drained</ms:drclasswettest>
+        <ms:hydgrpdcd>A/D</ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>3</ms:niccdcd>
+        <ms:niccdcdpct>95</ms:niccdcdpct>
+        <ms:engdwobdcd>Very limited</ms:engdwobdcd>
+        <ms:engdwbdcd>Very limited</ms:engdwbdcd>
+        <ms:engdwbll>Very limited</ms:engdwbll>
+        <ms:engdwbml>Very limited</ms:engdwbml>
+        <ms:engstafdcd>Very limited</ms:engstafdcd>
+        <ms:engstafll>Very limited</ms:engstafll>
+        <ms:engstafml>Very limited</ms:engstafml>
+        <ms:engsldcd>Very limited</ms:engsldcd>
+        <ms:engsldcp>Very limited</ms:engsldcp>
+        <ms:englrsdcd>Very limited</ms:englrsdcd>
+        <ms:engcmssdcd>Fair</ms:engcmssdcd>
+        <ms:engcmssmp>Not rated</ms:engcmssmp>
+        <ms:urbrecptdcd>Somewhat limited</ms:urbrecptdcd>
+        <ms:urbrecptwta>0.998</ms:urbrecptwta>
+        <ms:forpehrtdcp>Erosion hazard slight</ms:forpehrtdcp>
+        <ms:hydclprs>5</ms:hydclprs>
+        <ms:awmmfpwwta>1</ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386742450</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.131795">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.349522 -82.541561</gml:lowerCorner>
+        		<gml:upperCorner>34.354961 -82.532857</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.354020 -82.539611 34.353877 -82.539650 34.353787 -82.539629 34.353709 -82.539552 34.353598 -82.539249 34.353606 -82.538799 34.353631 -82.538684 34.353796 -82.538229 34.354070 -82.537682 34.354128 -82.537307 34.354124 -82.537046 34.354058 -82.536143 34.354120 -82.535824 34.354152 -82.535743 34.354174 -82.535483 34.354074 -82.534531 34.354082 -82.534445 34.354179 -82.534130 34.354201 -82.533920 34.354197 -82.533792 34.354177 -82.533713 34.354118 -82.533584 34.354070 -82.533529 34.353872 -82.533489 34.353477 -82.533688 34.353277 -82.533689 34.353106 -82.533547 34.352741 -82.533068 34.352697 -82.532988 34.352568 -82.532881 34.352357 -82.532857 34.352330 -82.532870 34.352205 -82.533052 34.352179 -82.533128 34.352172 -82.533304 34.352211 -82.533566 34.352410 -82.534128 34.352667 -82.534719 34.352755 -82.535037 34.352763 -82.535507 34.352684 -82.535852 34.352596 -82.536037 34.352623 -82.536118 34.352943 -82.536729 34.352969 -82.536808 34.353007 -82.537060 34.352963 -82.537677 34.352905 -82.538042 34.352820 -82.538364 34.352735 -82.539163 34.352643 -82.539324 34.352528 -82.539469 34.352288 -82.539570 34.352054 -82.539417 34.351987 -82.539341 34.351883 -82.539089 34.351715 -82.538308 34.351487 -82.537864 34.351350 -82.537638 34.350815 -82.536979 34.350683 -82.536949 34.350630 -82.536967 34.350517 -82.537096 34.350296 -82.537579 34.350225 -82.537682 34.350225 -82.537715 34.350113 -82.537809 34.350051 -82.537844 34.349928 -82.537850 34.349707 -82.537807 34.349527 -82.537928 34.349551 -82.538437 34.349522 -82.539126 34.349580 -82.539511 34.349705 -82.539767 34.350038 -82.539987 34.350245 -82.540211 34.350280 -82.540288 34.350308 -82.540457 34.350371 -82.540995 34.350538 -82.541474 34.350604 -82.541561 34.350674 -82.541505 34.350773 -82.541412 34.350838 -82.541376 34.350886 -82.541360 34.350939 -82.541292 34.350971 -82.541211 34.350986 -82.541109 34.351061 -82.540925 34.351112 -82.540849 34.351326 -82.540645 34.351415 -82.540572 34.351487 -82.540562 34.351545 -82.540572 34.351603 -82.540619 34.351630 -82.540666 34.351655 -82.540721 34.351652 -82.540796 34.351626 -82.540879 34.351571 -82.540940 34.351448 -82.540993 34.351349 -82.541103 34.351338 -82.541144 34.351507 -82.541215 34.352012 -82.541277 34.352130 -82.541344 34.352181 -82.541394 34.352227 -82.541386 34.352643 -82.541058 34.353427 -82.540313 34.353854 -82.540124 34.353965 -82.540106 34.354336 -82.539995 34.354501 -82.539882 34.354675 -82.539727 34.354838 -82.539493 34.354925 -82.539277 34.354961 -82.539079 34.354945 -82.538969 34.354885 -82.538907 34.354709 -82.538917 34.354624 -82.538961 34.354324 -82.539344 34.354149 -82.539507 34.354020 -82.539611 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+                <gml:interior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.353213 -82.539664 34.353257 -82.539561 34.353310 -82.539562 34.353321 -82.539577 34.353325 -82.539617 34.353342 -82.539660 34.353398 -82.539679 34.353442 -82.539685 34.353515 -82.539699 34.353568 -82.539728 34.353640 -82.539801 34.353709 -82.539865 34.353789 -82.539910 34.353892 -82.539915 34.353968 -82.539907 34.353987 -82.539920 34.353985 -82.539949 34.353961 -82.539983 34.353817 -82.539980 34.353722 -82.539969 34.353601 -82.539899 34.353547 -82.539866 34.353506 -82.539831 34.353442 -82.539832 34.353380 -82.539854 34.353322 -82.539887 34.353288 -82.539953 34.353255 -82.539958 34.353226 -82.539932 34.353204 -82.539805 34.353213 -82.539664 </gml:posList>
+                  </gml:LinearRing>
+                </gml:interior>
+                <gml:interior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.353519 -82.534100 34.353516 -82.534058 34.353532 -82.534022 34.353611 -82.533974 34.353721 -82.533893 34.353778 -82.533832 34.353846 -82.533747 34.353903 -82.533712 34.353953 -82.533713 34.354033 -82.533758 34.354069 -82.533820 34.354075 -82.533902 34.354075 -82.533995 34.354075 -82.534066 34.354039 -82.534246 34.354011 -82.534335 34.353967 -82.534424 34.353927 -82.534461 34.353893 -82.534460 34.353859 -82.534447 34.353783 -82.534384 34.353680 -82.534287 34.353534 -82.534131 34.353519 -82.534100 </gml:posList>
+                  </gml:LinearRing>
+                </gml:interior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC007</ms:areasymbol>
+        <ms:musym>CdD</ms:musym>
+        <ms:nationalmusym>2zzyy</ms:nationalmusym>
+        <ms:mukey>131795</ms:mukey>
+        <ms:spatialversion>8</ms:spatialversion>
+        <ms:muname>Cecil-Cataula complex, 10 to 15 percent slopes, moderately eroded</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp>13</ms:slopegraddcp>
+        <ms:slopegradwta>13</ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin>84</ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta>3.35</ms:aws025wta>
+        <ms:aws050wta>6.44</ms:aws050wta>
+        <ms:aws0100wta>12.63</ms:aws0100wta>
+        <ms:aws0150wta>19.5</ms:aws0150wta>
+        <ms:drclassdcd>Well drained</ms:drclassdcd>
+        <ms:drclasswettest>Moderately well drained</ms:drclasswettest>
+        <ms:hydgrpdcd>B</ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>4</ms:niccdcd>
+        <ms:niccdcdpct>75</ms:niccdcdpct>
+        <ms:engdwobdcd>Somewhat limited</ms:engdwobdcd>
+        <ms:engdwbdcd>Somewhat limited</ms:engdwbdcd>
+        <ms:engdwbll>Somewhat limited</ms:engdwbll>
+        <ms:engdwbml>Somewhat limited</ms:engdwbml>
+        <ms:engstafdcd>Somewhat limited</ms:engstafdcd>
+        <ms:engstafll>Somewhat limited</ms:engstafll>
+        <ms:engstafml>Very limited</ms:engstafml>
+        <ms:engsldcd>Very limited</ms:engsldcd>
+        <ms:engsldcp>Very limited</ms:engsldcp>
+        <ms:englrsdcd>Very limited</ms:englrsdcd>
+        <ms:engcmssdcd>Poor</ms:engcmssdcd>
+        <ms:engcmssmp>Poor</ms:engcmssmp>
+        <ms:urbrecptdcd>Somewhat limited</ms:urbrecptdcd>
+        <ms:urbrecptwta>0.064</ms:urbrecptwta>
+        <ms:forpehrtdcp>Erosion hazard moderate</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta>0.894</ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386743232</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.131787">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.342697 -82.541251</gml:lowerCorner>
+        		<gml:upperCorner>34.349259 -82.530411</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.346404 -82.531709 34.346257 -82.531364 34.346101 -82.531140 34.346040 -82.531113 34.346007 -82.531087 34.345981 -82.531043 34.345975 -82.530856 34.345992 -82.530539 34.345840 -82.530516 34.345443 -82.530500 34.345181 -82.530429 34.344792 -82.530411 34.344616 -82.530449 34.344393 -82.530584 34.344225 -82.530741 34.344028 -82.531011 34.343924 -82.531276 34.343785 -82.531496 34.343674 -82.531782 34.343348 -82.532169 34.343227 -82.532371 34.343116 -82.532671 34.343094 -82.532852 34.343128 -82.533113 34.343261 -82.533653 34.343303 -82.533979 34.343155 -82.534373 34.343277 -82.534525 34.343298 -82.534717 34.343275 -82.534933 34.343112 -82.535205 34.342884 -82.535408 34.342697 -82.535499 34.342709 -82.535564 34.342710 -82.535915 34.342755 -82.536117 34.342933 -82.536379 34.342943 -82.536371 34.343134 -82.536547 34.343164 -82.536556 34.343267 -82.536660 34.343318 -82.536833 34.343320 -82.537052 34.343278 -82.537198 34.343003 -82.537735 34.342959 -82.537930 34.342977 -82.538102 34.343006 -82.538217 34.343064 -82.538276 34.343121 -82.538296 34.343251 -82.538292 34.343386 -82.538214 34.343548 -82.538050 34.343701 -82.537790 34.343937 -82.537121 34.344100 -82.536929 34.344193 -82.536840 34.344267 -82.536804 34.344384 -82.536785 34.344650 -82.536828 34.344909 -82.537062 34.344987 -82.537164 34.345139 -82.537439 34.345235 -82.538069 34.345275 -82.538136 34.345467 -82.538300 34.345491 -82.538439 34.345483 -82.538667 34.345461 -82.538768 34.345300 -82.539015 34.345159 -82.539092 34.345050 -82.539208 34.345030 -82.539251 34.344975 -82.539630 34.344925 -82.540543 34.345039 -82.540696 34.345259 -82.541054 34.345314 -82.541251 34.345633 -82.540929 34.346123 -82.540473 34.346268 -82.540314 34.346479 -82.540263 34.346574 -82.540260 34.346754 -82.539826 34.346763 -82.539758 34.347029 -82.538877 34.347213 -82.538465 34.347326 -82.538314 34.347509 -82.537818 34.347328 -82.537911 34.346917 -82.538026 34.346629 -82.538014 34.346568 -82.537995 34.346457 -82.537900 34.346352 -82.537759 34.346281 -82.537588 34.346227 -82.537120 34.346328 -82.535332 34.346425 -82.534167 34.346453 -82.534036 34.346574 -82.533818 34.346973 -82.533443 34.347159 -82.533217 34.347677 -82.532792 34.347728 -82.532767 34.347751 -82.532773 34.347987 -82.532544 34.348237 -82.532106 34.348324 -82.532023 34.348416 -82.531957 34.348766 -82.531849 34.348927 -82.531713 34.349123 -82.531442 34.349205 -82.531223 34.349259 -82.530913 34.349199 -82.530895 34.349080 -82.530789 34.348797 -82.530646 34.348737 -82.530657 34.348679 -82.530740 34.348659 -82.530838 34.348302 -82.531372 34.348134 -82.531506 34.347902 -82.531502 34.347796 -82.531471 34.347396 -82.531169 34.347283 -82.531149 34.347088 -82.531149 34.346969 -82.531273 34.346763 -82.531729 34.346633 -82.531851 34.346519 -82.531846 34.346404 -82.531709 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC007</ms:areasymbol>
+        <ms:musym>ApB</ms:musym>
+        <ms:nationalmusym>2th0j</ms:nationalmusym>
+        <ms:mukey>131787</ms:mukey>
+        <ms:spatialversion>8</ms:spatialversion>
+        <ms:muname>Appling sandy loam, 2 to 6 percent slopes</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp>4</ms:slopegraddcp>
+        <ms:slopegradwta>4</ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin></ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta>3.5</ms:aws025wta>
+        <ms:aws050wta>6.93</ms:aws050wta>
+        <ms:aws0100wta>13.74</ms:aws0100wta>
+        <ms:aws0150wta>22.21</ms:aws0150wta>
+        <ms:drclassdcd>Well drained</ms:drclassdcd>
+        <ms:drclasswettest>Well drained</ms:drclasswettest>
+        <ms:hydgrpdcd>B</ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>2</ms:niccdcd>
+        <ms:niccdcdpct>100</ms:niccdcdpct>
+        <ms:engdwobdcd>Not limited</ms:engdwobdcd>
+        <ms:engdwbdcd>Not limited</ms:engdwbdcd>
+        <ms:engdwbll>Not limited</ms:engdwbll>
+        <ms:engdwbml>Very limited</ms:engdwbml>
+        <ms:engstafdcd>Somewhat limited</ms:engstafdcd>
+        <ms:engstafll>Somewhat limited</ms:engstafll>
+        <ms:engstafml>Very limited</ms:engstafml>
+        <ms:engsldcd>Somewhat limited</ms:engsldcd>
+        <ms:engsldcp>Somewhat limited</ms:engsldcp>
+        <ms:englrsdcd>Very limited</ms:englrsdcd>
+        <ms:engcmssdcd>Poor</ms:engcmssdcd>
+        <ms:engcmssmp>Poor</ms:engcmssmp>
+        <ms:urbrecptdcd>Somewhat limited</ms:urbrecptdcd>
+        <ms:urbrecptwta>0.048</ms:urbrecptwta>
+        <ms:forpehrtdcp>Erosion hazard moderate</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta>0.107</ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386743346</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.131800">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.348527 -82.532229</gml:lowerCorner>
+        		<gml:upperCorner>34.351810 -82.528671</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.348527 -82.529722 34.348588 -82.530165 34.348737 -82.530586 34.348737 -82.530657 34.348797 -82.530646 34.349080 -82.530789 34.349199 -82.530895 34.349259 -82.530913 34.349659 -82.530998 34.349987 -82.531191 34.350293 -82.531433 34.350717 -82.531884 34.351161 -82.532198 34.351322 -82.532229 34.351473 -82.532193 34.351549 -82.532150 34.351681 -82.531983 34.351795 -82.531633 34.351810 -82.531439 34.351793 -82.531064 34.351733 -82.530676 34.351703 -82.530576 34.351539 -82.530295 34.351282 -82.530041 34.351237 -82.529977 34.351183 -82.529542 34.351042 -82.529368 34.351017 -82.529280 34.350985 -82.529239 34.350862 -82.528838 34.350709 -82.528687 34.350554 -82.528671 34.350433 -82.528703 34.350190 -82.528860 34.349658 -82.528947 34.349360 -82.528897 34.349356 -82.529006 34.349312 -82.529111 34.349197 -82.529306 34.348949 -82.529550 34.348580 -82.529729 34.348527 -82.529722 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC007</ms:areasymbol>
+        <ms:musym>DuB</ms:musym>
+        <ms:nationalmusym>4f4m</ms:nationalmusym>
+        <ms:mukey>131800</ms:mukey>
+        <ms:spatialversion>8</ms:spatialversion>
+        <ms:muname>Durham sandy loam, 2 to 6 percent slopes</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp>4</ms:slopegraddcp>
+        <ms:slopegradwta>4</ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin></ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta>2.5</ms:aws025wta>
+        <ms:aws050wta>5.68</ms:aws050wta>
+        <ms:aws0100wta>12.68</ms:aws0100wta>
+        <ms:aws0150wta>18.39</ms:aws0150wta>
+        <ms:drclassdcd>Well drained</ms:drclassdcd>
+        <ms:drclasswettest>Well drained</ms:drclasswettest>
+        <ms:hydgrpdcd>B</ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>2</ms:niccdcd>
+        <ms:niccdcdpct>100</ms:niccdcdpct>
+        <ms:engdwobdcd>Not limited</ms:engdwobdcd>
+        <ms:engdwbdcd>Not limited</ms:engdwbdcd>
+        <ms:engdwbll>Not limited</ms:engdwbll>
+        <ms:engdwbml>Not limited</ms:engdwbml>
+        <ms:engstafdcd>Somewhat limited</ms:engstafdcd>
+        <ms:engstafll>Somewhat limited</ms:engstafll>
+        <ms:engstafml>Somewhat limited</ms:engstafml>
+        <ms:engsldcd>Very limited</ms:engsldcd>
+        <ms:engsldcp>Very limited</ms:engsldcp>
+        <ms:englrsdcd>Not limited</ms:englrsdcd>
+        <ms:engcmssdcd>Fair</ms:engcmssdcd>
+        <ms:engcmssmp>Fair</ms:engcmssmp>
+        <ms:urbrecptdcd>Somewhat limited</ms:urbrecptdcd>
+        <ms:urbrecptwta>0.009</ms:urbrecptwta>
+        <ms:forpehrtdcp>Erosion hazard moderate</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta>0.078</ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386743354</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.131817">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.347169 -82.553638</gml:lowerCorner>
+        		<gml:upperCorner>34.347583 -82.553299</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.347171 -82.553394 34.347169 -82.553454 34.347183 -82.553519 34.347219 -82.553569 34.347263 -82.553599 34.347305 -82.553621 34.347322 -82.553621 34.347346 -82.553621 34.347378 -82.553621 34.347414 -82.553610 34.347446 -82.553607 34.347479 -82.553614 34.347501 -82.553621 34.347522 -82.553632 34.347536 -82.553638 34.347549 -82.553631 34.347583 -82.553595 34.347568 -82.553570 34.347555 -82.553556 34.347511 -82.553515 34.347463 -82.553443 34.347407 -82.553377 34.347355 -82.553337 34.347327 -82.553318 34.347294 -82.553306 34.347277 -82.553299 34.347250 -82.553301 34.347216 -82.553308 34.347187 -82.553335 34.347177 -82.553354 34.347171 -82.553394 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC007</ms:areasymbol>
+        <ms:musym>W</ms:musym>
+        <ms:nationalmusym>4f55</ms:nationalmusym>
+        <ms:mukey>131817</ms:mukey>
+        <ms:spatialversion>8</ms:spatialversion>
+        <ms:muname>Water</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp></ms:slopegraddcp>
+        <ms:slopegradwta></ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin></ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd></ms:flodfreqdcd>
+        <ms:flodfreqmax></ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta></ms:aws025wta>
+        <ms:aws050wta></ms:aws050wta>
+        <ms:aws0100wta></ms:aws0100wta>
+        <ms:aws0150wta></ms:aws0150wta>
+        <ms:drclassdcd></ms:drclassdcd>
+        <ms:drclasswettest></ms:drclasswettest>
+        <ms:hydgrpdcd></ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>8</ms:niccdcd>
+        <ms:niccdcdpct>100</ms:niccdcdpct>
+        <ms:engdwobdcd>Not rated</ms:engdwobdcd>
+        <ms:engdwbdcd>Not rated</ms:engdwbdcd>
+        <ms:engdwbll>Not rated</ms:engdwbll>
+        <ms:engdwbml>Not rated</ms:engdwbml>
+        <ms:engstafdcd>Not rated</ms:engstafdcd>
+        <ms:engstafll>Not rated</ms:engstafll>
+        <ms:engstafml>Not rated</ms:engstafml>
+        <ms:engsldcd>Not rated</ms:engsldcd>
+        <ms:engsldcp>Not rated</ms:engsldcp>
+        <ms:englrsdcd>Not rated</ms:englrsdcd>
+        <ms:engcmssdcd>Not rated</ms:engcmssdcd>
+        <ms:engcmssmp>Not rated</ms:engcmssmp>
+        <ms:urbrecptdcd>Not rated</ms:urbrecptdcd>
+        <ms:urbrecptwta></ms:urbrecptwta>
+        <ms:forpehrtdcp>Not rated</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta></ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386743367</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.131800">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.347509 -82.539570</gml:lowerCorner>
+        		<gml:upperCorner>34.353007 -82.533299</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.350592 -82.535416 34.350346 -82.534943 34.349894 -82.534361 34.349840 -82.534255 34.349580 -82.533862 34.349219 -82.533457 34.349038 -82.533340 34.348862 -82.533299 34.348735 -82.533310 34.348393 -82.533527 34.348086 -82.533842 34.347951 -82.534102 34.347858 -82.534425 34.347806 -82.534846 34.347808 -82.535257 34.347846 -82.535645 34.347826 -82.536165 34.347697 -82.536997 34.347529 -82.537684 34.347509 -82.537818 34.347608 -82.537768 34.347989 -82.537662 34.348141 -82.537637 34.348314 -82.537637 34.348508 -82.537709 34.348822 -82.537965 34.348939 -82.538003 34.349201 -82.538019 34.349469 -82.537955 34.349527 -82.537928 34.349707 -82.537807 34.349928 -82.537850 34.350051 -82.537844 34.350113 -82.537809 34.350225 -82.537715 34.350225 -82.537682 34.350296 -82.537579 34.350517 -82.537096 34.350630 -82.536967 34.350683 -82.536949 34.350815 -82.536979 34.351350 -82.537638 34.351487 -82.537864 34.351715 -82.538308 34.351883 -82.539089 34.351987 -82.539341 34.352054 -82.539417 34.352288 -82.539570 34.352528 -82.539469 34.352643 -82.539324 34.352735 -82.539163 34.352820 -82.538364 34.352905 -82.538042 34.352963 -82.537677 34.353007 -82.537060 34.352969 -82.536808 34.352943 -82.536729 34.352623 -82.536118 34.352387 -82.537164 34.352323 -82.537360 34.352193 -82.537546 34.352023 -82.537626 34.351886 -82.537606 34.351818 -82.537558 34.351721 -82.537449 34.351417 -82.537034 34.351265 -82.536789 34.351153 -82.536543 34.351014 -82.536337 34.350868 -82.535967 34.350715 -82.535753 34.350592 -82.535416 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+                <gml:interior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.349338 -82.535829 34.349329 -82.535786 34.349335 -82.535716 34.349338 -82.535636 34.349320 -82.535576 34.349315 -82.535549 34.349307 -82.535492 34.349312 -82.535445 34.349327 -82.535417 34.349372 -82.535417 34.349441 -82.535420 34.349525 -82.535453 34.349543 -82.535510 34.349554 -82.535574 34.349568 -82.535620 34.349594 -82.535646 34.349701 -82.535694 34.349827 -82.535725 34.349943 -82.535754 34.350091 -82.535805 34.350147 -82.535818 34.350168 -82.535844 34.350171 -82.535879 34.350175 -82.535910 34.350253 -82.536004 34.350366 -82.536100 34.350401 -82.536153 34.350431 -82.536208 34.350472 -82.536252 34.350504 -82.536275 34.350620 -82.536356 34.350675 -82.536423 34.350698 -82.536460 34.350697 -82.536500 34.350660 -82.536555 34.350247 -82.536824 34.350209 -82.536837 34.350171 -82.536834 34.350138 -82.536830 34.350114 -82.536801 34.350099 -82.536748 34.350051 -82.536696 34.349981 -82.536606 34.349926 -82.536541 34.349862 -82.536497 34.349744 -82.536420 34.349645 -82.536331 34.349577 -82.536236 34.349430 -82.535986 34.349338 -82.535829 </gml:posList>
+                  </gml:LinearRing>
+                </gml:interior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC007</ms:areasymbol>
+        <ms:musym>DuB</ms:musym>
+        <ms:nationalmusym>4f4m</ms:nationalmusym>
+        <ms:mukey>131800</ms:mukey>
+        <ms:spatialversion>8</ms:spatialversion>
+        <ms:muname>Durham sandy loam, 2 to 6 percent slopes</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp>4</ms:slopegraddcp>
+        <ms:slopegradwta>4</ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin></ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta>2.5</ms:aws025wta>
+        <ms:aws050wta>5.68</ms:aws050wta>
+        <ms:aws0100wta>12.68</ms:aws0100wta>
+        <ms:aws0150wta>18.39</ms:aws0150wta>
+        <ms:drclassdcd>Well drained</ms:drclassdcd>
+        <ms:drclasswettest>Well drained</ms:drclasswettest>
+        <ms:hydgrpdcd>B</ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>2</ms:niccdcd>
+        <ms:niccdcdpct>100</ms:niccdcdpct>
+        <ms:engdwobdcd>Not limited</ms:engdwobdcd>
+        <ms:engdwbdcd>Not limited</ms:engdwbdcd>
+        <ms:engdwbll>Not limited</ms:engdwbll>
+        <ms:engdwbml>Not limited</ms:engdwbml>
+        <ms:engstafdcd>Somewhat limited</ms:engstafdcd>
+        <ms:engstafll>Somewhat limited</ms:engstafll>
+        <ms:engstafml>Somewhat limited</ms:engstafml>
+        <ms:engsldcd>Very limited</ms:engsldcd>
+        <ms:engsldcp>Very limited</ms:engsldcp>
+        <ms:englrsdcd>Not limited</ms:englrsdcd>
+        <ms:engcmssdcd>Fair</ms:engcmssdcd>
+        <ms:engcmssmp>Fair</ms:engcmssmp>
+        <ms:urbrecptdcd>Somewhat limited</ms:urbrecptdcd>
+        <ms:urbrecptwta>0.009</ms:urbrecptwta>
+        <ms:forpehrtdcp>Erosion hazard moderate</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta>0.078</ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386744326</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.131794">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.338159 -82.546757</gml:lowerCorner>
+        		<gml:upperCorner>34.342473 -82.536066</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.338731 -82.546757 34.339050 -82.546499 34.339351 -82.546120 34.339551 -82.545674 34.339564 -82.545551 34.339580 -82.545390 34.339596 -82.544691 34.339640 -82.544366 34.339761 -82.544010 34.339913 -82.543733 34.340685 -82.542779 34.341090 -82.542414 34.341179 -82.542312 34.341231 -82.542157 34.341124 -82.542166 34.340899 -82.542241 34.340721 -82.542233 34.340590 -82.542116 34.340551 -82.541993 34.340542 -82.541843 34.340697 -82.541287 34.340691 -82.541021 34.340548 -82.540741 34.340560 -82.540440 34.340584 -82.540344 34.340687 -82.540125 34.340850 -82.539993 34.341031 -82.539971 34.341372 -82.539993 34.341537 -82.539925 34.341568 -82.539895 34.341604 -82.539803 34.341674 -82.539511 34.341596 -82.538993 34.341618 -82.538779 34.341644 -82.538725 34.341875 -82.538598 34.341999 -82.538449 34.342034 -82.538223 34.342034 -82.538124 34.341949 -82.537946 34.341810 -82.537759 34.341713 -82.537714 34.341382 -82.537725 34.341271 -82.537711 34.341173 -82.537664 34.341137 -82.537629 34.341100 -82.537465 34.341120 -82.537270 34.341190 -82.537153 34.341409 -82.537029 34.342354 -82.536834 34.342473 -82.536699 34.342473 -82.536519 34.342433 -82.536412 34.342299 -82.536249 34.341901 -82.536090 34.341457 -82.536066 34.341057 -82.536160 34.340808 -82.536336 34.340651 -82.536519 34.340610 -82.536686 34.340624 -82.537064 34.340617 -82.537151 34.340586 -82.537249 34.340440 -82.537340 34.340211 -82.537372 34.339997 -82.537524 34.339771 -82.537813 34.339858 -82.538129 34.339876 -82.538169 34.339961 -82.538241 34.340136 -82.538312 34.340661 -82.538312 34.340725 -82.538340 34.340882 -82.538461 34.340884 -82.538614 34.340836 -82.538725 34.340689 -82.538931 34.340497 -82.539100 34.339636 -82.539652 34.339228 -82.540112 34.339189 -82.540466 34.338905 -82.541829 34.338543 -82.543207 34.338183 -82.544450 34.338165 -82.544607 34.338159 -82.544868 34.338233 -82.545489 34.338259 -82.545598 34.338395 -82.546022 34.338651 -82.546529 34.338731 -82.546757 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC007</ms:areasymbol>
+        <ms:musym>CdC</ms:musym>
+        <ms:nationalmusym>2q7j8</ms:nationalmusym>
+        <ms:mukey>131794</ms:mukey>
+        <ms:spatialversion>8</ms:spatialversion>
+        <ms:muname>Cecil sandy loam, 6 to 10 percent slopes</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp>8</ms:slopegraddcp>
+        <ms:slopegradwta>8</ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin></ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta>2.99</ms:aws025wta>
+        <ms:aws050wta>5.5</ms:aws050wta>
+        <ms:aws0100wta>10.48</ms:aws0100wta>
+        <ms:aws0150wta>16.87</ms:aws0150wta>
+        <ms:drclassdcd>Well drained</ms:drclassdcd>
+        <ms:drclasswettest>Well drained</ms:drclasswettest>
+        <ms:hydgrpdcd>B</ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>3</ms:niccdcd>
+        <ms:niccdcdpct>98</ms:niccdcdpct>
+        <ms:engdwobdcd>Not limited</ms:engdwobdcd>
+        <ms:engdwbdcd>Not limited</ms:engdwbdcd>
+        <ms:engdwbll>Not limited</ms:engdwbll>
+        <ms:engdwbml>Somewhat limited</ms:engdwbml>
+        <ms:engstafdcd>Somewhat limited</ms:engstafdcd>
+        <ms:engstafll>Somewhat limited</ms:engstafll>
+        <ms:engstafml>Very limited</ms:engstafml>
+        <ms:engsldcd>Very limited</ms:engsldcd>
+        <ms:engsldcp>Very limited</ms:engsldcp>
+        <ms:englrsdcd>Very limited</ms:englrsdcd>
+        <ms:engcmssdcd>Poor</ms:engcmssdcd>
+        <ms:engcmssmp>Poor</ms:engcmssmp>
+        <ms:urbrecptdcd>Somewhat limited</ms:urbrecptdcd>
+        <ms:urbrecptwta>0.05</ms:urbrecptwta>
+        <ms:forpehrtdcp>Erosion hazard moderate</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta>0.542</ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386744465</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.131817">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.349307 -82.536837</gml:lowerCorner>
+        		<gml:upperCorner>34.350698 -82.535417</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.350175 -82.535910 34.350171 -82.535879 34.350168 -82.535844 34.350147 -82.535818 34.350091 -82.535805 34.349943 -82.535754 34.349827 -82.535725 34.349701 -82.535694 34.349594 -82.535646 34.349568 -82.535620 34.349554 -82.535574 34.349543 -82.535510 34.349525 -82.535453 34.349441 -82.535420 34.349372 -82.535417 34.349327 -82.535417 34.349312 -82.535445 34.349307 -82.535492 34.349315 -82.535549 34.349320 -82.535576 34.349338 -82.535636 34.349335 -82.535716 34.349329 -82.535786 34.349338 -82.535829 34.349430 -82.535986 34.349577 -82.536236 34.349645 -82.536331 34.349744 -82.536420 34.349862 -82.536497 34.349926 -82.536541 34.349981 -82.536606 34.350051 -82.536696 34.350099 -82.536748 34.350114 -82.536801 34.350138 -82.536830 34.350171 -82.536834 34.350209 -82.536837 34.350247 -82.536824 34.350660 -82.536555 34.350697 -82.536500 34.350698 -82.536460 34.350675 -82.536423 34.350620 -82.536356 34.350504 -82.536275 34.350472 -82.536252 34.350431 -82.536208 34.350401 -82.536153 34.350366 -82.536100 34.350253 -82.536004 34.350175 -82.535910 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC007</ms:areasymbol>
+        <ms:musym>W</ms:musym>
+        <ms:nationalmusym>4f55</ms:nationalmusym>
+        <ms:mukey>131817</ms:mukey>
+        <ms:spatialversion>8</ms:spatialversion>
+        <ms:muname>Water</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp></ms:slopegraddcp>
+        <ms:slopegradwta></ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin></ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd></ms:flodfreqdcd>
+        <ms:flodfreqmax></ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta></ms:aws025wta>
+        <ms:aws050wta></ms:aws050wta>
+        <ms:aws0100wta></ms:aws0100wta>
+        <ms:aws0150wta></ms:aws0150wta>
+        <ms:drclassdcd></ms:drclassdcd>
+        <ms:drclasswettest></ms:drclasswettest>
+        <ms:hydgrpdcd></ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>8</ms:niccdcd>
+        <ms:niccdcdpct>100</ms:niccdcdpct>
+        <ms:engdwobdcd>Not rated</ms:engdwobdcd>
+        <ms:engdwbdcd>Not rated</ms:engdwbdcd>
+        <ms:engdwbll>Not rated</ms:engdwbll>
+        <ms:engdwbml>Not rated</ms:engdwbml>
+        <ms:engstafdcd>Not rated</ms:engstafdcd>
+        <ms:engstafll>Not rated</ms:engstafll>
+        <ms:engstafml>Not rated</ms:engstafml>
+        <ms:engsldcd>Not rated</ms:engsldcd>
+        <ms:engsldcp>Not rated</ms:engsldcp>
+        <ms:englrsdcd>Not rated</ms:englrsdcd>
+        <ms:engcmssdcd>Not rated</ms:engcmssdcd>
+        <ms:engcmssmp>Not rated</ms:engcmssmp>
+        <ms:urbrecptdcd>Not rated</ms:urbrecptdcd>
+        <ms:urbrecptwta></ms:urbrecptwta>
+        <ms:forpehrtdcp>Not rated</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta></ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386744470</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.131797">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.348715 -82.548815</gml:lowerCorner>
+        		<gml:upperCorner>34.352881 -82.541144</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.352274 -82.542097 34.352163 -82.541936 34.352145 -82.541733 34.352187 -82.541453 34.352181 -82.541394 34.352130 -82.541344 34.352012 -82.541277 34.351507 -82.541215 34.351338 -82.541144 34.351317 -82.541224 34.351246 -82.541510 34.351216 -82.541659 34.351194 -82.541728 34.351146 -82.541787 34.351034 -82.541935 34.350829 -82.542265 34.350723 -82.542532 34.350678 -82.542694 34.350667 -82.542802 34.350671 -82.542898 34.350653 -82.542989 34.350626 -82.543029 34.350598 -82.543146 34.350590 -82.543262 34.350591 -82.543359 34.350610 -82.543483 34.350621 -82.543569 34.350616 -82.543661 34.350602 -82.543834 34.350580 -82.544067 34.350507 -82.544529 34.350486 -82.544666 34.350461 -82.544740 34.350339 -82.544971 34.350234 -82.545153 34.350078 -82.545326 34.350023 -82.545371 34.349900 -82.545372 34.349826 -82.545318 34.349751 -82.545185 34.349659 -82.545501 34.349614 -82.545989 34.349360 -82.546648 34.348978 -82.547166 34.348798 -82.547575 34.348738 -82.547743 34.348721 -82.547848 34.348715 -82.548231 34.348862 -82.548768 34.348907 -82.548815 34.348977 -82.548801 34.349489 -82.548431 34.349643 -82.548277 34.349725 -82.548168 34.350224 -82.547688 34.350247 -82.547631 34.350465 -82.546960 34.350608 -82.546093 34.350664 -82.545880 34.350759 -82.545610 34.350975 -82.545263 34.351610 -82.544569 34.351749 -82.544269 34.351887 -82.543826 34.351921 -82.543767 34.352120 -82.543519 34.352303 -82.543358 34.352657 -82.543124 34.352776 -82.542980 34.352856 -82.542848 34.352881 -82.542664 34.352869 -82.542578 34.352822 -82.542494 34.352669 -82.542346 34.352417 -82.542206 34.352274 -82.542097 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC007</ms:areasymbol>
+        <ms:musym>CeC2</ms:musym>
+        <ms:nationalmusym>4f4j</ms:nationalmusym>
+        <ms:mukey>131797</ms:mukey>
+        <ms:spatialversion>8</ms:spatialversion>
+        <ms:muname>Cecil clay loam, 6 to 10 percent slopes, eroded</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp>8</ms:slopegraddcp>
+        <ms:slopegradwta>8</ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin></ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta>3.5</ms:aws025wta>
+        <ms:aws050wta>7</ms:aws050wta>
+        <ms:aws0100wta>14</ms:aws0100wta>
+        <ms:aws0150wta>21.15</ms:aws0150wta>
+        <ms:drclassdcd>Well drained</ms:drclassdcd>
+        <ms:drclasswettest>Well drained</ms:drclasswettest>
+        <ms:hydgrpdcd>B</ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>4</ms:niccdcd>
+        <ms:niccdcdpct>100</ms:niccdcdpct>
+        <ms:engdwobdcd>Not limited</ms:engdwobdcd>
+        <ms:engdwbdcd>Not limited</ms:engdwbdcd>
+        <ms:engdwbll>Not limited</ms:engdwbll>
+        <ms:engdwbml>Not limited</ms:engdwbml>
+        <ms:engstafdcd>Somewhat limited</ms:engstafdcd>
+        <ms:engstafll>Somewhat limited</ms:engstafll>
+        <ms:engstafml>Somewhat limited</ms:engstafml>
+        <ms:engsldcd>Very limited</ms:engsldcd>
+        <ms:engsldcp>Very limited</ms:engsldcp>
+        <ms:englrsdcd>Very limited</ms:englrsdcd>
+        <ms:engcmssdcd>Poor</ms:engcmssdcd>
+        <ms:engcmssmp>Poor</ms:engcmssmp>
+        <ms:urbrecptdcd>Somewhat limited</ms:urbrecptdcd>
+        <ms:urbrecptwta>0.079</ms:urbrecptwta>
+        <ms:forpehrtdcp>Erosion hazard moderate</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta>0.219</ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386744683</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.131794">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.334316 -82.550015</gml:lowerCorner>
+        		<gml:upperCorner>34.337479 -82.541719</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.334320 -82.547749 34.334616 -82.548057 34.334699 -82.548215 34.334750 -82.548405 34.334868 -82.549104 34.334923 -82.549337 34.334951 -82.549396 34.335118 -82.549614 34.335303 -82.549788 34.335632 -82.549985 34.335751 -82.550013 34.336028 -82.550015 34.336435 -82.549934 34.336838 -82.549695 34.336580 -82.548831 34.336487 -82.548701 34.336431 -82.548570 34.336432 -82.548310 34.336394 -82.548094 34.336267 -82.547944 34.336138 -82.547836 34.335935 -82.547751 34.335350 -82.547601 34.335203 -82.547532 34.335018 -82.547297 34.334927 -82.547080 34.334927 -82.546864 34.334981 -82.546689 34.335147 -82.546473 34.335350 -82.546366 34.335551 -82.546346 34.336102 -82.546454 34.336358 -82.546473 34.336580 -82.546390 34.336615 -82.546257 34.336596 -82.546042 34.336542 -82.545850 34.336340 -82.545590 34.336175 -82.545415 34.336137 -82.545199 34.336175 -82.544832 34.336249 -82.544463 34.336378 -82.544077 34.336689 -82.543557 34.336872 -82.543214 34.336981 -82.542929 34.337129 -82.542693 34.337332 -82.542307 34.337441 -82.542066 34.337479 -82.541830 34.337479 -82.541744 34.337405 -82.541719 34.337312 -82.541719 34.337219 -82.541809 34.337110 -82.541959 34.337036 -82.542196 34.336927 -82.542455 34.336487 -82.543276 34.336102 -82.543796 34.335735 -82.544380 34.335604 -82.544552 34.335421 -82.544704 34.335090 -82.544900 34.334989 -82.544842 34.334546 -82.545535 34.334772 -82.545535 34.334844 -82.545587 34.334899 -82.545633 34.334949 -82.545733 34.334939 -82.545866 34.334874 -82.546011 34.334628 -82.546396 34.334364 -82.546886 34.334316 -82.547113 34.334344 -82.547557 34.334320 -82.547749 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC007</ms:areasymbol>
+        <ms:musym>CdC</ms:musym>
+        <ms:nationalmusym>2q7j8</ms:nationalmusym>
+        <ms:mukey>131794</ms:mukey>
+        <ms:spatialversion>8</ms:spatialversion>
+        <ms:muname>Cecil sandy loam, 6 to 10 percent slopes</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp>8</ms:slopegraddcp>
+        <ms:slopegradwta>8</ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin></ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta>2.99</ms:aws025wta>
+        <ms:aws050wta>5.5</ms:aws050wta>
+        <ms:aws0100wta>10.48</ms:aws0100wta>
+        <ms:aws0150wta>16.87</ms:aws0150wta>
+        <ms:drclassdcd>Well drained</ms:drclassdcd>
+        <ms:drclasswettest>Well drained</ms:drclasswettest>
+        <ms:hydgrpdcd>B</ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>3</ms:niccdcd>
+        <ms:niccdcdpct>98</ms:niccdcdpct>
+        <ms:engdwobdcd>Not limited</ms:engdwobdcd>
+        <ms:engdwbdcd>Not limited</ms:engdwbdcd>
+        <ms:engdwbll>Not limited</ms:engdwbll>
+        <ms:engdwbml>Somewhat limited</ms:engdwbml>
+        <ms:engstafdcd>Somewhat limited</ms:engstafdcd>
+        <ms:engstafll>Somewhat limited</ms:engstafll>
+        <ms:engstafml>Very limited</ms:engstafml>
+        <ms:engsldcd>Very limited</ms:engsldcd>
+        <ms:engsldcp>Very limited</ms:engsldcp>
+        <ms:englrsdcd>Very limited</ms:englrsdcd>
+        <ms:engcmssdcd>Poor</ms:engcmssdcd>
+        <ms:engcmssmp>Poor</ms:engcmssmp>
+        <ms:urbrecptdcd>Somewhat limited</ms:urbrecptdcd>
+        <ms:urbrecptwta>0.05</ms:urbrecptwta>
+        <ms:forpehrtdcp>Erosion hazard moderate</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta>0.542</ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386744684</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.131789">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.329231 -82.562200</gml:lowerCorner>
+        		<gml:upperCorner>34.336907 -82.555796</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.329231 -82.562081 34.329544 -82.562196 34.329649 -82.562200 34.329775 -82.562172 34.329856 -82.562154 34.329984 -82.562057 34.330127 -82.561779 34.330181 -82.561529 34.330185 -82.561325 34.330113 -82.560827 34.330114 -82.560598 34.330116 -82.560529 34.330185 -82.560170 34.330417 -82.559616 34.330731 -82.559261 34.330877 -82.559051 34.330949 -82.558856 34.331058 -82.558720 34.331399 -82.558575 34.331629 -82.558388 34.332131 -82.558099 34.332384 -82.557885 34.332651 -82.557759 34.332874 -82.557747 34.332991 -82.557773 34.333056 -82.557815 34.333131 -82.557896 34.333270 -82.558189 34.333485 -82.558408 34.333645 -82.558473 34.333921 -82.558472 34.334027 -82.558408 34.334429 -82.558162 34.334650 -82.557945 34.334883 -82.557555 34.335018 -82.557364 34.335199 -82.557208 34.335288 -82.557154 34.335360 -82.557125 34.335578 -82.557083 34.336002 -82.557071 34.336290 -82.557111 34.336516 -82.557129 34.336558 -82.557116 34.336580 -82.557055 34.336782 -82.556774 34.336842 -82.556660 34.336894 -82.556515 34.336907 -82.556281 34.336870 -82.556138 34.336776 -82.556011 34.336671 -82.555906 34.336504 -82.555846 34.336009 -82.555796 34.335614 -82.555811 34.335332 -82.555928 34.335177 -82.556041 34.334770 -82.556396 34.334606 -82.556515 34.334370 -82.556650 34.333421 -82.556843 34.332923 -82.557093 34.332566 -82.557220 34.331630 -82.557350 34.331354 -82.557511 34.331044 -82.557613 34.330756 -82.557797 34.330552 -82.557879 34.330120 -82.558305 34.329885 -82.558622 34.329747 -82.558894 34.329699 -82.559181 34.329671 -82.559467 34.329358 -82.560047 34.329346 -82.560188 34.329350 -82.560585 34.329449 -82.561097 34.329449 -82.561166 34.329510 -82.561156 34.329693 -82.561190 34.329736 -82.561246 34.329760 -82.561522 34.329735 -82.561706 34.329679 -82.561785 34.329231 -82.562081 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC007</ms:areasymbol>
+        <ms:musym>Ca</ms:musym>
+        <ms:nationalmusym>4f48</ms:nationalmusym>
+        <ms:mukey>131789</ms:mukey>
+        <ms:spatialversion>8</ms:spatialversion>
+        <ms:muname>Cartecay-Chewacla complex</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp>1</ms:slopegraddcp>
+        <ms:slopegradwta>1</ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin>31</ms:wtdepannmin>
+        <ms:wtdepaprjunmin>31</ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>Occasional</ms:flodfreqdcd>
+        <ms:flodfreqmax>Occasional</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta>3.38</ms:aws025wta>
+        <ms:aws050wta>6.91</ms:aws050wta>
+        <ms:aws0100wta>13.91</ms:aws0100wta>
+        <ms:aws0150wta>20.01</ms:aws0150wta>
+        <ms:drclassdcd>Somewhat poorly drained</ms:drclassdcd>
+        <ms:drclasswettest>Somewhat poorly drained</ms:drclasswettest>
+        <ms:hydgrpdcd>A/D</ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>3</ms:niccdcd>
+        <ms:niccdcdpct>95</ms:niccdcdpct>
+        <ms:engdwobdcd>Very limited</ms:engdwobdcd>
+        <ms:engdwbdcd>Very limited</ms:engdwbdcd>
+        <ms:engdwbll>Very limited</ms:engdwbll>
+        <ms:engdwbml>Very limited</ms:engdwbml>
+        <ms:engstafdcd>Very limited</ms:engstafdcd>
+        <ms:engstafll>Very limited</ms:engstafll>
+        <ms:engstafml>Very limited</ms:engstafml>
+        <ms:engsldcd>Very limited</ms:engsldcd>
+        <ms:engsldcp>Very limited</ms:engsldcp>
+        <ms:englrsdcd>Very limited</ms:englrsdcd>
+        <ms:engcmssdcd>Fair</ms:engcmssdcd>
+        <ms:engcmssmp>Not rated</ms:engcmssmp>
+        <ms:urbrecptdcd>Somewhat limited</ms:urbrecptdcd>
+        <ms:urbrecptwta>0.998</ms:urbrecptwta>
+        <ms:forpehrtdcp>Erosion hazard slight</ms:forpehrtdcp>
+        <ms:hydclprs>5</ms:hydclprs>
+        <ms:awmmfpwwta>1</ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386744685</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.131793">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.352271 -82.531176</gml:lowerCorner>
+        		<gml:upperCorner>34.361755 -82.514605</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.360383 -82.524602 34.360322 -82.524243 34.360400 -82.523403 34.360072 -82.523351 34.359993 -82.523385 34.359876 -82.523483 34.359799 -82.523657 34.359666 -82.523894 34.359590 -82.523981 34.359424 -82.524066 34.359349 -82.524064 34.359165 -82.524010 34.358961 -82.523863 34.358608 -82.523852 34.358328 -82.524043 34.358196 -82.524034 34.358148 -82.524000 34.358050 -82.523880 34.358041 -82.523759 34.358084 -82.523616 34.358074 -82.523445 34.358053 -82.523381 34.357923 -82.523231 34.357771 -82.523124 34.357569 -82.522947 34.357495 -82.522831 34.357485 -82.522679 34.357507 -82.522600 34.357627 -82.522429 34.358306 -82.522282 34.358388 -82.522247 34.358541 -82.522149 34.358820 -82.521887 34.358870 -82.521666 34.358848 -82.521613 34.358819 -82.521356 34.359126 -82.520856 34.359233 -82.520614 34.359221 -82.520413 34.359153 -82.520218 34.359100 -82.519756 34.359102 -82.519630 34.359174 -82.519471 34.359188 -82.519373 34.359159 -82.519094 34.358985 -82.518908 34.358783 -82.518816 34.358558 -82.518834 34.358346 -82.518908 34.358157 -82.518883 34.358106 -82.518855 34.357959 -82.518713 34.357913 -82.518636 34.357796 -82.518157 34.357757 -82.518050 34.357564 -82.517873 34.357467 -82.517859 34.357147 -82.517861 34.356961 -82.517951 34.356862 -82.517943 34.356710 -82.517841 34.356545 -82.517619 34.356350 -82.517447 34.356156 -82.517359 34.355730 -82.517262 34.355650 -82.517214 34.355379 -82.516949 34.355130 -82.516516 34.355003 -82.516046 34.354870 -82.515355 34.354763 -82.515050 34.354626 -82.514864 34.354418 -82.514635 34.354356 -82.514605 34.352271 -82.517848 34.352679 -82.518347 34.352796 -82.518761 34.352858 -82.519415 34.352843 -82.519669 34.352737 -82.520106 34.352708 -82.520387 34.352683 -82.520690 34.352721 -82.520814 34.352856 -82.520969 34.352906 -82.521004 34.353074 -82.521023 34.353134 -82.521000 34.353257 -82.520876 34.353368 -82.520596 34.353511 -82.520370 34.353602 -82.520292 34.353808 -82.520227 34.354027 -82.520241 34.354237 -82.520340 34.354339 -82.520435 34.354580 -82.520770 34.354880 -82.520469 34.355031 -82.520430 34.355114 -82.520520 34.355124 -82.520913 34.355104 -82.521111 34.355005 -82.521378 34.354837 -82.521592 34.354765 -82.521751 34.354664 -82.522394 34.354630 -82.522487 34.354487 -82.522747 34.354221 -82.523122 34.354148 -82.523302 34.354146 -82.523522 34.354169 -82.523586 34.354332 -82.523741 34.354525 -82.523798 34.354570 -82.523799 34.354579 -82.523719 34.354591 -82.523668 34.354620 -82.523653 34.354677 -82.523651 34.354763 -82.523662 34.354828 -82.523665 34.354975 -82.523677 34.355011 -82.523677 34.355028 -82.523667 34.355048 -82.523618 34.355071 -82.523571 34.355127 -82.523547 34.355179 -82.523541 34.355236 -82.523557 34.355280 -82.523616 34.355282 -82.523651 34.355276 -82.523688 34.355253 -82.523698 34.355224 -82.523717 34.355197 -82.523760 34.355196 -82.523801 34.355229 -82.523839 34.355260 -82.523849 34.355287 -82.523860 34.355326 -82.523930 34.355354 -82.523911 34.355694 -82.524001 34.355872 -82.524090 34.356160 -82.524340 34.356321 -82.524542 34.356509 -82.524907 34.356586 -82.525163 34.356592 -82.525606 34.356796 -82.525645 34.356909 -82.525693 34.357039 -82.525834 34.357078 -82.525901 34.357209 -82.526554 34.357233 -82.527114 34.357169 -82.527357 34.357082 -82.527499 34.356981 -82.527975 34.356977 -82.528443 34.356941 -82.528573 34.356834 -82.528850 34.356827 -82.528908 34.356720 -82.529058 34.356636 -82.529269 34.356642 -82.529572 34.356757 -82.529922 34.356922 -82.530102 34.357072 -82.530148 34.357507 -82.530106 34.357642 -82.530128 34.357755 -82.530213 34.357882 -82.530376 34.357949 -82.530665 34.358177 -82.530729 34.358406 -82.530711 34.358766 -82.530467 34.358884 -82.530405 34.359165 -82.530302 34.359572 -82.530266 34.359803 -82.530288 34.360185 -82.530459 34.360393 -82.530574 34.361052 -82.531140 34.361108 -82.531170 34.361227 -82.531176 34.361326 -82.531106 34.361352 -82.531031 34.361417 -82.530576 34.361400 -82.530316 34.361360 -82.530152 34.361070 -82.529598 34.360649 -82.529118 34.360264 -82.528776 34.359856 -82.528499 34.359483 -82.528269 34.359229 -82.528134 34.358961 -82.527914 34.358827 -82.527602 34.358794 -82.527407 34.358844 -82.526661 34.358796 -82.526123 34.358842 -82.525879 34.358921 -82.525685 34.359012 -82.525592 34.359084 -82.525570 34.359231 -82.525606 34.359427 -82.526034 34.359529 -82.526471 34.359783 -82.526939 34.359881 -82.527040 34.360013 -82.527011 34.360421 -82.526641 34.360449 -82.526625 34.360576 -82.526632 34.360644 -82.526699 34.360676 -82.526771 34.360796 -82.526927 34.360915 -82.527149 34.361130 -82.527370 34.361274 -82.527373 34.361437 -82.527225 34.361471 -82.527092 34.361473 -82.526739 34.361487 -82.526675 34.361616 -82.526427 34.361755 -82.526222 34.361604 -82.526031 34.361477 -82.525794 34.361384 -82.525528 34.361342 -82.525469 34.360634 -82.525036 34.360423 -82.524705 34.360383 -82.524602 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+                <gml:interior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.357082 -82.523414 34.357069 -82.523388 34.357070 -82.523350 34.357117 -82.523241 34.357148 -82.523194 34.357177 -82.523189 34.357205 -82.523199 34.357209 -82.523203 34.357209 -82.523226 34.357210 -82.523248 34.357217 -82.523283 34.357229 -82.523324 34.357259 -82.523360 34.357278 -82.523386 34.357282 -82.523409 34.357279 -82.523432 34.357270 -82.523453 34.357245 -82.523456 34.357219 -82.523449 34.357173 -82.523442 34.357139 -82.523441 34.357109 -82.523436 34.357082 -82.523414 </gml:posList>
+                  </gml:LinearRing>
+                </gml:interior>
+                <gml:interior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.355326 -82.523479 34.355322 -82.523448 34.355491 -82.523194 34.355511 -82.523175 34.355544 -82.523145 34.355590 -82.523129 34.355628 -82.523141 34.355631 -82.523167 34.355622 -82.523205 34.355550 -82.523307 34.355487 -82.523422 34.355433 -82.523504 34.355398 -82.523519 34.355356 -82.523516 34.355336 -82.523500 34.355326 -82.523479 </gml:posList>
+                  </gml:LinearRing>
+                </gml:interior>
+                <gml:interior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.358301 -82.518978 34.358318 -82.518984 34.358319 -82.519003 34.358322 -82.519047 34.358335 -82.519089 34.358349 -82.519128 34.358357 -82.519179 34.358353 -82.519225 34.358339 -82.519260 34.358314 -82.519278 34.358290 -82.519275 34.358274 -82.519268 34.358266 -82.519250 34.358247 -82.519210 34.358204 -82.519154 34.358187 -82.519116 34.358182 -82.519074 34.358185 -82.519016 34.358197 -82.518989 34.358229 -82.518979 34.358275 -82.518978 34.358301 -82.518978 </gml:posList>
+                  </gml:LinearRing>
+                </gml:interior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC007</ms:areasymbol>
+        <ms:musym>CdB</ms:musym>
+        <ms:nationalmusym>2q7j7</ms:nationalmusym>
+        <ms:mukey>131793</ms:mukey>
+        <ms:spatialversion>8</ms:spatialversion>
+        <ms:muname>Cecil sandy loam, 2 to 6 percent slopes</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp>4</ms:slopegraddcp>
+        <ms:slopegradwta>4</ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin></ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta>2.95</ms:aws025wta>
+        <ms:aws050wta>5.45</ms:aws050wta>
+        <ms:aws0100wta>10.4</ms:aws0100wta>
+        <ms:aws0150wta>17.35</ms:aws0150wta>
+        <ms:drclassdcd>Well drained</ms:drclassdcd>
+        <ms:drclasswettest>Well drained</ms:drclasswettest>
+        <ms:hydgrpdcd>B</ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>2</ms:niccdcd>
+        <ms:niccdcdpct>95</ms:niccdcdpct>
+        <ms:engdwobdcd>Not limited</ms:engdwobdcd>
+        <ms:engdwbdcd>Not limited</ms:engdwbdcd>
+        <ms:engdwbll>Not limited</ms:engdwbll>
+        <ms:engdwbml>Somewhat limited</ms:engdwbml>
+        <ms:engstafdcd>Somewhat limited</ms:engstafdcd>
+        <ms:engstafll>Somewhat limited</ms:engstafll>
+        <ms:engstafml>Very limited</ms:engstafml>
+        <ms:engsldcd>Somewhat limited</ms:engsldcd>
+        <ms:engsldcp>Somewhat limited</ms:engsldcp>
+        <ms:englrsdcd>Very limited</ms:englrsdcd>
+        <ms:engcmssdcd>Poor</ms:engcmssdcd>
+        <ms:engcmssmp>Poor</ms:engcmssmp>
+        <ms:urbrecptdcd>Somewhat limited</ms:urbrecptdcd>
+        <ms:urbrecptwta>0.052</ms:urbrecptwta>
+        <ms:forpehrtdcp>Erosion hazard moderate</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta>0.506</ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386745078</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.131793">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.345850 -82.559345</gml:lowerCorner>
+        		<gml:upperCorner>34.365920 -82.524030</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.364661 -82.543001 34.364074 -82.542128 34.363736 -82.541587 34.363392 -82.541087 34.363159 -82.540709 34.363051 -82.540446 34.362859 -82.540138 34.362725 -82.539844 34.362066 -82.538828 34.362002 -82.538636 34.361999 -82.538481 34.362036 -82.538390 34.362199 -82.538195 34.362298 -82.538140 34.362963 -82.538091 34.363250 -82.538158 34.363507 -82.538249 34.363680 -82.538398 34.363715 -82.538479 34.363751 -82.538507 34.363845 -82.538573 34.364214 -82.538693 34.364312 -82.538646 34.364396 -82.538519 34.364439 -82.538326 34.364403 -82.538128 34.364193 -82.537638 34.363758 -82.537283 34.363724 -82.537224 34.363669 -82.537003 34.363626 -82.536896 34.363435 -82.536670 34.363239 -82.536497 34.363179 -82.536398 34.363110 -82.536118 34.363108 -82.535828 34.363146 -82.535668 34.363164 -82.535642 34.363280 -82.535580 34.363572 -82.535530 34.363701 -82.535441 34.363799 -82.535261 34.363806 -82.535084 34.363757 -82.534926 34.363753 -82.534751 34.363844 -82.534598 34.363852 -82.534485 34.363834 -82.534395 34.363741 -82.534262 34.363604 -82.534171 34.363480 -82.534165 34.363199 -82.534195 34.362838 -82.534314 34.362560 -82.534483 34.362269 -82.534908 34.362021 -82.535469 34.361937 -82.535771 34.361713 -82.536223 34.361683 -82.536312 34.361393 -82.536632 34.361308 -82.536655 34.361134 -82.536659 34.361060 -82.536600 34.361030 -82.536552 34.360945 -82.536328 34.360902 -82.535892 34.360943 -82.535598 34.361035 -82.535406 34.361243 -82.535036 34.361364 -82.534743 34.361406 -82.534463 34.361372 -82.533979 34.361383 -82.533877 34.361495 -82.533711 34.361656 -82.533600 34.362143 -82.533584 34.362306 -82.533530 34.362409 -82.533424 34.362437 -82.533360 34.362459 -82.532971 34.361754 -82.532634 34.361490 -82.532594 34.361390 -82.532604 34.361257 -82.532666 34.361070 -82.532892 34.360991 -82.532963 34.360906 -82.532995 34.360812 -82.532997 34.360632 -82.532872 34.360518 -82.532630 34.360432 -82.532284 34.360376 -82.532183 34.360239 -82.532062 34.360163 -82.532051 34.359971 -82.532090 34.359608 -82.532424 34.359378 -82.532422 34.359150 -82.532275 34.358941 -82.531887 34.358807 -82.531742 34.358783 -82.531693 34.358700 -82.531662 34.358667 -82.531662 34.358513 -82.531778 34.358372 -82.531999 34.358350 -82.532076 34.358241 -82.532439 34.357901 -82.533038 34.357713 -82.533215 34.357656 -82.533248 34.357600 -82.533268 34.357411 -82.533265 34.357237 -82.533195 34.357100 -82.533067 34.356919 -82.532803 34.356761 -82.532320 34.356647 -82.532084 34.356407 -82.531832 34.356227 -82.531785 34.356007 -82.531820 34.355907 -82.531895 34.355656 -82.532197 34.355415 -82.532667 34.355276 -82.532817 34.355189 -82.532862 34.355161 -82.532860 34.355122 -82.532838 34.355050 -82.532735 34.354818 -82.532172 34.354610 -82.531850 34.354523 -82.531761 34.354397 -82.531756 34.354229 -82.531691 34.354122 -82.531524 34.354040 -82.531273 34.353991 -82.531048 34.354003 -82.530425 34.354070 -82.530058 34.354340 -82.529589 34.354398 -82.529518 34.354632 -82.529342 34.354898 -82.529248 34.355079 -82.529134 34.355285 -82.528927 34.355328 -82.528850 34.355463 -82.528524 34.355475 -82.528221 34.355417 -82.527899 34.355430 -82.527519 34.355511 -82.527377 34.355700 -82.527245 34.355794 -82.527090 34.355801 -82.526816 34.355745 -82.526651 34.355749 -82.526461 34.355838 -82.526231 34.355987 -82.526005 34.356024 -82.525969 34.355921 -82.525698 34.355832 -82.525105 34.355775 -82.524983 34.355594 -82.524791 34.355350 -82.524623 34.355249 -82.524592 34.355057 -82.524611 34.354743 -82.524907 34.354505 -82.524904 34.354221 -82.524798 34.354059 -82.524661 34.353703 -82.524223 34.353664 -82.524193 34.353497 -82.524092 34.353305 -82.524046 34.353092 -82.524030 34.353025 -82.524056 34.352842 -82.524207 34.352346 -82.524665 34.352402 -82.524863 34.352368 -82.525171 34.352243 -82.525278 34.351878 -82.525355 34.351797 -82.525447 34.351786 -82.525574 34.351817 -82.525641 34.351921 -82.525755 34.352044 -82.525804 34.352305 -82.525867 34.352358 -82.525909 34.352451 -82.525937 34.352578 -82.526096 34.352586 -82.526243 34.352459 -82.526461 34.352003 -82.526541 34.351924 -82.526576 34.351802 -82.526726 34.351789 -82.526820 34.351840 -82.526917 34.352217 -82.527110 34.352423 -82.527379 34.352465 -82.527532 34.352463 -82.527576 34.352342 -82.527729 34.352183 -82.527796 34.351645 -82.527683 34.351415 -82.527722 34.351304 -82.527804 34.351130 -82.527854 34.350848 -82.527838 34.350638 -82.527681 34.350334 -82.527312 34.350169 -82.527221 34.350027 -82.527219 34.349932 -82.527288 34.349771 -82.527501 34.349743 -82.527560 34.349667 -82.527625 34.349493 -82.527659 34.349334 -82.527541 34.349122 -82.527806 34.349165 -82.528031 34.349328 -82.528451 34.349364 -82.528816 34.349360 -82.528897 34.349658 -82.528947 34.350190 -82.528860 34.350433 -82.528703 34.350554 -82.528671 34.350709 -82.528687 34.350862 -82.528838 34.350985 -82.529239 34.351017 -82.529280 34.351042 -82.529368 34.351183 -82.529542 34.351237 -82.529977 34.351282 -82.530041 34.351539 -82.530295 34.351703 -82.530576 34.351733 -82.530676 34.351793 -82.531064 34.351810 -82.531439 34.351795 -82.531633 34.351681 -82.531983 34.351549 -82.532150 34.351473 -82.532193 34.351322 -82.532229 34.351161 -82.532198 34.350717 -82.531884 34.350293 -82.531433 34.349987 -82.531191 34.349659 -82.530998 34.349259 -82.530913 34.349205 -82.531223 34.349123 -82.531442 34.348927 -82.531713 34.348766 -82.531849 34.348416 -82.531957 34.348324 -82.532023 34.348237 -82.532106 34.347987 -82.532544 34.347751 -82.532773 34.347728 -82.532767 34.347677 -82.532792 34.347159 -82.533217 34.346973 -82.533443 34.346574 -82.533818 34.346453 -82.534036 34.346425 -82.534167 34.346328 -82.535332 34.346227 -82.537120 34.346281 -82.537588 34.346352 -82.537759 34.346457 -82.537900 34.346568 -82.537995 34.346629 -82.538014 34.346917 -82.538026 34.347328 -82.537911 34.347509 -82.537818 34.347529 -82.537684 34.347697 -82.536997 34.347826 -82.536165 34.347846 -82.535645 34.347808 -82.535257 34.347806 -82.534846 34.347858 -82.534425 34.347951 -82.534102 34.348086 -82.533842 34.348393 -82.533527 34.348735 -82.533310 34.348862 -82.533299 34.349038 -82.533340 34.349219 -82.533457 34.349580 -82.533862 34.349840 -82.534255 34.349894 -82.534361 34.350346 -82.534943 34.350592 -82.535416 34.350715 -82.535753 34.350868 -82.535967 34.351014 -82.536337 34.351153 -82.536543 34.351265 -82.536789 34.351417 -82.537034 34.351721 -82.537449 34.351818 -82.537558 34.351886 -82.537606 34.352023 -82.537626 34.352193 -82.537546 34.352323 -82.537360 34.352387 -82.537164 34.352623 -82.536118 34.352596 -82.536037 34.352684 -82.535852 34.352763 -82.535507 34.352755 -82.535037 34.352667 -82.534719 34.352410 -82.534128 34.352211 -82.533566 34.352172 -82.533304 34.352179 -82.533128 34.352205 -82.533052 34.352330 -82.532870 34.352357 -82.532857 34.352568 -82.532881 34.352697 -82.532988 34.352741 -82.533068 34.353106 -82.533547 34.353277 -82.533689 34.353477 -82.533688 34.353872 -82.533489 34.354070 -82.533529 34.354118 -82.533584 34.354177 -82.533713 34.354197 -82.533792 34.354201 -82.533920 34.354179 -82.534130 34.354082 -82.534445 34.354074 -82.534531 34.354174 -82.535483 34.354152 -82.535743 34.354120 -82.535824 34.354058 -82.536143 34.354124 -82.537046 34.354128 -82.537307 34.354070 -82.537682 34.353796 -82.538229 34.353631 -82.538684 34.353606 -82.538799 34.353598 -82.539249 34.353709 -82.539552 34.353787 -82.539629 34.353877 -82.539650 34.354020 -82.539611 34.354149 -82.539507 34.354324 -82.539344 34.354624 -82.538961 34.354709 -82.538917 34.354885 -82.538907 34.354945 -82.538969 34.354961 -82.539079 34.354925 -82.539277 34.354838 -82.539493 34.354675 -82.539727 34.354501 -82.539882 34.354336 -82.539995 34.353965 -82.540106 34.353854 -82.540124 34.353427 -82.540313 34.352643 -82.541058 34.352227 -82.541386 34.352181 -82.541394 34.352187 -82.541453 34.352145 -82.541733 34.352163 -82.541936 34.352274 -82.542097 34.352417 -82.542206 34.352669 -82.542346 34.352822 -82.542494 34.352869 -82.542578 34.352881 -82.542664 34.352856 -82.542848 34.352776 -82.542980 34.352657 -82.543124 34.352303 -82.543358 34.352120 -82.543519 34.351921 -82.543767 34.351887 -82.543826 34.351749 -82.544269 34.351610 -82.544569 34.350975 -82.545263 34.350759 -82.545610 34.350664 -82.545880 34.350608 -82.546093 34.350465 -82.546960 34.350247 -82.547631 34.350366 -82.547785 34.350362 -82.547954 34.350181 -82.548671 34.350201 -82.549075 34.350328 -82.549431 34.350457 -82.549662 34.350852 -82.550168 34.351026 -82.550529 34.351054 -82.550672 34.351054 -82.550865 34.350989 -82.551037 34.350645 -82.551482 34.350137 -82.551973 34.349685 -82.552289 34.349590 -82.552331 34.349213 -82.552600 34.348699 -82.552933 34.348538 -82.553064 34.348242 -82.553404 34.348209 -82.553536 34.348222 -82.553708 34.348373 -82.554446 34.348401 -82.554979 34.348363 -82.555136 34.348302 -82.555298 34.348165 -82.555505 34.347997 -82.555660 34.347679 -82.555854 34.347494 -82.555875 34.347371 -82.555797 34.347219 -82.555520 34.347119 -82.555237 34.346992 -82.555029 34.346765 -82.554821 34.346719 -82.554799 34.346498 -82.554839 34.346360 -82.554929 34.346260 -82.555037 34.346145 -82.555301 34.346054 -82.555592 34.345951 -82.556005 34.345850 -82.556668 34.345883 -82.557225 34.345970 -82.557454 34.346031 -82.557545 34.346181 -82.557708 34.346365 -82.557813 34.346510 -82.557807 34.346633 -82.557700 34.346758 -82.557511 34.346826 -82.557479 34.347038 -82.557525 34.347070 -82.557551 34.347157 -82.557561 34.347455 -82.557276 34.347699 -82.556880 34.347796 -82.556783 34.348014 -82.556688 34.348338 -82.556696 34.348417 -82.556727 34.348518 -82.556801 34.348615 -82.556971 34.348919 -82.557787 34.349046 -82.558005 34.349185 -82.558132 34.349343 -82.558148 34.349391 -82.558134 34.349582 -82.558031 34.349725 -82.557917 34.349909 -82.557805 34.350104 -82.557805 34.350217 -82.557938 34.350318 -82.558239 34.350379 -82.558364 34.350617 -82.558656 34.351191 -82.558983 34.351611 -82.559304 34.351754 -82.559345 34.351911 -82.559321 34.351962 -82.559268 34.352032 -82.559079 34.352027 -82.558888 34.351966 -82.558774 34.351942 -82.558321 34.352042 -82.558202 34.352075 -82.558113 34.352088 -82.557976 34.352076 -82.557775 34.351988 -82.557617 34.351964 -82.557545 34.351969 -82.557482 34.351999 -82.557446 34.352190 -82.557313 34.352264 -82.557178 34.352276 -82.557073 34.352278 -82.556908 34.352258 -82.556807 34.352121 -82.556446 34.352095 -82.556170 34.352232 -82.555995 34.352385 -82.555914 34.352683 -82.555811 34.353040 -82.555764 34.353169 -82.555696 34.353330 -82.555480 34.353358 -82.555278 34.353357 -82.555143 34.353312 -82.555053 34.352943 -82.554827 34.352822 -82.554797 34.352477 -82.554789 34.351949 -82.554868 34.351300 -82.555111 34.350757 -82.555381 34.350476 -82.555468 34.350342 -82.555465 34.350197 -82.555380 34.350165 -82.555344 34.350096 -82.555150 34.350086 -82.554948 34.350110 -82.554618 34.350151 -82.554497 34.350280 -82.554366 34.350673 -82.554088 34.350725 -82.554007 34.350827 -82.553440 34.350860 -82.553376 34.351052 -82.553110 34.351149 -82.553023 34.351390 -82.552898 34.351508 -82.552752 34.351584 -82.552065 34.351602 -82.552020 34.351749 -82.551839 34.351776 -82.551739 34.351731 -82.551026 34.351753 -82.550428 34.351847 -82.550085 34.351893 -82.549981 34.352256 -82.549430 34.352508 -82.548914 34.352608 -82.548448 34.352689 -82.547406 34.352749 -82.547144 34.352977 -82.546904 34.353076 -82.546872 34.353115 -82.546880 34.353223 -82.547005 34.353290 -82.547118 34.353388 -82.547405 34.353395 -82.547469 34.353556 -82.547842 34.353693 -82.548070 34.353820 -82.548170 34.353878 -82.548174 34.353955 -82.548139 34.354030 -82.548059 34.354115 -82.547918 34.354136 -82.547761 34.354088 -82.547233 34.354133 -82.546855 34.354215 -82.546576 34.354320 -82.546414 34.354465 -82.546089 34.354482 -82.546012 34.354509 -82.545514 34.354500 -82.545319 34.354528 -82.544969 34.354615 -82.544763 34.354814 -82.544573 34.354848 -82.544497 34.354971 -82.543795 34.355092 -82.543387 34.355207 -82.543139 34.355352 -82.542969 34.355539 -82.542838 34.355665 -82.542837 34.355705 -82.542867 34.355855 -82.543120 34.355872 -82.543159 34.355917 -82.543375 34.356021 -82.543708 34.356129 -82.543999 34.356257 -82.544698 34.356284 -82.544765 34.356385 -82.545181 34.356380 -82.546376 34.356417 -82.547878 34.356466 -82.548364 34.356481 -82.548374 34.356513 -82.548553 34.356600 -82.548710 34.356699 -82.548767 34.356741 -82.548736 34.356820 -82.548626 34.356848 -82.548559 34.356869 -82.548125 34.356820 -82.547234 34.356824 -82.546549 34.356878 -82.546092 34.356963 -82.545736 34.357157 -82.545362 34.357276 -82.545239 34.357538 -82.545104 34.357761 -82.545095 34.357915 -82.545168 34.358023 -82.545333 34.358072 -82.545529 34.358052 -82.546023 34.358133 -82.546433 34.358183 -82.546773 34.358259 -82.546872 34.358312 -82.546892 34.358400 -82.546890 34.358481 -82.546833 34.358933 -82.546368 34.359737 -82.545857 34.359899 -82.545801 34.360149 -82.545882 34.360281 -82.546144 34.360330 -82.546388 34.360325 -82.546443 34.360230 -82.546558 34.360220 -82.546666 34.360284 -82.547045 34.360272 -82.547242 34.359971 -82.547729 34.359544 -82.548233 34.359358 -82.548656 34.359500 -82.548908 34.359544 -82.548951 34.359677 -82.549009 34.359868 -82.548924 34.360016 -82.548777 34.360187 -82.548575 34.360248 -82.548529 34.360399 -82.548501 34.360532 -82.548704 34.360617 -82.549031 34.360739 -82.549202 34.360917 -82.549323 34.361026 -82.549342 34.361130 -82.549263 34.361298 -82.549021 34.361252 -82.548688 34.360959 -82.548132 34.360925 -82.547998 34.360927 -82.547862 34.360961 -82.547596 34.360982 -82.547541 34.361167 -82.547347 34.361318 -82.547257 34.361617 -82.547140 34.361907 -82.547089 34.362018 -82.547045 34.362197 -82.546850 34.362287 -82.546674 34.362289 -82.546591 34.362233 -82.546438 34.362116 -82.546295 34.361903 -82.546168 34.361838 -82.546154 34.361474 -82.545984 34.361238 -82.545810 34.361001 -82.545523 34.360906 -82.545335 34.360653 -82.544639 34.360390 -82.543407 34.360345 -82.542974 34.360350 -82.542694 34.360415 -82.542201 34.360420 -82.542066 34.360393 -82.541904 34.360326 -82.541713 34.360199 -82.541577 34.359898 -82.541501 34.359695 -82.541562 34.359473 -82.541709 34.359304 -82.541796 34.359187 -82.541825 34.358886 -82.541811 34.358791 -82.541723 34.358766 -82.541663 34.358737 -82.541485 34.358745 -82.541339 34.359045 -82.540910 34.359142 -82.540798 34.359247 -82.540786 34.359303 -82.540781 34.359346 -82.540779 34.359397 -82.540764 34.359418 -82.540745 34.359602 -82.540614 34.359739 -82.540601 34.359859 -82.540668 34.359998 -82.540806 34.360038 -82.540813 34.360130 -82.540772 34.360193 -82.540685 34.360227 -82.540247 34.360180 -82.539926 34.360080 -82.539636 34.359891 -82.539422 34.359315 -82.538991 34.359170 -82.538801 34.359140 -82.538648 34.359141 -82.538487 34.359149 -82.538457 34.359273 -82.538398 34.359292 -82.538330 34.359283 -82.538151 34.359201 -82.537973 34.359199 -82.537816 34.359217 -82.537769 34.359293 -82.537677 34.359451 -82.537573 34.359646 -82.537560 34.359839 -82.537618 34.360030 -82.537758 34.360091 -82.537834 34.360261 -82.538162 34.360334 -82.538424 34.360559 -82.538999 34.360798 -82.539522 34.360830 -82.539620 34.360982 -82.539854 34.361091 -82.540154 34.361181 -82.540321 34.361449 -82.540971 34.361640 -82.541249 34.361725 -82.541343 34.362089 -82.541657 34.362149 -82.541727 34.362193 -82.541799 34.362304 -82.542105 34.362328 -82.542246 34.362304 -82.542501 34.362163 -82.542787 34.362086 -82.542845 34.361990 -82.542847 34.361963 -82.542833 34.361697 -82.542612 34.361562 -82.542614 34.361515 -82.542665 34.361498 -82.542741 34.361528 -82.542965 34.361633 -82.543233 34.361756 -82.543438 34.362007 -82.543727 34.362195 -82.543878 34.362220 -82.543916 34.362318 -82.543981 34.362393 -82.544067 34.362947 -82.544515 34.363042 -82.544630 34.363240 -82.544817 34.363241 -82.544834 34.363672 -82.545184 34.363949 -82.545571 34.364278 -82.546398 34.364494 -82.546795 34.364640 -82.546967 34.364671 -82.546985 34.364796 -82.546991 34.364850 -82.546957 34.364885 -82.546900 34.364893 -82.546755 34.364878 -82.546613 34.364492 -82.545398 34.364470 -82.544984 34.364500 -82.544827 34.364533 -82.544789 34.364679 -82.544811 34.364799 -82.544915 34.364993 -82.545388 34.365211 -82.545833 34.365437 -82.546087 34.365631 -82.546242 34.365818 -82.546234 34.365884 -82.546166 34.365920 -82.545978 34.365902 -82.545761 34.365685 -82.545326 34.365482 -82.545039 34.365326 -82.544573 34.365219 -82.544065 34.365082 -82.543719 34.364971 -82.543555 34.364661 -82.543001 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC007</ms:areasymbol>
+        <ms:musym>CdB</ms:musym>
+        <ms:nationalmusym>2q7j7</ms:nationalmusym>
+        <ms:mukey>131793</ms:mukey>
+        <ms:spatialversion>8</ms:spatialversion>
+        <ms:muname>Cecil sandy loam, 2 to 6 percent slopes</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp>4</ms:slopegraddcp>
+        <ms:slopegradwta>4</ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin></ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta>2.95</ms:aws025wta>
+        <ms:aws050wta>5.45</ms:aws050wta>
+        <ms:aws0100wta>10.4</ms:aws0100wta>
+        <ms:aws0150wta>17.35</ms:aws0150wta>
+        <ms:drclassdcd>Well drained</ms:drclassdcd>
+        <ms:drclasswettest>Well drained</ms:drclasswettest>
+        <ms:hydgrpdcd>B</ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>2</ms:niccdcd>
+        <ms:niccdcdpct>95</ms:niccdcdpct>
+        <ms:engdwobdcd>Not limited</ms:engdwobdcd>
+        <ms:engdwbdcd>Not limited</ms:engdwbdcd>
+        <ms:engdwbll>Not limited</ms:engdwbll>
+        <ms:engdwbml>Somewhat limited</ms:engdwbml>
+        <ms:engstafdcd>Somewhat limited</ms:engstafdcd>
+        <ms:engstafll>Somewhat limited</ms:engstafll>
+        <ms:engstafml>Very limited</ms:engstafml>
+        <ms:engsldcd>Somewhat limited</ms:engsldcd>
+        <ms:engsldcp>Somewhat limited</ms:engsldcp>
+        <ms:englrsdcd>Very limited</ms:englrsdcd>
+        <ms:engcmssdcd>Poor</ms:engcmssdcd>
+        <ms:engcmssmp>Poor</ms:engcmssmp>
+        <ms:urbrecptdcd>Somewhat limited</ms:urbrecptdcd>
+        <ms:urbrecptwta>0.052</ms:urbrecptwta>
+        <ms:forpehrtdcp>Erosion hazard moderate</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta>0.506</ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386745858</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.131794">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.331092 -82.555379</gml:lowerCorner>
+        		<gml:upperCorner>34.339419 -82.548591</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.338619 -82.550007 34.338072 -82.550409 34.338017 -82.550513 34.338003 -82.550756 34.338038 -82.550890 34.338235 -82.551279 34.338574 -82.551741 34.338724 -82.551989 34.338858 -82.552172 34.338905 -82.552473 34.338873 -82.552718 34.338782 -82.552807 34.338633 -82.552821 34.338526 -82.552818 34.338276 -82.552727 34.337996 -82.552410 34.337925 -82.552277 34.337858 -82.552056 34.337848 -82.551680 34.337810 -82.551590 34.337701 -82.551423 34.337320 -82.551225 34.336937 -82.551204 34.336711 -82.551323 34.336623 -82.551442 34.336578 -82.551606 34.336596 -82.551726 34.336735 -82.552034 34.336884 -82.552545 34.336928 -82.552798 34.336907 -82.553009 34.336829 -82.553245 34.336814 -82.553336 34.336782 -82.553384 34.336695 -82.553442 34.336516 -82.553490 34.336362 -82.553451 34.336251 -82.553277 34.336217 -82.552710 34.336225 -82.552567 34.336167 -82.552343 34.335865 -82.552033 34.335612 -82.551896 34.335426 -82.551692 34.335356 -82.551588 34.335283 -82.551426 34.335215 -82.551135 34.335153 -82.550547 34.335002 -82.550236 34.334975 -82.550207 34.334869 -82.550172 34.334653 -82.550194 34.334507 -82.550285 34.334417 -82.550417 34.334275 -82.550731 34.334189 -82.550868 34.333917 -82.551434 34.333697 -82.551679 34.333479 -82.551795 34.333287 -82.551821 34.333129 -82.551662 34.333113 -82.551386 34.333259 -82.551039 34.333471 -82.550725 34.333768 -82.550448 34.333955 -82.550199 34.334090 -82.549901 34.334163 -82.549531 34.334163 -82.549330 34.334130 -82.549107 34.334010 -82.548924 34.333947 -82.548882 34.333735 -82.548853 34.333038 -82.548823 34.332754 -82.548729 34.332592 -82.548591 34.331092 -82.550953 34.331122 -82.551281 34.331145 -82.551374 34.331249 -82.551576 34.331574 -82.552071 34.331709 -82.552188 34.331909 -82.552179 34.331965 -82.552134 34.332020 -82.551995 34.332044 -82.551670 34.332164 -82.551533 34.332282 -82.551521 34.332410 -82.551581 34.332524 -82.551759 34.332616 -82.552087 34.332655 -82.552940 34.332752 -82.553309 34.332866 -82.553467 34.332976 -82.553541 34.333080 -82.553538 34.333272 -82.553459 34.333487 -82.553457 34.333632 -82.553608 34.333659 -82.553667 34.333711 -82.553924 34.333729 -82.554109 34.333695 -82.555130 34.333789 -82.555297 34.333881 -82.555379 34.334008 -82.555377 34.334131 -82.555313 34.334202 -82.555251 34.334282 -82.555149 34.334366 -82.554883 34.334397 -82.554719 34.334400 -82.553940 34.334350 -82.553667 34.334307 -82.553101 34.334322 -82.551763 34.334352 -82.551548 34.334391 -82.551435 34.334516 -82.551235 34.334607 -82.551168 34.334834 -82.551178 34.334881 -82.551267 34.335003 -82.551849 34.335103 -82.552099 34.335262 -82.552347 34.335511 -82.552619 34.335657 -82.552804 34.335711 -82.552840 34.335783 -82.552930 34.335822 -82.553197 34.335850 -82.553539 34.335842 -82.554176 34.335903 -82.554608 34.335974 -82.554834 34.336273 -82.555168 34.336397 -82.555235 34.336637 -82.555226 34.336874 -82.555108 34.337042 -82.554888 34.337143 -82.554701 34.337171 -82.554618 34.337257 -82.554029 34.337365 -82.553603 34.337455 -82.553400 34.337646 -82.553225 34.337810 -82.553193 34.338020 -82.553260 34.338062 -82.553293 34.338137 -82.553429 34.338278 -82.553834 34.338415 -82.553975 34.338445 -82.553985 34.338661 -82.554000 34.338721 -82.553976 34.338927 -82.553836 34.339111 -82.553654 34.339177 -82.553562 34.339372 -82.552840 34.339416 -82.552340 34.339419 -82.552076 34.339365 -82.551620 34.339241 -82.551031 34.339060 -82.550622 34.338855 -82.550319 34.338808 -82.550225 34.338741 -82.550122 34.338619 -82.550007 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC007</ms:areasymbol>
+        <ms:musym>CdC</ms:musym>
+        <ms:nationalmusym>2q7j8</ms:nationalmusym>
+        <ms:mukey>131794</ms:mukey>
+        <ms:spatialversion>8</ms:spatialversion>
+        <ms:muname>Cecil sandy loam, 6 to 10 percent slopes</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp>8</ms:slopegraddcp>
+        <ms:slopegradwta>8</ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin></ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta>2.99</ms:aws025wta>
+        <ms:aws050wta>5.5</ms:aws050wta>
+        <ms:aws0100wta>10.48</ms:aws0100wta>
+        <ms:aws0150wta>16.87</ms:aws0150wta>
+        <ms:drclassdcd>Well drained</ms:drclassdcd>
+        <ms:drclasswettest>Well drained</ms:drclasswettest>
+        <ms:hydgrpdcd>B</ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>3</ms:niccdcd>
+        <ms:niccdcdpct>98</ms:niccdcdpct>
+        <ms:engdwobdcd>Not limited</ms:engdwobdcd>
+        <ms:engdwbdcd>Not limited</ms:engdwbdcd>
+        <ms:engdwbll>Not limited</ms:engdwbll>
+        <ms:engdwbml>Somewhat limited</ms:engdwbml>
+        <ms:engstafdcd>Somewhat limited</ms:engstafdcd>
+        <ms:engstafll>Somewhat limited</ms:engstafll>
+        <ms:engstafml>Very limited</ms:engstafml>
+        <ms:engsldcd>Very limited</ms:engsldcd>
+        <ms:engsldcp>Very limited</ms:engsldcp>
+        <ms:englrsdcd>Very limited</ms:englrsdcd>
+        <ms:engcmssdcd>Poor</ms:engcmssdcd>
+        <ms:engcmssmp>Poor</ms:engcmssmp>
+        <ms:urbrecptdcd>Somewhat limited</ms:urbrecptdcd>
+        <ms:urbrecptwta>0.05</ms:urbrecptwta>
+        <ms:forpehrtdcp>Erosion hazard moderate</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta>0.542</ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386746235</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.131817">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.334526 -82.553465</gml:lowerCorner>
+        		<gml:upperCorner>34.335123 -82.552379</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.334532 -82.553163 34.334526 -82.553367 34.334543 -82.553437 34.334574 -82.553461 34.334607 -82.553465 34.334650 -82.553443 34.334832 -82.553264 34.335062 -82.553000 34.335090 -82.552939 34.335110 -82.552873 34.335123 -82.552805 34.335112 -82.552749 34.335095 -82.552722 34.334989 -82.552643 34.334775 -82.552501 34.334711 -82.552447 34.334662 -82.552385 34.334616 -82.552379 34.334571 -82.552422 34.334556 -82.552468 34.334542 -82.552553 34.334538 -82.552621 34.334532 -82.553163 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC007</ms:areasymbol>
+        <ms:musym>W</ms:musym>
+        <ms:nationalmusym>4f55</ms:nationalmusym>
+        <ms:mukey>131817</ms:mukey>
+        <ms:spatialversion>8</ms:spatialversion>
+        <ms:muname>Water</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp></ms:slopegraddcp>
+        <ms:slopegradwta></ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin></ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd></ms:flodfreqdcd>
+        <ms:flodfreqmax></ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta></ms:aws025wta>
+        <ms:aws050wta></ms:aws050wta>
+        <ms:aws0100wta></ms:aws0100wta>
+        <ms:aws0150wta></ms:aws0150wta>
+        <ms:drclassdcd></ms:drclassdcd>
+        <ms:drclasswettest></ms:drclasswettest>
+        <ms:hydgrpdcd></ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>8</ms:niccdcd>
+        <ms:niccdcdpct>100</ms:niccdcdpct>
+        <ms:engdwobdcd>Not rated</ms:engdwobdcd>
+        <ms:engdwbdcd>Not rated</ms:engdwbdcd>
+        <ms:engdwbll>Not rated</ms:engdwbll>
+        <ms:engdwbml>Not rated</ms:engdwbml>
+        <ms:engstafdcd>Not rated</ms:engstafdcd>
+        <ms:engstafll>Not rated</ms:engstafll>
+        <ms:engstafml>Not rated</ms:engstafml>
+        <ms:engsldcd>Not rated</ms:engsldcd>
+        <ms:engsldcp>Not rated</ms:engsldcp>
+        <ms:englrsdcd>Not rated</ms:englrsdcd>
+        <ms:engcmssdcd>Not rated</ms:engcmssdcd>
+        <ms:engcmssmp>Not rated</ms:engcmssmp>
+        <ms:urbrecptdcd>Not rated</ms:urbrecptdcd>
+        <ms:urbrecptwta></ms:urbrecptwta>
+        <ms:forpehrtdcp>Not rated</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta></ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386746353</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.131817">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.345975 -82.531352</gml:lowerCorner>
+        		<gml:upperCorner>34.346943 -82.529940</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.345975 -82.530856 34.345981 -82.531043 34.346007 -82.531087 34.346040 -82.531113 34.346101 -82.531140 34.346326 -82.531257 34.346441 -82.531336 34.346547 -82.531352 34.346694 -82.531321 34.346836 -82.531193 34.346917 -82.530994 34.346943 -82.530810 34.346874 -82.530593 34.346750 -82.530398 34.346661 -82.530324 34.346370 -82.530178 34.346140 -82.530010 34.346071 -82.529955 34.346030 -82.529940 34.346013 -82.529941 34.346006 -82.529970 34.346004 -82.529999 34.346005 -82.530293 34.345992 -82.530539 34.345975 -82.530856 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC007</ms:areasymbol>
+        <ms:musym>W</ms:musym>
+        <ms:nationalmusym>4f55</ms:nationalmusym>
+        <ms:mukey>131817</ms:mukey>
+        <ms:spatialversion>8</ms:spatialversion>
+        <ms:muname>Water</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp></ms:slopegraddcp>
+        <ms:slopegradwta></ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin></ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd></ms:flodfreqdcd>
+        <ms:flodfreqmax></ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta></ms:aws025wta>
+        <ms:aws050wta></ms:aws050wta>
+        <ms:aws0100wta></ms:aws0100wta>
+        <ms:aws0150wta></ms:aws0150wta>
+        <ms:drclassdcd></ms:drclassdcd>
+        <ms:drclasswettest></ms:drclasswettest>
+        <ms:hydgrpdcd></ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>8</ms:niccdcd>
+        <ms:niccdcdpct>100</ms:niccdcdpct>
+        <ms:engdwobdcd>Not rated</ms:engdwobdcd>
+        <ms:engdwbdcd>Not rated</ms:engdwbdcd>
+        <ms:engdwbll>Not rated</ms:engdwbll>
+        <ms:engdwbml>Not rated</ms:engdwbml>
+        <ms:engstafdcd>Not rated</ms:engstafdcd>
+        <ms:engstafll>Not rated</ms:engstafll>
+        <ms:engstafml>Not rated</ms:engstafml>
+        <ms:engsldcd>Not rated</ms:engsldcd>
+        <ms:engsldcp>Not rated</ms:engsldcp>
+        <ms:englrsdcd>Not rated</ms:englrsdcd>
+        <ms:engcmssdcd>Not rated</ms:engcmssdcd>
+        <ms:engcmssmp>Not rated</ms:engcmssmp>
+        <ms:urbrecptdcd>Not rated</ms:urbrecptdcd>
+        <ms:urbrecptwta></ms:urbrecptwta>
+        <ms:forpehrtdcp>Not rated</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta></ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386746355</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.131795">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.334927 -82.550225</gml:lowerCorner>
+        		<gml:upperCorner>34.340884 -82.537572</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.338808 -82.550225 34.338844 -82.550082 34.338863 -82.549777 34.338820 -82.549483 34.338740 -82.549237 34.338584 -82.549041 34.338358 -82.548845 34.337362 -82.548648 34.337145 -82.548513 34.337084 -82.548457 34.337028 -82.548320 34.337026 -82.548136 34.337070 -82.547958 34.337062 -82.547876 34.336973 -82.547793 34.336744 -82.547684 34.336707 -82.547648 34.336661 -82.547559 34.336647 -82.547439 34.336681 -82.547364 34.336840 -82.547199 34.336983 -82.547154 34.337217 -82.547118 34.337334 -82.547005 34.337360 -82.546798 34.337355 -82.546723 34.337267 -82.546317 34.337239 -82.546105 34.337247 -82.545997 34.337260 -82.545930 34.337330 -82.545797 34.337504 -82.545658 34.337665 -82.545648 34.337810 -82.545773 34.337852 -82.545919 34.337887 -82.546132 34.338005 -82.546497 34.338117 -82.546734 34.338220 -82.546866 34.338249 -82.546870 34.338336 -82.546940 34.338677 -82.546806 34.338731 -82.546757 34.338651 -82.546529 34.338395 -82.546022 34.338259 -82.545598 34.338233 -82.545489 34.338159 -82.544868 34.338165 -82.544607 34.338183 -82.544450 34.338543 -82.543207 34.338905 -82.541829 34.339189 -82.540466 34.339228 -82.540112 34.339636 -82.539652 34.340497 -82.539100 34.340689 -82.538931 34.340836 -82.538725 34.340884 -82.538614 34.340882 -82.538461 34.340725 -82.538340 34.340661 -82.538312 34.340136 -82.538312 34.339961 -82.538241 34.339876 -82.538169 34.339858 -82.538129 34.339771 -82.537813 34.339721 -82.537683 34.339649 -82.537572 34.334989 -82.544842 34.335090 -82.544900 34.335421 -82.544704 34.335604 -82.544552 34.335735 -82.544380 34.336102 -82.543796 34.336487 -82.543276 34.336927 -82.542455 34.337036 -82.542196 34.337110 -82.541959 34.337219 -82.541809 34.337312 -82.541719 34.337405 -82.541719 34.337479 -82.541744 34.337479 -82.541830 34.337441 -82.542066 34.337332 -82.542307 34.337129 -82.542693 34.336981 -82.542929 34.336872 -82.543214 34.336689 -82.543557 34.336378 -82.544077 34.336249 -82.544463 34.336175 -82.544832 34.336137 -82.545199 34.336175 -82.545415 34.336340 -82.545590 34.336542 -82.545850 34.336596 -82.546042 34.336615 -82.546257 34.336580 -82.546390 34.336358 -82.546473 34.336102 -82.546454 34.335551 -82.546346 34.335350 -82.546366 34.335147 -82.546473 34.334981 -82.546689 34.334927 -82.546864 34.334927 -82.547080 34.335018 -82.547297 34.335203 -82.547532 34.335350 -82.547601 34.335935 -82.547751 34.336138 -82.547836 34.336267 -82.547944 34.336394 -82.548094 34.336432 -82.548310 34.336431 -82.548570 34.336487 -82.548701 34.336580 -82.548831 34.336838 -82.549695 34.337453 -82.549204 34.337660 -82.549104 34.337760 -82.549101 34.337858 -82.549146 34.337943 -82.549217 34.338094 -82.549484 34.338279 -82.549672 34.338360 -82.549712 34.338417 -82.549763 34.338546 -82.549937 34.338619 -82.550007 34.338741 -82.550122 34.338808 -82.550225 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC007</ms:areasymbol>
+        <ms:musym>CdD</ms:musym>
+        <ms:nationalmusym>2zzyy</ms:nationalmusym>
+        <ms:mukey>131795</ms:mukey>
+        <ms:spatialversion>8</ms:spatialversion>
+        <ms:muname>Cecil-Cataula complex, 10 to 15 percent slopes, moderately eroded</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp>13</ms:slopegraddcp>
+        <ms:slopegradwta>13</ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin>84</ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta>3.35</ms:aws025wta>
+        <ms:aws050wta>6.44</ms:aws050wta>
+        <ms:aws0100wta>12.63</ms:aws0100wta>
+        <ms:aws0150wta>19.5</ms:aws0150wta>
+        <ms:drclassdcd>Well drained</ms:drclassdcd>
+        <ms:drclasswettest>Moderately well drained</ms:drclasswettest>
+        <ms:hydgrpdcd>B</ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>4</ms:niccdcd>
+        <ms:niccdcdpct>75</ms:niccdcdpct>
+        <ms:engdwobdcd>Somewhat limited</ms:engdwobdcd>
+        <ms:engdwbdcd>Somewhat limited</ms:engdwbdcd>
+        <ms:engdwbll>Somewhat limited</ms:engdwbll>
+        <ms:engdwbml>Somewhat limited</ms:engdwbml>
+        <ms:engstafdcd>Somewhat limited</ms:engstafdcd>
+        <ms:engstafll>Somewhat limited</ms:engstafll>
+        <ms:engstafml>Very limited</ms:engstafml>
+        <ms:engsldcd>Very limited</ms:engsldcd>
+        <ms:engsldcp>Very limited</ms:engsldcp>
+        <ms:englrsdcd>Very limited</ms:englrsdcd>
+        <ms:engcmssdcd>Poor</ms:engcmssdcd>
+        <ms:engcmssmp>Poor</ms:engcmssmp>
+        <ms:urbrecptdcd>Somewhat limited</ms:urbrecptdcd>
+        <ms:urbrecptwta>0.064</ms:urbrecptwta>
+        <ms:forpehrtdcp>Erosion hazard moderate</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta>0.894</ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386746439</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.131793">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.339649 -82.543507</gml:lowerCorner>
+        		<gml:upperCorner>34.345491 -82.534757</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.342255 -82.541019 34.342883 -82.539977 34.342999 -82.539822 34.343211 -82.539254 34.343332 -82.539034 34.343510 -82.538826 34.343697 -82.538677 34.343766 -82.538644 34.343886 -82.538620 34.343929 -82.538648 34.343973 -82.538758 34.343995 -82.538987 34.343953 -82.539408 34.343896 -82.539594 34.343612 -82.540251 34.343481 -82.540451 34.342909 -82.541704 34.342791 -82.541866 34.342647 -82.542163 34.342441 -82.542372 34.342273 -82.542461 34.342036 -82.542674 34.341904 -82.542859 34.341836 -82.543086 34.341836 -82.543283 34.341883 -82.543423 34.342001 -82.543507 34.342145 -82.543499 34.342343 -82.543386 34.342410 -82.543302 34.342505 -82.543124 34.342623 -82.542995 34.342737 -82.542997 34.342890 -82.543080 34.342979 -82.543088 34.343223 -82.542939 34.343366 -82.542707 34.343610 -82.542205 34.343784 -82.542049 34.343985 -82.541967 34.344155 -82.541828 34.344288 -82.541678 34.344564 -82.541296 34.344901 -82.540660 34.344925 -82.540543 34.344975 -82.539630 34.345030 -82.539251 34.345050 -82.539208 34.345159 -82.539092 34.345300 -82.539015 34.345461 -82.538768 34.345483 -82.538667 34.345491 -82.538439 34.345467 -82.538300 34.345275 -82.538136 34.345235 -82.538069 34.345139 -82.537439 34.344987 -82.537164 34.344909 -82.537062 34.344650 -82.536828 34.344384 -82.536785 34.344267 -82.536804 34.344193 -82.536840 34.344100 -82.536929 34.343937 -82.537121 34.343701 -82.537790 34.343548 -82.538050 34.343386 -82.538214 34.343251 -82.538292 34.343121 -82.538296 34.343064 -82.538276 34.343006 -82.538217 34.342977 -82.538102 34.342959 -82.537930 34.343003 -82.537735 34.343278 -82.537198 34.343320 -82.537052 34.343318 -82.536833 34.343267 -82.536660 34.343164 -82.536556 34.343134 -82.536547 34.342943 -82.536371 34.342933 -82.536379 34.342755 -82.536117 34.342710 -82.535915 34.342709 -82.535564 34.342697 -82.535499 34.342451 -82.535332 34.342213 -82.535088 34.342005 -82.534905 34.341735 -82.534792 34.341550 -82.534757 34.341439 -82.534761 34.339649 -82.537572 34.339721 -82.537683 34.339771 -82.537813 34.339997 -82.537524 34.340211 -82.537372 34.340440 -82.537340 34.340586 -82.537249 34.340617 -82.537151 34.340624 -82.537064 34.340610 -82.536686 34.340651 -82.536519 34.340808 -82.536336 34.341057 -82.536160 34.341457 -82.536066 34.341901 -82.536090 34.342299 -82.536249 34.342433 -82.536412 34.342473 -82.536519 34.342473 -82.536699 34.342354 -82.536834 34.341409 -82.537029 34.341190 -82.537153 34.341120 -82.537270 34.341100 -82.537465 34.341137 -82.537629 34.341173 -82.537664 34.341271 -82.537711 34.341382 -82.537725 34.341713 -82.537714 34.341810 -82.537759 34.341949 -82.537946 34.342034 -82.538124 34.342034 -82.538223 34.341999 -82.538449 34.341875 -82.538598 34.341644 -82.538725 34.341618 -82.538779 34.341596 -82.538993 34.341674 -82.539511 34.341604 -82.539803 34.341568 -82.539895 34.341537 -82.539925 34.341372 -82.539993 34.341031 -82.539971 34.340850 -82.539993 34.340687 -82.540125 34.340584 -82.540344 34.340560 -82.540440 34.340548 -82.540741 34.340691 -82.541021 34.340697 -82.541287 34.340542 -82.541843 34.340551 -82.541993 34.340590 -82.542116 34.340721 -82.542233 34.340899 -82.542241 34.341124 -82.542166 34.341231 -82.542157 34.341417 -82.542026 34.341675 -82.541771 34.342128 -82.541225 34.342255 -82.541019 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC007</ms:areasymbol>
+        <ms:musym>CdB</ms:musym>
+        <ms:nationalmusym>2q7j7</ms:nationalmusym>
+        <ms:mukey>131793</ms:mukey>
+        <ms:spatialversion>8</ms:spatialversion>
+        <ms:muname>Cecil sandy loam, 2 to 6 percent slopes</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp>4</ms:slopegraddcp>
+        <ms:slopegradwta>4</ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin></ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta>2.95</ms:aws025wta>
+        <ms:aws050wta>5.45</ms:aws050wta>
+        <ms:aws0100wta>10.4</ms:aws0100wta>
+        <ms:aws0150wta>17.35</ms:aws0150wta>
+        <ms:drclassdcd>Well drained</ms:drclassdcd>
+        <ms:drclasswettest>Well drained</ms:drclasswettest>
+        <ms:hydgrpdcd>B</ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>2</ms:niccdcd>
+        <ms:niccdcdpct>95</ms:niccdcdpct>
+        <ms:engdwobdcd>Not limited</ms:engdwobdcd>
+        <ms:engdwbdcd>Not limited</ms:engdwbdcd>
+        <ms:engdwbll>Not limited</ms:engdwbll>
+        <ms:engdwbml>Somewhat limited</ms:engdwbml>
+        <ms:engstafdcd>Somewhat limited</ms:engstafdcd>
+        <ms:engstafll>Somewhat limited</ms:engstafll>
+        <ms:engstafml>Very limited</ms:engstafml>
+        <ms:engsldcd>Somewhat limited</ms:engsldcd>
+        <ms:engsldcp>Somewhat limited</ms:engsldcp>
+        <ms:englrsdcd>Very limited</ms:englrsdcd>
+        <ms:engcmssdcd>Poor</ms:engcmssdcd>
+        <ms:engcmssmp>Poor</ms:engcmssmp>
+        <ms:urbrecptdcd>Somewhat limited</ms:urbrecptdcd>
+        <ms:urbrecptwta>0.052</ms:urbrecptwta>
+        <ms:forpehrtdcp>Erosion hazard moderate</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta>0.506</ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386746497</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.131800">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.348054 -82.527854</gml:lowerCorner>
+        		<gml:upperCorner>34.352586 -82.524369</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.349334 -82.527541 34.349493 -82.527659 34.349667 -82.527625 34.349743 -82.527560 34.349771 -82.527501 34.349932 -82.527288 34.350027 -82.527219 34.350169 -82.527221 34.350334 -82.527312 34.350638 -82.527681 34.350848 -82.527838 34.351130 -82.527854 34.351304 -82.527804 34.351415 -82.527722 34.351645 -82.527683 34.352183 -82.527796 34.352342 -82.527729 34.352463 -82.527576 34.352465 -82.527532 34.352423 -82.527379 34.352217 -82.527110 34.351840 -82.526917 34.351789 -82.526820 34.351802 -82.526726 34.351924 -82.526576 34.352003 -82.526541 34.352459 -82.526461 34.352586 -82.526243 34.352578 -82.526096 34.352451 -82.525937 34.352358 -82.525909 34.352305 -82.525867 34.352044 -82.525804 34.351921 -82.525755 34.351817 -82.525641 34.351786 -82.525574 34.351797 -82.525447 34.351878 -82.525355 34.352243 -82.525278 34.352368 -82.525171 34.352402 -82.524863 34.352346 -82.524665 34.352253 -82.524511 34.352106 -82.524401 34.351948 -82.524369 34.351711 -82.524419 34.351267 -82.524635 34.350842 -82.525004 34.350578 -82.525268 34.350318 -82.525411 34.350166 -82.525437 34.349657 -82.525455 34.349255 -82.525493 34.349017 -82.525554 34.348723 -82.525703 34.348449 -82.525894 34.348054 -82.526256 34.348403 -82.526603 34.348872 -82.527137 34.349024 -82.527288 34.349334 -82.527541 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC007</ms:areasymbol>
+        <ms:musym>DuB</ms:musym>
+        <ms:nationalmusym>4f4m</ms:nationalmusym>
+        <ms:mukey>131800</ms:mukey>
+        <ms:spatialversion>8</ms:spatialversion>
+        <ms:muname>Durham sandy loam, 2 to 6 percent slopes</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp>4</ms:slopegraddcp>
+        <ms:slopegradwta>4</ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin></ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta>2.5</ms:aws025wta>
+        <ms:aws050wta>5.68</ms:aws050wta>
+        <ms:aws0100wta>12.68</ms:aws0100wta>
+        <ms:aws0150wta>18.39</ms:aws0150wta>
+        <ms:drclassdcd>Well drained</ms:drclassdcd>
+        <ms:drclasswettest>Well drained</ms:drclasswettest>
+        <ms:hydgrpdcd>B</ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>2</ms:niccdcd>
+        <ms:niccdcdpct>100</ms:niccdcdpct>
+        <ms:engdwobdcd>Not limited</ms:engdwobdcd>
+        <ms:engdwbdcd>Not limited</ms:engdwbdcd>
+        <ms:engdwbll>Not limited</ms:engdwbll>
+        <ms:engdwbml>Not limited</ms:engdwbml>
+        <ms:engstafdcd>Somewhat limited</ms:engstafdcd>
+        <ms:engstafll>Somewhat limited</ms:engstafll>
+        <ms:engstafml>Somewhat limited</ms:engstafml>
+        <ms:engsldcd>Very limited</ms:engsldcd>
+        <ms:engsldcp>Very limited</ms:engsldcp>
+        <ms:englrsdcd>Not limited</ms:englrsdcd>
+        <ms:engcmssdcd>Fair</ms:engcmssdcd>
+        <ms:engcmssmp>Fair</ms:engcmssmp>
+        <ms:urbrecptdcd>Somewhat limited</ms:urbrecptdcd>
+        <ms:urbrecptwta>0.009</ms:urbrecptwta>
+        <ms:forpehrtdcp>Erosion hazard moderate</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta>0.078</ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386746612</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.131794">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.342255 -82.541866</gml:lowerCorner>
+        		<gml:upperCorner>34.343995 -82.538620</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.342791 -82.541866 34.342909 -82.541704 34.343481 -82.540451 34.343612 -82.540251 34.343896 -82.539594 34.343953 -82.539408 34.343995 -82.538987 34.343973 -82.538758 34.343929 -82.538648 34.343886 -82.538620 34.343766 -82.538644 34.343697 -82.538677 34.343510 -82.538826 34.343332 -82.539034 34.343211 -82.539254 34.342999 -82.539822 34.342883 -82.539977 34.342255 -82.541019 34.342544 -82.541283 34.342662 -82.541461 34.342791 -82.541866 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC007</ms:areasymbol>
+        <ms:musym>CdC</ms:musym>
+        <ms:nationalmusym>2q7j8</ms:nationalmusym>
+        <ms:mukey>131794</ms:mukey>
+        <ms:spatialversion>8</ms:spatialversion>
+        <ms:muname>Cecil sandy loam, 6 to 10 percent slopes</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp>8</ms:slopegraddcp>
+        <ms:slopegradwta>8</ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin></ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta>2.99</ms:aws025wta>
+        <ms:aws050wta>5.5</ms:aws050wta>
+        <ms:aws0100wta>10.48</ms:aws0100wta>
+        <ms:aws0150wta>16.87</ms:aws0150wta>
+        <ms:drclassdcd>Well drained</ms:drclassdcd>
+        <ms:drclasswettest>Well drained</ms:drclasswettest>
+        <ms:hydgrpdcd>B</ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>3</ms:niccdcd>
+        <ms:niccdcdpct>98</ms:niccdcdpct>
+        <ms:engdwobdcd>Not limited</ms:engdwobdcd>
+        <ms:engdwbdcd>Not limited</ms:engdwbdcd>
+        <ms:engdwbll>Not limited</ms:engdwbll>
+        <ms:engdwbml>Somewhat limited</ms:engdwbml>
+        <ms:engstafdcd>Somewhat limited</ms:engstafdcd>
+        <ms:engstafll>Somewhat limited</ms:engstafll>
+        <ms:engstafml>Very limited</ms:engstafml>
+        <ms:engsldcd>Very limited</ms:engsldcd>
+        <ms:engsldcp>Very limited</ms:engsldcp>
+        <ms:englrsdcd>Very limited</ms:englrsdcd>
+        <ms:engcmssdcd>Poor</ms:engcmssdcd>
+        <ms:engcmssmp>Poor</ms:engcmssmp>
+        <ms:urbrecptdcd>Somewhat limited</ms:urbrecptdcd>
+        <ms:urbrecptwta>0.05</ms:urbrecptwta>
+        <ms:forpehrtdcp>Erosion hazard moderate</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta>0.542</ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386746614</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.131794">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.328199 -82.557690</gml:lowerCorner>
+        		<gml:upperCorner>34.331885 -82.552529</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.328602 -82.556055 34.328794 -82.555714 34.328910 -82.555629 34.329076 -82.555644 34.329232 -82.555747 34.329326 -82.555918 34.329400 -82.556181 34.329522 -82.556940 34.329637 -82.557355 34.329745 -82.557543 34.329896 -82.557690 34.330015 -82.557688 34.330155 -82.557626 34.330286 -82.557459 34.330333 -82.557321 34.330328 -82.556270 34.330340 -82.555830 34.330421 -82.555326 34.330504 -82.555066 34.330592 -82.554908 34.330693 -82.554795 34.330854 -82.554705 34.331145 -82.554731 34.331500 -82.554980 34.331610 -82.555120 34.331656 -82.555126 34.331763 -82.555070 34.331870 -82.554970 34.331885 -82.554779 34.331762 -82.554335 34.331643 -82.554112 34.331334 -82.553836 34.330870 -82.553249 34.330769 -82.553101 34.330558 -82.552652 34.330376 -82.552529 34.330341 -82.552629 34.330298 -82.553074 34.330189 -82.553265 34.330094 -82.553332 34.329784 -82.553467 34.329689 -82.553569 34.329639 -82.553728 34.329636 -82.553817 34.329691 -82.553928 34.329836 -82.554063 34.329899 -82.554269 34.329912 -82.554503 34.329860 -82.554664 34.329681 -82.554780 34.329523 -82.554817 34.329290 -82.554793 34.329262 -82.554805 34.329135 -82.554973 34.329054 -82.555055 34.328970 -82.555095 34.328913 -82.555083 34.328816 -82.555028 34.328669 -82.554849 34.328635 -82.554727 34.328199 -82.555390 34.328480 -82.555703 34.328602 -82.556055 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC007</ms:areasymbol>
+        <ms:musym>CdC</ms:musym>
+        <ms:nationalmusym>2q7j8</ms:nationalmusym>
+        <ms:mukey>131794</ms:mukey>
+        <ms:spatialversion>8</ms:spatialversion>
+        <ms:muname>Cecil sandy loam, 6 to 10 percent slopes</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp>8</ms:slopegraddcp>
+        <ms:slopegradwta>8</ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin></ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta>2.99</ms:aws025wta>
+        <ms:aws050wta>5.5</ms:aws050wta>
+        <ms:aws0100wta>10.48</ms:aws0100wta>
+        <ms:aws0150wta>16.87</ms:aws0150wta>
+        <ms:drclassdcd>Well drained</ms:drclassdcd>
+        <ms:drclasswettest>Well drained</ms:drclasswettest>
+        <ms:hydgrpdcd>B</ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>3</ms:niccdcd>
+        <ms:niccdcdpct>98</ms:niccdcdpct>
+        <ms:engdwobdcd>Not limited</ms:engdwobdcd>
+        <ms:engdwbdcd>Not limited</ms:engdwbdcd>
+        <ms:engdwbll>Not limited</ms:engdwbll>
+        <ms:engdwbml>Somewhat limited</ms:engdwbml>
+        <ms:engstafdcd>Somewhat limited</ms:engstafdcd>
+        <ms:engstafll>Somewhat limited</ms:engstafll>
+        <ms:engstafml>Very limited</ms:engstafml>
+        <ms:engsldcd>Very limited</ms:engsldcd>
+        <ms:engsldcp>Very limited</ms:engsldcp>
+        <ms:englrsdcd>Very limited</ms:englrsdcd>
+        <ms:engcmssdcd>Poor</ms:engcmssdcd>
+        <ms:engcmssmp>Poor</ms:engcmssmp>
+        <ms:urbrecptdcd>Somewhat limited</ms:urbrecptdcd>
+        <ms:urbrecptwta>0.05</ms:urbrecptwta>
+        <ms:forpehrtdcp>Erosion hazard moderate</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta>0.542</ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386746980</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.131794">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.326671 -82.560523</gml:lowerCorner>
+        		<gml:upperCorner>34.329126 -82.556235</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.326671 -82.557759 34.326840 -82.558263 34.327008 -82.558561 34.327241 -82.558759 34.327651 -82.558888 34.327933 -82.559144 34.328024 -82.559293 34.328181 -82.559672 34.328316 -82.560168 34.328500 -82.560441 34.328600 -82.560491 34.328794 -82.560523 34.328967 -82.560484 34.329046 -82.560418 34.329126 -82.559761 34.329089 -82.558773 34.328975 -82.557926 34.328675 -82.556501 34.328522 -82.556757 34.328318 -82.556868 34.328171 -82.556876 34.327985 -82.556733 34.327778 -82.556347 34.327691 -82.556235 34.326671 -82.557759 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC007</ms:areasymbol>
+        <ms:musym>CdC</ms:musym>
+        <ms:nationalmusym>2q7j8</ms:nationalmusym>
+        <ms:mukey>131794</ms:mukey>
+        <ms:spatialversion>8</ms:spatialversion>
+        <ms:muname>Cecil sandy loam, 6 to 10 percent slopes</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp>8</ms:slopegraddcp>
+        <ms:slopegradwta>8</ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin></ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta>2.99</ms:aws025wta>
+        <ms:aws050wta>5.5</ms:aws050wta>
+        <ms:aws0100wta>10.48</ms:aws0100wta>
+        <ms:aws0150wta>16.87</ms:aws0150wta>
+        <ms:drclassdcd>Well drained</ms:drclassdcd>
+        <ms:drclasswettest>Well drained</ms:drclasswettest>
+        <ms:hydgrpdcd>B</ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>3</ms:niccdcd>
+        <ms:niccdcdpct>98</ms:niccdcdpct>
+        <ms:engdwobdcd>Not limited</ms:engdwobdcd>
+        <ms:engdwbdcd>Not limited</ms:engdwbdcd>
+        <ms:engdwbll>Not limited</ms:engdwbll>
+        <ms:engdwbml>Somewhat limited</ms:engdwbml>
+        <ms:engstafdcd>Somewhat limited</ms:engstafdcd>
+        <ms:engstafll>Somewhat limited</ms:engstafll>
+        <ms:engstafml>Very limited</ms:engstafml>
+        <ms:engsldcd>Very limited</ms:engsldcd>
+        <ms:engsldcp>Very limited</ms:engsldcp>
+        <ms:englrsdcd>Very limited</ms:englrsdcd>
+        <ms:engcmssdcd>Poor</ms:engcmssdcd>
+        <ms:engcmssmp>Poor</ms:engcmssmp>
+        <ms:urbrecptdcd>Somewhat limited</ms:urbrecptdcd>
+        <ms:urbrecptwta>0.05</ms:urbrecptwta>
+        <ms:forpehrtdcp>Erosion hazard moderate</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta>0.542</ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386747569</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.131790">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.346101 -82.531851</gml:lowerCorner>
+        		<gml:upperCorner>34.348737 -82.528647</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.346370 -82.530178 34.346661 -82.530324 34.346750 -82.530398 34.346874 -82.530593 34.346943 -82.530810 34.346917 -82.530994 34.346836 -82.531193 34.346694 -82.531321 34.346547 -82.531352 34.346441 -82.531336 34.346326 -82.531257 34.346101 -82.531140 34.346257 -82.531364 34.346404 -82.531709 34.346519 -82.531846 34.346633 -82.531851 34.346763 -82.531729 34.346969 -82.531273 34.347088 -82.531149 34.347283 -82.531149 34.347396 -82.531169 34.347796 -82.531471 34.347902 -82.531502 34.348134 -82.531506 34.348302 -82.531372 34.348659 -82.530838 34.348679 -82.530740 34.348737 -82.530657 34.348737 -82.530586 34.348588 -82.530165 34.348527 -82.529722 34.348390 -82.529696 34.348199 -82.529764 34.348134 -82.529762 34.347880 -82.529644 34.347812 -82.529594 34.347690 -82.529409 34.347655 -82.529332 34.347471 -82.528736 34.347417 -82.528647 34.347356 -82.528734 34.347330 -82.528829 34.347286 -82.529342 34.347148 -82.529661 34.347074 -82.529767 34.346775 -82.530056 34.346562 -82.530148 34.346370 -82.530178 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC007</ms:areasymbol>
+        <ms:musym>CbB</ms:musym>
+        <ms:nationalmusym>2th01</ms:nationalmusym>
+        <ms:mukey>131790</ms:mukey>
+        <ms:spatialversion>8</ms:spatialversion>
+        <ms:muname>Cataula sandy loam, 2 to 6 percent slopes</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp>4</ms:slopegraddcp>
+        <ms:slopegradwta>4</ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin>64</ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta>3.35</ms:aws025wta>
+        <ms:aws050wta>6.87</ms:aws050wta>
+        <ms:aws0100wta>9.9</ms:aws0100wta>
+        <ms:aws0150wta>16.99</ms:aws0150wta>
+        <ms:drclassdcd>Moderately well drained</ms:drclassdcd>
+        <ms:drclasswettest>Moderately well drained</ms:drclasswettest>
+        <ms:hydgrpdcd>C</ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>3</ms:niccdcd>
+        <ms:niccdcdpct>95</ms:niccdcdpct>
+        <ms:engdwobdcd>Very limited</ms:engdwobdcd>
+        <ms:engdwbdcd>Very limited</ms:engdwbdcd>
+        <ms:engdwbll>Not limited</ms:engdwbll>
+        <ms:engdwbml>Very limited</ms:engdwbml>
+        <ms:engstafdcd>Very limited</ms:engstafdcd>
+        <ms:engstafll>Somewhat limited</ms:engstafll>
+        <ms:engstafml>Very limited</ms:engstafml>
+        <ms:engsldcd>Somewhat limited</ms:engsldcd>
+        <ms:engsldcp>Somewhat limited</ms:engsldcp>
+        <ms:englrsdcd>Very limited</ms:englrsdcd>
+        <ms:engcmssdcd>Poor</ms:engcmssdcd>
+        <ms:engcmssmp>Poor</ms:engcmssmp>
+        <ms:urbrecptdcd>Somewhat limited</ms:urbrecptdcd>
+        <ms:urbrecptwta>0.049</ms:urbrecptwta>
+        <ms:forpehrtdcp>Erosion hazard moderate</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta>0.971</ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386747830</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.131793">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.327691 -82.556876</gml:lowerCorner>
+        		<gml:upperCorner>34.328675 -82.555390</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.328675 -82.556501 34.328624 -82.556120 34.328602 -82.556055 34.328480 -82.555703 34.328199 -82.555390 34.327691 -82.556235 34.327778 -82.556347 34.327985 -82.556733 34.328171 -82.556876 34.328318 -82.556868 34.328522 -82.556757 34.328675 -82.556501 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC007</ms:areasymbol>
+        <ms:musym>CdB</ms:musym>
+        <ms:nationalmusym>2q7j7</ms:nationalmusym>
+        <ms:mukey>131793</ms:mukey>
+        <ms:spatialversion>8</ms:spatialversion>
+        <ms:muname>Cecil sandy loam, 2 to 6 percent slopes</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp>4</ms:slopegraddcp>
+        <ms:slopegradwta>4</ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin></ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta>2.95</ms:aws025wta>
+        <ms:aws050wta>5.45</ms:aws050wta>
+        <ms:aws0100wta>10.4</ms:aws0100wta>
+        <ms:aws0150wta>17.35</ms:aws0150wta>
+        <ms:drclassdcd>Well drained</ms:drclassdcd>
+        <ms:drclasswettest>Well drained</ms:drclasswettest>
+        <ms:hydgrpdcd>B</ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>2</ms:niccdcd>
+        <ms:niccdcdpct>95</ms:niccdcdpct>
+        <ms:engdwobdcd>Not limited</ms:engdwobdcd>
+        <ms:engdwbdcd>Not limited</ms:engdwbdcd>
+        <ms:engdwbll>Not limited</ms:engdwbll>
+        <ms:engdwbml>Somewhat limited</ms:engdwbml>
+        <ms:engstafdcd>Somewhat limited</ms:engstafdcd>
+        <ms:engstafll>Somewhat limited</ms:engstafll>
+        <ms:engstafml>Very limited</ms:engstafml>
+        <ms:engsldcd>Somewhat limited</ms:engsldcd>
+        <ms:engsldcp>Somewhat limited</ms:engsldcp>
+        <ms:englrsdcd>Very limited</ms:englrsdcd>
+        <ms:engcmssdcd>Poor</ms:engcmssdcd>
+        <ms:engcmssmp>Poor</ms:engcmssmp>
+        <ms:urbrecptdcd>Somewhat limited</ms:urbrecptdcd>
+        <ms:urbrecptwta>0.052</ms:urbrecptwta>
+        <ms:forpehrtdcp>Erosion hazard moderate</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta>0.506</ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386747833</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.131794">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.339906 -82.552640</gml:lowerCorner>
+        		<gml:upperCorner>34.348691 -82.540176</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.348465 -82.542497 34.348249 -82.542046 34.347929 -82.541652 34.347895 -82.541632 34.347888 -82.541600 34.347647 -82.541312 34.347558 -82.541078 34.347391 -82.540493 34.347271 -82.540263 34.347114 -82.540179 34.346945 -82.540176 34.346862 -82.540191 34.346730 -82.540303 34.346656 -82.540345 34.346630 -82.540651 34.346538 -82.541057 34.346540 -82.541407 34.346586 -82.541779 34.346780 -82.542477 34.347146 -82.543281 34.347389 -82.543892 34.347427 -82.544011 34.347484 -82.544343 34.347433 -82.545983 34.347413 -82.546148 34.347433 -82.546433 34.347482 -82.546749 34.347518 -82.547350 34.347439 -82.547606 34.347342 -82.547741 34.347090 -82.547942 34.347026 -82.547966 34.346919 -82.547912 34.346818 -82.547749 34.346776 -82.547475 34.346785 -82.547382 34.346761 -82.546813 34.346725 -82.546692 34.346624 -82.546644 34.346574 -82.546554 34.346590 -82.546255 34.346659 -82.546033 34.346683 -82.545876 34.346668 -82.545569 34.346596 -82.545430 34.346492 -82.545336 34.346407 -82.545344 34.346179 -82.545495 34.345965 -82.545501 34.345792 -82.545312 34.345608 -82.544919 34.345455 -82.544877 34.345373 -82.544919 34.345255 -82.545103 34.345238 -82.545267 34.345265 -82.545415 34.345425 -82.545731 34.345457 -82.545892 34.345475 -82.546088 34.345457 -82.546492 34.345276 -82.547804 34.345148 -82.548337 34.345064 -82.549204 34.345013 -82.549369 34.344980 -82.549400 34.344848 -82.549464 34.344729 -82.549451 34.344693 -82.549430 34.344580 -82.549279 34.344501 -82.549051 34.344449 -82.548509 34.344445 -82.548003 34.344499 -82.547708 34.344525 -82.547106 34.344620 -82.546122 34.344608 -82.545936 34.344560 -82.545791 34.344476 -82.545706 34.344306 -82.545698 34.344211 -82.545729 34.344129 -82.545813 34.344004 -82.546215 34.343861 -82.546507 34.343614 -82.546771 34.343437 -82.546864 34.343209 -82.546889 34.343090 -82.546963 34.342755 -82.547316 34.342584 -82.547566 34.342551 -82.547642 34.342493 -82.548009 34.342560 -82.548488 34.342624 -82.548668 34.342896 -82.549227 34.342957 -82.549432 34.343056 -82.549606 34.343307 -82.550156 34.343308 -82.550197 34.343232 -82.550449 34.343114 -82.550604 34.343010 -82.550707 34.342967 -82.550724 34.342902 -82.550713 34.342790 -82.550563 34.342778 -82.550515 34.342691 -82.550418 34.342645 -82.550422 34.342459 -82.550591 34.342410 -82.550584 34.342343 -82.550535 34.342326 -82.550386 34.342368 -82.550215 34.342413 -82.550104 34.342418 -82.549940 34.342322 -82.549607 34.341992 -82.549134 34.341878 -82.549011 34.341491 -82.548692 34.341013 -82.548231 34.340824 -82.547953 34.340663 -82.547656 34.340451 -82.547102 34.340401 -82.547181 34.340170 -82.547452 34.340010 -82.547691 34.339923 -82.547945 34.339906 -82.548235 34.340026 -82.548424 34.340310 -82.548610 34.340380 -82.548683 34.340427 -82.548791 34.340484 -82.549102 34.340600 -82.549309 34.340685 -82.549386 34.340806 -82.549458 34.341092 -82.549515 34.341267 -82.549699 34.341328 -82.549819 34.341340 -82.550069 34.341283 -82.550278 34.340963 -82.550606 34.340917 -82.550727 34.340939 -82.550884 34.340971 -82.550936 34.341100 -82.551039 34.341159 -82.551187 34.341207 -82.551874 34.341228 -82.551972 34.341356 -82.552112 34.341435 -82.552170 34.342249 -82.552348 34.342626 -82.552599 34.342661 -82.552640 34.343185 -82.552486 34.343421 -82.552308 34.344215 -82.551444 34.344447 -82.551356 34.344846 -82.551390 34.344974 -82.551385 34.345144 -82.551301 34.345251 -82.551172 34.345320 -82.550954 34.345328 -82.550712 34.345288 -82.550533 34.345312 -82.550341 34.345459 -82.550148 34.345572 -82.550091 34.345695 -82.550098 34.345732 -82.550133 34.345800 -82.550344 34.345821 -82.550573 34.345923 -82.551009 34.346048 -82.551309 34.346149 -82.551432 34.346302 -82.551537 34.346496 -82.551558 34.346708 -82.551511 34.346945 -82.551370 34.347068 -82.551247 34.347340 -82.550914 34.347473 -82.550652 34.347593 -82.550242 34.347650 -82.549995 34.347653 -82.549666 34.347604 -82.549027 34.347625 -82.548836 34.347653 -82.548745 34.347761 -82.548512 34.347969 -82.548225 34.348058 -82.548128 34.348217 -82.548050 34.348359 -82.547390 34.348503 -82.546239 34.348564 -82.544455 34.348546 -82.544385 34.348512 -82.544303 34.348509 -82.544049 34.348524 -82.544001 34.348671 -82.543845 34.348691 -82.543664 34.348665 -82.543388 34.348590 -82.542951 34.348465 -82.542497 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+                <gml:interior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.348317 -82.542611 34.348317 -82.542654 34.348304 -82.542685 34.348289 -82.542725 34.348046 -82.543040 34.347829 -82.543260 34.347760 -82.543308 34.347701 -82.543305 34.347606 -82.543218 34.347562 -82.543132 34.347524 -82.543073 34.347255 -82.542432 34.347211 -82.542325 34.347194 -82.542202 34.347179 -82.542068 34.347163 -82.541962 34.347140 -82.541883 34.347105 -82.541825 34.347075 -82.541793 34.347055 -82.541721 34.347055 -82.541635 34.347068 -82.541624 34.347099 -82.541627 34.347122 -82.541642 34.347211 -82.541718 34.347341 -82.541847 34.347424 -82.541943 34.347588 -82.542056 34.347667 -82.542100 34.347673 -82.542121 34.347740 -82.542199 34.347953 -82.542348 34.348135 -82.542451 34.348256 -82.542548 34.348317 -82.542611 </gml:posList>
+                  </gml:LinearRing>
+                </gml:interior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC007</ms:areasymbol>
+        <ms:musym>CdC</ms:musym>
+        <ms:nationalmusym>2q7j8</ms:nationalmusym>
+        <ms:mukey>131794</ms:mukey>
+        <ms:spatialversion>8</ms:spatialversion>
+        <ms:muname>Cecil sandy loam, 6 to 10 percent slopes</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp>8</ms:slopegraddcp>
+        <ms:slopegradwta>8</ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin></ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta>2.99</ms:aws025wta>
+        <ms:aws050wta>5.5</ms:aws050wta>
+        <ms:aws0100wta>10.48</ms:aws0100wta>
+        <ms:aws0150wta>16.87</ms:aws0150wta>
+        <ms:drclassdcd>Well drained</ms:drclassdcd>
+        <ms:drclasswettest>Well drained</ms:drclasswettest>
+        <ms:hydgrpdcd>B</ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>3</ms:niccdcd>
+        <ms:niccdcdpct>98</ms:niccdcdpct>
+        <ms:engdwobdcd>Not limited</ms:engdwobdcd>
+        <ms:engdwbdcd>Not limited</ms:engdwbdcd>
+        <ms:engdwbll>Not limited</ms:engdwbll>
+        <ms:engdwbml>Somewhat limited</ms:engdwbml>
+        <ms:engstafdcd>Somewhat limited</ms:engstafdcd>
+        <ms:engstafll>Somewhat limited</ms:engstafll>
+        <ms:engstafml>Very limited</ms:engstafml>
+        <ms:engsldcd>Very limited</ms:engsldcd>
+        <ms:engsldcp>Very limited</ms:engsldcp>
+        <ms:englrsdcd>Very limited</ms:englrsdcd>
+        <ms:engcmssdcd>Poor</ms:engcmssdcd>
+        <ms:engcmssmp>Poor</ms:engcmssmp>
+        <ms:urbrecptdcd>Somewhat limited</ms:urbrecptdcd>
+        <ms:urbrecptwta>0.05</ms:urbrecptwta>
+        <ms:forpehrtdcp>Erosion hazard moderate</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta>0.542</ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386748190</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.131817">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.349046 -82.545372</gml:lowerCorner>
+        		<gml:upperCorner>34.351655 -82.540562</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.350479 -82.541742 34.350334 -82.541922 34.350269 -82.542002 34.350232 -82.542087 34.350224 -82.542133 34.350214 -82.542241 34.350167 -82.542397 34.350063 -82.542629 34.349965 -82.542829 34.349853 -82.542953 34.349667 -82.543102 34.349655 -82.543115 34.349490 -82.543356 34.349347 -82.543584 34.349218 -82.543872 34.349181 -82.543933 34.349134 -82.543980 34.349118 -82.543985 34.349082 -82.544019 34.349055 -82.544084 34.349046 -82.544193 34.349063 -82.544232 34.349125 -82.544329 34.349209 -82.544425 34.349248 -82.544476 34.349565 -82.544898 34.349751 -82.545185 34.349826 -82.545318 34.349900 -82.545372 34.350023 -82.545371 34.350078 -82.545326 34.350234 -82.545153 34.350339 -82.544971 34.350461 -82.544740 34.350486 -82.544666 34.350507 -82.544529 34.350580 -82.544067 34.350602 -82.543834 34.350616 -82.543661 34.350621 -82.543569 34.350610 -82.543483 34.350591 -82.543359 34.350590 -82.543262 34.350598 -82.543146 34.350626 -82.543029 34.350653 -82.542989 34.350671 -82.542898 34.350667 -82.542802 34.350678 -82.542694 34.350723 -82.542532 34.350829 -82.542265 34.351034 -82.541935 34.351146 -82.541787 34.351194 -82.541728 34.351216 -82.541659 34.351246 -82.541510 34.351317 -82.541224 34.351338 -82.541144 34.351349 -82.541103 34.351448 -82.540993 34.351571 -82.540940 34.351626 -82.540879 34.351652 -82.540796 34.351655 -82.540721 34.351630 -82.540666 34.351603 -82.540619 34.351545 -82.540572 34.351487 -82.540562 34.351415 -82.540572 34.351326 -82.540645 34.351112 -82.540849 34.351061 -82.540925 34.350986 -82.541109 34.350971 -82.541211 34.350939 -82.541292 34.350886 -82.541360 34.350838 -82.541376 34.350773 -82.541412 34.350674 -82.541505 34.350604 -82.541561 34.350543 -82.541656 34.350479 -82.541742 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC007</ms:areasymbol>
+        <ms:musym>W</ms:musym>
+        <ms:nationalmusym>4f55</ms:nationalmusym>
+        <ms:mukey>131817</ms:mukey>
+        <ms:spatialversion>8</ms:spatialversion>
+        <ms:muname>Water</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp></ms:slopegraddcp>
+        <ms:slopegradwta></ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin></ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd></ms:flodfreqdcd>
+        <ms:flodfreqmax></ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta></ms:aws025wta>
+        <ms:aws050wta></ms:aws050wta>
+        <ms:aws0100wta></ms:aws0100wta>
+        <ms:aws0150wta></ms:aws0150wta>
+        <ms:drclassdcd></ms:drclassdcd>
+        <ms:drclasswettest></ms:drclasswettest>
+        <ms:hydgrpdcd></ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>8</ms:niccdcd>
+        <ms:niccdcdpct>100</ms:niccdcdpct>
+        <ms:engdwobdcd>Not rated</ms:engdwobdcd>
+        <ms:engdwbdcd>Not rated</ms:engdwbdcd>
+        <ms:engdwbll>Not rated</ms:engdwbll>
+        <ms:engdwbml>Not rated</ms:engdwbml>
+        <ms:engstafdcd>Not rated</ms:engstafdcd>
+        <ms:engstafll>Not rated</ms:engstafll>
+        <ms:engstafml>Not rated</ms:engstafml>
+        <ms:engsldcd>Not rated</ms:engsldcd>
+        <ms:engsldcp>Not rated</ms:engsldcp>
+        <ms:englrsdcd>Not rated</ms:englrsdcd>
+        <ms:engcmssdcd>Not rated</ms:engcmssdcd>
+        <ms:engcmssmp>Not rated</ms:engcmssmp>
+        <ms:urbrecptdcd>Not rated</ms:urbrecptdcd>
+        <ms:urbrecptwta></ms:urbrecptwta>
+        <ms:forpehrtdcp>Not rated</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta></ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386748273</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.131797">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.341439 -82.535499</gml:lowerCorner>
+        		<gml:upperCorner>34.343298 -82.534080</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.341886 -82.534080 34.341439 -82.534761 34.341550 -82.534757 34.341735 -82.534792 34.342005 -82.534905 34.342213 -82.535088 34.342451 -82.535332 34.342697 -82.535499 34.342884 -82.535408 34.343112 -82.535205 34.343275 -82.534933 34.343298 -82.534717 34.343277 -82.534525 34.343155 -82.534373 34.343030 -82.534278 34.342812 -82.534241 34.342628 -82.534229 34.342461 -82.534259 34.342203 -82.534261 34.341999 -82.534175 34.341886 -82.534080 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC007</ms:areasymbol>
+        <ms:musym>CeC2</ms:musym>
+        <ms:nationalmusym>4f4j</ms:nationalmusym>
+        <ms:mukey>131797</ms:mukey>
+        <ms:spatialversion>8</ms:spatialversion>
+        <ms:muname>Cecil clay loam, 6 to 10 percent slopes, eroded</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp>8</ms:slopegraddcp>
+        <ms:slopegradwta>8</ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin></ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta>3.5</ms:aws025wta>
+        <ms:aws050wta>7</ms:aws050wta>
+        <ms:aws0100wta>14</ms:aws0100wta>
+        <ms:aws0150wta>21.15</ms:aws0150wta>
+        <ms:drclassdcd>Well drained</ms:drclassdcd>
+        <ms:drclasswettest>Well drained</ms:drclasswettest>
+        <ms:hydgrpdcd>B</ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>4</ms:niccdcd>
+        <ms:niccdcdpct>100</ms:niccdcdpct>
+        <ms:engdwobdcd>Not limited</ms:engdwobdcd>
+        <ms:engdwbdcd>Not limited</ms:engdwbdcd>
+        <ms:engdwbll>Not limited</ms:engdwbll>
+        <ms:engdwbml>Not limited</ms:engdwbml>
+        <ms:engstafdcd>Somewhat limited</ms:engstafdcd>
+        <ms:engstafll>Somewhat limited</ms:engstafll>
+        <ms:engstafml>Somewhat limited</ms:engstafml>
+        <ms:engsldcd>Very limited</ms:engsldcd>
+        <ms:engsldcp>Very limited</ms:engsldcp>
+        <ms:englrsdcd>Very limited</ms:englrsdcd>
+        <ms:engcmssdcd>Poor</ms:engcmssdcd>
+        <ms:engcmssmp>Poor</ms:engcmssmp>
+        <ms:urbrecptdcd>Somewhat limited</ms:urbrecptdcd>
+        <ms:urbrecptwta>0.079</ms:urbrecptwta>
+        <ms:forpehrtdcp>Erosion hazard moderate</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta>0.219</ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386748275</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.131794">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.332866 -82.571008</gml:lowerCorner>
+        		<gml:upperCorner>34.358505 -82.542837</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.357157 -82.545362 34.356963 -82.545736 34.356878 -82.546092 34.356824 -82.546549 34.356820 -82.547234 34.356869 -82.548125 34.356848 -82.548559 34.356820 -82.548626 34.356741 -82.548736 34.356699 -82.548767 34.356600 -82.548710 34.356513 -82.548553 34.356481 -82.548374 34.356466 -82.548364 34.356417 -82.547878 34.356380 -82.546376 34.356385 -82.545181 34.356284 -82.544765 34.356257 -82.544698 34.356129 -82.543999 34.356021 -82.543708 34.355917 -82.543375 34.355872 -82.543159 34.355855 -82.543120 34.355705 -82.542867 34.355665 -82.542837 34.355539 -82.542838 34.355352 -82.542969 34.355207 -82.543139 34.355092 -82.543387 34.354971 -82.543795 34.354848 -82.544497 34.354814 -82.544573 34.354615 -82.544763 34.354528 -82.544969 34.354500 -82.545319 34.354509 -82.545514 34.354482 -82.546012 34.354465 -82.546089 34.354320 -82.546414 34.354215 -82.546576 34.354133 -82.546855 34.354088 -82.547233 34.354136 -82.547761 34.354115 -82.547918 34.354030 -82.548059 34.353955 -82.548139 34.353878 -82.548174 34.353820 -82.548170 34.353693 -82.548070 34.353556 -82.547842 34.353395 -82.547469 34.353388 -82.547405 34.353290 -82.547118 34.353223 -82.547005 34.353115 -82.546880 34.353076 -82.546872 34.352977 -82.546904 34.352749 -82.547144 34.352689 -82.547406 34.352608 -82.548448 34.352508 -82.548914 34.352256 -82.549430 34.351893 -82.549981 34.351847 -82.550085 34.351753 -82.550428 34.351731 -82.551026 34.351776 -82.551739 34.351749 -82.551839 34.351602 -82.552020 34.351584 -82.552065 34.351508 -82.552752 34.351390 -82.552898 34.351149 -82.553023 34.351052 -82.553110 34.350860 -82.553376 34.350827 -82.553440 34.350725 -82.554007 34.350673 -82.554088 34.350280 -82.554366 34.350151 -82.554497 34.350110 -82.554618 34.350086 -82.554948 34.350096 -82.555150 34.350165 -82.555344 34.350197 -82.555380 34.350342 -82.555465 34.350476 -82.555468 34.350757 -82.555381 34.351300 -82.555111 34.351949 -82.554868 34.352477 -82.554789 34.352822 -82.554797 34.352943 -82.554827 34.353312 -82.555053 34.353357 -82.555143 34.353358 -82.555278 34.353330 -82.555480 34.353169 -82.555696 34.353040 -82.555764 34.352683 -82.555811 34.352385 -82.555914 34.352232 -82.555995 34.352095 -82.556170 34.352121 -82.556446 34.352258 -82.556807 34.352278 -82.556908 34.352276 -82.557073 34.352264 -82.557178 34.352190 -82.557313 34.351999 -82.557446 34.351969 -82.557482 34.351964 -82.557545 34.351988 -82.557617 34.352076 -82.557775 34.352088 -82.557976 34.352075 -82.558113 34.352042 -82.558202 34.351942 -82.558321 34.351966 -82.558774 34.352027 -82.558888 34.352032 -82.559079 34.351962 -82.559268 34.351911 -82.559321 34.351754 -82.559345 34.351611 -82.559304 34.351191 -82.558983 34.350617 -82.558656 34.350379 -82.558364 34.350318 -82.558239 34.350217 -82.557938 34.350104 -82.557805 34.349909 -82.557805 34.349725 -82.557917 34.349582 -82.558031 34.349391 -82.558134 34.349343 -82.558148 34.349185 -82.558132 34.349046 -82.558005 34.348919 -82.557787 34.348615 -82.556971 34.348518 -82.556801 34.348417 -82.556727 34.348338 -82.556696 34.348014 -82.556688 34.347796 -82.556783 34.347699 -82.556880 34.347455 -82.557276 34.347157 -82.557561 34.347070 -82.557551 34.347038 -82.557525 34.346826 -82.557479 34.346758 -82.557511 34.346633 -82.557700 34.346510 -82.557807 34.346365 -82.557813 34.346181 -82.557708 34.346031 -82.557545 34.345970 -82.557454 34.345883 -82.557225 34.345850 -82.556668 34.345951 -82.556005 34.346054 -82.555592 34.346145 -82.555301 34.346260 -82.555037 34.346360 -82.554929 34.346498 -82.554839 34.346719 -82.554799 34.346765 -82.554821 34.346992 -82.555029 34.347119 -82.555237 34.347219 -82.555520 34.347371 -82.555797 34.347494 -82.555875 34.347679 -82.555854 34.347997 -82.555660 34.348165 -82.555505 34.348302 -82.555298 34.348363 -82.555136 34.348401 -82.554979 34.348373 -82.554446 34.348222 -82.553708 34.348209 -82.553536 34.348242 -82.553404 34.348538 -82.553064 34.348699 -82.552933 34.349213 -82.552600 34.349590 -82.552331 34.349685 -82.552289 34.350137 -82.551973 34.350645 -82.551482 34.350989 -82.551037 34.351054 -82.550865 34.351054 -82.550672 34.351026 -82.550529 34.350852 -82.550168 34.350457 -82.549662 34.350328 -82.549431 34.350201 -82.549075 34.350181 -82.548671 34.350362 -82.547954 34.350366 -82.547785 34.350247 -82.547631 34.350224 -82.547688 34.349725 -82.548168 34.349643 -82.548277 34.349489 -82.548431 34.348977 -82.548801 34.348907 -82.548815 34.348879 -82.548878 34.348735 -82.549432 34.348743 -82.549633 34.348780 -82.549951 34.348756 -82.550326 34.348669 -82.550615 34.348447 -82.551071 34.348273 -82.551553 34.347961 -82.552113 34.347913 -82.552144 34.347891 -82.552537 34.347828 -82.552956 34.347717 -82.553383 34.347610 -82.553567 34.347583 -82.553595 34.347549 -82.553631 34.347536 -82.553638 34.347522 -82.553632 34.347501 -82.553621 34.347479 -82.553614 34.347446 -82.553607 34.347414 -82.553610 34.347378 -82.553621 34.347346 -82.553621 34.347322 -82.553621 34.347305 -82.553621 34.347284 -82.553638 34.347042 -82.553626 34.346745 -82.553594 34.346661 -82.553601 34.346352 -82.553681 34.345695 -82.554123 34.345620 -82.554192 34.345324 -82.554369 34.345036 -82.554443 34.344764 -82.554448 34.344667 -82.554434 34.344598 -82.554400 34.344411 -82.554214 34.344227 -82.554104 34.343875 -82.554057 34.343685 -82.554073 34.343516 -82.554158 34.343345 -82.554359 34.343296 -82.554466 34.343272 -82.554880 34.343322 -82.555346 34.343249 -82.555630 34.343092 -82.555859 34.343034 -82.555910 34.342888 -82.555952 34.342715 -82.555926 34.342468 -82.555658 34.342293 -82.555271 34.342163 -82.554833 34.342096 -82.554642 34.342040 -82.554549 34.341777 -82.554269 34.341564 -82.554211 34.341429 -82.554102 34.341275 -82.554095 34.341141 -82.554203 34.340971 -82.554394 34.340929 -82.554457 34.340718 -82.555005 34.340566 -82.555184 34.340493 -82.555246 34.339993 -82.555483 34.339645 -82.555750 34.339504 -82.555839 34.339226 -82.555924 34.338703 -82.556015 34.338530 -82.556093 34.338312 -82.556249 34.338160 -82.556416 34.338123 -82.556555 34.338138 -82.556733 34.338269 -82.556988 34.338376 -82.557049 34.338596 -82.557090 34.339273 -82.557061 34.339671 -82.557115 34.340116 -82.557366 34.340211 -82.557403 34.340441 -82.557445 34.340925 -82.557712 34.341036 -82.557941 34.341038 -82.557983 34.340999 -82.558115 34.340901 -82.558217 34.340736 -82.558329 34.340562 -82.558385 34.340020 -82.558369 34.339628 -82.558336 34.339215 -82.558333 34.339070 -82.558299 34.338799 -82.558049 34.338592 -82.558027 34.338520 -82.558043 34.338242 -82.558447 34.338098 -82.558511 34.338054 -82.558509 34.337999 -82.558468 34.337906 -82.558349 34.337812 -82.558026 34.337693 -82.557821 34.337606 -82.557777 34.337445 -82.557738 34.337165 -82.557718 34.336984 -82.557652 34.336782 -82.557325 34.336558 -82.557116 34.336516 -82.557129 34.336290 -82.557111 34.336002 -82.557071 34.335578 -82.557083 34.335360 -82.557125 34.335288 -82.557154 34.335199 -82.557208 34.335018 -82.557364 34.334883 -82.557555 34.334650 -82.557945 34.334429 -82.558162 34.334027 -82.558408 34.333869 -82.558928 34.333552 -82.559408 34.333516 -82.559437 34.333520 -82.559885 34.333413 -82.560253 34.333229 -82.560503 34.333066 -82.560619 34.332866 -82.560839 34.333095 -82.560973 34.333389 -82.560967 34.333538 -82.560932 34.333747 -82.560781 34.333953 -82.560597 34.334157 -82.560487 34.334330 -82.560479 34.334512 -82.560562 34.334659 -82.560585 34.334919 -82.560559 34.335070 -82.560475 34.335294 -82.560319 34.335588 -82.560025 34.335699 -82.559936 34.335808 -82.559874 34.335864 -82.559870 34.336411 -82.559684 34.337435 -82.559608 34.337550 -82.559617 34.337818 -82.559914 34.337858 -82.559926 34.338133 -82.559863 34.338496 -82.559612 34.338748 -82.559593 34.339098 -82.559801 34.339370 -82.559845 34.339538 -82.559819 34.340113 -82.559590 34.340348 -82.559517 34.341212 -82.559400 34.341413 -82.559300 34.341599 -82.559117 34.341896 -82.558680 34.342040 -82.558353 34.342189 -82.557861 34.342292 -82.557565 34.342324 -82.557528 34.342472 -82.557410 34.342637 -82.557342 34.343000 -82.557379 34.343110 -82.557373 34.343245 -82.557290 34.343421 -82.557098 34.343609 -82.556761 34.343675 -82.556483 34.343812 -82.556180 34.343879 -82.556072 34.344013 -82.555924 34.344135 -82.555866 34.344252 -82.555902 34.344406 -82.556049 34.344523 -82.556269 34.344616 -82.556759 34.344623 -82.557152 34.344554 -82.558515 34.344597 -82.558738 34.344733 -82.559070 34.344780 -82.559354 34.344770 -82.559920 34.344700 -82.560378 34.344745 -82.560869 34.344826 -82.561207 34.344885 -82.561371 34.345298 -82.562209 34.345332 -82.562307 34.345369 -82.562463 34.345413 -82.562866 34.345536 -82.563270 34.345591 -82.563373 34.345717 -82.563450 34.346030 -82.563444 34.346250 -82.563722 34.346342 -82.563759 34.346459 -82.563742 34.346786 -82.563351 34.346915 -82.563273 34.347102 -82.563261 34.347338 -82.563438 34.347594 -82.563705 34.347816 -82.564043 34.348002 -82.564575 34.348032 -82.564756 34.348032 -82.564931 34.347942 -82.565179 34.347844 -82.565293 34.347619 -82.565319 34.347504 -82.565239 34.347251 -82.565204 34.347097 -82.565309 34.347040 -82.565409 34.347032 -82.565468 34.347034 -82.565599 34.347105 -82.565883 34.347373 -82.566498 34.347518 -82.566882 34.347749 -82.567601 34.347871 -82.568236 34.347877 -82.568516 34.347861 -82.568603 34.347788 -82.568734 34.347717 -82.568803 34.347526 -82.568860 34.347499 -82.568855 34.347372 -82.568704 34.347334 -82.568585 34.347282 -82.568511 34.347153 -82.568496 34.347032 -82.568652 34.346863 -82.569154 34.346829 -82.569220 34.346724 -82.569311 34.346536 -82.569353 34.346495 -82.569343 34.346377 -82.569188 34.346346 -82.568745 34.346468 -82.567918 34.346470 -82.567672 34.346431 -82.567133 34.346337 -82.566869 34.346184 -82.566765 34.346102 -82.566762 34.345992 -82.566805 34.345752 -82.566962 34.345575 -82.566990 34.345387 -82.566857 34.345104 -82.566454 34.344859 -82.566232 34.344798 -82.566208 34.344451 -82.566169 34.344359 -82.566141 34.344219 -82.566058 34.344139 -82.566069 34.344111 -82.566131 34.344073 -82.566504 34.344131 -82.566516 34.344354 -82.566668 34.344464 -82.566720 34.344776 -82.566952 34.344825 -82.567005 34.344931 -82.567228 34.345032 -82.567669 34.345038 -82.567952 34.344959 -82.568158 34.344730 -82.568443 34.344799 -82.568539 34.344855 -82.568683 34.344882 -82.568801 34.344889 -82.568904 34.344870 -82.569051 34.344846 -82.569219 34.344843 -82.569338 34.344852 -82.569520 34.344884 -82.569733 34.344887 -82.569760 34.344895 -82.569873 34.344896 -82.569961 34.344873 -82.570071 34.344864 -82.570126 34.344859 -82.570146 34.344858 -82.570188 34.344862 -82.570209 34.344885 -82.570281 34.344917 -82.570340 34.344922 -82.570352 34.344969 -82.570517 34.344985 -82.570609 34.344990 -82.570662 34.345014 -82.570728 34.345575 -82.570817 34.345726 -82.570877 34.345858 -82.570960 34.346104 -82.571008 34.346488 -82.570978 34.346790 -82.570889 34.347113 -82.570732 34.347516 -82.570432 34.347528 -82.570202 34.347556 -82.570089 34.347762 -82.569565 34.347993 -82.569141 34.348360 -82.568669 34.348566 -82.568337 34.348665 -82.568143 34.348748 -82.567819 34.348756 -82.567547 34.348742 -82.567532 34.348728 -82.567396 34.348631 -82.566988 34.348464 -82.566714 34.348171 -82.566506 34.348080 -82.566290 34.348054 -82.566146 34.348052 -82.565896 34.348070 -82.565706 34.348390 -82.565303 34.348480 -82.564980 34.348490 -82.564888 34.348459 -82.564532 34.348310 -82.563938 34.348213 -82.563704 34.348100 -82.563531 34.347729 -82.563054 34.347665 -82.562987 34.347637 -82.562988 34.347060 -82.562665 34.346943 -82.562519 34.346917 -82.562460 34.346915 -82.562379 34.346949 -82.562146 34.347080 -82.561944 34.347391 -82.561662 34.347492 -82.561399 34.347488 -82.561202 34.347371 -82.560893 34.347371 -82.560761 34.347452 -82.560544 34.347661 -82.560309 34.347669 -82.560281 34.347657 -82.559876 34.347583 -82.559432 34.347566 -82.559224 34.347584 -82.558924 34.347683 -82.558524 34.347782 -82.558398 34.347824 -82.558369 34.348030 -82.558370 34.348356 -82.558825 34.348448 -82.559055 34.348560 -82.559509 34.348619 -82.560169 34.348584 -82.560928 34.348601 -82.561242 34.348651 -82.561553 34.348710 -82.561814 34.348933 -82.562322 34.349042 -82.562469 34.349113 -82.562631 34.349542 -82.563095 34.349694 -82.563168 34.349790 -82.563133 34.349915 -82.562962 34.350009 -82.562668 34.350018 -82.562444 34.350008 -82.562211 34.349808 -82.561642 34.349780 -82.561513 34.349768 -82.561517 34.349701 -82.561281 34.349566 -82.560984 34.349528 -82.560706 34.349492 -82.560583 34.349453 -82.560335 34.349494 -82.559791 34.349578 -82.559591 34.349776 -82.559380 34.349804 -82.559364 34.350030 -82.559347 34.350141 -82.559402 34.350411 -82.559885 34.350469 -82.560035 34.350546 -82.560167 34.350594 -82.560210 34.350869 -82.560348 34.351256 -82.560416 34.351623 -82.560383 34.351901 -82.560303 34.352221 -82.560100 34.352373 -82.559897 34.352709 -82.559091 34.352935 -82.558800 34.353121 -82.558644 34.353180 -82.558618 34.353328 -82.558627 34.353586 -82.558769 34.353697 -82.558873 34.354034 -82.559309 34.354276 -82.559529 34.354427 -82.559617 34.354593 -82.559637 34.354689 -82.559593 34.354930 -82.559349 34.354970 -82.559164 34.354974 -82.559065 34.354817 -82.558595 34.354693 -82.558427 34.354496 -82.558272 34.353794 -82.557575 34.353320 -82.557071 34.352925 -82.556545 34.352917 -82.556396 34.352959 -82.556301 34.353046 -82.556259 34.353165 -82.556260 34.353472 -82.556343 34.353806 -82.556408 34.354135 -82.556400 34.354240 -82.556049 34.354356 -82.555821 34.354407 -82.555563 34.354407 -82.555420 34.354372 -82.554993 34.354288 -82.554686 34.354288 -82.554636 34.354191 -82.554377 34.354109 -82.554244 34.353778 -82.553854 34.353589 -82.553720 34.353387 -82.553655 34.353248 -82.553648 34.352856 -82.553750 34.352398 -82.553968 34.352022 -82.553908 34.351911 -82.553827 34.351824 -82.553699 34.351802 -82.553505 34.351808 -82.553360 34.351830 -82.553293 34.351992 -82.553053 34.352245 -82.552770 34.352425 -82.552486 34.352544 -82.552229 34.352681 -82.552005 34.352800 -82.551686 34.352888 -82.551135 34.352882 -82.550813 34.352865 -82.550601 34.352731 -82.549848 34.352726 -82.549493 34.352778 -82.549239 34.352812 -82.549076 34.352937 -82.548766 34.353024 -82.548654 34.353169 -82.548562 34.353284 -82.548564 34.353407 -82.548704 34.353558 -82.549184 34.353635 -82.549686 34.353736 -82.550214 34.353872 -82.551230 34.353939 -82.551533 34.354090 -82.551874 34.354117 -82.551904 34.354227 -82.551910 34.354282 -82.551846 34.354405 -82.551620 34.354468 -82.551273 34.354506 -82.550362 34.354534 -82.550235 34.354570 -82.550168 34.354538 -82.550069 34.354507 -82.549327 34.354552 -82.548712 34.354691 -82.548297 34.354836 -82.547940 34.355026 -82.547144 34.355376 -82.546307 34.355379 -82.546251 34.355544 -82.545701 34.355648 -82.545474 34.355703 -82.545404 34.355781 -82.545390 34.355812 -82.545406 34.355866 -82.545486 34.355913 -82.545673 34.355929 -82.545826 34.355973 -82.547431 34.355965 -82.547601 34.355832 -82.548694 34.355798 -82.548807 34.355657 -82.549505 34.355340 -82.550635 34.355269 -82.550746 34.355248 -82.551134 34.355207 -82.551373 34.355217 -82.551799 34.355292 -82.552536 34.355316 -82.552573 34.355359 -82.552789 34.355333 -82.553568 34.355361 -82.554120 34.355484 -82.554974 34.355702 -82.555662 34.355796 -82.555870 34.355919 -82.556091 34.356145 -82.556388 34.356413 -82.556555 34.356697 -82.556561 34.357089 -82.556253 34.357260 -82.556061 34.357361 -82.555888 34.357361 -82.555858 34.357500 -82.555531 34.357500 -82.555493 34.357531 -82.555434 34.357638 -82.555057 34.357764 -82.554871 34.357844 -82.554722 34.357917 -82.554260 34.357951 -82.553803 34.358017 -82.553615 34.358134 -82.553456 34.358208 -82.553206 34.358199 -82.552970 34.358139 -82.552459 34.358148 -82.552039 34.358194 -82.551781 34.358304 -82.551417 34.358429 -82.551250 34.358505 -82.551076 34.358455 -82.550638 34.358431 -82.550579 34.358302 -82.550380 34.358017 -82.549879 34.357808 -82.549376 34.357778 -82.549112 34.357808 -82.548686 34.357794 -82.548606 34.357660 -82.548076 34.357649 -82.547987 34.357587 -82.547837 34.357386 -82.547181 34.357362 -82.547055 34.357312 -82.546954 34.357263 -82.546793 34.357259 -82.546501 34.357304 -82.546190 34.357451 -82.545884 34.357609 -82.545796 34.357731 -82.545791 34.357953 -82.545970 34.358052 -82.546023 34.358072 -82.545529 34.358023 -82.545333 34.357915 -82.545168 34.357761 -82.545095 34.357538 -82.545104 34.357276 -82.545239 34.357157 -82.545362 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+                <gml:interior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.356745 -82.551170 34.356657 -82.551410 34.356578 -82.552216 34.356492 -82.552720 34.356489 -82.552877 34.356522 -82.553160 34.356639 -82.553348 34.356856 -82.553598 34.356949 -82.553891 34.356908 -82.554381 34.356875 -82.554438 34.356774 -82.554787 34.356796 -82.555603 34.356772 -82.555696 34.356681 -82.555779 34.356557 -82.555735 34.356528 -82.555704 34.356383 -82.555363 34.356179 -82.554481 34.356151 -82.554414 34.356000 -82.554200 34.355907 -82.553935 34.355848 -82.553605 34.355806 -82.553017 34.355786 -82.552910 34.355715 -82.552686 34.355695 -82.552384 34.355704 -82.552106 34.355772 -82.551833 34.355844 -82.551767 34.355895 -82.551617 34.355995 -82.550803 34.356028 -82.550676 34.356151 -82.550456 34.356415 -82.550141 34.356540 -82.550049 34.356645 -82.550013 34.356923 -82.550013 34.357024 -82.550083 34.357050 -82.550123 34.357066 -82.550265 34.356992 -82.550649 34.356872 -82.550942 34.356745 -82.551170 </gml:posList>
+                  </gml:LinearRing>
+                </gml:interior>
+                <gml:interior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.355752 -82.544156 34.355726 -82.544178 34.355651 -82.544222 34.355594 -82.544234 34.355542 -82.544210 34.355522 -82.544153 34.355508 -82.544046 34.355500 -82.543945 34.355511 -82.543874 34.355541 -82.543828 34.355612 -82.543807 34.355680 -82.543829 34.355722 -82.543865 34.355756 -82.543920 34.355771 -82.543980 34.355774 -82.544064 34.355752 -82.544156 </gml:posList>
+                  </gml:LinearRing>
+                </gml:interior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC007</ms:areasymbol>
+        <ms:musym>CdC</ms:musym>
+        <ms:nationalmusym>2q7j8</ms:nationalmusym>
+        <ms:mukey>131794</ms:mukey>
+        <ms:spatialversion>8</ms:spatialversion>
+        <ms:muname>Cecil sandy loam, 6 to 10 percent slopes</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp>8</ms:slopegraddcp>
+        <ms:slopegradwta>8</ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin></ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta>2.99</ms:aws025wta>
+        <ms:aws050wta>5.5</ms:aws050wta>
+        <ms:aws0100wta>10.48</ms:aws0100wta>
+        <ms:aws0150wta>16.87</ms:aws0150wta>
+        <ms:drclassdcd>Well drained</ms:drclassdcd>
+        <ms:drclasswettest>Well drained</ms:drclasswettest>
+        <ms:hydgrpdcd>B</ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>3</ms:niccdcd>
+        <ms:niccdcdpct>98</ms:niccdcdpct>
+        <ms:engdwobdcd>Not limited</ms:engdwobdcd>
+        <ms:engdwbdcd>Not limited</ms:engdwbdcd>
+        <ms:engdwbll>Not limited</ms:engdwbll>
+        <ms:engdwbml>Somewhat limited</ms:engdwbml>
+        <ms:engstafdcd>Somewhat limited</ms:engstafdcd>
+        <ms:engstafll>Somewhat limited</ms:engstafll>
+        <ms:engstafml>Very limited</ms:engstafml>
+        <ms:engsldcd>Very limited</ms:engsldcd>
+        <ms:engsldcp>Very limited</ms:engsldcp>
+        <ms:englrsdcd>Very limited</ms:englrsdcd>
+        <ms:engcmssdcd>Poor</ms:engcmssdcd>
+        <ms:engcmssmp>Poor</ms:engcmssmp>
+        <ms:urbrecptdcd>Somewhat limited</ms:urbrecptdcd>
+        <ms:urbrecptwta>0.05</ms:urbrecptwta>
+        <ms:forpehrtdcp>Erosion hazard moderate</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta>0.542</ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386748305</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.131813">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.322590 -82.565459</gml:lowerCorner>
+        		<gml:upperCorner>34.343251 -82.544395</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.340939 -82.550884 34.340917 -82.550727 34.340963 -82.550606 34.341283 -82.550278 34.341340 -82.550069 34.341328 -82.549819 34.341267 -82.549699 34.341092 -82.549515 34.340806 -82.549458 34.340685 -82.549386 34.340600 -82.549309 34.340484 -82.549102 34.340427 -82.548791 34.340380 -82.548683 34.340310 -82.548610 34.340026 -82.548424 34.339906 -82.548235 34.339923 -82.547945 34.340010 -82.547691 34.340170 -82.547452 34.340401 -82.547181 34.340451 -82.547102 34.340472 -82.547066 34.340477 -82.546806 34.340536 -82.546410 34.340705 -82.545999 34.340951 -82.545634 34.341157 -82.545495 34.341312 -82.545364 34.341884 -82.545003 34.341955 -82.544858 34.341868 -82.544602 34.341844 -82.544566 34.341753 -82.544515 34.341556 -82.544507 34.341352 -82.544587 34.341203 -82.544591 34.341046 -82.544468 34.340929 -82.544414 34.340757 -82.544395 34.340542 -82.544477 34.340191 -82.544751 34.339864 -82.545106 34.339675 -82.545437 34.339564 -82.545551 34.339551 -82.545674 34.339351 -82.546120 34.339050 -82.546499 34.338731 -82.546757 34.338677 -82.546806 34.338336 -82.546940 34.338249 -82.546870 34.338220 -82.546866 34.338117 -82.546734 34.338005 -82.546497 34.337887 -82.546132 34.337852 -82.545919 34.337810 -82.545773 34.337665 -82.545648 34.337504 -82.545658 34.337330 -82.545797 34.337260 -82.545930 34.337247 -82.545997 34.337239 -82.546105 34.337267 -82.546317 34.337355 -82.546723 34.337360 -82.546798 34.337334 -82.547005 34.337217 -82.547118 34.336983 -82.547154 34.336840 -82.547199 34.336681 -82.547364 34.336647 -82.547439 34.336661 -82.547559 34.336707 -82.547648 34.336744 -82.547684 34.336973 -82.547793 34.337062 -82.547876 34.337070 -82.547958 34.337026 -82.548136 34.337028 -82.548320 34.337084 -82.548457 34.337145 -82.548513 34.337362 -82.548648 34.338358 -82.548845 34.338584 -82.549041 34.338740 -82.549237 34.338820 -82.549483 34.338863 -82.549777 34.338844 -82.550082 34.338808 -82.550225 34.338855 -82.550319 34.339060 -82.550622 34.339241 -82.551031 34.339365 -82.551620 34.339419 -82.552076 34.339416 -82.552340 34.339372 -82.552840 34.339177 -82.553562 34.339111 -82.553654 34.338927 -82.553836 34.338721 -82.553976 34.338661 -82.554000 34.338445 -82.553985 34.338415 -82.553975 34.338278 -82.553834 34.338137 -82.553429 34.338062 -82.553293 34.338020 -82.553260 34.337810 -82.553193 34.337646 -82.553225 34.337455 -82.553400 34.337365 -82.553603 34.337257 -82.554029 34.337171 -82.554618 34.337143 -82.554701 34.337042 -82.554888 34.336874 -82.555108 34.336637 -82.555226 34.336397 -82.555235 34.336273 -82.555168 34.335974 -82.554834 34.335903 -82.554608 34.335842 -82.554176 34.335850 -82.553539 34.335822 -82.553197 34.335783 -82.552930 34.335711 -82.552840 34.335657 -82.552804 34.335511 -82.552619 34.335262 -82.552347 34.335103 -82.552099 34.335003 -82.551849 34.334881 -82.551267 34.334834 -82.551178 34.334607 -82.551168 34.334516 -82.551235 34.334391 -82.551435 34.334352 -82.551548 34.334322 -82.551763 34.334307 -82.553101 34.334350 -82.553667 34.334400 -82.553940 34.334397 -82.554719 34.334366 -82.554883 34.334282 -82.555149 34.334202 -82.555251 34.334131 -82.555313 34.334008 -82.555377 34.333881 -82.555379 34.333789 -82.555297 34.333695 -82.555130 34.333729 -82.554109 34.333711 -82.553924 34.333659 -82.553667 34.333632 -82.553608 34.333487 -82.553457 34.333272 -82.553459 34.333080 -82.553538 34.332976 -82.553541 34.332866 -82.553467 34.332752 -82.553309 34.332655 -82.552940 34.332616 -82.552087 34.332524 -82.551759 34.332410 -82.551581 34.332282 -82.551521 34.332164 -82.551533 34.332044 -82.551670 34.332020 -82.551995 34.331965 -82.552134 34.331909 -82.552179 34.331709 -82.552188 34.331574 -82.552071 34.331249 -82.551576 34.331145 -82.551374 34.331122 -82.551281 34.331092 -82.550953 34.328635 -82.554727 34.328669 -82.554849 34.328816 -82.555028 34.328913 -82.555083 34.328970 -82.555095 34.329054 -82.555055 34.329135 -82.554973 34.329262 -82.554805 34.329290 -82.554793 34.329523 -82.554817 34.329681 -82.554780 34.329860 -82.554664 34.329912 -82.554503 34.329899 -82.554269 34.329836 -82.554063 34.329691 -82.553928 34.329636 -82.553817 34.329639 -82.553728 34.329689 -82.553569 34.329784 -82.553467 34.330094 -82.553332 34.330189 -82.553265 34.330298 -82.553074 34.330341 -82.552629 34.330376 -82.552529 34.330558 -82.552652 34.330769 -82.553101 34.330870 -82.553249 34.331334 -82.553836 34.331643 -82.554112 34.331762 -82.554335 34.331885 -82.554779 34.331870 -82.554970 34.331763 -82.555070 34.331656 -82.555126 34.331610 -82.555120 34.331500 -82.554980 34.331145 -82.554731 34.330854 -82.554705 34.330693 -82.554795 34.330592 -82.554908 34.330504 -82.555066 34.330421 -82.555326 34.330340 -82.555830 34.330328 -82.556270 34.330333 -82.557321 34.330286 -82.557459 34.330155 -82.557626 34.330015 -82.557688 34.329896 -82.557690 34.329745 -82.557543 34.329637 -82.557355 34.329522 -82.556940 34.329400 -82.556181 34.329326 -82.555918 34.329232 -82.555747 34.329076 -82.555644 34.328910 -82.555629 34.328794 -82.555714 34.328602 -82.556055 34.328624 -82.556120 34.328675 -82.556501 34.328975 -82.557926 34.329089 -82.558773 34.329126 -82.559761 34.329046 -82.560418 34.328967 -82.560484 34.328794 -82.560523 34.328600 -82.560491 34.328500 -82.560441 34.328316 -82.560168 34.328181 -82.559672 34.328024 -82.559293 34.327933 -82.559144 34.327651 -82.558888 34.327241 -82.558759 34.327008 -82.558561 34.326840 -82.558263 34.326671 -82.557759 34.322590 -82.564111 34.322695 -82.564624 34.322872 -82.564886 34.323638 -82.565310 34.324293 -82.565459 34.324862 -82.565278 34.325058 -82.565023 34.325238 -82.564645 34.325677 -82.564521 34.325858 -82.564525 34.326139 -82.564581 34.326483 -82.564875 34.326764 -82.564992 34.327129 -82.565001 34.327524 -82.564903 34.327269 -82.564606 34.327228 -82.564544 34.327207 -82.564456 34.327196 -82.564381 34.327181 -82.564255 34.327131 -82.564165 34.327083 -82.564110 34.327055 -82.564112 34.327033 -82.564113 34.327009 -82.564152 34.326989 -82.564214 34.326971 -82.564304 34.326942 -82.564352 34.326890 -82.564386 34.326836 -82.564399 34.326786 -82.564398 34.326713 -82.564393 34.326640 -82.564380 34.326526 -82.564345 34.326462 -82.564314 34.326436 -82.564273 34.326424 -82.564239 34.326424 -82.564172 34.326428 -82.564126 34.326447 -82.564081 34.326479 -82.564045 34.326510 -82.564015 34.326530 -82.563986 34.326526 -82.563937 34.326497 -82.563896 34.326465 -82.563876 34.326423 -82.563860 34.326349 -82.563815 34.326285 -82.563751 34.326227 -82.563656 34.326195 -82.563583 34.326189 -82.563505 34.326215 -82.563383 34.326270 -82.563269 34.326470 -82.562978 34.326671 -82.562702 34.326826 -82.562492 34.326954 -82.562286 34.327002 -82.562183 34.327022 -82.562101 34.327002 -82.562017 34.326948 -82.561970 34.326887 -82.561936 34.326804 -82.561876 34.326768 -82.561847 34.326753 -82.561678 34.326748 -82.561557 34.326741 -82.561354 34.326729 -82.561221 34.326728 -82.561088 34.326752 -82.561024 34.326777 -82.560974 34.326822 -82.560914 34.326865 -82.560875 34.326904 -82.560779 34.326950 -82.560672 34.326951 -82.560579 34.326970 -82.560486 34.327035 -82.560368 34.327098 -82.560275 34.327128 -82.560283 34.327140 -82.560287 34.327146 -82.560333 34.327133 -82.560413 34.327092 -82.560563 34.327081 -82.560695 34.327062 -82.561044 34.327066 -82.561156 34.327074 -82.561231 34.327128 -82.561261 34.327211 -82.561270 34.327280 -82.561281 34.327359 -82.561308 34.327445 -82.561396 34.327495 -82.561447 34.327583 -82.561575 34.327655 -82.561594 34.327798 -82.561562 34.327947 -82.561517 34.328154 -82.561463 34.328327 -82.561448 34.328506 -82.561470 34.328601 -82.561490 34.328678 -82.561534 34.328690 -82.561565 34.328748 -82.561673 34.328780 -82.561701 34.328908 -82.561751 34.328976 -82.561781 34.329024 -82.561807 34.329064 -82.561854 34.329084 -82.561908 34.329096 -82.561939 34.329231 -82.562081 34.329679 -82.561785 34.329735 -82.561706 34.329760 -82.561522 34.329736 -82.561246 34.329693 -82.561190 34.329510 -82.561156 34.329449 -82.561166 34.329449 -82.561097 34.329350 -82.560585 34.329346 -82.560188 34.329358 -82.560047 34.329671 -82.559467 34.329699 -82.559181 34.329747 -82.558894 34.329885 -82.558622 34.330120 -82.558305 34.330552 -82.557879 34.330756 -82.557797 34.331044 -82.557613 34.331354 -82.557511 34.331630 -82.557350 34.332566 -82.557220 34.332923 -82.557093 34.333421 -82.556843 34.334370 -82.556650 34.334606 -82.556515 34.334770 -82.556396 34.335177 -82.556041 34.335332 -82.555928 34.335614 -82.555811 34.336009 -82.555796 34.336504 -82.555846 34.336671 -82.555906 34.336776 -82.556011 34.336870 -82.556138 34.336907 -82.556281 34.336894 -82.556515 34.336842 -82.556660 34.336782 -82.556774 34.336580 -82.557055 34.336558 -82.557116 34.336782 -82.557325 34.336984 -82.557652 34.337165 -82.557718 34.337445 -82.557738 34.337606 -82.557777 34.337693 -82.557821 34.337812 -82.558026 34.337906 -82.558349 34.337999 -82.558468 34.338054 -82.558509 34.338098 -82.558511 34.338242 -82.558447 34.338520 -82.558043 34.338592 -82.558027 34.338799 -82.558049 34.339070 -82.558299 34.339215 -82.558333 34.339628 -82.558336 34.340020 -82.558369 34.340562 -82.558385 34.340736 -82.558329 34.340901 -82.558217 34.340999 -82.558115 34.341038 -82.557983 34.341036 -82.557941 34.340925 -82.557712 34.340441 -82.557445 34.340211 -82.557403 34.340116 -82.557366 34.339671 -82.557115 34.339273 -82.557061 34.338596 -82.557090 34.338376 -82.557049 34.338269 -82.556988 34.338138 -82.556733 34.338123 -82.556555 34.338160 -82.556416 34.338312 -82.556249 34.338530 -82.556093 34.338703 -82.556015 34.339226 -82.555924 34.339504 -82.555839 34.339645 -82.555750 34.339993 -82.555483 34.340493 -82.555246 34.340566 -82.555184 34.340718 -82.555005 34.340929 -82.554457 34.340971 -82.554394 34.341141 -82.554203 34.341275 -82.554095 34.341429 -82.554102 34.341564 -82.554211 34.341777 -82.554269 34.342040 -82.554549 34.342096 -82.554642 34.342163 -82.554833 34.342662 -82.554545 34.342788 -82.554439 34.343081 -82.553992 34.343251 -82.553543 34.343219 -82.553479 34.343171 -82.553472 34.342967 -82.553355 34.342939 -82.553303 34.342917 -82.553075 34.342911 -82.552992 34.342739 -82.552725 34.342661 -82.552640 34.342626 -82.552599 34.342249 -82.552348 34.341435 -82.552170 34.341356 -82.552112 34.341228 -82.551972 34.341207 -82.551874 34.341159 -82.551187 34.341100 -82.551039 34.340971 -82.550936 34.340939 -82.550884 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+                <gml:interior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.334532 -82.553163 34.334538 -82.552621 34.334542 -82.552553 34.334556 -82.552468 34.334571 -82.552422 34.334616 -82.552379 34.334662 -82.552385 34.334711 -82.552447 34.334775 -82.552501 34.334989 -82.552643 34.335095 -82.552722 34.335112 -82.552749 34.335123 -82.552805 34.335110 -82.552873 34.335090 -82.552939 34.335062 -82.553000 34.334832 -82.553264 34.334650 -82.553443 34.334607 -82.553465 34.334574 -82.553461 34.334543 -82.553437 34.334526 -82.553367 34.334532 -82.553163 </gml:posList>
+                  </gml:LinearRing>
+                </gml:interior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC007</ms:areasymbol>
+        <ms:musym>PaE</ms:musym>
+        <ms:nationalmusym>2th0b</ms:nationalmusym>
+        <ms:mukey>131813</ms:mukey>
+        <ms:spatialversion>8</ms:spatialversion>
+        <ms:muname>Pacolet sandy loam, 15 to 25 percent slopes</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp>20</ms:slopegraddcp>
+        <ms:slopegradwta>20</ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin></ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta>3.63</ms:aws025wta>
+        <ms:aws050wta>7.72</ms:aws050wta>
+        <ms:aws0100wta>15.89</ms:aws0100wta>
+        <ms:aws0150wta>23.99</ms:aws0150wta>
+        <ms:drclassdcd>Well drained</ms:drclassdcd>
+        <ms:drclasswettest>Well drained</ms:drclasswettest>
+        <ms:hydgrpdcd>B</ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>6</ms:niccdcd>
+        <ms:niccdcdpct>100</ms:niccdcdpct>
+        <ms:engdwobdcd>Very limited</ms:engdwobdcd>
+        <ms:engdwbdcd>Very limited</ms:engdwbdcd>
+        <ms:engdwbll>Very limited</ms:engdwbll>
+        <ms:engdwbml>Very limited</ms:engdwbml>
+        <ms:engstafdcd>Very limited</ms:engstafdcd>
+        <ms:engstafll>Very limited</ms:engstafll>
+        <ms:engstafml>Very limited</ms:engstafml>
+        <ms:engsldcd>Very limited</ms:engsldcd>
+        <ms:engsldcp>Very limited</ms:engsldcp>
+        <ms:englrsdcd>Very limited</ms:englrsdcd>
+        <ms:engcmssdcd>Poor</ms:engcmssdcd>
+        <ms:engcmssmp>Poor</ms:engcmssmp>
+        <ms:urbrecptdcd>Somewhat limited</ms:urbrecptdcd>
+        <ms:urbrecptwta>0.5</ms:urbrecptwta>
+        <ms:forpehrtdcp>Erosion hazard severe</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta>1</ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386748307</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.131787">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.347295 -82.529764</gml:lowerCorner>
+        		<gml:upperCorner>34.349364 -82.526256</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.349334 -82.527541 34.349024 -82.527288 34.348872 -82.527137 34.348403 -82.526603 34.348054 -82.526256 34.348003 -82.526298 34.347519 -82.526542 34.347346 -82.526778 34.347295 -82.526921 34.347412 -82.526855 34.347658 -82.526786 34.347912 -82.526860 34.347929 -82.526893 34.347930 -82.526948 34.347900 -82.527145 34.347850 -82.527258 34.347842 -82.527453 34.347912 -82.527593 34.348070 -82.527800 34.348085 -82.527852 34.348088 -82.528038 34.348002 -82.528225 34.347971 -82.528260 34.347527 -82.528461 34.347427 -82.528593 34.347417 -82.528647 34.347471 -82.528736 34.347655 -82.529332 34.347690 -82.529409 34.347812 -82.529594 34.347880 -82.529644 34.348134 -82.529762 34.348199 -82.529764 34.348390 -82.529696 34.348527 -82.529722 34.348580 -82.529729 34.348949 -82.529550 34.349197 -82.529306 34.349312 -82.529111 34.349356 -82.529006 34.349360 -82.528897 34.349364 -82.528816 34.349328 -82.528451 34.349165 -82.528031 34.349122 -82.527806 34.349334 -82.527541 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC007</ms:areasymbol>
+        <ms:musym>ApB</ms:musym>
+        <ms:nationalmusym>2th0j</ms:nationalmusym>
+        <ms:mukey>131787</ms:mukey>
+        <ms:spatialversion>8</ms:spatialversion>
+        <ms:muname>Appling sandy loam, 2 to 6 percent slopes</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp>4</ms:slopegraddcp>
+        <ms:slopegradwta>4</ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin></ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta>3.5</ms:aws025wta>
+        <ms:aws050wta>6.93</ms:aws050wta>
+        <ms:aws0100wta>13.74</ms:aws0100wta>
+        <ms:aws0150wta>22.21</ms:aws0150wta>
+        <ms:drclassdcd>Well drained</ms:drclassdcd>
+        <ms:drclasswettest>Well drained</ms:drclasswettest>
+        <ms:hydgrpdcd>B</ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>2</ms:niccdcd>
+        <ms:niccdcdpct>100</ms:niccdcdpct>
+        <ms:engdwobdcd>Not limited</ms:engdwobdcd>
+        <ms:engdwbdcd>Not limited</ms:engdwbdcd>
+        <ms:engdwbll>Not limited</ms:engdwbll>
+        <ms:engdwbml>Very limited</ms:engdwbml>
+        <ms:engstafdcd>Somewhat limited</ms:engstafdcd>
+        <ms:engstafll>Somewhat limited</ms:engstafll>
+        <ms:engstafml>Very limited</ms:engstafml>
+        <ms:engsldcd>Somewhat limited</ms:engsldcd>
+        <ms:engsldcp>Somewhat limited</ms:engsldcp>
+        <ms:englrsdcd>Very limited</ms:englrsdcd>
+        <ms:engcmssdcd>Poor</ms:engcmssdcd>
+        <ms:engcmssmp>Poor</ms:engcmssmp>
+        <ms:urbrecptdcd>Somewhat limited</ms:urbrecptdcd>
+        <ms:urbrecptwta>0.048</ms:urbrecptwta>
+        <ms:forpehrtdcp>Erosion hazard moderate</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta>0.107</ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386748819</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.131787">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.349388 -82.523855</gml:lowerCorner>
+        		<gml:upperCorner>34.354580 -82.517848</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.349388 -82.522344 34.349419 -82.523289 34.349459 -82.523606 34.349532 -82.523747 34.349574 -82.523786 34.349754 -82.523854 34.349912 -82.523855 34.350067 -82.523719 34.350125 -82.523463 34.350185 -82.522812 34.350237 -82.522650 34.350352 -82.522440 34.350511 -82.522274 34.350755 -82.522158 34.351011 -82.522060 34.351112 -82.522070 34.351144 -82.522137 34.351148 -82.522205 34.351032 -82.523036 34.351047 -82.523344 34.351100 -82.523528 34.351134 -82.523587 34.351199 -82.523607 34.351429 -82.523488 34.351987 -82.523325 34.352295 -82.523163 34.352448 -82.522938 34.352437 -82.522454 34.352386 -82.522207 34.352427 -82.522097 34.352521 -82.522032 34.352775 -82.522022 34.352799 -82.522046 34.352838 -82.522113 34.352920 -82.522503 34.352957 -82.522618 34.353069 -82.522817 34.353120 -82.522822 34.353279 -82.522759 34.353400 -82.522619 34.353753 -82.522146 34.354344 -82.521056 34.354469 -82.520922 34.354580 -82.520770 34.354339 -82.520435 34.354237 -82.520340 34.354027 -82.520241 34.353808 -82.520227 34.353602 -82.520292 34.353511 -82.520370 34.353368 -82.520596 34.353257 -82.520876 34.353134 -82.521000 34.353074 -82.521023 34.352906 -82.521004 34.352856 -82.520969 34.352721 -82.520814 34.352683 -82.520690 34.352708 -82.520387 34.352737 -82.520106 34.352843 -82.519669 34.352858 -82.519415 34.352796 -82.518761 34.352679 -82.518347 34.352271 -82.517848 34.349388 -82.522344 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC007</ms:areasymbol>
+        <ms:musym>ApB</ms:musym>
+        <ms:nationalmusym>2th0j</ms:nationalmusym>
+        <ms:mukey>131787</ms:mukey>
+        <ms:spatialversion>8</ms:spatialversion>
+        <ms:muname>Appling sandy loam, 2 to 6 percent slopes</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp>4</ms:slopegraddcp>
+        <ms:slopegradwta>4</ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin></ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta>3.5</ms:aws025wta>
+        <ms:aws050wta>6.93</ms:aws050wta>
+        <ms:aws0100wta>13.74</ms:aws0100wta>
+        <ms:aws0150wta>22.21</ms:aws0150wta>
+        <ms:drclassdcd>Well drained</ms:drclassdcd>
+        <ms:drclasswettest>Well drained</ms:drclasswettest>
+        <ms:hydgrpdcd>B</ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>2</ms:niccdcd>
+        <ms:niccdcdpct>100</ms:niccdcdpct>
+        <ms:engdwobdcd>Not limited</ms:engdwobdcd>
+        <ms:engdwbdcd>Not limited</ms:engdwbdcd>
+        <ms:engdwbll>Not limited</ms:engdwbll>
+        <ms:engdwbml>Very limited</ms:engdwbml>
+        <ms:engstafdcd>Somewhat limited</ms:engstafdcd>
+        <ms:engstafll>Somewhat limited</ms:engstafll>
+        <ms:engstafml>Very limited</ms:engstafml>
+        <ms:engsldcd>Somewhat limited</ms:engsldcd>
+        <ms:engsldcp>Somewhat limited</ms:engsldcp>
+        <ms:englrsdcd>Very limited</ms:englrsdcd>
+        <ms:engcmssdcd>Poor</ms:engcmssdcd>
+        <ms:engcmssmp>Poor</ms:engcmssmp>
+        <ms:urbrecptdcd>Somewhat limited</ms:urbrecptdcd>
+        <ms:urbrecptwta>0.048</ms:urbrecptwta>
+        <ms:forpehrtdcp>Erosion hazard moderate</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta>0.107</ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386748931</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.131789">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.342917 -82.553543</gml:lowerCorner>
+        		<gml:upperCorner>34.349751 -82.544361</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.349565 -82.544898 34.349248 -82.544476 34.349084 -82.544533 34.348965 -82.544507 34.348770 -82.544361 34.348546 -82.544385 34.348564 -82.544455 34.348503 -82.546239 34.348359 -82.547390 34.348217 -82.548050 34.348247 -82.548519 34.348231 -82.548997 34.348268 -82.549773 34.348228 -82.550116 34.348044 -82.550809 34.347917 -82.551097 34.347644 -82.551620 34.347342 -82.551914 34.347073 -82.552055 34.346792 -82.552139 34.346594 -82.552150 34.346106 -82.552060 34.345651 -82.552083 34.345095 -82.552275 34.344219 -82.552632 34.344121 -82.552647 34.343429 -82.552848 34.342917 -82.553075 34.342939 -82.553303 34.342967 -82.553355 34.343171 -82.553472 34.343219 -82.553479 34.343251 -82.553543 34.343302 -82.553518 34.344358 -82.553410 34.345469 -82.553142 34.345872 -82.552932 34.346645 -82.552916 34.347139 -82.552730 34.347338 -82.552632 34.347830 -82.552198 34.347913 -82.552144 34.347961 -82.552113 34.348273 -82.551553 34.348447 -82.551071 34.348669 -82.550615 34.348756 -82.550326 34.348780 -82.549951 34.348743 -82.549633 34.348735 -82.549432 34.348879 -82.548878 34.348907 -82.548815 34.348862 -82.548768 34.348715 -82.548231 34.348721 -82.547848 34.348738 -82.547743 34.348798 -82.547575 34.348978 -82.547166 34.349360 -82.546648 34.349614 -82.545989 34.349659 -82.545501 34.349751 -82.545185 34.349565 -82.544898 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC007</ms:areasymbol>
+        <ms:musym>Ca</ms:musym>
+        <ms:nationalmusym>4f48</ms:nationalmusym>
+        <ms:mukey>131789</ms:mukey>
+        <ms:spatialversion>8</ms:spatialversion>
+        <ms:muname>Cartecay-Chewacla complex</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp>1</ms:slopegraddcp>
+        <ms:slopegradwta>1</ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin>31</ms:wtdepannmin>
+        <ms:wtdepaprjunmin>31</ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>Occasional</ms:flodfreqdcd>
+        <ms:flodfreqmax>Occasional</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta>3.38</ms:aws025wta>
+        <ms:aws050wta>6.91</ms:aws050wta>
+        <ms:aws0100wta>13.91</ms:aws0100wta>
+        <ms:aws0150wta>20.01</ms:aws0150wta>
+        <ms:drclassdcd>Somewhat poorly drained</ms:drclassdcd>
+        <ms:drclasswettest>Somewhat poorly drained</ms:drclasswettest>
+        <ms:hydgrpdcd>A/D</ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>3</ms:niccdcd>
+        <ms:niccdcdpct>95</ms:niccdcdpct>
+        <ms:engdwobdcd>Very limited</ms:engdwobdcd>
+        <ms:engdwbdcd>Very limited</ms:engdwbdcd>
+        <ms:engdwbll>Very limited</ms:engdwbll>
+        <ms:engdwbml>Very limited</ms:engdwbml>
+        <ms:engstafdcd>Very limited</ms:engstafdcd>
+        <ms:engstafll>Very limited</ms:engstafll>
+        <ms:engstafml>Very limited</ms:engstafml>
+        <ms:engsldcd>Very limited</ms:engsldcd>
+        <ms:engsldcp>Very limited</ms:engsldcp>
+        <ms:englrsdcd>Very limited</ms:englrsdcd>
+        <ms:engcmssdcd>Fair</ms:engcmssdcd>
+        <ms:engcmssmp>Not rated</ms:engcmssmp>
+        <ms:urbrecptdcd>Somewhat limited</ms:urbrecptdcd>
+        <ms:urbrecptwta>0.998</ms:urbrecptwta>
+        <ms:forpehrtdcp>Erosion hazard slight</ms:forpehrtdcp>
+        <ms:hydclprs>5</ms:hydclprs>
+        <ms:awmmfpwwta>1</ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386749167</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.131793">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.332592 -82.553490</gml:lowerCorner>
+        		<gml:upperCorner>34.338905 -82.547140</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.334320 -82.547749 34.334051 -82.547546 34.333933 -82.547503 34.333798 -82.547413 34.333508 -82.547140 34.332592 -82.548591 34.332754 -82.548729 34.333038 -82.548823 34.333735 -82.548853 34.333947 -82.548882 34.334010 -82.548924 34.334130 -82.549107 34.334163 -82.549330 34.334163 -82.549531 34.334090 -82.549901 34.333955 -82.550199 34.333768 -82.550448 34.333471 -82.550725 34.333259 -82.551039 34.333113 -82.551386 34.333129 -82.551662 34.333287 -82.551821 34.333479 -82.551795 34.333697 -82.551679 34.333917 -82.551434 34.334189 -82.550868 34.334275 -82.550731 34.334417 -82.550417 34.334507 -82.550285 34.334653 -82.550194 34.334869 -82.550172 34.334975 -82.550207 34.335002 -82.550236 34.335153 -82.550547 34.335215 -82.551135 34.335283 -82.551426 34.335356 -82.551588 34.335426 -82.551692 34.335612 -82.551896 34.335865 -82.552033 34.336167 -82.552343 34.336225 -82.552567 34.336217 -82.552710 34.336251 -82.553277 34.336362 -82.553451 34.336516 -82.553490 34.336695 -82.553442 34.336782 -82.553384 34.336814 -82.553336 34.336829 -82.553245 34.336907 -82.553009 34.336928 -82.552798 34.336884 -82.552545 34.336735 -82.552034 34.336596 -82.551726 34.336578 -82.551606 34.336623 -82.551442 34.336711 -82.551323 34.336937 -82.551204 34.337320 -82.551225 34.337701 -82.551423 34.337810 -82.551590 34.337848 -82.551680 34.337858 -82.552056 34.337925 -82.552277 34.337996 -82.552410 34.338276 -82.552727 34.338526 -82.552818 34.338633 -82.552821 34.338782 -82.552807 34.338873 -82.552718 34.338905 -82.552473 34.338858 -82.552172 34.338724 -82.551989 34.338574 -82.551741 34.338235 -82.551279 34.338038 -82.550890 34.338003 -82.550756 34.338017 -82.550513 34.338072 -82.550409 34.338619 -82.550007 34.338546 -82.549937 34.338417 -82.549763 34.338360 -82.549712 34.338279 -82.549672 34.338094 -82.549484 34.337943 -82.549217 34.337858 -82.549146 34.337760 -82.549101 34.337660 -82.549104 34.337453 -82.549204 34.336838 -82.549695 34.336435 -82.549934 34.336028 -82.550015 34.335751 -82.550013 34.335632 -82.549985 34.335303 -82.549788 34.335118 -82.549614 34.334951 -82.549396 34.334923 -82.549337 34.334868 -82.549104 34.334750 -82.548405 34.334699 -82.548215 34.334616 -82.548057 34.334320 -82.547749 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC007</ms:areasymbol>
+        <ms:musym>CdB</ms:musym>
+        <ms:nationalmusym>2q7j7</ms:nationalmusym>
+        <ms:mukey>131793</ms:mukey>
+        <ms:spatialversion>8</ms:spatialversion>
+        <ms:muname>Cecil sandy loam, 2 to 6 percent slopes</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp>4</ms:slopegraddcp>
+        <ms:slopegradwta>4</ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin></ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta>2.95</ms:aws025wta>
+        <ms:aws050wta>5.45</ms:aws050wta>
+        <ms:aws0100wta>10.4</ms:aws0100wta>
+        <ms:aws0150wta>17.35</ms:aws0150wta>
+        <ms:drclassdcd>Well drained</ms:drclassdcd>
+        <ms:drclasswettest>Well drained</ms:drclasswettest>
+        <ms:hydgrpdcd>B</ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>2</ms:niccdcd>
+        <ms:niccdcdpct>95</ms:niccdcdpct>
+        <ms:engdwobdcd>Not limited</ms:engdwobdcd>
+        <ms:engdwbdcd>Not limited</ms:engdwbdcd>
+        <ms:engdwbll>Not limited</ms:engdwbll>
+        <ms:engdwbml>Somewhat limited</ms:engdwbml>
+        <ms:engstafdcd>Somewhat limited</ms:engstafdcd>
+        <ms:engstafll>Somewhat limited</ms:engstafll>
+        <ms:engstafml>Very limited</ms:engstafml>
+        <ms:engsldcd>Somewhat limited</ms:engsldcd>
+        <ms:engsldcp>Somewhat limited</ms:engsldcp>
+        <ms:englrsdcd>Very limited</ms:englrsdcd>
+        <ms:engcmssdcd>Poor</ms:engcmssdcd>
+        <ms:engcmssmp>Poor</ms:engcmssmp>
+        <ms:urbrecptdcd>Somewhat limited</ms:urbrecptdcd>
+        <ms:urbrecptwta>0.052</ms:urbrecptwta>
+        <ms:forpehrtdcp>Erosion hazard moderate</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta>0.506</ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386749168</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.131795">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.342661 -82.553075</gml:lowerCorner>
+        		<gml:upperCorner>34.348268 -82.548050</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.342917 -82.553075 34.343429 -82.552848 34.344121 -82.552647 34.344219 -82.552632 34.345095 -82.552275 34.345651 -82.552083 34.346106 -82.552060 34.346594 -82.552150 34.346792 -82.552139 34.347073 -82.552055 34.347342 -82.551914 34.347644 -82.551620 34.347917 -82.551097 34.348044 -82.550809 34.348228 -82.550116 34.348268 -82.549773 34.348231 -82.548997 34.348247 -82.548519 34.348217 -82.548050 34.348058 -82.548128 34.347969 -82.548225 34.347761 -82.548512 34.347653 -82.548745 34.347625 -82.548836 34.347604 -82.549027 34.347653 -82.549666 34.347650 -82.549995 34.347593 -82.550242 34.347473 -82.550652 34.347340 -82.550914 34.347068 -82.551247 34.346945 -82.551370 34.346708 -82.551511 34.346496 -82.551558 34.346302 -82.551537 34.346149 -82.551432 34.346048 -82.551309 34.345923 -82.551009 34.345821 -82.550573 34.345800 -82.550344 34.345732 -82.550133 34.345695 -82.550098 34.345572 -82.550091 34.345459 -82.550148 34.345312 -82.550341 34.345288 -82.550533 34.345328 -82.550712 34.345320 -82.550954 34.345251 -82.551172 34.345144 -82.551301 34.344974 -82.551385 34.344846 -82.551390 34.344447 -82.551356 34.344215 -82.551444 34.343421 -82.552308 34.343185 -82.552486 34.342661 -82.552640 34.342739 -82.552725 34.342911 -82.552992 34.342917 -82.553075 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC007</ms:areasymbol>
+        <ms:musym>CdD</ms:musym>
+        <ms:nationalmusym>2zzyy</ms:nationalmusym>
+        <ms:mukey>131795</ms:mukey>
+        <ms:spatialversion>8</ms:spatialversion>
+        <ms:muname>Cecil-Cataula complex, 10 to 15 percent slopes, moderately eroded</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp>13</ms:slopegraddcp>
+        <ms:slopegradwta>13</ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin>84</ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta>3.35</ms:aws025wta>
+        <ms:aws050wta>6.44</ms:aws050wta>
+        <ms:aws0100wta>12.63</ms:aws0100wta>
+        <ms:aws0150wta>19.5</ms:aws0150wta>
+        <ms:drclassdcd>Well drained</ms:drclassdcd>
+        <ms:drclasswettest>Moderately well drained</ms:drclasswettest>
+        <ms:hydgrpdcd>B</ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>4</ms:niccdcd>
+        <ms:niccdcdpct>75</ms:niccdcdpct>
+        <ms:engdwobdcd>Somewhat limited</ms:engdwobdcd>
+        <ms:engdwbdcd>Somewhat limited</ms:engdwbdcd>
+        <ms:engdwbll>Somewhat limited</ms:engdwbll>
+        <ms:engdwbml>Somewhat limited</ms:engdwbml>
+        <ms:engstafdcd>Somewhat limited</ms:engstafdcd>
+        <ms:engstafll>Somewhat limited</ms:engstafll>
+        <ms:engstafml>Very limited</ms:engstafml>
+        <ms:engsldcd>Very limited</ms:engsldcd>
+        <ms:engsldcp>Very limited</ms:engsldcp>
+        <ms:englrsdcd>Very limited</ms:englrsdcd>
+        <ms:engcmssdcd>Poor</ms:engcmssdcd>
+        <ms:engcmssmp>Poor</ms:engcmssmp>
+        <ms:urbrecptdcd>Somewhat limited</ms:urbrecptdcd>
+        <ms:urbrecptwta>0.064</ms:urbrecptwta>
+        <ms:forpehrtdcp>Erosion hazard moderate</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta>0.894</ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386749272</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.131800">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.346835 -82.526390</gml:lowerCorner>
+        		<gml:upperCorner>34.351148 -82.522060</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.346835 -82.526390 34.346961 -82.526377 34.347229 -82.526274 34.347475 -82.526060 34.347644 -82.525667 34.347749 -82.525506 34.347805 -82.525374 34.347987 -82.525066 34.348270 -82.524717 34.348406 -82.524381 34.348568 -82.524194 34.348715 -82.524163 34.348844 -82.524312 34.348862 -82.524476 34.348800 -82.524738 34.348794 -82.524927 34.348794 -82.524973 34.348828 -82.524992 34.349082 -82.525002 34.349219 -82.524965 34.349721 -82.524746 34.350027 -82.524532 34.350308 -82.524419 34.350430 -82.524406 34.350606 -82.524431 34.350690 -82.524290 34.351067 -82.523804 34.351134 -82.523587 34.351100 -82.523528 34.351047 -82.523344 34.351032 -82.523036 34.351148 -82.522205 34.351144 -82.522137 34.351112 -82.522070 34.351011 -82.522060 34.350755 -82.522158 34.350511 -82.522274 34.350352 -82.522440 34.350237 -82.522650 34.350185 -82.522812 34.350125 -82.523463 34.350067 -82.523719 34.349912 -82.523855 34.349754 -82.523854 34.349574 -82.523786 34.349532 -82.523747 34.349459 -82.523606 34.349419 -82.523289 34.349388 -82.522344 34.346835 -82.526390 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC007</ms:areasymbol>
+        <ms:musym>DuB</ms:musym>
+        <ms:nationalmusym>4f4m</ms:nationalmusym>
+        <ms:mukey>131800</ms:mukey>
+        <ms:spatialversion>8</ms:spatialversion>
+        <ms:muname>Durham sandy loam, 2 to 6 percent slopes</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp>4</ms:slopegraddcp>
+        <ms:slopegradwta>4</ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin></ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta>2.5</ms:aws025wta>
+        <ms:aws050wta>5.68</ms:aws050wta>
+        <ms:aws0100wta>12.68</ms:aws0100wta>
+        <ms:aws0150wta>18.39</ms:aws0150wta>
+        <ms:drclassdcd>Well drained</ms:drclassdcd>
+        <ms:drclasswettest>Well drained</ms:drclasswettest>
+        <ms:hydgrpdcd>B</ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>2</ms:niccdcd>
+        <ms:niccdcdpct>100</ms:niccdcdpct>
+        <ms:engdwobdcd>Not limited</ms:engdwobdcd>
+        <ms:engdwbdcd>Not limited</ms:engdwbdcd>
+        <ms:engdwbll>Not limited</ms:engdwbll>
+        <ms:engdwbml>Not limited</ms:engdwbml>
+        <ms:engstafdcd>Somewhat limited</ms:engstafdcd>
+        <ms:engstafll>Somewhat limited</ms:engstafll>
+        <ms:engstafml>Somewhat limited</ms:engstafml>
+        <ms:engsldcd>Very limited</ms:engsldcd>
+        <ms:engsldcp>Very limited</ms:engsldcp>
+        <ms:englrsdcd>Not limited</ms:englrsdcd>
+        <ms:engcmssdcd>Fair</ms:engcmssdcd>
+        <ms:engcmssmp>Fair</ms:engcmssmp>
+        <ms:urbrecptdcd>Somewhat limited</ms:urbrecptdcd>
+        <ms:urbrecptwta>0.009</ms:urbrecptwta>
+        <ms:forpehrtdcp>Erosion hazard moderate</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta>0.078</ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386749319</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.131795">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.339564 -82.545551</gml:lowerCorner>
+        		<gml:upperCorner>34.345314 -82.540543</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.339564 -82.545551 34.339675 -82.545437 34.339864 -82.545106 34.340191 -82.544751 34.340542 -82.544477 34.340757 -82.544395 34.340929 -82.544414 34.341046 -82.544468 34.341203 -82.544591 34.341352 -82.544587 34.341556 -82.544507 34.341753 -82.544515 34.341844 -82.544566 34.341868 -82.544602 34.341955 -82.544858 34.342024 -82.544874 34.342142 -82.544852 34.342496 -82.544747 34.343233 -82.544386 34.343406 -82.544207 34.343503 -82.544024 34.343572 -82.543842 34.343641 -82.543436 34.343681 -82.543321 34.343811 -82.543074 34.344090 -82.542852 34.344509 -82.542707 34.344707 -82.542518 34.344848 -82.542312 34.344871 -82.542245 34.344904 -82.542011 34.344969 -82.541850 34.345314 -82.541251 34.345259 -82.541054 34.345039 -82.540696 34.344925 -82.540543 34.344901 -82.540660 34.344564 -82.541296 34.344288 -82.541678 34.344155 -82.541828 34.343985 -82.541967 34.343784 -82.542049 34.343610 -82.542205 34.343366 -82.542707 34.343223 -82.542939 34.342979 -82.543088 34.342890 -82.543080 34.342737 -82.542997 34.342623 -82.542995 34.342505 -82.543124 34.342410 -82.543302 34.342343 -82.543386 34.342145 -82.543499 34.342001 -82.543507 34.341883 -82.543423 34.341836 -82.543283 34.341836 -82.543086 34.341904 -82.542859 34.342036 -82.542674 34.342273 -82.542461 34.342441 -82.542372 34.342647 -82.542163 34.342791 -82.541866 34.342662 -82.541461 34.342544 -82.541283 34.342255 -82.541019 34.342128 -82.541225 34.341675 -82.541771 34.341417 -82.542026 34.341231 -82.542157 34.341179 -82.542312 34.341090 -82.542414 34.340685 -82.542779 34.339913 -82.543733 34.339761 -82.544010 34.339640 -82.544366 34.339596 -82.544691 34.339580 -82.545390 34.339564 -82.545551 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC007</ms:areasymbol>
+        <ms:musym>CdD</ms:musym>
+        <ms:nationalmusym>2zzyy</ms:nationalmusym>
+        <ms:mukey>131795</ms:mukey>
+        <ms:spatialversion>8</ms:spatialversion>
+        <ms:muname>Cecil-Cataula complex, 10 to 15 percent slopes, moderately eroded</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp>13</ms:slopegraddcp>
+        <ms:slopegradwta>13</ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin>84</ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta>3.35</ms:aws025wta>
+        <ms:aws050wta>6.44</ms:aws050wta>
+        <ms:aws0100wta>12.63</ms:aws0100wta>
+        <ms:aws0150wta>19.5</ms:aws0150wta>
+        <ms:drclassdcd>Well drained</ms:drclassdcd>
+        <ms:drclasswettest>Moderately well drained</ms:drclasswettest>
+        <ms:hydgrpdcd>B</ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>4</ms:niccdcd>
+        <ms:niccdcdpct>75</ms:niccdcdpct>
+        <ms:engdwobdcd>Somewhat limited</ms:engdwobdcd>
+        <ms:engdwbdcd>Somewhat limited</ms:engdwbdcd>
+        <ms:engdwbll>Somewhat limited</ms:engdwbll>
+        <ms:engdwbml>Somewhat limited</ms:engdwbml>
+        <ms:engstafdcd>Somewhat limited</ms:engstafdcd>
+        <ms:engstafll>Somewhat limited</ms:engstafll>
+        <ms:engstafml>Very limited</ms:engstafml>
+        <ms:engsldcd>Very limited</ms:engsldcd>
+        <ms:engsldcp>Very limited</ms:engsldcp>
+        <ms:englrsdcd>Very limited</ms:englrsdcd>
+        <ms:engcmssdcd>Poor</ms:engcmssdcd>
+        <ms:engcmssmp>Poor</ms:engcmssmp>
+        <ms:urbrecptdcd>Somewhat limited</ms:urbrecptdcd>
+        <ms:urbrecptwta>0.064</ms:urbrecptwta>
+        <ms:forpehrtdcp>Erosion hazard moderate</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta>0.894</ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386749401</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.131817">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.347055 -82.543308</gml:lowerCorner>
+        		<gml:upperCorner>34.348317 -82.541624</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.347211 -82.541718 34.347122 -82.541642 34.347099 -82.541627 34.347068 -82.541624 34.347055 -82.541635 34.347055 -82.541721 34.347075 -82.541793 34.347105 -82.541825 34.347140 -82.541883 34.347163 -82.541962 34.347179 -82.542068 34.347194 -82.542202 34.347211 -82.542325 34.347255 -82.542432 34.347524 -82.543073 34.347562 -82.543132 34.347606 -82.543218 34.347701 -82.543305 34.347760 -82.543308 34.347829 -82.543260 34.348046 -82.543040 34.348289 -82.542725 34.348304 -82.542685 34.348317 -82.542654 34.348317 -82.542611 34.348256 -82.542548 34.348135 -82.542451 34.347953 -82.542348 34.347740 -82.542199 34.347673 -82.542121 34.347667 -82.542100 34.347588 -82.542056 34.347424 -82.541943 34.347341 -82.541847 34.347211 -82.541718 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC007</ms:areasymbol>
+        <ms:musym>W</ms:musym>
+        <ms:nationalmusym>4f55</ms:nationalmusym>
+        <ms:mukey>131817</ms:mukey>
+        <ms:spatialversion>8</ms:spatialversion>
+        <ms:muname>Water</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp></ms:slopegraddcp>
+        <ms:slopegradwta></ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin></ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd></ms:flodfreqdcd>
+        <ms:flodfreqmax></ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta></ms:aws025wta>
+        <ms:aws050wta></ms:aws050wta>
+        <ms:aws0100wta></ms:aws0100wta>
+        <ms:aws0150wta></ms:aws0150wta>
+        <ms:drclassdcd></ms:drclassdcd>
+        <ms:drclasswettest></ms:drclasswettest>
+        <ms:hydgrpdcd></ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>8</ms:niccdcd>
+        <ms:niccdcdpct>100</ms:niccdcdpct>
+        <ms:engdwobdcd>Not rated</ms:engdwobdcd>
+        <ms:engdwbdcd>Not rated</ms:engdwbdcd>
+        <ms:engdwbll>Not rated</ms:engdwbll>
+        <ms:engdwbml>Not rated</ms:engdwbml>
+        <ms:engstafdcd>Not rated</ms:engstafdcd>
+        <ms:engstafll>Not rated</ms:engstafll>
+        <ms:engstafml>Not rated</ms:engstafml>
+        <ms:engsldcd>Not rated</ms:engsldcd>
+        <ms:engsldcp>Not rated</ms:engsldcp>
+        <ms:englrsdcd>Not rated</ms:englrsdcd>
+        <ms:engcmssdcd>Not rated</ms:engcmssdcd>
+        <ms:engcmssmp>Not rated</ms:engcmssmp>
+        <ms:urbrecptdcd>Not rated</ms:urbrecptdcd>
+        <ms:urbrecptwta></ms:urbrecptwta>
+        <ms:forpehrtdcp>Not rated</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta></ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386749527</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+    <gml:featureMember>
+      <ms:mapunitpolyextended gml:id="mapunitpolyextended.131811">
+        <gml:boundedBy>
+        	<gml:Envelope srsName="EPSG:4326">
+        		<gml:lowerCorner>34.351802 -82.564547</gml:lowerCorner>
+        		<gml:upperCorner>34.383377 -82.533735</gml:upperCorner>
+        	</gml:Envelope>
+        </gml:boundedBy>
+        <ms:multiPolygon>
+          <gml:MultiSurface srsName="EPSG:4326">
+            <gml:surfaceMember>
+              <gml:Polygon>
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">34.376864 -82.549966 34.376826 -82.549930 34.376800 -82.549902 34.376776 -82.549834 34.376762 -82.549770 34.376735 -82.549685 34.376711 -82.549657 34.376681 -82.549630 34.376665 -82.549599 34.376665 -82.549549 34.376680 -82.549507 34.376695 -82.549493 34.376749 -82.549478 34.376798 -82.549460 34.376857 -82.549446 34.376923 -82.549427 34.376959 -82.549423 34.376983 -82.549423 34.377014 -82.549438 34.376998 -82.549342 34.377059 -82.548757 34.377171 -82.548382 34.377378 -82.547990 34.377604 -82.547510 34.377804 -82.547311 34.377943 -82.547206 34.378379 -82.547063 34.378508 -82.546914 34.378661 -82.546654 34.378812 -82.546535 34.379580 -82.546529 34.380062 -82.546291 34.380340 -82.546101 34.380384 -82.546043 34.380683 -82.545787 34.381058 -82.545785 34.381220 -82.545834 34.381322 -82.545948 34.381374 -82.546206 34.381380 -82.546815 34.381397 -82.546868 34.381507 -82.546992 34.381715 -82.546973 34.381820 -82.546929 34.382116 -82.546627 34.382216 -82.546592 34.382415 -82.546623 34.382522 -82.546658 34.382736 -82.546930 34.382826 -82.546970 34.383002 -82.546980 34.383181 -82.546872 34.383304 -82.546686 34.383377 -82.546373 34.383247 -82.546232 34.383171 -82.546057 34.382963 -82.545761 34.382820 -82.545432 34.382721 -82.545118 34.382175 -82.544535 34.382018 -82.544273 34.381989 -82.544145 34.382000 -82.543878 34.382018 -82.543768 34.382367 -82.542936 34.382400 -82.542630 34.382401 -82.542442 34.382342 -82.542235 34.382280 -82.542269 34.382088 -82.542448 34.381844 -82.542597 34.381707 -82.542719 34.381472 -82.543039 34.381423 -82.543142 34.381239 -82.543888 34.381185 -82.544299 34.381088 -82.544694 34.380955 -82.544912 34.380540 -82.545364 34.380189 -82.545583 34.379969 -82.545654 34.379769 -82.545640 34.379653 -82.545489 34.379558 -82.545444 34.379312 -82.545461 34.379211 -82.545561 34.378850 -82.545768 34.378214 -82.546190 34.377991 -82.546518 34.377850 -82.546620 34.377463 -82.546734 34.377300 -82.546864 34.377171 -82.546995 34.377093 -82.547206 34.377109 -82.547710 34.377072 -82.547962 34.377024 -82.548044 34.376915 -82.548150 34.376790 -82.548202 34.376703 -82.548299 34.376703 -82.548371 34.376794 -82.548575 34.376782 -82.548758 34.376750 -82.548793 34.376635 -82.548843 34.376454 -82.548828 34.376317 -82.548762 34.375874 -82.548652 34.375762 -82.548578 34.375621 -82.548355 34.375389 -82.548092 34.375018 -82.548069 34.374772 -82.548118 34.374410 -82.548134 34.374175 -82.548088 34.373875 -82.548059 34.373614 -82.547934 34.373504 -82.547924 34.373286 -82.547936 34.373110 -82.548005 34.372810 -82.548301 34.372439 -82.548701 34.372353 -82.548770 34.372163 -82.548777 34.372110 -82.548726 34.372075 -82.548557 34.372092 -82.548287 34.372119 -82.548178 34.372229 -82.547893 34.372465 -82.547467 34.372943 -82.546960 34.373205 -82.546824 34.373462 -82.546747 34.373879 -82.546735 34.374366 -82.546843 34.374723 -82.546966 34.374814 -82.547023 34.375171 -82.547039 34.375407 -82.547023 34.375423 -82.547043 34.375887 -82.546964 34.376117 -82.546833 34.376484 -82.546733 34.376649 -82.546645 34.377157 -82.546422 34.377827 -82.545892 34.377949 -82.545771 34.378958 -82.544593 34.379472 -82.544118 34.379693 -82.543973 34.379842 -82.543839 34.379975 -82.543646 34.380088 -82.543352 34.380145 -82.543078 34.380149 -82.542962 34.380105 -82.542864 34.380123 -82.542654 34.380252 -82.542503 34.380346 -82.542333 34.380324 -82.542146 34.380258 -82.541976 34.380161 -82.541872 34.380015 -82.541567 34.380000 -82.541505 34.379996 -82.541486 34.379893 -82.541408 34.379834 -82.541335 34.379745 -82.541057 34.379703 -82.540804 34.379540 -82.540763 34.379455 -82.540646 34.379391 -82.540438 34.379316 -82.540047 34.379273 -82.539995 34.379250 -82.539896 34.379187 -82.539806 34.379146 -82.539797 34.378937 -82.539672 34.378842 -82.539509 34.378854 -82.539271 34.379038 -82.538928 34.379123 -82.538696 34.379121 -82.538557 34.379048 -82.538424 34.378990 -82.538438 34.378848 -82.538423 34.378449 -82.538130 34.378310 -82.537954 34.378187 -82.537705 34.378164 -82.537601 34.378153 -82.537249 34.378229 -82.536849 34.378320 -82.536558 34.378401 -82.536077 34.378209 -82.535682 34.378092 -82.535263 34.377937 -82.535007 34.377717 -82.534428 34.377295 -82.533735 34.377024 -82.533757 34.376874 -82.533807 34.376778 -82.533912 34.376699 -82.534096 34.376709 -82.534325 34.376884 -82.534699 34.376947 -82.534799 34.377129 -82.535008 34.377211 -82.535064 34.377365 -82.535222 34.377570 -82.535607 34.377548 -82.535803 34.377443 -82.536061 34.377465 -82.536783 34.377389 -82.536985 34.377183 -82.537232 34.376914 -82.537432 34.376745 -82.537509 34.376641 -82.537505 34.376575 -82.537445 34.376502 -82.537346 34.376411 -82.537128 34.376362 -82.536929 34.376336 -82.536526 34.376287 -82.536400 34.376246 -82.536364 34.375976 -82.536242 34.375791 -82.536013 34.375662 -82.535773 34.375495 -82.535614 34.375116 -82.535456 34.374921 -82.535442 34.374757 -82.535751 34.374741 -82.535842 34.374756 -82.536083 34.374824 -82.536335 34.374884 -82.536503 34.374967 -82.536654 34.375116 -82.536771 34.375395 -82.537110 34.375671 -82.537722 34.375790 -82.537926 34.376105 -82.538337 34.376240 -82.538469 34.376610 -82.538686 34.377035 -82.538658 34.377135 -82.538771 34.377158 -82.538775 34.377314 -82.538813 34.377483 -82.538886 34.377570 -82.538963 34.377637 -82.538993 34.378018 -82.539303 34.378167 -82.539480 34.378205 -82.539546 34.378268 -82.539603 34.378272 -82.539626 34.378389 -82.539771 34.378606 -82.540236 34.378611 -82.540406 34.378560 -82.540439 34.378437 -82.540443 34.378120 -82.540412 34.378042 -82.540509 34.378042 -82.540734 34.378352 -82.541188 34.378509 -82.541351 34.378570 -82.541622 34.378658 -82.541845 34.378864 -82.542102 34.379076 -82.542246 34.379207 -82.542410 34.379272 -82.542567 34.379272 -82.542862 34.379167 -82.543073 34.379098 -82.543150 34.379004 -82.543194 34.378998 -82.543211 34.378832 -82.543283 34.378550 -82.543348 34.378374 -82.543482 34.378296 -82.543691 34.378298 -82.543755 34.378387 -82.543930 34.378381 -82.544083 34.377726 -82.545005 34.377612 -82.545150 34.377264 -82.545528 34.377002 -82.545694 34.376870 -82.545682 34.376738 -82.545575 34.376607 -82.545267 34.376429 -82.545184 34.376272 -82.545182 34.376102 -82.545271 34.376002 -82.545383 34.375941 -82.545561 34.375935 -82.546084 34.375911 -82.546148 34.375815 -82.546256 34.375664 -82.546325 34.375413 -82.546339 34.375340 -82.546325 34.375116 -82.546444 34.374915 -82.546509 34.374766 -82.546503 34.374530 -82.546451 34.374401 -82.546289 34.374255 -82.545801 34.374231 -82.545345 34.374209 -82.545210 34.374111 -82.545089 34.374052 -82.545043 34.373953 -82.545061 34.373829 -82.545190 34.373649 -82.545519 34.372792 -82.546326 34.372599 -82.546420 34.372462 -82.546539 34.372258 -82.546602 34.372056 -82.546579 34.371937 -82.546543 34.371697 -82.546333 34.371512 -82.546060 34.371467 -82.545966 34.371354 -82.545857 34.371244 -82.545846 34.371209 -82.545872 34.371153 -82.545934 34.371044 -82.546130 34.371036 -82.546412 34.371046 -82.546605 34.371244 -82.547273 34.371415 -82.547581 34.371729 -82.548225 34.371762 -82.548335 34.371801 -82.548577 34.371818 -82.548801 34.371793 -82.548952 34.371658 -82.549275 34.371610 -82.549351 34.371439 -82.549507 34.371314 -82.549558 34.371125 -82.549473 34.371006 -82.549369 34.370903 -82.549198 34.370774 -82.548902 34.370635 -82.548720 34.369956 -82.548249 34.369864 -82.548229 34.369727 -82.548108 34.369602 -82.548067 34.369371 -82.547924 34.368946 -82.547612 34.368929 -82.547579 34.368689 -82.547412 34.368513 -82.547261 34.368240 -82.547097 34.368144 -82.546963 34.368088 -82.546799 34.368074 -82.546609 34.368084 -82.546481 34.368217 -82.546193 34.368249 -82.546019 34.368219 -82.545496 34.368240 -82.545348 34.368288 -82.545269 34.368280 -82.545037 34.368203 -82.544803 34.368109 -82.544696 34.367925 -82.544646 34.367790 -82.544559 34.367685 -82.544345 34.367683 -82.544086 34.367750 -82.543797 34.367885 -82.543587 34.367941 -82.543433 34.368022 -82.543341 34.368083 -82.543199 34.368209 -82.543029 34.368439 -82.542382 34.368457 -82.541990 34.368374 -82.541672 34.368363 -82.541304 34.368388 -82.541094 34.368489 -82.540799 34.368640 -82.540612 34.368859 -82.540489 34.369330 -82.540451 34.369493 -82.540344 34.369608 -82.540098 34.369625 -82.540021 34.369638 -82.539391 34.369733 -82.539120 34.369816 -82.538983 34.369967 -82.538900 34.370228 -82.538667 34.370411 -82.538369 34.370427 -82.538296 34.370402 -82.538140 34.370222 -82.537856 34.370084 -82.537482 34.369737 -82.537447 34.369499 -82.537326 34.369377 -82.537334 34.369213 -82.537433 34.369027 -82.537642 34.368965 -82.537771 34.368876 -82.538075 34.368840 -82.538597 34.368772 -82.538862 34.368654 -82.539001 34.368447 -82.539110 34.367818 -82.539043 34.367382 -82.538840 34.367318 -82.538830 34.366576 -82.538415 34.366449 -82.538258 34.366294 -82.538251 34.366126 -82.538090 34.366068 -82.538060 34.365882 -82.538059 34.365826 -82.538088 34.365711 -82.538209 34.365671 -82.538315 34.365669 -82.538513 34.365699 -82.538715 34.365706 -82.538937 34.365673 -82.538985 34.365615 -82.538993 34.365649 -82.539097 34.365687 -82.539412 34.365677 -82.539684 34.365808 -82.539990 34.365937 -82.540180 34.366114 -82.540355 34.366263 -82.540426 34.366628 -82.540380 34.366691 -82.540457 34.366743 -82.540717 34.366756 -82.541043 34.366740 -82.541324 34.366709 -82.541427 34.366656 -82.541535 34.366616 -82.541572 34.366465 -82.541610 34.366395 -82.541610 34.366234 -82.541486 34.366026 -82.541243 34.365965 -82.541150 34.365873 -82.541061 34.365875 -82.541039 34.365758 -82.540898 34.365530 -82.540681 34.365318 -82.540408 34.365064 -82.540015 34.364866 -82.539656 34.364562 -82.539029 34.364312 -82.538646 34.364214 -82.538693 34.363845 -82.538573 34.363751 -82.538507 34.363497 -82.538689 34.363497 -82.538878 34.363558 -82.538999 34.363915 -82.539544 34.364115 -82.540481 34.364137 -82.540652 34.364185 -82.540763 34.364271 -82.540921 34.364667 -82.541358 34.364903 -82.541832 34.365168 -82.542225 34.365254 -82.542302 34.365476 -82.542417 34.365816 -82.542688 34.365994 -82.542878 34.366141 -82.543146 34.366215 -82.543342 34.366227 -82.543570 34.366181 -82.543833 34.366078 -82.544054 34.365968 -82.544207 34.365915 -82.544373 34.365893 -82.544680 34.365929 -82.544896 34.366133 -82.545103 34.366248 -82.545186 34.366395 -82.545188 34.366489 -82.545228 34.366637 -82.545382 34.366729 -82.545666 34.366677 -82.546241 34.366700 -82.546401 34.366786 -82.546622 34.366955 -82.546874 34.367264 -82.547067 34.367399 -82.547216 34.367463 -82.547314 34.367705 -82.547847 34.367774 -82.548157 34.367834 -82.548287 34.367915 -82.548527 34.368010 -82.548690 34.368187 -82.548845 34.368577 -82.548944 34.368766 -82.549024 34.369012 -82.549235 34.369032 -82.549273 34.369058 -82.549444 34.368996 -82.549763 34.368886 -82.549901 34.368728 -82.550049 34.368590 -82.550293 34.368483 -82.550756 34.368455 -82.550820 34.368207 -82.551058 34.368157 -82.551079 34.368006 -82.551079 34.367873 -82.550960 34.367608 -82.550471 34.367321 -82.549712 34.367185 -82.549233 34.366996 -82.548789 34.366655 -82.548239 34.366312 -82.547948 34.366175 -82.547908 34.366104 -82.547911 34.365994 -82.548057 34.365935 -82.548291 34.365935 -82.548811 34.365953 -82.548866 34.365983 -82.549148 34.365976 -82.549611 34.365919 -82.549758 34.365808 -82.549887 34.365691 -82.549903 34.365511 -82.549773 34.365276 -82.549442 34.364542 -82.548009 34.364098 -82.547519 34.363999 -82.547345 34.363814 -82.546936 34.363649 -82.546247 34.363562 -82.546031 34.363427 -82.545819 34.363201 -82.545555 34.362715 -82.545194 34.362259 -82.544821 34.361657 -82.544063 34.361474 -82.543809 34.361346 -82.543705 34.361286 -82.543706 34.361213 -82.543777 34.361150 -82.543985 34.361157 -82.544243 34.361249 -82.544527 34.361393 -82.544805 34.361810 -82.545289 34.362243 -82.545753 34.362399 -82.545972 34.362504 -82.546223 34.362685 -82.546515 34.362824 -82.546777 34.362997 -82.547156 34.363151 -82.547717 34.363191 -82.547785 34.363296 -82.548191 34.363352 -82.548549 34.363427 -82.548762 34.363647 -82.549103 34.363919 -82.549379 34.364072 -82.549601 34.364137 -82.549759 34.364142 -82.549892 34.364124 -82.549964 34.364088 -82.550019 34.363967 -82.550113 34.363839 -82.550083 34.363411 -82.549725 34.363217 -82.549736 34.363129 -82.549809 34.363030 -82.549958 34.363024 -82.550180 34.363076 -82.550291 34.363359 -82.550529 34.363530 -82.550731 34.363637 -82.550956 34.363672 -82.551071 34.363673 -82.551240 34.363610 -82.551416 34.363407 -82.551638 34.363011 -82.551875 34.362869 -82.551941 34.362326 -82.552308 34.362151 -82.552505 34.361824 -82.553027 34.361600 -82.553267 34.361117 -82.553615 34.361002 -82.553689 34.360542 -82.553853 34.360233 -82.553904 34.360088 -82.553910 34.359873 -82.553793 34.359826 -82.553730 34.359675 -82.553411 34.359643 -82.553152 34.359689 -82.552178 34.359693 -82.551698 34.359669 -82.551400 34.359576 -82.550803 34.359529 -82.550591 34.359336 -82.549984 34.359000 -82.549295 34.358721 -82.548921 34.358344 -82.548467 34.358127 -82.548384 34.358034 -82.548376 34.357979 -82.548402 34.357794 -82.548606 34.357808 -82.548686 34.357778 -82.549112 34.357808 -82.549376 34.358017 -82.549879 34.358302 -82.550380 34.358431 -82.550579 34.358455 -82.550638 34.358505 -82.551076 34.358429 -82.551250 34.358304 -82.551417 34.358194 -82.551781 34.358148 -82.552039 34.358139 -82.552459 34.358199 -82.552970 34.358208 -82.553206 34.358134 -82.553456 34.358017 -82.553615 34.357951 -82.553803 34.357917 -82.554260 34.357844 -82.554722 34.357764 -82.554871 34.357638 -82.555057 34.357531 -82.555434 34.357500 -82.555493 34.357500 -82.555531 34.357361 -82.555858 34.357361 -82.555888 34.357260 -82.556061 34.357089 -82.556253 34.356697 -82.556561 34.356413 -82.556555 34.356145 -82.556388 34.355919 -82.556091 34.355796 -82.555870 34.355702 -82.555662 34.355484 -82.554974 34.355361 -82.554120 34.355333 -82.553568 34.355359 -82.552789 34.355316 -82.552573 34.355292 -82.552536 34.355217 -82.551799 34.355207 -82.551373 34.355248 -82.551134 34.355269 -82.550746 34.355206 -82.550471 34.355016 -82.550205 34.354802 -82.550049 34.354733 -82.550037 34.354615 -82.550113 34.354570 -82.550168 34.354534 -82.550235 34.354506 -82.550362 34.354468 -82.551273 34.354405 -82.551620 34.354282 -82.551846 34.354227 -82.551910 34.354117 -82.551904 34.354090 -82.551874 34.353939 -82.551533 34.353872 -82.551230 34.353736 -82.550214 34.353635 -82.549686 34.353558 -82.549184 34.353407 -82.548704 34.353284 -82.548564 34.353169 -82.548562 34.353024 -82.548654 34.352937 -82.548766 34.352812 -82.549076 34.352778 -82.549239 34.352726 -82.549493 34.352731 -82.549848 34.352865 -82.550601 34.352882 -82.550813 34.352888 -82.551135 34.352800 -82.551686 34.352681 -82.552005 34.352544 -82.552229 34.352425 -82.552486 34.352245 -82.552770 34.351992 -82.553053 34.351830 -82.553293 34.351808 -82.553360 34.351802 -82.553505 34.351824 -82.553699 34.351911 -82.553827 34.352022 -82.553908 34.352398 -82.553968 34.352856 -82.553750 34.353248 -82.553648 34.353387 -82.553655 34.353589 -82.553720 34.353778 -82.553854 34.354109 -82.554244 34.354191 -82.554377 34.354288 -82.554636 34.354288 -82.554686 34.354372 -82.554993 34.354407 -82.555420 34.354407 -82.555563 34.354356 -82.555821 34.354240 -82.556049 34.354135 -82.556400 34.354096 -82.556661 34.354159 -82.556805 34.354376 -82.557104 34.354514 -82.557239 34.354760 -82.557424 34.355359 -82.557801 34.355840 -82.558032 34.356095 -82.558279 34.356159 -82.558382 34.356215 -82.558532 34.356226 -82.558686 34.356219 -82.558924 34.356151 -82.559141 34.356014 -82.559415 34.355669 -82.559793 34.355538 -82.559968 34.355520 -82.560135 34.355524 -82.560297 34.355676 -82.560607 34.355747 -82.560892 34.355719 -82.561242 34.355572 -82.561626 34.355691 -82.561609 34.355873 -82.561545 34.356100 -82.561341 34.356161 -82.561220 34.356196 -82.561045 34.356251 -82.560611 34.356405 -82.560220 34.356524 -82.560107 34.356774 -82.559813 34.356944 -82.559569 34.357012 -82.559344 34.357016 -82.559192 34.356963 -82.558943 34.356786 -82.558605 34.356716 -82.558385 34.356455 -82.557974 34.356425 -82.557952 34.356389 -82.557885 34.355969 -82.557341 34.355901 -82.557128 34.355909 -82.557061 34.355998 -82.556969 34.356141 -82.556902 34.356209 -82.556908 34.356494 -82.557059 34.356590 -82.557141 34.356693 -82.557333 34.356865 -82.557505 34.357072 -82.557536 34.357193 -82.557469 34.357379 -82.557109 34.357467 -82.556763 34.357576 -82.556499 34.357588 -82.556399 34.357717 -82.556141 34.357783 -82.556040 34.357941 -82.555958 34.358275 -82.555950 34.358673 -82.555871 34.358831 -82.555759 34.359002 -82.555581 34.359038 -82.555335 34.359042 -82.555188 34.359001 -82.554604 34.359008 -82.554550 34.359068 -82.554474 34.359288 -82.554430 34.359377 -82.554430 34.359511 -82.554454 34.359834 -82.554620 34.360013 -82.554605 34.360153 -82.554559 34.360351 -82.554396 34.360998 -82.554326 34.361595 -82.553990 34.362383 -82.553323 34.362835 -82.553063 34.363022 -82.553004 34.363256 -82.552799 34.363750 -82.552166 34.364141 -82.551583 34.364566 -82.550817 34.364723 -82.550626 34.364826 -82.550531 34.364905 -82.550519 34.365054 -82.550646 34.365128 -82.550781 34.365185 -82.551057 34.365304 -82.551222 34.365435 -82.551231 34.365659 -82.551079 34.365844 -82.551061 34.365989 -82.551130 34.366377 -82.551507 34.366574 -82.551580 34.366784 -82.551620 34.366943 -82.551622 34.367399 -82.551585 34.368018 -82.551684 34.368189 -82.551654 34.368403 -82.551678 34.368595 -82.551732 34.368796 -82.551880 34.368877 -82.551920 34.369095 -82.551946 34.369246 -82.551867 34.369387 -82.551718 34.369446 -82.551600 34.369439 -82.551495 34.369163 -82.551244 34.369096 -82.551087 34.369103 -82.550904 34.369151 -82.550640 34.369304 -82.550377 34.369476 -82.550126 34.369693 -82.549982 34.369826 -82.549863 34.369871 -82.549775 34.369899 -82.549536 34.369964 -82.549343 34.370066 -82.549252 34.370203 -82.549249 34.370244 -82.549302 34.370310 -82.549506 34.370336 -82.549547 34.370516 -82.549720 34.370667 -82.549791 34.370736 -82.549851 34.370768 -82.549902 34.370798 -82.550128 34.370794 -82.550214 34.370700 -82.550364 34.370457 -82.550515 34.370314 -82.550692 34.370163 -82.551055 34.370122 -82.551208 34.370086 -82.551434 34.370064 -82.551744 34.370116 -82.551942 34.370252 -82.552261 34.370278 -82.552531 34.370264 -82.552594 34.370195 -82.552741 34.370052 -82.552886 34.369897 -82.552922 34.369691 -82.552897 34.369388 -82.552765 34.369042 -82.552480 34.368718 -82.552400 34.368562 -82.552430 34.368387 -82.552508 34.367960 -82.552877 34.367875 -82.553038 34.367847 -82.553061 34.367736 -82.553482 34.367664 -82.553625 34.367589 -82.553694 34.367550 -82.553710 34.367492 -82.553706 34.367415 -82.553603 34.367310 -82.553219 34.367224 -82.553003 34.367070 -82.552803 34.366848 -82.552621 34.366529 -82.552573 34.366345 -82.552599 34.365919 -82.552712 34.365389 -82.552795 34.365348 -82.552815 34.365249 -82.552817 34.364564 -82.553059 34.363695 -82.553492 34.363485 -82.553660 34.363351 -82.553733 34.362887 -82.554065 34.362368 -82.554363 34.361933 -82.554721 34.361689 -82.554977 34.361516 -82.555188 34.361137 -82.555895 34.360671 -82.556527 34.360490 -82.556904 34.360360 -82.557053 34.360004 -82.557273 34.359714 -82.557523 34.359435 -82.557682 34.359215 -82.557912 34.358782 -82.558523 34.358623 -82.558629 34.358282 -82.558773 34.358052 -82.559014 34.357989 -82.559117 34.357895 -82.559361 34.357709 -82.560060 34.357510 -82.560613 34.357308 -82.560864 34.356771 -82.561268 34.356499 -82.561518 34.356438 -82.561581 34.356238 -82.561952 34.356215 -82.562053 34.356207 -82.562294 34.356234 -82.562450 34.356341 -82.562744 34.356362 -82.563099 34.356294 -82.563375 34.356137 -82.563657 34.355854 -82.563942 34.355536 -82.564083 34.355359 -82.564087 34.355050 -82.564061 34.354843 -82.563995 34.354107 -82.563928 34.353869 -82.563838 34.353552 -82.563664 34.353284 -82.563601 34.353125 -82.563599 34.353092 -82.563585 34.352948 -82.563771 34.352859 -82.563924 34.353759 -82.564355 34.354080 -82.564544 34.354286 -82.564547 34.354691 -82.564492 34.355373 -82.564497 34.355877 -82.564386 34.356129 -82.564268 34.356570 -82.563957 34.356719 -82.563823 34.356857 -82.563649 34.357002 -82.563407 34.357046 -82.563274 34.357054 -82.563016 34.357004 -82.562853 34.356863 -82.562611 34.356806 -82.562418 34.356801 -82.562287 34.356857 -82.562022 34.356901 -82.561956 34.357098 -82.561851 34.357572 -82.561740 34.357804 -82.561649 34.357887 -82.561561 34.357947 -82.561466 34.358044 -82.561200 34.358149 -82.561041 34.358171 -82.560936 34.358323 -82.560754 34.358386 -82.560706 34.358617 -82.560618 34.358746 -82.560652 34.358877 -82.560756 34.358988 -82.560706 34.359079 -82.560581 34.359092 -82.560378 34.359071 -82.560326 34.358799 -82.560000 34.358688 -82.559767 34.358667 -82.559532 34.358722 -82.559343 34.359536 -82.558474 34.359714 -82.558356 34.360060 -82.558079 34.360413 -82.557898 34.360556 -82.557889 34.360768 -82.557902 34.360883 -82.557962 34.360929 -82.557891 34.361268 -82.557676 34.361311 -82.557633 34.361383 -82.557537 34.361425 -82.557416 34.361419 -82.557145 34.361331 -82.556662 34.361366 -82.556423 34.361534 -82.556189 34.361804 -82.556180 34.361957 -82.556079 34.362020 -82.555937 34.362014 -82.555880 34.362074 -82.555598 34.362114 -82.555512 34.362266 -82.555340 34.362441 -82.555341 34.362510 -82.555428 34.362596 -82.555805 34.362603 -82.555946 34.362697 -82.556226 34.362721 -82.556341 34.362844 -82.556521 34.362929 -82.556525 34.363139 -82.556362 34.363264 -82.556190 34.363316 -82.556085 34.363335 -82.555872 34.363246 -82.555523 34.363224 -82.555142 34.363278 -82.554898 34.363309 -82.554848 34.363451 -82.554712 34.363572 -82.554682 34.364024 -82.554654 34.364157 -82.554575 34.365204 -82.554293 34.365499 -82.554182 34.365903 -82.553990 34.366070 -82.554014 34.366117 -82.554040 34.366284 -82.554220 34.366459 -82.554266 34.366591 -82.554218 34.366742 -82.554039 34.366901 -82.553954 34.367153 -82.553954 34.367190 -82.553970 34.367355 -82.554207 34.367607 -82.554408 34.367722 -82.554456 34.367913 -82.554440 34.368056 -82.554379 34.368155 -82.554237 34.368256 -82.553589 34.368341 -82.553363 34.368435 -82.553271 34.368532 -82.553230 34.368758 -82.553236 34.368966 -82.553344 34.369192 -82.553573 34.369661 -82.554191 34.369939 -82.554354 34.370076 -82.554513 34.370163 -82.554719 34.370191 -82.554825 34.370258 -82.555474 34.370298 -82.555629 34.370425 -82.555805 34.370522 -82.555866 34.370580 -82.555902 34.370933 -82.555902 34.370965 -82.555617 34.371308 -82.554752 34.371360 -82.554552 34.371429 -82.554184 34.371433 -82.553930 34.371375 -82.553620 34.371181 -82.553343 34.370975 -82.553174 34.370927 -82.553038 34.370946 -82.552878 34.371163 -82.552426 34.371223 -82.552085 34.371179 -82.551960 34.371129 -82.551884 34.370911 -82.551424 34.370832 -82.551160 34.370843 -82.551021 34.370893 -82.550997 34.371050 -82.550987 34.371197 -82.551073 34.371480 -82.551283 34.371677 -82.551305 34.371778 -82.551253 34.371962 -82.551065 34.372153 -82.550974 34.372391 -82.550966 34.372786 -82.551033 34.373066 -82.551042 34.373218 -82.551019 34.373367 -82.550942 34.373602 -82.550665 34.373746 -82.550418 34.373822 -82.550210 34.373877 -82.549986 34.373887 -82.549672 34.373852 -82.549561 34.373673 -82.549353 34.373542 -82.549164 34.373456 -82.548972 34.373461 -82.548815 34.373481 -82.548770 34.373612 -82.548663 34.374290 -82.548692 34.374750 -82.548650 34.374953 -82.548657 34.375115 -82.548741 34.375336 -82.548912 34.375546 -82.548988 34.375821 -82.549188 34.375864 -82.549202 34.376181 -82.549515 34.376376 -82.549885 34.376526 -82.550021 34.376689 -82.550035 34.376864 -82.549966 </gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gml:surfaceMember>
+          </gml:MultiSurface>
+        </ms:multiPolygon>
+        <ms:areasymbol>SC007</ms:areasymbol>
+        <ms:musym>MaE</ms:musym>
+        <ms:nationalmusym>4f4z</ms:nationalmusym>
+        <ms:mukey>131811</ms:mukey>
+        <ms:spatialversion>8</ms:spatialversion>
+        <ms:muname>Madison sandy loam, 15 to 25 percent slopes</ms:muname>
+        <ms:mustatus></ms:mustatus>
+        <ms:slopegraddcp>20</ms:slopegraddcp>
+        <ms:slopegradwta>20</ms:slopegradwta>
+        <ms:brockdepmin></ms:brockdepmin>
+        <ms:wtdepannmin></ms:wtdepannmin>
+        <ms:wtdepaprjunmin></ms:wtdepaprjunmin>
+        <ms:flodfreqdcd>None</ms:flodfreqdcd>
+        <ms:flodfreqmax>None</ms:flodfreqmax>
+        <ms:pondfreqprs>0</ms:pondfreqprs>
+        <ms:aws025wta>3.55</ms:aws025wta>
+        <ms:aws050wta>7.55</ms:aws050wta>
+        <ms:aws0100wta>15.27</ms:aws0100wta>
+        <ms:aws0150wta>21.61</ms:aws0150wta>
+        <ms:drclassdcd>Well drained</ms:drclassdcd>
+        <ms:drclasswettest>Well drained</ms:drclasswettest>
+        <ms:hydgrpdcd>B</ms:hydgrpdcd>
+        <ms:iccdcd></ms:iccdcd>
+        <ms:iccdcdpct>100</ms:iccdcdpct>
+        <ms:niccdcd>6</ms:niccdcd>
+        <ms:niccdcdpct>100</ms:niccdcdpct>
+        <ms:engdwobdcd>Very limited</ms:engdwobdcd>
+        <ms:engdwbdcd>Very limited</ms:engdwbdcd>
+        <ms:engdwbll>Very limited</ms:engdwbll>
+        <ms:engdwbml>Very limited</ms:engdwbml>
+        <ms:engstafdcd>Very limited</ms:engstafdcd>
+        <ms:engstafll>Very limited</ms:engstafll>
+        <ms:engstafml>Very limited</ms:engstafml>
+        <ms:engsldcd>Very limited</ms:engsldcd>
+        <ms:engsldcp>Very limited</ms:engsldcp>
+        <ms:englrsdcd>Very limited</ms:englrsdcd>
+        <ms:engcmssdcd>Poor</ms:engcmssdcd>
+        <ms:engcmssmp>Poor</ms:engcmssmp>
+        <ms:urbrecptdcd>Somewhat limited</ms:urbrecptdcd>
+        <ms:urbrecptwta>0.5</ms:urbrecptwta>
+        <ms:forpehrtdcp>Erosion hazard moderate</ms:forpehrtdcp>
+        <ms:hydclprs>0</ms:hydclprs>
+        <ms:awmmfpwwta>1</ms:awmmfpwwta>
+        <ms:AoiPartName></ms:AoiPartName>
+        <ms:mupolygonkey>386749802</ms:mupolygonkey>
+      </ms:mapunitpolyextended>
+    </gml:featureMember>
+</wfs:FeatureCollection>
+

@@ -1,0 +1,12 @@
+2026-07-28T20:58:27.029476+00:00 START Assignment 4 offline mapping
+network_requests=0
+source_gml_sha256=f7b9e32fb7f575f814739a7cefffc7fb0695b829e56f518a56f93bfddd46ab5c
+source_gml_bytes=794318
+field_count=25
+field_geometry_repairs=3
+parsed_polygon_features=145
+clipped_polygon_features=92
+unique_mapunits=22
+attribute=aws025wta
+attribute_units=centimeters of water
+SUCCESS: Assignment 4 offline mapping complete
