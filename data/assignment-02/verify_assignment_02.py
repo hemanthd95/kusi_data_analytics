@@ -131,7 +131,9 @@ need(all(f"{year} crops" in map_html and str(year) in map_html for year in YEARS
      "interactive HTML embeds all four actual crop-year layers")
 need("l.control.groupedlayers" in map_html.lower() and "exclusiveGroups" in map_html,
      "interactive HTML implements exclusive GroupedLayerControl radio behavior")
-need("cartodb" in map_html.lower() and "positron" in map_html.lower(), "CartoDB Positron is present")
+need("basemaps.cartocdn.com/light_all" in map_html.lower()
+     and "carto.com/attributions" in map_html.lower(),
+     "CARTO Positron tile source is present")
 need("tile.openstreetmap.org" not in map_html.lower(), "OpenStreetMap tile endpoint is absent")
 need(all(value in map_html for value in ids), "interactive HTML embeds all selected field data")
 
