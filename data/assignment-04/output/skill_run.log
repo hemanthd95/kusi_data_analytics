@@ -1,0 +1,9 @@
+Assignment 4 agricultural skill review
+Skill source: https://github.com/borealBytes/ag-skills/tree/skills-content
+Exact upstream skills-content source commit: 8133719196e6f3299585e103deb61c4510472778
+Imported project skill snapshot commit: 667ce7a2a4f5f1a087cde61b9757fcb94e8308dc
+Directories inspected: skills/ssurgo-soil; skills/interactive-web-map
+Supporting scripts inspected: skills/ssurgo-soil/src/ssurgo_soil.py; skills/ssurgo-soil/src/ssurgo_workflows.py
+Skills used: ssurgo-soil (official SDA provenance, polygon/property workflow, cautious interpretation); interactive-web-map (planned Leaflet layers, controls, and tooltips)
+Adaptation: examples were reviewed but no sample geometry, sample attributes, fallback polygons, or sample conclusions were copied. The workflow uses data/assignment-02/fields_EPSG4326.geojson and the required EPSG:32617 buffer.
+RESULT: FAILURE — official USDA-NRCS WFS acquisition was rejected by the environment proxy after three attempts; workflow stopped with no synthetic fallback.
