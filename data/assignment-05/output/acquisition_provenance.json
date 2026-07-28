@@ -1,0 +1,114 @@
+{
+  "status": "acquired",
+  "generated_utc": "2026-07-28T22:56:55.479777+00:00",
+  "endpoint": "https://planetarycomputer.microsoft.com/api/stac/v1",
+  "provider": "Microsoft Planetary Computer",
+  "collection": "landsat-c2-l2",
+  "attempts": [
+    {
+      "method": "STAC API search",
+      "url": "https://planetarycomputer.microsoft.com/api/stac/v1",
+      "collection": "landsat-c2-l2",
+      "search_period": "2023-05-01T00:00:00Z/2023-09-30T23:59:59Z",
+      "cloud_threshold": 20,
+      "platform_filter": [
+        "landsat-8",
+        "landsat-9"
+      ]
+    },
+    {
+      "candidate": "LC08_L2SP_018036_20230929_02_T1",
+      "status": "quality_read_succeeded",
+      "valid_aoi_pct": 100.0,
+      "aoi_cloud_pct": 0.0,
+      "aoi_shadow_pct": 0.0,
+      "scene_cloud_pct": 3.76,
+      "target_date_distance_days": 76
+    },
+    {
+      "candidate": "LC09_L2SP_018036_20230905_02_T1",
+      "status": "quality_read_succeeded",
+      "valid_aoi_pct": 100.0,
+      "aoi_cloud_pct": 0.0,
+      "aoi_shadow_pct": 0.0,
+      "scene_cloud_pct": 18.92,
+      "target_date_distance_days": 52
+    },
+    {
+      "candidate": "LC09_L2SP_018036_20230820_02_T1",
+      "status": "quality_read_succeeded",
+      "valid_aoi_pct": 100.0,
+      "aoi_cloud_pct": 0.0,
+      "aoi_shadow_pct": 0.0,
+      "scene_cloud_pct": 2.51,
+      "target_date_distance_days": 36
+    },
+    {
+      "candidate": "LC08_L2SP_018036_20230812_02_T1",
+      "status": "quality_read_succeeded",
+      "valid_aoi_pct": 0.0,
+      "aoi_cloud_pct": 95.1492537313433,
+      "aoi_shadow_pct": 4.850746268656716,
+      "scene_cloud_pct": 9.09,
+      "target_date_distance_days": 28
+    },
+    {
+      "candidate": "LC08_L2SP_018036_20230727_02_T1",
+      "status": "quality_read_succeeded",
+      "valid_aoi_pct": 100.0,
+      "aoi_cloud_pct": 0.0,
+      "aoi_shadow_pct": 0.0,
+      "scene_cloud_pct": 1.35,
+      "target_date_distance_days": 12
+    },
+    {
+      "candidate": "LC08_L2SP_018036_20230711_02_T1",
+      "status": "quality_read_succeeded",
+      "valid_aoi_pct": 79.97512437810946,
+      "aoi_cloud_pct": 1.2437810945273633,
+      "aoi_shadow_pct": 11.318407960199005,
+      "scene_cloud_pct": 16.37,
+      "target_date_distance_days": 4
+    },
+    {
+      "candidate": "LC08_L2SP_018036_20230625_02_T1",
+      "status": "quality_read_succeeded",
+      "valid_aoi_pct": 100.0,
+      "aoi_cloud_pct": 0.0,
+      "aoi_shadow_pct": 0.0,
+      "scene_cloud_pct": 19.62,
+      "target_date_distance_days": 20
+    },
+    {
+      "candidate": "LC09_L2SP_018036_20230617_02_T1",
+      "status": "quality_read_succeeded",
+      "valid_aoi_pct": 100.0,
+      "aoi_cloud_pct": 0.0,
+      "aoi_shadow_pct": 0.0,
+      "scene_cloud_pct": 1.63,
+      "target_date_distance_days": 28
+    },
+    {
+      "candidate": "LC08_L2SP_018036_20230609_02_T1",
+      "status": "quality_read_succeeded",
+      "valid_aoi_pct": 100.0,
+      "aoi_cloud_pct": 0.0,
+      "aoi_shadow_pct": 0.0,
+      "scene_cloud_pct": 2.38,
+      "target_date_distance_days": 36
+    },
+    {
+      "candidate": "LC08_L2SP_018036_20230524_02_T1",
+      "status": "quality_read_succeeded",
+      "valid_aoi_pct": 100.0,
+      "aoi_cloud_pct": 0.0,
+      "aoi_shadow_pct": 0.0,
+      "scene_cloud_pct": 5.83,
+      "target_date_distance_days": 52
+    }
+  ],
+  "no_synthetic_fallback_used": true,
+  "completed_utc": "2026-07-28T22:57:09.803937+00:00",
+  "selected_product_id": "LC08_L2SP_018036_20230727_02_T1",
+  "source_manifest": "data/assignment-05/source/source_manifest.json"
+}

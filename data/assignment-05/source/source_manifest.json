@@ -1,0 +1,63 @@
+{
+  "status": "acquired",
+  "generated_utc": "2026-07-28T22:57:09.803828+00:00",
+  "product_id": "LC08_L2SP_018036_20230727_02_T1",
+  "platform": "landsat-8",
+  "acquisition_datetime": "2023-07-27T16:05:59.161620Z",
+  "scene_cloud_pct": 1.35,
+  "field_id": "451623001001257",
+  "field_acres": 19.14119405324898,
+  "crop_2023": "Other Hay/Non Alfalfa",
+  "endpoint": "https://planetarycomputer.microsoft.com/api/stac/v1",
+  "provider": "Microsoft Planetary Computer",
+  "collection": "landsat-c2-l2",
+  "context_buffer_m": 300,
+  "assets": {
+    "red": {
+      "path": "data/assignment-05/source/raw/red.tif",
+      "sha256": "a70629e815e7b9d2fc69c3d103ae58cbd5ba9d033370f603bb83f076ef78c841",
+      "source_url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2023/018/036/LC08_L2SP_018036_20230727_20230805_02_T1/LC08_L2SP_018036_20230727_20230805_02_T1_SR_B4.TIF",
+      "stac_asset": "red",
+      "access_method": "Temporary Planetary Computer signed Azure Blob URL"
+    },
+    "nir": {
+      "path": "data/assignment-05/source/raw/nir.tif",
+      "sha256": "f3da92b09da4868c4c43ac5520b8f315a23fb365375f9a171cf9d4ebb5ad5229",
+      "source_url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2023/018/036/LC08_L2SP_018036_20230727_20230805_02_T1/LC08_L2SP_018036_20230727_20230805_02_T1_SR_B5.TIF",
+      "stac_asset": "nir08",
+      "access_method": "Temporary Planetary Computer signed Azure Blob URL"
+    },
+    "qa_pixel": {
+      "path": "data/assignment-05/source/raw/qa_pixel.tif",
+      "sha256": "dbc213815760ded72bc4f3d3c5c23049c67b537bc248464b10d0f13f520ebbd1",
+      "source_url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2023/018/036/LC08_L2SP_018036_20230727_20230805_02_T1/LC08_L2SP_018036_20230727_20230805_02_T1_QA_PIXEL.TIF",
+      "stac_asset": "qa_pixel",
+      "access_method": "Temporary Planetary Computer signed Azure Blob URL"
+    },
+    "qa_radsat": {
+      "path": "data/assignment-05/source/raw/qa_radsat.tif",
+      "sha256": "cb72ed8dd2667311faf5717abee409dcad5c8591d304120fe10f9c0317649048",
+      "source_url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2023/018/036/LC08_L2SP_018036_20230727_20230805_02_T1/LC08_L2SP_018036_20230727_20230805_02_T1_QA_RADSAT.TIF",
+      "stac_asset": "qa_radsat",
+      "access_method": "Temporary Planetary Computer signed Azure Blob URL"
+    }
+  },
+  "candidate_metrics": {
+    "valid_aoi_pct": 100.0,
+    "aoi_cloud_pct": 0.0,
+    "aoi_shadow_pct": 0.0,
+    "scene_cloud_pct": 1.35,
+    "target_date_distance_days": 12
+  },
+  "qa_pixel_rejected_bits": {
+    "0": "fill",
+    "1": "dilated cloud",
+    "2": "cirrus",
+    "3": "cloud",
+    "4": "cloud shadow",
+    "5": "snow"
+  },
+  "qa_radsat_rule": "Reject every nonzero QA_RADSAT pixel.",
+  "temporary_access_tokens_saved": false,
+  "no_synthetic_fallback_used": true
+}

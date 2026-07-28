@@ -1,0 +1,80 @@
+{
+  "status": "complete",
+  "generated_utc": "2026-07-28T23:12:02.791432+00:00",
+  "product_id": "LC08_L2SP_018036_20230727_02_T1",
+  "platform": "landsat-8",
+  "acquisition_datetime": "2023-07-27T16:05:59.161620Z",
+  "field_id": "451623001001257",
+  "field_acres": 19.14119405324898,
+  "crop_2023": "Other Hay/Non Alfalfa",
+  "crs": "EPSG:32617",
+  "resolution_m": [
+    30.0,
+    30.0
+  ],
+  "dimensions": {
+    "width": 12,
+    "height": 13
+  },
+  "surface_reflectance": {
+    "scale": 2.75e-05,
+    "offset": -0.2,
+    "metadata_source": "selected_scene_metadata.json raster:bands",
+    "official_value_validation": true
+  },
+  "quality_mask": {
+    "qa_pixel_rejected_bits": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "qa_radsat_rule": "Reject every nonzero value.",
+    "source_fill_rejected": true,
+    "negative_reflectance_rejected": true,
+    "near_zero_denominator_rejected": true
+  },
+  "field_pixel_count": 87,
+  "valid_pixel_count": 87,
+  "valid_pixel_percent": 100.0,
+  "ndvi_statistics": {
+    "minimum": 0.5934736314668672,
+    "median": 0.7699845169393346,
+    "mean": 0.7622188084016785,
+    "maximum": 0.8612230234288794,
+    "standard_deviation": 0.043181395105955395
+  },
+  "ndvi_distribution_counts": {
+    "negative": 0,
+    "0.0_to_0.2": 0,
+    "0.2_to_0.4": 0,
+    "0.4_to_0.6": 1,
+    "0.6_to_1.0": 86
+  },
+  "descriptive_greenness": "high greenness",
+  "interpretation_caution": "Single-date 30 m NDVI is descriptive and cannot by itself diagnose crop health, yield, management quality, or stress cause.",
+  "rasters": {
+    "red": "data/assignment-05/output/rasters/selected_field_red_reflectance.tif",
+    "nir": "data/assignment-05/output/rasters/selected_field_nir_reflectance.tif",
+    "qa_pixel": "data/assignment-05/output/rasters/selected_field_qa_pixel.tif",
+    "qa_radsat": "data/assignment-05/output/rasters/selected_field_qa_radsat.tif",
+    "ndvi": "data/assignment-05/output/rasters/selected_field_ndvi.tif"
+  },
+  "visualizations": {
+    "red_png": "output/visualizations/01_selected_field_red_reflectance.png",
+    "nir_png": "output/visualizations/02_selected_field_nir_reflectance.png",
+    "ndvi_png": "output/visualizations/03_selected_field_ndvi.png",
+    "final_panel_png": "output/visualizations/04_assignment_05_final_panel.png",
+    "dashboard_png": "output/dashboard_assets/dashboard_selected_field_ndvi.png"
+  },
+  "output_sha256": {
+    "data/assignment-05/output/rasters/selected_field_red_reflectance.tif": "1f18562d5cc9570cfc42ce0b6aa3644de9ca20fc41089adbb861ba4d5d667fb7",
+    "data/assignment-05/output/rasters/selected_field_nir_reflectance.tif": "68905079df11e9fc54c4e3689c069f469a0787b3be963b59f1a653d0aebb43c5",
+    "data/assignment-05/output/rasters/selected_field_qa_pixel.tif": "dc72d30e21e9b8ff20432f866cfd4bbf7cb1f6f22f65354483952f383e337afe",
+    "data/assignment-05/output/rasters/selected_field_qa_radsat.tif": "55c84005802f14889cf97c8a36007dbb7ec51e60cd910cac739700ade07f8446",
+    "data/assignment-05/output/rasters/selected_field_ndvi.tif": "a6c6ea030ecbb1790188304094b8499833705e200f2c629032ff652ea8ad0a68"
+  },
+  "no_synthetic_fallback_used": true
+}
