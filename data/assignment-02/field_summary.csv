@@ -1,26 +1,26 @@
-field_id,area_acres,crop_name,state,state_fips,region,boundary_year,source,crop_2020,crop_2021,crop_2022,crop_2023
-45-2022-CSB-00001,149.54,Corn,South Carolina,45,southeast,2022,USDA NASS Crop Sequence Boundaries 2022,Soybeans,Corn,Soybeans,Corn
-45-2022-CSB-00002,177.99,Soybeans,South Carolina,45,southeast,2022,USDA NASS Crop Sequence Boundaries 2022,Cotton,Soybeans,Cotton,Soybeans
-45-2022-CSB-00003,154.38,Soybeans,South Carolina,45,southeast,2022,USDA NASS Crop Sequence Boundaries 2022,Corn,Soybeans,Corn,Soybeans
-45-2022-CSB-00004,138.04,Cotton,South Carolina,45,southeast,2022,USDA NASS Crop Sequence Boundaries 2022,Soybeans,Cotton,Soybeans,Cotton
-45-2022-CSB-00005,165.28,Soybeans,South Carolina,45,southeast,2022,USDA NASS Crop Sequence Boundaries 2022,Winter Wheat,Soybeans,Corn,Soybeans
-45-2022-CSB-00006,144.07,Soybeans,South Carolina,45,southeast,2022,USDA NASS Crop Sequence Boundaries 2022,Corn,Soybeans,Cotton,Soybeans
-45-2022-CSB-00007,172.51,Corn,South Carolina,45,southeast,2022,USDA NASS Crop Sequence Boundaries 2022,Soybeans,Corn,Soybeans,Corn
-45-2022-CSB-00008,152.54,Cotton,South Carolina,45,southeast,2022,USDA NASS Crop Sequence Boundaries 2022,Cotton,Soybeans,Corn,Cotton
-45-2022-CSB-00009,133.77,Corn,South Carolina,45,southeast,2022,USDA NASS Crop Sequence Boundaries 2022,Soybeans,Winter Wheat,Soybeans,Corn
-45-2022-CSB-00010,161.01,Soybeans,South Carolina,45,southeast,2022,USDA NASS Crop Sequence Boundaries 2022,Corn,Soybeans,Corn,Soybeans
-45-2022-CSB-00011,190.64,Cotton,South Carolina,45,southeast,2022,USDA NASS Crop Sequence Boundaries 2022,Cotton,Cotton,Soybeans,Cotton
-45-2022-CSB-00012,123.46,Corn,South Carolina,45,southeast,2022,USDA NASS Crop Sequence Boundaries 2022,Soybeans,Corn,Soybeans,Corn
-45-2022-CSB-00013,149.49,Soybeans,South Carolina,45,southeast,2022,USDA NASS Crop Sequence Boundaries 2022,Corn,Soybeans,Cotton,Soybeans
-45-2022-CSB-00014,177.93,Soybeans,South Carolina,45,southeast,2022,USDA NASS Crop Sequence Boundaries 2022,Winter Wheat,Soybeans,Corn,Soybeans
-45-2022-CSB-00015,154.33,Cotton,South Carolina,45,southeast,2022,USDA NASS Crop Sequence Boundaries 2022,Soybeans,Cotton,Soybeans,Cotton
-45-2022-CSB-00016,137.96,Soybeans,South Carolina,45,southeast,2022,USDA NASS Crop Sequence Boundaries 2022,Corn,Soybeans,Corn,Soybeans
-45-2022-CSB-00017,165.19,Corn,South Carolina,45,southeast,2022,USDA NASS Crop Sequence Boundaries 2022,Soybeans,Corn,Soybeans,Corn
-45-2022-CSB-00018,144.01,Soybeans,South Carolina,45,southeast,2022,USDA NASS Crop Sequence Boundaries 2022,Cotton,Soybeans,Cotton,Soybeans
-45-2022-CSB-00019,172.45,Corn,South Carolina,45,southeast,2022,USDA NASS Crop Sequence Boundaries 2022,Soybeans,Winter Wheat,Soybeans,Corn
-45-2022-CSB-00020,152.49,Soybeans,South Carolina,45,southeast,2022,USDA NASS Crop Sequence Boundaries 2022,Corn,Soybeans,Cotton,Soybeans
-45-2022-CSB-00021,133.7,Corn,South Carolina,45,southeast,2022,USDA NASS Crop Sequence Boundaries 2022,Soybeans,Corn,Soybeans,Corn
-45-2022-CSB-00022,160.93,Cotton,South Carolina,45,southeast,2022,USDA NASS Crop Sequence Boundaries 2022,Cotton,Soybeans,Corn,Cotton
-45-2022-CSB-00023,190.57,Soybeans,South Carolina,45,southeast,2022,USDA NASS Crop Sequence Boundaries 2022,Corn,Soybeans,Corn,Soybeans
-45-2022-CSB-00024,123.42,Cotton,South Carolina,45,southeast,2022,USDA NASS Crop Sequence Boundaries 2022,Soybeans,Cotton,Soybeans,Cotton
-45-2022-CSB-00025,149.43,Soybeans,South Carolina,45,southeast,2022,USDA NASS Crop Sequence Boundaries 2022,Winter Wheat,Soybeans,Corn,Soybeans
+field_id,CSBID,STATEFIPS,CSBACRES,county,source_attribute,CDL2020,CDL2021,CDL2022,CDL2023,crop_code_2020,crop_2020,dominant_pct_2020,valid_pixels_2020,matches_csb_2020,crop_code_2021,crop_2021,dominant_pct_2021,valid_pixels_2021,matches_csb_2021,crop_code_2022,crop_2022,dominant_pct_2022,valid_pixels_2022,matches_csb_2022,crop_code_2023,crop_2023,dominant_pct_2023,valid_pixels_2023,matches_csb_2023
+451623001001160,451623001001160,45,4.233174233397975,001,,37,37,37,176,37,Other Hay/Non Alfalfa,77.272727,22,True,37,Other Hay/Non Alfalfa,54.545455,22,True,37,Other Hay/Non Alfalfa,50.0,22,True,176,Grassland/Pasture,54.545455,22,True
+451623001001187,451623001001187,45,2.9410683003849662,001,,37,176,176,37,37,Other Hay/Non Alfalfa,76.923077,13,True,176,Grassland/Pasture,53.846154,13,True,176,Grassland/Pasture,61.538462,13,True,176,Grassland/Pasture,38.461538,13,False
+451623001001196,451623001001196,45,17.514312061244784,001,,37,37,37,37,37,Other Hay/Non Alfalfa,75.0,84,True,37,Other Hay/Non Alfalfa,67.857143,84,True,37,Other Hay/Non Alfalfa,58.333333,84,True,37,Other Hay/Non Alfalfa,57.142857,84,True
+451623001001204,451623001001204,45,3.307537355816114,001,,37,176,176,176,37,Other Hay/Non Alfalfa,73.333333,15,True,176,Grassland/Pasture,53.333333,15,True,176,Grassland/Pasture,60.0,15,True,176,Grassland/Pasture,73.333333,15,True
+451623001001218,451623001001218,45,6.187809269344218,001,,37,37,37,37,37,Other Hay/Non Alfalfa,85.185185,27,True,37,Other Hay/Non Alfalfa,66.666667,27,True,37,Other Hay/Non Alfalfa,51.851852,27,True,176,Grassland/Pasture,51.851852,27,False
+451623001001219,451623001001219,45,4.545813303363282,001,,37,176,176,176,37,Other Hay/Non Alfalfa,90.0,20,True,176,Grassland/Pasture,95.0,20,True,176,Grassland/Pasture,100.0,20,True,176,Grassland/Pasture,95.0,20,True
+451623001001224,451623001001224,45,4.447507684144567,001,,37,176,176,176,37,Other Hay/Non Alfalfa,75.0,20,True,176,Grassland/Pasture,60.0,20,True,176,Grassland/Pasture,65.0,20,True,176,Grassland/Pasture,75.0,20,True
+451623001001231,451623001001231,45,4.003016126409183,001,,37,176,176,176,37,Other Hay/Non Alfalfa,52.941176,17,True,176,Grassland/Pasture,82.352941,17,True,176,Grassland/Pasture,70.588235,17,True,176,Grassland/Pasture,64.705882,17,True
+451623001001238,451623001001238,45,2.6360029115600883,001,,37,37,176,37,37,Other Hay/Non Alfalfa,81.818182,11,True,37,Other Hay/Non Alfalfa,72.727273,11,True,176,Grassland/Pasture,54.545455,11,True,37,Other Hay/Non Alfalfa,63.636364,11,True
+451623001001243,451623001001243,45,5.730075281942755,001,,176,176,176,176,37,Other Hay/Non Alfalfa,51.851852,27,False,176,Grassland/Pasture,77.777778,27,True,176,Grassland/Pasture,85.185185,27,True,176,Grassland/Pasture,85.185185,27,True
+451623001001248,451623001001248,45,3.9490344851654404,001,,176,176,176,176,176,Grassland/Pasture,55.555556,18,True,176,Grassland/Pasture,66.666667,18,True,176,Grassland/Pasture,55.555556,18,True,176,Grassland/Pasture,77.777778,18,True
+451623001001250,451623001001250,45,12.640829411592978,001,,37,37,37,37,37,Other Hay/Non Alfalfa,88.135593,59,True,37,Other Hay/Non Alfalfa,83.050847,59,True,37,Other Hay/Non Alfalfa,86.440678,59,True,37,Other Hay/Non Alfalfa,84.745763,59,True
+451623001001251,451623001001251,45,4.437590129467583,001,,37,176,176,176,37,Other Hay/Non Alfalfa,65.0,20,True,176,Grassland/Pasture,65.0,20,True,176,Grassland/Pasture,55.0,20,True,176,Grassland/Pasture,50.0,20,True
+451623001001257,451623001001257,45,19.14119405324898,001,,37,37,37,37,37,Other Hay/Non Alfalfa,95.294118,85,True,37,Other Hay/Non Alfalfa,87.058824,85,True,37,Other Hay/Non Alfalfa,80.0,85,True,37,Other Hay/Non Alfalfa,81.176471,85,True
+451623001001258,451623001001258,45,8.885457754892826,001,,28,37,37,24,28,Oats,51.219512,41,True,37,Other Hay/Non Alfalfa,65.853659,41,True,37,Other Hay/Non Alfalfa,65.853659,41,True,24,Winter Wheat,41.463415,41,True
+451623001001259,451623001001259,45,3.6844874367322995,001,,176,176,176,176,176,Grassland/Pasture,63.157895,19,True,176,Grassland/Pasture,68.421053,19,True,176,Grassland/Pasture,73.684211,19,True,176,Grassland/Pasture,73.684211,19,True
+451623001001261,451623001001261,45,4.376599028571515,001,,37,37,176,37,37,Other Hay/Non Alfalfa,75.0,20,True,37,Other Hay/Non Alfalfa,55.0,20,True,176,Grassland/Pasture,50.0,20,True,37,Other Hay/Non Alfalfa,60.0,20,True
+451623001001262,451623001001262,45,15.70476291622756,001,,37,37,176,176,28,Oats,49.315068,73,False,37,Other Hay/Non Alfalfa,47.945205,73,True,37,Other Hay/Non Alfalfa,46.575342,73,False,176,Grassland/Pasture,35.616438,73,True
+451623001001264,451623001001264,45,5.923776287733908,001,,37,176,176,176,37,Other Hay/Non Alfalfa,52.0,25,True,176,Grassland/Pasture,44.0,25,True,176,Grassland/Pasture,68.0,25,True,176,Grassland/Pasture,64.0,25,True
+451623001001266,451623001001266,45,14.144361343838874,001,,176,176,176,176,176,Grassland/Pasture,60.0,65,True,176,Grassland/Pasture,72.307692,65,True,176,Grassland/Pasture,75.384615,65,True,176,Grassland/Pasture,78.461538,65,True
+451623001001267,451623001001267,45,4.753304821959788,001,,176,176,176,176,176,Grassland/Pasture,89.473684,19,True,176,Grassland/Pasture,100.0,19,True,176,Grassland/Pasture,94.736842,19,True,176,Grassland/Pasture,100.0,19,True
+451623001001281,451623001001281,45,4.132697886258406,001,,37,176,176,37,37,Other Hay/Non Alfalfa,55.555556,18,True,176,Grassland/Pasture,50.0,18,True,176,Grassland/Pasture,61.111111,18,True,176,Grassland/Pasture,50.0,18,False
+451623001001285,451623001001285,45,4.641658947719539,001,,37,37,37,37,37,Other Hay/Non Alfalfa,76.190476,21,True,37,Other Hay/Non Alfalfa,71.428571,21,True,37,Other Hay/Non Alfalfa,85.714286,21,True,37,Other Hay/Non Alfalfa,76.190476,21,True
+451623001001295,451623001001295,45,3.308253514560647,001,,37,176,176,176,37,Other Hay/Non Alfalfa,92.307692,13,True,176,Grassland/Pasture,61.538462,13,True,176,Grassland/Pasture,61.538462,13,True,176,Grassland/Pasture,53.846154,13,True
+451623001001299,451623001001299,45,5.048982917619439,001,,37,176,176,176,37,Other Hay/Non Alfalfa,81.818182,22,True,176,Grassland/Pasture,63.636364,22,True,176,Grassland/Pasture,63.636364,22,True,176,Grassland/Pasture,68.181818,22,True

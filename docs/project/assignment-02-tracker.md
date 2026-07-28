@@ -1,13 +1,8 @@
-# Assignment 02 Tracker
+# Assignment 02 tracker
 
-- [x] Environment prepared and versions recorded
-- [x] 25 field boundaries downloaded for the southeast region
-- [x] CDL crop data downloaded for 2020–2023
-- [x] Datasets merged using `field_id`
-- [x] Interactive web map created
-- [x] Text-based SVG map and terminal evidence generated
-- [x] Verification passed
-
-## Completion evidence
-
-The audited result is 25 South Carolina fields, 100 annual CDL rows, 25 matched fields, zero unmatched fields, zero duplicate IDs, and 25 merged GeoJSON features. Details and provenance are recorded in `data/assignment-02/output/assignment_02_summary.json`.
+- Status: real USDA build complete at 2026-07-28T15:04:25.268559+00:00.
+- Boundaries: 25 official CSBID records for STATEFIPS 45; source geometry unchanged except CRS reprojection.
+- CDL: validated official county rasters for 2020–2023; direct cache preferred, county-FIPS services next, bounding-box service last; 100 raster zonal extractions.
+- Join: 25 matched, 0 unmatched.
+- Raster/CSB annual-code disagreements: 6; see the summary JSON for every record.
+- Limitations: 30 m pixel-center extraction can differ at boundaries; the CDL service clip covers the combined selected-field bounding box.
