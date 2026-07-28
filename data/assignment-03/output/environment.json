@@ -1,0 +1,13 @@
+{
+  "python": "3.12.13",
+  "operating_system": "Linux-6.12.13-x86_64-with-glibc2.39",
+  "git_source_sha": "e198d41ba6acf31305a603249361608376c036a0",
+  "pandas": "3.0.5",
+  "numpy": "2.5.1",
+  "matplotlib": "3.11.1",
+  "seaborn": "0.13.2",
+  "scipy": "1.18.0",
+  "jupyter": "1.1.1",
+  "nbformat": "5.10.4",
+  "nbconvert": "7.17.1"
+}

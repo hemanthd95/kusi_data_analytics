@@ -1,0 +1,38 @@
+#!/usr/bin/env python3
+"""Build the substantive, executable Assignment 3 notebook."""
+from pathlib import Path
+import nbformat as nbf
+ROOT=Path(__file__).resolve().parents[3]; out=ROOT/'notebooks/03_field_eda.ipynb'
+nb=nbf.v4.new_notebook(); cells=[]
+def md(s): cells.append(nbf.v4.new_markdown_cell(s))
+def code(s): cells.append(nbf.v4.new_code_cell(s))
+md("# Assignment 3: Exploratory Data Analysis of Row Crop Fields\n\n**Objective.** Transparently explore the 25 real USDA-derived fields finalized in Assignment 2. This notebook reports distributions, observed associations, crop transitions, and classification agreement—never causal effects.")
+md("## 1. Data provenance\n\nThe sole analysis table is `data/assignment-02/field_summary.csv`, inherited from USDA NASS Crop Sequence Boundaries and annual 30 m Cropland Data Layer zonal extraction. The run records its Git SHA and SHA-256 in `eda_summary.json`.")
+md("## 2. Imports and reproducibility settings")
+code("from pathlib import Path\nimport sys, json\nimport pandas as pd\nfrom IPython.display import display, Image\nROOT=Path.cwd()\nif ROOT.name=='notebooks': ROOT=ROOT.parent\nsys.path.insert(0,str(ROOT/'data/assignment-03/scripts'))\nimport run_assignment_03_eda as eda\npd.set_option('display.max_columns',40)\nYEARS=[2020,2021,2022,2023]")
+md("## 3. Source loading and explicit validation\n\n`load_validate` asserts 25 unique genuine identifiers, South Carolina FIPS 45, positive acreage/pixels, bounded percentages, annual coverage, valid booleans, and no duplicate records.")
+code("df=eda.load_validate()\nprint('Shape:',df.shape,'Unique fields:',df.field_id.nunique())\ndisplay(df.head(3))")
+md("## 4. `.info()` and `.describe()` inspection")
+code("df.info()\ndisplay(df.describe(include='all').T)")
+md("## 5. Missing values and duplicate checks\n\nThe intentionally blank `source_attribute` is absent source metadata, not evidence that records should be discarded.")
+code("display(pd.DataFrame({'missing':df.isna().sum(),'unique_including_missing':df.nunique(dropna=False)}))\nprint('Duplicate rows:',df.duplicated().sum())")
+md("## 6. Categorical profiles")
+code("for y in YEARS:\n print(f'\\n{y}')\n display(df[f'crop_{y}'].value_counts().rename('field_count').to_frame())")
+md("## 7. Derived field metrics\n\nAll metrics are transparent transformations of the four annual crop, confidence, valid-pixel, and match columns. Assertions are embedded in `derive`.")
+code("metrics=eda.derive(df)\ndisplay(metrics.head())\ndisplay(metrics[['mean_dominant_pct','crop_transition_count','unique_dominant_crop_count','raster_csb_match_rate']].describe())")
+md("## 8. IQR outlier analysis\n\nThe standard 1.5×IQR rule flags observations for review. Valid outliers are retained; no row is silently removed.")
+code("display(metrics.loc[metrics.acreage_iqr_outlier|metrics.confidence_iqr_outlier,['field_id','CSBACRES','mean_dominant_pct','acreage_iqr_outlier','confidence_iqr_outlier']])")
+md("## 9. Visual 1 — Acreage distribution\n\nQuartiles and retained IQR outliers provide context for this selected 25-field sample.")
+code("display(Image(filename=str(ROOT/'data/assignment-03/output/visualizations/01_acreage_distribution.png'),width=900))")
+md("## 10. Visual 2 — Acreage and classification confidence\n\nField points encode transition counts and whether any raster/CSB mismatch occurred. Correlations are descriptive.")
+code("summary=json.loads((ROOT/'data/assignment-03/output/eda_summary.json').read_text())\ndisplay(pd.Series(summary['visual_2_correlations']).to_frame('value'))\ndisplay(Image(filename=str(ROOT/'data/assignment-03/output/visualizations/02_acreage_vs_classification_confidence.png'),width=900))")
+md("## 11. Visual 3 — Spearman correlation heatmap\n\nIdentifiers and nominal crop codes are excluded. With only 25 fields, estimates may be unstable.")
+code("display(pd.read_csv(ROOT/'data/assignment-03/output/correlation_matrix_spearman.csv',index_col=0))\ndisplay(Image(filename=str(ROOT/'data/assignment-03/output/visualizations/03_metric_correlation_heatmap.png'),width=850))")
+md("## 12. Visual 4 — Crop composition over time\n\nCounts use the observed annual dominant crop names without interpolation.")
+code("display(pd.read_csv(ROOT/'data/assignment-03/output/crop_composition_by_year.csv'))\ndisplay(Image(filename=str(ROOT/'data/assignment-03/output/visualizations/04_crop_composition_by_year.png'),width=950))")
+md("## 13. Key findings\n\nThe executed outputs above quantify acreage, confidence, transitions, composition, and agreement. Interpretations are observational and apply only to these 25 selected fields.")
+code("print('Median acres:',metrics.CSBACRES.median())\nprint('Mean confidence:',metrics.mean_dominant_pct.mean())\nprint('Transition distribution:',metrics.crop_transition_count.value_counts().sort_index().to_dict())\nprint('Overall match rate:',summary['raster_csb_match_rate_overall'])")
+md("## 14. Limitations\n\nThe sample contains only 25 fields in one selected South Carolina county FIPS, four annual observations, and 30 m CDL pixels. Dominant-pixel summaries discard within-field heterogeneity, and small-field edges may affect results. Correlations are exploratory—not causal. No soil, yield, or weather measurements are present.")
+md("## 15. Dashboard-asset decisions\n\nCrop composition communicates annual categorical patterns; acreage versus classification confidence supports field-level inspection. The dashboard exports have a wider presentation layout and explanatory annotations.")
+md("## 16. Data-authenticity statement\n\nNo synthetic fields or missing agronomic variables were created. Every observation originates in finalized Assignment 2 products; derived metrics are documented transformations. Soil, yield, weather, and management variables were neither present nor invented.")
+nb['cells']=cells; nb['metadata']={'kernelspec':{'display_name':'Python 3','language':'python','name':'python3'},'language_info':{'name':'python','version':'3'}}; out.parent.mkdir(exist_ok=True); nbf.write(nb,out); print(out)

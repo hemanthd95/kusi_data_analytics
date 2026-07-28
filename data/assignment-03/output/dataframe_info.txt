@@ -1,0 +1,103 @@
+<class 'pandas.DataFrame'>
+RangeIndex: 25 entries, 0 to 24
+Data columns (total 30 columns):
+ #   Column             Non-Null Count  Dtype  
+---  ------             --------------  -----  
+ 0   field_id           25 non-null     str    
+ 1   CSBID              25 non-null     str    
+ 2   STATEFIPS          25 non-null     str    
+ 3   CSBACRES           25 non-null     float64
+ 4   county             25 non-null     int64  
+ 5   source_attribute   0 non-null      float64
+ 6   CDL2020            25 non-null     int64  
+ 7   CDL2021            25 non-null     int64  
+ 8   CDL2022            25 non-null     int64  
+ 9   CDL2023            25 non-null     int64  
+ 10  crop_code_2020     25 non-null     int64  
+ 11  crop_2020          25 non-null     str    
+ 12  dominant_pct_2020  25 non-null     float64
+ 13  valid_pixels_2020  25 non-null     int64  
+ 14  matches_csb_2020   25 non-null     bool   
+ 15  crop_code_2021     25 non-null     int64  
+ 16  crop_2021          25 non-null     str    
+ 17  dominant_pct_2021  25 non-null     float64
+ 18  valid_pixels_2021  25 non-null     int64  
+ 19  matches_csb_2021   25 non-null     bool   
+ 20  crop_code_2022     25 non-null     int64  
+ 21  crop_2022          25 non-null     str    
+ 22  dominant_pct_2022  25 non-null     float64
+ 23  valid_pixels_2022  25 non-null     int64  
+ 24  matches_csb_2022   25 non-null     bool   
+ 25  crop_code_2023     25 non-null     int64  
+ 26  crop_2023          25 non-null     str    
+ 27  dominant_pct_2023  25 non-null     float64
+ 28  valid_pixels_2023  25 non-null     int64  
+ 29  matches_csb_2023   25 non-null     bool   
+dtypes: bool(4), float64(6), int64(13), str(7)
+memory usage: 5.3 KB
+
+Duplicate rows: 0
+
+Missing values:
+field_id              0
+CSBID                 0
+STATEFIPS             0
+CSBACRES              0
+county                0
+source_attribute     25
+CDL2020               0
+CDL2021               0
+CDL2022               0
+CDL2023               0
+crop_code_2020        0
+crop_2020             0
+dominant_pct_2020     0
+valid_pixels_2020     0
+matches_csb_2020      0
+crop_code_2021        0
+crop_2021             0
+dominant_pct_2021     0
+valid_pixels_2021     0
+matches_csb_2021      0
+crop_code_2022        0
+crop_2022             0
+dominant_pct_2022     0
+valid_pixels_2022     0
+matches_csb_2022      0
+crop_code_2023        0
+crop_2023             0
+dominant_pct_2023     0
+valid_pixels_2023     0
+matches_csb_2023      0
+
+Unique values:
+field_id             25
+CSBID                25
+STATEFIPS             1
+CSBACRES             25
+county                1
+source_attribute      1
+CDL2020               3
+CDL2021               2
+CDL2022               2
+CDL2023               3
+crop_code_2020        3
+crop_2020             3
+dominant_pct_2020    21
+valid_pixels_2020    17
+matches_csb_2020      2
+crop_code_2021        2
+crop_2021             2
+dominant_pct_2021    24
+valid_pixels_2021    17
+matches_csb_2021      1
+crop_code_2022        2
+crop_2022             2
+dominant_pct_2022    23
+valid_pixels_2022    17
+matches_csb_2022      2
+crop_code_2023        3
+crop_2023             3
+dominant_pct_2023    24
+valid_pixels_2023    17
+matches_csb_2023      2

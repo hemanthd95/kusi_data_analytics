@@ -1,0 +1,158 @@
+{
+  "source_file": "data/assignment-02/field_summary.csv",
+  "supporting_sources": [
+    "data/assignment-02/output/assignment_02_summary.json",
+    "data/assignment-02/cdl_EPSG4326.csv",
+    "data/assignment-02/fields_EPSG4326.geojson"
+  ],
+  "source_sha256": "5759d566cc88c0646b9579302a047bca6d29a43e1915a046bab3f0471e1637d8",
+  "source_git_sha": "e198d41ba6acf31305a603249361608376c036a0",
+  "generated_utc": "2026-07-28T15:37:26.885958+00:00",
+  "input_row_count": 25,
+  "input_column_count": 30,
+  "unique_field_count": 25,
+  "years_analyzed": [
+    2020,
+    2021,
+    2022,
+    2023
+  ],
+  "numeric_columns_analyzed": [
+    "CSBACRES",
+    "mean_dominant_pct",
+    "min_dominant_pct",
+    "dominant_pct_range",
+    "crop_transition_count",
+    "unique_dominant_crop_count",
+    "raster_csb_match_rate"
+  ],
+  "categorical_columns_analyzed": [
+    "crop_2020",
+    "crop_2021",
+    "crop_2022",
+    "crop_2023"
+  ],
+  "missing_value_counts": {
+    "field_id": 0,
+    "CSBID": 0,
+    "STATEFIPS": 0,
+    "CSBACRES": 0,
+    "county": 0,
+    "source_attribute": 25,
+    "CDL2020": 0,
+    "CDL2021": 0,
+    "CDL2022": 0,
+    "CDL2023": 0,
+    "crop_code_2020": 0,
+    "crop_2020": 0,
+    "dominant_pct_2020": 0,
+    "valid_pixels_2020": 0,
+    "matches_csb_2020": 0,
+    "crop_code_2021": 0,
+    "crop_2021": 0,
+    "dominant_pct_2021": 0,
+    "valid_pixels_2021": 0,
+    "matches_csb_2021": 0,
+    "crop_code_2022": 0,
+    "crop_2022": 0,
+    "dominant_pct_2022": 0,
+    "valid_pixels_2022": 0,
+    "matches_csb_2022": 0,
+    "crop_code_2023": 0,
+    "crop_2023": 0,
+    "dominant_pct_2023": 0,
+    "valid_pixels_2023": 0,
+    "matches_csb_2023": 0
+  },
+  "duplicate_count": 0,
+  "acreage_outlier_count": 5,
+  "confidence_outlier_count": 2,
+  "raster_csb_match_rate_overall": 94.0,
+  "raster_csb_match_rate_by_year": {
+    "2020": 92.0,
+    "2021": 100.0,
+    "2022": 96.0,
+    "2023": 88.0
+  },
+  "crop_transition_counts": {
+    "0": 8,
+    "1": 13,
+    "2": 4
+  },
+  "crop_composition_by_year": {
+    "2020": {
+      "Other Hay/Non Alfalfa": 19,
+      "Grassland/Pasture": 4,
+      "Oats": 2
+    },
+    "2021": {
+      "Grassland/Pasture": 15,
+      "Other Hay/Non Alfalfa": 10
+    },
+    "2022": {
+      "Grassland/Pasture": 17,
+      "Other Hay/Non Alfalfa": 8
+    },
+    "2023": {
+      "Grassland/Pasture": 18,
+      "Other Hay/Non Alfalfa": 6,
+      "Winter Wheat": 1
+    }
+  },
+  "visual_2_correlations": {
+    "sample_size": 25,
+    "spearman_rho": 0.14692307692307693,
+    "spearman_p_value": 0.48341316697868447,
+    "pearson_r": 0.0719061225621201,
+    "pearson_p_value": 0.7326771012105155
+  },
+  "strongest_spearman_correlations": [
+    {
+      "variable_1": "crop_transition_count",
+      "variable_2": "unique_dominant_crop_count",
+      "spearman_rho": 0.9387376808258772,
+      "absolute_rho": 0.9387376808258772
+    },
+    {
+      "variable_1": "mean_dominant_pct",
+      "variable_2": "min_dominant_pct",
+      "spearman_rho": 0.914805839602442,
+      "absolute_rho": 0.914805839602442
+    },
+    {
+      "variable_1": "min_dominant_pct",
+      "variable_2": "unique_dominant_crop_count",
+      "spearman_rho": -0.7133196775277938,
+      "absolute_rho": 0.7133196775277938
+    },
+    {
+      "variable_1": "min_dominant_pct",
+      "variable_2": "crop_transition_count",
+      "spearman_rho": -0.6757379507072224,
+      "absolute_rho": 0.6757379507072224
+    },
+    {
+      "variable_1": "mean_dominant_pct",
+      "variable_2": "unique_dominant_crop_count",
+      "spearman_rho": -0.6249581532321691,
+      "absolute_rho": 0.6249581532321691
+    }
+  ],
+  "output_file_inventory": [
+    "descriptive_statistics.csv",
+    "data_types.csv",
+    "data_quality_summary.csv",
+    "derived_field_metrics.csv",
+    "crop_composition_by_year.csv",
+    "correlation_matrix_spearman.csv",
+    "strongest_correlations.csv"
+  ],
+  "dashboard_asset_inventory": [
+    "dashboard_crop_composition.png",
+    "dashboard_crop_composition.svg",
+    "dashboard_field_confidence.png",
+    "dashboard_field_confidence.svg"
+  ],
+  "notebook_execution_status": "passed: executed top-to-bottom with outputs and no errors",
+  "no_synthetic_data_declaration": true
+}
