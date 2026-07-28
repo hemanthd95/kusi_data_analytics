@@ -1,14 +1,13 @@
 # Assignment 4 tracker
 
-## Status: blocked at official SSURGO acquisition
+## Status: complete and independently verified
 
-- Confirmed the merged Assignment 3 commit is an ancestor of the starting HEAD.
-- Validated all seven prescribed Assignment 2/3 inputs.
-- Visually inspected all three pages of the image-based Assignment 4 PDF.
-- Inspected the imported `ssurgo-soil` and `interactive-web-map` skills and their support code.
-- Validated 25 real Assignment 2 fields in EPSG:4326 and created the 500 m analytical buffer in EPSG:32617.
-- Attempted the prescribed bounded WFS request three times. The environment's network proxy rejected the CONNECT tunnel with HTTP 403 before USDA could respond.
-- Stopped without creating soil data, maps, findings, notebook evidence, or a success claim.
+- Validated the genuine external USDA-NRCS response, successful HTTP metadata, byte size, and all source checksums.
+- Completed checksum-gated offline processing with zero network requests.
+- Temporarily repaired three invalid field geometries while preserving 25 authoritative fields.
+- Regenerated and compared the 500 m EPSG:32617 buffer (0.000 m² symmetric difference).
+- Parsed, clipped, intersected, summarized, and mapped SSURGO `aws025wta`.
+- Generated four paired analytical maps, paired dashboard asset, interactive map, tables, report, evidence, and executed notebook.
+- Assignment verifier passes all checks.
 
-Resume by rerunning the pipeline in an environment that permits access to the official
-USDA-NRCS Soil Data Access host. Do not bypass the authenticity checks.
+Provenance note: Codex's proxy blocked direct acquisition. The genuine response was acquired externally and independently checksum-verified before offline analysis.

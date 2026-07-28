@@ -10,4 +10,4 @@ that claim.
 - `assignment-01/`: workspace setup and successful local skill-run evidence.
 - `assignment-02/`: verified real USDA Crop Sequence Boundary and 2020–2023 Cropland Data Layer outputs for 25 South Carolina fields.
 - `assignment-03/`: reproducible EDA of those 25 finalized fields, including an executed notebook, report, visualizations, dashboard assets, provenance, and verification.
-- `assignment-04/`: real-data geospatial workflow; currently records a blocked official USDA-NRCS SSURGO acquisition without synthetic fallback.
+- `assignment-04/`: completed offline, checksum-verified USDA-NRCS SSURGO geospatial analysis for the 25 authoritative fields, including maps, interactive output, executed notebook, report, evidence, and verification.
