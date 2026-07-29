@@ -1,0 +1,90 @@
+{
+  "acquisition_history": [
+    {
+      "attempted_url": "https://power.larc.nasa.gov/api/temporal/daily/point?community=AG&format=JSON&time-standard=LST&start=19910101&end=20251231&parameters=ALLSKY_SFC_SW_DWN%2CPRECTOTCORR%2CRH2M%2CT2M%2CT2M_MAX%2CT2M_MIN&longitude=-82.53604245&latitude=34.33090814",
+      "endpoint": "https://power.larc.nasa.gov/api/temporal/daily/point",
+      "error_message": "HTTPSConnectionPool(host='power.larc.nasa.gov', port=443): Max retries exceeded with url: /api/temporal/daily/point?community=AG&format=JSON&time-standard=LST&start=19910101&end=20251231&parameters=ALLSKY_SFC_SW_DWN%2CPRECTOTCORR%2CRH2M%2CT2M%2CT2M_MAX%2CT2M_MIN&longitude=-82.53604245&latitude=34.33090814 (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))",
+      "exception_type": "ProxyError",
+      "http_response_status": null,
+      "no_synthetic_fallback": true,
+      "response_body_excerpt": "",
+      "status": "failed",
+      "timestamp_utc": "2026-07-29T22:27:51.350699+00:00"
+    }
+  ],
+  "acquisition_method": "external_raw_import",
+  "exception": null,
+  "externally_downloaded_and_locally_imported": true,
+  "field_location": {
+    "cluster_extent": {
+      "east": -82.52188923445452,
+      "east_west_span_m": 2699.0249820562312,
+      "north": 34.34843152355022,
+      "north_south_span_m": 3363.715664222371,
+      "south": 34.31788880370307,
+      "west": -82.55090481818236
+    },
+    "distance_m": {
+      "maximum": 2198.680847167236,
+      "mean": 834.8211352402316,
+      "median": 655.7930892606566,
+      "minimum": 93.02842436609292,
+      "standard_deviation": 544.713931685182
+    },
+    "field_count": 25,
+    "limitation": "One gridded series represents the overall cluster and does not resolve field-to-field meteorological differences.",
+    "representative_latitude": 34.33090814412706,
+    "representative_longitude": -82.53604244635059
+  },
+  "imported_from": "/home/hemanthd95/Downloads/nasa_power_daily_raw.json",
+  "no_synthetic_fallback": true,
+  "raw_response_sha256": "cebf64e8481161fe51c5c98745989e1b304bbf0e8526e931c06ae963114aa1fb",
+  "request": {
+    "acquisition_method": "external_raw_import",
+    "community": "AG",
+    "endpoint": "https://power.larc.nasa.gov/api/temporal/daily/point",
+    "externally_downloaded_and_locally_imported": true,
+    "format": "JSON",
+    "http_status": null,
+    "imported_from": "/home/hemanthd95/Downloads/nasa_power_daily_raw.json",
+    "no_synthetic_fallback": true,
+    "parameters": [
+      "ALLSKY_SFC_SW_DWN",
+      "PRECTOTCORR",
+      "RH2M",
+      "T2M",
+      "T2M_MAX",
+      "T2M_MIN"
+    ],
+    "raw_response_byte_count": 1272254,
+    "raw_response_sha256": "cebf64e8481161fe51c5c98745989e1b304bbf0e8526e931c06ae963114aa1fb",
+    "requested_coordinates": {
+      "latitude": 34.33090814412706,
+      "longitude": -82.53604244635059
+    },
+    "requested_date_range": {
+      "end": "2025-12-31",
+      "start": "1991-01-01"
+    },
+    "requested_to_returned_distance_km": 0.010913135097604667,
+    "response_content_type": "application/json (validated local bytes)",
+    "retrieval_timestamp_utc": "2026-07-29T23:15:34.937611+00:00",
+    "returned_grid_coordinates": {
+      "latitude": 34.331,
+      "longitude": -82.536
+    },
+    "sorted_query_parameters": {
+      "community": "AG",
+      "end": "20251231",
+      "format": "JSON",
+      "latitude": "34.33090814",
+      "longitude": "-82.53604245",
+      "parameters": "ALLSKY_SFC_SW_DWN,PRECTOTCORR,RH2M,T2M,T2M_MAX,T2M_MIN",
+      "start": "19910101",
+      "time-standard": "LST"
+    },
+    "time_standard": "LST"
+  },
+  "status": "success",
+  "timestamp_utc": "2026-07-29T23:15:34.937611+00:00"
+}

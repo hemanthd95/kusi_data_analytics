@@ -1,0 +1,26 @@
+{
+  "crs": {
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    },
+    "type": "name"
+  },
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          -82.53604244635059,
+          34.33090814412706
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "field_count": 25,
+        "method": "CSBACRES-weighted field-centroid mean"
+      },
+      "type": "Feature"
+    }
+  ],
+  "name": "representative_weather_point",
+  "type": "FeatureCollection"
+}
