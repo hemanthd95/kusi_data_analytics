@@ -1,0 +1,9 @@
+Source validation: checksum-verified authentic NASA POWER response
+Period: 1991-01-01 through 2025-12-31
+Records: 12784 daily, 420 monthly, 35 annual
+Incomplete days: 0
+Baseline temperature: 16.08 C
+Baseline precipitation: 1290.7 mm
+Notable years: {'warmest': [2019, 2016, 2024], 'coolest': [1996, 1992, 2013], 'wettest': [2013, 2018, 1992], 'driest': [2016, 2007, 2001], 'most_hot_days': [{'year': 2011, 'hot_day_count': 53}, {'year': 2016, 'hot_day_count': 52}, {'year': 2007, 'hot_day_count': 47}], 'longest_warm_dry_spells': [{'year': 2000, 'warm_season_longest_dry_spell_days': 36}, {'year': 2024, 'warm_season_longest_dry_spell_days': 28}, {'year': 2017, 'warm_season_longest_dry_spell_days': 25}]}
+Generated artifacts: 11 checksum-tracked outputs
+SUCCESS: Assignment 6 real-data weather and climate workflow complete

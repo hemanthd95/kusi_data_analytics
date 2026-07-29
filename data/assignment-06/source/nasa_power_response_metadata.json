@@ -1,0 +1,62 @@
+{
+  "fill_values": {
+    "ALLSKY_SFC_SW_DWN": -999.0,
+    "PRECTOTCORR": -999.0,
+    "RH2M": -999.0,
+    "T2M": -999.0,
+    "T2M_MAX": -999.0,
+    "T2M_MIN": -999.0
+  },
+  "geometry": {
+    "coordinates": [
+      -82.536,
+      34.331,
+      232.08
+    ],
+    "type": "Point"
+  },
+  "header": {
+    "api": {
+      "name": "POWER Daily API",
+      "version": "v2.9.5"
+    },
+    "end": "20251231",
+    "fill_value": -999.0,
+    "sources": [
+      "SYN1DEG",
+      "SRB",
+      "MERRA2",
+      "POWER"
+    ],
+    "start": "19910101",
+    "time_standard": "LST",
+    "title": "NASA/POWER Source Native Resolution Daily Data"
+  },
+  "messages": [],
+  "parameters": {
+    "ALLSKY_SFC_SW_DWN": {
+      "longname": "All Sky Surface Shortwave Downward Irradiance",
+      "units": "MJ/m^2/day"
+    },
+    "PRECTOTCORR": {
+      "longname": "Precipitation Corrected",
+      "units": "mm/day"
+    },
+    "RH2M": {
+      "longname": "Relative Humidity at 2 Meters",
+      "units": "%"
+    },
+    "T2M": {
+      "longname": "Temperature at 2 Meters",
+      "units": "C"
+    },
+    "T2M_MAX": {
+      "longname": "Temperature at 2 Meters Maximum",
+      "units": "C"
+    },
+    "T2M_MIN": {
+      "longname": "Temperature at 2 Meters Minimum",
+      "units": "C"
+    }
+  }
+}

@@ -1,0 +1,539 @@
+{
+  "status": "complete",
+  "generated_utc": "2026-07-29T23:28:40.845201+00:00",
+  "representative_weather_point": {
+    "latitude": 34.33090814412706,
+    "longitude": -82.53604244635059
+  },
+  "returned_grid_coordinates": {
+    "latitude": 34.331,
+    "longitude": -82.536
+  },
+  "field_count": 25,
+  "field_cluster_extent": {
+    "east": -82.52188923445452,
+    "east_west_span_m": 2699.0249820562312,
+    "north": 34.34843152355022,
+    "north_south_span_m": 3363.715664222371,
+    "south": 34.31788880370307,
+    "west": -82.55090481818236
+  },
+  "maximum_field_centroid_distance_m": 2198.680847167236,
+  "source": "NASA POWER",
+  "endpoint": "https://power.larc.nasa.gov/api/temporal/daily/point",
+  "request_period": "1991-01-01/2025-12-31",
+  "baseline_period": "1991-2020",
+  "recent_anomaly_period": "2021-2025",
+  "parameter_units": {
+    "T2M": "C",
+    "T2M_MAX": "C",
+    "T2M_MIN": "C",
+    "PRECTOTCORR": "mm/day",
+    "RH2M": "%",
+    "ALLSKY_SFC_SW_DWN": "MJ/m^2/day"
+  },
+  "record_counts": {
+    "daily": 12784,
+    "monthly": 420,
+    "annual": 35
+  },
+  "missing_by_parameter": {
+    "T2M": 0,
+    "T2M_MAX": 0,
+    "T2M_MIN": 0,
+    "PRECTOTCORR": 0,
+    "RH2M": 0,
+    "ALLSKY_SFC_SW_DWN": 0
+  },
+  "baseline_climate": {
+    "annual_mean_temperature_C": 16.084675482196772,
+    "annual_precipitation_mm": 1290.7206666666666
+  },
+  "recent_anomalies": [
+    {
+      "year": 2021,
+      "annual_mean_temperature_C": 16.52013698630137,
+      "annual_mean_temperature_C_anomaly": 0.43546150410459816,
+      "annual_mean_temperature_C_zscore": 0.5732607984568368,
+      "annual_mean_temperature_C_notable": false,
+      "annual_precipitation_mm": 1209.55,
+      "annual_precipitation_mm_anomaly": -81.17066666666665,
+      "annual_precipitation_mm_zscore": -0.3353580397560648,
+      "annual_precipitation_mm_notable": false,
+      "annual_precipitation_mm_anomaly_pct": -6.288786471227184,
+      "warm_season_mean_temperature_C": 21.963411214953272,
+      "warm_season_mean_temperature_C_anomaly": -0.032157320872276074,
+      "warm_season_mean_temperature_C_zscore": -0.037641039224225466,
+      "warm_season_mean_temperature_C_notable": false,
+      "warm_season_precipitation_mm": 752.1199999999999,
+      "warm_season_precipitation_mm_anomaly": 26.546999999999912,
+      "warm_season_precipitation_mm_zscore": 0.16352526519509356,
+      "warm_season_precipitation_mm_notable": false,
+      "warm_season_precipitation_mm_anomaly_pct": 3.6587634876159827
+    },
+    {
+      "year": 2022,
+      "annual_mean_temperature_C": 16.620109589041096,
+      "annual_mean_temperature_C_anomaly": 0.535434106844324,
+      "annual_mean_temperature_C_zscore": 0.7048691577037138,
+      "annual_mean_temperature_C_notable": false,
+      "annual_precipitation_mm": 1199.0300000000002,
+      "annual_precipitation_mm_anomaly": -91.6906666666664,
+      "annual_precipitation_mm_zscore": -0.37882160514381225,
+      "annual_precipitation_mm_notable": false,
+      "annual_precipitation_mm_anomaly_pct": -7.103835015167217,
+      "warm_season_mean_temperature_C": 22.348831775700933,
+      "warm_season_mean_temperature_C_anomaly": 0.35326323987538544,
+      "warm_season_mean_temperature_C_zscore": 0.41350445584197654,
+      "warm_season_mean_temperature_C_notable": false,
+      "warm_season_precipitation_mm": 609.28,
+      "warm_season_precipitation_mm_anomaly": -116.293,
+      "warm_season_precipitation_mm_zscore": -0.7163462412074088,
+      "warm_season_precipitation_mm_notable": false,
+      "warm_season_precipitation_mm_anomaly_pct": -16.027746346680487
+    },
+    {
+      "year": 2023,
+      "annual_mean_temperature_C": 17.082575342465752,
+      "annual_mean_temperature_C_anomaly": 0.9978998602689799,
+      "annual_mean_temperature_C_zscore": 1.3136795452310586,
+      "annual_mean_temperature_C_notable": false,
+      "annual_precipitation_mm": 1199.6399999999999,
+      "annual_precipitation_mm_anomaly": -91.08066666666673,
+      "annual_precipitation_mm_zscore": -0.3763013793941438,
+      "annual_precipitation_mm_notable": false,
+      "annual_precipitation_mm_anomaly_pct": -7.0565745957942925,
+      "warm_season_mean_temperature_C": 21.97214953271028,
+      "warm_season_mean_temperature_C_anomaly": -0.023419003115268566,
+      "warm_season_mean_temperature_C_zscore": -0.027412595046562703,
+      "warm_season_mean_temperature_C_notable": false,
+      "warm_season_precipitation_mm": 666.78,
+      "warm_season_precipitation_mm_anomaly": -58.793000000000006,
+      "warm_season_precipitation_mm_zscore": -0.3621554569862948,
+      "warm_season_precipitation_mm_notable": false,
+      "warm_season_precipitation_mm_anomaly_pct": -8.102975165834453
+    },
+    {
+      "year": 2024,
+      "annual_mean_temperature_C": 17.248415300546448,
+      "annual_mean_temperature_C_anomaly": 1.1637398183496757,
+      "annual_mean_temperature_C_zscore": 1.531998606478209,
+      "annual_mean_temperature_C_notable": false,
+      "annual_precipitation_mm": 1366.0100000000002,
+      "annual_precipitation_mm_anomaly": 75.28933333333362,
+      "annual_precipitation_mm_zscore": 0.3110592074461347,
+      "annual_precipitation_mm_notable": false,
+      "annual_precipitation_mm_anomaly_pct": 5.833123717447794,
+      "warm_season_mean_temperature_C": 22.917336448598135,
+      "warm_season_mean_temperature_C_anomaly": 0.9217679127725873,
+      "warm_season_mean_temperature_C_zscore": 1.078955000577124,
+      "warm_season_mean_temperature_C_notable": false,
+      "warm_season_precipitation_mm": 729.3699999999999,
+      "warm_season_precipitation_mm_anomaly": 3.796999999999912,
+      "warm_season_precipitation_mm_zscore": 0.023388911438044144,
+      "warm_season_precipitation_mm_notable": false,
+      "warm_season_precipitation_mm_anomaly_pct": 0.5233105421508121
+    },
+    {
+      "year": 2025,
+      "annual_mean_temperature_C": 16.532520547945204,
+      "annual_mean_temperature_C_anomaly": 0.44784506574843164,
+      "annual_mean_temperature_C_zscore": 0.5895630671275899,
+      "annual_mean_temperature_C_notable": false,
+      "annual_precipitation_mm": 1104.8400000000001,
+      "annual_precipitation_mm_anomaly": -185.88066666666646,
+      "annual_precipitation_mm_zscore": -0.7679692499985681,
+      "annual_precipitation_mm_notable": false,
+      "annual_precipitation_mm_anomaly_pct": -14.401308622934664,
+      "warm_season_mean_temperature_C": 22.43107476635514,
+      "warm_season_mean_temperature_C_anomaly": 0.4355062305295938,
+      "warm_season_mean_temperature_C_zscore": 0.5097721657494143,
+      "warm_season_mean_temperature_C_notable": false,
+      "warm_season_precipitation_mm": 813.11,
+      "warm_season_precipitation_mm_anomaly": 87.53700000000003,
+      "warm_season_precipitation_mm_zscore": 0.5392138900584984,
+      "warm_season_precipitation_mm_notable": false,
+      "warm_season_precipitation_mm_anomaly_pct": 12.064533823612516
+    }
+  ],
+  "trend_statistics": [
+    {
+      "metric": "annual_mean_temperature_C",
+      "n_complete_years": 35,
+      "ols_slope_per_year": 0.048533396195516915,
+      "ols_slope_per_decade": 0.48533396195516915,
+      "ols_intercept": -81.26808749682073,
+      "pearson_r": 0.6584699850526187,
+      "r_squared": 0.43358272121519587,
+      "ols_p_value": 1.7085366327452042e-05,
+      "ols_standard_error": 0.00965641620242596,
+      "ols_slope_ci95_low": 0.028887269713143652,
+      "ols_slope_ci95_high": 0.06817952267789018,
+      "theil_sen_slope_per_year": 0.04924657534246579,
+      "theil_sen_slope_per_decade": 0.4924657534246579,
+      "theil_sen_ci95_low": 0.025924657534246442,
+      "theil_sen_ci95_high": 0.07050062266500635,
+      "kendall_tau": 0.44873949579831934,
+      "kendall_p_value": 0.00014956996681664522,
+      "alpha": 0.05,
+      "ols_significant": "True",
+      "kendall_significant": "True"
+    },
+    {
+      "metric": "annual_precipitation_mm",
+      "n_complete_years": 35,
+      "ols_slope_per_year": -2.598938375350137,
+      "ols_slope_per_decade": -25.98938375350137,
+      "ols_intercept": 6498.687971988789,
+      "pearson_r": -0.11710231724744032,
+      "r_squared": 0.013712952704720158,
+      "ols_p_value": 0.5028977822241607,
+      "ols_standard_error": 3.8368532397097135,
+      "ols_slope_ci95_low": -10.405074985607602,
+      "ols_slope_ci95_high": 5.207198234907328,
+      "theil_sen_slope_per_year": -3.458275862068964,
+      "theil_sen_slope_per_decade": -34.582758620689646,
+      "theil_sen_ci95_low": -11.886666666666668,
+      "theil_sen_ci95_high": 6.392941176470579,
+      "kendall_tau": -0.07226890756302522,
+      "kendall_p_value": 0.5414236472276195,
+      "alpha": 0.05,
+      "ols_significant": "False",
+      "kendall_significant": "False"
+    },
+    {
+      "metric": "warm_season_mean_temperature_C",
+      "n_complete_years": 35,
+      "ols_slope_per_year": 0.039429828005968774,
+      "ols_slope_per_decade": 0.39429828005968776,
+      "ols_intercept": -57.132241498468616,
+      "pearson_r": 0.49941594299653763,
+      "r_squared": 0.24941628411912092,
+      "ols_p_value": 0.0022556649514501683,
+      "ols_standard_error": 0.011907074732762032,
+      "ols_slope_ci95_low": 0.01520470231429193,
+      "ols_slope_ci95_high": 0.06365495369764562,
+      "theil_sen_slope_per_year": 0.03951239333604229,
+      "theil_sen_slope_per_decade": 0.3951239333604229,
+      "theil_sen_ci95_low": 0.011839953271028048,
+      "theil_sen_ci95_high": 0.06795666949872628,
+      "kendall_tau": 0.3243697478991597,
+      "kendall_p_value": 0.006127555574057785,
+      "alpha": 0.05,
+      "ols_significant": "True",
+      "kendall_significant": "True"
+    },
+    {
+      "metric": "warm_season_precipitation_mm",
+      "n_complete_years": 35,
+      "ols_slope_per_year": 0.1311036414565801,
+      "ols_slope_per_decade": 1.311036414565801,
+      "ols_intercept": 460.6824593837585,
+      "pearson_r": 0.008815685081407435,
+      "r_squared": 7.771630345454961e-05,
+      "ols_p_value": 0.9599143313529156,
+      "ols_standard_error": 2.5887185777359862,
+      "ols_slope_ci95_low": -5.135683905738579,
+      "ols_slope_ci95_high": 5.397891188651738,
+      "theil_sen_slope_per_year": 0.2613043478260866,
+      "theil_sen_slope_per_decade": 2.613043478260866,
+      "theil_sen_ci95_low": -5.604285714285701,
+      "theil_sen_ci95_high": 6.18692307692308,
+      "kendall_tau": 0.011764705882352941,
+      "kendall_p_value": 0.920812723910616,
+      "alpha": 0.05,
+      "ols_significant": "False",
+      "kendall_significant": "False"
+    },
+    {
+      "metric": "hot_day_count",
+      "n_complete_years": 35,
+      "ols_slope_per_year": 0.29551820728291317,
+      "ols_slope_per_decade": 2.955182072829132,
+      "ols_intercept": -568.8291316526611,
+      "pearson_r": 0.18312892513365667,
+      "r_squared": 0.03353620322060843,
+      "ols_p_value": 0.29234265508858115,
+      "ols_standard_error": 0.2761614932572998,
+      "ols_slope_ci95_low": -0.2663365753155155,
+      "ols_slope_ci95_high": 0.8573729898813418,
+      "theil_sen_slope_per_year": 0.3684210526315789,
+      "theil_sen_slope_per_decade": 3.6842105263157894,
+      "theil_sen_ci95_low": -0.21428571428571427,
+      "theil_sen_ci95_high": 0.9285714285714286,
+      "kendall_tau": 0.15503995283640792,
+      "kendall_p_value": 0.1953694921300433,
+      "alpha": 0.05,
+      "ols_significant": "False",
+      "kendall_significant": "False"
+    },
+    {
+      "metric": "warm_season_longest_dry_spell_days",
+      "n_complete_years": 35,
+      "ols_slope_per_year": 0.06330532212885154,
+      "ols_slope_per_decade": 0.6330532212885154,
+      "ols_intercept": -111.31708683473389,
+      "pearson_r": 0.10911749095275519,
+      "r_squared": 0.011906626831824611,
+      "ols_p_value": 0.5326467561658681,
+      "ols_standard_error": 0.10038940382985972,
+      "ols_slope_ci95_low": -0.14093845566481727,
+      "ols_slope_ci95_high": 0.26754909992252035,
+      "theil_sen_slope_per_year": 0.043478260869565216,
+      "theil_sen_slope_per_decade": 0.43478260869565216,
+      "theil_sen_ci95_low": -0.09523809523809523,
+      "theil_sen_ci95_high": 0.20833333333333334,
+      "kendall_tau": 0.07830825373337626,
+      "kendall_p_value": 0.5201322311529589,
+      "alpha": 0.05,
+      "ols_significant": "False",
+      "kendall_significant": "False"
+    }
+  ],
+  "most_notable_years": {
+    "warmest": [
+      2019,
+      2016,
+      2024
+    ],
+    "coolest": [
+      1996,
+      1992,
+      2013
+    ],
+    "wettest": [
+      2013,
+      2018,
+      1992
+    ],
+    "driest": [
+      2016,
+      2007,
+      2001
+    ],
+    "most_hot_days": [
+      {
+        "year": 2011,
+        "hot_day_count": 53
+      },
+      {
+        "year": 2016,
+        "hot_day_count": 52
+      },
+      {
+        "year": 2007,
+        "hot_day_count": 47
+      }
+    ],
+    "longest_warm_dry_spells": [
+      {
+        "year": 2000,
+        "warm_season_longest_dry_spell_days": 36
+      },
+      {
+        "year": 2024,
+        "warm_season_longest_dry_spell_days": 28
+      },
+      {
+        "year": 2017,
+        "warm_season_longest_dry_spell_days": 25
+      }
+    ]
+  },
+  "warm_season_risk_metrics": [
+    {
+      "year": 1991,
+      "warm_season_hot_day_count": 0,
+      "warm_season_longest_dry_spell_days": 16
+    },
+    {
+      "year": 1992,
+      "warm_season_hot_day_count": 9,
+      "warm_season_longest_dry_spell_days": 15
+    },
+    {
+      "year": 1993,
+      "warm_season_hot_day_count": 44,
+      "warm_season_longest_dry_spell_days": 18
+    },
+    {
+      "year": 1994,
+      "warm_season_hot_day_count": 3,
+      "warm_season_longest_dry_spell_days": 10
+    },
+    {
+      "year": 1995,
+      "warm_season_hot_day_count": 23,
+      "warm_season_longest_dry_spell_days": 10
+    },
+    {
+      "year": 1996,
+      "warm_season_hot_day_count": 11,
+      "warm_season_longest_dry_spell_days": 14
+    },
+    {
+      "year": 1997,
+      "warm_season_hot_day_count": 16,
+      "warm_season_longest_dry_spell_days": 15
+    },
+    {
+      "year": 1998,
+      "warm_season_hot_day_count": 27,
+      "warm_season_longest_dry_spell_days": 23
+    },
+    {
+      "year": 1999,
+      "warm_season_hot_day_count": 42,
+      "warm_season_longest_dry_spell_days": 14
+    },
+    {
+      "year": 2000,
+      "warm_season_hot_day_count": 41,
+      "warm_season_longest_dry_spell_days": 36
+    },
+    {
+      "year": 2001,
+      "warm_season_hot_day_count": 10,
+      "warm_season_longest_dry_spell_days": 10
+    },
+    {
+      "year": 2002,
+      "warm_season_hot_day_count": 45,
+      "warm_season_longest_dry_spell_days": 12
+    },
+    {
+      "year": 2003,
+      "warm_season_hot_day_count": 0,
+      "warm_season_longest_dry_spell_days": 11
+    },
+    {
+      "year": 2004,
+      "warm_season_hot_day_count": 16,
+      "warm_season_longest_dry_spell_days": 11
+    },
+    {
+      "year": 2005,
+      "warm_season_hot_day_count": 6,
+      "warm_season_longest_dry_spell_days": 21
+    },
+    {
+      "year": 2006,
+      "warm_season_hot_day_count": 37,
+      "warm_season_longest_dry_spell_days": 10
+    },
+    {
+      "year": 2007,
+      "warm_season_hot_day_count": 47,
+      "warm_season_longest_dry_spell_days": 19
+    },
+    {
+      "year": 2008,
+      "warm_season_hot_day_count": 36,
+      "warm_season_longest_dry_spell_days": 10
+    },
+    {
+      "year": 2009,
+      "warm_season_hot_day_count": 11,
+      "warm_season_longest_dry_spell_days": 10
+    },
+    {
+      "year": 2010,
+      "warm_season_hot_day_count": 44,
+      "warm_season_longest_dry_spell_days": 19
+    },
+    {
+      "year": 2011,
+      "warm_season_hot_day_count": 53,
+      "warm_season_longest_dry_spell_days": 13
+    },
+    {
+      "year": 2012,
+      "warm_season_hot_day_count": 24,
+      "warm_season_longest_dry_spell_days": 16
+    },
+    {
+      "year": 2013,
+      "warm_season_hot_day_count": 0,
+      "warm_season_longest_dry_spell_days": 14
+    },
+    {
+      "year": 2014,
+      "warm_season_hot_day_count": 13,
+      "warm_season_longest_dry_spell_days": 17
+    },
+    {
+      "year": 2015,
+      "warm_season_hot_day_count": 34,
+      "warm_season_longest_dry_spell_days": 13
+    },
+    {
+      "year": 2016,
+      "warm_season_hot_day_count": 52,
+      "warm_season_longest_dry_spell_days": 23
+    },
+    {
+      "year": 2017,
+      "warm_season_hot_day_count": 13,
+      "warm_season_longest_dry_spell_days": 25
+    },
+    {
+      "year": 2018,
+      "warm_season_hot_day_count": 4,
+      "warm_season_longest_dry_spell_days": 13
+    },
+    {
+      "year": 2019,
+      "warm_season_hot_day_count": 45,
+      "warm_season_longest_dry_spell_days": 15
+    },
+    {
+      "year": 2020,
+      "warm_season_hot_day_count": 16,
+      "warm_season_longest_dry_spell_days": 11
+    },
+    {
+      "year": 2021,
+      "warm_season_hot_day_count": 16,
+      "warm_season_longest_dry_spell_days": 13
+    },
+    {
+      "year": 2022,
+      "warm_season_hot_day_count": 34,
+      "warm_season_longest_dry_spell_days": 13
+    },
+    {
+      "year": 2023,
+      "warm_season_hot_day_count": 23,
+      "warm_season_longest_dry_spell_days": 23
+    },
+    {
+      "year": 2024,
+      "warm_season_hot_day_count": 37,
+      "warm_season_longest_dry_spell_days": 28
+    },
+    {
+      "year": 2025,
+      "warm_season_hot_day_count": 28,
+      "warm_season_longest_dry_spell_days": 12
+    }
+  ],
+  "output_checksums": {
+    "data/assignment-06/output/tables/weather_data_quality.csv": "cfe84585caf6a373ec24c09c5f30ed8dbf301da0e6bb55ecc8353ae5c9fe3d3a",
+    "data/assignment-06/output/tables/weather_daily_1991_2025.csv": "8ed869fddad6c543621ce567dcb33cb48e3c0fa232d0bc2246b8350c48a6ab21",
+    "data/assignment-06/output/tables/climate_anomalies_1991_2025.csv": "93ab67531ffe8e4b9b1c31eb186199151a8b9e03b795c0048002305dbe3100dc",
+    "data/assignment-06/output/tables/recent_anomalies_2021_2025.csv": "9d4891eaadba149040e68b35c86a5cb7104a834550c75d2218c81f5d72124247",
+    "data/assignment-06/output/tables/weather_monthly_1991_2025.csv": "3364b519518b6ba728f7e3f9503ac49e1d52411b0a453416dcf18d551f095ab4",
+    "data/assignment-06/output/tables/weather_warm_season_1991_2025.csv": "35aba7ad9b662ec491b7f9967563b17c51f129ad7275b8831d8b578620e00607",
+    "data/assignment-06/output/tables/climate_trend_statistics.csv": "893ea34f445f51eb59e05d85e99a95a726a37686b8f571515be878017f1dd8ed",
+    "data/assignment-06/output/tables/climate_normals_1991_2020.csv": "ed65407b07dbb3b07949602da865db3aa8f6d85817932e1c4e01dfedff4189d1",
+    "data/assignment-06/output/tables/weather_annual_1991_2025.csv": "a64949cef5db8fe08edc9d5da7f7de20245ff9c94ccacf32594391917fef51dd",
+    "data/assignment-06/output/dashboard_assets/dashboard_seasonal_climate.png": "0bdca47c041789987c1e7ec08ceae667ff4af612eb163a41764527111b417d95",
+    "data/assignment-06/output/dashboard_assets/dashboard_climate_trends_anomalies.png": "aa8a95795b81bda00a6b0c44e6c2df02884695d6b30e08a0efd1ff6b160a3233"
+  },
+  "no_synthetic_fallback": true,
+  "cautions": [
+    "Gridded estimates are not on-site measurements.",
+    "Local descriptive trends do not establish causation or global attribution.",
+    "Thresholds do not independently demonstrate crop damage."
+  ]
+}

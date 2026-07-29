@@ -1,0 +1,46 @@
+{
+  "acquisition_method": "external_raw_import",
+  "community": "AG",
+  "endpoint": "https://power.larc.nasa.gov/api/temporal/daily/point",
+  "externally_downloaded_and_locally_imported": true,
+  "format": "JSON",
+  "http_status": null,
+  "imported_from": "/home/hemanthd95/Downloads/nasa_power_daily_raw.json",
+  "no_synthetic_fallback": true,
+  "parameters": [
+    "ALLSKY_SFC_SW_DWN",
+    "PRECTOTCORR",
+    "RH2M",
+    "T2M",
+    "T2M_MAX",
+    "T2M_MIN"
+  ],
+  "raw_response_byte_count": 1272254,
+  "raw_response_sha256": "cebf64e8481161fe51c5c98745989e1b304bbf0e8526e931c06ae963114aa1fb",
+  "requested_coordinates": {
+    "latitude": 34.33090814412706,
+    "longitude": -82.53604244635059
+  },
+  "requested_date_range": {
+    "end": "2025-12-31",
+    "start": "1991-01-01"
+  },
+  "requested_to_returned_distance_km": 0.010913135097604667,
+  "response_content_type": "application/json (validated local bytes)",
+  "retrieval_timestamp_utc": "2026-07-29T23:15:34.937611+00:00",
+  "returned_grid_coordinates": {
+    "latitude": 34.331,
+    "longitude": -82.536
+  },
+  "sorted_query_parameters": {
+    "community": "AG",
+    "end": "20251231",
+    "format": "JSON",
+    "latitude": "34.33090814",
+    "longitude": "-82.53604245",
+    "parameters": "ALLSKY_SFC_SW_DWN,PRECTOTCORR,RH2M,T2M,T2M_MAX,T2M_MIN",
+    "start": "19910101",
+    "time-standard": "LST"
+  },
+  "time_standard": "LST"
+}

@@ -1,0 +1,65 @@
+{
+  "acquisition_method": "external_raw_import",
+  "authoritative_inputs": {
+    "data/assignment-02/field_summary.csv": "5759d566cc88c0646b9579302a047bca6d29a43e1915a046bab3f0471e1637d8",
+    "data/assignment-02/fields_EPSG4326.geojson": "06d1e8fa8f0099be4f7fddf193c549f3c3dcd98a7f0b1491e555fc2c41c7ae62"
+  },
+  "endpoint": "https://power.larc.nasa.gov/api/temporal/daily/point",
+  "externally_downloaded_and_locally_imported": true,
+  "no_synthetic_fallback": true,
+  "raw_response": {
+    "bytes": 1272254,
+    "path": "data/assignment-06/source/nasa_power_daily_raw.json",
+    "sha256": "cebf64e8481161fe51c5c98745989e1b304bbf0e8526e931c06ae963114aa1fb"
+  },
+  "request": {
+    "acquisition_method": "external_raw_import",
+    "community": "AG",
+    "endpoint": "https://power.larc.nasa.gov/api/temporal/daily/point",
+    "externally_downloaded_and_locally_imported": true,
+    "format": "JSON",
+    "http_status": null,
+    "imported_from": "/home/hemanthd95/Downloads/nasa_power_daily_raw.json",
+    "no_synthetic_fallback": true,
+    "parameters": [
+      "ALLSKY_SFC_SW_DWN",
+      "PRECTOTCORR",
+      "RH2M",
+      "T2M",
+      "T2M_MAX",
+      "T2M_MIN"
+    ],
+    "raw_response_byte_count": 1272254,
+    "raw_response_sha256": "cebf64e8481161fe51c5c98745989e1b304bbf0e8526e931c06ae963114aa1fb",
+    "requested_coordinates": {
+      "latitude": 34.33090814412706,
+      "longitude": -82.53604244635059
+    },
+    "requested_date_range": {
+      "end": "2025-12-31",
+      "start": "1991-01-01"
+    },
+    "requested_to_returned_distance_km": 0.010913135097604667,
+    "response_content_type": "application/json (validated local bytes)",
+    "retrieval_timestamp_utc": "2026-07-29T23:15:34.937611+00:00",
+    "returned_grid_coordinates": {
+      "latitude": 34.331,
+      "longitude": -82.536
+    },
+    "sorted_query_parameters": {
+      "community": "AG",
+      "end": "20251231",
+      "format": "JSON",
+      "latitude": "34.33090814",
+      "longitude": "-82.53604245",
+      "parameters": "ALLSKY_SFC_SW_DWN,PRECTOTCORR,RH2M,T2M,T2M_MAX,T2M_MIN",
+      "start": "19910101",
+      "time-standard": "LST"
+    },
+    "time_standard": "LST"
+  },
+  "request_metadata_path": "data/assignment-06/source/nasa_power_request.json",
+  "response_metadata_path": "data/assignment-06/source/nasa_power_response_metadata.json",
+  "source": "NASA POWER",
+  "status": "success"
+}
