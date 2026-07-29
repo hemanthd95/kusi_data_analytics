@@ -1,0 +1,11 @@
+{
+  "attempted_url": "https://power.larc.nasa.gov/api/temporal/daily/point?community=AG&format=JSON&time-standard=LST&start=19910101&end=20251231&parameters=ALLSKY_SFC_SW_DWN%2CPRECTOTCORR%2CRH2M%2CT2M%2CT2M_MAX%2CT2M_MIN&longitude=-82.53604245&latitude=34.33090814",
+  "endpoint": "https://power.larc.nasa.gov/api/temporal/daily/point",
+  "error_message": "HTTPSConnectionPool(host='power.larc.nasa.gov', port=443): Max retries exceeded with url: /api/temporal/daily/point?community=AG&format=JSON&time-standard=LST&start=19910101&end=20251231&parameters=ALLSKY_SFC_SW_DWN%2CPRECTOTCORR%2CRH2M%2CT2M%2CT2M_MAX%2CT2M_MIN&longitude=-82.53604245&latitude=34.33090814 (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))",
+  "exception_type": "ProxyError",
+  "http_response_status": null,
+  "no_synthetic_fallback": true,
+  "response_body_excerpt": "",
+  "status": "failed",
+  "timestamp_utc": "2026-07-29T22:27:51.350699+00:00"
+}

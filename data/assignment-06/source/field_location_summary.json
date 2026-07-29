@@ -1,0 +1,21 @@
+{
+  "cluster_extent": {
+    "east": -82.52188923445452,
+    "east_west_span_m": 2699.0249820562312,
+    "north": 34.34843152355022,
+    "north_south_span_m": 3363.715664222371,
+    "south": 34.31788880370307,
+    "west": -82.55090481818236
+  },
+  "distance_m": {
+    "maximum": 2198.680847167236,
+    "mean": 834.8211352402316,
+    "median": 655.7930892606566,
+    "minimum": 93.02842436609292,
+    "standard_deviation": 544.713931685182
+  },
+  "field_count": 25,
+  "limitation": "One gridded series represents the overall cluster and does not resolve field-to-field meteorological differences.",
+  "representative_latitude": 34.33090814412706,
+  "representative_longitude": -82.53604244635059
+}
