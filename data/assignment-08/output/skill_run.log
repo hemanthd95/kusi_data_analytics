@@ -1,0 +1,9 @@
+Assignment 8 soil health and sustainability workflow
+mode=offline
+network_requests=0
+field_count=25
+soil_mapunit_count=8
+sustainability_metric_count=4
+dashboard_visualization_count=2
+synthetic_fallback=false
+SUCCESS: Assignment 8 soil health assessment complete
