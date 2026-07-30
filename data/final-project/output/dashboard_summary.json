@@ -1,0 +1,85 @@
+{
+  "status": "complete",
+  "analysis_version": "row-crop-intelligence-dashboard-v1",
+  "mode": "offline",
+  "network_requests": 0,
+  "no_synthetic_fallback_used": true,
+  "field_count": 25,
+  "authentic_field_package_note": "The assignment brief gives a 200-field KPI example, but the validated course package contains 25 fields; no additional fields were fabricated.",
+  "total_acres": 170.3193074631977,
+  "soil_type_count": 6,
+  "assignments_integrated": [
+    2,
+    3,
+    5,
+    6,
+    7,
+    8
+  ],
+  "assignment_source_count": 6,
+  "visualization_count": 8,
+  "kpi_tile_count": 5,
+  "navigation_filters": [
+    "Field ID",
+    "Soil type",
+    "Management task"
+  ],
+  "sections": [
+    "Decision Center",
+    "Crop & Vegetation",
+    "Soil & Conservation",
+    "Weather & Climate",
+    "Data & Limitations"
+  ],
+  "highest_general_attention_field": "451623001001295",
+  "highest_general_attention_score": 64.484,
+  "mean_soil_sustainability_score": 57.67604651889655,
+  "mean_available_water_storage_cm": 3.1141407290381165,
+  "ndvi_field_id": "451623001001257",
+  "ndvi_mean": 0.7622188084016785,
+  "climate_context": {
+    "baseline_temperature_C": 16.084675482196772,
+    "baseline_precipitation_mm": 1290.7206666666666,
+    "latest_year": 2025,
+    "latest_temperature_C": 16.532520547945204,
+    "latest_precipitation_mm": 1104.84,
+    "latest_temperature_anomaly_C": 0.44784506574843164,
+    "latest_precipitation_anomaly_mm": -185.88066666666668,
+    "latest_precipitation_anomaly_pct": -14.401308622934684,
+    "temperature_trend_C_per_decade": 0.48533396195516254,
+    "precipitation_trend_mm_per_decade": -25.989383753501425,
+    "recent_mean_temperature_C": 16.80075155325998,
+    "recent_mean_precipitation_mm": 1215.814,
+    "moisture_context": "near the 1991–2020 annual precipitation average"
+  },
+  "yield_status": "Unavailable in the validated package; no predicted bushels are displayed or fabricated.",
+  "requirement_matrix": {
+    "professional_python_dashboard": true,
+    "kpi_summary_tiles": true,
+    "field_id_filter": true,
+    "soil_type_filter": true,
+    "at_least_five_visualizations": true,
+    "at_least_four_prior_assignments": true,
+    "dynamic_ai_assisted_narratives": true,
+    "farmer_action_guidance": true,
+    "readme_run_instructions": true,
+    "ai_usage_summary": true,
+    "three_to_five_screenshots": true
+  },
+  "limitations": [
+    "NASA POWER weather is historical gridded context, not a current on-farm forecast.",
+    "SSURGO is mapped soil information, not a live soil-moisture or laboratory measurement.",
+    "Landsat NDVI is available for one field on one historical date and is not extrapolated to other fields.",
+    "CDL crop labels may contain classification error and must be field-verified.",
+    "No yield observations are present, so yield or bushel predictions are intentionally omitted.",
+    "Recommendations prioritize follow-up; they are not prescriptions for rates, timing, or product use."
+  ],
+  "input_checksums": {
+    "data/assignment-02/field_summary.csv": "5759d566cc88c0646b9579302a047bca6d29a43e1915a046bab3f0471e1637d8",
+    "data/assignment-03/output/derived_field_metrics.csv": "18f703c0c0b09a722bd6478f7a3e3ddae76d0e494c5cf8e00464468a36d3ff38",
+    "data/assignment-05/output/ndvi_summary.json": "524998a2f5b35027d503490e9682619395ffb2beb0c47590ca8b2f83f07352fc",
+    "data/assignment-06/output/tables/weather_annual_1991_2025.csv": "a64949cef5db8fe08edc9d5da7f7de20245ff9c94ccacf32594391917fef51dd",
+    "data/assignment-07/output/integrated_fields.geojson": "9a0e92cf31f1c159a3ed831648d4c2967dcae8c5d1ebf6c74172ea1948877be4",
+    "data/assignment-08/output/tables/field_soil_health_scorecard.csv": "ca0dc504f98d72bdbde7387c599e1691e1440efd0ea4d143e202c1e5879ec69f"
+  }
+}

@@ -1,0 +1,126 @@
+field_id,field_short_id,CSBACRES,crop_2023,dominant_musym,dominant_muname,area_weighted_aws025wta,soil_sustainability_score,rotation_diversity_score,attention_score,attention_level,task
+451623001001295,1295,3.308253514560647,Grassland/Pasture,CcD,"Cecil-Cataula complex, 10 to 15 percent slopes, moderately eroded",3.232059965372021,35.51649841282065,40.56390622295664,64.484,High attention,General field review
+451623001001250,1250,12.640829411592978,Other Hay/Non Alfalfa,CcB,"Cecil sandy loam, 2 to 6 percent slopes",2.9542755797513345,39.0,0.0,61.0,High attention,General field review
+451623001001257,1257,19.14119405324898,Other Hay/Non Alfalfa,CcB,"Cecil sandy loam, 2 to 6 percent slopes",2.9640460848463794,39.0,0.0,61.0,High attention,General field review
+451623001001248,1248,3.94903448516544,Grassland/Pasture,CcB,"Cecil sandy loam, 2 to 6 percent slopes",2.959454223675554,47.40911102027793,0.0,52.591,High attention,General field review
+451623001001231,1231,4.003016126409183,Grassland/Pasture,CcC,"Cecil sandy loam, 6 to 10 percent slopes",2.984504756355156,48.14097655573916,40.56390622295664,51.859,High attention,General field review
+451623001001285,1285,4.641658947719539,Other Hay/Non Alfalfa,CcB,"Cecil sandy loam, 2 to 6 percent slopes",2.9537392338279647,49.0,0.0,51.0,High attention,General field review
+451623001001266,1266,14.144361343838874,Grassland/Pasture,ApB,"Appling sandy loam, 2 to 6 percent slopes",3.2960654192499894,51.0,0.0,49.0,Moderate attention,General field review
+451623001001160,1160,4.233174233397975,Grassland/Pasture,DuB,"Durham loamy sand, 2 to 6 percent slopes",2.0437086373285567,52.14097655573916,40.56390622295664,47.859,Moderate attention,General field review
+451623001001251,1251,4.437590129467583,Grassland/Pasture,CcC,"Cecil sandy loam, 6 to 10 percent slopes",3.064170033479182,52.14097655573916,40.56390622295664,47.859,Moderate attention,General field review
+451623001001261,1261,4.376599028571515,Other Hay/Non Alfalfa,CcB,"Cecil sandy loam, 2 to 6 percent slopes",2.9580786669857435,53.14097655573916,40.56390622295664,46.859,Moderate attention,General field review
+451623001001243,1243,5.730075281942755,Grassland/Pasture,ApB,"Appling sandy loam, 2 to 6 percent slopes",3.413451851441385,55.64285831470618,40.56390622295664,44.357,Moderate attention,General field review
+451623001001264,1264,5.923776287733908,Grassland/Pasture,CcB,"Cecil sandy loam, 2 to 6 percent slopes",2.950436710064092,56.14097655573916,40.56390622295664,43.859,Moderate attention,General field review
+451623001001196,1196,17.514312061244784,Other Hay/Non Alfalfa,ApB,"Appling sandy loam, 2 to 6 percent slopes",3.4964647033779594,57.0,0.0,43.0,Moderate attention,General field review
+451623001001281,1281,4.132697886258406,Grassland/Pasture,CcB,"Cecil sandy loam, 2 to 6 percent slopes",3.055397267125356,57.14097655573916,40.56390622295664,42.859,Moderate attention,General field review
+451623001001219,1219,4.545813303363282,Grassland/Pasture,CcB,"Cecil sandy loam, 2 to 6 percent slopes",2.9532123611189816,59.14097655573916,40.56390622295664,40.859,Moderate attention,General field review
+451623001001218,1218,6.187809269344218,Grassland/Pasture,CcB,"Cecil sandy loam, 2 to 6 percent slopes",2.95,60.14097655573916,40.56390622295664,39.859,Moderate attention,General field review
+451623001001224,1224,4.447507684144567,Grassland/Pasture,CcB,"Cecil sandy loam, 2 to 6 percent slopes",2.95,60.14097655573916,40.56390622295664,39.859,Moderate attention,General field review
+451623001001258,1258,8.885457754892826,Winter Wheat,CcC,"Cecil sandy loam, 6 to 10 percent slopes",3.091935725126886,63.75,75.0,36.25,Moderate attention,General field review
+451623001001259,1259,3.6844874367323,Grassland/Pasture,ApB,"Appling sandy loam, 2 to 6 percent slopes",3.4411194060167194,67.5,0.0,32.5,Routine monitoring,General field review
+451623001001299,1299,5.048982917619439,Grassland/Pasture,ApB,"Appling sandy loam, 2 to 6 percent slopes",3.4966762261318145,69.14097655573916,40.56390622295664,30.859,Routine monitoring,General field review
+451623001001238,1238,2.6360029115600883,Other Hay/Non Alfalfa,HeB,"Helena sandy loam, 2 to 6 percent slopes",3.007998398816289,69.64097655573916,40.56390622295664,30.359,Routine monitoring,General field review
+451623001001204,1204,3.307537355816114,Grassland/Pasture,ApB,"Appling sandy loam, 2 to 6 percent slopes",3.4979447570645004,71.14097655573916,40.56390622295664,28.859,Routine monitoring,General field review
+451623001001267,1267,4.753304821959788,Grassland/Pasture,ApB,"Appling sandy loam, 2 to 6 percent slopes",3.5,72.0,0.0,28.0,Routine monitoring,General field review
+451623001001262,1262,15.70476291622756,Grassland/Pasture,ApB,"Appling sandy loam, 2 to 6 percent slopes",3.138778218797042,74.75,75.0,25.25,Routine monitoring,General field review
+451623001001187,1187,2.9410683003849662,Grassland/Pasture,ApB,"Appling sandy loam, 2 to 6 percent slopes",3.5,82.14097655573916,40.56390622295664,17.859,Routine monitoring,General field review
+451623001001160,1160,4.233174233397975,Grassland/Pasture,DuB,"Durham loamy sand, 2 to 6 percent slopes",2.0437086373285567,52.14097655573916,40.56390622295664,77.372,Highest attention,Irrigation monitoring
+451623001001250,1250,12.640829411592978,Other Hay/Non Alfalfa,CcB,"Cecil sandy loam, 2 to 6 percent slopes",2.9542755797513345,39.0,0.0,69.8,Highest attention,Irrigation monitoring
+451623001001264,1264,5.923776287733908,Grassland/Pasture,CcB,"Cecil sandy loam, 2 to 6 percent slopes",2.950436710064092,56.14097655573916,40.56390622295664,68.172,Highest attention,Irrigation monitoring
+451623001001218,1218,6.187809269344218,Grassland/Pasture,CcB,"Cecil sandy loam, 2 to 6 percent slopes",2.95,60.14097655573916,40.56390622295664,67.972,Highest attention,Irrigation monitoring
+451623001001224,1224,4.447507684144567,Grassland/Pasture,CcB,"Cecil sandy loam, 2 to 6 percent slopes",2.95,60.14097655573916,40.56390622295664,67.972,Highest attention,Irrigation monitoring
+451623001001257,1257,19.14119405324898,Other Hay/Non Alfalfa,CcB,"Cecil sandy loam, 2 to 6 percent slopes",2.9640460848463794,39.0,0.0,63.8,High attention,Irrigation monitoring
+451623001001285,1285,4.641658947719539,Other Hay/Non Alfalfa,CcB,"Cecil sandy loam, 2 to 6 percent slopes",2.9537392338279647,49.0,0.0,63.8,High attention,Irrigation monitoring
+451623001001219,1219,4.545813303363282,Grassland/Pasture,CcB,"Cecil sandy loam, 2 to 6 percent slopes",2.9532123611189816,59.14097655573916,40.56390622295664,63.772,High attention,Irrigation monitoring
+451623001001261,1261,4.376599028571515,Other Hay/Non Alfalfa,CcB,"Cecil sandy loam, 2 to 6 percent slopes",2.9580786669857435,53.14097655573916,40.56390622295664,62.572,High attention,Irrigation monitoring
+451623001001231,1231,4.003016126409183,Grassland/Pasture,CcC,"Cecil sandy loam, 6 to 10 percent slopes",2.984504756355156,48.14097655573916,40.56390622295664,60.572,High attention,Irrigation monitoring
+451623001001248,1248,3.94903448516544,Grassland/Pasture,CcB,"Cecil sandy loam, 2 to 6 percent slopes",2.959454223675554,47.40911102027793,0.0,58.718,High attention,Irrigation monitoring
+451623001001251,1251,4.437590129467583,Grassland/Pasture,CcC,"Cecil sandy loam, 6 to 10 percent slopes",3.064170033479182,52.14097655573916,40.56390622295664,51.372,High attention,Irrigation monitoring
+451623001001281,1281,4.132697886258406,Grassland/Pasture,CcB,"Cecil sandy loam, 2 to 6 percent slopes",3.055397267125356,57.14097655573916,40.56390622295664,49.372,Moderate attention,Irrigation monitoring
+451623001001295,1295,3.308253514560647,Grassland/Pasture,CcD,"Cecil-Cataula complex, 10 to 15 percent slopes, moderately eroded",3.232059965372021,35.51649841282065,40.56390622295664,48.097,Moderate attention,Irrigation monitoring
+451623001001258,1258,8.885457754892826,Winter Wheat,CcC,"Cecil sandy loam, 6 to 10 percent slopes",3.091935725126886,63.75,75.0,45.25,Moderate attention,Irrigation monitoring
+451623001001238,1238,2.6360029115600883,Other Hay/Non Alfalfa,HeB,"Helena sandy loam, 2 to 6 percent slopes",3.007998398816289,69.64097655573916,40.56390622295664,41.372,Moderate attention,Irrigation monitoring
+451623001001266,1266,14.144361343838874,Grassland/Pasture,ApB,"Appling sandy loam, 2 to 6 percent slopes",3.2960654192499894,51.0,0.0,38.2,Moderate attention,Irrigation monitoring
+451623001001243,1243,5.730075281942755,Grassland/Pasture,ApB,"Appling sandy loam, 2 to 6 percent slopes",3.413451851441385,55.64285831470618,40.56390622295664,35.871,Moderate attention,Irrigation monitoring
+451623001001262,1262,15.70476291622756,Grassland/Pasture,ApB,"Appling sandy loam, 2 to 6 percent slopes",3.138778218797042,74.75,75.0,34.45,Routine monitoring,Irrigation monitoring
+451623001001196,1196,17.514312061244784,Other Hay/Non Alfalfa,ApB,"Appling sandy loam, 2 to 6 percent slopes",3.4964647033779594,57.0,0.0,27.4,Routine monitoring,Irrigation monitoring
+451623001001299,1299,5.048982917619439,Grassland/Pasture,ApB,"Appling sandy loam, 2 to 6 percent slopes",3.4966762261318145,69.14097655573916,40.56390622295664,21.772,Routine monitoring,Irrigation monitoring
+451623001001259,1259,3.6844874367323,Grassland/Pasture,ApB,"Appling sandy loam, 2 to 6 percent slopes",3.4411194060167194,67.5,0.0,21.0,Routine monitoring,Irrigation monitoring
+451623001001204,1204,3.307537355816114,Grassland/Pasture,ApB,"Appling sandy loam, 2 to 6 percent slopes",3.4979447570645004,71.14097655573916,40.56390622295664,18.172,Routine monitoring,Irrigation monitoring
+451623001001267,1267,4.753304821959788,Grassland/Pasture,ApB,"Appling sandy loam, 2 to 6 percent slopes",3.5,72.0,0.0,8.4,Routine monitoring,Irrigation monitoring
+451623001001187,1187,2.9410683003849662,Grassland/Pasture,ApB,"Appling sandy loam, 2 to 6 percent slopes",3.5,82.14097655573916,40.56390622295664,6.372,Routine monitoring,Irrigation monitoring
+451623001001160,1160,4.233174233397975,Grassland/Pasture,DuB,"Durham loamy sand, 2 to 6 percent slopes",2.0437086373285567,52.14097655573916,40.56390622295664,54.012,High attention,Crop scouting
+451623001001264,1264,5.923776287733908,Grassland/Pasture,CcB,"Cecil sandy loam, 2 to 6 percent slopes",2.950436710064092,56.14097655573916,40.56390622295664,51.458,High attention,Crop scouting
+451623001001218,1218,6.187809269344218,Grassland/Pasture,CcB,"Cecil sandy loam, 2 to 6 percent slopes",2.95,60.14097655573916,40.56390622295664,48.013,Moderate attention,Crop scouting
+451623001001261,1261,4.376599028571515,Other Hay/Non Alfalfa,CcB,"Cecil sandy loam, 2 to 6 percent slopes",2.9580786669857435,53.14097655573916,40.56390622295664,47.658,Moderate attention,Crop scouting
+451623001001248,1248,3.94903448516544,Grassland/Pasture,CcB,"Cecil sandy loam, 2 to 6 percent slopes",2.959454223675554,47.40911102027793,0.0,46.633,Moderate attention,Crop scouting
+451623001001224,1224,4.447507684144567,Grassland/Pasture,CcB,"Cecil sandy loam, 2 to 6 percent slopes",2.95,60.14097655573916,40.56390622295664,45.583,Moderate attention,Crop scouting
+451623001001281,1281,4.132697886258406,Grassland/Pasture,CcB,"Cecil sandy loam, 2 to 6 percent slopes",3.055397267125356,57.14097655573916,40.56390622295664,45.374,Moderate attention,Crop scouting
+451623001001251,1251,4.437590129467583,Grassland/Pasture,CcC,"Cecil sandy loam, 6 to 10 percent slopes",3.064170033479182,52.14097655573916,40.56390622295664,43.783,Moderate attention,Crop scouting
+451623001001231,1231,4.003016126409183,Grassland/Pasture,CcC,"Cecil sandy loam, 6 to 10 percent slopes",2.984504756355156,48.14097655573916,40.56390622295664,42.934,Moderate attention,Crop scouting
+451623001001262,1262,15.70476291622756,Grassland/Pasture,ApB,"Appling sandy loam, 2 to 6 percent slopes",3.138778218797042,74.75,75.0,42.343,Moderate attention,Crop scouting
+451623001001295,1295,3.308253514560647,Grassland/Pasture,CcD,"Cecil-Cataula complex, 10 to 15 percent slopes, moderately eroded",3.232059965372021,35.51649841282065,40.56390622295664,42.091,Moderate attention,Crop scouting
+451623001001285,1285,4.641658947719539,Other Hay/Non Alfalfa,CcB,"Cecil sandy loam, 2 to 6 percent slopes",2.9537392338279647,49.0,0.0,41.81,Moderate attention,Crop scouting
+451623001001258,1258,8.885457754892826,Winter Wheat,CcC,"Cecil sandy loam, 6 to 10 percent slopes",3.091935725126886,63.75,75.0,40.826,Moderate attention,Crop scouting
+451623001001250,1250,12.640829411592978,Other Hay/Non Alfalfa,CcB,"Cecil sandy loam, 2 to 6 percent slopes",2.9542755797513345,39.0,0.0,39.903,Moderate attention,Crop scouting
+451623001001257,1257,19.14119405324898,Other Hay/Non Alfalfa,CcB,"Cecil sandy loam, 2 to 6 percent slopes",2.9640460848463794,39.0,0.0,37.359,Moderate attention,Crop scouting
+451623001001238,1238,2.6360029115600883,Other Hay/Non Alfalfa,HeB,"Helena sandy loam, 2 to 6 percent slopes",3.007998398816289,69.64097655573916,40.56390622295664,35.417,Moderate attention,Crop scouting
+451623001001266,1266,14.144361343838874,Grassland/Pasture,ApB,"Appling sandy loam, 2 to 6 percent slopes",3.2960654192499894,51.0,0.0,34.531,Routine monitoring,Crop scouting
+451623001001196,1196,17.514312061244784,Other Hay/Non Alfalfa,ApB,"Appling sandy loam, 2 to 6 percent slopes",3.4964647033779594,57.0,0.0,33.808,Routine monitoring,Crop scouting
+451623001001219,1219,4.545813303363282,Grassland/Pasture,CcB,"Cecil sandy loam, 2 to 6 percent slopes",2.9532123611189816,59.14097655573916,40.56390622295664,30.758,Routine monitoring,Crop scouting
+451623001001243,1243,5.730075281942755,Grassland/Pasture,ApB,"Appling sandy loam, 2 to 6 percent slopes",3.413451851441385,55.64285831470618,40.56390622295664,30.607,Routine monitoring,Crop scouting
+451623001001259,1259,3.6844874367323,Grassland/Pasture,ApB,"Appling sandy loam, 2 to 6 percent slopes",3.4411194060167194,67.5,0.0,28.882,Routine monitoring,Crop scouting
+451623001001204,1204,3.307537355816114,Grassland/Pasture,ApB,"Appling sandy loam, 2 to 6 percent slopes",3.4979447570645004,71.14097655573916,40.56390622295664,27.758,Routine monitoring,Crop scouting
+451623001001299,1299,5.048982917619439,Grassland/Pasture,ApB,"Appling sandy loam, 2 to 6 percent slopes",3.4966762261318145,69.14097655573916,40.56390622295664,26.999,Routine monitoring,Crop scouting
+451623001001187,1187,2.9410683003849662,Grassland/Pasture,ApB,"Appling sandy loam, 2 to 6 percent slopes",3.5,82.14097655573916,40.56390622295664,26.912,Routine monitoring,Crop scouting
+451623001001267,1267,4.753304821959788,Grassland/Pasture,ApB,"Appling sandy loam, 2 to 6 percent slopes",3.5,72.0,0.0,10.774,Routine monitoring,Crop scouting
+451623001001295,1295,3.308253514560647,Grassland/Pasture,CcD,"Cecil-Cataula complex, 10 to 15 percent slopes, moderately eroded",3.232059965372021,35.51649841282065,40.56390622295664,75.442,Highest attention,Soil conservation
+451623001001257,1257,19.14119405324898,Other Hay/Non Alfalfa,CcB,"Cecil sandy loam, 2 to 6 percent slopes",2.9640460848463794,39.0,0.0,52.65,High attention,Soil conservation
+451623001001231,1231,4.003016126409183,Grassland/Pasture,CcC,"Cecil sandy loam, 6 to 10 percent slopes",2.984504756355156,48.14097655573916,40.56390622295664,50.937,High attention,Soil conservation
+451623001001250,1250,12.640829411592978,Other Hay/Non Alfalfa,CcB,"Cecil sandy loam, 2 to 6 percent slopes",2.9542755797513345,39.0,0.0,49.05,Moderate attention,Soil conservation
+451623001001251,1251,4.437590129467583,Grassland/Pasture,CcC,"Cecil sandy loam, 6 to 10 percent slopes",3.064170033479182,52.14097655573916,40.56390622295664,47.937,Moderate attention,Soil conservation
+451623001001243,1243,5.730075281942755,Grassland/Pasture,ApB,"Appling sandy loam, 2 to 6 percent slopes",3.413451851441385,55.64285831470618,40.56390622295664,47.259,Moderate attention,Soil conservation
+451623001001266,1266,14.144361343838874,Grassland/Pasture,ApB,"Appling sandy loam, 2 to 6 percent slopes",3.2960654192499894,51.0,0.0,42.45,Moderate attention,Soil conservation
+451623001001258,1258,8.885457754892826,Winter Wheat,CcC,"Cecil sandy loam, 6 to 10 percent slopes",3.091935725126886,63.75,75.0,40.312,Moderate attention,Soil conservation
+451623001001261,1261,4.376599028571515,Other Hay/Non Alfalfa,CcB,"Cecil sandy loam, 2 to 6 percent slopes",2.9580786669857435,53.14097655573916,40.56390622295664,39.087,Moderate attention,Soil conservation
+451623001001281,1281,4.132697886258406,Grassland/Pasture,CcB,"Cecil sandy loam, 2 to 6 percent slopes",3.055397267125356,57.14097655573916,40.56390622295664,38.487,Moderate attention,Soil conservation
+451623001001248,1248,3.94903448516544,Grassland/Pasture,CcB,"Cecil sandy loam, 2 to 6 percent slopes",2.959454223675554,47.40911102027793,0.0,37.457,Moderate attention,Soil conservation
+451623001001196,1196,17.514312061244784,Other Hay/Non Alfalfa,ApB,"Appling sandy loam, 2 to 6 percent slopes",3.4964647033779594,57.0,0.0,36.15,Moderate attention,Soil conservation
+451623001001160,1160,4.233174233397975,Grassland/Pasture,DuB,"Durham loamy sand, 2 to 6 percent slopes",2.0437086373285567,52.14097655573916,40.56390622295664,32.337,Routine monitoring,Soil conservation
+451623001001285,1285,4.641658947719539,Other Hay/Non Alfalfa,CcB,"Cecil sandy loam, 2 to 6 percent slopes",2.9537392338279647,49.0,0.0,31.35,Routine monitoring,Soil conservation
+451623001001299,1299,5.048982917619439,Grassland/Pasture,ApB,"Appling sandy loam, 2 to 6 percent slopes",3.4966762261318145,69.14097655573916,40.56390622295664,29.487,Routine monitoring,Soil conservation
+451623001001264,1264,5.923776287733908,Grassland/Pasture,CcB,"Cecil sandy loam, 2 to 6 percent slopes",2.950436710064092,56.14097655573916,40.56390622295664,29.337,Routine monitoring,Soil conservation
+451623001001204,1204,3.307537355816114,Grassland/Pasture,ApB,"Appling sandy loam, 2 to 6 percent slopes",3.4979447570645004,71.14097655573916,40.56390622295664,27.387,Routine monitoring,Soil conservation
+451623001001219,1219,4.545813303363282,Grassland/Pasture,CcB,"Cecil sandy loam, 2 to 6 percent slopes",2.9532123611189816,59.14097655573916,40.56390622295664,25.587,Routine monitoring,Soil conservation
+451623001001262,1262,15.70476291622756,Grassland/Pasture,ApB,"Appling sandy loam, 2 to 6 percent slopes",3.138778218797042,74.75,75.0,23.362,Routine monitoring,Soil conservation
+451623001001218,1218,6.187809269344218,Grassland/Pasture,CcB,"Cecil sandy loam, 2 to 6 percent slopes",2.95,60.14097655573916,40.56390622295664,20.937,Routine monitoring,Soil conservation
+451623001001224,1224,4.447507684144567,Grassland/Pasture,CcB,"Cecil sandy loam, 2 to 6 percent slopes",2.95,60.14097655573916,40.56390622295664,20.937,Routine monitoring,Soil conservation
+451623001001259,1259,3.6844874367323,Grassland/Pasture,ApB,"Appling sandy loam, 2 to 6 percent slopes",3.4411194060167194,67.5,0.0,17.625,Routine monitoring,Soil conservation
+451623001001238,1238,2.6360029115600883,Other Hay/Non Alfalfa,HeB,"Helena sandy loam, 2 to 6 percent slopes",3.007998398816289,69.64097655573916,40.56390622295664,16.662,Routine monitoring,Soil conservation
+451623001001267,1267,4.753304821959788,Grassland/Pasture,ApB,"Appling sandy loam, 2 to 6 percent slopes",3.5,72.0,0.0,15.6,Routine monitoring,Soil conservation
+451623001001187,1187,2.9410683003849662,Grassland/Pasture,ApB,"Appling sandy loam, 2 to 6 percent slopes",3.5,82.14097655573916,40.56390622295664,11.037,Routine monitoring,Soil conservation
+451623001001250,1250,12.640829411592978,Other Hay/Non Alfalfa,CcB,"Cecil sandy loam, 2 to 6 percent slopes",2.9542755797513345,39.0,0.0,88.3,Highest attention,Rotation planning
+451623001001257,1257,19.14119405324898,Other Hay/Non Alfalfa,CcB,"Cecil sandy loam, 2 to 6 percent slopes",2.9640460848463794,39.0,0.0,88.3,Highest attention,Rotation planning
+451623001001248,1248,3.94903448516544,Grassland/Pasture,CcB,"Cecil sandy loam, 2 to 6 percent slopes",2.959454223675554,47.40911102027793,0.0,85.777,Highest attention,Rotation planning
+451623001001285,1285,4.641658947719539,Other Hay/Non Alfalfa,CcB,"Cecil sandy loam, 2 to 6 percent slopes",2.9537392338279647,49.0,0.0,85.3,Highest attention,Rotation planning
+451623001001266,1266,14.144361343838874,Grassland/Pasture,ApB,"Appling sandy loam, 2 to 6 percent slopes",3.2960654192499894,51.0,0.0,84.7,Highest attention,Rotation planning
+451623001001196,1196,17.514312061244784,Other Hay/Non Alfalfa,ApB,"Appling sandy loam, 2 to 6 percent slopes",3.4964647033779594,57.0,0.0,82.9,Highest attention,Rotation planning
+451623001001259,1259,3.6844874367323,Grassland/Pasture,ApB,"Appling sandy loam, 2 to 6 percent slopes",3.4411194060167194,67.5,0.0,79.75,Highest attention,Rotation planning
+451623001001267,1267,4.753304821959788,Grassland/Pasture,ApB,"Appling sandy loam, 2 to 6 percent slopes",3.5,72.0,0.0,78.4,Highest attention,Rotation planning
+451623001001295,1295,3.308253514560647,Grassland/Pasture,CcD,"Cecil-Cataula complex, 10 to 15 percent slopes, moderately eroded",3.232059965372021,35.51649841282065,40.56390622295664,60.95,High attention,Rotation planning
+451623001001231,1231,4.003016126409183,Grassland/Pasture,CcC,"Cecil sandy loam, 6 to 10 percent slopes",2.984504756355156,48.14097655573916,40.56390622295664,57.163,High attention,Rotation planning
+451623001001160,1160,4.233174233397975,Grassland/Pasture,DuB,"Durham loamy sand, 2 to 6 percent slopes",2.0437086373285567,52.14097655573916,40.56390622295664,55.963,High attention,Rotation planning
+451623001001251,1251,4.437590129467583,Grassland/Pasture,CcC,"Cecil sandy loam, 6 to 10 percent slopes",3.064170033479182,52.14097655573916,40.56390622295664,55.963,High attention,Rotation planning
+451623001001261,1261,4.376599028571515,Other Hay/Non Alfalfa,CcB,"Cecil sandy loam, 2 to 6 percent slopes",2.9580786669857435,53.14097655573916,40.56390622295664,55.663,High attention,Rotation planning
+451623001001243,1243,5.730075281942755,Grassland/Pasture,ApB,"Appling sandy loam, 2 to 6 percent slopes",3.413451851441385,55.64285831470618,40.56390622295664,54.912,High attention,Rotation planning
+451623001001264,1264,5.923776287733908,Grassland/Pasture,CcB,"Cecil sandy loam, 2 to 6 percent slopes",2.950436710064092,56.14097655573916,40.56390622295664,54.763,High attention,Rotation planning
+451623001001281,1281,4.132697886258406,Grassland/Pasture,CcB,"Cecil sandy loam, 2 to 6 percent slopes",3.055397267125356,57.14097655573916,40.56390622295664,54.463,High attention,Rotation planning
+451623001001219,1219,4.545813303363282,Grassland/Pasture,CcB,"Cecil sandy loam, 2 to 6 percent slopes",2.9532123611189816,59.14097655573916,40.56390622295664,53.863,High attention,Rotation planning
+451623001001218,1218,6.187809269344218,Grassland/Pasture,CcB,"Cecil sandy loam, 2 to 6 percent slopes",2.95,60.14097655573916,40.56390622295664,53.563,High attention,Rotation planning
+451623001001224,1224,4.447507684144567,Grassland/Pasture,CcB,"Cecil sandy loam, 2 to 6 percent slopes",2.95,60.14097655573916,40.56390622295664,53.563,High attention,Rotation planning
+451623001001299,1299,5.048982917619439,Grassland/Pasture,ApB,"Appling sandy loam, 2 to 6 percent slopes",3.4966762261318145,69.14097655573916,40.56390622295664,50.863,High attention,Rotation planning
+451623001001238,1238,2.6360029115600883,Other Hay/Non Alfalfa,HeB,"Helena sandy loam, 2 to 6 percent slopes",3.007998398816289,69.64097655573916,40.56390622295664,50.713,High attention,Rotation planning
+451623001001204,1204,3.307537355816114,Grassland/Pasture,ApB,"Appling sandy loam, 2 to 6 percent slopes",3.4979447570645004,71.14097655573916,40.56390622295664,50.263,High attention,Rotation planning
+451623001001187,1187,2.9410683003849662,Grassland/Pasture,ApB,"Appling sandy loam, 2 to 6 percent slopes",3.5,82.14097655573916,40.56390622295664,46.963,Moderate attention,Rotation planning
+451623001001258,1258,8.885457754892826,Winter Wheat,CcC,"Cecil sandy loam, 6 to 10 percent slopes",3.091935725126886,63.75,75.0,28.375,Routine monitoring,Rotation planning
+451623001001262,1262,15.70476291622756,Grassland/Pasture,ApB,"Appling sandy loam, 2 to 6 percent slopes",3.138778218797042,74.75,75.0,25.075,Routine monitoring,Rotation planning
