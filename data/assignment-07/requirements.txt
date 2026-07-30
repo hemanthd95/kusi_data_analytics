@@ -1,0 +1,6 @@
+geopandas==1.1.4
+matplotlib==3.10.8
+numpy==2.4.1
+pandas==2.3.3
+Pillow==12.1.0
+shapely==2.1.2
