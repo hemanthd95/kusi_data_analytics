@@ -22,8 +22,9 @@ Build and independently verify a professional Row Crop Intelligence Dashboard th
 - [x] Published the validated source and generated artifacts to `feature/final-project-dashboard`.
 - [x] Confirmed clean-checkout analysis, deterministic regeneration, live-server testing, and committed artifact inventory in GitHub Actions.
 - [x] Reconciled the committed numerical outputs and SQLite file with the clean Python 3.12 runner.
-- [x] Opened draft PR #19 for human review; no automatic merge requested.
+- [x] Normalized the two climate-trend outputs to 12 decimal places so different CPU/BLAS implementations cannot toggle committed artifacts.
+- [x] Opened PR #20 as a narrowly scoped reproducibility correction; no automatic merge requested.
 
 ## Final review gate
 
-The four committed screenshots and the complete dashboard package are present on the branch. A final normal-commit workflow run is triggered against the Python 3.12-reconciled output head; it must pass without requiring a further artifact correction before merge review.
+The farmer-facing analysis, rankings, advisories, and screenshots are unchanged. The corrective branch contains the normalized generated artifacts, and its final normal-commit workflow run must pass without producing another artifact correction before PR #20 is ready for merge review.
