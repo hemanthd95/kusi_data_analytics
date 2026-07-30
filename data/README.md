@@ -12,4 +12,4 @@ that claim.
 - `assignment-03/`: reproducible EDA of those 25 finalized fields, including an executed notebook, report, visualizations, dashboard assets, provenance, and verification.
 - `assignment-04/`: completed offline, checksum-verified USDA-NRCS SSURGO geospatial analysis for the 25 authoritative fields, including maps, interactive output, executed notebook, report, evidence, and verification.
 - `assignment-05/`: completed authentic Landsat 8 Collection 2 Level-2 NDVI analysis with source checksums, QA masking, GeoTIFFs, visualizations, an executed notebook, and independent verification.
-- `assignment-06/`: fail-closed, fully implemented NASA POWER weather/climate workflow for the 25-field cluster; authentic acquisition is currently blocked by the environment proxy and no substitute observations are included.
+- `assignment-06/`: completed authentic NASA POWER weather and climate analysis for the 25-field cluster, including 1991–2025 daily data, 1991–2020 normals, recent anomalies, trend statistics, reproducible figures, an executed notebook, provenance, and independent verification.
