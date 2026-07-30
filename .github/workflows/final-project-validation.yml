@@ -1,0 +1,156 @@
+name: Final Project validation
+
+permissions:
+  contents: write
+
+on:
+  pull_request:
+    paths:
+      - "data/final-project/**"
+      - "data/assignment-02/field_summary.csv"
+      - "data/assignment-03/output/derived_field_metrics.csv"
+      - "data/assignment-05/output/ndvi_summary.json"
+      - "data/assignment-06/output/tables/weather_annual_1991_2025.csv"
+      - "data/assignment-07/output/integrated_fields.geojson"
+      - "data/assignment-08/output/tables/field_soil_health_scorecard.csv"
+      - "docs/AI_DOCS.md"
+      - "docs/FINAL_PROJECT_REFLECTION.md"
+      - "docs/project/final-project-tracker.md"
+      - "README.md"
+      - ".github/workflows/final-project-validation.yml"
+  push:
+    branches: [main]
+    paths:
+      - "data/final-project/**"
+      - "data/assignment-02/field_summary.csv"
+      - "data/assignment-03/output/derived_field_metrics.csv"
+      - "data/assignment-05/output/ndvi_summary.json"
+      - "data/assignment-06/output/tables/weather_annual_1991_2025.csv"
+      - "data/assignment-07/output/integrated_fields.geojson"
+      - "data/assignment-08/output/tables/field_soil_health_scorecard.csv"
+      - "docs/AI_DOCS.md"
+      - "docs/FINAL_PROJECT_REFLECTION.md"
+      - "README.md"
+      - ".github/workflows/final-project-validation.yml"
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Check out repository branch
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref || github.ref_name }}
+          fetch-depth: 0
+
+      - name: Expand verified source bootstrap
+        run: |
+          if compgen -G ".bootstrap/final-project-source.part*" > /dev/null; then
+            cat .bootstrap/final-project-source.part* | base64 --decode > /tmp/final-project-source.zip
+            unzip -o /tmp/final-project-source.zip -d .
+            rm -rf .bootstrap
+          fi
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: data/final-project/requirements.txt
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r data/final-project/requirements.txt
+
+      - name: Generate dashboard package and screenshots
+        run: |
+          python data/final-project/scripts/build_final_project_data.py
+          python data/final-project/scripts/render_dashboard_screenshots.py
+
+      - name: Verify Final Project independently
+        run: python data/final-project/verify_final_project.py
+
+      - name: Confirm deterministic regeneration
+        run: |
+          find data/final-project/output data/final-project/screenshots \
+            -type f \( -name '*.csv' -o -name '*.json' -o -name '*.png' -o -name '*.sqlite' -o -name '*.log' \) \
+            -print0 | sort -z | xargs -0 sha256sum > /tmp/final-first.sha256
+          python data/final-project/scripts/build_final_project_data.py
+          python data/final-project/scripts/render_dashboard_screenshots.py
+          find data/final-project/output data/final-project/screenshots \
+            -type f \( -name '*.csv' -o -name '*.json' -o -name '*.png' -o -name '*.sqlite' -o -name '*.log' \) \
+            -print0 | sort -z | xargs -0 sha256sum > /tmp/final-second.sha256
+          diff -u /tmp/final-first.sha256 /tmp/final-second.sha256
+          python data/final-project/verify_final_project.py
+
+      - name: Smoke test live Bokeh dashboard
+        run: |
+          bokeh serve data/final-project/app.py \
+            --port 5010 \
+            --address 127.0.0.1 \
+            --allow-websocket-origin=127.0.0.1:5010 \
+            > /tmp/final-bokeh.log 2>&1 &
+          SERVER_PID=$!
+          trap 'kill "$SERVER_PID" 2>/dev/null || true' EXIT
+          for attempt in $(seq 1 30); do
+            if curl --fail --silent http://127.0.0.1:5010/app >/dev/null; then
+              break
+            fi
+            sleep 1
+          done
+          curl --fail --silent http://127.0.0.1:5010/app >/dev/null
+          python data/final-project/scripts/smoke_test_dashboard_server.py \
+            --url http://127.0.0.1:5010/app
+
+      - name: Commit validated Final Project artifacts
+        if: github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == github.repository
+        env:
+          HEAD_BRANCH: ${{ github.head_ref }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if ! git diff --cached --quiet; then
+            git commit -m "Commit validated Final Project artifacts"
+            for attempt in 1 2 3; do
+              git fetch origin "$HEAD_BRANCH"
+              git rebase "origin/$HEAD_BRANCH"
+              if git push origin "HEAD:$HEAD_BRANCH"; then
+                exit 0
+              fi
+              sleep $((attempt * 2))
+            done
+            echo "Unable to publish validated Final Project artifacts" >&2
+            exit 1
+          fi
+
+      - name: Confirm committed deliverable inventory
+        run: |
+          test "$(git ls-files 'data/final-project/screenshots/*.png' | wc -l)" -eq 4
+          test "$(git ls-files 'data/final-project/output/tables/*.csv' | wc -l)" -eq 4
+          git ls-files --error-unmatch \
+            data/final-project/app.py \
+            data/final-project/dashboard_core.py \
+            data/final-project/output/dashboard_data.sqlite \
+            data/final-project/output/dashboard_summary.json \
+            data/final-project/FINAL_PROJECT_REPORT.md \
+            docs/AI_DOCS.md \
+            docs/FINAL_PROJECT_REFLECTION.md \
+            README.md
+
+      - name: Compile and check whitespace
+        run: |
+          python -m compileall -q data/final-project
+          git diff --check
+
+      - name: Upload Final Project package
+        uses: actions/upload-artifact@v4
+        with:
+          name: row-crop-intelligence-dashboard
+          path: |
+            data/final-project
+            docs/AI_DOCS.md
+            docs/FINAL_PROJECT_REFLECTION.md
+          if-no-files-found: error
