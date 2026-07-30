@@ -45,7 +45,7 @@ The workflow records SHA-256 checksums for all five inputs in `output/assignment
 - `output/visualizations/assignment_07_integrated_spatial_panel.svg`
 - `output/assignment_07_summary.json`
 
-These seven files are committed for direct inspection. GitHub Actions also regenerates and validates them from a clean checkout and uploads a downloadable workflow artifact.
+These seven files are committed for direct inspection. GitHub Actions regenerates and validates them from a clean checkout, verifies the committed inventory, and uploads a downloadable workflow artifact.
 
 ## Reproduce and verify
 
