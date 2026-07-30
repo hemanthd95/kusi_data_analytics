@@ -24,6 +24,21 @@ from dashboard_core import (  # noqa: E402
 )
 
 
+def normalize_climate_outputs(climate: dict) -> None:
+    """Stabilize regression outputs across CPU/BLAS implementations.
+
+    ``numpy.polyfit`` can differ in the final machine-precision digits on
+    different clean runners. Twelve decimal places retain substantially more
+    precision than the dashboard displays while ensuring that committed JSON
+    and SQLite artifacts remain byte-stable across environments.
+    """
+    for key in (
+        "temperature_trend_C_per_decade",
+        "precipitation_trend_mm_per_decade",
+    ):
+        climate[key] = round(float(climate[key]), 12)
+
+
 def main() -> None:
     root = find_repo_root(HERE)
     output = PROJECT / "output"
@@ -32,6 +47,7 @@ def main() -> None:
     tables.mkdir(parents=True, exist_ok=True)
 
     bundle = load_dashboard_bundle(root)
+    normalize_climate_outputs(bundle.climate)
     build_sqlite(bundle, output / "dashboard_data.sqlite")
 
     all_priorities = pd.concat(
@@ -57,6 +73,7 @@ def main() -> None:
         f"Assignments integrated: {summary['assignments_integrated']}",
         f"Visualizations: {summary['visualization_count']}",
         f"Filters: {summary['navigation_filters']}",
+        "Climate trends: normalized to 12 decimal places for cross-run reproducibility.",
         "Yield prediction: intentionally omitted because validated yield observations are absent.",
         "SUCCESS: Final Project dashboard data package complete",
     ]
