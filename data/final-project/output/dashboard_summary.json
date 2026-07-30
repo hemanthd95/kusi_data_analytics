@@ -46,8 +46,8 @@
     "latest_temperature_anomaly_C": 0.44784506574843164,
     "latest_precipitation_anomaly_mm": -185.88066666666668,
     "latest_precipitation_anomaly_pct": -14.401308622934684,
-    "temperature_trend_C_per_decade": 0.48533396195516254,
-    "precipitation_trend_mm_per_decade": -25.989383753501425,
+    "temperature_trend_C_per_decade": 0.48533396195516226,
+    "precipitation_trend_mm_per_decade": -25.989383753501407,
     "recent_mean_temperature_C": 16.80075155325998,
     "recent_mean_precipitation_mm": 1215.814,
     "moisture_context": "near the 1991–2020 annual precipitation average"
