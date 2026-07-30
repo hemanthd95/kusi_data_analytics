@@ -8,3 +8,7 @@ __pycache__/
 *.zip
 *.tar
 *.tar.gz
+
+# Assignment 6 figures and dashboard images are intentional repository artifacts.
+!data/assignment-06/output/visualizations/*.png
+!data/assignment-06/output/dashboard_assets/*.png
