@@ -1,1 +1,0 @@
-Do not merge while this directory exists. A successful Final Project workflow removes the bootstrap, commits the expanded dashboard source and generated deliverables, and passes the final output-containing validation run.

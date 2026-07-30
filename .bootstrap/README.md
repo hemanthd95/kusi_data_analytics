@@ -1,1 +1,0 @@
-Temporary, checksum-verified source bootstrap for the Final Project validation workflow. GitHub Actions expands the archive, independently rebuilds and verifies the dashboard package, and removes this directory in the validated artifact commit.

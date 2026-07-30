@@ -1,1 +1,0 @@
-Review the expanded source and validated artifacts produced by GitHub Actions, not these temporary transport chunks.
