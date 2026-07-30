@@ -8,6 +8,7 @@ on:
       - "data/assignment-05/**"
       - "data/assignment-07/**"
       - ".github/workflows/assignment-07-validation.yml"
+      - ".gitignore"
   push:
     branches: [main]
     paths:
@@ -16,6 +17,7 @@ on:
       - "data/assignment-05/**"
       - "data/assignment-07/**"
       - ".github/workflows/assignment-07-validation.yml"
+      - ".gitignore"
 
 jobs:
   verify:
@@ -24,6 +26,17 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
+
+      - name: Confirm committed Assignment 7 output inventory
+        run: |
+          test -f data/assignment-07/output/assignment_07_summary.json
+          test -f data/assignment-07/output/integrated_fields.geojson
+          test -f data/assignment-07/output/tables/integrated_field_zonal_statistics.csv
+          test -f data/assignment-07/output/tables/crop_group_zonal_statistics.csv
+          test -f data/assignment-07/output/tables/soil_mapunit_zonal_statistics.csv
+          test -f data/assignment-07/output/visualizations/assignment_07_integrated_spatial_panel.png
+          test -f data/assignment-07/output/visualizations/assignment_07_integrated_spatial_panel.svg
+          test "$(git ls-files 'data/assignment-07/output/**' | wc -l)" -eq 7
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -38,10 +51,14 @@ jobs:
           python -m pip install -r data/assignment-07/requirements.txt
 
       - name: Run integrated spatial analysis
-        run: python data/assignment-07/scripts/run_assignment_07_integrated_spatial.py
+        run: |
+          python data/assignment-07/scripts/run_assignment_07_integrated_spatial.py
+          python data/assignment-07/scripts/correct_assignment_07_ndvi.py
 
       - name: Verify Assignment 7
-        run: python data/assignment-07/verify_assignment_07.py
+        run: |
+          python data/assignment-07/verify_assignment_07.py
+          python data/assignment-07/verify_assignment_07_ndvi.py
 
       - name: Upload Assignment 7 outputs
         uses: actions/upload-artifact@v4
