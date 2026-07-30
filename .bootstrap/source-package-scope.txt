@@ -1,0 +1,1 @@
+The archive contains the root project README, Final Project Bokeh application and decision engine, build/screenshot/smoke-test/verification scripts, project documentation, AI usage summary, reflection, and tracker. Generated outputs and screenshot PNGs are produced and committed only after successful GitHub validation.
