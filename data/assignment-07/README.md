@@ -2,7 +2,7 @@
 
 ## Status
 
-**Implemented with a reproducible offline workflow.** Assignment 7 integrates the previously validated products from Assignments 2, 4, and 5. It does not download, invent, interpolate, or substitute new observations.
+**Complete with committed, reproducible outputs.** Assignment 7 integrates the previously validated products from Assignments 2, 4, and 5. It does not download, invent, interpolate, or substitute new observations.
 
 ## Objective
 
@@ -12,7 +12,7 @@ Create one field-level analytical dataset that combines:
 - Assignment 4 USDA-NRCS SSURGO field-level soil zonal statistics and map-unit intersections; and
 - Assignment 5 authentic Landsat NDVI metadata for the selected demonstration field.
 
-The central join key is `field_id`. All joins are validated as one-to-one at the field-summary level, and the final integrated output must retain exactly 25 fields.
+The central join key is `field_id`. All joins are validated as one-to-one at the field-summary level, and the final integrated output retains exactly 25 fields.
 
 ## Integrated zonal statistics
 
@@ -23,7 +23,7 @@ Two additional zonal summaries are produced:
 1. **Crop-group statistics:** field count, total acres, acreage-weighted soil available-water storage, and mean 2023 dominant-crop percentage by CDL class.
 2. **Soil-map-unit statistics:** number of fields intersected, intersection count, total overlap acres, and mean `aws025wta` by SSURGO map unit.
 
-Assignment 5 NDVI is attached only to its authentic selected field. It is not extrapolated to the other 24 fields.
+Assignment 5 NDVI is attached only to its authentic selected field. The authentic mean is read from `ndvi_statistics.mean` and is not extrapolated to the other 24 fields.
 
 ## Inputs
 
@@ -35,7 +35,7 @@ Assignment 5 NDVI is attached only to its authentic selected field. It is not ex
 
 The workflow records SHA-256 checksums for all five inputs in `output/assignment_07_summary.json`.
 
-## Outputs
+## Committed outputs
 
 - `output/integrated_fields.geojson`
 - `output/tables/integrated_field_zonal_statistics.csv`
@@ -45,6 +45,8 @@ The workflow records SHA-256 checksums for all five inputs in `output/assignment
 - `output/visualizations/assignment_07_integrated_spatial_panel.svg`
 - `output/assignment_07_summary.json`
 
+These seven files are committed for direct inspection. GitHub Actions regenerates and validates them from a clean checkout, verifies the committed inventory, and uploads a downloadable workflow artifact.
+
 ## Reproduce and verify
 
 From the repository root:
@@ -52,10 +54,10 @@ From the repository root:
 ```bash
 python -m pip install -r data/assignment-07/requirements.txt
 python data/assignment-07/scripts/run_assignment_07_integrated_spatial.py
+python data/assignment-07/scripts/correct_assignment_07_ndvi.py
 python data/assignment-07/verify_assignment_07.py
+python data/assignment-07/verify_assignment_07_ndvi.py
 ```
-
-GitHub Actions performs the same clean-checkout run and uploads the generated Assignment 7 outputs as a workflow artifact.
 
 ## Interpretation limits
 

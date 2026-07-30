@@ -1,0 +1,39 @@
+{
+  "status": "complete",
+  "generated_utc": "deterministic-clean-checkout-regeneration",
+  "mode": "offline",
+  "network_requests": 0,
+  "no_synthetic_fallback_used": true,
+  "field_count": 25,
+  "total_acres": 170.3193074631977,
+  "crop_group_count_2023": 3,
+  "soil_mapunit_count": 8,
+  "mean_area_weighted_aws025wta": 3.1141407290381165,
+  "minimum_area_weighted_aws025wta": 2.0437086373285567,
+  "maximum_area_weighted_aws025wta": 3.5,
+  "largest_2023_crop_group": "Grassland/Pasture",
+  "largest_2023_crop_group_acres": 100.483253294367,
+  "assignment_05_ndvi_field_id": "451623001001257",
+  "assignment_05_ndvi_mean": 0.7622188084016785,
+  "input_checksums": {
+    "data/assignment-02/fields_with_crops.geojson": "853369abd2b5940e3018dfa6fc5d25cdb66c70f01d740c9ca1f63d69f3fea4a7",
+    "data/assignment-02/field_summary.csv": "5759d566cc88c0646b9579302a047bca6d29a43e1915a046bab3f0471e1637d8",
+    "data/assignment-04/output/field_soil_summary.csv": "cd2b3b76698913f9e68b72c444a2c36b02d3e1fe4c1672639e88cb64a0aa8e86",
+    "data/assignment-04/output/field_ssurgo_intersections.csv": "6e8957e2332dd63bf89eb614b6b19dbcfe0230ca6616fdd84cfc5936adf6b10f",
+    "data/assignment-05/output/ndvi_summary.json": "524998a2f5b35027d503490e9682619395ffb2beb0c47590ca8b2f83f07352fc"
+  },
+  "outputs": {
+    "integrated_fields": "data/assignment-07/output/integrated_fields.geojson",
+    "field_table": "data/assignment-07/output/tables/integrated_field_zonal_statistics.csv",
+    "crop_zonal_table": "data/assignment-07/output/tables/crop_group_zonal_statistics.csv",
+    "soil_zonal_table": "data/assignment-07/output/tables/soil_mapunit_zonal_statistics.csv",
+    "figure_png": "data/assignment-07/output/visualizations/assignment_07_integrated_spatial_panel.png",
+    "figure_svg": "data/assignment-07/output/visualizations/assignment_07_integrated_spatial_panel.svg"
+  },
+  "limitations": [
+    "CDL classes are raster-derived dominant labels and can include mixed pixels or classification error.",
+    "SSURGO values describe mapped soil components and are not direct field measurements.",
+    "Assignment 5 NDVI is available for one selected field and is retained as contextual evidence rather than generalized to all fields.",
+    "The integration is descriptive and does not establish causal crop-performance relationships."
+  ]
+}
