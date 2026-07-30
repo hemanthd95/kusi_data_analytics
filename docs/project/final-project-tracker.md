@@ -19,6 +19,10 @@ Build and independently verify a professional Row Crop Intelligence Dashboard th
 - [x] Created four screenshot demo views.
 - [x] Added main README, AI usage summary, report, and reflection.
 - [x] Added independent verifier and Bokeh server smoke test.
-- [ ] Publish one verified content commit to the final-project branch.
-- [ ] Confirm clean-checkout GitHub Actions validation.
-- [ ] Open draft PR for human review; do not merge automatically.
+- [x] Published the validated source and generated artifacts to `feature/final-project-dashboard`.
+- [x] Confirmed clean-checkout analysis, deterministic regeneration, live-server testing, and committed artifact inventory in GitHub Actions.
+- [x] Opened draft PR #19 for human review; no automatic merge requested.
+
+## Final review gate
+
+The four committed screenshots and the complete dashboard package are present on the branch. The final normal-commit workflow run must pass against this output-containing head before the pull request is considered ready for merge review.
