@@ -19,24 +19,18 @@ on:
       - ".github/workflows/assignment-07-validation.yml"
       - ".gitignore"
 
+permissions:
+  contents: write
+
 jobs:
   verify:
     runs-on: ubuntu-latest
     timeout-minutes: 30
     steps:
-      - name: Check out repository
+      - name: Check out repository branch
         uses: actions/checkout@v4
-
-      - name: Confirm committed Assignment 7 output inventory
-        run: |
-          test -f data/assignment-07/output/assignment_07_summary.json
-          test -f data/assignment-07/output/integrated_fields.geojson
-          test -f data/assignment-07/output/tables/integrated_field_zonal_statistics.csv
-          test -f data/assignment-07/output/tables/crop_group_zonal_statistics.csv
-          test -f data/assignment-07/output/tables/soil_mapunit_zonal_statistics.csv
-          test -f data/assignment-07/output/visualizations/assignment_07_integrated_spatial_panel.png
-          test -f data/assignment-07/output/visualizations/assignment_07_integrated_spatial_panel.svg
-          test "$(git ls-files 'data/assignment-07/output/**' | wc -l)" -eq 7
+        with:
+          ref: ${{ github.head_ref || github.ref_name }}
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -59,6 +53,28 @@ jobs:
         run: |
           python data/assignment-07/verify_assignment_07.py
           python data/assignment-07/verify_assignment_07_ndvi.py
+
+      - name: Commit validated outputs to pull-request branch
+        if: github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == github.repository
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -f data/assignment-07/output
+          test "$(git diff --cached --name-only 'data/assignment-07/output/**' | wc -l)" -le 7
+          if ! git diff --cached --quiet; then
+            git commit -m "Commit validated Assignment 7 outputs"
+            git push
+          fi
+
+      - name: Confirm committed Assignment 7 output inventory
+        run: |
+          test -f data/assignment-07/output/assignment_07_summary.json
+          test -f data/assignment-07/output/integrated_fields.geojson
+          test -f data/assignment-07/output/tables/integrated_field_zonal_statistics.csv
+          test -f data/assignment-07/output/tables/crop_group_zonal_statistics.csv
+          test -f data/assignment-07/output/tables/soil_mapunit_zonal_statistics.csv
+          test -f data/assignment-07/output/visualizations/assignment_07_integrated_spatial_panel.png
+          test -f data/assignment-07/output/visualizations/assignment_07_integrated_spatial_panel.svg
 
       - name: Upload Assignment 7 outputs
         uses: actions/upload-artifact@v4
