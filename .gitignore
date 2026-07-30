@@ -12,3 +12,6 @@ __pycache__/
 # Assignment 6 figures and dashboard images are intentional repository artifacts.
 !data/assignment-06/output/visualizations/*.png
 !data/assignment-06/output/dashboard_assets/*.png
+
+# Assignment 7 integrated analytical panel is an intentional repository artifact.
+!data/assignment-07/output/visualizations/*.png
