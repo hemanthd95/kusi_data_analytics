@@ -1,10 +1,10 @@
 # Assignment 6 tracker
 
-- **Status:** Incomplete; fail-closed authentic-data workflow implemented.
-- **Fields:** 25 Assignment 2 geometries; inputs unchanged.
+- **Status:** Complete.
+- **Fields:** 25 authoritative Assignment 2 geometries; inputs unchanged and checksummed.
 - **Request point:** 34.33090814° N, 82.53604245° W, deterministic acreage-weighted centroid.
-- **Source:** Official NASA POWER Daily Point API, AG/LST, 1991–2025, six required variables.
-- **Blocker:** Environment HTTPS proxy returned a 403 tunnel failure on 2026-07-29.
-- **Integrity:** No raw response, synthetic fallback, analytical outputs, successful notebook, or completion claim was created.
-- **Continuation:** Run the five reproduction commands in `data/assignment-06/README.md` where the official endpoint is reachable.
-- **Local import:** `acquire_assignment_06_power.py --import-raw /absolute/path/to/nasa_power_daily_raw.json` now validates and preserves exact authentic bytes, with the original proxy failure retained in acquisition history after success.
+- **Source:** Official NASA POWER Daily Point API, Agroclimatology/LST, 1991–2025, six required variables.
+- **Acquisition:** Authentic response imported through the validated external-file pathway after the original execution environment blocked direct HTTPS access.
+- **Integrity:** Raw-response checksum, request metadata, returned-grid metadata, authoritative-input checksums, and acquisition history are preserved. No synthetic fallback was used.
+- **Outputs:** 12,784 daily rows, 420 monthly rows, 35 annual rows, warm-season summaries, 1991–2020 normals, 2021–2025 anomalies, trend statistics, quality checks, six SVG figures, reproducible PNG/dashboard assets, and an executed notebook.
+- **Verification:** Independent verifier checks source integrity, analytical consistency, notebook execution, committed figures, and generated image dimensions. GitHub Actions regenerates build products from a clean checkout.
