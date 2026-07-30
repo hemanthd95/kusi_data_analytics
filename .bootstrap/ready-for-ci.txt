@@ -1,0 +1,1 @@
+Bootstrap staging complete. Open the draft pull request to trigger Final Project validation.
