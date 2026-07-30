@@ -1,19 +1,27 @@
 # Source provenance
 
-The two immutable authoritative inputs are `data/assignment-02/fields_EPSG4326.geojson` and `field_summary.csv`. Their SHA-256 checksums are recorded by a successful acquisition manifest. All 25 geometries are projected to EPSG:32617, their centroids are weighted by positive `CSBACRES`, and the result is returned to EPSG:4326. One point avoids redundant requests for this compact cluster; NASA POWER is a gridded product and does not resolve field-to-field meteorology.
+The immutable authoritative inputs are `data/assignment-02/fields_EPSG4326.geojson` and `data/assignment-02/field_summary.csv`. Their SHA-256 checksums are recorded in `source_manifest.json`. All 25 geometries are projected to EPSG:32617, their centroids are weighted by positive `CSBACRES`, and the result is transformed back to EPSG:4326. One point avoids redundant requests for this compact cluster; NASA POWER is gridded and does not resolve field-to-field meteorology.
 
-The intended unauthenticated (no API key) request uses the official NASA POWER daily point endpoint, `community=AG`, `format=JSON`, `time-standard=LST`, dates 19910101–20251231, and exactly six documented parameters. Successful raw bytes would be preserved without reformatting and checksummed. The environment proxy blocked acquisition on 2026-07-29, so no raw file or successful manifest exists. There is no synthetic fallback.
+The completed request used the official NASA POWER Daily Point endpoint with `community=AG`, `format=JSON`, `time-standard=LST`, dates 19910101–20251231, and exactly six documented parameters. The authentic raw response is preserved without reformatting in `nasa_power_daily_raw.json` and its SHA-256 checksum is recorded in `source_manifest.json`.
 
-Generated location files describe the requested point and each field-centroid distance. `../output/acquisition_provenance.json` is the authoritative failure record.
+The direct request from the original execution environment was blocked by an HTTPS proxy on 2026-07-29. An authentic response downloaded externally was subsequently imported through the validation pathway. `../output/acquisition_provenance.json` records the successful import and retains the earlier failed request in `acquisition_history`. No synthetic fallback was used.
 
-## External raw-response import
+## Source artifacts
 
-When direct NASA access is unavailable, an authentic response downloaded elsewhere can be imported without reformatting:
+- `nasa_power_daily_raw.json`: exact authentic NASA POWER response bytes.
+- `source_manifest.json`: source identity, request, checksums, authoritative-input hashes, and no-synthetic-fallback declaration.
+- `nasa_power_request.json`: normalized request specification.
+- `nasa_power_response_metadata.json`: returned parameter definitions, units, fill values, and grid coordinates.
+- `representative_weather_point.geojson`: deterministic field-cluster request point.
+- `field_to_weather_point_distances.csv`: distance from each field centroid to the analysis point.
+- `field_location_summary.json`: cluster extent and distance summary.
+
+## Re-importing an authentic response
 
 ```bash
 python \
   data/assignment-06/scripts/acquire_assignment_06_power.py \
-  --import-raw "$HOME/Downloads/nasa_power_daily_raw.json"
+  --import-raw /absolute/path/to/nasa_power_daily_raw.json
 ```
 
-The importer requires an absolute path and validates UTF-8 JSON, NASA POWER header/geometry/parameter metadata, units, definitions, fill-value metadata, six mutually consistent parameter date indexes, exactly 12,784 unique dates, and plausible returned grid coordinates. It records external download/local import status, preserves earlier acquisition failures in `acquisition_history`, hashes and copies the exact bytes, and never synthesizes observations. Independently compare the local file checksum to `cebf64e8481161fe51c5c98745989e1b304bbf0e8526e931c06ae963114aa1fb`; the validator intentionally does not hard-code that single checksum as an acceptance condition.
+The importer validates UTF-8 JSON, NASA POWER header, geometry, parameter metadata, units, definitions, fill-value metadata, six mutually consistent parameter date indexes, exactly 12,784 unique dates, and plausible returned grid coordinates before writing a successful manifest. It preserves the exact bytes and never synthesizes observations.
