@@ -21,8 +21,9 @@ Build and independently verify a professional Row Crop Intelligence Dashboard th
 - [x] Added independent verifier and Bokeh server smoke test.
 - [x] Published the validated source and generated artifacts to `feature/final-project-dashboard`.
 - [x] Confirmed clean-checkout analysis, deterministic regeneration, live-server testing, and committed artifact inventory in GitHub Actions.
+- [x] Reconciled the committed numerical outputs and SQLite file with the clean Python 3.12 runner.
 - [x] Opened draft PR #19 for human review; no automatic merge requested.
 
 ## Final review gate
 
-The four committed screenshots and the complete dashboard package are present on the branch. The final normal-commit workflow run must pass against this output-containing head before the pull request is considered ready for merge review.
+The four committed screenshots and the complete dashboard package are present on the branch. A final normal-commit workflow run is triggered against the Python 3.12-reconciled output head; it must pass without requiring a further artifact correction before merge review.
