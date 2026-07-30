@@ -2,8 +2,8 @@
 """Correct Assignment 7's nested Assignment 5 NDVI reference.
 
 Assignment 5 stores the authentic mean under ``ndvi_statistics.mean``. This
-post-processing step keeps the Assignment 7 integration reproducible while
-correcting outputs produced by the original flat-key lookup.
+post-processing step also normalizes volatile metadata so clean-checkout
+regeneration produces a stable, committable output package.
 """
 
 from __future__ import annotations
@@ -47,6 +47,7 @@ def main() -> None:
 
     summary_path = OUT / "assignment_07_summary.json"
     summary = json.loads(summary_path.read_text(encoding="utf-8"))
+    summary["generated_utc"] = "deterministic-clean-checkout-regeneration"
     summary["assignment_05_ndvi_mean"] = mean
     summary_path.write_text(
         json.dumps(summary, indent=2, allow_nan=False) + "\n", encoding="utf-8"
