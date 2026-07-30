@@ -13,3 +13,4 @@ that claim.
 - `assignment-04/`: completed offline, checksum-verified USDA-NRCS SSURGO geospatial analysis for the 25 authoritative fields, including maps, interactive output, executed notebook, report, evidence, and verification.
 - `assignment-05/`: completed authentic Landsat 8 Collection 2 Level-2 NDVI analysis with source checksums, QA masking, GeoTIFFs, visualizations, an executed notebook, and independent verification.
 - `assignment-06/`: completed authentic NASA POWER weather and climate analysis for the 25-field cluster, including 1991–2025 daily data, 1991–2020 normals, recent anomalies, trend statistics, reproducible figures, an executed notebook, provenance, and independent verification.
+- `assignment-07/`: reproducible integrated spatial analysis joining the 25 authoritative field geometries, USDA NASS CDL crop summaries, USDA-NRCS SSURGO field zonal statistics, and the authentic Assignment 5 NDVI reference field, with clean-checkout verification.
