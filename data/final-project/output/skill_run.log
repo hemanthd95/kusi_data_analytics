@@ -4,5 +4,6 @@ Acres: 170.319
 Assignments integrated: [2, 3, 5, 6, 7, 8]
 Visualizations: 8
 Filters: ['Field ID', 'Soil type', 'Management task']
+Climate trends: normalized to 12 decimal places for cross-run reproducibility.
 Yield prediction: intentionally omitted because validated yield observations are absent.
 SUCCESS: Final Project dashboard data package complete
