@@ -1,0 +1,6 @@
+metric,label,unit,minimum,median,mean,maximum,interpretation
+area_weighted_aws025wta,"NRCS available water storage, 0–25 cm",cm,2.0437086373285562,3.055397267125356,3.114140729038116,3.5,Higher generally indicates more near-surface water storage capacity.
+area_weighted_slope_midpoint_pct,Area-weighted NRCS slope-range midpoint,%,4.0,4.27403239139996,4.978143674678458,9.99232256859021,Higher values indicate greater topographic erosion exposure.
+eroded_mapunit_fraction_pct,Field share mapped with 'eroded' in the NRCS map-unit name,%,0.0,0.0,3.634157658187768,70.49791257167404,Mapped descriptor; absence does not prove no current erosion.
+rotation_diversity_score,Four-year crop-rotation Shannon diversity,0–100,0.0,40.56390622295664,30.338343733773986,75.0,Higher values indicate more diverse observed CDL crop history.
+soil_sustainability_score,Equal-weight relative sustainability score,0–100,35.51649841282065,57.0,57.676046518896555,82.14097655573916,Mean of four components; not an official NRCS rating.

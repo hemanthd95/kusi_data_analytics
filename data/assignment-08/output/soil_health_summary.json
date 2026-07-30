@@ -1,0 +1,60 @@
+{
+  "status": "complete",
+  "analysis_version": "assignment-08-v1",
+  "mode": "offline",
+  "network_requests": 0,
+  "no_synthetic_fallback_used": true,
+  "field_count": 25,
+  "soil_mapunit_count": 8,
+  "slope_parse_success_count": 59,
+  "slope_parse_failure_count": 0,
+  "sustainability_metric_count": 4,
+  "dashboard_visualization_count": 2,
+  "score_method": "Equal-weight mean of relative water-storage percentile, relative inverse-slope percentile, 100 minus eroded-mapunit fraction, and normalized four-year crop-rotation entropy.",
+  "highest_relative_score_field": "451623001001187",
+  "highest_relative_score": 82.14097655573916,
+  "highest_conservation_priority_field": "451623001001295",
+  "lowest_relative_score": 35.51649841282065,
+  "input_checksums": {
+    "data/assignment-02/field_summary.csv": "a68fc4f54bfa89b4d2b0b7795803a955f48f1bc4bcf5c051e71319c3c36b7a6b",
+    "data/assignment-04/output/field_ssurgo_intersections.csv": "c69a7f029ef40c756cac763cb590ad56e939c2d6057066c6fd59701bef91696b"
+  },
+  "input_checksum_scope": "Canonical SHA-256 of authoritative columns consumed by Assignment 8; unrelated upstream columns do not alter the analytical fingerprint.",
+  "image_dimensions": {
+    "data/assignment-08/output/dashboard_assets/dashboard_soil_health_scorecard.png": {
+      "width": 2380,
+      "height": 2873
+    },
+    "data/assignment-08/output/dashboard_assets/dashboard_sustainability_tradeoff.png": {
+      "width": 2401,
+      "height": 1777
+    },
+    "data/assignment-08/output/visualizations/01_field_soil_health_scorecard.png": {
+      "width": 2380,
+      "height": 2873
+    },
+    "data/assignment-08/output/visualizations/02_sustainability_tradeoff.png": {
+      "width": 2401,
+      "height": 1777
+    }
+  },
+  "outputs": {
+    "scorecard": "data/assignment-08/output/tables/field_soil_health_scorecard.csv",
+    "metric_summary": "data/assignment-08/output/tables/sustainability_metric_summary.csv",
+    "mapunit_summary": "data/assignment-08/output/tables/soil_mapunit_sustainability_summary.csv",
+    "scorecard_figure": "data/assignment-08/output/visualizations/01_field_soil_health_scorecard.png",
+    "tradeoff_figure": "data/assignment-08/output/visualizations/02_sustainability_tradeoff.png",
+    "dashboard_assets": [
+      "data/assignment-08/output/dashboard_assets/dashboard_soil_health_scorecard.png",
+      "data/assignment-08/output/dashboard_assets/dashboard_sustainability_tradeoff.png"
+    ]
+  },
+  "limitations": [
+    "The package does not contain field-level laboratory pH, organic matter, soil carbon, biological activity, aggregate stability, infiltration, or direct soil-moisture observations; none are invented.",
+    "SSURGO values and map-unit names describe mapped soil components and are not substitutes for field sampling.",
+    "Slope midpoint is parsed from the published NRCS map-unit name and area-weighted by field overlap.",
+    "The eroded-mapunit metric depends on the map-unit name containing the word 'eroded'; absence of that descriptor does not demonstrate absence of present-day erosion.",
+    "CDL crop classes can contain classification error and are used only as a four-year management-diversity indicator.",
+    "All 0\u2013100 scores are relative within this 25-field dataset and are not official NRCS or Soil Health Institute ratings."
+  ]
+}
