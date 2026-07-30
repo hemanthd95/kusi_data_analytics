@@ -48,6 +48,7 @@ jobs:
         run: |
           if compgen -G ".bootstrap/final-project-source.part*" > /dev/null; then
             cat .bootstrap/final-project-source.part* | base64 --decode > /tmp/final-project-source.zip
+            (cd /tmp && sha256sum -c "$GITHUB_WORKSPACE/.bootstrap/source-archive-sha256.txt")
             unzip -o /tmp/final-project-source.zip -d .
             rm -rf .bootstrap
           fi
